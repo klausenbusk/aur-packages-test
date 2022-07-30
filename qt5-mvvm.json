@@ -1,0 +1,66 @@
+pkgbase = qt5-mvvm
+	pkgdesc = A mvvm oriented library for Qt, to create Projects for Widgets and Quick in parallel
+	pkgver = 1.1.5
+	pkgrel = 1
+	url = https://github.com/Skycoder42/QtMvvm
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = qt5-tools
+	makedepends = qt5-quickcontrols2
+	makedepends = qt5-graphicaleffects
+	makedepends = qt5-datasync
+	makedepends = git
+	makedepends = qdep
+	makedepends = python
+	makedepends = doxygen
+	makedepends = graphviz
+	depends = qt5-base
+	depends = qt5-svg
+	optdepends = repkg: Automatically rebuild the package on dependency updates
+	source = qt5-mvvm-1.1.5::git+https://github.com/Skycoder42/QtMvvm.git#tag=1.1.5
+	source = qt5-mvvmcore.rule
+	source = qt5-mvvmwidgets.rule
+	source = qt5-mvvmquick.rule
+	source = qt5-mvvmdatasynccore.rule
+	source = qt5-mvvmdatasyncwidgets.rule
+	source = qt5-mvvmdatasyncquick.rule
+	sha256sums = SKIP
+	sha256sums = 1b52eef5216017cfb4b399df1775950db544550a68a542053efe00eb8ef34911
+	sha256sums = c69a4d6f324019d30a6f3d5dac00760af670c8f14b5064e6f4c08072a34ab5b8
+	sha256sums = 8eff388f59e28e1246c3f4aff71c5405c0098651d66a705fae73d67f76a80e4c
+	sha256sums = 883fb2489da33b13827e5a44f6b56fddddcd18e9de96691db095ac5786a056c0
+	sha256sums = b974d9a7d88fcc9bde60ce6af3bac3c5f7374e07f635f8a90ef05e2791c99eae
+	sha256sums = 8a6d5cc54a0eae285296c11de1e1ea02583cf8271ba87219c4fcfdcdf9907786
+
+pkgname = qt5-mvvmcore
+
+pkgname = qt5-mvvmwidgets
+	depends = qt5-mvvmcore
+	optdepends = 
+
+pkgname = qt5-mvvmquick
+	depends = qt5-mvvmcore
+	depends = qt5-quickcontrols2
+	depends = qt5-graphicaleffects
+	optdepends = 
+
+pkgname = qt5-mvvmdatasynccore
+	depends = qt5-mvvmcore
+	depends = qt5-datasync
+	optdepends = 
+
+pkgname = qt5-mvvmdatasyncwidgets
+	depends = qt5-mvvmdatasynccore
+	depends = qt5-mvvmwidgets
+	optdepends = 
+
+pkgname = qt5-mvvmdatasyncquick
+	depends = qt5-mvvmdatasynccore
+	depends = qt5-mvvmquick
+	optdepends = 
+
+pkgname = qt5-mvvm-doc
+	depends = qt5-mvvmcore
+	optdepends = 
+

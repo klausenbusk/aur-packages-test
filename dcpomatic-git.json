@@ -1,0 +1,34 @@
+pkgbase = dcpomatic-git
+	pkgdesc = A free, open-source program to generate Digital Cinema Packages (DCPs) from videos or images
+	pkgver = 0.r10497.faf333e4b
+	pkgrel = 1
+	url = http://dcpomatic.com/
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = python2
+	makedepends = boost>=1.65.1
+	makedepends = git
+	depends = pangomm>=1.4
+	depends = libsub-git
+	depends = libcxml-git
+	depends = libdcp-git
+	depends = ffmpeg
+	depends = glib2
+	depends = imagemagick
+	depends = libssh
+	depends = wxgtk2>=3.0.1
+	depends = libquickmail>=0.1.22
+	depends = libzip
+	depends = xz
+	depends = libsndfile
+	depends = libsamplerate
+	depends = pangomm
+	depends = rtaudio
+	provides = dcpomatic
+	conflicts = dcpomatic
+	source = dcpomatic-git::git://git.carlh.net/git/dcpomatic.git#branch=master
+	sha256sums = SKIP
+
+pkgname = dcpomatic-git
+

@@ -1,0 +1,15 @@
+pkgbase = certbot-dns-inwx
+	pkgdesc = INWX DNS authenticator plugin for certbot
+	pkgver = 2.1.3
+	pkgrel = 2
+	url = https://github.com/oGGy990/certbot-dns-inwx
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = certbot
+	depends = python
+	backup = etc/letsencrypt/inwx.cfg
+	source = https://github.com/oGGy990/certbot-dns-inwx/archive/v2.1.3/certbot-dns-inwx-2.1.3.tar.gz
+	sha256sums = 15c264b4960008ef70c1f8332c747d980191208b7e3b4be835a06a7fda91d894
+
+pkgname = certbot-dns-inwx

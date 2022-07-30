@@ -1,0 +1,24 @@
+pkgbase = albion-online-live-game-data-bin
+	pkgdesc = The first true cross-platform Sandbox MMO -- game data files for live server
+	pkgver = 1.11.357.113848
+	pkgrel = 2
+	url = https://albiononline.com/
+	arch = x86_64
+	license = custom
+	makedepends = wget
+	depends = libgl
+	depends = albion-online-launcher-bin
+	options = !strip
+	options = docs
+	options = libtool
+	options = emptydirs
+	options = !zipman
+	options = staticlibs
+	options = !upx
+	source = toc-1.11.357.113848.xml::https://live.albiononline.com/autoupdate/perfileupdate/linux_1.11.357.113848/toc_linux.xml
+	source = albion-online-live.desktop
+	md5sums = 24f4183d6c328da5a193b3d885866f61
+	md5sums = 0bde53bc71f7d3f5fec295f156a34235
+
+pkgname = albion-online-live-game-data-bin
+

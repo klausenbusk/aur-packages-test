@@ -1,0 +1,17 @@
+pkgbase = clipman-git
+	pkgdesc = A simple clipboard manager for Wayland
+	pkgver = 1.6.1.r0.g52602f2
+	pkgrel = 1
+	url = https://github.com/yory8/clipman
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	makedepends = go
+	makedepends = git
+	depends = wl-clipboard>=2.0
+	provides = clipman
+	conflicts = clipman
+	source = clipman-git::git+https://github.com/yory8/clipman.git
+	md5sums = SKIP
+
+pkgname = clipman-git

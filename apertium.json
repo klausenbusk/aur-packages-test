@@ -1,0 +1,31 @@
+pkgbase = apertium
+	pkgdesc = Core tools (driver script, transfer, tagger, formatters) for the FOSS RBMT system Apertium
+	pkgver = 3.8.1
+	pkgrel = 1
+	url = https://www.apertium.org/
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = pkgconf
+	makedepends = gcc
+	makedepends = make
+	makedepends = autogen
+	makedepends = flex
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = libtool
+	makedepends = zlib
+	makedepends = utf8cpp
+	depends = lttoolbox>=3.6.0
+	depends = expat
+	depends = gawk
+	depends = libxslt
+	depends = pcre
+	depends = gcc-libs
+	depends = libxml2>=2.6.17
+	depends = gettext
+	depends = icu
+	source = apertium-3.8.1.tar.gz::https://github.com/apertium/apertium/archive/refs/tags/v3.8.1.tar.gz
+	sha256sums = b628975861e27be9577b485acb6e215fe258bacaf3569225aa546cd845a83dae
+
+pkgname = apertium

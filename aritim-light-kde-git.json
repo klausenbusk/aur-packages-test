@@ -1,0 +1,16 @@
+pkgbase = aritim-light-kde-git
+	pkgdesc = A Light theme for KDE, pleasant to the eyes and perfect for your daily workload.
+	pkgver = r68.19223ea
+	pkgrel = 2
+	url = https://github.com/Mrcuve0/Aritim-Light
+	arch = any
+	license = GPL3
+	makedepends = git
+	optdepends = aritim-light-gtk: Matching GTK theme
+	optdepends = lightly-qt: Matching Application style
+	provides = aritim-light-kde
+	options = !strip
+	source = git+https://github.com/Mrcuve0/Aritim-Light.git
+	sha256sums = SKIP
+
+pkgname = aritim-light-kde-git

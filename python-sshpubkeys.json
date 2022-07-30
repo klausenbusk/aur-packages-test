@@ -1,0 +1,14 @@
+pkgbase = python-sshpubkeys
+	pkgdesc = Decodes various OpenSSH public key formats
+	pkgver = 3.1.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/sshpubkeys/1.0.5
+	arch = any
+	license = BSD
+	depends = python-ecdsa
+	depends = python-crypto
+	source = python-sshpubkeys-3.1.0.tar.gz::https://files.pythonhosted.org/packages/source/s/sshpubkeys/sshpubkeys-3.1.0.tar.gz
+	sha256sums = b388399caeeccdc145f06fd0d2665eeecc545385c60b55c282a15a022215af80
+
+pkgname = python-sshpubkeys
+

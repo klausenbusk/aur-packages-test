@@ -1,0 +1,14 @@
+pkgbase = python-aiobalaboba
+	pkgdesc = Asynchronous wrapper for Yandex Balaboba
+	pkgver = 1.0.6
+	pkgrel = 1
+	url = https://github.com/monosans/aiobalaboba
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-aiohttp
+	source = https://files.pythonhosted.org/packages/source/a/aiobalaboba/aiobalaboba-1.0.6.tar.gz
+	sha256sums = 4d32eafde32b6ee58a2578c3d3c30d1c655626690ea545ab4c5d05da492295c2
+
+pkgname = python-aiobalaboba

@@ -1,0 +1,16 @@
+pkgbase = lottie2gif
+	pkgdesc = Convert lottie files to GIF
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://crates.io/crates/lottie2gif
+	arch = aarch64
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = rlottie
+	source = lottie2gif-0.4.0.tar.gz::https://crates.io/api/v1/crates/lottie2gif/0.4.0/download
+	sha512sums = 76b62e79f929f72f1da022a813833f9c81ff3e69355958832792a58867ee3e7cab7140b05c1d8e2c7139f95eafaea55360a2033b4470d06970e83872defedd38
+
+pkgname = lottie2gif

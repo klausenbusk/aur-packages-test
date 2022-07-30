@@ -1,0 +1,19 @@
+pkgbase = perl-path-finddev
+	pkgdesc = Find a development path somewhere in an upper hierarchy.
+	pkgver = 0.5.3
+	pkgrel = 1
+	url = https://metacpan.org/release/Path-FindDev
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl-class-tiny>=0.010
+	depends = perl-path-isdev>=0.2.2
+	depends = perl-path-tiny>=0.054
+	depends = perl-sub-exporter
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/K/KE/KENTNL/Path-FindDev-v0.5.3.tar.gz
+	md5sums = 590bf126fe33ebb34bb72e747dce371e
+	sha512sums = dd7a6a05f9e21c45a5ef25b3e2598a8f769a2ab3ef24ddb8e918b17a0f025bc5ba5b23fecf832911b7003de6cdaceb0e4a8c1139b4e23b080920739604e37bf6
+
+pkgname = perl-path-finddev
+

@@ -1,0 +1,15 @@
+pkgbase = python3-saml
+	pkgdesc = OneLogin's SAML Python Toolkit. Upstream python3-saml targeted at Python 3.
+	pkgver = 1.13.0
+	pkgrel = 1
+	url = https://github.com/onelogin/python3-saml
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-lxml
+	depends = python-isodate
+	depends = python-xmlsec
+	source = python3-saml-1.13.0.tar.gz::https://github.com/onelogin/python3-saml/archive/refs/tags/v1.13.0.tar.gz
+	sha256sums = 92a1cf3b41667d7b385e579d07c0f051ff8ac9c71fcfecf2c60779216ad134f3
+
+pkgname = python3-saml

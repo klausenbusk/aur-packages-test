@@ -1,0 +1,13 @@
+pkgbase = python2-pybrain
+	pkgdesc = A modular Machine Learning Library for Python
+	pkgver = 0.3.3
+	pkgrel = 1
+	url = https://github.com/pybrain/pybrain
+	arch = any
+	license = custom:BSD-3-clause
+	makedepends = python2-setuptools
+	depends = python2-scipy
+	source = https://github.com/pybrain/pybrain/archive/0.3.3.tar.gz
+	sha512sums = d0b0401b083cf62260b65c833a12e71ac8d5d3079f24cce3eccccb7109a68493b1795b38603cf64251cc1653bec3ea00308fa6bc792d73c265d7cb4da0970ab1
+
+pkgname = python2-pybrain

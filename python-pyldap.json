@@ -1,0 +1,14 @@
+pkgbase = python-pyldap
+	pkgdesc = Python modules for implementing LDAP clients (deprecated)
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://github.com/pyldap/pyldap
+	arch = any
+	license = PSFL
+	depends = python-ldap
+	options = !emptydirs
+	source = https://files.pythonhosted.org/packages/source/p/pyldap/pyldap-3.0.0.tar.gz
+	md5sums = 872285ed150e11c61c34c2fe62239e57
+
+pkgname = python-pyldap
+

@@ -1,0 +1,35 @@
+pkgbase = pulseaudio-dlna-aharter-python3-git
+	pkgdesc = Small DLNA server which brings DLNA/UPnP support to PulseAudio
+	pkgver = r732.e7357dc
+	pkgrel = 3
+	url = https://github.com/aharter/pulseaudio-dlna
+	arch = x86_64
+	license = GPL3
+	depends = python-docopt
+	depends = python-dbus
+	depends = python-requests
+	depends = python-setproctitle
+	depends = python-notify2
+	depends = python-psutil
+	depends = python-chardet
+	depends = python-netifaces
+	depends = python-lxml
+	depends = python-pychromecast
+	depends = python-dbus
+	depends = pygobject-devel
+	depends = python-pyroute2
+	optdepends = faac: AAC transcoding support
+	optdepends = ffmpeg: multiple formats support
+	optdepends = flac: FLAC transcoding support
+	optdepends = lame: MP3 transcoding support
+	optdepends = opus-tools: OPUS transcoding support
+	optdepends = sox: WAV transcoding support
+	optdepends = vorbis-tools: OGG transcoding support
+	provides = pulseaudio-dlna
+	source = pulseaudio-dlna-aharter-python3::git+https://github.com/aharter/pulseaudio-dlna#branch=python3
+	source = removedbus.patch
+	sha256sums = SKIP
+	sha256sums = 81305bac7e6a2f2220c68dc661d1e361b0d6cb7673c82e4aa338018f6223c5c7
+
+pkgname = pulseaudio-dlna-aharter-python3-git
+

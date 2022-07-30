@@ -1,0 +1,19 @@
+pkgbase = perl6-cro-tls
+	pkgdesc = TLS support for the Cro library for building distributed systems in Perl 6
+	pkgver = 0.7.6
+	pkgrel = 1
+	url = https://github.com/croservices/cro-tls
+	arch = any
+	groups = croservices
+	groups = perl6
+	license = PerlArtistic
+	checkdepends = perl
+	makedepends = git
+	depends = perl6
+	depends = perl6-cro-core
+	depends = perl6-io-socket-async-ssl
+	source = perl6-cro-tls-0.7.6.tar.gz::https://codeload.github.com/croservices/cro-tls/tar.gz/release-0.7.6
+	sha256sums = f7cbe1ad6d8850253ad9e0d2a5cb045d314a30d84bbf6a74c72243961ca41858
+
+pkgname = perl6-cro-tls
+

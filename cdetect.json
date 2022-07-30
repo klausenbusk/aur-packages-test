@@ -1,0 +1,13 @@
+pkgbase = cdetect
+	pkgdesc = Detect which compiler version was used for compiling an ELF file
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/xyproto/cdetect
+	arch = x86_64
+	license = BSD
+	makedepends = go
+	makedepends = git
+	source = git+https://github.com/xyproto/cdetect#commit=3873c8b2d44a7ccdb3cff780ac4320cbc7af2ccc
+	b2sums = SKIP
+
+pkgname = cdetect

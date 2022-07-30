@@ -1,0 +1,16 @@
+pkgbase = pdfium-binaries
+	pkgdesc = PDFium binaries built with scripts from pdfium-binaries
+	pkgver = 5131
+	pkgrel = 1
+	url = https://github.com/bblanchon/pdfium-binaries
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = ninja
+	provides = libpdfium
+	conflicts = libpdfium-nojs
+	conflicts = pdfium-binaries-v8
+	source = https://github.com/bblanchon/pdfium-binaries/archive/refs/tags/chromium/5131.tar.gz
+	sha512sums = 439ec711598bf29027481d2acafd170a4f9b187643c7a683dfc4b25e4cf49a0282f58857cf2532b4b061cdf0b52e16dda38895b778e5f4f980b541d1b73125b9
+
+pkgname = pdfium-binaries

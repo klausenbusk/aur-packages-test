@@ -1,0 +1,17 @@
+pkgbase = mediaconch
+	pkgdesc = Implementation checker and policy checker for video and audio files (CLI)
+	pkgver = 18.03.2
+	pkgrel = 1
+	url = http://mediaarea.net
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = libtool
+	makedepends = automake
+	makedepends = autoconf
+	depends = libmediainfo
+	source = https://mediaarea.net/download/source/mediaconch/18.03.2/mediaconch_18.03.2.tar.bz2
+	sha256sums = ba64630ff582f55c104834cefc15066027ffb51f743130fb0ac7f669536b1c5c
+
+pkgname = mediaconch
+

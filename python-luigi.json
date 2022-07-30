@@ -1,0 +1,18 @@
+pkgbase = python-luigi
+	pkgdesc = Workflow mgmgt + task scheduling + dependency resolution
+	pkgver = 2.8.13
+	pkgrel = 1
+	url = https://github.com/spotify/luigi
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	makedepends = git
+	depends = python
+	depends = python-daemon
+	depends = python-tornado
+	source = git+https://github.com/spotify/luigi.git#tag=2.8.13
+	md5sums = SKIP
+	sha256sums = SKIP
+
+pkgname = python-luigi
+

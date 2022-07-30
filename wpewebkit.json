@@ -1,0 +1,46 @@
+pkgbase = wpewebkit
+	pkgdesc = Web content engine library optimized for embedded devices
+	pkgver = 2.30.4
+	pkgrel = 1
+	url = https://wpewebkit.org
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7l
+	arch = armv7h
+	groups = wpe
+	license = custom
+	makedepends = gperf
+	makedepends = ruby
+	makedepends = cmake
+	makedepends = python
+	makedepends = ninja
+	makedepends = gtk-doc
+	makedepends = patch
+	depends = cairo
+	depends = libxslt
+	depends = gst-plugins-base-libs
+	depends = libepoxy
+	depends = libsoup
+	depends = libwebp
+	depends = harfbuzz-icu
+	depends = woff2
+	depends = openjpeg2
+	depends = libseccomp
+	depends = bubblewrap
+	depends = xdg-dbus-proxy
+	depends = geoclue
+	depends = at-spi2-atk
+	depends = libwpe>=1.6.0
+	source = https://wpewebkit.org/releases/wpewebkit-2.30.4.tar.xz
+	source = https://wpewebkit.org/releases/wpewebkit-2.30.4.tar.xz.asc
+	validpgpkeys = 5AA3BC334FD7E3369E7C77B291C559DBE4C9123B
+	md5sums = d423a01ffb5be44e6ad59b2cfb9d6eb3
+	md5sums = SKIP
+	sha1sums = 2fdca7b888966ad2ed7d998bef52c9024dae063f
+	sha1sums = SKIP
+	sha256sums = 1e521d85cf8cf344b9fd08eabad7a1d18a330fb7862a77eaf78d7d7b10d5f6ef
+	sha256sums = SKIP
+
+pkgname = wpewebkit
+

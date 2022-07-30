@@ -1,0 +1,21 @@
+pkgbase = ruby-cache_method
+	pkgdesc = Like alias_method, but it's cache_method!
+	pkgver = 0.2.7
+	pkgrel = 2
+	url = https://github.com/seamusabshere/cache_method
+	arch = any
+	license = N/A
+	makedepends = rubygems
+	depends = ruby
+	depends = ruby-cache
+	optdepends = ruby-activesupport
+	optdepends = ruby-dalli
+	optdepends = ruby-minitest
+	optdepends = ruby-minitest-reporters
+	optdepends = ruby-yard
+	noextract = cache_method-0.2.7.gem
+	source = https://rubygems.org/downloads/cache_method-0.2.7.gem
+	sha512sums = 72a311551097cb35eab5b8493f00c2af4cf6bc9bc530252fef14a7652e50f672ba5fc6a1dac7d4812e52b624e4c8807fc95130179cd220373316718f527439a0
+
+pkgname = ruby-cache_method
+

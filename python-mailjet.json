@@ -1,0 +1,13 @@
+pkgbase = python-mailjet
+	pkgdesc = Mailjet V3 API wrapper
+	pkgver = 1.3.4
+	pkgrel = 1
+	url = https://pypi.org/project/mailjet-rest
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-requests
+	source = https://pypi.org/packages/source/m/mailjet_rest/mailjet_rest-1.3.4.tar.gz
+	sha512sums = ca0ff352b52aa836aa2e2bdeee213dad7f4101c123221b66fb1b1ad02f993d2413bc054328888313f0373fbe9104e66b7b242f18e42489590c2448e410284d6a
+
+pkgname = python-mailjet

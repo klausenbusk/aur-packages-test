@@ -1,0 +1,19 @@
+pkgbase = hugo-bin
+	pkgdesc = Fast and flexible static site generator written in Go
+	pkgver = 0.89.1
+	pkgrel = 1
+	url = https://gohugo.io
+	arch = x86_64
+	license = Apache
+	optdepends = asciidoctor: AsciiDoc support
+	optdepends = bash-completion: Tab autocompletion
+	optdepends = git: Git info variables
+	optdepends = pandoc: Pandoc support
+	optdepends = python-docutils: reStructuredText support
+	provides = hugo
+	conflicts = hugo
+	conflicts = hugo-git
+	source = https://github.com/gohugoio/hugo/releases/download/v0.89.1/hugo_extended_0.89.1_Linux-64bit.tar.gz
+	b2sums = 5ac5b07acbbc0c4d5c726fe5ace69b2833c660241d73b6abf4b1f493dbd1a59289271243d119ca7ef2923445538b5e0aab9e57006727f9f1c938d1a0a2eb1816
+
+pkgname = hugo-bin

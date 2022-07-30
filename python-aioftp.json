@@ -1,0 +1,14 @@
+pkgbase = python-aioftp
+	pkgdesc = ftp client/server for asyncio
+	pkgver = 0.21.2
+	pkgrel = 1
+	url = https://github.com/aio-libs/aioftp
+	arch = any
+	license = Apache License Version 2.0
+	makedepends = python
+	makedepends = python-setuptools
+	depends = python
+	source = https://pypi.io/packages/source/a/aioftp/aioftp-0.21.2.tar.gz
+	sha256sums = 256cde05d08f5cb60c98a92f0aa41017f987a116dd46f8f4bca545e3e0fc2d22
+
+pkgname = python-aioftp

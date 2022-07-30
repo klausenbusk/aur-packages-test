@@ -1,0 +1,13 @@
+pkgbase = mixbus32c5
+	pkgdesc = Harrison Mixbus - Digital Audio Workstation (32C Version)
+	pkgver = 5.3.22
+	pkgrel = 1
+	url = http://harrisonconsoles.com/site/mixbus32c.html
+	arch = x86_64
+	license = EULA, GPLv2
+	depends = glibc
+	depends = xorg-server
+	conflicts = mixbus32c
+
+pkgname = mixbus32c5
+

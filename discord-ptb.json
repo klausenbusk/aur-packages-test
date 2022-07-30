@@ -1,0 +1,24 @@
+pkgbase = discord-ptb
+	pkgdesc = All-in-one voice and text chat for gamers that's free and secure. - Public Test Build
+	pkgver = 0.0.31
+	pkgrel = 1
+	url = https://discordapp.com
+	arch = x86_64
+	license = custom
+	depends = libnotify
+	depends = libxss
+	depends = nspr
+	depends = nss
+	depends = gtk3
+	optdepends = libpulse: Pulseaudio support
+	optdepends = xdg-utils: Open files
+	optdepends = noto-fonts-cjk: Font for special characters such as /shrug face
+	optdepends = emoji-font: Fonts for emoji support
+	source = https://dl-ptb.discordapp.net/apps/linux/0.0.31/discord-ptb-0.0.31.tar.gz
+	source = LICENSE.html::https://discordapp.com/terms
+	source = OSS-LICENSES.html::https://discordapp.com/licenses
+	sha512sums = c20e10584c34ad2dc2db3b1a223f7dfd64c0f578959340861fa8ccf33c6652256521d038caf60e49652bd0b1877da16890d9617f7e0d765a69cbd89deca13c1e
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = discord-ptb

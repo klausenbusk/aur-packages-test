@@ -1,0 +1,46 @@
+pkgbase = ruby-2.1
+	pkgver = 2.1.7
+	pkgrel = 1
+	url = http://www.ruby-lang.org/en/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	license = custom
+	makedepends = gdbm
+	makedepends = openssl
+	makedepends = libffi
+	makedepends = doxygen
+	makedepends = graphviz
+	makedepends = libyaml
+	makedepends = ttf-dejavu
+	options = !emptydirs
+	options = !makeflags
+	options = staticlibs
+	source = http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.tar.xz
+	source = gemrc
+	sha256sums = 225c067d9820fe52fcffbfb91d5b5243708a0b666b9929bea466e9379eb40ad7
+	sha256sums = 4bb7eb2fe66e396ed16b589cdb656831407b39ad4e138d88536754c0448ac614
+
+pkgname = ruby-2.1
+	pkgdesc = An object-oriented language for quick and easy programming - version 2.1
+	install = ruby.install
+	depends = gdbm
+	depends = openssl
+	depends = libffi
+	depends = libyaml
+	depends = gmp
+	depends = zlib
+	optdepends = ruby-docs-2.1: Ruby documentation
+	provides = rubygems
+	provides = rake,
+	provides = ruby=2.0,
+	provides = ruby=2.1
+	conflicts = rake,
+	conflicts = ruby
+	backup = etc/gemrc
+
+pkgname = ruby-docs-2.1
+	pkgdesc = Documentation files for ruby
+	provides = ruby-docs
+	conflicts = ruby-docs
+

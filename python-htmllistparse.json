@@ -1,0 +1,16 @@
+pkgbase = python-htmllistparse
+	pkgdesc = Python parser for Apache/nginx-style HTML directory listing
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/gumblex/htmllisting-parser
+	arch = any
+	license = MIT
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-html5lib
+	depends = python-requests
+	depends = python-fusepy
+	source = https://files.pythonhosted.org/packages/source/h/htmllistparse/htmllistparse-0.6.0.tar.gz
+	sha256sums = 9ac274a165a02bf503656df4b48e1ae9eec0df40723a5f998f9023d3df3c8e32
+
+pkgname = python-htmllistparse

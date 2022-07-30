@@ -1,0 +1,23 @@
+pkgbase = moodledesktop
+	pkgdesc = The official app for Moodle.
+	pkgver = 3.9.4
+	pkgrel = 1
+	url = https://download.moodle.org/desktop/
+	arch = any
+	license = Apache
+	makedepends = git
+	makedepends = jq
+	makedepends = moreutils
+	makedepends = nodejs
+	makedepends = npm
+	makedepends = python2
+	depends = electron8
+	source = moodleapp-3.9.4.tar.gz::https://github.com/moodlehq/moodleapp/archive/v3.9.4.tar.gz
+	source = moodledesktop.sh
+	source = moodledesktop.desktop
+	sha256sums = cfcb9afbed083d5b78889b0648c1979b175e044570354075655deec9e38c4fbc
+	sha256sums = 52624f85d65e8a3339258b343edce0b2ad7fd4071b8742b1fe1a2ea50ec8ee18
+	sha256sums = ca4bcbbfb0b6f40e4fa8eaed0b02e5c1d1ba609a43f8aaed8cefd16c8af4ba86
+
+pkgname = moodledesktop
+

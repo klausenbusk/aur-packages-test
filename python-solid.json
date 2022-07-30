@@ -1,0 +1,18 @@
+pkgbase = python-solid
+	pkgdesc = Python interface to the OpenSCAD declarative geometry language
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/SolidCode/SolidPython
+	arch = any
+	license = LGPL
+	makedepends = python-setuptools
+	makedepends = python-dephell
+	depends = python-euclid3
+	depends = python-prettytable
+	depends = python-pypng
+	depends = python-regex
+	depends = python-ply
+	source = python-solid-1.1.1.tar.gz::https://github.com/SolidCode/SolidPython/archive/v1.1.1.tar.gz
+	sha256sums = d475f99632bf2da41585cd3cc52d9cd5059721188aee34edcc4b9508fbb23aa1
+
+pkgname = python-solid

@@ -1,0 +1,11 @@
+pkgbase = simutrans-pak128.german
+	pkgdesc = High resolution graphics set for Simutrans, with a german theme
+	pkgver = 2.1.beta.470
+	pkgrel = 1
+	url = https://www.simutrans.com/
+	arch = any
+	license = custom:Artistic
+	source = https://pak128-german.de/PAK128.german_VS2.1.beta.zip
+	sha256sums = c038ca9747f9bae95f7965aaa530c8f3e0eadeaee080b9cbe235dd970cefd563
+
+pkgname = simutrans-pak128.german

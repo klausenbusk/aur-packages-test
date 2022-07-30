@@ -1,0 +1,30 @@
+pkgbase = librespeed-go
+	pkgdesc = Very lightweight speed test implemented in Javascript, using XMLHttpRequest and Web Workers
+	pkgver = 1.1.5
+	pkgrel = 1
+	url = https://github.com/librespeed/speedtest-go
+	arch = i386
+	arch = x86_64
+	arch = aarch64
+	arch = armv5h
+	arch = armv6h
+	arch = armv7h
+	license = LGPL3
+	makedepends = go>=1.16
+	optdepends = mariadb: alternative database to bolt
+	optdepends = postgresql: alternative database to bolt
+	conflicts = librespeed-go-bin
+	backup = etc/librespeed/settings.toml
+	backup = usr/share/librespeed/assets/index.html
+	source = https://github.com/librespeed/speedtest-go/archive/v1.1.5.zip
+	source = librespeed.ico
+	source = librespeed.service
+	source = librespeed.sysusers
+	source = librespeed.tmpfiles
+	sha256sums = f481669c460713f3fc1c4fafbbd7ef5c5afbb21ef60221d36cea11a127e73a3c
+	sha256sums = 4a0d7a5a4aa43eeb967dff70c899de820cb725c74841a5b5eea37cea78ca1d42
+	sha256sums = 8bcbda327d2be9a4fc8195f39b5876c7e48562af2f5956417ad78d857183ce75
+	sha256sums = d2cdcfd2a5d4ed1b482915c65e38a3aa06e34e967510a3721ea95180fe31c83f
+	sha256sums = 36cb69ea0ca1ed28e608e54202fa319ba25bbd8fc111d47eb345d34d182b91d4
+
+pkgname = librespeed-go

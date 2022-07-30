@@ -1,0 +1,12 @@
+pkgbase = python-radicale-storage-etesync
+	pkgdesc = An EteSync storage plugin for Radicale
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/radicale_storage_etesync/
+	arch = any
+	license = GPL
+	depends = python-etesync
+	depends = radicale
+
+pkgname = python-radicale-storage-etesync
+

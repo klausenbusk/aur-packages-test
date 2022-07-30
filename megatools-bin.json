@@ -1,0 +1,19 @@
+pkgbase = megatools-bin
+	pkgdesc = Command line client application for Mega.nz. Precompiled.
+	pkgver = 1.11.0.git.20211030
+	pkgrel = 1
+	url = https://megatools.megous.com
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = GPL
+	provides = megatools
+	conflicts = megatools
+	source_x86_64 = https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20211030-linux-x86_64.tar.gz
+	sha256sums_x86_64 = a08a77d2a4fad844eb8fc28518a82090bcc6f5be2c10f089ec144c10386622a1
+	source_aarch64 = https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20211030-linux-aarch64.tar.gz
+	sha256sums_aarch64 = b8101a8f0477fd04dbf6b256450873991b02a205008a2b29c41bca82dc37fcc8
+	source_armv7h = https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20211030-linux-arm.tar.gz
+	sha256sums_armv7h = 340ac5b349552c33038873151b992de9ddf8f7dc3a5ee427ed66066222f8a50a
+
+pkgname = megatools-bin

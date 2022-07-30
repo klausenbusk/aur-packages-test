@@ -1,0 +1,13 @@
+pkgbase = paudit
+	pkgdesc = Simple Arch package audit script
+	pkgver = 1.5
+	pkgrel = 1
+	url = https://gitlab.com/Myl0g/paudit
+	arch = any
+	license = GPL
+	depends = pacman
+	source = https://gitlab.com/Myl0g/paudit/uploads/bd6ba7c0b80ce387c57b61faee7e18c5/paudit-v1.5.tar.xz
+	md5sums = d837c7bf3f461b5b16ee04e0dd0e0bc8
+
+pkgname = paudit
+

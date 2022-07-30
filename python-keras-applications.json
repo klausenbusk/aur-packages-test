@@ -1,0 +1,27 @@
+pkgbase = python-keras-applications
+	pkgdesc = Applications module of the Keras deep learning library
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = https://pypi.org/project/Keras-Applications/
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python-numpy
+	makedepends = python2
+	makedepends = python2-setuptools
+	makedepends = python2-numpy
+	provides = python-keras-applications
+	source = https://files.pythonhosted.org/packages/source/K/Keras_Applications/Keras_Applications-1.0.5.tar.gz
+	sha256sums = 26a7318b9d8d5be80d75ab08a1284aaf4b94125dd8271b18ca89791e16eb2cfc
+
+pkgname = python-keras-applications
+	depends = python
+	depends = python-numpy
+	depends = python-keras
+
+pkgname = python2-keras-applications
+	depends = python2
+	depends = python2-numpy
+	depends = python2-keras
+

@@ -1,0 +1,20 @@
+pkgbase = python-flake8-bugbear
+	pkgdesc = Plugin for Flake8 finding likely bugs and design problems in your program
+	pkgver = 22.4.25
+	pkgrel = 1
+	url = https://github.com/PyCQA/flake8-bugbear
+	arch = any
+	license = MIT
+	checkdepends = python-hypothesmith
+	makedepends = flake8
+	makedepends = python-attrs
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = flake8
+	depends = python-attrs
+	source = https://files.pythonhosted.org/packages/source/f/flake8-bugbear/flake8-bugbear-22.4.25.tar.gz
+	sha512sums = 7795b4c66aea4a8699838a7b3613592066f1429953006d20f84494116a02def5da11923082914c3c507c947e8664bfd8d938d6e598f5000e66f28c9fdbb9b6f6
+
+pkgname = python-flake8-bugbear

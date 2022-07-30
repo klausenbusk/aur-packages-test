@@ -1,0 +1,16 @@
+pkgbase = python-gspread-git
+	pkgdesc = Google Sheets Python API
+	pkgver = v5.4.0.r2.g4fcad2a
+	pkgrel = 1
+	url = https://github.com/burnash/gspread
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = python-requests
+	depends = python-google-auth-oauthlib
+	provides = python-gspread
+	conflicts = python-gspread
+	source = git+https://github.com/burnash/gspread.git
+	b2sums = SKIP
+
+pkgname = python-gspread-git

@@ -1,0 +1,14 @@
+pkgbase = virusgotal-git
+	pkgdesc = VirusTotal zero dependency command line client.
+	pkgver = 1.0.2.r5.g295d2dc
+	pkgrel = 3
+	url = https://github.com/moldabekov/virusgotal
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	provides = virusgotal
+	conflicts = virusgotal
+	source = virusgotal-git::git+https://github.com/moldabekov/virusgotal
+	sha256sums = SKIP
+
+pkgname = virusgotal-git

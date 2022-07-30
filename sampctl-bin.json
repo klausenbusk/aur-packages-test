@@ -1,0 +1,16 @@
+pkgbase = sampctl-bin
+	pkgdesc = Collection of tools for SA-MP developers
+	pkgver = 1.10.0
+	pkgrel = 1
+	url = https://github.com/Southclaws/sampctl
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	provides = sampctl
+	source_i686 = https://github.com/Southclaws/sampctl/releases/download/1.10.0/sampctl_1.10.0_linux_386.deb
+	sha512sums_i686 = b5c05317beef115b31eac2a76eafc58ef01c086e62afca676fcae22276a38987a9020a94f9964c17d9416a36863ebe6c14d67dd3898a34ae2bf272c89400ad1b
+	source_x86_64 = https://github.com/Southclaws/sampctl/releases/download/1.10.0/sampctl_1.10.0_linux_amd64.deb
+	sha512sums_x86_64 = e46728df2308089e2ac76fcda98be11c0c983e6b9c75b06251e63cab15b294b73aa3e2dc1abbd8dd19aa8768a9841915750f083f515ee67295182adf2cf601bd
+
+pkgname = sampctl-bin
+

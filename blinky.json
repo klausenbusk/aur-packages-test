@@ -1,0 +1,21 @@
+pkgbase = blinky
+	pkgdesc = AUR-helper with minimal hassle
+	pkgver = 0.23
+	pkgrel = 1
+	url = https://github.com/cherti/blinky
+	arch = any
+	license = GPLv3
+	depends = python
+	depends = pyalpm
+	depends = python-requests
+	depends = python-termcolor
+	depends = python-pyxdg
+	depends = python-packaging
+	depends = colordiff
+	depends = wget
+	optdepends = libnotify
+	options = !emptydirs
+	source = https://github.com/cherti/blinky/archive/v0.23.tar.gz
+	sha256sums = a567fb34137faa4d6c448e8ab07a4c4126514cf85f2a25507a01392d45f76c9d
+
+pkgname = blinky

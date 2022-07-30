@@ -1,0 +1,22 @@
+pkgbase = plotagraph
+	pkgdesc = A cloud-based photo-animation software.
+	pkgver = 1.2.9
+	pkgrel = 1
+	url = https://plotaverse.com/
+	install = plotagraph.install
+	arch = x86_64
+	license = custom
+	depends = gconf
+	depends = libnotify
+	depends = libappindicator-gtk2
+	depends = libxtst
+	depends = nss
+	depends = libxss
+	depends = alsa-lib
+	source = http://download.plotagraphapp.com/build/Plotagraph_1.2.9_amd64.deb
+	source = LICENSE
+	md5sums = 261298b6ccbd90b4d0d99f4a604caedd
+	md5sums = a3d5cc205f77a6939c5550ed80b40615
+
+pkgname = plotagraph
+

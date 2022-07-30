@@ -1,0 +1,17 @@
+pkgbase = firefox-extension-mooltipass
+	pkgdesc = Retrieve and store Mooltipass credentials easily from websites.
+	pkgver = 1.8.0
+	pkgrel = 2
+	url = https://www.themooltipass.com/setup
+	arch = any
+	license = custom:MIT
+	depends = firefox
+	depends = moolticute
+	noextract = firefox-extension-mooltipass-1.8.0-fx.xpi
+	source = firefox-extension-mooltipass-1.8.0-fx.xpi::https://addons.mozilla.org/firefox/downloads/file/3453460/mooltipass_extension-1.8.0-fx.xpi
+	source = LICENSE
+	sha256sums = 82e0460d9df48f8f9ed0393f4e3631284f332492c6b932df79c05e0025962330
+	sha256sums = 2af680c39ef493fb82830356d1d3df1acb5a06033cba2dec7a19e21caa77a866
+
+pkgname = firefox-extension-mooltipass
+

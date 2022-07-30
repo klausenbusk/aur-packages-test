@@ -1,0 +1,28 @@
+pkgbase = ms-edge
+	pkgdesc = Microsoft Edge for arch. IMPORTANT: explanation for package duplicate here https://pastebin.com/ybVzVGTW
+	pkgver = 91.0.838.3
+	pkgrel = 1
+	url = https://www.microsoftedgeinsider.com/en-us/download/?platform=linux
+	arch = x86_64
+	license = All rights reserved
+	depends = gtk3
+	depends = libcups
+	depends = nss
+	depends = alsa-lib
+	depends = libxtst
+	depends = libdrm
+	depends = mesa
+	optdepends = libpipewire02: WebRTC desktop sharing under Wayland
+	optdepends = kdialog: for file dialogs in KDE
+	optdepends = gnome-keyring: for storing passwords in GNOME keyring
+	optdepends = kwallet: for storing passwords in KWallet
+	optdepends = gtk3: for printing
+	optdepends = libunity: for download progress on KDE
+	optdepends = ttf-liberation: fix fonts for some PDFs - CRBug #369991
+	optdepends = xdg-utils
+	provides = ms-edge
+	source = https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_91.0.838.3-1_amd64.deb
+	sha256sums = cce217648a377fa4cfec41a17c9c17f28da3decb89503202a7167623f789e648
+
+pkgname = ms-edge
+

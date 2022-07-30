@@ -1,0 +1,15 @@
+pkgbase = python-box
+	pkgdesc = Advanced Python dictionaries with dot notation access
+	pkgver = 5.4.1
+	pkgrel = 1
+	url = https://github.com/cdgriffith/Box
+	arch = any
+	license = MIT
+	depends = python-toml
+	depends = python-ruamel-yaml
+	depends = python-msgpack
+	provides = python-box
+	source = https://files.pythonhosted.org/packages/source/p/python-box/python-box-5.4.1.tar.gz
+	sha256sums = b68e0f8abc86f3deda751b3390f64df64a0989459de51ba4db949662a7b4d8ac
+
+pkgname = python-box

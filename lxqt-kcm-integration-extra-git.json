@@ -1,0 +1,30 @@
+pkgbase = lxqt-kcm-integration-extra-git
+	pkgver = r4.8c6e687
+	pkgrel = 1
+	url = https://github.com/librewish/lxqt-kcm-integration-extra
+	arch = any
+	license = GPL
+	makedepends = git
+	source = git+https://github.com/librewish/lxqt-kcm-integration-extra.git#branch=master
+	sha256sums = SKIP
+
+pkgname = lxqt-kcm-integration-extra-git
+	pkgdesc = extra kcm support for lxqt-kwin
+	depends = kde-cli-tools
+	depends = kglobalaccel
+	depends = kwin
+	depends = plasma-workspace
+	optdepends = bluedevil: needed for lxqt-kcm-bluetooth
+	optdepends = kde-gtk-config: needed for lxqt-kcm-appearance
+	optdepends = kinfocenter: needed for lxqt-kcm-systeminfo
+	optdepends = plasma-desktop: needed for lxqt-kcm-appearance colors and styles
+	optdepends = kcm-wacomtablet: wacom tablet kcm support
+	optdepends = print-manager: printing kcm support
+	optdepends = plymouth-kcm: plymouth kcm support
+	optdepends = sddm-kcm: sddm kcm support
+	optdepends = kdeconnect: kdeconnect kcm support
+	optdepends = plasma-thunderbolt: thunderbolt kcm support
+	optdepends = plasma-firewall: ufw firewall kcm support
+	provides = lxqt-kcm-integration-extra
+	provides = lxqt-kcm-integration-git
+	provides = lxqt-kcm-integration

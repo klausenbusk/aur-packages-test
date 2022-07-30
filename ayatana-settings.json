@@ -1,0 +1,17 @@
+pkgbase = ayatana-settings
+	pkgdesc = Configuration tool for tweaking all Ayatana system indicators
+	pkgver = 21.1.28
+	pkgrel = 1
+	url = https://github.com/AyatanaIndicators/ayatana-settings
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python-polib
+	depends = gtk3
+	depends = gobject-introspection
+	depends = python-psutil
+	options = !emptydirs
+	source = ayatana-settings-21.1.28.tar.gz::https://github.com/AyatanaIndicators/ayatana-settings/archive/21.1.28.tar.gz
+	md5sums = 5c48898b4dddcae29abb44e1b070a4e5
+
+pkgname = ayatana-settings

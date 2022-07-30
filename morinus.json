@@ -1,0 +1,20 @@
+pkgbase = morinus
+	pkgdesc = Astrology software in wxPython
+	pkgver = 8.1.0
+	pkgrel = 1
+	url = https://sites.google.com/site/pymorinus7/
+	install = morinus.install
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	depends = wxpython
+	depends = python2-imaging
+	source = https://sites.google.com/site/pymorinus7/home/Morinus810.zip
+	source = morinus-portrait.png
+	source = morinus.desktop
+	md5sums = dff0075f797060dd928ad375eabe35ec
+	md5sums = 4140ef94ff63a7b650e98fedc165945f
+	md5sums = d5325556826e5a3bf1cd65c71f645576
+
+pkgname = morinus
+

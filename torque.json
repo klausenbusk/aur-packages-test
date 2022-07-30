@@ -1,0 +1,28 @@
+pkgbase = torque
+	pkgdesc = An open source resource manager providing control over batch jobs and distributed compute nodes
+	pkgver = 6.1.1.1
+	pkgrel = 2
+	url = http://www.adaptivecomputing.com/products/open-source/torque/
+	install = torque.install
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = custom
+	makedepends = make
+	makedepends = boost
+	makedepends = tk
+	depends = openssh
+	depends = libxml2
+	depends = tcl
+	depends = boost-libs
+	options = !libtool
+	backup = var/spool/torque/server_name
+	backup = var/spool/torque/mom_priv/config
+	backup = var/spool/torque/serv_priv/nodes
+	backup = var/spool/torque/serv_priv/serverdb
+	source = file://torque-6.1.1.1.tar.gz
+	md5sums = SKIP
+
+pkgname = torque
+

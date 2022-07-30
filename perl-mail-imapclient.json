@@ -1,0 +1,19 @@
+pkgbase = perl-mail-imapclient
+	pkgdesc = Perl/CPAN Module Mail::IMAPClient : An IMAP Client API
+	pkgver = 3.42
+	pkgrel = 1
+	url = http://search.cpan.org/dist/Mail-IMAPClient
+	arch = any
+	license = GPL
+	license = Artistic
+	depends = perl>=5.10.0
+	depends = perl-parse-recdescent
+	depends = perl-digest-hmac
+	optdepends = perl-authen-sasl: for Authmechanism 'DIGEST-MD5'
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/P/PL/PLOBBES/Mail-IMAPClient-3.42.tar.gz
+	md5sums = 7639380b85da4ad473dc50d6a78d3ad7
+	sha256sums = 1c2264d50c54c839a3e38ce2f8edda3d24f30cc607940d7574beab19cb00ce7e
+
+pkgname = perl-mail-imapclient
+

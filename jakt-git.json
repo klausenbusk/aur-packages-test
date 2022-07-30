@@ -1,0 +1,16 @@
+pkgbase = jakt-git
+	pkgdesc = The Jakt Programming Language from SerenityOS
+	pkgver = r637.f07cd13
+	pkgrel = 1
+	url = https://github.com/SerenityOS/jakt
+	arch = x86_64
+	license = BSD
+	makedepends = cargo
+	makedepends = git
+	depends = clang
+	provides = jakt
+	conflicts = jakt
+	source = jakt-git::git+https://github.com/SerenityOS/jakt.git
+	md5sums = SKIP
+
+pkgname = jakt-git

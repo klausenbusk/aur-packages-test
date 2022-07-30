@@ -1,0 +1,20 @@
+pkgbase = eidklient
+	pkgdesc = Slovak eID Client
+	pkgver = 3.7.0
+	pkgrel = 2
+	url = https://www.slovensko.sk/
+	install = eidklient.install
+	arch = i686
+	arch = x86_64
+	license = custom
+	options = !strip
+	source_i686 = https://eidas.minv.sk/TCTokenService/download/linux/debian/Aplikacia_pre_eID_i386_debian.tar.gz
+	md5sums_i686 = SKIP
+	source_x86_64 = https://eidas.minv.sk/TCTokenService/download/linux/debian/Aplikacia_pre_eID_amd64_debian.tar.gz
+	md5sums_x86_64 = SKIP
+
+pkgname = eidklient
+	depends = glibc
+	depends = pcsclite
+	depends = ccid
+	optdepends = disig-web-signer: online certificates update support

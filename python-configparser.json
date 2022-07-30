@@ -1,0 +1,14 @@
+pkgbase = python-configparser
+	pkgdesc = backport of configparser from Python 3
+	pkgver = 5.2.0
+	pkgrel = 1
+	url = https://github.com/jaraco/configparser/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-pip
+	makedepends = python-wheel
+	source = git+https://github.com/jaraco/configparser.git#tag=v5.2.0
+	sha256sums = SKIP
+
+pkgname = python-configparser

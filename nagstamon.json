@@ -1,0 +1,25 @@
+pkgbase = nagstamon
+	pkgdesc = Nagios status monitor for the desktop
+	pkgver = 3.8.0
+	pkgrel = 4
+	url = https://nagstamon.ifw-dresden.de/
+	arch = any
+	license = GPL
+	makedepends = python-setuptools
+	depends = python-pyqt5
+	depends = qt5-multimedia
+	depends = qt5-svg
+	depends = python-requests
+	depends = python-beautifulsoup4
+	depends = python-keyring
+	depends = python-psutil
+	depends = python-requests-kerberos
+	depends = python-lxml
+	depends = python-dbus
+	depends = python-dateutil
+	depends = python-pysocks
+	optdepends = python-requests-gssapi: Will be used instead of python-requests-kerberos for kerberos auth if present
+	source = https://github.com/HenriWahl/Nagstamon/archive/refs/tags/v3.8.0.tar.gz
+	sha256sums = e8e32479061d36ccaf34b4d5440f998ec73c0983b5290e00e523b34caebe70ed
+
+pkgname = nagstamon

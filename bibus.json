@@ -1,0 +1,20 @@
+pkgbase = bibus
+	pkgdesc = A bibliographic database that can directly insert references in OpenOffice.org/LibreOffice and generate the bibliographic index.
+	pkgver = 1.5.2
+	pkgrel = 8
+	url = https://sourceforge.net/projects/bibus-biblio/
+	arch = any
+	license = GPL
+	depends = python2-pysqlite
+	depends = wxpython
+	depends = python2-lxml
+	depends = unixodbc
+	depends = hicolor-icon-theme
+	optdepends = libreoffice
+	optdepends = openoffice
+	backup = etc/bibus.config
+	source = https://downloads.sourceforge.net/project/bibus-biblio/bibus-biblio/bibus-1.5.2/bibus_1.5.2.orig.tar.gz
+	sha512sums = 33d091dacc707859a11010fcba57691a3e2726ae7579d601720b4398f7be29b580be978da8cd058fab491ec5b52dd3ce33c964a8d5077f8e80d8f0f387ffa2c4
+
+pkgname = bibus
+

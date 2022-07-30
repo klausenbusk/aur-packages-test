@@ -1,0 +1,32 @@
+pkgbase = gollum
+	pkgdesc = A simple, Git-powered wiki.
+	pkgver = 5.2.3
+	pkgrel = 1
+	url = http://github.com/gollum/gollum
+	arch = any
+	license = MIT
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = ruby-gemojione
+	depends = ruby-gollum-lib
+	depends = ruby-kramdown
+	depends = ruby-kramdown-parser-gfm>=1.1
+	depends = ruby-kramdown-parser-gfm<1.2
+	depends = ruby-mustache-sinatra
+	depends = ruby-octicons>=12
+	depends = ruby-rss
+	depends = ruby-sass
+	depends = ruby-sinatra
+	depends = ruby-sinatra-contrib
+	depends = ruby-sprockets<4
+	depends = ruby-sprockets-helpers
+	depends = ruby-uglifier>=4.2
+	depends = ruby-useragent
+	depends = ruby-webrick>=1.7.0
+	noextract = gollum-5.2.3.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/gollum-5.2.3.gem
+	sha1sums = 921b3055fad9d5041b9b481e5cca26f7e5b9f188
+
+pkgname = gollum
+

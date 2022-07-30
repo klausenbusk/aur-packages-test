@@ -1,0 +1,20 @@
+pkgbase = python-j5
+	pkgdesc = j5 Robotics Framework
+	pkgver = 0.12.0
+	pkgrel = 1
+	url = https://github.com/j5api/j5
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-dephell
+	depends = python
+	depends = python-pyusb
+	depends = python-pyserial
+	depends = python-cached-property
+	depends = python-typing_extensions
+	depends = python-pyquaternion
+	optdepends = python-zoloto
+	source = https://api.github.com/repos/j5api/j5/tarball/v0.12.0
+	sha512sums = 205c07c3f07123b9a51c1d2a15f2826dba75b29c7612e62c347bad2f5e71b31a0870916ab54ba8f678196862a379afd666c551227e5dd38a7596b689017c61de
+
+pkgname = python-j5

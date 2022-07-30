@@ -1,0 +1,17 @@
+pkgbase = python-pmdarima
+	pkgdesc = ARIMA estimators for Python
+	pkgver = 1.8.5
+	pkgrel = 1
+	url = https://alkaline-ml.com/pmdarima
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = cython
+	depends = python-scikit-learn
+	depends = python-statsmodels
+	depends = python-urllib3
+	source = python-pmdarima-1.8.5.tar.gz::https://github.com/alkaline-ml/pmdarima/archive/refs/tags/v1.8.5.tar.gz
+	sha256sums = 6145dca73d5e3388460b0ed09afca9b38be944910099bd526a5e53d8eee4d6b8
+
+pkgname = python-pmdarima

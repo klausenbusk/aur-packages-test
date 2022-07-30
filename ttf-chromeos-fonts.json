@@ -1,0 +1,16 @@
+pkgbase = ttf-chromeos-fonts
+	pkgdesc = Chrome OS true type fonts: Arimo, Tinos and Cousine
+	pkgver = 1.31.0
+	pkgrel = 1
+	url = http://code.google.com/p/chromium-os/issues/detail?id=5287
+	install = ttf-chromeos-fonts.install
+	arch = any
+	license = apache
+	depends = fontconfig
+	depends = xorg-font-utils
+	conflicts = ttf-google-webfonts
+	source = http://commondatastorage.googleapis.com/chromeos-localmirror/distfiles/croscorefonts-1.31.0.tar.bz2
+	sha256sums = 672c3487883ec1ef83d9254240d4327b014212abc823d06d15816095867315e1
+
+pkgname = ttf-chromeos-fonts
+

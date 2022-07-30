@@ -1,0 +1,15 @@
+pkgbase = phylobayes-mpi
+	pkgdesc = phylogenetic reconstruction using infinite mixtures
+	pkgver = 1.8c
+	pkgrel = 1
+	url = https://github.com/bayesiancook/pbmpi
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = openmpi
+	conflicts = phylobayes
+	source = https://codeload.github.com/bayesiancook/pbmpi/tar.gz/refs/tags/v1.8c
+	md5sums = 9ee847859fafcdcf203eddc458c25e8a
+
+pkgname = phylobayes-mpi
+

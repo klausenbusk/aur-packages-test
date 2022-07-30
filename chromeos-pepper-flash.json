@@ -1,0 +1,22 @@
+pkgbase = chromeos-pepper-flash
+	pkgdesc = Google ChromeOS's Pepper Flash plugin (with DRM enabled) for freshplayerplugin
+	pkgver = 18.0.0.223
+	pkgrel = 1
+	epoch = 1
+	url = http://www.google.com/chrome
+	arch = i686
+	arch = x86_64
+	license = custom:chrome
+	makedepends = e2tools
+	provides = pepper-flash
+	conflicts = chromium-pepper-flash-dev
+	conflicts = chromium-pepper-flash
+	source = chromeos-pepper-flash-license.html::https://www.google.com/intl/%s/chrome/eula_text.html
+	sha256sums = 0daf3cd3d7611a30341419fca636e56a9d7f0f1946cd4e5b4e0365e9e4a3f678
+	source_i686 = https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_7077.134.0_x86-zgb_recovery_stable-channel_zgb-mp-v3.bin.zip
+	sha1sums_i686 = db4541d2af770ba1b39efdb2c3ca4a7c58ede16e
+	source_x86_64 = https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_7077.134.0_zako_recovery_stable-channel_mp-v2.bin.zip
+	sha1sums_x86_64 = 40161284cea8ecbcda5219fca16cae57750779d9
+
+pkgname = chromeos-pepper-flash
+

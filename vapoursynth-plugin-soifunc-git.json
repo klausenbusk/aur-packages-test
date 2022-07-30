@@ -1,0 +1,24 @@
+pkgbase = vapoursynth-plugin-soifunc-git
+	pkgdesc = Plugin for Vapoursynth: soifunc (GIT version)
+	pkgver = 15.e9fc239
+	pkgrel = 1
+	url = https://gitlab.com/shssoichiro/soifunc
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = vapoursynth
+	depends = vapoursynth-plugin-vsutil
+	depends = vapoursynth-plugin-muvsfunc
+	depends = vapoursynth-plugin-mvsfunc
+	depends = vapoursynth-plugin-kagefunc
+	depends = vapoursynth-plugin-debandshit
+	depends = vapoursynth-plugin-neo_f3kdb
+	depends = vapoursynth-plugin-nnedi3_resample
+	depends = vapoursynth-plugin-znedi3
+	optdepends = vapoursynth-plugin-bm3dcuda: Fast BM3D cuda/cuda_rtc/cpu support
+	provides = vapoursynth-plugin-soifunc
+	conflicts = vapoursynth-plugin-soifunc
+	source = soifunc::git+https://git.bluefalcon.cc/soichiro/soifunc.git
+	sha256sums = SKIP
+
+pkgname = vapoursynth-plugin-soifunc-git

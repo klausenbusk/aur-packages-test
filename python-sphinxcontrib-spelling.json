@@ -1,0 +1,16 @@
+pkgbase = python-sphinxcontrib-spelling
+	pkgdesc = Sphinx spelling extension
+	pkgver = 7.1.0
+	pkgrel = 1
+	url = https://github.com/sphinx-contrib/spelling
+	arch = any
+	license = BSD
+	makedepends = unzip
+	depends = python-sphinx
+	depends = python-pyenchant
+	noextract = sphinxcontrib_spelling-7.1.0-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py3/s/sphinxcontrib_spelling/sphinxcontrib_spelling-7.1.0-py3-none-any.whl
+	sha256sums = e44d101a15b2e5798f76e9256917dcdc03719b7da6436cbdbbb99a14a5d0cbaa
+
+pkgname = python-sphinxcontrib-spelling
+

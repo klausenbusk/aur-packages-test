@@ -1,0 +1,17 @@
+pkgbase = reicast
+	pkgdesc = A Sega Dreamcast emulator
+	pkgver = 20.04
+	pkgrel = 2
+	url = https://reicast.com/
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	depends = alsa-lib
+	depends = libgl
+	depends = libudev.so
+	depends = python
+	source = git+https://github.com/reicast/reicast-emulator.git#tag=r20.04
+	sha256sums = SKIP
+
+pkgname = reicast
+

@@ -1,0 +1,14 @@
+pkgbase = soma
+	pkgdesc = Soma - a dialog internet radio player
+	pkgver = 3.0.4
+	pkgrel = 1
+	url = http://www.dawoodfall.net/slackbuilds/noversion/soma
+	arch = any
+	license = GPL
+	depends = dialog
+	depends = mplayer
+	source = http://www.dawoodfall.net/files/slackbuilds/noversion/soma/soma-3.0.4.tar.gz
+	md5sums = f99857601879ab2a651f298304069716
+
+pkgname = soma
+

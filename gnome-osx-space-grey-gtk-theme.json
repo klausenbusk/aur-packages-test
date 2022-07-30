@@ -1,0 +1,14 @@
+pkgbase = gnome-osx-space-grey-gtk-theme
+	pkgdesc = Gnome-OSX V2 Space Grey GTK Theme
+	pkgver = 2.0.0
+	pkgrel = 1
+	epoch = 5
+	url = https://www.opendesktop.org/p/1171688/
+	arch = any
+	license = CCPL
+	depends = gtk-engine-murrine
+	source = https://dl.opendesktop.org/api/files/downloadfile/id/1523258830/s/$_s/t/$_t/gnome-osx-space-grey-gtk-theme-2.0.0.tar.xz
+	md5sums = 7ab1ab8afc93ed6ab304f65e9d21d067
+
+pkgname = gnome-osx-space-grey-gtk-theme
+

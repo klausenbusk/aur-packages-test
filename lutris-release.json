@@ -1,0 +1,34 @@
+pkgbase = lutris-release
+	pkgdesc = Open Gaming Platform
+	pkgver = 0.5.8.1
+	pkgrel = 1
+	url = https://github.com/lutris/lutris
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python-gobject
+	depends = python-yaml
+	depends = python-evdev
+	depends = python-dbus
+	depends = gtk3
+	depends = glib2
+	depends = psmisc
+	depends = cabextract
+	depends = unzip
+	depends = p7zip
+	depends = curl
+	depends = xorg-xrandr
+	depends = gnome-desktop
+	depends = python-requests
+	depends = python-pillow
+	depends = mesa-demos
+	depends = python-distro
+	provides = lutris
+	conflicts = lutris
+	conflicts = lutris-git
+	source = https://github.com/lutris/lutris/archive/v0.5.8.1.tar.gz
+	sha512sums = 27f9dd30304eb132476958e56b0a4c27ff78b8e294465cb2646212cca2f9dd640849690ce797ef905b5a3ddb9f636badf0201672b99f6f88a2ed4438a0382e5b
+
+pkgname = lutris-release
+

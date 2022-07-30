@@ -1,0 +1,9 @@
+pkgbase = hex-unifont
+	pkgdesc = 
+	pkgver = 0
+	pkgrel = 0
+	arch = any
+	license = custom
+
+pkgname = obsolete-pkgbase-20180130-i
+

@@ -1,0 +1,19 @@
+pkgbase = yutto
+	pkgdesc = 一个可爱且任性的 B 站视频下载器
+	pkgver = 2.0.0b14
+	pkgrel = 1
+	url = https://github.com/SigureMo/yutto
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-aiohttp
+	depends = python-aiofiles
+	depends = python-biliass
+	depends = python-dicttoxml
+	depends = ffmpeg
+	optdepends = python-uvloop: fast asyncio event loop
+	source = https://pypi.io/packages/source/y/yutto/yutto-2.0.0b14.tar.gz
+	sha256sums = 81d7ed31f33f4a9d1dd4591fe2b879de0f569b8816961858a011d5a2d66e5359
+
+pkgname = yutto

@@ -1,0 +1,17 @@
+pkgbase = 115pc
+	pkgdesc = 115.com PC client
+	pkgver = 1.0.8.9
+	pkgrel = 1
+	url = https://pc.115.com/
+	arch = x86_64
+	license = Proprietary
+	makedepends = tar
+	options = !strip
+	source = https://down.115.com/client/115pc/lin/115pc_1.0.8.9.deb
+	source = 115.desktop
+	source = 115.sh
+	sha256sums = a521d7363cb0e271721706db27d6995230ae237a27b92dc84ae29776c8e5d53c
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = 115pc

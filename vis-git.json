@@ -1,0 +1,27 @@
+pkgbase = vis-git
+	pkgdesc = modern, legacy free, simple yet efficient vim-like editor - git checkout
+	pkgver = 0.7.r29.g1a958f2
+	pkgrel = 1
+	url = http://www.brain-dump.org/projects/vis/
+	arch = i686
+	arch = x86_64
+	license = custom:ISC
+	checkdepends = vim
+	makedepends = git
+	depends = acl
+	depends = bash
+	depends = ncurses
+	depends = libtermkey
+	depends = lua
+	depends = lua-lpeg
+	depends = tre
+	depends = file
+	provides = vis
+	conflicts = vis
+	backup = etc/vis/visrc.lua
+	source = git+https://github.com/martanne/vis.git
+	source = git+https://github.com/martanne/vis-test.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = vis-git

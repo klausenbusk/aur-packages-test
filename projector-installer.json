@@ -1,0 +1,25 @@
+pkgbase = projector-installer
+	pkgdesc = Install, configure and run JetBrains IDEs with Projector Server on Linux or in WSL
+	pkgver = 1.6.0
+	pkgrel = 2
+	url = https://github.com/JetBrains/projector-installer
+	arch = any
+	license = Apache
+	depends = python3
+	depends = python-cryptography
+	depends = python-pip
+	depends = python-setuptools
+	depends = python-wheel
+	depends = python-click
+	depends = python-netifaces
+	depends = python-pyopenssl
+	depends = less
+	depends = libxext
+	depends = libxi
+	depends = libxrender
+	depends = libxtst
+	depends = freetype2
+	source = https://files.pythonhosted.org/packages/source/p/projector-installer/projector-installer-1.6.0.tar.gz
+	sha256sums = 3c10512516bf3d73fe9e91a851d684a2f8a470a83cfc79ba8f6aa6a22ecea567
+
+pkgname = projector-installer

@@ -1,0 +1,16 @@
+pkgbase = encfsui
+	pkgdesc = Encrypted filesystem encfs GUI wrapper
+	pkgver = 1.5
+	pkgrel = 1
+	url = https://github.com/bulletmark/encfsui
+	arch = any
+	license = GPL3
+	depends = encfs
+	depends = fuse2
+	depends = zenity
+	depends = xdg-utils
+	source = encfsui-1.5.tar.gz::https://github.com/bulletmark/encfsui/archive/1.5.tar.gz
+	md5sums = 9bf3d14fdeee21ba561fffcc6821e3d6
+
+pkgname = encfsui
+

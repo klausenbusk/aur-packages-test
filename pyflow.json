@@ -1,0 +1,17 @@
+pkgbase = pyflow
+	pkgdesc = An installation and dependency system for Python
+	pkgver = 0.2.9
+	pkgrel = 1
+	url = https://github.com/David-OConnor/pyflow
+	changelog = CHANGELOG.md
+	arch = x86_64
+	arch = i686
+	license = MIT
+	checkdepends = cargo
+	makedepends = cargo
+	depends = xz
+        source = https://codeload.github.com/David-OConnor/pyflow/tar.gz/0.2.9
+        b2sums = ccccd20122930acbe5c98b77deaf9cef5943b86a2f7b788939cfa931adc19ac8afec70ce46f884880de04fcf6edb8c5df8a1eb5ec6c4046897dfb0c4543e1f17
+
+pkgname = pyflow
+

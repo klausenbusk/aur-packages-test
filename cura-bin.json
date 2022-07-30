@@ -1,0 +1,29 @@
+pkgbase = cura-bin
+	pkgdesc = A full software solution for 3D printing aimed at RepRaps and the Ultimaker. This package contains both the binary Cura engine and the python front-end.
+	pkgver = 3.2
+	pkgrel = 5
+	url = https://github.com/Ultimaker/Cura
+	install = .install
+	arch = x86_64
+	license = AGPLv3
+	depends = cura-binary-data
+	depends = cura-resources-materials
+	depends = curaengine
+	depends = python-numpy
+	depends = python-pyqt5
+	depends = python-pyserial
+	depends = python-scipy
+	depends = qt5-svg
+	depends = uranium
+	depends = python-zeroconf
+	depends = cmake
+	depends = qt5-tools
+	conflicts = libarcus
+	conflicts = cura,
+	conflicts = cura-git
+	replaces = cura
+	source = https://launchpad.net/~thopiekar/+archive/ubuntu/cura/+build/14333835/+files/cura_3.2.0~201802101704~rev2728~pkg200~ubuntu18.04.1_all.deb
+	sha256sums = 44949e64355f526ccde6f111c2bc339c041a52c218e153f3fead85e50d420998
+
+pkgname = cura-bin
+

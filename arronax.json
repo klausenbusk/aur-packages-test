@@ -1,0 +1,18 @@
+pkgbase = arronax
+	pkgdesc = A program to create and modify starters/launchers (technically: .desktop files) for applications and locations (URLs).
+	pkgver = 0.8.1
+	pkgrel = 1
+	url = http://www.florian-diesch.de/software/arronax/
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	depends = libwnck3
+	depends = python-gobject
+	depends = python-pyxdg
+	optdepends = python-nautilus: Arronax as Nautilus extension
+	optdepends = python-caja: Arronax as Caja extension
+	optdepends = nemo-python: Arronax as Nemo extension
+	source = https://www.florian-diesch.de/software/arronax/dist/arronax-0.8.1.tar.gz
+	md5sums = de079a182806ed3b6626656605a1214c
+
+pkgname = arronax

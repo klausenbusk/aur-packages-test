@@ -1,0 +1,19 @@
+pkgbase = r-classint
+	pkgdesc = Choose Univariate Class Intervals
+	pkgver = 0.4.7
+	pkgrel = 2
+	url = https://cran.r-project.org/package=classInt
+	arch = i686
+	arch = x86_64
+	license = GPL (>= 2)
+	makedepends = gcc-fortran
+	depends = r
+	depends = r-e1071
+	optdepends = r-spdata
+	optdepends = r-units
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://cran.r-project.org/src/contrib/classInt_0.4-7.tar.gz
+	md5sums = a038159d8fcf1225d86699f2918dff0d
+
+pkgname = r-classint

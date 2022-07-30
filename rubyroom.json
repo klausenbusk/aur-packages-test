@@ -1,0 +1,18 @@
+pkgbase = rubyroom
+	pkgdesc = Ruby clone of the Whiteroom full-screen text editor
+	pkgver = 0.4
+	pkgrel = 5
+	url = http://rubyroom.rubyforge.org/
+	arch = x86_64
+	license = GPL2
+	makedepends = gendesk
+	makedepends = git
+	depends = ruby-gtk2
+	optdepends = fortune-mod: for inserting fortunes
+	source = git://github.com/xyproto/rubyroom.git#tag=0.4
+	source = rubyroom.png
+	sha256sums = SKIP
+	sha256sums = 4796736d8d63553479c871194559f5f8986681bbfa7a169a9998298c6b7053bf
+
+pkgname = rubyroom
+

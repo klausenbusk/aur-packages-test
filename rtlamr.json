@@ -1,0 +1,15 @@
+pkgbase = rtlamr
+	pkgdesc = An rtl-sdr receiver for Itron ERT compatible smart meters operating in the 900MHz ISM band.
+	pkgver = 0.9.3
+	pkgrel = 2
+	url = https://github.com/bemasher/rtlamr
+	arch = any
+	license = AGPL3
+	makedepends = go
+	depends = rtl-sdr
+	options = !strip
+	options = !emptydirs
+	source = https://github.com/bemasher/rtlamr/archive/v0.9.3.tar.gz
+	md5sums = eaf1d3de2284bc672c76eca5cef47ed4
+
+pkgname = rtlamr

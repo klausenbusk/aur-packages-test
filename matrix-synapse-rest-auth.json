@@ -1,0 +1,15 @@
+pkgbase = matrix-synapse-rest-auth
+	pkgdesc = REST endpoint Authentication module for synapse
+	pkgver = 0.1.2
+	pkgrel = 1
+	url = https://github.com/kamax-io/matrix-synapse-rest-auth
+	arch = any
+	license = AGPL3
+	depends = python2
+	depends = python2-twisted
+	depends = matrix-synapse
+	source = https://github.com/kamax-io/matrix-synapse-rest-auth/archive/v0.1.2.tar.gz
+	sha256sums = ee54649b1eec2c0f72930fa3d0a3b5769971c8cbc2bbd0f8476a88ea46570193
+
+pkgname = matrix-synapse-rest-auth
+

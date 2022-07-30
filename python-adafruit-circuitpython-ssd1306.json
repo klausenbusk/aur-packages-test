@@ -1,0 +1,19 @@
+pkgbase = python-adafruit-circuitpython-ssd1306
+	pkgdesc = CircuitPython library for SSD1306 OLED displays
+	pkgver = 2.12.7
+	pkgrel = 0
+	url = https://github.com/adafruit/Adafruit_CircuitPython_ssd1306
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-pip
+	depends = python
+	depends = python-adafruit-circuitpython-typing
+	depends = python-adafruit-circuitpython-busdevice
+	depends = python-adafruit-circuitpython-framebuf
+	source = https://pypi.io/packages/source/a/adafruit-circuitpython-ssd1306/adafruit-circuitpython-ssd1306-2.12.7.tar.gz
+	sha256sums = b64445ec2317c8e05a3f4cfa5f3a72a7b8444c2cbfa6f6f0aca824c3d1534902
+
+pkgname = python-adafruit-circuitpython-ssd1306

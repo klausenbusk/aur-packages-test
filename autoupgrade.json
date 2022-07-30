@@ -1,0 +1,16 @@
+pkgbase = autoupgrade
+	pkgdesc = Automatic snapshot and then upgrade the system. (When the system fails, run `sudo timeshift --restore` and remove this package until the problem is solved.)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/star2000/autoupgrade
+	install = autoupgrade.install
+	arch = any
+	license = GPL
+	depends = timeshift-autosnap
+	source = autoupgrade.service
+	source = autoupgrade.timer
+	md5sums = 4c5f84c47a72cf3d79db5bf50034c5eb
+	md5sums = 196f9bff2f5237e73dfdbc41fa44e13a
+
+pkgname = autoupgrade
+

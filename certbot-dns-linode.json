@@ -1,0 +1,23 @@
+pkgbase = certbot-dns-linode
+	pkgdesc = Linode DNS Authenticator plugin for Certbot
+	pkgver = 0.27.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/certbot-dns-linode
+	arch = any
+	license = Apache
+	depends = certbot=0.27.0
+	depends = dns-lexicon
+	depends = python-acme=0.27.0
+	depends = python-mock
+	depends = python-setuptools
+	depends = python-zope-interface
+	source = https://pypi.io/packages/source/c/certbot-dns-linode/certbot-dns-linode-0.27.0.tar.gz
+	source = https://pypi.io/packages/source/c/certbot-dns-linode/certbot-dns-linode-0.27.0.tar.gz.asc
+	validpgpkeys = 148C30F6F7E429337A72D992B00B9CC82D7ADF2C
+	validpgpkeys = 1B41B758F9A78C7F444C20FA3E5B4152E3ADB1FD
+	validpgpkeys = A2CFB51FA275A7286234E7B24D17C995CD9775F2
+	sha512sums = ac6ee01058ef22dc4c08da4f8fee9f5b3db58e99849d57b919e28b87938f8b9ebb6c363e06d4b74cd23b07a4f23e33d7db948653b658f45ed8e020ece7f9ccea
+	sha512sums = SKIP
+
+pkgname = certbot-dns-linode
+

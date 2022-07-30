@@ -1,0 +1,25 @@
+pkgbase = hardcode-tray-fixer-git
+	pkgdesc = Fixes Hardcoded Tray Icons
+	pkgver = r718.1e5917f
+	pkgrel = 1
+	url = https://github.com/bil-elmoussaoui/Hardcode-Tray
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = python
+	depends = python-gobject
+	depends = python-cairosvg
+	depends = librsvg
+	depends = gtk3
+	optdepends = sni-qt-eplus-bzr: patched qt4 sni plugin to enable icon modification
+	optdepends = inkscape: to convert svg to png with inkscape
+	optdepends = lib32-sni-qt-eplus-bzr: 32-bit patched qt4 sni plugin to enable icon modification
+	provides = hardcode-tray-fixer
+	source = hardcode-tray-fixer-git::git://github.com/bil-elmoussaoui/Hardcode-Tray
+	source = hardcode-tray-fixer.sh
+	sha256sums = SKIP
+	sha256sums = 2df8935eae4644ffc29554a067fdc3fb3ba61b74ae6135dad4154a9c1c45c4a9
+
+pkgname = hardcode-tray-fixer-git
+

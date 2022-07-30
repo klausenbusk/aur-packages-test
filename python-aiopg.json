@@ -1,0 +1,14 @@
+pkgbase = python-aiopg
+	pkgdesc = PostgreSQL driver for asyncio
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = http://aiopg.readthedocs.org/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-psycopg2
+	source = https://files.pythonhosted.org/packages/source/a/aiopg/aiopg-1.2.1.tar.gz
+	sha256sums = e841da17e56b42de7565890df1a0da247aca4cd6185927be2f7ebb2505a01e92
+
+pkgname = python-aiopg
+

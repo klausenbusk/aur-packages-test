@@ -1,0 +1,14 @@
+pkgbase = qtarot-git
+	pkgdesc = A simple tarot reading program
+	pkgver = 0.5.9
+	pkgrel = 2
+	url = http://gitlab.com/ShadowKyogre/QTarot/
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = python-pyqt4
+	depends = python-lxml
+	source = qtarot-git::git+https://gitlab.com/ShadowKyogre/QTarot.git
+	md5sums = SKIP
+
+pkgname = qtarot-git

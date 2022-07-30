@@ -1,0 +1,16 @@
+pkgbase = gifski
+	pkgdesc = GIF encoder based on libimagequant (pngquant, gifquant?). Squeezes maximum possible quality from the awful GIF format
+	pkgver = 0.8.4
+	pkgrel = 1
+	url = https://gif.ski/
+	arch = i686
+	arch = x86_64
+	license = AGPL3
+	makedepends = rust
+	makedepends = clang
+	depends = gcc-libs
+	source = gifski-0.8.4.tar.gz::https://github.com/ImageOptim/gifski/archive/0.8.4.tar.gz
+	sha256sums = e78da4306f01bf4070d7904066f5253058866a9888ca59fc3a08a2a547607b5c
+
+pkgname = gifski
+

@@ -1,0 +1,27 @@
+pkgbase = hledger
+	pkgdesc = Command-line and web-based accounting tool
+	pkgver = 1.2
+	pkgrel = 2
+	url = http://hledger.org
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = haskell-stack
+	depends = gmp
+	depends = libffi
+	depends = ncurses
+	depends = zlib
+	provides = hledger
+	provides = hledger-api
+	provides = hledger-ui
+	provides = hledger-web
+	conflicts = hledger
+	conflicts = hledger-api
+	conflicts = hledger-ui
+	conflicts = hledger-web
+	options = strip
+	source = https://github.com/simonmichael/hledger/archive/hledger-1.2.tar.gz
+	sha512sums = 2e30d03057bc440121d7f0340434639fef90fa1f19a75e80cde52920a2ec051cbe1b84dcdff2da2ff5e3b6685ed39c37eaa0b2b72bacc64c78c4dfa709a73d41
+
+pkgname = hledger
+

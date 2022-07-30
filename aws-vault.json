@@ -1,0 +1,16 @@
+pkgbase = aws-vault
+	pkgdesc = A vault for securely storing and accessing AWS credentials in development environments
+	pkgver = 6.0.0
+	pkgrel = 1
+	url = https://github.com/99designs/aws-vault
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = go
+	optdepends = zenity: graphical prompt
+	optdepends = kdialog: graphical prompt
+	source = aws-vault-6.0.0.tar.gz::https://github.com/99designs/aws-vault/archive/v6.0.0.tar.gz
+	sha256sums = 467509b4db3da0db1360e3f22c233f7c8bb321f576ebcb69166041da5de45100
+
+pkgname = aws-vault
+

@@ -1,0 +1,21 @@
+pkgbase = python-myhdl
+	pkgdesc = a Python-Based Hardware Description Language
+	pkgver = 0.11
+	pkgrel = 1
+	url = http://www.myhdl.org/
+	arch = any
+	license = LGPL
+	makedepends = python-sphinx
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = myhdl-0.11.tar.gz::https://github.com/myhdl/myhdl/archive/0.11.tar.gz
+	md5sums = 47be668d2cbfd7894a707a6e1ffce742
+
+pkgname = python-myhdl
+	depends = python
+	depends = iverilog
+
+pkgname = python2-myhdl
+	depends = python2
+	depends = iverilog
+

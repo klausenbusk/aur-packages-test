@@ -1,0 +1,21 @@
+pkgbase = nerd-fonts-noto
+	pkgdesc = Patched font Noto from the nerd-fonts library
+	pkgver = 2.1.0
+	pkgrel = 2
+	url = https://github.com/ryanoasis/nerd-fonts
+	arch = any
+	groups = nerd-fonts
+	license = MIT
+	depends = fontconfig
+	provides = nerd-fonts-noto
+	conflicts = nerd-fonts-git
+	conflicts = nerd-fonts-complete
+	conflicts = nerd-fonts-noto-sans-mono
+	conflicts = nerd-fonts-noto-sans-regular-complete
+	source = https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Noto.zip
+	source = https://github.com/ryanoasis/nerd-fonts/raw/v2.1.0/LICENSE
+	sha1sums = 4f3fa97c7a21e70ebce05810555b40c36940fbb9
+	sha1sums = 92fdad3c8babc0473da5f03e41fb1151417ab386
+
+pkgname = nerd-fonts-noto
+

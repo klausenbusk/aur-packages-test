@@ -1,0 +1,19 @@
+pkgbase = ruby-hammer-cli-foreman
+	pkgdesc = Foreman commands for Hammer CLI
+	pkgver = 0.12.1
+	pkgrel = 1
+	url = http://github.com/theforeman/hammer-cli-foreman
+	arch = any
+	license = GPLv3
+	depends = ruby
+	depends = ruby-apipie-bindings>=0.2.2
+	depends = ruby-hammer-cli>=0.12.0
+	depends = ruby-rest-client>=1.8.0
+	depends = ruby-rest-client<3.0.0
+	noextract = hammer_cli_foreman-0.12.1.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/hammer_cli_foreman-0.12.1.gem
+	sha256sums = 352479c43fab6fb1aac52fe43bc56f4a8d70cc9ccd1e4dea4fd42f793eb5e11a
+
+pkgname = ruby-hammer-cli-foreman
+

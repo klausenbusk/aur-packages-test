@@ -1,0 +1,24 @@
+pkgbase = pleroma
+	pkgdesc = The Pleroma Server (ActivityPub Compatible)
+	pkgver = 2.1.2
+	pkgrel = 1
+	install = pleroma.install
+	arch = x86_64
+	arch = aarch64
+	arch = armv7l
+	license = AGPL
+	makedepends = unzip
+	makedepends = curl
+	depends = ncurses
+	optdepends = postgresql: Pleroma Database for storage
+	optdepends = nginx: HTTPS proxy server
+	optdepends = certbot: For Lets Encrypt Certificates
+	provides = pleroma
+	conflicts = pleroma-git
+	source = pleroma.zip::https://git.pleroma.social/pleroma/pleroma/-/jobs/154862/artifacts/download
+	source = pleroma.sysusers
+	md5sums = 407a758fc5546942e3b9abb1004ab6ce
+	md5sums = 0026c871dbffef09159f5fae7426868c
+
+pkgname = pleroma
+

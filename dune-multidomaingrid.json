@@ -1,0 +1,17 @@
+pkgbase = dune-multidomaingrid
+	pkgdesc = Meta grid that allows creating multiple subdomains that span only part of the host grid
+	pkgver = 2.8.0
+	pkgrel = 1
+	url = https://dune-project.org/modules/dune-multidomaingrid
+	arch = x86_64
+	license = LGPL3
+	license = custom:GPL2 with runtime exception
+	makedepends = doxygen
+	makedepends = graphviz
+	depends = dune-grid>=2.8.0
+	optdepends = doxygen: Generate the class documentation from C++ sources
+	optdepends = graphviz: Graph visualization software
+	source = https://gitlab.dune-project.org/extensions/dune-multidomaingrid/-/archive/v2.8.0/dune-multidomaingrid-v2.8.0.tar.gz
+	sha512sums = 5fcc17678cd7851f3ba477370945ce30117912420aabbe3ea081805b471eca0ce7d0f7d1b314c4f5b44ccb58d68e238e9056c2e8d01813737592f16e31f003bf
+
+pkgname = dune-multidomaingrid

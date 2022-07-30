@@ -1,0 +1,14 @@
+pkgbase = gnome-osx-gtk-theme
+	pkgdesc = Gnome-OSX V2 Traditional GTK Theme
+	pkgver = 2.0.0
+	pkgrel = 1
+	epoch = 5
+	url = https://www.opendesktop.org/p/1171688/
+	arch = any
+	license = CCPL
+	depends = gtk-engine-murrine
+	source = https://dl.opendesktop.org/api/files/downloadfile/id/1523258884/s/$_s/t/$_t/gnome-osx-gtk-theme-2.0.0.tar.xz
+	md5sums = d2e1a25ef88761ec82c6964c2dfc1165
+
+pkgname = gnome-osx-gtk-theme
+

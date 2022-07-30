@@ -1,0 +1,13 @@
+pkgbase = citardauq
+	pkgdesc = A CLI tool for solving quadratic equations
+	pkgver = 1.01
+	pkgrel = 1
+	url = https://kazmal.tech/citardauq/
+	arch = any
+	license = MIT
+	depends = python
+	source = citardauq
+	md5sums = a86d8e1d6842aac5c8378585bac26fd7
+
+pkgname = citardauq
+

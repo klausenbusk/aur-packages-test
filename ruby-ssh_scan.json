@@ -1,0 +1,19 @@
+pkgbase = ruby-ssh_scan
+	pkgdesc = prototype SSH configuration and policy scanner
+	pkgver = 0.0.35
+	pkgrel = 1
+	url = https://github.com/mozilla/ssh_scan
+	arch = any
+	license = MPL
+	makedepends = ruby-rdoc
+	depends = ruby-bindata>=2
+	depends = ruby-netaddr
+	depends = ruby-net-ssh>=4.2
+	depends = ruby-net-ssh<5
+	depends = ruby-sshkey
+	noextract = ssh_scan-0.0.35.gem
+	source = https://rubygems.org/downloads/ssh_scan-0.0.35.gem
+	sha256sums = acc83015f94bc77be0827a1522a648a1736b055c85e11c6c5af44553cdf47451
+
+pkgname = ruby-ssh_scan
+

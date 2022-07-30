@@ -1,0 +1,25 @@
+pkgbase = python-vdf-git
+	pkgdesc = Library for working with Valve's VDF text format
+	pkgver = 2.3.r2.ef28616
+	pkgrel = 1
+	url = https://github.com/ValvePython/vdf
+	arch = any
+	license = MIT
+	checkdepends = python
+	checkdepends = python2
+	checkdepends = python-nose
+	checkdepends = python-coverage
+	checkdepends = python-mock
+	checkdepends = python2-nose
+	checkdepends = python2-coverage
+	checkdepends = python2-mock
+	makedepends = python-setuptools
+	source = git://github.com/ValvePython/vdf
+	sha256sums = SKIP
+
+pkgname = python-vdf-git
+	depends = python
+
+pkgname = python2-vdf-git
+	depends = python2
+

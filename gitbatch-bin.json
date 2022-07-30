@@ -1,0 +1,12 @@
+pkgbase = gitbatch-bin
+	pkgdesc = A TUI to manage your git repositories in one place
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://github.com/isacikgoz/gitbatch
+	arch = x86_64
+	license = MIT
+	source_x86_64 = https://github.com/isacikgoz/gitbatch/releases/download/v0.5.0/gitbatch_0.5.0_linux_amd64.tar.gz
+	sha512sums_x86_64 = 4fa68ee5ccd1d886d509966af6ff0c888f8ca292b07e4696772edead648382575479ba47e0707c9f31530546c9c05a5ba371f5522b8118e885c8a9a3b02ee232
+
+pkgname = gitbatch-bin
+

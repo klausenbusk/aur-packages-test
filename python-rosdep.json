@@ -1,0 +1,18 @@
+pkgbase = python-rosdep
+	pkgdesc = rosdep package manager abstraction tool for ROS
+	pkgver = 0.22.1
+	pkgrel = 1
+	url = https://github.com/ros-infrastructure/rosdep
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python
+	depends = python-catkin_pkg
+	depends = python-rosdistro
+	depends = python-rospkg
+	depends = python-yaml
+	conflicts = python2-rosdep
+	source = https://github.com/ros-infrastructure/rosdep/archive/0.22.1.tar.gz
+	sha256sums = f2b43aef108c3e205bbe8a91740473d977123a976bfaf60c293f7b448d48cdc3
+
+pkgname = python-rosdep

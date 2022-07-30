@@ -1,0 +1,16 @@
+pkgbase = python-pymodis
+	pkgdesc = pyModis is a Free and Open Source Python based library to work with MODIS data
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = http://www.pymodis.org
+	arch = any
+	license = GPLv2
+	depends = python
+	depends = python-numpy
+	depends = gdal
+	depends = wxpython
+	source = https://github.com/lucadelu/pyModis/archive/2.1.0.tar.gz
+	sha256sums = 493ba114da9b91cd6424cb879ded5aa079939be77d4654fb902b6eabbbbeeb8d
+
+pkgname = python-pymodis
+

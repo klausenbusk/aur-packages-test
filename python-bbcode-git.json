@@ -1,0 +1,28 @@
+pkgbase = python-bbcode-git
+	pkgdesc = A pure python bbcode parser and formatter. (git version)
+	pkgver = 20151002
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/bbcode
+	arch = any
+	license = BSD
+	makedepends = git
+	makedepends = python
+	makedepends = python2
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	options = !emptydirs
+	source = git+https://github.com/dcwatson/bbcode
+	md5sums = SKIP
+
+pkgname = python-bbcode-git
+	depends = python
+	depends = python-setuptools
+	provides = python-bbcode
+	conflicts = python-bbcode
+
+pkgname = python2-bbcode-git
+	depends = python2
+	depends = python2-setuptools
+	provides = python2-bbcode
+	conflicts = python2-bbcode
+

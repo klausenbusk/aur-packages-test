@@ -1,0 +1,20 @@
+pkgbase = kubeless-bin
+	pkgdesc = A Kubernetes-native serverless framework that lets you deploy small bits of code without having to worry about the underlying infrastructure plumbing.
+	pkgver = 1.0.7
+	pkgrel = 1
+	url = https://github.com/kubeless/kubeless
+	arch = x86_64
+	license = Apache
+	source = kubeless-1.0.7.zip::https://github.com/kubeless/kubeless/releases/download/v1.0.7/kubeless_linux-amd64.zip
+	source = kubeless-non-rbac-v1.0.7.yaml::https://github.com/kubeless/kubeless/releases/download/v1.0.7/kubeless-non-rbac-v1.0.7.yaml
+	source = kubeless-openshift-v1.0.7.yaml::https://github.com/kubeless/kubeless/releases/download/v1.0.7/kubeless-openshift-v1.0.7.yaml
+	source = kubeless-v1.0.7.yaml::https://github.com/kubeless/kubeless/releases/download/v1.0.7/kubeless-v1.0.7.yaml
+	source = LICENSE::https://raw.githubusercontent.com/kubeless/kubeless/master/LICENSE
+	sha256sums = 7ccd6d6ae1acb857b52405f0d4d83c5b1c7f4a38df173e99661292a8324cc829
+	sha256sums = b1ed0db6b829ac7932dcdac330e0f8f8e8f02aac9eb70e5ca6af0a39eb7088e6
+	sha256sums = 7cb88dbc8e66ed62341fef4eb03ff39979bac37d59219e431ec9d709516dbed0
+	sha256sums = 9ed580547557e72c92ca980cc28534e242bdfd671821dd611dbcee060096ce9b
+	sha256sums = 374db7067e9e238a74a5c3d25d9f17d5a6fb885e4b6392897ceffcabb274fd7c
+
+pkgname = kubeless-bin
+

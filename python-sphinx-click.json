@@ -1,0 +1,34 @@
+pkgbase = python-sphinx-click
+	pkgdesc = Sphinx extension that automatically documents click applications
+	pkgver = 2.5.0
+	pkgrel = 1
+	url = https://sphinx-click.readthedocs.io
+	arch = i686
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python2-pytest
+	checkdepends = python2-sphinx
+	checkdepends = python-click
+	checkdepends = python2-click
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	makedepends = python-pbr
+	makedepends = python2-pbr
+	makedepends = python-sphinx
+	source = https://files.pythonhosted.org/packages/source/s/sphinx-click/sphinx-click-2.5.0.tar.gz
+	md5sums = fbc7269c005097fb90f1f930aba4dc2f
+
+pkgname = python-sphinx-click
+	depends = python-sphinx>=1.5
+	depends = python-pbr>=2.0
+	optdepends = python-sphinx-click-doc: Documentation for sphinx-click
+
+pkgname = python2-sphinx-click
+	depends = python2-sphinx>=1.5
+	depends = python2-pbr>=2.0
+	optdepends = python-sphinx-click-doc: Documentation for sphinx-click
+
+pkgname = python-sphinx-click-doc
+	pkgdesc = Documentation for sphinx-click
+

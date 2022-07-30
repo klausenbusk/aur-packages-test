@@ -1,0 +1,21 @@
+pkgbase = python-caldav
+	pkgdesc = a caldav client library
+	pkgver = 0.9.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/caldav
+	arch = any
+	license = GPL
+	depends = python
+	depends = python-lxml
+	depends = python-vobject
+	depends = python-dateutil
+	depends = python-distribute
+	depends = python-six
+	depends = python-requests
+	optdepends = python-pytz: Resolves https://github.com/collective/icalendar/issues/333
+	optdepends = python-tzlocal: Resolves https://github.com/collective/icalendar/issues/333
+	options = !emptydirs
+	source = https://github.com/python-caldav/caldav/archive/v0.9.1.tar.gz
+	sha256sums = 1ba065850b92f5f9916ecd022af042ab39e727e9f2507645efaa341e71e2e780
+
+pkgname = python-caldav

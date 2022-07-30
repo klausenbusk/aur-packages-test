@@ -1,0 +1,31 @@
+pkgbase = packettracer
+	pkgdesc = A cross-platform visual simulation tool designed by Cisco Systems that allows users to create network topologies and imitate modern computer network
+	pkgver = 8.2.0
+	pkgrel = 1
+	url = https://www.netacad.com/courses/packet-tracer
+	arch = x86_64
+	license = custom
+	options = !strip
+	options = !emptydirs
+	source = local://CiscoPacketTracer_820_Ubuntu_64bit.deb
+	source = packettracer.sh
+	sha512sums = 7e1c64af03d3bd99ed627d66e221094f80a28a87229ddb9ae5b98a5e38e28f45dfdd7ecc31e7253b17c11b7124c183125063c2a8e13bfb139cae6dd184b49226
+	sha512sums = 47d575abf87ff26917ced452922ae6030b548e0deecca66397dbd4e22c032e217fcb4219b1bc783e6efa5fcbc4472dbe75b0d26f9d07de63a63d720475eb5122
+	depends = openssl>=1.0
+	depends = dbus
+	depends = icu
+	depends = glib2
+	depends = libxml2
+	depends = libjpeg-turbo
+	depends = nss
+	depends = libxss
+	depends = java-runtime>=1.7.0
+	depends = qt5-multimedia
+	depends = qt5-webengine
+	depends = qt5-svg
+	depends = qt5-networkauth
+	depends = qt5-websockets
+	depends = qt5-script
+	depends = qt5-speech
+pkgname = packettracer
+

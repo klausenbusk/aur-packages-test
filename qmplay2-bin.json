@@ -1,0 +1,33 @@
+pkgbase = qmplay2-bin
+	pkgdesc = QMPlay2 is a video and audio player which can play most formats and codecs
+	pkgver = 20.07.04
+	pkgrel = 1
+	url = https://github.com/zaps166/QMPlay2
+	arch = x86_64
+	license = LGPL
+	makedepends = fakeroot
+	makedepends = patchelf
+	makedepends = findutils
+	depends = qt5-base
+	depends = qt5-svg
+	depends = qt5-declarative
+	depends = qt5-x11extras
+	depends = libass
+	depends = libgl
+	depends = libva
+	depends = libxv
+	depends = alsa-lib
+	depends = taglib
+	depends = libpulse
+	depends = libgme
+	optdepends = pulseaudio: PulseAudio support
+	optdepends = game_music_emu-kode54-git: Better chiptune support (less bugs in sound, AUR package)
+	provides = qmplay2
+	conflicts = qmplay2
+	conflicts = qmplay2-git
+	options = !strip
+	source = https://github.com/zaps166/QMPlay2/releases/download/20.07.04/QMPlay2-20.07.04-1-x86_64.AppImage
+	sha1sums = 5f4a23da78c1e94c6dd4ea0abb7789f3d92598d2
+
+pkgname = qmplay2-bin
+

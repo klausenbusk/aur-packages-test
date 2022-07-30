@@ -1,0 +1,17 @@
+pkgbase = perl-compress-raw-lzma
+	pkgdesc = Low-Level Interface to lzma compression library
+	pkgver = 2.103
+	pkgrel = 1
+	url = https://metacpan.org/release/Compress-Raw-Lzma
+	arch = i686
+	arch = x86_64
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=0
+	depends = xz>=5.2.5
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/Compress-Raw-Lzma-2.103.tar.gz
+	md5sums = 6790e847cd96c76c81beaa7c5800d4e1
+	sha512sums = acfb0b97153621500da51b33742998fdea48609af347625fe72af497aad40a8702478ef047d9db7cf905ad5c3d54ac68e69658ca56c665b89e48d68a1a0a6767
+
+pkgname = perl-compress-raw-lzma

@@ -1,0 +1,23 @@
+pkgbase = bluemail
+	pkgdesc = BlueMail is a free, secure, universal email app, capable of managing an unlimited number of mail accounts
+	pkgver = 1.131.9
+	pkgrel = 1
+	url = https://www.bluemail.me
+	arch = x86_64
+	license = custom
+	makedepends = squashfs-tools
+	makedepends = imagemagick
+	depends = libnotify
+	depends = libappindicator-gtk3
+	depends = libxtst
+	depends = nss
+	depends = libxss
+	provides = bluemail
+	conflicts = bluemail-bin
+	options = !strip
+	source = LICENSE
+	source = bluemail-1.131.9.snap::https://api.snapcraft.io/api/v1/snaps/download/ZVlj0qw0GOFd5JgTfL8kk2Y5eIG1IpiH_132.snap
+	sha512sums = 546994dbf25972659db6130402926020fdfc763b3f41580d812aeb785824218bae1204babe99af51ad91fd758ad0e7f4d0636a00e9130ce13fc6ebb90540e9dc
+	sha512sums = 2139223d9be0b1d811f5fb77151d6e9f59dbfb1c894a5413ad44a2f68354b57233e4f685eebcccc5cb9ae9b31411e357bd3acf88b437c7b83a1fe6fd8edb8a00
+
+pkgname = bluemail

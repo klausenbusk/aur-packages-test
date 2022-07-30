@@ -1,0 +1,18 @@
+pkgbase = safety
+	pkgdesc = Safety checks your installed dependencies for known security vulnerabilities.
+	pkgver = 1.10.3
+	pkgrel = 1
+	url = https://github.com/pyupio/safety
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-click
+	depends = python-requests
+	depends = python-packaging
+	depends = python-dparse
+	source = https://github.com/pyupio/safety/archive/1.10.3.tar.gz
+	md5sums = a8a9a9af3bab9ad2707f377c5896e85b
+
+pkgname = safety
+

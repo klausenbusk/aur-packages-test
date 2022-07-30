@@ -1,0 +1,18 @@
+pkgbase = teip
+	pkgdesc = Highly efficient "Masking tape" for standard input
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/greymd/teip
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	depends = gcc-libs
+	source = https://github.com/greymd/teip/archive/v1.2.1.tar.gz
+	sha256sums = 5c09e4a3507c2298df59c3070a11cf0ec1ec71162ff492d915ee6d646771eb0c
+
+pkgname = teip
+

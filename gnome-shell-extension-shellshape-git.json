@@ -1,0 +1,17 @@
+pkgbase = gnome-shell-extension-shellshape-git
+	pkgdesc = Tiling window manager extension for gnome-shell.
+	pkgver = r338.ebaf7d7
+	pkgrel = 1
+	url = http://gfxmonk.net/shellshape
+	install = gnome-shell-extension-shellshape-git.install
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	makedepends = git
+	makedepends = npm
+	depends = gnome-shell
+	source = git+https://github.com/timbertson/shellshape
+	sha256sums = SKIP
+
+pkgname = gnome-shell-extension-shellshape-git
+

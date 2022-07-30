@@ -1,0 +1,14 @@
+pkgbase = python-invocations
+	pkgdesc = Reusable Invoke tasks
+	pkgver = 1.4.0
+	pkgrel = 4
+	url = https://github.com/pyinvoke/invocations
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	source = https://pypi.io/packages/source/i/invocations/invocations-1.4.0.tar.gz
+	md5sums = 557a68735e9bb62af94f0c0517425821
+
+pkgname = python-invocations
+	depends = python-invoke
+

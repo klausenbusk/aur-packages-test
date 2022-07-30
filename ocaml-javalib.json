@@ -1,0 +1,19 @@
+pkgbase = ocaml-javalib
+	pkgdesc = Parses Java .class files into OCaml data structures
+	pkgver = 3.2.1
+	pkgrel = 4
+	url = https://github.com/javalib-team/javalib/
+	arch = i686
+	arch = x86_64
+	license = LGPL2
+	makedepends = ocaml-findlib
+	depends = ocaml>=4.0.0
+	depends = ocaml-extlib>=1.5.1
+	depends = ocaml-zip>=1.04
+	depends = zlib
+	options = !strip
+	source = https://github.com/javalib-team/javalib/archive/v3.2.1.tar.gz
+	md5sums = 0970ddb7c418f6b16184a329e49ba31c
+
+pkgname = ocaml-javalib
+

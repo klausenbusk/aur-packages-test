@@ -1,0 +1,13 @@
+pkgbase = python2-imutils
+	pkgdesc = A series of convenience functions to make basic image processing asier with OpenCV
+	pkgver = 0.5.4
+	pkgrel = 1
+	url = https://github.com/jrosebr1/imutils
+	arch = any
+	license = MIT
+	depends = python2
+	depends = opencv
+	source = https://files.pythonhosted.org/packages/3f/d3/ecb4d108f6c1041d24842a345ee0123cd7f366ba75cf122601e856d42ba2/imutils-0.5.4.tar.gz
+	md5sums = 6769dc601bfea571d950b5f55ccb74f1
+
+pkgname = python2-imutils

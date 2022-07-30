@@ -1,0 +1,19 @@
+pkgbase = httplz
+	pkgdesc = Host These Things Please - a basic http server written in Rust
+	pkgver = 1.12.5
+	pkgrel = 1
+	url = https://github.com/thecoshman/http
+	arch = x86_64
+	arch = i686
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	depends = openssl
+	depends = bzip2
+	conflicts = httplz-bin
+	source = httplz-1.12.5.tar.gz::https://github.com/thecoshman/http/archive/v1.12.5.tar.gz
+	sha512sums = 25cc6a542dac9d4cce8370cee49a71ab48db02a0706a7df92f1e3e0e8082db154d5e68224a23603b2143a087e86ce67383e55c66844e5cfd9fa340b5f4d80b38
+
+pkgname = httplz

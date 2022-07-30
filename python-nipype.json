@@ -1,0 +1,42 @@
+pkgbase = python-nipype
+	pkgdesc = Neuroimaging in python pipelines and interfaces
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://github.com/nipy/nipype
+	arch = any
+	license = Apache
+	makedepends = python-sphinx
+	makedepends = python-sphinxcontrib-napoleon
+	depends = python-click
+	depends = python-networkx
+	depends = python-nibabel
+	depends = python-numpy
+	depends = python-packaging
+	depends = python-prov
+	depends = python-pydot
+	depends = python-pydotplus
+	depends = python-dateutil
+	depends = python-rdflib>=5.0.0
+	depends = python-scipy
+	depends = python-simplejson
+	depends = python-traits
+	depends = python-filelock
+	depends = python-matplotlib
+	depends = python-numpydoc
+	depends = python-future
+	depends = python-funcsigs
+	depends = python-pytest
+	depends = python-mock
+	depends = python-etelemetry>=0.2.0
+	optdepends = python-pybids
+	optdepends = python-dipy
+	optdepends = ants-git
+	optdepends = 3dslicer
+	optdepends = afni
+	optdepends = freesurfer
+	optdepends = fsl
+	optdepends = spm12
+	source = nipype-1.7.0.tar.gz::https://github.com/nipy/nipype/archive/1.7.0.tar.gz
+	sha256sums = 2be7f3d27c2bc65c0f2ff9f4ff0e2d02cb85194b581a1dc26015311f8e684658
+
+pkgname = python-nipype

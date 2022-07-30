@@ -1,0 +1,25 @@
+pkgbase = thonny
+	pkgdesc = Python IDE for beginners
+	pkgver = 3.3.14
+	pkgrel = 1
+	url = https://thonny.org
+	arch = any
+	license = MIT
+	depends = hicolor-icon-theme
+	depends = mypy
+	depends = python-astroid
+	depends = python-asttokens
+	depends = python-docutils
+	depends = python-jedi
+	depends = python-pip
+	depends = python-pylint
+	depends = python-pyserial
+	depends = python-send2trash
+	depends = python-setuptools
+	depends = tk
+	optdepends = python-birdseye: Debug support with Birdseye
+	optdepends = python-pgzero: Run programs made with Pygame Zero
+	source = thonny-3.3.14.tar.gz::https://github.com/thonny/thonny/archive/v3.3.14.tar.gz
+	sha512sums = 93898bd36276184ad736b73c58e78ffb69e2a9eca1cc4e915dd50c171c1f42df00182d8bb1315d2218705bc9a3b37e4256521469402bdafc599b86656e0d9121
+
+pkgname = thonny

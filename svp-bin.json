@@ -1,0 +1,25 @@
+pkgbase = svp-bin
+	pkgdesc = SmoothVideo Project 4 (SVP4)
+	pkgver = 4.5.210
+	pkgrel = 3
+	url = https://www.svp-team.com/wiki/SVP:Linux
+	install = svp-bin.install
+	arch = x86_64
+	license = custom
+	makedepends = p7zip
+	depends = libmediainfo
+	depends = qt5-svg
+	depends = qt5-script
+	depends = qt5-declarative
+	depends = vapoursynth
+	depends = libusb
+	depends = xdg-utils
+	depends = lsof
+	optdepends = mpv-git: needed for mpv vapoursynth support
+	optdepends = ocl-icd: for GPU acceleration
+	provides = svp
+	options = !strip
+	source = https://www.svp-team.com/files/svp4-linux.4.5.210-1.tar.bz2
+	sha256sums = 940d539ba50e4455fdaebbec07db03870f98f101fbb4ceadda013d1e00c90883
+
+pkgname = svp-bin

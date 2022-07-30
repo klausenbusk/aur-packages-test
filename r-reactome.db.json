@@ -1,0 +1,14 @@
+pkgbase = r-reactome.db
+	pkgdesc = A set of annotation maps for reactome
+	pkgver = 1.81.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/reactome.db
+	arch = any
+	license = CCPL:by-nc-sa
+	depends = r
+	depends = r-annotationdbi
+	optdepends = r-rsqlite
+	source = https://bioconductor.org/packages/release/data/annotation/src/contrib/reactome.db_1.81.0.tar.gz
+	sha256sums = 8fc4436f8189ad979e5a90d76c674b1450991427d036a3bf51f059391598d965
+
+pkgname = r-reactome.db

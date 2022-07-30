@@ -1,0 +1,23 @@
+pkgbase = forticlient
+	pkgdesc = An endpoint protection application
+	pkgver = 7.0.6.0214
+	pkgrel = 1
+	url = https://www.forticlient.com
+	arch = x86_64
+	license = custom
+	depends = libxss
+	depends = libsecret
+	depends = alsa-lib
+	depends = libnotify
+	depends = gtk3
+	depends = nss
+	depends = libxcrypt-compat
+	depends = libappindicator-gtk2
+	provides = forticlient
+	options = !strip
+	options = !emptydirs
+	backup = etc/forticlient/config.db
+	source = https://repo.fortinet.com/repo/7.0/ubuntu/pool/multiverse/forticlient/forticlient_7.0.6.0214_amd64.deb
+	sha512sums = a885658f50e06814e3f3a933c2cc6ff67a74b3e641292586b529f51ecf02e866a0798f7cdeb687793403420c87d817a2fd832e3bc33e75f9cffde1a1ce8d1d93
+
+pkgname = forticlient

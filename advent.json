@@ -1,0 +1,14 @@
+pkgbase = advent
+	pkgdesc = WELCOME TO ADVENTURE!!
+	pkgver = 0
+	pkgrel = 6
+	url = http://www.russotto.net/~mrussotto/ADVENT/
+	arch = i386
+	arch = x86_64
+	license = none
+	makedepends = g77
+	depends = libf2c
+	source = https://www.ifarchive.org/if-archive/games/source/adv_crowther.zip
+	md5sums = 705272719b0ddf0248385ec492ddbe51
+
+pkgname = advent

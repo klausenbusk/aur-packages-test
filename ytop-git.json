@@ -1,0 +1,16 @@
+pkgbase = ytop-git
+	pkgdesc = A TUI system monitor written in Rust
+	pkgver = r228.dd3d53e
+	pkgrel = 1
+	url = https://github.com/cjbassi/ytop
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = cargo
+	provides = ytop
+	conflicts = ytop
+	source = ytop::git+https://github.com/cjbassi/ytop
+	sha256sums = SKIP
+
+pkgname = ytop-git
+

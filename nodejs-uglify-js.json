@@ -1,0 +1,14 @@
+pkgbase = nodejs-uglify-js
+	pkgdesc = NodeJS JS Uglifier
+	pkgver = 2.8.4
+	pkgrel = 1
+	url = http://github.com/mishoo/UglifyJS2
+	arch = any
+	license = MIT
+	depends = nodejs
+	makedepends = npm
+	noextract = uglify-js-2.8.4.tgz
+	source = https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.4.tgz
+	sha256sums = 46ab8d3c0ea707ddc99dfbc92061cc2bf9b0770929358c5e8b664dbc6947c2c0
+
+pkgname = nodejs-uglify-js

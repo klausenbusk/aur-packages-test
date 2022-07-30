@@ -1,0 +1,36 @@
+pkgbase = dbeaver-ce
+	pkgdesc = Free Universal SQL Client for Developers and Database Administrators (Community Edition)
+	pkgver = 21.0.2
+	pkgrel = 1
+	url = https://dbeaver.io/
+	install = dbeaver-ce.install
+	arch = x86_64
+	license = Apache
+	makedepends = maven
+	makedepends = java-runtime<15
+	depends = java-runtime>=11
+	depends = gtk3
+	depends = gtk-update-icon-cache
+	depends = libsecret
+	optdepends = dbeaver-plugin-office: export data in Microsoft Office Excel format
+	optdepends = dbeaver-plugin-svg-format: save diagrams in SVG format
+	provides = dbeaver-ce
+	conflicts = dbeaver-ce-bin
+	noextract = dbeaver-ce-21.0.2.tar.gz
+	noextract = dbeaver-ce.desktop
+	noextract = dbeaver-ce.sh
+	noextract = dbeaver-ce.profile.gz
+	noextract = dbeaver-ce.hook
+	source = dbeaver-ce-21.0.2.tar.gz::https://github.com/serge-rider/dbeaver/archive/21.0.2.tar.gz
+	source = dbeaver-ce.desktop
+	source = dbeaver-ce.sh
+	source = dbeaver-ce.profile.gz
+	source = dbeaver-ce.hook
+	sha256sums = 39f9d518d057884a2bfd2a4cee656190fe849b06fd7184b465d159c618a28837
+	sha256sums = a53bcfa37f71e96fdc0ba3df6748d147f29fcb3bc7f35ffad9d876f3e2b072aa
+	sha256sums = ba3c2248960b2b5c6eafa227ec9bd1223e21287a991cd3b912f0b0a984666c80
+	sha256sums = 1863e74bdcf22b7328e6e8487cbebff7d5360e34bde85c1dd226b168b4737034
+	sha256sums = 131e3eb7b97723aa17c08db23a8b588fedef3d99941de1177b90ba3917459bf0
+
+pkgname = dbeaver-ce
+

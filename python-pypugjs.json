@@ -1,0 +1,19 @@
+pkgbase = python-pypugjs
+	pkgdesc = PugJS syntax adapter for Django, Jinja2 and Mako templates
+	pkgver = 5.8.1
+	pkgrel = 1
+	url = http://github.com/kakulukia/pypugjs
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-six
+	depends = python-chardet
+	source = https://github.com/kakulukia/pypugjs/archive/v5.8.1.tar.gz
+	md5sums = 0fd51b6ebe1bc49726fc40ce74fa7aac
+
+pkgname = python-pypugjs
+	depends = python
+	depends = python-six
+	depends = python-chardet
+

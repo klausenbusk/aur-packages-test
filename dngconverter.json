@@ -1,0 +1,21 @@
+pkgbase = dngconverter
+	pkgdesc = Adobe DNG Converter
+	pkgver = 14.3
+	pkgrel = 1
+	url = http://www.adobe.com/go/dng_converter_win/
+	arch = x86_64
+	license = custom: commercial
+	makedepends = wine
+	makedepends = winetricks
+	depends = wine
+	provides = dngconverter
+	conflicts = dngconverter
+	options = !strip
+	source = http://download.adobe.com/pub/adobe/dng/win/AdobeDNGConverter_x64_14_3.exe
+	source = dngconverter
+	source = _dngconverter
+	sha1sums = 4f2fbe3761868491248997c347420910fd0186b3
+	sha1sums = SKIP
+	sha1sums = SKIP
+
+pkgname = dngconverter

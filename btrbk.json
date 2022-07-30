@@ -1,0 +1,18 @@
+pkgbase = btrbk
+	pkgdesc = Backup tool for btrfs subvolumes, taking advantage of btrfs specific capabilities to create atomic snapshots and transfer them incrementally to your backup locations
+	pkgver = 0.32.2
+	pkgrel = 1
+	url = https://digint.ch/btrbk
+	arch = any
+	license = GPL3
+	makedepends = asciidoctor
+	depends = perl
+	depends = btrfs-progs
+	optdepends = openssh: remote backup support,
+	optdepends = mbuffer: --progress support and add buffering to send-stream
+	optdepends = sudo: support for the btrfs-progs-sudo backend
+	options = !makeflags
+	source = https://digint.ch/download/btrbk/releases/btrbk-0.32.2.tar.xz
+	b2sums = f06e563d0a3f6a7096426b205c56446c8cba34767a0a2cd092f1d0d2661c1a38d88adfae0cd2046d2f43623fb236e9a2d7ef7281938a37b410f2cf842f5df83c
+
+pkgname = btrbk

@@ -1,0 +1,16 @@
+pkgbase = nnn
+	pkgdesc = The fastest terminal file manager ever written.
+	pkgver = 2.0
+	pkgrel = 1
+	url = https://github.com/jarun/nnn
+	arch = i686
+	arch = x86_64
+	license = CUSTOM
+	makedepends = pkgconf
+	depends = ncurses
+	depends = readline
+	source = https://github.com/jarun/nnn/archive/v2.0.tar.gz
+	sha256sums = 0029efd3d009c197b1646d260350f3f87edca76eef3be6b81846af133d58d6a9
+
+pkgname = nnn
+

@@ -1,0 +1,19 @@
+pkgbase = meteor
+	pkgdesc = Full-stack JavaScript platform for developing modern web and mobile applications
+	pkgver = 1.10.2
+	pkgrel = 1
+	url = https://www.meteor.com
+	install = meteor.install
+	# arch = i686
+	arch = x86_64
+	license = MIT
+	depends = nodejs
+	depends = mongodb
+	options = !strip
+	source = meteor.sh
+	sha512sums = b81f2da94d2732eacd4499be2b68e8410c334aa874907ce985fe59508a030371a37addc74f583dfdbef30c394385d2c941e565991dbbc4074908b9e4a8cb7036
+	source_x86_64 = meteor-1.10.2-x86_64.tar.gz::https://static-meteor.netdna-ssl.com/packages-bootstrap/1.10.2/meteor-bootstrap-os.linux.x86_64.tar.gz
+	sha512sums_x86_64 = 429faf9368d317a32248397359ddac53750c6bfcd4d5f203f16d2b5496afacf92649ce6c163b79a950750f99dffcfbd51f1dfe351d96e8aaf65813441b93f54d
+
+pkgname = meteor
+

@@ -1,0 +1,26 @@
+pkgbase = python-vmprof
+	pkgdesc = A statistical Python program profiler
+	pkgver = 0.4.15
+	pkgrel = 1
+	url = https://github.com/vmprof/vmprof-python
+	arch = i686
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-cffi
+	checkdepends = python-hypothesis
+	makedepends = python-setuptools
+	depends = libdwarf
+	depends = libelf
+	depends = libunwind
+	depends = python-pytz
+	depends = python-requests
+	depends = python-colorama
+	depends = python-six
+	source = https://github.com/vmprof/vmprof-python/archive/0.4.15.tar.gz
+	source = pep-479.patch
+	sha256sums = 39ec09f84df30e9af566d1eefe8d53bfd89758febd3336e73e3648d1556e4108
+	sha256sums = 6df41198c903a4b6575e2bfdce9a1548909b318ab06f715c442a6608668815ec
+
+pkgname = python-vmprof
+

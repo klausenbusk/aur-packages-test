@@ -1,0 +1,17 @@
+pkgbase = python-libsass
+	pkgdesc = Sass for Python: A straightforward binding of libsass for Python.
+	pkgver = 0.21.0
+	pkgrel = 1
+	url = https://sass.github.io/libsass-python/
+	arch = x86_64
+	license = MIT License
+	makedepends = gcc
+	depends = python-six
+	depends = libsass
+	depends = python-setuptools
+	provides = sassc
+	source = https://files.pythonhosted.org/packages/source/l/libsass/libsass-0.21.0.tar.gz
+	sha256sums = d5ba529d9ce668be9380563279f3ffe988f27bc5b299c5a28453df2e0b0fbaf2
+
+pkgname = python-libsass
+

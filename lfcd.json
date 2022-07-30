@@ -1,0 +1,18 @@
+pkgbase = lfcd
+	pkgdesc = A wrapper for the lf file manager, with built in image previews and on-exit directory changing
+	pkgver = 1.0.r2
+	pkgrel = 1
+	url = https://gitlab.com/qYp/lfcd
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = lf
+	depends = zsh
+	depends = ffmpeg
+	depends = ueberzug
+	depends = graphicsmagick
+	depends = ghostscript
+	source = git+https://gitlab.com/qYp/lfcd.git
+	sha256sums = SKIP
+
+pkgname = lfcd

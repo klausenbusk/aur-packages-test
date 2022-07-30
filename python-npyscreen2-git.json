@@ -1,0 +1,15 @@
+pkgbase = python-npyscreen2-git
+	pkgdesc = A fork of npyscreen with changed core components
+	pkgver = r47.75ecd73
+	pkgrel = 1
+	url = https://github.com/SavinaRoja/npyscreen2
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = python
+	provides = python-npyscreen2
+	conflicts = python-npyscreen2
+	source = npyscreen2::git+https://github.com/SavinaRoja/npyscreen2
+	md5sums = SKIP
+
+pkgname = python-npyscreen2-git

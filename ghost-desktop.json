@@ -1,0 +1,26 @@
+pkgbase = ghost-desktop
+	pkgdesc = Ghost Desktop is a beautiful desktop application that allows you to easily manage multiple Ghost blogs and work without distractions.
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://github.com/TryGhost/Ghost-Desktop
+	install = ghost-desktop.install
+	arch = x86_64
+	arch = i686
+	license = MIT
+	depends = gtk2
+	depends = libgnome-keyring
+	depends = gnome-keyring
+	depends = desktop-file-utils
+	depends = python2
+	depends = gconf
+	depends = nodejs
+	depends = libnotify
+	depends = libxtst
+	depends = nss
+	depends = alsa-lib
+	depends = libxss
+	source = https://github.com/TryGhost/Ghost-Desktop/releases/download/v1.7.0/ghost-desktop-1.7.0-debian.deb
+	sha256sums = e799a3fbcb82f25ac1bfbcb6959b346599b5cb1c02c23d5006f32c32224cf3f8
+
+pkgname = ghost-desktop
+

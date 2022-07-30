@@ -1,0 +1,14 @@
+pkgbase = udis86
+	pkgdesc = Minimalistic disassembler library
+	pkgver = 1.7.2
+	pkgrel = 2
+	url = https://github.com/vmt/udis86
+	arch = x86_64
+	license = BSD
+	makedepends = python2
+	depends = glibc
+	provides = libudis86.so=0-64
+	source = udis86-1.7.2.tar.gz::https://github.com/vmt/udis86/archive/v1.7.2.tar.gz
+	sha256sums = 43567f7e12168943c5b5ffb3d3f5b7a33cb36328f8938a993458f3ded0ba5779
+
+pkgname = udis86

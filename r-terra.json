@@ -1,0 +1,22 @@
+pkgbase = r-terra
+	pkgdesc = Spatial Data Analysis
+	pkgver = 1.5.34
+	pkgrel = 2
+	url = https://cran.r-project.org/package=terra
+	arch = i686
+	arch = x86_64
+	license = GPL (>= 3)
+	depends = r
+	depends = r-rcpp
+	depends = gdal
+	optdepends = r-igraph
+	optdepends = r-tinytest
+	optdepends = r-ncdf4
+	optdepends = r-sf
+	optdepends = r-deldir
+	optdepends = r-raster
+	optdepends = r-xml
+	source = https://cran.r-project.org/src/contrib/terra_1.5-34.tar.gz
+	sha256sums = 3cad88f4fad6517713861a8debc8c7c746c32e0c2ee851bb0c2bc43744fcaa1c
+
+pkgname = r-terra

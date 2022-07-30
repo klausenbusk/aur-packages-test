@@ -1,0 +1,23 @@
+pkgbase = ruby-gtk3
+	pkgdesc = Ruby/GTK3 is a Ruby binding of GTK+-3.x.
+	pkgver = 3.2.6
+	pkgrel = 1
+	url = http://ruby-gnome2.sourceforge.jp/
+	arch = x86_64
+	license = LGPL2.1
+	makedepends = gobject-introspection
+	makedepends = rake
+	depends = ruby-atk
+	depends = ruby-gdk3
+	depends = ruby-gdk_pixbuf2
+	depends = ruby-gio2
+	depends = ruby-glib2
+	depends = ruby-pango
+	depends = gtk3
+	noextract = gtk3-3.2.6.gem
+	options = !emptydirs
+	source = git+https://github.com/ruby-gnome2/ruby-gnome2
+	sha256sums = SKIP
+
+pkgname = ruby-gtk3
+

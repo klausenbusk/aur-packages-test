@@ -1,0 +1,57 @@
+pkgbase = linux-pf-git
+	pkgdesc = Linux pf-kernel (git version)
+	pkgver = 5.19rc6.r35.g51adf8a3d449
+	pkgrel = 2
+	url = https://codeberg.org/pf-kernel/linux/wiki/README
+	arch = x86_64
+	license = GPL2
+	makedepends = bc
+	makedepends = libelf
+	makedepends = pahole
+	makedepends = cpio
+	makedepends = perl
+	makedepends = tar
+	makedepends = xz
+	makedepends = xmlto
+	makedepends = python-sphinx
+	makedepends = python-sphinx_rtd_theme
+	makedepends = graphviz
+	makedepends = imagemagick
+	makedepends = texlive-latexextra
+	makedepends = git
+	options = !strip
+	source = linux-pf-git::git+https://codeberg.org/pf-kernel/linux.git#branch=pf-5.19
+	source = config
+	sha256sums = SKIP
+	sha256sums = ee329485fef89bd85d885fdc5a9bb0f7b72d8fe2381d7cfe7c1484b137711c36
+
+pkgname = linux-pf-git
+	pkgdesc = The Linux pf-kernel (git version) kernel and modules
+	depends = coreutils
+	depends = kmod
+	depends = initramfs
+	optdepends = wireless-regdb: to set the correct wireless channels of your country
+	optdepends = ksmbd-tools: userspace tools for the ksmbd kernel SMB server
+	optdepends = linux-firmware: firmware images needed for some devices
+	optdepends = uksmd: userspace KSM helper daemon
+	optdepends = v4l2loopback-utils: v4l2-loopback device utilities
+	provides = linux-pf
+	provides = KSMBD-MODULE
+	provides = NTFS3-MODULE
+	provides = UKSMD-BUILTIN
+	provides = V4L2LOOPBACK-MODULE
+	provides = VIRTUALBOX-GUEST-MODULES
+	provides = WIREGUARD-MODULE
+	replaces = linux-pf
+	replaces = ksmbd-dkms
+	replaces = ntfs3-dkms
+	replaces = v4l2loopback-dkms
+	replaces = virtualbox-guest-modules-arch
+	replaces = wireguard-arch
+
+pkgname = linux-pf-headers-git
+	pkgdesc = Headers and scripts for building modules for the Linux pf-kernel (git version) kernel
+	depends = pahole
+
+pkgname = linux-pf-docs-git
+	pkgdesc = Documentation for the Linux pf-kernel (git version) kernel

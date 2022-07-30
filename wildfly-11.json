@@ -1,0 +1,42 @@
+pkgbase = wildfly-11
+	pkgdesc = Wildfly Application Server
+	pkgver = 11.0.0.Final
+	pkgrel = 7
+	url = http://www.wildfly.org/
+	install = wildfly-11.install
+	arch = any
+	license = LGPL
+	depends = java-runtime>=8
+	backup = etc/profile.d/wildfly-11.sh
+	backup = opt/wildfly-11/domain/configuration/application-roles.properties
+	backup = opt/wildfly-11/domain/configuration/application-users.properties
+	backup = opt/wildfly-11/domain/configuration/logging.properties
+	backup = opt/wildfly-11/domain/configuration/mgmt-groups.properties
+	backup = opt/wildfly-11/domain/configuration/mgmt-users.properties
+	backup = opt/wildfly-11/domain/configuration/domain.xml
+	backup = opt/wildfly-11/domain/configuration/host.xml
+	backup = opt/wildfly-11/standalone/configuration/application-roles.properties
+	backup = opt/wildfly-11/standalone/configuration/application-users.properties
+	backup = opt/wildfly-11/standalone/configuration/logging.properties
+	backup = opt/wildfly-11/standalone/configuration/mgmt-groups.properties
+	backup = opt/wildfly-11/standalone/configuration/mgmt-users.properties
+	backup = opt/wildfly-11/standalone/configuration/standalone.xml
+	backup = opt/wildfly-11/bin/add-user.properties
+	backup = opt/wildfly-11/bin/appclient.conf
+	backup = opt/wildfly-11/bin/domain.conf
+	backup = opt/wildfly-11/bin/jboss-cli-logging.properties
+	backup = opt/wildfly-11/bin/jboss-cli.xml
+	backup = opt/wildfly-11/bin/standalone.conf
+	source = http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final.tar.gz
+	source = wildfly-11.service
+	source = wildfly-11.sh
+	source = wildfly-11.install
+	source = systemd-wrapper.sh
+	sha256sums = a2f5fb4187369196003e31eb086f0a1f7bfc0645a3a61a53ed20ab5853481e71
+	sha256sums = d181fac387240edf22b7f99f2db366e45d02f9f5057aabe0470b7a359e6a7a7c
+	sha256sums = 948b3a74ef4a37b236878ce37d0f68b6cbbe271d401d2aa3c29a71cfc0ddca15
+	sha256sums = 53367bace5e44cc4d3b568cc178478d3c1d7d533e4cc462833b0b36a87cef3f6
+	sha256sums = f2433ee9fe38afa8276e83da44d5263f0e000dd0403a5d2d4bf055f80aa289d9
+
+pkgname = wildfly-11
+

@@ -1,0 +1,19 @@
+pkgbase = woke-bin
+	pkgdesc = Detect non-inclusive language in your source code. Pre-compiled.
+	pkgver = 0.18.2
+	pkgrel = 1
+	url = https://getwoke.tech/
+	arch = amd64
+	arch = arm64
+	arch = x86_64
+	license = MIT
+	provides = woke
+	conflicts = woke
+	source_amd64 = https://github.com/get-woke/woke/releases/download/v0.18.2/woke-0.18.2-linux-amd64.tar.gz
+	sha256sums_amd64 = da0372dc33f45a56265abce127a2b9ed34cef9cfe85110b2fb6981db630a0416
+	source_arm64 = https://github.com/get-woke/woke/releases/download/v0.18.2/woke-0.18.2-linux-arm64.tar.gz
+	sha256sums_arm64 = fa545e7fd0b2bbae1bc85b67b360c24cd8892b8aef1bffb538c215c6e532a1ff
+	source_x86_64 = https://github.com/get-woke/woke/releases/download/v0.18.2/woke-0.18.2-linux-386.tar.gz
+	sha256sums_x86_64 = 97450250965ae952b5e0d7b7c6a15388ac657b6ebdb42f869dfc06384cbd771b
+
+pkgname = woke-bin

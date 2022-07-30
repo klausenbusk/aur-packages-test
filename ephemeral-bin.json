@@ -1,0 +1,26 @@
+pkgbase = ephemeral-bin
+	pkgdesc = A private-by-default, always-incognito browser for elementary OS.
+	pkgver = 7.1.0
+	pkgrel = 1
+	url = https://github.com/cassidyjames/ephemeral
+	install = ephemeral-bin.install
+	arch = x86_64
+	license = GPL3
+	depends = dconf
+	depends = desktop-file-utils
+	depends = glib2>=2.49.2
+	depends = granite>=5.2.3
+	depends = gtk3>=3.22.29
+	depends = hicolor-icon-theme
+	depends = libdazzle>=3.25.3
+	depends = libgee>=0.8.3
+	depends = libsoup>=2.32.2
+	depends = webkit2gtk>=2.15.4
+	provides = ephemeral
+	conflicts = ephemeral
+	conflicts = ephemeral-git
+	source = http://packages.elementary.io/appcenter/pool/main/c/com.github.cassidyjames.ephemeral/com.github.cassidyjames.ephemeral7.1.0-d58474.deb
+	sha512sums = fecfbe8f2799844219306315f13f818895b4c39353173a76773b6fb529c34adaf410531e9e3711e71dda07fe2f68dd3f03c2a2ed8d5d1925a32f5ec301671e69
+
+pkgname = ephemeral-bin
+

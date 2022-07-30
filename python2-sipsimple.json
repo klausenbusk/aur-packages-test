@@ -1,0 +1,28 @@
+pkgbase = python2-sipsimple
+	pkgdesc = Python SDK for development of SIP end-points
+	pkgver = 3.5.0
+	pkgrel = 1
+	url = http://download.ag-projects.com/SipClient
+	arch = x86_64
+	license = custom:MIT
+	license = LGPL
+	depends = alsa-lib
+	depends = util-linux
+	depends = python2-dateutil
+	depends = cython2
+	depends = python2-cjson
+	depends = openssl
+	depends = python2-dnspython
+	depends = python2-eventlib
+	depends = python2-msrplib
+	depends = python2-xcaplib
+	depends = python2-otr
+	depends = ffmpeg
+	options = !makeflags
+	source = https://github.com/AGProjects/python-sipsimple/archive/release-3.5.0.tar.gz
+	source = pj_attr_gcc10.patch
+	sha512sums = 80ccededddb9a7eae229cb032bfd4e6a37ecf402a1ceded9fa592695f92fa458d2635a4484f2ef350e76fcb37736f0660535286b3f9535681e73c8791e3745cb
+	sha512sums = 60703259bb829f7b13cb3645f4cbaf6dd5662cada2c0f2f3765cfc74456f8e60c5001793aed59d71fd12c3d2abcbf12be3b4260e5ad6c061abdf3df8c9de0740
+
+pkgname = python2-sipsimple
+

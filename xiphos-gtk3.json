@@ -1,0 +1,28 @@
+pkgbase = xiphos-gtk3
+	pkgdesc = A Bible study tool - This version is built to use GTK3 and WebKit2GTK+.
+	pkgver = 4.0.6
+	pkgrel = 3
+	url = http://xiphos.org
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = gnome-common
+	makedepends = gnome-doc-utils
+	makedepends = intltool
+	makedepends = python2
+	depends = webkit2gtk
+	depends = libgsf
+	depends = gconf
+	depends = sword
+	depends = biblesync
+	depends = gtkhtml4
+	depends = festival
+	provides = gnomesword
+	provides = xiphos
+	conflicts = gnomesword
+	conflicts = xiphos
+	source = xiphos-4.0.6a.tar.gz::https://github.com/crosswire/xiphos/archive/4.0.6a.tar.gz
+	md5sums = f1941240e9ffaad57841628935f07306
+
+pkgname = xiphos-gtk3
+

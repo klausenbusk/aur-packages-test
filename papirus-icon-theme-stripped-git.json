@@ -1,0 +1,14 @@
+pkgbase = papirus-icon-theme-stripped-git
+	pkgdesc = Papirus icon theme, stripped to only base (default + dark) variations.
+	pkgver = 20220710.r0.g4921ccf
+	pkgrel = 1
+	url = https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+	arch = any
+	license = GPL3
+	makedepends = git
+	provides = papirus-icon-theme
+	conflicts = papirus-icon-theme
+	options = !strip
+	options = !emptydirs
+
+pkgname = papirus-icon-theme-stripped-git

@@ -1,0 +1,17 @@
+pkgbase = kas
+	pkgdesc = Setup tool for bitbake based projects
+	pkgver = 3.0.2
+	pkgrel = 1
+	url = https://github.com/siemens/kas
+	arch = any
+	license = CUSTOM
+	makedepends = python-setuptools
+	depends = python
+	depends = python-yaml
+	depends = python-distro
+	depends = python-jsonschema
+	depends = python-kconfiglib
+	source = kas-3.0.2.tar.gz::https://github.com/siemens/kas/archive/refs/tags/3.0.2.tar.gz
+	sha512sums = 4d6502442c5343cdb492c3857d0ebbab78666fc816d6060401fb0571b1db7bda68c4f85b0dd98b683a41ef0320ddd6909081eb3c4d36e32316cfd6c9d28c886a
+
+pkgname = kas

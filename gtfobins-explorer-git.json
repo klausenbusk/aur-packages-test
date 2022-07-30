@@ -1,0 +1,17 @@
+pkgbase = gtfobins-explorer-git
+	pkgdesc = Terminal explorer for GTFOBins web.
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/creep33/GTFOBins-Explorer.git
+	arch = x86_64
+	arch = i686
+	license = GPL
+	makedepends = git
+	makedepends = python2
+	makedepends = mdcat
+	makedepends = python2-pip
+	provides = gtfobins
+	source = git+https://github.com/creep33/GTFOBins-Explorer.git
+	md5sums = SKIP
+
+pkgname = gtfobins-explorer-git

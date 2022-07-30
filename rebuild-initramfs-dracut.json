@@ -1,0 +1,18 @@
+pkgbase = rebuild-initramfs-dracut
+	pkgver = 1.7.3
+	pkgrel = 1
+	url = https://github.com/xuanruiqi/rebuild-initramfs-dracut-arch
+	arch = any
+	license = MIT
+	source = rebuild-initramfs-dracut-1.7.3.tar.gz::https://github.com/xuanruiqi/rebuild-initramfs-dracut-arch/archive/1.7.3.tar.gz
+	sha256sums = 796aa436d468cf8e23a333dcc0ff230d6cd0224353a49e55832ce801c76ee0a5
+
+pkgname = rebuild-initramfs-dracut
+	pkgdesc = A helper script to rebuild initramfs images using dracut
+	depends = dracut
+	optdepends = sbsigntools: to sign kernel image
+
+pkgname = rebuild-initramfs-dracut-hook
+	pkgdesc = Install/remove hooks for dracut, based on rebuild-initramfs
+	depends = rebuild-initramfs-dracut
+	backup = etc/rebuild-initramfs.conf

@@ -1,0 +1,15 @@
+pkgbase = jpterm
+	pkgdesc = JMESPath Terminal
+	pkgver = 0.2.1
+	pkgrel = 2
+	url = https://github.com/jmespath/jmespath.terminal
+	arch = any
+	license = ASL 2.0
+	makedepends = python-setuptools
+	depends = python-jmespath
+	depends = python-pygments
+	depends = python-urwid
+	source = https://github.com/jmespath/jmespath.terminal/archive/0.2.1.tar.gz
+	sha256sums = 811d87d408ea4d3ab63a88226e09fd0b55a33b07ec7c1ef1434e8f7a647510b9
+
+pkgname = python-jpterm

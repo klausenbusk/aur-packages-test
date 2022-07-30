@@ -1,0 +1,14 @@
+pkgbase = python2-facebook-sdk
+	pkgdesc = Python SDK for Facebook's Graph API
+	pkgver = 3.1.0
+	pkgrel = 1
+	url = https://facebook-sdk.readthedocs.io/en/latest/
+	arch = any
+	license = Apache
+	makedepends = python2
+	depends = python2
+	source = https://pypi.python.org/packages/source/f/facebook-sdk/facebook-sdk-3.1.0.tar.gz
+	md5sums = f562687624fbcd5206f393ca7ecb50d3
+
+pkgname = python2-facebook-sdk
+

@@ -1,0 +1,18 @@
+pkgbase = vlc-plugin-fluidsynth
+	pkgdesc = FluidSynth plugin for VLC
+	pkgver = 3.0.8
+	pkgrel = 1
+	url = http://www.videolan.org/vlc/
+	install = notes.install
+	arch = x86_64
+	license = LGPL2.1
+	depends = vlc>3.0.0
+	depends = fluidsynth
+	optdepends = soundfont-fluid: FluidR3_GM soundfont
+	conflicts = vlc-plugin-fluidsynth-git
+	replaces = vlc-plugin-fluidsynth-git
+	source = libfluidsynth_plugin.so
+	md5sums = 5a258abe00f25da98ebaba318e4c2221
+
+pkgname = vlc-plugin-fluidsynth
+

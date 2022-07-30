@@ -1,0 +1,22 @@
+pkgbase = python2-pyteomics
+	pkgdesc = A framework for proteomics data analysis.
+	pkgver = 4.5.3
+	pkgrel = 1
+	url = https://pyteomics.readthedocs.io
+	changelog = CHANGELOG
+	arch = any
+	license = Apache
+	depends = python2
+	depends = python2-pip
+	optdepends = python2-matplotlib: for pylab_aux module
+	optdepends = python2-sqlalchemy: for mass.unimod module
+	optdepends = python2-pandas: for convenient filtering of CSV tables from search engines
+	optdepends = python2-lxml: for XML parsing modules
+	optdepends = python2-numpy: for most of features, highly recommended
+	optdepends = python2-dill: needed for multiprocessing when pickle is not enough
+	optdepends = python2-pynumpress: for Numpress support
+	options = !emptydirs
+	source = https://pypi.debian.net/pyteomics/pyteomics-4.5.3-py2.py3-none-any.whl
+	sha256sums = 2c61e53ccfb393ed4237f2e11cdaee663d86cbab2688fad5ccc869c52b2b2b6c
+
+pkgname = python2-pyteomics

@@ -1,0 +1,17 @@
+pkgbase = python2-lz4
+	pkgdesc = LZ4 bindings for Python 2
+	pkgver = 2.2.1
+	pkgrel = 4
+	url = https://github.com/python-lz4/python-lz4
+	arch = x86_64
+	license = BSD
+	checkdepends = python2-pytest
+	checkdepends = python2-psutil
+	makedepends = python2-setuptools-scm
+	makedepends = python2-pkgconfig
+	depends = python2
+	depends = python2-future
+	source = https://pypi.org/packages/source/l/lz4/lz4-2.2.1.tar.gz
+	sha512sums = 3f6400c0ac02182306fcb0e76fc78fdcec604bd89baa288c71261cce05350de244eb0d4263e4c1c1d647a529426beac409b3ff20c170c3ea19c7dd82cfae834b
+
+pkgname = python2-lz4

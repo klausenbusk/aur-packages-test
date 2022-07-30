@@ -1,0 +1,25 @@
+pkgbase = whipper
+	pkgdesc = A Unix CD ripper aiming for accuracy over speed -- forked from morituri
+	pkgver = 0.5.1
+	pkgrel = 2
+	url = https://github.com/JoeLametta/whipper
+	arch = any
+	license = GPL3
+	checkdepends = python2-twisted
+	makedepends = python2-gobject2
+	depends = accuraterip-checksum
+	depends = cddb-py
+	depends = cdparanoia
+	depends = cdrdao
+	depends = libsndfile
+	depends = mutagen
+	depends = python2-musicbrainzngs
+	depends = python2-pycdio
+	depends = python2-setuptools
+	depends = sox
+	conflicts = morituri
+	source = whipper-v0.5.1.tar.gz::https://github.com/JoeLametta/whipper/archive/v0.5.1.tar.gz
+	sha512sums = 0df0cd9934c344617a15c12f21e333d7b5d270c904d70df9930b24188c5657aed8bedd202acda59990143fafe9c27b2ee880939d034be52259cc143423d04348
+
+pkgname = whipper
+

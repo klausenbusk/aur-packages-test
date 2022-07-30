@@ -1,0 +1,16 @@
+pkgbase = gnome-shell-extension-arch-update
+	pkgdesc = Convenient indicator for Arch Linux updates in GNOME Shell.
+	pkgver = 47
+	pkgrel = 1
+	url = https://github.com/RaphaelRochet/arch-update
+	arch = any
+	license = GPL3
+	depends = fakeroot
+	depends = gnome-shell
+	depends = pacman-contrib
+	conflicts = gnome-shell-extensions-git
+	source = gnome-shell-extension-arch-update-47.tar.gz::https://github.com/RaphaelRochet/arch-update/archive/v47.tar.gz
+	sha512sums = c9aed4da2d5c1a352228d1a8f17a73567e3d77267dd373240b297c66369c2780998b79f624156a71e37665f57f7644a1c3ce8a4e8dbb4d20e3169e3b9a41aa7a
+
+pkgname = gnome-shell-extension-arch-update
+

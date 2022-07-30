@@ -1,0 +1,14 @@
+pkgbase = pacwatch
+	pkgdesc = A pacman wrapper which helps you watch important package updates
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/ouuan/pacwatch
+	arch = any
+	license = Apache
+	depends = python-yaml
+	depends = python-appdirs
+	depends = python-termcolor
+	source = pacwatch-1.1.0.py::https://github.com/ouuan/pacwatch/raw/1.1.0/pacwatch.py
+	sha256sums = 5ec26dbda6fcade749a5b51aae07bdc63f1350c8fa0802b5f4036299196cc8a1
+
+pkgname = pacwatch

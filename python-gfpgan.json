@@ -1,0 +1,34 @@
+pkgbase = python-gfpgan
+	pkgdesc = GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.
+	pkgver = 1.3.2
+	pkgrel = 1
+	url = https://github.com/TencentARC/GFPGAN
+	arch = x86_64
+	license = Apache 2.0
+	makedepends = python-setuptools
+	depends = python-pytorch
+	depends = python-numpy
+	depends = python-opencv
+	depends = python-torchvision
+	depends = python-scipy
+	depends = python-tqdm
+	depends = python-basicsr
+	depends = python-facexlib
+	depends = python-lmdb
+	depends = python-pyaml
+	depends = tensorboard
+	depends = yapf
+	source = https://github.com/TencentARC/GFPGAN/archive/refs/tags/v1.3.2.tar.gz
+	source = https://github.com/TencentARC/GFPGAN/releases/download/v0.2.0/GFPGANCleanv1-NoCE-C2.pth
+	source = https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth
+	sha256sums = 9c8b380fa4391c11d9393cf5314f7bf843cbf694ee4ee499e5105e9293c0f59d
+	sha256sums = 29e25ee90c170f4231163f4c83df6b59c968b73f3ce00cb884015ae005db083c
+	sha256sums = c953a88f2727c85c3d9ae72e2bd4846bbaf59fe6972ad94130e23e7017524a70
+
+pkgname = python-gfpgan
+	optdepends = gfpgan-model: pre-trained model and inference script
+	optdepends = python-realesrgan: enhance the background (non-face) regions
+
+pkgname = gfpgan-model
+	pkgdesc = Pre-trained model and interference script for python-gfpgan.
+	depends = python-gfpgan

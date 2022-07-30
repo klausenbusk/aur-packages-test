@@ -1,0 +1,22 @@
+pkgbase = perl-padre-plugin-snippet
+	pkgdesc = Padre::Plugin::Snippet - TextMate-like snippets for Padre
+	pkgver = 0.01
+	pkgrel = 3
+	url = https://metacpan.org/release/Padre-Plugin-Snippet
+	arch = any
+	license = GPL
+	license = PerlArtistic
+	makedepends = perl
+	depends = perl-padre
+	depends = perl-moose
+	depends = perl-yaml
+	provides = perl-padre-plugin-snippet-document
+	provides = perl-padre-plugin-snippet-fbp-preferences
+	provides = perl-padre-plugin-snippet-preferences
+	provides = perl-padre-plugin-snippet-role-needspluginevent
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/A/AZ/AZAWAWI/Padre-Plugin-Snippet-0.01.tar.gz
+	sha256sums = 3eddfdebbd475d12dc8d970abe874b95c1f7489749937e3a18ee9aca965354bd
+
+pkgname = perl-padre-plugin-snippet
+

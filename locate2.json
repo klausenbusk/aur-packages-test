@@ -1,0 +1,16 @@
+pkgbase = locate2
+	pkgdesc = Better locate/plocate, search inside local path
+	pkgver = 0.0.2
+	pkgrel = 1
+	arch = any
+	license = GPL3
+	depends = bash
+	depends = mlocate
+	depends = coreutils
+	optdepends = plocate
+	optdepends = perl
+	source = locate2.sh
+	md5sums = ae7b3c6de2370c69a0819cc59277ac71
+
+pkgname = locate2
+

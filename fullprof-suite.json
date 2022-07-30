@@ -1,0 +1,19 @@
+pkgbase = fullprof-suite
+	pkgdesc = Crystallographic tools for Rietveld, profile matching & integrated intensity refinements of X-Ray and/or neutron data.
+	pkgver = 2019.10.21
+	pkgrel = 1
+	url = https://www.ill.eu/sites/fullprof
+	arch = x86_64
+	groups = science
+	license = custom
+	depends = gcc-libs
+	depends = libpng12
+	provides = fullprof
+	conflicts = fullprof
+	source = file://FullProf_Suite_October2019_Linux64.tgz
+	source = fullprof-suite.sh
+	md5sums = 75203ccd14a79954c61c6bf9178954cc
+	md5sums = fe1d636103b65f8e6455fa82ff96cc64
+
+pkgname = fullprof-suite
+

@@ -1,0 +1,19 @@
+pkgbase = lampswitch
+	pkgdesc = Indicator and control applet for web services
+	pkgver = 20.10.27
+	pkgrel = 1
+	url = https://tari.in/www/software/lampswitch
+	install = lampswitch.install
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python-polib
+	depends = gobject-introspection
+	depends = gtk3
+	depends = python-gobject
+	depends = libayatana-appindicator
+	depends = desktop-file-utils
+	source = lampswitch-20.10.27.tar.gz::https://github.com/tari01/lampswitch/archive/20.10.27.tar.gz
+	md5sums = 01433ed4e68cab02464daf2d87256f03
+
+pkgname = lampswitch

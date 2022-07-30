@@ -1,0 +1,15 @@
+pkgbase = python-enum-compat
+	pkgdesc = enum/enum34 compatibility package
+	pkgver = 0.0.3
+	pkgrel = 1
+	url = https://github.com/jstasiak/enum-compat
+	arch = any
+	license = MIT
+	makedepends = python3
+	makedepends = python-setuptools
+	depends = python
+	source = https://github.com/jstasiak/enum-compat/archive/0.0.3.tar.gz
+	md5sums = a7b5e9191c0108e0b52e7d470e7a994e
+
+pkgname = python-enum-compat
+

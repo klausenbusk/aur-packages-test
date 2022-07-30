@@ -1,0 +1,37 @@
+pkgbase = ntpsec
+	pkgdesc = Security-hardened Network Time Protocol implementation
+	pkgver = 1.2.1
+	pkgrel = 0
+	url = https://www.ntpsec.org/
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = custom
+	makedepends = asciidoc
+	makedepends = pps-tools
+	makedepends = w3m
+	makedepends = binutils
+	depends = avahi
+	depends = libbsd
+	depends = python
+	optdepends = gnuplot: for ntpviz
+	optdepends = libevent: for ntpdig
+	optdepends = python-psutil: Optional for ntpviz, allows running with ionice
+	optdepends = ttf-liberation: Improves font quality in ntpviz renderings
+	provides = ntp
+	conflicts = ntp
+	backup = etc/ntp.conf
+	backup = etc/ntp.d/default.conf
+	backup = etc/ntp.d/use-pool
+	source = ftp://ftp.ntpsec.org/pub/releases/ntpsec-1.2.1.tar.gz
+	source = ftp://ftp.ntpsec.org/pub/releases/ntpsec-1.2.1.tar.gz.asc
+	source = use-arch-pool.patch
+	source = ntpsec.sysusers
+	validpgpkeys = E57235D22764129FA4F2F4D17F52608ED0E49D76
+	sha512sums = 0b8b0bda52d3025f6e9a06c00b1e0c25c595ada72b87ed0e5d3d6f77a034f557745156bc6d9a263c9876c041efffa38d42fa93ba8bfda31f67efbd842a726277
+	sha512sums = 9f5da76dc538aeee3fcd34f18b29566a122d2a08f5070ec662f7e1ddbd0f3518f9350479fc121afa9f7b55f107d1864f30ced564ae6ee6ef7cdb8b44f694d157
+	sha512sums = 7edb1d2dd41b135fa489de1802ea9b4079e9cb6556fa6457924bf7363bef7375987b9e4bb6507730ad906199ba55a44103d0655ad1f517b0426083be5b3e218c
+	sha512sums = ac4ce13fe88a383382abb92cb34ab231467cbc9dcb8ac8780480d467f295ddf65e217b6415bbadabd8c7ac9832b0fd9058b837946aa2d5dcfd9f3bb81cff6b31
+
+pkgname = ntpsec
+

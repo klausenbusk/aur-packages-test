@@ -1,0 +1,27 @@
+pkgbase = teamviewer14
+	pkgdesc = All-In-One Software for Remote Support and Online Meetings
+	pkgver = 14.7.39531
+	pkgrel = 1
+	url = http://www.teamviewer.com
+	install = teamviewer.install
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = custom
+	depends = hicolor-icon-theme
+	depends = qt5-webkit
+	depends = qt5-x11extras
+	depends = qt5-quickcontrols
+	provides = teamviewer
+	conflicts = teamviewer-beta
+	conflicts = teamviewer
+	options = !strip
+	source_i686 = https://dl.teamviewer.com/download/linux/version_14x/teamviewer_14.7.39531_i386.deb
+	sha256sums_i686 = 477f31ce43d76bf3c59fbe4dafda815811c775bc95dfc5f5e2d6fb9f044d474d
+	source_x86_64 = https://dl.teamviewer.com/download/linux/version_14x/teamviewer_14.7.39531_amd64.deb
+	sha256sums_x86_64 = d5877a44a2498c628b24d52a136a6e5b4e77fbfbe87dd3618db03bbb65908dac
+	source_armv7h = https://dl.teamviewer.com/download/linux/version_14x/teamviewer-host_14.7.39531_armhf.deb
+	sha256sums_armv7h = 34048ef8b1c62c88593ee495fcae606f9ef83ea72ec0fb6f2907b1b75c220987
+
+pkgname = teamviewer14
+

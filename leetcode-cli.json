@@ -1,0 +1,14 @@
+pkgbase = leetcode-cli
+	pkgdesc = A command line tool to manage LeetCode challenges
+	pkgver = 0.3.11
+	pkgrel = 1
+	epoch = 1
+	url = https://crates.io/crates/leetcode-cli
+	arch = any
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = leetcode-cli-0.3.11.tar.gz::https://static.crates.io/crates/leetcode-cli/leetcode-cli-0.3.11.crate
+	sha512sums = 8968000cd24f132e973f183ec8de0f8062b86a373868ad3c8b32695f1079b4fdf05b2a3096252a451a46e5c9b792f483990c351f36deddf31b0f0e86193d6406
+
+pkgname = leetcode-cli

@@ -1,0 +1,20 @@
+pkgbase = grisbi-git
+	pkgdesc = Personal financial management program - Development version
+	pkgver = 2.0.5.r465.g793456cc3
+	pkgrel = 1
+	epoch = 1
+	url = http://www.grisbi.org
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	makedepends = intltool
+	makedepends = libgsf
+	depends = gtk3
+	optdepends = libofx: for OFX support
+	provides = grisbi
+	conflicts = grisbi
+	replaces = grisbi
+	source = grisbi-git::git+https://github.com/grisbi/grisbi.git
+	sha256sums = SKIP
+
+pkgname = grisbi-git

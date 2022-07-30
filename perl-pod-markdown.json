@@ -1,0 +1,17 @@
+pkgbase = perl-pod-markdown
+	pkgdesc = Convert POD to Markdown
+	pkgver = 3.300
+	pkgrel = 1
+	url = https://metacpan.org/release/Pod-Markdown
+	arch = any
+	license = GPL
+	license = PerlArtistic
+	checkdepends = perl-test-differences
+	depends = perl>=5.8.0
+	depends = perl-uri
+	optdepends = perl-html-parser: for nicer encoding of HTML entities
+	options = !emptydirs
+	source = http://www.cpan.org/authors/id/R/RW/RWSTAUNER/Pod-Markdown-3.300.tar.gz
+	sha256sums = ec79e9908a3605749c4feb5054763eb6812dd33b54ce85a51339aa7cf9991b79
+
+pkgname = perl-pod-markdown

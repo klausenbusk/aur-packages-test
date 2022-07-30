@@ -1,0 +1,16 @@
+pkgbase = src
+	pkgdesc = Simple Revision Control with modern UI for single-file projects
+	pkgver = 1.29
+	pkgrel = 1
+	url = http://www.catb.org/esr/src/
+	arch = any
+	license = BSD
+	makedepends = asciidoc
+	depends = python
+	depends = rcs
+	optdepends = rcs-fast-import: required for src fast-import
+	optdepends = sccs: alternative backend
+	source = https://gitlab.com/esr/src/-/archive/1.29/src-1.29.tar.gz
+	b2sums = 3ba27ca2873bf09947770c8bcb8ce4b807f3cded24195988cf73074a725fbcb881636e7a31bef560f2440b6c8951e68cd08c2400f2675e6936310d9063b08019
+
+pkgname = src

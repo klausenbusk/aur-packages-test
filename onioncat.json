@@ -1,0 +1,18 @@
+pkgbase = onioncat
+	pkgdesc = OnionCat is a VPN-adapter, which uses Tor or I2P as its transport.
+	pkgver = 0.3.9
+	pkgrel = 1
+	url = https://www.onioncat.org/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	depends = tor
+	depends = net-tools
+	source = https://www.cypherpunk.at/ocat/download/Source/current/onioncat-0.3.9.tar.gz
+	source = https://www.cypherpunk.at/ocat/download/Source/current/onioncat-0.3.9.tar.gz.asc
+	validpgpkeys = 98678E06063007E4A1F0B9C59BD601668E24F29D
+	sha512sums = 0b036e4de92877c5e15288a736217bec6e59fccebe6e13063200b13e7d0e80dcfa38ccf36cf9507cbdba9c700d47171a1a65ba96fffd25de6fe23bea980d7a15
+	sha512sums = SKIP
+
+pkgname = onioncat
+

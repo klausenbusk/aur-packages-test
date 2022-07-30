@@ -1,0 +1,28 @@
+pkgbase = webkitgtk2-bin
+	pkgdesc = Legacy Web content engine for GTK+ 3 (precompiled).
+	pkgver = 2.4.11
+	pkgrel = 26
+	epoch = 3
+	url = https://webkitgtk.org/
+	arch = x86_64
+	license = custom
+	depends = enchant>=2.2
+	depends = geoclue2
+	depends = gst-plugins-base-libs
+	depends = gtk2
+	depends = harfbuzz-icu
+	depends = libgl
+	depends = libsecret
+	depends = libwebp
+	depends = libxslt
+	depends = libxt
+	optdepends = gst-libav: nonfree media decoding
+	optdepends = gst-plugins-base: free media decoding
+	optdepends = gst-plugins-good: media decoding
+	provides = webkitgtk2=3:2.4.11
+	conflicts = webkitgtk2
+	options = !emptydirs
+	source = https://github.com/frealgagu/archlinux.webkitgtk2/releases/download/3_2.4.11-26/webkitgtk2-3.2.4.11-26-x86_64.pkg.tar.zst
+	sha256sums = 5ad70724992f26882b33ce0f3fcc6365805813d59aa1aaca1b87537a20d34481
+
+pkgname = webkitgtk2-bin

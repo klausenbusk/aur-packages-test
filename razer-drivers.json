@@ -1,0 +1,10 @@
+pkgbase = razer-drivers
+	pkgdesc = LEGACY PACKAGE
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/openrazer/openrazer
+	arch = any
+	license = GPL2
+
+pkgname = openrazer-legacy
+

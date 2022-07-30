@@ -1,0 +1,18 @@
+pkgbase = python-ldap3
+	pkgdesc = A strictly RFC 4510 conforming LDAP V3 pure Python client.
+	pkgver = 2.4
+	pkgrel = 1
+	url = https://github.com/cannatag/ldap3
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	license = LGPL
+	makedepends = python-setuptools
+	depends = python
+	depends = python-pyasn1
+	source = https://github.com/cannatag/ldap3/archive/v2.4.tar.gz
+	md5sums = 677efe61098f7ec7fec3778c9a7f816a
+	sha256sums = 3ab0fa291e434adb1fa020d010caebbf58b9596ef4bc93a0f3d9d11a366e2869
+
+pkgname = python-ldap3
+

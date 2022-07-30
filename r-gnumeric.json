@@ -1,0 +1,15 @@
+pkgbase = r-gnumeric
+	pkgdesc = Read Data from Files Readable by gnumeric
+	pkgver = 0.7.8
+	pkgrel = 1
+	url = https://cran.r-project.org/package=gnumeric
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-xml
+	replaces = r-cran-gnumeric
+	source = https://cran.r-project.org/src/contrib/gnumeric_0.7-8.tar.gz
+	md5sums = 7293c0fe13280ae320dac355f6b10539
+
+pkgname = r-gnumeric
+

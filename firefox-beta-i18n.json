@@ -1,0 +1,11 @@
+pkgbase = firefox-beta-i18n
+	pkgdesc = Defunct package; long-unmaintained firefox-beta has been deleted. Use firefox-developer-edition (contains beta).
+	pkgver = 102.0b4
+	pkgrel = 1
+	url = https://www.mozilla.org/firefox/
+	arch = any
+	license = MPL
+	license = GPL
+	license = LGPL
+
+pkgname = firefox-beta-i18n

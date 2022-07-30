@@ -1,0 +1,20 @@
+pkgbase = python-pygame
+	pkgdesc = Python game library
+	pkgver = 1.9.6
+	pkgrel = 1
+	url = http://www.pygame.org
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = python-setuptools
+	depends = python
+	depends = sdl_mixer
+	depends = sdl_ttf
+	depends = sdl_image
+	depends = portmidi
+	provides = python-pygame
+	source = https://files.pythonhosted.org/packages/source/p/pygame/pygame-1.9.6.tar.gz
+	md5sums = 36f8817874f9e63acdf12914340b60e9
+
+pkgname = python-pygame
+

@@ -1,0 +1,15 @@
+pkgbase = eiota
+	pkgdesc = A simple python script to simplify BLIH usage for Epitech students.
+	pkgver = 2.2.1
+	pkgrel = 1
+	url = https://github.com/mrCaelum/eiota
+	arch = any
+	license = MIT
+	depends = python>=3.3.0
+	depends = python-requests
+	depends = git
+	source = eiota-2.2.1.tar.gz::https://github.com/mrCaelum/eiota/releases/latest/download/v2.2.1.tar.gz
+	sha256sums = bf819215a60a6e22f0f7573a84db108fa0fc0f71979917062bbf9087a26f7bfa
+
+pkgname = eiota
+

@@ -1,0 +1,16 @@
+pkgbase = tutanota
+	pkgdesc = Web-based client for Tutanota's end-to-end encrypted mail service
+	pkgver = 2.15.2
+	pkgrel = 1
+	url = https://tutanota.com
+	arch = any
+	license = GPL3
+	makedepends = npm
+	makedepends = gulp
+	source = https://github.com/tutao/tutanota/archive/tutanota-release-2.15.2.tar.gz
+	source = update-karma.patch
+	sha256sums = 5d5ef69b3264e314b6d19a0269628711e16d799e27c46a76d3ad49a022fb2d84
+	sha256sums = 888670d1c21308dae183639179655a0f23e3ec778a3f429a76c745e42f4e01a7
+
+pkgname = tutanota
+

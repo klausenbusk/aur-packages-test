@@ -1,0 +1,14 @@
+pkgbase = zivid-telicam-sdk
+	pkgdesc = Defining the Future of 3D Machine Vision
+	pkgver = 2.0.0.1_1
+	pkgrel = 1
+	url = https://www.zivid.com
+	arch = x86_64
+	groups = zivid-all
+	license = custom
+	options = !strip
+	source = https://www.zivid.com/hubfs/softwarefiles/releases/1.4.0+956f554d-12/u18/telicam-sdk_2.0.0.1-1_amd64.deb
+	sha256sums = 289ca98cfc935e018572aa85f3566b05576a84867e8d6b20498999d64abe4eca
+
+pkgname = zivid-telicam-sdk
+

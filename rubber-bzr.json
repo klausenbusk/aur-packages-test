@@ -1,0 +1,21 @@
+pkgbase = rubber-bzr
+	pkgdesc = A wrapper for LaTeX and friends, latest bzr version.
+	pkgver = 731
+	pkgrel = 1
+	url = https://launchpad.net/rubber
+	install = rubber.install
+	arch = any
+	license = GPL
+	makedepends = bzr
+	makedepends = texinfo
+	makedepends = texlive-plainextra
+	depends = python2
+	depends = texlive-core
+	provides = rubber
+	conflicts = rubber
+	replaces = rubber-darcs
+	source = rubber::bzr+http://bazaar.launchpad.net/~rubber-devs/rubber/main/
+	sha512sums = SKIP
+
+pkgname = rubber-bzr
+

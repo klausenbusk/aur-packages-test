@@ -1,0 +1,12 @@
+pkgbase = vilearn
+	pkgdesc = An interactive vi tutorial.
+	pkgver = 1.1
+	pkgrel = 2
+	url = https://tildegit.org/libele/vilearn
+	arch = any
+	license = custom:Copyright
+	optdepends = vi: the original ex/vi text editor
+	source = https://tildegit.org/libele/vilearn/archive/vilearn-1.1.tar.gz
+	b2sums = f4ef596543b8d777990205129061c8417e457de41283cb58d51aba491f0382f8fec740c34919a9712472692f104a36805d6efdae7ee6e5bb9b649bb5170894fa
+
+pkgname = vilearn

@@ -1,0 +1,33 @@
+pkgbase = dockbarx
+	pkgdesc = TaskBar with groupping and group manipulation
+	pkgver = 1.0beta+r858+d98020e
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/M7S/dockbarx
+	install = dockbarx.install
+	arch = i688
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python-polib
+	makedepends = git
+	depends = libkeybinder3
+	depends = python-cairo
+	depends = python-dbus
+	depends = python-gobject
+	depends = python-pillow
+	depends = python-xlib
+	depends = python-xdg
+	optdepends = mate-panel: mate applet
+	optdepends = zeitgeist: recently used file list
+	optdepends = xfce4-dockbarx-plugin>=0.6: xfce4-panel plugin
+	optdepends = python-pyudev: dockx battery applet
+	optdepends = gconf: export settings from older versions of dockbarx
+	optdepends = python-lxml: import settings script
+	source = dockbarx::git+https://github.com/xuzhen/dockbarx.git#commit=d98020ec49f3e3a5692ab2adbb145bbe5a1e80fe
+	sha256sums = SKIP
+
+pkgname = dockbarx
+

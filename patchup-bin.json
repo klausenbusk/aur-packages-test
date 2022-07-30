@@ -1,0 +1,14 @@
+pkgbase = patchup-bin
+	pkgdesc = A tool to compute and apply binary patches for files and directories
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/patchup/cli
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	provides = patchup
+	conflicts = patchup
+	source = https://github.com/patchup/cli/releases/download/0.1.0/patchup-cli-bin.tar.gz
+	sha256sums = 946ff094ac765a31a69fed314d5d78b650aa2d6ff84397e41c15a50ebaad6a59
+
+pkgname = patchup-bin

@@ -1,0 +1,31 @@
+pkgbase = python-astlib
+	pkgdesc = A set of Python modules that provides some tools for research astronomers
+	pkgver = 0.11.7
+	pkgrel = 1
+	url = https://astlib.readthedocs.io
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = python-setuptools
+	makedepends = wcstools-all
+	makedepends = swig
+	makedepends = python-sphinx-epytext
+	makedepends = python-readthedocs-sphinx-ext
+	makedepends = python-sphinx_rtd_theme
+	makedepends = python-astropy
+	makedepends = python-scipy
+	makedepends = python-matplotlib
+	source = https://files.pythonhosted.org/packages/source/a/astLib/astLib-0.11.7.tar.gz
+	source = use_system_wcstools.patch
+	sha256sums = d6a9ab522a93c706810ad4d099026ddb2e492af661df5daf0e2dd45d9d31bc1f
+	sha256sums = cb8e9bfabc91992c49daae7d5bc6a476caedd5c3b5c60f26f32bcbb216daf6cd
+
+pkgname = python-astlib
+	depends = python-scipy
+	depends = python-matplotlib
+	depends = python-astropy
+	depends = wcstools-all
+	optdepends = python-astlib-doc: Documentation for astLib
+
+pkgname = python-astlib-doc
+	pkgdesc = Documentation for astLib

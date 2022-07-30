@@ -1,0 +1,17 @@
+pkgbase = thumbs
+	pkgdesc = Copy/pasting like vimium/vimperator
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/fcsonline/tmux-thumbs
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	depends = gcc-libs
+	optdepends = bash: for tmux integration
+	optdepends = tmux: for tmux integration
+	source = thumbs-0.6.0.tar.gz::https://static.crates.io/crates/thumbs/thumbs-0.6.0.crate
+	source = 0001-Global-install.patch
+	b2sums = 706833eba52a29ddde6d8fc400de547c90c6a7552eca82392d026a4cb535f166c7065804ea39fed7099f45c6f9c7ffcdc02e1594a73f441dbf4d446bcc4197e8
+	b2sums = 2161a433de291d3b6bce06e96750f44fbbb042fb26a568f022cf4fd1dfc7af2ecb2b1452032a6447b6459f4b80a7f6bee739d8af1769bd0e5c75cd318fd2682a
+
+pkgname = thumbs

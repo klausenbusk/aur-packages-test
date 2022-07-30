@@ -1,0 +1,12 @@
+pkgbase = python-flask-paginate
+	pkgdesc = A simple paginate extension for flask
+	pkgver = 2022.1.8
+	pkgrel = 1
+	url = https://pypi.org/project/flask-paginate
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	source = https://files.pythonhosted.org/packages/source/f/flask-paginate/flask-paginate-2022.1.8.tar.gz
+	b2sums = 8c15dabd34a489f9f823178f4f4310eb5157bee8afd46542bd58ddff1af8caa9595e544dbb22ace3473ef4fe8ff5c995f39e9d80e79531cce8169a97cd59c565
+
+pkgname = python-flask-paginate

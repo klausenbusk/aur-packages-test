@@ -1,0 +1,23 @@
+pkgbase = perl-html-socialmeta
+	pkgdesc = Module to generate Social Media Meta Tags,
+	pkgver = 0.74004
+	pkgrel = 1
+	url = https://metacpan.org/release/HTML-SocialMeta
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	checkdepends = perl-test-exception>=0
+	depends = perl-coerce-types-standard>=0.000004
+	depends = perl-list-moreutils>=0.33
+	depends = perl-moo>=1.001001
+	depends = perl-moox-lazierattributes>=1.05
+	depends = perl-moox-validatesubs>=1.012001
+	depends = perl-type-tiny>=1.002000
+	depends = perl>=5.006
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/L/LN/LNATION/HTML-SocialMeta-0.74004.tar.gz
+	md5sums = afeb55c843aa2ac93c17f688e2f749be
+	sha512sums = 3a47dd810a72329982d617aba87bfae21eeb83aab2edef3500da09fef592f73808d253267336fbd1e53def8e80cf03e5b73e6a8e6dc73b1cb1b682f53cef8159
+
+pkgname = perl-html-socialmeta
+

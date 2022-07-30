@@ -1,0 +1,14 @@
+pkgbase = python-shlib
+	pkgdesc = Shell library
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://github.com/KenKundert/shlib
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	depends = python-braceexpand
+	depends = python-inform
+	source = https://files.pythonhosted.org/packages/source/s/shlib/shlib-1.4.0.tar.gz
+	sha256sums = 04edc96c40b38c0012bbff83034890de24dc0cde1197f3e1f7df54763d3031af
+
+pkgname = python-shlib

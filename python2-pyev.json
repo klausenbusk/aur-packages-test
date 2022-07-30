@@ -1,0 +1,17 @@
+pkgbase = python2-pyev
+	pkgdesc = Python2 libev interface
+	pkgver = 0.9.5
+	pkgrel = 1
+	url = https://pypi.org/project/pyev-static
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = python2-setuptools
+	depends = glibc
+	depends = libev
+	depends = python2
+	source = https://pypi.python.org/packages/source/p/pyev-static/pyev-static-0.9.5.tar.gz
+	md5sums = 32b8925a25d4ef3f5c80f5b2f5250fd0
+
+pkgname = python2-pyev
+

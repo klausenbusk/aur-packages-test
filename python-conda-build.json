@@ -1,0 +1,33 @@
+pkgbase = python-conda-build
+	pkgdesc = Commands and tools for building conda packages
+	pkgver = 3.20.5
+	pkgrel = 1
+	url = http://conda.pydata.org/docs/building/build.html
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = patchelf
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-chardet
+	depends = python-conda
+	depends = python-conda-verify
+	depends = python-filelock
+	depends = python-future
+	depends = python-glob2-git
+	depends = python-jinja
+	depends = python-libarchive-c
+	depends = python-pkginfo
+	depends = python-psutil
+	depends = python-pytz
+	depends = python-requests
+	depends = python-six
+	depends = python-tqdm
+	depends = python-yaml
+	provides = conda-build
+	options = !emptydirs
+	source = https://github.com/conda/conda-build/archive/3.20.5.tar.gz
+	sha512sums = e8e96fceb0cb529050d3a8c0d45f9c46ad2d444b146aefc0bebb0ee4cfc7834b2f996b3bbec12e95375594b7139b08cf466955c96e833ef154f4b8fdbcc32567
+
+pkgname = python-conda-build
+

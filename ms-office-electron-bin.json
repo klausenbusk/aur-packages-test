@@ -1,0 +1,26 @@
+pkgbase = ms-office-electron-bin
+	pkgdesc = An Unofficial Microsoft Office Online Desktop Client. Free of Cost.
+	pkgver = 0.7.2
+	pkgrel = 1
+	url = https://github.com/agam778/MS-Office-Electron
+	arch = x86_64
+	license = MIT
+	depends = libxcrypt-compat
+	depends = at-spi2-core
+	depends = desktop-file-utils
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libappindicator-gtk3
+	depends = libnotify
+	depends = libsecret
+	depends = libxss
+	depends = libxtst
+	depends = util-linux-libs
+	depends = xdg-utils
+	provides = ms-office-electron
+	provides = MS-Office-Electron
+	conflicts = ms-office-electron-git
+	source = https://github.com/agam778/MS-Office-Electron/releases/download/v0.7.2/MS-Office-Electron-Setup-v0.7.2-linux-amd64.deb
+	sha512sums = SKIP
+
+pkgname = ms-office-electron-bin

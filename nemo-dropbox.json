@@ -1,0 +1,21 @@
+pkgbase = nemo-dropbox
+	pkgdesc = Dropbox for Linux - Nemo extension
+	pkgver = 5.4.1
+	pkgrel = 1
+	url = https://github.com/linuxmint/nemo-extensions
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	groups = nemo-extensions
+	license = custom:CC-BY-ND-3
+	license = GPL
+	makedepends = meson
+	makedepends = samurai
+	depends = nemo
+	depends = dropbox
+	depends = polkit
+	source = nemo-extensions-5.4.1.tar.gz::https://github.com/linuxmint/nemo-extensions/archive/5.4.1.tar.gz
+	sha256sums = 6a0b83e6a9129c7217c29fbc992109d8f6eedbe8f076da863c507c0005182404
+
+pkgname = nemo-dropbox

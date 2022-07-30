@@ -1,0 +1,16 @@
+pkgbase = python-resumable-urlretrieve
+	pkgdesc = Small library to fetch files over HTTP and resuming their download
+	pkgver = 0.1.5
+	pkgrel = 1
+	url = https://github.com/berdario/resumable-urlretrieve
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python-setuptools
+	depends = python
+	depends = python-requests
+	source = https://github.com/berdario/resumable-urlretrieve/archive/0.1.5.tar.gz
+	md5sums = 438bb4c65bbf7ceee025cd1228f4674a
+
+pkgname = python-resumable-urlretrieve
+

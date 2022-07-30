@@ -1,0 +1,17 @@
+pkgbase = saladbind-git
+	pkgdesc = A tool for Salad to customize your miner [git version]
+	pkgver = 1.7.8.r2.g41cc995
+	pkgrel = 1
+	url = https://github.com/vtheskeleton/SaladBind
+	arch = x86_64
+	license = GPL3
+	makedepends = nodejs
+	makedepends = npm
+	makedepends = git
+	provides = saladbind
+	conflicts = saladbind
+	options = !strip
+	source = git+https://github.com/vtheskeleton/SaladBind.git
+	sha256sums = SKIP
+
+pkgname = saladbind-git

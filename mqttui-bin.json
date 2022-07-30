@@ -1,0 +1,23 @@
+pkgbase = mqttui-bin
+	pkgdesc = Subscribe to a MQTT Topic or publish something quickly from the terminal
+	pkgver = 0.16.2
+	pkgrel = 1
+	url = https://github.com/EdJoPaTo/mqttui
+	arch = x86_64
+	arch = aarch64
+	arch = armv6h
+	arch = armv7h
+	license = GPL3
+	depends = gcc-libs
+	provides = mqttui
+	conflicts = mqttui
+	source_x86_64 = https://github.com/EdJoPaTo/mqttui/releases/download/v0.16.2/mqttui-v0.16.2-x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = 180f62e9c4d23b239cbe523a585aa31c47b2d24300ea4cd7e5aa29d83cb02cec
+	source_aarch64 = https://github.com/EdJoPaTo/mqttui/releases/download/v0.16.2/mqttui-v0.16.2-aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = cbaf568a80c5b0f6b2a3d2a539b3476fce6567bb2f6271dec619250cfc5709fe
+	source_armv6h = https://github.com/EdJoPaTo/mqttui/releases/download/v0.16.2/mqttui-v0.16.2-arm-unknown-linux-gnueabihf.tar.gz
+	sha256sums_armv6h = f2ca7f7b2889d93c4f649478f4ad9cbd086f85610ac884e4806568797bf7eeb2
+	source_armv7h = https://github.com/EdJoPaTo/mqttui/releases/download/v0.16.2/mqttui-v0.16.2-armv7-unknown-linux-gnueabihf.tar.gz
+	sha256sums_armv7h = 82942e3e5750141dcdc66b681a55a9a400e38fec9510f8d1cbda897e394beda3
+
+pkgname = mqttui-bin

@@ -1,0 +1,26 @@
+pkgbase = waterfox-alpha-bin
+	pkgdesc = 64-bit Firefox fork; no telemetry; supports XUL & XPCOM (incl. unsigned) add-ons.
+	pkgver = 68.0a1
+	pkgrel = 4
+	url = https://www.waterfoxproject.org/
+	arch = x86_64
+	license = MPL
+	depends = libxt
+	depends = libnotify
+	depends = mime-types
+	depends = nss
+	depends = gtk2
+	depends = gtk3
+	depends = sqlite
+	depends = dbus-glib
+	optdepends = alsa-lib
+	optdepends = pulseaudio
+	provides = waterfox-alpha
+	conflicts = waterfox-alpha
+	source = waterfox-alpha.desktop
+	source = https://storage-waterfox.netdna-ssl.com/Waterfox/aurora/Linux/waterfox-68.0a1.en-US.linux-x86_64.tar.bz2
+	sha256sums = ef13a31b848b3f3ad153bff3c3a97c1ec1576c57b705d7c8fbc84fb3ef87a129
+	sha256sums = 6ed7b01d35e8ffa7cc6a238afce7f654aae64683ff47aa77d40f78acd7151c45
+
+pkgname = waterfox-alpha-bin
+

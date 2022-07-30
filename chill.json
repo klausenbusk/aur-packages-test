@@ -1,0 +1,14 @@
+pkgbase = chill
+	pkgdesc = nice and ionice as a single utility
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/xyproto/chill
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = go
+	source = git+https://github.com/xyproto/chill#commit=8917528605ab571c8a7c2f49b51cb2dc54590e90
+	sha256sums = SKIP
+
+pkgname = chill
+

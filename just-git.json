@@ -1,0 +1,17 @@
+pkgbase = just-git
+	pkgdesc = Just a command runner
+	pkgver = 0.9.4.r137.gfecb5e3
+	pkgrel = 1
+	url = https://just.systems/
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = git
+	makedepends = rust
+	depends = gcc-libs
+	provides = just
+	conflicts = just
+	source = git+https://github.com/casey/just.git
+	sha256sums = SKIP
+
+pkgname = just-git

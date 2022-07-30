@@ -1,0 +1,22 @@
+pkgbase = r-cran-msbvar
+	pkgdesc = Markov-Switching, Bayesian, Vector Autoregression Models
+	pkgver = 0.9_3
+	pkgrel = 1
+	url = http://cran.r-project.org/web/packages/MSBVAR/index.html
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = r-cran-xtable
+	makedepends = r-cran-coda
+	makedepends = r-cran-bit
+	makedepends = r-cran-mvtnorm
+	depends = r
+	depends = r-cran-xtable
+	depends = r-cran-coda
+	depends = r-cran-bit
+	depends = r-cran-mvtnorm
+	source = http://cran.r-project.org/src/contrib/Archive/MSBVAR/MSBVAR_0.9-3.tar.gz
+	md5sums = b82402c637bbb54c6ed0173bc96350bc
+
+pkgname = r-cran-msbvar
+

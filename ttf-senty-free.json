@@ -1,0 +1,12 @@
+pkgbase = ttf-senty-free
+	pkgdesc = Senty Chinese handwritten font collection from Hanyi.
+	pkgver = 20200607.39
+	pkgrel = 1
+	url = https://www.sentyfont.com/
+	arch = any
+	license = custom:"Free for non-commercial use."
+	source = https://www.sentyfont.com/index_htm_files/All-39-HanyiSentyFonts.zip
+	sha256sums = eaeff188d0ad41906734bc0990791590a8ae6d6c7108772b533216cfaac9cea3
+
+pkgname = ttf-senty-free
+

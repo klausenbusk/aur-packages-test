@@ -1,0 +1,23 @@
+pkgbase = kicost
+	pkgdesc = KiCAD script to convert BOM xml into spreadsheet
+	pkgver = 1.1.10
+	pkgrel = 1
+	url = https://github.com/xesscorp/KiCost/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-lxml
+	depends = python-xlsxwriter
+	depends = python-tqdm
+	depends = python-requests
+	depends = python-validators
+	depends = python-wxpython
+	depends = python-colorama
+	source = kicost-1.1.10.tar.gz::https://github.com/xesscorp/KiCost/archive/v1.1.10.tar.gz
+	source = 0001-Fixed-problems-when-trying-to-use-Digi-Key-API-but-n.patch
+	sha512sums = d38242f2e482d9f58a89c361ba6252c1f633a4004d9be92900f9a8abde0f961d387e5b3c7f9a88dffe49525614f4aaee2e45df02fc176ca534927e99f2b24f71
+	sha512sums = 609345567334474becab7fd1948ae7acea6dd032e2270e94433aad7d9ffabbb304b8ae7513e81888fea6fc664f284c0114967842bb6671f8ed37bd862f7c8ead
+
+pkgname = kicost

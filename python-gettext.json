@@ -1,0 +1,16 @@
+pkgbase = python-gettext
+	pkgdesc = Python implementation of Gettext
+	pkgver = 4.0
+	pkgrel = 2
+	url = https://pypi.org/project/python-gettext/
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = https://pypi.org/packages/source/p/python-gettext/python-gettext-4.0.tar.gz
+	sha256sums = 626b501a51ac892fc3460cf550e60dca121f544eaa46eb69c90ce4682fc7ec02
+
+pkgname = python-gettext
+
+pkgname = python2-gettext
+

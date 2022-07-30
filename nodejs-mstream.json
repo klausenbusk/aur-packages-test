@@ -1,0 +1,27 @@
+pkgbase = nodejs-mstream
+	pkgdesc = Music player server with a web-based interface, NPM-JS package
+	pkgver = 4.6.1
+	pkgrel = 2
+	url = https://mstream.io
+	install = mstream.install
+	arch = any
+	license = GPL3
+	makedepends = npm
+	depends = nodejs
+	provides = mstream
+	conflicts = mstream-git
+	noextract = mstream-4.6.1.tgz
+	backup = etc/mstream.json
+	source = https://registry.npmjs.org/mstream/-/mstream-4.6.1.tgz
+	source = mstream.json
+	source = mstream.service
+	source = mstream.sysusers
+	source = mstream.tmpfiles
+	sha256sums = 40b2c1bf628e0462bc0f80e45a5d2a3a4e8f50f14366077c6c61ba309f00e990
+	sha256sums = fb95db00a269d0e7f5d6b7e23e037d319176ad8e7a8332ab61f87ed2e82842a7
+	sha256sums = 833f86daaffb12857612ef5b1264e944b0a48a077d5a8bb8d217ec6565ed90c3
+	sha256sums = 5f2e6aced1707f64ca4ae3ae647fb6a8420f5c2a747ba06fa9174920fd821437
+	sha256sums = a584c25700c57ffe9df9a1902e44fe2f0ad9b508af748eca540734e3df44bb0f
+
+pkgname = nodejs-mstream
+

@@ -1,0 +1,14 @@
+pkgbase = python-cloup
+	pkgdesc = Cloup (= Click + groups) contains a set of Click extensions for multiple purposes.
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/janLuke/cloup
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	depends = python
+	source = https://github.com/janLuke/cloup/archive/refs/tags/v1.0.0.tar.gz
+	sha512sums = 9787b3a120dde54b75506a707108444b40b258e5123855dc33b3af27d6394d67e20de236451143ca73000b1d75842d166dd996893f4fbf4341f3f2d7a4da0127
+
+pkgname = python-cloup

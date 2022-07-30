@@ -1,0 +1,25 @@
+pkgbase = mini-diary-git
+	pkgdesc = Simple and secure journal app
+	pkgver = 2.5.6.r0.ged29aa9
+	pkgrel = 1
+	url = https://github.com/samuelmeuli/mini-diary
+	install = mini-diary-git.install
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = npm
+	makedepends = imagemagick
+	depends = electron
+	provides = mini-diary-git
+	conflicts = mini-diary-git
+	source = mini-diary-git::git+https://github.com/samuelmeuli/mini-diary.git#tag=v2.5.6
+	source = mini-diary-git.sh
+	source = mini-diary-git.desktop
+	source = mini-diary-git.install
+	md5sums = SKIP
+	md5sums = 4266c8313117e3bb6dd92fc41d5bbdf6
+	md5sums = 391fea43fcc92e14b7f16298c9ac8c83
+	md5sums = 0f4f35bfb1705117bf18b5c23e987ed6
+
+pkgname = mini-diary-git
+

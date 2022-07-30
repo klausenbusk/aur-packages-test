@@ -1,0 +1,23 @@
+pkgbase = eaglemode
+	pkgdesc = Visit almost everything in your PC simply by zooming in
+	pkgver = 0.95.1
+	pkgrel = 1
+	url = http://eaglemode.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = perl
+	depends = desktop-file-utils
+	depends = gtk2
+	depends = hicolor-icon-theme
+	depends = libtiff
+	depends = libpng
+	depends = librsvg
+	depends = poppler-glib
+	depends = xdg-utils
+	depends = xine-lib
+	depends = xz
+	source = https://downloads.sourceforge.net/eaglemode/eaglemode-0.95.1.tar.bz2
+	sha256sums = e7dd54d31f2092a766909971e2fcf8a002170e9e2bca30698e4912e66ac363a0
+
+pkgname = eaglemode

@@ -1,0 +1,20 @@
+pkgbase = thrust-git
+	pkgdesc = A C++ parallel programming library which resembles the C++ Standard Library
+	pkgver = 1.9.10.r60.g52a8bda4
+	pkgrel = 1
+	url = https://github.com/thrust/thrust
+	arch = any
+	license = Apache
+	makedepends = git
+	optdepends = cuda: for CUDA backend
+	optdepends = openmp: for OMP backend
+	optdepends = intel-tbb: for TBB backend
+	provides = thrust
+	conflicts = thrust
+	source = git+https://github.com/thrust/thrust.git
+	source = git+https://github.com/thrust/cub.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = thrust-git
+

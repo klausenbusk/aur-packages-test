@@ -1,0 +1,15 @@
+pkgbase = lua51-say
+	pkgdesc = A simple static analyzer
+	pkgver = 1.3
+	pkgrel = 4
+	url = https://github.com/Olivine-Labs/say
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = lua51
+	depends = lua51-filesystem
+	source = git+https://github.com/Olivine-Labs/say#commit=7f30493f602bf8b97332c3faf94e824eb1c4ea2f
+	sha256sums = SKIP
+
+pkgname = lua51-say
+

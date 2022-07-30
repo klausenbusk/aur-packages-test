@@ -1,0 +1,22 @@
+pkgbase = salt-lint
+	pkgdesc = A command-line utility that checks for best practices in SaltStack.
+	pkgver = 0.8.0
+	pkgrel = 2
+	url = https://github.com/warpnet/salt-lint
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	makedepends = python-distro
+	makedepends = python-wheel
+	depends = python
+	depends = python-pyaml
+	depends = python-pathspec
+	noextract = salt_lint-0.8.0-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/02/36/78611a9ba4c5ca2d3bf2db3dad4e2b544c7c6f8c5d906bbb3d1edc836457/salt_lint-0.8.0-py3-none-any.whl
+	source = LICENSE
+	sha256sums = SKIP
+	sha256sums = 30e59c9ac62ea08f1c5fbf7943df4eca9d30992e5735c4e0459d05fd18a1b1a7
+	sha256sums = 0aa56ec10b6c3f24385b7c684e61520fc24b1d913c3618b54ed5eead5655e552
+
+pkgname = salt-lint

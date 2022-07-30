@@ -1,0 +1,24 @@
+pkgbase = gplugin
+	pkgdesc = A GObject based library that implements a reusable plugin system
+	pkgver = 0.29.0
+	pkgrel = 1
+	url = https://bitbucket.org/gplugin/gplugin
+	arch = i868
+	arch = x86_64
+	license = LGPL2
+	makedepends = meson
+	makedepends = mercurial
+	makedepends = gcc
+	makedepends = gobject-introspection
+	makedepends = pkg-config
+	makedepends = help2man
+	makedepends = gettext
+	depends = gtk3
+	options = strip
+	options = !debug
+	options = staticlibs
+	source = gplugin::hg+https://bitbucket.org/gplugin/gplugin#tag=v0.28.1
+	sha256sums = SKIP
+
+pkgname = gplugin
+

@@ -1,0 +1,22 @@
+pkgbase = pop-gnome-shell-theme-bin
+	pkgdesc = System76 Pop GNOME Shell Theme
+	pkgver = 5.4.3
+	pkgrel = 1
+	url = https://github.com/pop-os/gnome-shell-theme
+	arch = any
+	license = GPL2
+	license = CCPL:by-sa
+	depends = gnome-shell>=3.18.3
+	depends = pop-gtk-theme-bin
+	optdepends = pop-icon-theme-bin: Recommended icon theme
+	optdepends = pop-sound-theme-bin: Recommended sound theme
+	optdepends = ttf-fira-sans: Recommended font for window titles and interface
+	optdepends = ttf-fira-mono: Recommended monospace font
+	optdepends = ttf-roboto-slab: Recommended font for documents
+	optdepends = pop-session-bin
+	provides = pop-gnome-shell-theme
+	conflicts = pop-gnome-shell-theme
+	source = https://github.com/pop-os/gtk-theme/releases/download/v5.4.3/pop-gnome-shell-theme_5.4.3_all.deb
+	sha256sums = 71251e01add063368eb29d3fd5bae1fd0a3f6cff0a352366d44d426604d5fecc
+
+pkgname = pop-gnome-shell-theme-bin

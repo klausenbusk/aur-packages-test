@@ -1,0 +1,14 @@
+pkgbase = libtcod
+	pkgdesc = Roguelike graphics/utility library
+	pkgver = 1.20.1
+	pkgrel = 1
+	url = https://github.com/libtcod/libtcod
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = python
+	depends = sdl2
+	source = https://github.com/libtcod/libtcod/archive/1.20.1.tar.gz
+	md5sums = 1675fae3dc1888e10c3ad5e070191767
+
+pkgname = libtcod

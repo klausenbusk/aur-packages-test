@@ -1,0 +1,26 @@
+pkgbase = python-mediapipe-git
+	pkgdesc = MediaPipe offers cross-platform, customizable ML solutions for live and streaming media.
+	pkgver = v0.8.9.r0.ge6c19885
+	pkgrel = 1
+	url = https://github.com/google/mediapipe
+	arch = any
+	license = Apache
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = bazel
+	makedepends = gcc
+	depends = ffmpeg
+	depends = absl-py
+	depends = python-attrs
+	depends = python-matplotlib
+	depends = python-numpy
+	depends = python-opencv
+	depends = python-protobuf
+	depends = python-six
+	depends = python-wheel
+	provides = python-mediapipe
+	conflicts = python-mediapipe
+	source = python-mediapipe-git::git+https://github.com/google/mediapipe.git
+	sha256sums = SKIP
+
+pkgname = python-mediapipe-git

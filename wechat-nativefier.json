@@ -1,0 +1,12 @@
+pkgbase = wechat-nativefier
+	pkgdesc = Yet another electron WeChat for Linux desktop.
+	pkgver = 20210503.7
+	pkgrel = 1
+	url = https://wx.qq.com/
+	arch = x86_64
+	license = MIT
+	source = git+https://github.com/qvshuo/yachat
+	sha512sums = SKIP
+
+pkgname = wechat-nativefier
+

@@ -1,0 +1,17 @@
+pkgbase = papirus-icon-theme-kde
+	pkgdesc = Papirus icon theme for KDE
+	pkgver = 20161113
+	pkgrel = 1
+	url = https://github.com/PapirusDevelopmentTeam/papirus-icon-theme-kde
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = make
+	depends = plasma-desktop
+	conflicts = papirus-icon-theme-kde-git
+	options = !strip
+	source = papirus-icon-theme-kde::git+https://github.com/PapirusDevelopmentTeam/papirus-icon-theme-kde.git#commit=1bfe15f
+	sha256sums = SKIP
+
+pkgname = papirus-icon-theme-kde
+

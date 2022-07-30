@@ -1,0 +1,15 @@
+pkgbase = archlinux-baseline
+	pkgdesc = Builds Archiso baseline ISO.
+	pkgver = 2022.07.13
+	pkgrel = 1
+	url = https://gitlab.archlinux.org/tallero/archiso-profiles
+	arch = i686
+	arch = pentium4
+	arch = x86_64
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = archiso
+	makedepends = git
+	makedepends = polkit
+
+pkgname = archlinux-baseline

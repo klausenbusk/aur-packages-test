@@ -1,0 +1,21 @@
+pkgbase = obs-freeze-filter
+	pkgdesc = Filter to freeze a frame of a source
+	pkgver = 0.3.2
+	pkgrel = 4
+	url = https://obsproject.com/forum/resources/freeze-filter.950/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL2
+	makedepends = cmake
+	makedepends = git
+	makedepends = libxcomposite
+	makedepends = ffmpeg
+	makedepends = pciutils
+	depends = obs-studio>=27.2.0
+	source = obs-freeze-filter::git+https://github.com/exeldro/obs-freeze-filter#commit=575e7e333cf4c9dcb825a72ea4eceb5894c845fd
+	source = obs-studio-27.2.0.tar.gz::https://github.com/obsproject/obs-studio/archive/27.2.0.tar.gz
+	sha256sums = SKIP
+	sha256sums = c52d99cba6c536cb805e3e0f54663c33cfc43a1b7521bec97d241019499f9789
+
+pkgname = obs-freeze-filter

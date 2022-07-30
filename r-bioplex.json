@@ -1,0 +1,23 @@
+pkgbase = r-bioplex
+	pkgdesc = R-side access to BioPlex protein-protein interaction data
+	pkgver = 1.2.3
+	pkgrel = 1
+	url = https://bioconductor.org/packages/BioPlex
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-biocfilecache
+	depends = r-geoquery
+	depends = r-graph
+	depends = r-summarizedexperiment
+	optdepends = r-annotationdbi
+	optdepends = r-annotationhub
+	optdepends = r-biocstyle
+	optdepends = r-depmap
+	optdepends = r-experimenthub
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/BioPlex_1.2.3.tar.gz
+	sha256sums = f990c193a42ccfc5e906ef40a84926f24670ab2a1e03bc82f17d2821a3e9c032
+
+pkgname = r-bioplex

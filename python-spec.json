@@ -1,0 +1,24 @@
+pkgbase = python-spec
+	pkgdesc = Specification-style nosetests output for Python
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = https://github.com/bitprophet/spec
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python2
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = spec-1.4.1.tar.gz::https://github.com/bitprophet/spec/archive/1.4.1.tar.gz
+	md5sums = edc89427ff58f2c22f3f3873318e3bc7
+
+pkgname = python-spec
+	depends = python
+	depends = python-nose
+	depends = python-six
+
+pkgname = python2-spec
+	depends = python2
+	depends = python2-nose
+	depends = python2-six
+

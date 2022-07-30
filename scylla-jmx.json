@@ -1,0 +1,19 @@
+pkgbase = scylla-jmx
+	pkgdesc = Scylla JMX server implements the Apache Cassandra JMX interface for compatibility with tooling such as nodetool.
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = http://www.scylladb.com/
+	install = .install
+	arch = any
+	license = AGPL
+	makedepends = maven
+	makedepends = systemd
+	makedepends = jdk8-openjdk
+	depends = scylla
+	depends = jre8-openjdk-headless
+	provides = scylla-jmx
+	source = git+https://github.com/scylladb/scylla-jmx.git#tag=scylla-2.2.0
+	md5sums = SKIP
+
+pkgname = scylla-jmx
+

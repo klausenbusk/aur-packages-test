@@ -1,0 +1,21 @@
+pkgbase = alda-bin
+	pkgdesc = A music programming language for musicians
+	pkgver = 2.2.1
+	pkgrel = 1
+	url = https://github.com/alda-lang/alda
+	arch = i686
+	arch = x86_64
+	license = custom:EPL2
+	depends = java-runtime>=8
+	provides = alda
+	conflicts = alda
+	source = alda-player-2.2.1::https://alda-releases.nyc3.digitaloceanspaces.com/2.2.1/player/non-windows/alda-player
+	source = LICENSE
+	sha256sums = 0d76ac05cb6d68dc1c1e0e42ffdd5f63a74cb2cc527cfc02e93af2c8477256fa
+	sha256sums = f05036abc9c2bf11abecbdd874e9a4cbac8e0f6274afdf56c5cf8395238d1dc8
+	source_i686 = alda-2.2.1-i686::https://alda-releases.nyc3.digitaloceanspaces.com/2.2.1/client/linux-386/alda
+	sha256sums_i686 = 0722b4d21fd64643a52c69269406c85bf46b348d03d51034c5f55e1a707624d6
+	source_x86_64 = alda-2.2.1-x86_64::https://alda-releases.nyc3.digitaloceanspaces.com/2.2.1/client/linux-amd64/alda
+	sha256sums_x86_64 = 001764042eb3d73952410f0a34137983fc483282a28db4d36cb6fcd96fcb6e2b
+
+pkgname = alda-bin

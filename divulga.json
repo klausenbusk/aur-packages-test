@@ -1,0 +1,15 @@
+pkgbase = divulga
+	pkgdesc = Divulgação de Resultado das Eleições
+	pkgver = 18.10.03
+	pkgrel = 1
+	url = http://www.tse.jus.br/eleicoes
+	arch = any
+	license = custom
+	depends = jdk8-openjdk
+	source = http://divulga.tse.jus.br/downloads/divulga-LINUX.zip
+	source = divulga.desktop
+	md5sums = 78822b0f416da903414bc6fe32291171
+	md5sums = 616e69af315a54381ec79a6158d63734
+
+pkgname = divulga
+

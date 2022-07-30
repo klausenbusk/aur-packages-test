@@ -1,0 +1,16 @@
+pkgbase = ruby-rack-test
+	pkgdesc = Simple testing API built on Rack
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = http://github.com/rack-test/rack-test
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-rack
+	noextract = rack-test-1.1.0.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/rack-test-1.1.0.gem
+	sha1sums = b80bc5ca38a885e747271675ba91dd3d02136bf1
+
+pkgname = ruby-rack-test
+

@@ -1,0 +1,18 @@
+pkgbase = python2-googlemaps
+	pkgdesc = Python Client for Google Maps Services
+	pkgver = 2.5.1
+	pkgrel = 2
+	url = https://github.com/googlemaps/google-maps-services-python
+	arch = any
+	license = Apache
+	makedepends = python2-setuptools
+	depends = python2
+	depends = python2-requests
+	source = https://github.com/googlemaps/google-maps-services-python/archive/2.5.1.tar.gz
+	md5sums = 184fe061a1c4a8eb3adfab53c7ef5330
+	sha1sums = 0b7154a9d3530e0fe8c39b19b6b163cde4fccbcd
+	sha256sums = 75c0954e318b5d9e5cbc6f7f86310cb4e33abd16d48b9d6a5b753902acf44b1a
+	sha512sums = 4673df832b7fda3c43da2396f2f910b1957bb8647fdc3eb977cda812a94c2ca51070ce7ed7c29be9c250704edaed3a731a67d39b927734dda12baa85f7147fe1
+
+pkgname = python2-googlemaps
+

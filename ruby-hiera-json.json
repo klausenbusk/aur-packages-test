@@ -1,0 +1,17 @@
+pkgbase = ruby-hiera-json
+	pkgdesc = JSON backend for the Hiera hierarcical data store
+	pkgver = 0.4.0
+	pkgrel = 2
+	url = https://github.com/puppetlabs/hiera-json/
+	arch = any
+	license = unknown
+	depends = ruby
+	depends = ruby-hiera
+	depends = ruby-json
+	noextract = hiera-json-0.4.0.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/hiera-json-0.4.0.gem
+	sha256sums = 2698c1133a6ce3fd7b839696502df9776d51e038b3868e9dbddba835902cad4c
+
+pkgname = ruby-hiera-json
+

@@ -1,0 +1,21 @@
+pkgbase = anbox-image-houdini-cn
+	pkgdesc = Android image for running in Anbox with Houdini
+	pkgver = 2018.07.19
+	pkgrel = 5
+	url = https://anbox.io/
+	arch = x86_64
+	license = GPL
+	makedepends = squashfs-tools
+	makedepends = aria2
+	provides = anbox-image
+	conflicts = anbox-image
+	source = media_codecs.xml
+	source = media_codecs_google_video.xml
+	source = media_codecs_google_audio.xml
+	source = media_codecs_google_telephony.xml
+	sha256sums = 12966892c7b52ca6b2175864710e8945fb33324b478d4ceca92d76f245339ee9
+	sha256sums = 876f5f850cbb5ce4f7a9582654ce006888903e6016dd0b8053e61ab0fd993839
+	sha256sums = c3acd6442046ac4bd949b5c6f18d79f2707b5bdc677fa8e676bd02a88035ac75
+	sha256sums = d0ebc3f9b6739d22f140e1a3acae6d92874736c89c53f82779e2e754032ed085
+
+pkgname = anbox-image-houdini-cn

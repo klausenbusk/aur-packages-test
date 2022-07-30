@@ -1,0 +1,31 @@
+pkgbase = eternalterminal
+	pkgver = 6.2.1
+	pkgrel = 1
+	url = https://mistertea.github.io/EternalTerminal/
+	arch = x86_64
+	license = Apache
+	makedepends = cmake
+	depends = libutempter
+	depends = libunwind
+	depends = openssl
+	depends = libsodium
+	depends = protobuf
+	depends = curl
+	source = https://github.com/MisterTea/EternalTerminal/archive/et-v6.2.1.tar.gz
+	sha256sums = fdf68a51cb8b62b3dbbacd1d2aeba5d5491e5142e65c97713c2f1ce61d4fdbed
+
+pkgname = eternalterminal-client
+	pkgdesc = Re-Connectable Terminal connection. Includes only the client.
+	conflicts = eternalterminal
+	conflicts = eternalterminal-server
+
+pkgname = eternalterminal-server
+	pkgdesc = Re-Connectable Terminal connection. Includes only the server.
+	conflicts = eternalterminal
+	conflicts = eternalterminal-client
+
+pkgname = eternalterminal
+	pkgdesc = Re-Connectable Terminal connection. Includes both client and server.
+	conflicts = eternalterminal-client
+	conflicts = eternalterminal-server
+

@@ -1,0 +1,20 @@
+pkgbase = mkaur
+	pkgdesc = Script that helps to automate creation AUR packages.
+	pkgver = r255.71d9e9d
+	pkgrel = 1
+	url = https://github.com/crossroads1112/bin
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = pkgbuild-introspection
+	depends = pacman
+	depends = bash
+	depends = xdg-utils
+	depends = coreutils
+	depends = git
+	optdepends = aurploader: Upload package directly to AURv3 (legacy)
+	source = git+https://github.com/crossroads1112/bin.git
+	md5sums = SKIP
+
+pkgname = mkaur
+

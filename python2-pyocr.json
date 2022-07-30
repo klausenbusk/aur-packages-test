@@ -1,0 +1,16 @@
+pkgbase = python2-pyocr
+	pkgdesc = Optical character recognition (OCR) tool wrapper for python
+	pkgver = 0.6
+	pkgrel = 1
+	url = https://gitlab.gnome.org/World/OpenPaperwork/pyocr
+	arch = any
+	license = GPL3
+	makedepends = python2
+	makedepends = python2-setuptools
+	depends = python2-pillow
+	depends = tesseract
+	source = pyocr-0.6.tar.gz::https://gitlab.gnome.org/World/OpenPaperwork/pyocr/-/archive/0.6/pyocr-0.6.tar.gz
+	sha256sums = bef4b9ffd59f4e737d77654a8310f4e4b22225653f88d2e2ba4fbd2abc5eced3
+
+pkgname = python2-pyocr
+

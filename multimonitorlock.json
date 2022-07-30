@@ -1,0 +1,25 @@
+pkgbase = multimonitorlock
+	pkgdesc = A simple lock script for i3lock-color
+	pkgver = 2021.06.01
+	pkgrel = 1
+	url = https://github.com/The-Repo-Club/multimonitorlock
+	install = multimonitorlock.install
+	arch = any
+	groups = therepoclub
+	license = CC BY-NC-SA 4.0
+	makedepends = git
+	depends = i3lock-color
+	depends = imagemagick
+	depends = xorg-xrandr
+	depends = xorg-xdpyinfo
+	depends = bc
+	depends = bash
+	optdepends = feh: Allows setting wallpaper
+	optdepends = multimonitorlock-gui: Allows the background to be changed
+	conflicts = multilockscreen-git
+	conflicts = betterlockscreen
+	conflicts = betterlockscreen-git
+	source = multimonitorlock-2021.06.01.tar.gz::https://github.com/The-Repo-Club/multimonitorlock/archive/2021.06.01.tar.gz
+	sha256sums = a4248099bb59999f2e5bd666afd98697214aa8e80774859a0a485a77d15d4194
+
+pkgname = multimonitorlock

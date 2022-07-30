@@ -1,0 +1,23 @@
+pkgbase = netease-cloud-music-gtk
+	pkgdesc = Linux 平台下基于 Rust + GTK 开发的网易云音乐播放器
+	pkgver = 1.2.2
+	pkgrel = 1
+	url = https://github.com/gmg137/netease-cloud-music-gtk
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = rustup
+	depends = openssl
+	depends = curl
+	depends = gstreamer
+	depends = gtk3
+	depends = gst-plugins-bad
+	depends = gst-plugins-good
+	depends = gst-plugins-ugly
+	depends = gst-libav
+	optdepends = osdlyrics: Show lyrics
+	source = https://github.com/gmg137/netease-cloud-music-gtk/archive/1.2.2.tar.gz
+	sha256sums = df1ef4d8ab69c9da625783a65a7d43fbf4ac9879087d733efa6b565edd6c6b33
+
+pkgname = netease-cloud-music-gtk
+

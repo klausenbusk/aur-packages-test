@@ -1,0 +1,15 @@
+pkgbase = bdrss
+	pkgdesc = Brain Dead RSS
+	pkgver = 3
+	pkgrel = 1
+	url = https://github.com/Nycroth/bdrss
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = python
+	depends = python-feedparser
+	source = https://github.com/Nycroth/bdrss/archive/v3.tar.gz
+	md5sums = 2a91d7b8f81e2441b7ef1db1258f2313
+
+pkgname = bdrss
+

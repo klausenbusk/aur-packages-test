@@ -1,0 +1,24 @@
+pkgbase = ruby-rubocop-rspec
+	pkgdesc = Code style checking for RSpec files
+	pkgver = 2.11.1
+	pkgrel = 1
+	url = https://github.com/rubocop/rubocop-rspec
+	arch = any
+	license = MIT
+	checkdepends = ruby-bundler
+	checkdepends = ruby-rake
+	checkdepends = ruby-rack
+	checkdepends = ruby-rspec
+	checkdepends = ruby-rubocop-performance
+	checkdepends = ruby-rubocop-rake
+	checkdepends = ruby-yard
+	makedepends = rubygems
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = ruby-rubocop
+	depends = ruby-rubocop-ast
+	options = !emptydirs
+	source = https://github.com/rubocop/rubocop-rspec/archive/v2.11.1/rubocop-rspec-2.11.1.tar.gz
+	sha256sums = 7e1898cf2c271c7d527add43ffe647c234cd245debe3716e9ba5933d42717402
+
+pkgname = ruby-rubocop-rspec

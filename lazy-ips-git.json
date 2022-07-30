@@ -1,0 +1,17 @@
+pkgbase = lazy-ips-git
+	pkgdesc = IPS patcher for Linux
+	pkgver = r16.8a71de5
+	pkgrel = 2
+	url = https://github.com/btimofeev/lazy_ips
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = gendesk
+	depends = python-gobject
+	provides = lazy-ips
+	conflicts = lazy-ips
+	source = git+https://github.com/btimofeev/lazy_ips.git
+	sha256sums = SKIP
+
+pkgname = lazy-ips-git
+

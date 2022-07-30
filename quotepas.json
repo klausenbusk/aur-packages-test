@@ -1,0 +1,14 @@
+pkgbase = quotepas
+	pkgdesc = LaTeX style that can be used to insert passages from a database.
+	pkgver = 1.0
+	pkgrel = 4
+	url = http://theoval.cmp.uea.ac.uk/~nlct/latex/packages
+	arch = any
+	license = LPPL
+	depends = texlive-core
+	depends = perl
+	source = http://theoval.cmp.uea.ac.uk/~nlct/latex/packages/quotepas/quotepas.tar.gz
+	md5sums = ebb23d8759d140a87c4f42e20fc39e2d
+
+pkgname = quotepas
+

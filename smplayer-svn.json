@@ -1,0 +1,13 @@
+pkgbase = smplayer-svn
+	pkgdesc = Transitional Package:(smplayer-git) Media player with built-in codecs that can play virtually all video and audio formats
+	pkgver = 99.0
+	pkgrel = 1
+	url = https://www.smplayer.info/
+	arch = x86_64
+	license = GPL
+	depends = pacman
+	depends = smplayer-git
+	provides = smplayer-svn
+	sha256sums = SKIP
+
+pkgname = smplayer-svn

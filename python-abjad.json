@@ -1,0 +1,29 @@
+pkgbase = python-abjad
+	pkgdesc = Python API for building LilyPond files
+	pkgver = 3.10
+	pkgrel = 1
+	url = https://github.com/Abjad/abjad
+	arch = any
+	groups = abjad
+	license = GPL3
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = lilypond
+	depends = python>=3.10
+	depends = python-ply
+	depends = python-quicktions
+	depends = python-roman
+	depends = python-uqbar
+	optdepends = fluidsynth: playback generated MIDI files
+	optdepends = graphviz: creates rhythm-trees graphs and other tree structures
+	optdepends = python-abjad-ext-ipython: IPython extension
+	optdepends = python-abjad-ext-nauert: quantization extension
+	optdepends = python-abjad-ext-rmakers: rhythm-maker extension
+	optdepends = timidity++: playback generated MIDI files
+	source = python-abjad-3.10.tar.gz::https://github.com/Abjad/abjad/archive/v3.10.tar.gz
+	sha256sums = fac112fdf87142c58cdf5598b2d8eafa935f436d0290a142a02e3e48eeac7cbe
+
+pkgname = python-abjad

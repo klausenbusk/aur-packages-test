@@ -1,0 +1,23 @@
+pkgbase = python-qutip
+	pkgdesc = QuTiP is open-source software for simulating the dynamics of open quantum systems
+	pkgver = 4.6.3
+	pkgrel = 1
+	url = http://qutip.org/index.html
+	arch = x86_64
+	license = BSD
+	makedepends = gcc-fortran
+	depends = python-numpy
+	depends = python-scipy
+	depends = python-matplotlib
+	depends = cython
+	optdepends = blas: Optional, Needed for installing Fortran Monte Carlo solver.
+	optdepends = mayavi: Optional, Needed for using the Bloch3d class.
+	optdepends = python-pyqt4: Optional, required only for GUI elements.
+	optdepends = texlive-bin: Optional, Needed if using LaTeX in figures.
+	optdepends = python-nose: Optional, For running tests.
+	optdepends = python-scikit-umfpack: Optional, Faster (~2-5x) steady state calculations.
+	optdepends = openmp: Optional, For OPENMP support
+	source = https://github.com/qutip/qutip/archive/v4.6.3.tar.gz
+	md5sums = cc2593c1a10af9c86ac00159845187b2
+
+pkgname = python-qutip

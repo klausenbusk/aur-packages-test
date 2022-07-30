@@ -1,0 +1,16 @@
+pkgbase = python-scan-build
+	pkgdesc = Clang's scan-build re-implementation in python
+	pkgver = 2.0.15
+	pkgrel = 1
+	url = https://github.com/rizsotto/scan-build
+	arch = any
+	license = GPL3
+	makedepends = python
+	makedepends = python-setuptools
+	depends = python>=2.7
+	depends = clang
+	source = https://files.pythonhosted.org/packages/source/s/scan-build/scan-build-2.0.15.tar.gz
+	md5sums = 33ff671ca5a38f9a32539f897a6bc183
+
+pkgname = python-scan-build
+

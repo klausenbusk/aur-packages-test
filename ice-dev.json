@@ -1,0 +1,20 @@
+pkgbase = ice-dev
+	pkgdesc = A simple Site Specific Browser for Firefox, Chromium and Google Chrome from "Peppermint OS" Project
+	pkgver = 6.1.1
+	pkgrel = 1
+	url = https://github.com/ebadoo/ice-dev
+	arch = any
+	license = GPL2
+	depends = python-requests
+	depends = python-beautifulsoup4
+	depends = python-gobject
+	depends = python-lxml
+	optdepends = firefox: Browser to use
+	optdepends = chromium: Browser to use
+	optdepends = google-chrome: Browser to use
+	optdepends = vivaldi: Browser to use
+	source = ice-dev-6.1.1.tar.gz::https://github.com/ebadoo/ice-dev/archive/6.1.1.tar.gz
+	md5sums = F47E95C998BB40916E5C19BE4500BEA9
+
+pkgname = ice-dev
+

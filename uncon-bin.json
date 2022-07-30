@@ -1,0 +1,15 @@
+pkgbase = uncon-bin
+	pkgdesc = 无界投屏 Linux 版，将手机屏幕和应用镜像至电脑 (带依赖)
+	pkgver = 2.1.2
+	pkgrel = 2
+	url = https://nightmare.fun/screen/
+	install = uncon-bin.install
+	arch = x86_64
+	depends = scrcpy
+	depends = android-tools
+	depends = ffmpeg
+	provides = uncon
+	source = https://github.com/YidaozhanYa/uncon-binary/releases/download/2.1.2-2/Uncon.data.tar.xz
+	sha256sums = 984d2238e09a1ebf41987967a489d3c5ab7df4e5c97526460958b7af2aaa5e46
+
+pkgname = uncon-bin

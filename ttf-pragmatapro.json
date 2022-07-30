@@ -1,0 +1,12 @@
+pkgbase = ttf-pragmatapro
+	pkgdesc = PragmataPro by Fabrizio Schiavi
+	pkgver = 0.829
+	pkgrel = 1
+	url = http://www.fsd.it/shop/fonts/pragmatapro/
+	arch = any
+	license = http://www.fsd.it/fonts/eula.htm
+	source = LICENSE
+	sha256sums = 71a14f207ca21d1ce2b168ce974341e54792e99036599af4582530b1277441f6
+
+pkgname = ttf-pragmatapro
+

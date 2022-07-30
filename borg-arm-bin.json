@@ -1,0 +1,28 @@
+pkgbase = borg-arm-bin
+	pkgdesc = Borg backup - prebuilt standalone ARM binary
+	pkgver = 1.1.16
+	pkgrel = 1
+	url = https://borgbackup.readthedocs.io/en/stable/installation.html#standalone-binary
+	arch = armv8h
+	arch = armv7h
+	arch = armv6h
+	arch = armv5h
+	license = BSD
+	provides = borg
+	provides = borgbackup
+	conflicts = borg
+	conflicts = borgbackup
+	conflicts = borg-bin
+	source = borg-arm-bin-1.1.16-README.txt::https://github.com/borgbackup/borg/releases/download/1.1.16/README.txt
+	sha256sums = 679b54d5967b16cf8be8e89ad34354de7389431e08b904afbe305acb6fb2aa81
+	source_armv8h = borg-arm-bin-1.1.16-armv8h::https://borg.bauerj.eu/bin/borg-1.1.16-arm64
+	sha256sums_armv8h = 9b1f60c38e8903bcb7d1a0c852b80c3d998c8349b24ee764cd560c89ffba4c95
+	source_armv7h = borg-arm-bin-1.1.16-armv7h::https://borg.bauerj.eu/bin/borg-1.1.16-armv6
+	sha256sums_armv7h = a36f742d5feefef3714e429bfc8c9130746cf34c6cf7a5792a7006cd70c63446
+	source_armv6h = borg-arm-bin-1.1.16-armv6h::https://borg.bauerj.eu/bin/borg-1.1.16-armv6
+	sha256sums_armv6h = a36f742d5feefef3714e429bfc8c9130746cf34c6cf7a5792a7006cd70c63446
+	source_armv5h = borg-arm-bin-1.1.16-armv5h::https://borg.bauerj.eu/bin/borg-1.1.16-armv5
+	sha256sums_armv5h = cb27137142addbeadb14ddefff1b90ce053dc64de1b0881a8dba245141b8e8bb
+
+pkgname = borg-arm-bin
+

@@ -1,0 +1,20 @@
+pkgbase = studioarch-utils
+	pkgdesc = Studio Arch Utilities (Arch Linux)
+	pkgver = 2.5
+	pkgrel = 1
+	url = https://github.com/usrmusicman/ArchBuilds
+	arch = x86_64
+	depends = bash
+	depends = tar
+	depends = xz
+	depends = bzip2
+	depends = gzip
+	depends = jack2
+	depends = python2-dbus
+	depends = pulseaudio-jack
+	depends = a2jmidid
+	source = studioarch-utils::git+https://github.com/usrmusicman/ArchStudioUtils.git
+	sha256sums = SKIP
+
+pkgname = studioarch-utils
+

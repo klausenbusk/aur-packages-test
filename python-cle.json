@@ -1,0 +1,20 @@
+pkgbase = python-cle
+	pkgdesc = CLE Loads Everything (at least, many binary formats!) and provides a pythonic interface to analyze what they are and what they would look like in memory.
+	pkgver = 9.1.12332
+	pkgrel = 1
+	url = https://github.com/angr/cle
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python-pyelftools
+	depends = python-cffi
+	depends = python-pyvex
+	depends = python-pefile
+	depends = python-sortedcontainers
+	optdepends = python-minidump: minidump
+	optdepends = python-pyxbe: xbe
+	optdepends = python-arpy: ar
+	source = https://files.pythonhosted.org/packages/source/c/cle/cle-9.1.12332.tar.gz
+	sha256sums = f3980dee9fdcd5c706733f125346fe82224e499dde7be2accbd2eecaa56d5332
+
+pkgname = python-cle

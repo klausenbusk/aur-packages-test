@@ -1,0 +1,13 @@
+pkgbase = linux-firmware-dummy
+	pkgdesc = Totally not Firmware files for Linux
+	pkgver = 1.0.0
+	pkgrel = 3
+	arch = any
+	license = AGPL3
+	provides = linux-firmware
+	conflicts = linux-firmware-git
+	conflicts = linux-firmware
+	replaces = linux-firmware
+
+pkgname = linux-firmware-dummy
+

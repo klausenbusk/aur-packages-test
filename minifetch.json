@@ -1,0 +1,15 @@
+pkgbase = minifetch
+	pkgdesc = Minimal system info fetcher
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/dawidd6/minifetch
+	arch = any
+	license = MIT
+	depends = procps-ng
+	depends = pciutils
+	provides = minifetch
+	source = https://github.com/dawidd6/minifetch/archive/1.1.tar.gz
+	md5sums = SKIP
+
+pkgname = minifetch
+

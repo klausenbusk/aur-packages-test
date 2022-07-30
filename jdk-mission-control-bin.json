@@ -1,0 +1,15 @@
+pkgbase = jdk-mission-control-bin
+	pkgdesc = OpenJDK Mission Control
+	pkgver = 8.2.0
+	pkgrel = 2
+	url = https://adoptopenjdk.net/jmc
+	arch = x86_64
+	license = UPL
+	depends = java-environment>=11
+	options = !strip
+	source = https://github.com/adoptium/jmc-build/releases/download/8.2.0/org.openjdk.jmc-8.2.0-linux.gtk.x86_64.tar.gz
+	source = jdk-mission-control.desktop
+	sha512sums = 0c760e6f5c715769667891c987749332d495d9c19ec668ab688817f6101c0f57b1819e93d76635b27322fe44a76e086fcb0164fec3dec5a6a0ef988a376a4dd8
+	sha512sums = 5a62b0a0f5dee80543575005c43b3dfd368e60efd1cdf41dca0b5c201a11748773855c1259f930bb4f0a573b10025c6f7b281014e36b00dee809a8a5ef9bac4c
+
+pkgname = jdk-mission-control-bin

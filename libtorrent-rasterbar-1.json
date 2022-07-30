@@ -1,0 +1,20 @@
+pkgbase = libtorrent-rasterbar-1
+	pkgdesc = Open source C++ library implementing the BitTorrent protocol.
+	pkgver = 1.2.17
+	pkgrel = 1
+	url = https://libtorrent.org/
+	arch = x86_64
+	license = BSD
+	makedepends = boost
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = python-setuptools
+	depends = boost-libs
+	depends = openssl
+	provides = libtorrent-rasterbar=1.2.17
+	conflicts = libtorrent-rasterbar
+	options = !emptydirs
+	source = libtorrent-1.2.17.tar.gz::https://github.com/arvidn/libtorrent/archive/v1.2.17.tar.gz
+	sha256sums = ccab9dde68e060fa84e8dde535975dc9aa51817d6b1cbe8d922c084fb2005417
+
+pkgname = libtorrent-rasterbar-1

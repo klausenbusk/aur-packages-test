@@ -1,0 +1,22 @@
+pkgbase = kodi-addon-pvr-hdhomerun
+	pkgdesc = HD Homerun PVR client addon for Kodi
+	pkgver = 7.1.0
+	pkgrel = 1
+	url = https://github.com/kodi-pvr/pvr.hdhomerun
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	groups = kodi
+	license = GPL
+	makedepends = cmake
+	makedepends = kodi-platform
+	depends = kodi
+	depends = git
+	conflicts = kodi-addon-pvr-hdhomerun-git
+	source = https://github.com/kodi-pvr/pvr.hdhomerun/archive/7.1.0-Matrix.tar.gz
+	source = https://github.com/xbmc/xbmc/archive/19.0-Matrix.tar.gz
+	sha256sums = a31587e00d58efb72aadba3ad1bd67c08332feef0d558e0eeb6fda7c81bf93e8
+	sha256sums = f7ef8a6f45862ae3b7ebfce4950d74f534be3cb4a0e67ce640963746b3f668f2
+
+pkgname = kodi-addon-pvr-hdhomerun
+

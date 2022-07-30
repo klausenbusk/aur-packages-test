@@ -1,0 +1,16 @@
+pkgbase = sshcode
+	pkgdesc = A CLI to automatically install and run code-server over SSH.
+	pkgver = 0.10.0
+	pkgrel = 0
+	url = https://github.com/cdr/sshcode
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	depends = openssh
+	depends = rsync
+	optdepends = chromium: For opening code-server in an app window.
+	source = https://github.com/cdr/sshcode/archive/v0.10.0.tar.gz
+	sha512sums = ae133f2b7a425f3ae4669c5355a7b6a6513e69dba703787ee2bbf0895da0597220d56f61428017dd1582170b698ba2af98fbea65ada734846d121fbcd1a1aee2
+
+pkgname = sshcode
+

@@ -1,0 +1,39 @@
+pkgbase = mailpile
+	pkgdesc = A free & open modern, fast email client with user-friendly encryption and privacy features
+	pkgver = 1.0.0rc6
+	pkgrel = 3
+	url = http://www.mailpile.is
+	install = mailpile.install
+	arch = any
+	license = AGPL3
+	makedepends = python2-setuptools
+	depends = gnupg
+	depends = python2
+	depends = python2-appdirs
+	depends = python2-cryptography
+	depends = python2-fasteners
+	depends = python2-icalendar
+	depends = python2-imgsize
+	depends = python2-jinja>=2.6
+	depends = python2-lxml>=2.3.2
+	depends = python2-markupsafe
+	depends = python2-pbr
+	depends = python2-pgpdump
+	depends = python2-pillow
+	depends = python2-pydns
+	depends = python2-socksipychain
+	depends = tor
+	optdepends = pagekite: remote access
+	optdepends = python2-stem>=1.4: remote access
+	source = mailpile-1.0.0rc6-3.tar.gz::https://github.com/mailpile/Mailpile/archive/1.0.0rc6.tar.gz
+	source = mailpile-print-1.0.0rc6-3.tar.gz::https://github.com/mailpile/Mailpile-print/archive/7c1372b999dd6e68710e08e16778f2986c064295.tar.gz
+	source = mailpile.sysusers
+	source = mailpile.tmpfiles
+	source = mailpile.service
+	sha256sums = db4ee7d43b049fe8ffbd99225e9be7c9d66258bb7d30636c3361de1f2a08e0e0
+	sha256sums = e35ba90ffc3f4f864765f5f8e096cc66a6a62c50e78e95c1696417baa4ea8344
+	sha256sums = 47cad07997afb1e0b7a00d686db111cf819c4b6ffdcd5c174d5b5d1c0966ea13
+	sha256sums = ddfc114acd7b926aad8ff1e3b0ce31558aef8017458e2c1c98c923ef9d4174ea
+	sha256sums = e6a49dbf34a36a46b744e07cea39b443954f430835ff988a6938a07331b9726d
+
+pkgname = mailpile

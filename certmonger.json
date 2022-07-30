@@ -1,0 +1,25 @@
+pkgbase = certmonger
+	pkgdesc = Certificate status monitor and PKI enrollment client
+	pkgver = 0.79.15
+	pkgrel = 1
+	url = https://pagure.io/certmonger
+	install = certmonger.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	checkdepends = diffutils
+	checkdepends = dos2unix
+	checkdepends = expect
+	makedepends = rpm-tools
+	depends = nss
+	depends = tevent
+	depends = xmlrpc-c
+	depends = popt
+	depends = libdbus
+	depends = krb5
+	depends = jansson
+	backup = etc/certmonger/certmonger.conf
+	source = https://pagure.io/certmonger/archive/certmonger-0.79.15/certmonger-certmonger-0.79.15.tar.gz
+	sha512sums = 7304ce89736ca9d4dc170e39c43c1c2043dc76176fb4abe63558f2fbca277ee1988f1945e9e763db9e36a630837c436bb89965553059addb2620ee7aa9d652bf
+
+pkgname = certmonger

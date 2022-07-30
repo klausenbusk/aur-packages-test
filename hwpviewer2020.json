@@ -1,0 +1,17 @@
+pkgbase = hwpviewer2020
+	pkgdesc = Newer version of Hancom office viewer provided by Hancom. (Previous version:hwpviewer) Ported to Arch Linux from Hancom Gooroom OS
+	pkgver = 11.20.0.672
+	pkgrel = 1
+	url = https://www.hancom.com/
+	arch = x86_64
+	license = custom:hancomoffice
+	depends = harfbuzz-icu
+	depends = libcurl-gnutls
+	depends = glu
+	source = https://github.com/DisLogicator/hoffice/releases/download/11.20.0.1520-rc2/hwpviewer2020-11.20.0.1520.tar.gz
+	source = LICENSE
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = hwpviewer2020
+

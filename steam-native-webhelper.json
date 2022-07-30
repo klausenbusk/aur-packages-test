@@ -1,0 +1,12 @@
+pkgbase = steam-native-webhelper
+	pkgdesc = hack to make steamwebhelper behave
+	pkgver = 20190821
+	pkgrel = 1
+	arch = any
+	license = BSD
+	depends = steam-native-runtime
+	source = steam-native-webhelper
+	sha512sums = 606ee8e5a85252c392ac14d1033574ff911b22db84b0bc397ca9b960dd7427445ed12985ca7786f6178f1c6eb650798d3b6bf43be8540aceff8d13329b2ac411
+
+pkgname = steam-native-webhelper
+

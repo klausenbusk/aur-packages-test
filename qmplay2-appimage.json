@@ -1,0 +1,18 @@
+pkgbase = qmplay2-appimage
+	pkgdesc = QMPlay2 is a video and audio player which can play most formats and codecs
+	pkgver = 22.03.19
+	pkgrel = 1
+	url = https://github.com/zaps166/QMPlay2
+	arch = x86_64
+	license = LGPL
+	depends = appimagelauncher
+	optdepends = pulseaudio: PulseAudio support
+	provides = qmplay2
+	conflicts = qmplay2
+	conflicts = qmplay2-git
+	noextract = qmplay2-22.03.19-1.AppImage
+	options = !strip
+	source = qmplay2-22.03.19-1.AppImage::https://github.com/zaps166/QMPlay2/releases/download/22.03.19/QMPlay2-22.03.19-1-x86_64.AppImage
+	sha256sums = c7141bd4b747c2057a6ceedfb167ece9063dda365729fab7267b894e6d035113
+
+pkgname = qmplay2-appimage

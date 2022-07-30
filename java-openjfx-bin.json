@@ -1,0 +1,23 @@
+pkgbase = java-openjfx-bin
+	pkgdesc = Java OpenJFX 18 client application platform (Gluon build).
+	pkgver = 18
+	pkgrel = 1
+	url = https://openjfx.io/
+	arch = x86_64
+	license = GPL2
+	depends = ffmpeg
+	depends = gstreamer
+	depends = java-environment>=11
+	depends = libxtst
+	depends = qt5-base
+	depends = webkit2gtk
+	provides = java-openjfx=18
+	conflicts = java18-openjfx
+	source = https://download2.gluonhq.com/openjfx/18/openjfx-18_linux-x64_bin-sdk.zip
+	source = https://download2.gluonhq.com/openjfx/18/openjfx-18_linux-x64_bin-jmods.zip
+	source = https://download2.gluonhq.com/openjfx/18/openjfx-18-javadoc.zip
+	sha256sums = eb295177887da6af1574c701e149e4fe184fbd2db10a0b6bf88557e7ea7a4b43
+	sha256sums = 9c2df5800b337462a463756585b0965ec75a7cff188190473cfd4f611c59da47
+	sha256sums = da18e3202573f3eac48d045ef0a40fc815f920d710e09c847b8e0aa8dc2d64ed
+
+pkgname = java-openjfx-bin

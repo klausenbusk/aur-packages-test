@@ -1,0 +1,34 @@
+pkgbase = jameica
+	pkgdesc = free runtime environment for java applications
+	pkgver = 2.10.2
+	pkgrel = 1
+	url = https://www.willuhn.de/products/jameica/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL2
+	makedepends = unzip
+	depends = java-runtime>=10
+	depends = gtk3
+	optdepends = java-jce_ustrength: Required for mashup plugin used as new scripting platform for non-HBCI accounts (credit cards etc)
+	source = jameica-start-script.patch
+	source = jameicaserver-start-script.patch
+	source = jameica.desktop
+	validpgpkeys = 7314FBDE7D38EE5610D291B65A8ED9CFC0DB6C70
+	sha1sums = a7b8b39822ac22d830aae03f292fda623977e526
+	sha1sums = 0664650342635fa5b0a9413dc8c22a65053ef234
+	sha1sums = 79eb66782c0e37f1538ca29ce87580aa3bb4e444
+	source_i686 = https://www.willuhn.de/products/jameica/releases/current/jameica/jameica-linux-2.10.2.zip
+	source_i686 = https://www.willuhn.de/products/jameica/releases/current/jameica/jameica-linux-2.10.2.zip.asc
+	sha1sums_i686 = a2f9c15515558e467e69b48bc93dd8d3daa16668
+	sha1sums_i686 = SKIP
+	source_x86_64 = https://www.willuhn.de/products/jameica/releases/current/jameica/jameica-linux64-2.10.2.zip
+	source_x86_64 = https://www.willuhn.de/products/jameica/releases/current/jameica/jameica-linux64-2.10.2.zip.asc
+	sha1sums_x86_64 = bea9dd098792c363957b7042f3fa88e9c5784c71
+	sha1sums_x86_64 = SKIP
+	source_aarch64 = https://willuhn.de/products/jameica/releases/current/jameica/jameica-linuxarm64-2.10.2.zip
+	source_aarch64 = https://willuhn.de/products/jameica/releases/current/jameica/jameica-linuxarm64-2.10.2.zip.asc
+	sha1sums_aarch64 = aa337b12be3d6873a7da1b74b3beed4e4090cd37
+	sha1sums_aarch64 = SKIP
+
+pkgname = jameica

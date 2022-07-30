@@ -1,0 +1,25 @@
+pkgbase = teamspeak3-server
+	pkgdesc = A proprietary VoIP conference software
+	pkgver = 3.4.0
+	pkgrel = 1
+	url = http://www.teamspeak.com
+	install = teamspeak3-server.install
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = glibc
+	depends = systemd>=235
+	optdepends = mariadb-connector-c: for MariaDB backend
+	backup = etc/teamspeak3-server.ini
+	backup = etc/tsdns_settings.ini
+	source = teamspeak3-server.ini
+	source = teamspeak3-server.service
+	sha256sums = 2816cb8d699a08417e5f437dd3803135647dbdda6db012b68dac67b64d5763a8
+	sha256sums = 88aa08ca979a2dd9413ce1167055ffb9bc981e158f08cb886664c5249f3923ba
+	source_i686 = http://dl.4players.de/ts/releases/3.4.0/teamspeak3-server_linux_x86-3.4.0.tar.bz2
+	sha256sums_i686 = e65e39433d56e56f66e7190945f2f58e62bd778d8cf51b71b4c811ff238e5205
+	source_x86_64 = http://dl.4players.de/ts/releases/3.4.0/teamspeak3-server_linux_amd64-3.4.0.tar.bz2
+	sha256sums_x86_64 = 7d6ec8e97d4a9e9913a7e01f2e7f5f9fddfdc41b11e668d013a0f4b574d1918b
+
+pkgname = teamspeak3-server
+

@@ -1,0 +1,35 @@
+pkgbase = popcorntime-ce-bin
+	pkgdesc = Stream movies from torrents. Skip the downloads. Launch, click, watch. Repos of the original community edition.
+	pkgver = 0.4.0
+	pkgrel = 2
+	url = http://www.popcorn-time.is/
+	install = popcorntime-ce.install
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	depends = alsa-lib
+	depends = desktop-file-utils
+	depends = gconf
+	depends = gtk2
+	depends = libnotify
+	depends = libxtst
+	depends = nodejs
+	depends = nss
+	depends = python
+	depends = ttf-font
+	optdepends = net-tools: necessary for the new vpn feature
+	optdepends = ttf-liberation: open source ttf fonts
+	provides = popcorntime
+	provides = popcorntime-ce
+	conflicts = popcorntime-ce
+	conflicts = popcorntime-ce-git
+	options = !strip
+	source = https://github.com/PopcornTimeCommunity/desktop/releases/download/v0.4.0-2/popcorn-time-community-v0.4.0-2-64bit.tar.xz
+	source = popcorntime-ce.install
+	source = popcorntime-ce.desktop
+	sha256sums = 24ae13d504dc8b7272b69fc01deb43099c2c05aef79cd25a62648665660c7486
+	sha256sums = 5e56fd2ee1cf723ef61e997c2e2152d9070c274e3fce2266f843d1aaf3176389
+	sha256sums = e1a4a20c34b3642cef77586195491b317e46a5452b9bbe7bc478f4da983812ce
+
+pkgname = popcorntime-ce-bin
+

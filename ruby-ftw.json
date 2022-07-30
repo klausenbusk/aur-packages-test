@@ -1,0 +1,18 @@
+pkgbase = ruby-ftw
+	pkgdesc = Provides Ruby-language bindings for the libcurl
+	pkgver = 0.0.44
+	pkgrel = 1
+	url = http://github.com/jordansissel/ruby-ftw
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-cabin
+	depends = ruby-http_parser.rb
+	depends = ruby-addressable
+	depends = ruby-backports
+	options = !emptydirs
+	source = https://rubygems.org/downloads/ftw-0.0.44.gem
+	sha256sums = f6b6de346054b5ebcf26dfc7560b48417e84fc90439910030e7cad0b28e2ce96
+
+pkgname = ruby-ftw
+

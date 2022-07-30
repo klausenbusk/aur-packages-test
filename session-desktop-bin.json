@@ -1,0 +1,24 @@
+pkgbase = session-desktop-bin
+	pkgdesc = Private messaging from your desktop
+	pkgver = 1.8.6
+	pkgrel = 1
+	url = https://getsession.org
+	install = session-desktop-bin.install
+	arch = x86_64
+	license = GPL-3.0
+	depends = libxtst
+	depends = nss
+	depends = alsa-lib
+	depends = libxss
+	depends = libnotify
+	depends = xdg-utils
+	optdepends = libappindicator-gtk3: for tray support
+	provides = session-messenger-desktop
+	conflicts = session-desktop
+	conflicts = session-desktop-git
+	conflicts = session-desktop-appimage
+	options = !strip
+	source = https://github.com/oxen-io/session-desktop/releases/download/v1.8.6/session-desktop-linux-amd64-1.8.6.deb
+	sha256sums = 51aecf03dd4a42cb4ee6ad2da9c06c670ed66ed77538e23830a039116010a777
+
+pkgname = session-desktop-bin

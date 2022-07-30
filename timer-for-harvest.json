@@ -1,0 +1,15 @@
+pkgbase = timer-for-harvest
+	pkgdesc = Harvest client implemented using GTK+ and Rust
+	pkgver = 0.3.8
+	pkgrel = 1
+	url = https://github.com/frenkel/timer-for-harvest
+	arch = x86_64
+	license = BSD-2
+	makedepends = cargo
+	makedepends = git
+	makedepends = rust
+	depends = gtk3
+	source = git+https://github.com/frenkel/timer-for-harvest.git#commit=65e1dac5cb996d551a405fd4ffa6318a253e85db
+	sha256sums = SKIP
+
+pkgname = timer-for-harvest

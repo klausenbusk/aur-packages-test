@@ -1,0 +1,42 @@
+pkgbase = buildbot-git
+	pkgdesc = The Continuous Integration Framework
+	pkgver = 1.4.0.r99.gc8595820f
+	pkgrel = 2
+	url = https://buildbot.net
+	arch = any
+	license = GPL2
+	checkdepends = python-treq
+	checkdepends = python-boto3
+	checkdepends = python-mock
+	checkdepends = python-moto
+	checkdepends = python-lz4
+	checkdepends = python-isort
+	checkdepends = python-pylint
+	checkdepends = python-pyenchant
+	checkdepends = flake8
+	checkdepends = python-txrequests
+	checkdepends = python-setuptools_trial
+	checkdepends = python-pyjade
+	checkdepends = python-yaml
+	checkdepends = python-buildbot-pkg-git
+	checkdepends = buildbot-worker-git
+	checkdepends = openssh
+	makedepends = git
+	depends = python-twisted
+	depends = python-jinja
+	depends = python-zope-interface
+	depends = python-future
+	depends = python-sqlalchemy-migrate
+	depends = python-dateutil
+	depends = python-txaio
+	depends = python-autobahn
+	depends = python-pyjwt
+	provides = buildbot=1.4.0.r99.gc8595820f
+	conflicts = buildbot
+	source = git+https://github.com/buildbot/buildbot.git
+	source = skip-linux-distro-test.patch
+	sha256sums = SKIP
+	sha256sums = 42fc2a771034c4134006ed18b52916e668aba3e2046b2fe188c7abcb3cffc0a5
+
+pkgname = buildbot-git
+

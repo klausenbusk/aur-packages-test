@@ -1,0 +1,18 @@
+pkgbase = python-fsspec
+	pkgdesc = A specification that python filesystems should adhere to.
+	pkgver = 0.7.3
+	pkgrel = 1
+	url = https://github.com/intake/filesystem_spec
+	arch = any
+	license = BSD
+	checkdepends = docker
+	checkdepends = python-paramiko
+	checkdepends = python-pyftpdlib
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	depends = python
+	source = python-fsspec-0.7.3.tar.gz::https://github.com/intake/filesystem_spec/archive/0.7.3.tar.gz
+	sha256sums = 3f4d60a4ff89134908016809de75ff0b82096df5f41af5f97b1508fd6d9d7d49
+
+pkgname = python-fsspec
+

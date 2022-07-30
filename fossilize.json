@@ -1,0 +1,11 @@
+pkgbase = fossilize
+	pkgdesc = Library and Vulkan layer for serializing various persistent Vulkan objects which typically end up in hashmaps
+	pkgver = 0
+	pkgrel = 1
+	url = https://github.com/ValveSoftware/Fossilize
+	arch = x86_64
+	license = MIT
+	depends = fossilize
+
+pkgname = fossilize
+

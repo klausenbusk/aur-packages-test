@@ -1,0 +1,14 @@
+pkgbase = brave-browser-bin
+	pkgdesc = A web browser that stops ads and trackers by default. Dummy package, pulls the real binary PKGBUILD.
+	pkgver = 0.8.3
+	pkgrel = 4
+	url = https://www.brave.com/
+	arch = x86_64
+	license = custom:MPL2
+	license = BSD
+	license = Apache
+	license = custom:others
+	depends = brave-bin
+
+pkgname = brave-browser-bin
+

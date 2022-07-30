@@ -1,0 +1,16 @@
+pkgbase = openoffice-extension-languagetool
+	pkgdesc = An Open Source style and grammar checker (more than 30 languages)
+	pkgver = 5.7
+	pkgrel = 1
+	url = https://languagetool.org
+	arch = any
+	groups = openoffice-extensions
+	license = LGPL
+	depends = openoffice-bin
+	depends = java-runtime>=8
+	optdepends = jre8-openjdk: java 8 or greater is required
+	noextract = LanguageTool-5.7.oxt
+	source = LanguageTool-5.7.oxt::https://extensions.openoffice.org/en/download/19227
+	sha512sums = 6641639cb09106e2e3f707eb4386ba40b1c19737a040fbcd5f34d2ee43ed8543e3ba54b2c2e57fdf79f05d18f7cee8697b4258e8fec1c924c6de83bfd7db7003
+
+pkgname = openoffice-extension-languagetool

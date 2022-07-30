@@ -1,0 +1,18 @@
+pkgbase = mingw-w64-adwaita-icon-theme
+	pkgdesc = Adwaita icon theme (mingw-w64)
+	pkgver = 41.0
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = LGPL3
+	makedepends = mingw-w64-configure
+	makedepends = gtk3
+	makedepends = librsvg
+	depends = mingw-w64-hicolor-icon-theme
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = https://download.gnome.org/sources/adwaita-icon-theme/41/adwaita-icon-theme-41.0.tar.xz
+	sha256sums = ef5339d8c35fcad5d10481b70480803f0fa20b3d3cbc339238fcaceeaee01eba
+
+pkgname = mingw-w64-adwaita-icon-theme

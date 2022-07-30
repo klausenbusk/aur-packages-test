@@ -1,0 +1,22 @@
+pkgbase = aphrodite
+	pkgdesc = Manage all server websites from one interface
+	pkgver = 1.7
+	pkgrel = 2
+	url = https://github.com/fumseck/aphrodite
+	arch = any
+	license = GPL3
+	depends = php>=7
+	depends = sudo
+	depends = php-apache
+	depends = apache
+	depends = php-pgsql
+	depends = postgresql
+	depends = sqlite
+	depends = mariadb
+	depends = make
+	depends = git
+	depends = composer
+	depends = php-sqlite
+
+pkgname = aphrodite
+

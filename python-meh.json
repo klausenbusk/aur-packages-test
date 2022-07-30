@@ -1,0 +1,24 @@
+pkgbase = python-meh
+	pkgdesc = Python module for handling exceptions
+	pkgver = 0.50.1
+	pkgrel = 1
+	url = https://github.com/rhinstaller/python-meh/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = https://github.com/rhinstaller/python-meh/archive/python-meh-0.50.1.tar.gz
+	sha256sums = 7bc68fffa3c0eaa1e913d80712204db3dddd8156951704b142b8993ba95ef9fd
+
+pkgname = python-meh
+	pkgdesc = Python module for handling exceptions - python 3.x pkg
+	depends = python
+	depends = python-dbus
+	depends = libreport
+
+pkgname = python2-meh
+	pkgdesc = Python module for handling exceptions - python 2.x pkg
+	depends = python2
+	depends = python2-dbus
+	depends = libreport

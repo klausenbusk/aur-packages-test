@@ -1,0 +1,17 @@
+pkgbase = python2-scruffington
+	pkgdesc = Framework for taking care of a bunch of boilerplate in Python apps.
+	pkgver = 0.3.8.2
+	pkgrel = 1
+	url = https://github.com/snare/scruffy
+	arch = any
+	license = MIT
+	makedepends = python2-setuptools
+	depends = python2
+	depends = python2-yaml
+	depends = python2-six
+	depends = python2-sqlalchemy
+	options = !emptydirs
+	source = scruffy-0.3.8.2.tar.gz::https://codeload.github.com/snare/scruffy/tar.gz/v0.3.8.2
+	sha256sums = 36bd10f44a5329590e4ea7a6746645c1f9fa05d03b62c8c713676c65dbff2392
+
+pkgname = python2-scruffington

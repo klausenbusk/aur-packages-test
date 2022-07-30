@@ -1,0 +1,16 @@
+pkgbase = gnome-shell-extension-desktop-icons-reworked
+	pkgdesc = Add icons to the desktop
+	pkgver = 0.4
+	pkgrel = 1
+	url = https://github.com/Ste74/org.gnome.desktop-icons-reworked
+	arch = any
+	license = LGPL3
+	depends = gnome-shell
+	depends = gnome-shell-extensions
+	conflicts = gnome-shell-extension-desktop-icons
+	options = !strip
+	source = https://github.com/Ste74/org.gnome.desktop-icons-reworked/archive/v0.4.tar.gz
+	sha512sums = ede5f3123e3a413ba8ddbaa2dda24df8934347cd61e8c992d4df2932ca26551f9aa7bb6238ca0752931409e06f7a4e5cf7433462be41005a0eaecb817dfd56ab
+
+pkgname = gnome-shell-extension-desktop-icons-reworked
+

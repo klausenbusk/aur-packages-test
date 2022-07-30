@@ -1,0 +1,13 @@
+pkgbase = python-parsel
+	pkgdesc = Parsel lets you extract data from XML/HTML documents using XPath or CSS selectors.
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = http://scrapy.org
+	arch = any
+	license = BSD
+	makedepends = git
+	source = git+https://github.com/scrapy/parsel.git#tag=v1.1.0
+	md5sums = SKIP
+
+pkgname = python-parsel
+

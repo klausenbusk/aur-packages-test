@@ -1,0 +1,21 @@
+pkgbase = svgtools
+	pkgdesc = Tools for working with SVG files and JessyInk presentations.
+	pkgver = 2021
+	pkgrel = 4
+	url = https://xyne.dev/projects/svgtools
+	arch = any
+	license = GPL
+	depends = python3
+	optdepends = inkscape: required for ji2pdf and jessy_to_slides
+	optdepends = parallel: GNU Parallel support for ji2pdf
+	optdepends = phantomjs: required for jessy_to_slides
+	optdepends = poppler: required for ji2pdf
+	source = https://xyne.dev/projects/svgtools/src/svgtools-2021.tar.xz
+	source = https://xyne.dev/projects/svgtools/src/svgtools-2021.tar.xz.sig
+	validpgpkeys = D89FAAEB4CECAFD199A2F5E612C6F735F7A9A519
+	md5sums = ef52f777f4a8c590c497de943710a3eb
+	md5sums = a46365f7b8113ba7b0614b8a386ccaeb
+	sha512sums = c50a8695a8dd9bcb8e7315a1bc408ae5a8fee0e2f89926d9d7609c253183f59bc0ac936184d5ba4b83e5843b6760e356bd2abbdb6815012ea97dc34a2fb220b6
+	sha512sums = 33902a6a6890a1790cc7829296e6e83e11c1227c1b22e3d2224e903d49a6c758fe4168cbdfdee882110b030eebc6bac15e9f89f84c87bc52886f2c918622b1ca
+
+pkgname = svgtools

@@ -1,0 +1,21 @@
+pkgbase = dojo
+	pkgdesc = A tool to keep environment as code. Dojo helps to compile code and run other operations in Docker containers. Containerize your development and operations environment.
+	pkgver = 0.11.0
+	pkgrel = 4
+	url = https://github.com/kudulab/dojo
+	arch = x86_64
+	license = Apache-2
+	makedepends = go>=1.17
+	makedepends = git
+	makedepends = gzip
+	makedepends = tar
+	makedepends = gcc
+	depends = bash
+	depends = docker
+	depends = docker-compose
+	provides = dojo
+	conflicts = dojo-bin
+	source = dojo-0.11.0.tar.gz::https://github.com/kudulab/dojo/archive/0.11.0.tar.gz
+	sha256sums = 928c42721fb8542034509ad91f49c467a7d34da462a3a3cf98feced45463e8e7
+
+pkgname = dojo

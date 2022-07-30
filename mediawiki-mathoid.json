@@ -1,0 +1,17 @@
+pkgbase = mediawiki-mathoid
+	pkgdesc = Using MathJax and PhantomJS to create SVGs and MathML server side with minimum overhead.
+	pkgver = 0.7.5
+	pkgrel = 1
+	url = https://github.com/wikimedia/mathoid
+	arch = any
+	license = Apache
+	makedepends = npm
+	makedepends = jq
+	depends = nodejs
+	depends = librsvg
+	noextract = mathoid-0.7.5.tgz
+	source = https://registry.npmjs.org/mathoid/-/mathoid-0.7.5.tgz
+	sha1sums = 65df32ba434e9cf0ccf988b63c9bb1049e30c669
+
+pkgname = mediawiki-mathoid
+

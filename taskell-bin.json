@@ -1,0 +1,16 @@
+pkgbase = taskell-bin
+	pkgdesc = Command-line Kanban board/task manager with support for Trello boards and GitHub projects
+	pkgver = 1.9.3
+	pkgrel = 3
+	url = https://taskell.app
+	arch = x86_64
+	license = Custom
+	depends = ncurses5-compat-libs
+	provides = taskell
+	source = https://github.com/smallhadroncollider/taskell/releases/download/1.9.3/taskell-1.9.3_x86-64-linux.tar.gz
+	source = LICENSE::https://raw.githubusercontent.com/smallhadroncollider/taskell/master/LICENSE
+	md5sums = 5dae563f46eb5d62d7663137bff1c788
+	md5sums = b445947eb0aeab68a86949e549e145c4
+
+pkgname = taskell-bin
+

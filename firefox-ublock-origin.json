@@ -1,0 +1,14 @@
+pkgbase = firefox-ublock-origin
+	pkgdesc = Efficient blocker add-on for various browsers. Fast, potent, and lean
+	pkgver = 1.17.4
+	pkgrel = 1
+	url = https://github.com/gorhill/uBlock
+	arch = any
+	groups = firefox-addons
+	license = GPL3
+	noextract = ublock_origin-1.17.4-an+fx.xpi
+	source = https://addons.cdn.mozilla.net/user-media/addons/607454/ublock_origin-1.17.4-an+fx.xpi
+	sha256sums = 54c9a1380900eb1eba85df3a82393cef321e9c845fda227690d9377ef30e913e
+
+pkgname = firefox-ublock-origin
+

@@ -1,0 +1,22 @@
+pkgbase = archi
+	pkgdesc = Free, open source, cross-platform tool and editor to create ArchiMate models.
+	pkgver = 4.8.1
+	pkgrel = 2
+	url = http://www.archimatetool.com/
+	arch = x86_64
+	license = MIT
+	depends = java-runtime-openjdk=8
+	depends = bash
+	optdepends = webkitgtk2: hints view support
+	provides = archi
+	source = https://www.archimatetool.com/downloads/a481/Archi-Linux64-4.8.1.tgz
+	source = archi.desktop
+	source = archi-launcher.sh
+	source = LICENSE
+	md5sums = f7eced20d3ac17d6c0cedd1c0e9f3574
+	md5sums = 7b9a0cf8e67790ff9ca1afc6578e3adc
+	md5sums = 7813e905142baeb290d396e349beeb13
+	md5sums = 66653b079752362c3e9fc7142027cb7e
+
+pkgname = archi
+

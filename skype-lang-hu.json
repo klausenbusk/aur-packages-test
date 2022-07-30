@@ -1,0 +1,13 @@
+pkgbase = skype-lang-hu
+	pkgdesc = Hungarian language files for skype
+	pkgver = 4.3.0.37
+	pkgrel = 2
+	url = http://www.urbalazs.hu/blog/index.php?cikk=6
+	arch = any
+	license = CCPL
+	depends = skype-legacy=4.3.0.37
+	source = http://www.urbalazs.hu/blog/uploads/skype_hu_4.3.0.37.tar.gz
+	md5sums = 69301d841910604af7fdd1763551e1a2
+
+pkgname = skype-lang-hu
+

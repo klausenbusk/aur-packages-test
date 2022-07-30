@@ -1,0 +1,16 @@
+pkgbase = how2
+	pkgdesc = finds the simplest way to do something in a unix shell. It's like man, but you can query it in natural language (VladimirMikulic working fork).
+	pkgver = 1.7.3
+	pkgrel = 1
+	url = https://github.com/santinic/how2
+	arch = any
+	license = MIT
+	depends = nodejs
+	depends = npm
+	conflicts = nodejs-how2
+	noextract = how-2-1.7.3.tgz
+	source = https://github.com/VladimirMikulic/how2/releases/download/1.7.3/how-2-1.7.3.tgz
+	sha256sums = 6c759948d5ba50a6bab37aeaa2bd94724a11ae7daf9d2040f4b67e932ee2555a
+
+pkgname = how2
+

@@ -1,0 +1,9 @@
+pkgbase = otf-fontawesome
+	pkgver = 4.7.0
+	pkgrel = 1
+	arch = any
+	source = http://fontawesome.io/assets/font-awesome-4.7.0.zip
+	md5sums = SKIP
+
+pkgname = otf-fontawesome
+

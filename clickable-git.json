@@ -1,0 +1,22 @@
+pkgbase = clickable-git
+	pkgdesc = Compile, build, and deploy Ubuntu Touch click packages all from the command line
+	pkgver = 7.1.0.r1.gf7d2bb9
+	pkgrel = 1
+	url = https://gitlab.com/clickable/clickable
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = python-cookiecutter
+	depends = python-requests
+	depends = python-yaml
+	depends = python-jsonschema
+	depends = python-argcomplete
+	depends = docker
+	depends = android-tools
+	optdepends = xorg-xhost: for running on the desktop
+	provides = clickable
+	conflicts = clickable
+	source = git+https://gitlab.com/clickable/clickable.git
+	sha256sums = SKIP
+
+pkgname = clickable-git

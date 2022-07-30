@@ -1,0 +1,17 @@
+pkgbase = trelby-git
+	pkgdesc = Free screenwriting application
+	pkgver = 0.r809.580222d
+	pkgrel = 3
+	url = http://www.trelby.org
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = python2
+	depends = python2-setuptools
+	depends = python2-lxml
+	depends = wxpython
+	provides = trelby
+	source = git+https://github.com/trelby/trelby.git
+	md5sums = SKIP
+
+pkgname = trelby-git

@@ -1,0 +1,16 @@
+pkgbase = ignoreit
+	pkgdesc = Quickly load .gitignore templates
+	pkgver = 2.4.3
+	pkgrel = 2
+	url = https://github.com/jewlexx/ignoreit
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	source = ignoreit-2.4.3.tar.gz::https://static.crates.io/crates/ignoreit/ignoreit-2.4.3.crate
+	sha256sums = b7593635324db58c1a7ae5981a6087f9584737452d3ac9477f1d44a6b6840d2e
+
+pkgname = ignoreit

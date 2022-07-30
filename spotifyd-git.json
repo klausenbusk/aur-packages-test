@@ -1,0 +1,21 @@
+pkgbase = spotifyd-git
+	pkgdesc = A spotify playing daemon
+	pkgver = 0.2.20.1.gde16b40
+	pkgrel = 1
+	url = https://github.com/Spotifyd/spotifyd
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	makedepends = git
+	makedepends = cargo
+	depends = flac
+	depends = libogg
+	depends = libsndfile
+	depends = libvorbis
+	provides = spotifyd
+	conflicts = spotifyd
+	source = spotifyd::git+https://github.com/Spotifyd/spotifyd
+	sha256sums = SKIP
+
+pkgname = spotifyd-git
+

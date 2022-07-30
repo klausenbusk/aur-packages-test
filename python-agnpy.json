@@ -1,0 +1,20 @@
+pkgbase = python-agnpy
+	pkgdesc = Models Active Galactic Nuclei radiative processes
+	pkgver = 0.1.8
+	pkgrel = 1
+	url = https://github.com/cosimonigro/agnpy
+	arch = any
+	license = BSD
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-install
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python-astropy
+	depends = python-numpy
+	depends = python-matplotlib
+	depends = python-scipy
+	source = python-agnpy-0.1.8.tar.gz::https://files.pythonhosted.org/packages/source/a/agnpy/agnpy-0.1.8.tar.gz
+	sha256sums = 44937cac40df3bb349c752fbed35b1f66a097047450c659b39836b27b0ed174c
+
+pkgname = python-agnpy

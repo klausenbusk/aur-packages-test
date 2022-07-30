@@ -1,0 +1,17 @@
+pkgbase = julie-ssh
+	pkgdesc = A command line tool made to simplify the usage of gpg, ssh version
+	pkgver = 2020032001
+	pkgrel = 2020032001
+	url = https://framagit.org/SirCipherz/julie-ssh
+	arch = any
+	license = GPL3
+	depends = gnupg
+	depends = xclip
+	depends = git
+	depends = python3
+	depends = ffmpeg
+	depends = openssh
+	conflicts = julie
+
+pkgname = julie-ssh
+

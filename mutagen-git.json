@@ -1,0 +1,11 @@
+pkgbase = mutagen-git
+	pkgdesc = Deprecated VCS package for python-mutagen; should be deleted
+	pkgver = 6
+	pkgrel = 6
+	epoch = 6
+	url = https://aur.archlinux.org/packages/python-mutagen-git
+	arch = any
+	license = GPL2
+	provides = mutagen
+
+pkgname = mutagen-git

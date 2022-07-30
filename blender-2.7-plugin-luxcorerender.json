@@ -1,0 +1,17 @@
+pkgbase = blender-2.7-plugin-luxcorerender
+	pkgdesc = LuxCoreRender exporter plugin for Blender 2.7
+	pkgver = 2.2beta2.r24.ga5d7d33
+	pkgrel = 1
+	url = https://luxcorerender.org/
+	arch = any
+	license = GPL
+	makedepends = git
+	conflicts = luxblend25
+	conflicts = luxblend25-hg
+	source = luxcorerender::git+https://github.com/LuxCoreRender/BlendLuxCore.git#branch=2_79_maintenance
+	sha256sums = SKIP
+
+pkgname = blender-2.7-plugin-luxcorerender
+	depends = blender-2.7
+	depends = luxcorerender
+

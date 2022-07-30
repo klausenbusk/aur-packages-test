@@ -1,0 +1,14 @@
+pkgbase = corepack
+	pkgdesc = Zero-runtime-dependency package acting as bridge between Node projects and their package managers.
+	pkgver = 0.11.2
+	pkgrel = 1
+	url = https://github.com/nodejs/corepack
+	arch = any
+	license = MIT
+	makedepends = yarn
+	depends = nodejs
+	provides = corepack
+	source = corepack-0.11.2.tar.gz::https://github.com/nodejs/corepack/archive/refs/tags/v0.11.2.tar.gz
+	sha256sums = b98db09123d8c7007240a4a83e79d4200f30f3c95c99e2a9f9ba50339e8e4d2f
+
+pkgname = corepack

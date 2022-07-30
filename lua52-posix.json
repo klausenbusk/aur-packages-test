@@ -1,0 +1,15 @@
+pkgbase = lua52-posix
+	pkgdesc = Lua 5.2 bindings for POSIX APIs
+	pkgver = 34.1.1
+	pkgrel = 1
+	url = https://github.com/luaposix/luaposix
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = luarocks
+	depends = lua52
+	source = luaposix-34.1.1.tar.gz::https://github.com/luaposix/luaposix/archive/release-v34.1.1.tar.gz
+	sha256sums = 273df2dbd9581a2f22e4265f14d0d759c487c0c9830f94395d7d690474382810
+
+pkgname = lua52-posix
+

@@ -1,0 +1,15 @@
+pkgbase = version-control-tools-hg
+	pkgdesc = Tools, extensions, hooks, etc to support version control at Mozilla
+	pkgver = r6490.e50b99efbc2e
+	pkgrel = 1
+	url = https://mozilla-version-control-tools.readthedocs.io/en/latest/
+	arch = any
+	license = MPL2
+	depends = mercurial
+	depends = python
+	provides = version-control-tools=r6490.e50b99efbc2e
+	source = version-control-tools::hg+https://hg.mozilla.org/hgcustom/version-control-tools
+	sha512sums = SKIP
+
+pkgname = version-control-tools-hg
+

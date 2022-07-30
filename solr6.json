@@ -1,0 +1,33 @@
+pkgbase = solr6
+	pkgdesc = Popular, blazing fast open source enterprise search platform from the Apache Lucene project
+	pkgver = 6.6.6
+	pkgrel = 1
+	url = http://lucene.apache.org/solr/
+	install = solr.install
+	arch = any
+	license = Apache
+	makedepends = unzip
+	depends = java-runtime-headless>=8
+	conflicts = solr
+	options = !strip
+	backup = opt/solr/server/etc/jetty.xml
+	backup = opt/solr/server/etc/jetty-http.xml
+	backup = opt/solr/server/etc/jetty-https.xml
+	backup = opt/solr/server/etc/jetty-ssl.xml
+	backup = opt/solr/server/etc/webdefault.xml
+	backup = opt/solr/server/solr/solr.xml
+	backup = opt/solr/server/solr/zoo.cfg
+	source = http://archive.apache.org/dist/lucene/solr/6.6.6/solr-6.6.6.tgz
+	source = http://archive.apache.org/dist/lucene/solr/6.6.6/solr-6.6.6.tgz.asc
+	source = solr.service
+	source = solr.sysusers
+	validpgpkeys = 052C5B48A480B9CEA9E218A5F98C13CFA5A135D8
+	validpgpkeys = 2085660D9C1FCCACC4A479A3BF160FF14992A24C
+	validpgpkeys = D84A760EFB229AC156D5082ECDDE30C37F3DE8DA
+	sha256sums = 149ec1a7ee950867ab6257a1a96246df79ccda983983389dc639220f3447b6e8
+	sha256sums = SKIP
+	sha256sums = e4ca86de2ef9425913280deeeec42d6e8ff310b08ea55d9156193ceef3c847bd
+	sha256sums = a336c1a16742b100b3d28fe49722366477bb805e262f36b83cc2fdd9e85d5bf9
+
+pkgname = solr6
+

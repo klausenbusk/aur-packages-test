@@ -1,0 +1,19 @@
+pkgbase = velox-ametisf-git
+	pkgdesc = Ametisf's fork of velox.
+	pkgver = 462.e533638
+	pkgrel = 1
+	url = https://github.com/ametisf/velox
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = tup
+	depends = swc
+	optdepends = terminus-font: bitmap font for nicer rendering
+	optdepends = dstatus: status bar for velox
+	provides = velox
+	conflicts = velox
+	source = velox-ametisf-git::git+https://github.com/ametisf/velox.git
+	md5sums = SKIP
+
+pkgname = velox-ametisf-git
+

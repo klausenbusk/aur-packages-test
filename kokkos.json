@@ -1,0 +1,14 @@
+pkgbase = kokkos
+	pkgdesc = C++ performance portability programming ecosystem
+	pkgver = 3.6.01
+	pkgrel = 1
+	url = https://github.com/kokkos/kokkos
+	arch = x86_64
+	license = custom:BSD-3-clause
+	makedepends = cmake
+	depends = bash
+	depends = hwloc
+	source = https://github.com/kokkos/kokkos/archive/3.6.01.tar.gz
+	sha512sums = 0fa6aa921b6fe56cb464678d9c114e5c9f3ed1ed2f26f704dd7a37e596ca9b2daacc8a9885ff0144234bcb02c83f00c0646dd9963517326609a4dc29e4d7c7a6
+
+pkgname = kokkos

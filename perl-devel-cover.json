@@ -1,0 +1,17 @@
+pkgbase = perl-devel-cover
+	pkgdesc = Perl/CPAN Module Devel::Cover: Code coverage metrics for Perl
+	pkgver = 1.38
+	pkgrel = 1
+	url = https://metacpan.org/release/Devel-Cover
+	arch = i686
+	arch = x86_64
+	license = PerlArtistic
+	license = GPL
+	depends = perl-b-debug-cpan>=1.26
+	depends = perl-html-parser
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/P/PJ/PJCJ/Devel-Cover-1.38.tar.gz
+	md5sums = 4bf351e64de779823bfffbc24ac0935a
+	sha512sums = 3e4f1b625bd1b34afe93003c6e83189f1722b3e6392dccf3a1d28ecd7be943ad9af69c5a798ec7a9a604a18d2433fc4f406b2623315ed416ce110191cdf17bc1
+
+pkgname = perl-devel-cover

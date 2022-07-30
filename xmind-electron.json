@@ -1,0 +1,12 @@
+pkgbase = xmind-electron
+	pkgdesc = XMind - The most popular mind mapping software
+	pkgver = 11.1.2
+	pkgrel = 1
+	url = https://www.xmind.net/desktop/
+	arch = x86_64
+	license = custom: XMind
+	depends = electron13
+	source = xmind-electron-11.1.2-202111151820.orig.rpm::https://dl3.xmind.net/XMind-for-Linux-x86-64bit-11.1.2-202111151820.rpm
+	sha256sums = 7aa30e4d8e5c9cd1e4e48f88fdccaaebba4befd700969da57ee776a9c4244a00
+
+pkgname = xmind-electron

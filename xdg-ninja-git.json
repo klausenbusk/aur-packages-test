@@ -1,0 +1,17 @@
+pkgbase = xdg-ninja-git
+	pkgdesc = A shell script which checks your $HOME for unwanted files and directories.
+	pkgver = r193.8395f1b
+	pkgrel = 1
+	url = https://github.com/b3nj5m1n/xdg-ninja
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = jq
+	depends = bc
+	optdepends = glow: rendering markdown in the terminal
+	provides = xdg-ninja
+	conflicts = xdg-ninja
+	source = git+https://github.com/b3nj5m1n/xdg-ninja
+	md5sums = SKIP
+
+pkgname = xdg-ninja-git

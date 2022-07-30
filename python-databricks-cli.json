@@ -1,0 +1,23 @@
+pkgbase = python-databricks-cli
+	pkgdesc = open source tool which provides an easy to use interface to the Databricks platform
+	pkgver = 0.17.0
+	pkgrel = 1
+	url = https://github.com/databricks/databricks-cli
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = python
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-click
+	depends = python-pyjwt
+	depends = python-oauthlib
+	depends = python-requests
+	depends = python-tabulate
+	depends = python-six
+	source = python-databricks-cli-0.17.0.tar.gz::https://github.com/databricks/databricks-cli/archive/0.17.0.tar.gz
+	sha256sums = f8dd4bfeb01c658573e9ffd468a151c1f5511fc05049ec7b9ae483ff418eece7
+
+pkgname = python-databricks-cli

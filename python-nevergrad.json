@@ -1,0 +1,29 @@
+pkgbase = python-nevergrad
+	pkgdesc = Gradient-free optimization
+	pkgver = 0.4.3
+	pkgrel = 1
+	url = https://github.com/facebookresearch/nevergrad
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-pytest
+	makedepends = python-gym
+	depends = mypy
+	depends = python-bayesian-optimization
+	depends = python-cma
+	depends = python-coverage
+	depends = python-genty
+	depends = python-joblib
+	depends = python-matplotlib
+	depends = python-nose
+	depends = python-nose-timer
+	depends = python-numpy
+	depends = python-pandas
+	depends = python-typing-extensions
+	depends = python-pyproj
+	source = git+https://github.com/facebookresearch/nevergrad#tag=0.4.3
+	md5sums = SKIP
+
+pkgname = python-nevergrad
+

@@ -1,0 +1,21 @@
+pkgbase = perl-gtk3
+	pkgdesc = Perl interface to the 3.x series of the gtk+ toolkit
+	pkgver = 0.033
+	pkgrel = 1
+	url = https://metacpan.org/release/Gtk3
+	arch = i686
+	arch = x86_64
+	license = PerlArtistic
+	license = GPL
+	checkdepends = ttf-dejavu
+	checkdepends = xorg-server-xvfb
+	depends = gtk3
+	depends = perl-cairo-gobject>=1.000
+	depends = perl-glib-object-introspection>=0.016
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/X/XA/XAOC/Gtk3-0.033.tar.gz
+	md5sums = 1e7ec88cc2e306060deca852ea6323a2
+	sha512sums = 081caf5808647081346d7c8b5d492a19dc2cd2e03a319b92344d41b54954f5c61eacdf20cc2d127a02e29277bfdc3799f852336bc61ee153b05e2d19e7b8afd2
+
+pkgname = perl-gtk3
+

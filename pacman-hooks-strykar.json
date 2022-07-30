@@ -1,0 +1,20 @@
+pkgbase = pacman-hooks-strykar
+	pkgdesc = Various personal Pacman hooks
+	pkgver = 0.12xfr
+	pkgrel = 1
+	url = https://github.com/strykar/pacman-hooks
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = pacman-contrib
+	depends = nvidia-keylase-patch
+	depends = pug
+	depends = pacman-cleanup-hook
+	depends = informant
+	depends = overdue
+	depends = kernel-modules-hook
+	source = git+https://github.com/strykar/pacman-hooks
+	md5sums = SKIP
+
+pkgname = pacman-hooks-strykar
+

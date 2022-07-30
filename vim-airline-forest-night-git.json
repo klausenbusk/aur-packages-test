@@ -1,0 +1,16 @@
+pkgbase = vim-airline-forest-night-git
+	pkgdesc = forest-night color scheme for vim-airline
+	pkgver = v0.1.0.r7.g5d964ff
+	pkgrel = 1
+	url = https://github.com/sainnhe/forest-night
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = vim
+	optdepends = vim-colorscheme-forest-night-git
+	optdepends = vim-airline-git
+	source = git+https://github.com/sainnhe/forest-night.git
+	md5sums = SKIP
+
+pkgname = vim-airline-forest-night-git
+

@@ -1,0 +1,20 @@
+pkgbase = gasher-git
+	pkgdesc = A GNU Social client written in bash.
+	pkgver = 101.226f4f1
+	pkgrel = 1
+	url = https:/git.2mb.codes/~lilmike/gasher
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = bash
+	depends = curl
+	optdepends = sox: soundclip recording and playback
+	optdepends = mplayer: sound clip playback
+	optdepends = mpv: sound clip playback
+	provides = gasher
+	conflicts = gasher
+	source = gasher::git+https://git.2mb.codes/~lilmike/gasher
+	md5sums = SKIP
+
+pkgname = gasher-git
+

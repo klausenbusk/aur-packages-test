@@ -1,0 +1,15 @@
+pkgbase = kbenv-bin
+	pkgdesc = Kubectl version manager inspired by tfenv
+	pkgver = 0.2.5
+	pkgrel = 2
+	url = https://github.com/little-angry-clouds/kubernetes-binaries-managers
+	arch = x86_64
+	license = GPL3
+	provides = kbenv
+	provides = kubectl
+	conflicts = kubectl
+	source = kbenv-bin-0.2.5.tar.gz::https://github.com/little-angry-clouds/kubernetes-binaries-managers/releases/download/0.2.5/kbenv-linux-amd64.tar.gz
+	sha256sums = 2efba990d4a3d268eb0c8b9f1e5bb553944d4bb040529960c7ad971fad23f75a
+
+pkgname = kbenv-bin
+

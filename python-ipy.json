@@ -1,0 +1,13 @@
+pkgbase = python-ipy
+	pkgdesc = Class and tools for handling of IPv4 and IPv6 addresses and networks
+	pkgver = 1.00
+	pkgrel = 0
+	url = https://github.com/autocracy/python-ipy
+	arch = any
+	license = BSD
+	depends = python
+	source = https://pypi.python.org/packages/source/I/IPy/IPy-1.00.tar.gz
+	md5sums = 1a90c68174234672241a7e60c7ea0fb9
+
+pkgname = python-ipy
+

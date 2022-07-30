@@ -1,0 +1,14 @@
+pkgbase = ktlint-git
+	pkgdesc = An anti-bikeshedding Kotlin linter with built-in formatter
+	pkgver = 0.36.0.r13.ga86d1c7
+	pkgrel = 1
+	url = https://github.com/pinterest/ktlint
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = java-runtime
+	source = git+https://github.com/pinterest/ktlint
+	sha256sums = SKIP
+
+pkgname = ktlint-git
+

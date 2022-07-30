@@ -1,0 +1,19 @@
+pkgbase = exman
+	pkgdesc = manuals for other systems
+	pkgver = 2062.73
+	pkgrel = 2
+	url = https://git.causal.agency/exman
+	arch = any
+	license = ISC
+	makedepends = bmake
+	makedepends = git
+	depends = man
+	depends = sh
+	options = libtool
+	options = staticlibs
+	options = !strip
+	options = !zipman
+	source = https://git.causal.agency/exman/snapshot/exman-2062.73.tar.gz
+	sha256sums = bc293595476a5dfbded6105d91a2a40bae92dac38f3e9acff51b2c0bba0600b6
+
+pkgname = exman

@@ -1,0 +1,20 @@
+pkgbase = salad-git
+	pkgdesc = Allows gamers to mine crypto in their downtime [git version].
+	pkgver = 1.0.1.r1.g0fd98789
+	pkgrel = 1
+	url = https://salad.com
+	arch = x86_64
+	license = MIT
+	makedepends = yarn
+	makedepends = git
+	depends = nodejs
+	depends = libxcrypt-compat
+	depends = nss
+	depends = gtk3
+	depends = alsa-lib
+	provides = salad
+	conflicts = salad
+	source = git+https://github.com/SaladTechnologies/salad-applications.git
+	sha256sums = SKIP
+
+pkgname = salad-git

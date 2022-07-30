@@ -1,0 +1,14 @@
+pkgbase = python-stscitools
+	pkgdesc = STSCI Tools
+	pkgver = 3.4.11
+	pkgrel = 1
+	url = https://github.com/spacetelescope/stsci.tools
+	arch = i686
+	arch = x86_64
+	license = BSD
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/s/stsci.tools/stsci.tools-3.4.11.tar.gz
+	md5sums = 1b2f59eb444ebb816fd5587781fee63e
+
+pkgname = python-stscitools
+

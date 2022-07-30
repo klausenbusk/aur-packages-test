@@ -1,0 +1,16 @@
+pkgbase = python-meilisearch
+	pkgdesc = Python client for MeiliSearch API
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://pypi.org/project/meilisearch/
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pytest-ordering
+	makedepends = python-requests
+	depends = python
+	source = python-meilisearch-0.10.0.tar.gz::https://github.com/meilisearch/meilisearch-python/archive/v0.10.0.tar.gz
+	sha512sums = e2b03834fd834c6f1c77f7e23a86b8743cece92dbf781d7e6bd165fbc3f7e05d19c40b1b755627dca56253474b16a87806114248b406bafc825ef9b4157f5702
+
+pkgname = python-meilisearch
+

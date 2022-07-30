@@ -1,0 +1,14 @@
+pkgbase = zeus
+	pkgdesc = The containerized AUR helper
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://github.com/threadexio/zeus
+	arch = any
+	license = GPL
+	makedepends = cargo
+	depends = docker
+	conflicts = zeus-bin
+	source = https://github.com/threadexio/zeus/archive/refs/tags/v3.0.0.tar.gz
+	sha256sums = 6b852285caf19651dd755f851ed2afd883724efa41eec2a9d844fcb20cefc9e0
+
+pkgname = zeus

@@ -1,0 +1,23 @@
+pkgbase = manjaro-zsh-config-git
+	pkgdesc = Zsh configuration from manjaro forked for all the cool kids
+	pkgver = r71.76d3e1a
+	pkgrel = 1
+	url = https://github.com/ayr-ton/manjaro-zsh-config
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = zsh-autosuggestions
+	depends = zsh-syntax-highlighting
+	depends = zsh-completions
+	depends = zsh-history-substring-search
+	depends = zsh
+	depends = pkgfile
+	depends = nerd-fonts-noto-sans-mono
+	depends = zsh-theme-powerlevel10k
+	provides = manjaro-zsh-config-git=r71.76d3e1a
+	conflicts = manjaro-zsh-config
+	backup = root/.zshrc
+	source = manjaro-zsh-config::git+https://github.com/ayr-ton/manjaro-zsh-config.git
+	sha256sums = SKIP
+
+pkgname = manjaro-zsh-config-git

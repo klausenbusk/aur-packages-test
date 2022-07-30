@@ -1,0 +1,18 @@
+pkgbase = ruby-gemoji
+	pkgdesc = Character information and metadata for Unicode emoji
+	pkgver = 4.0.0.rc3
+	pkgrel = 1
+	url = https://github.com/github/gemoji
+	arch = any
+	license = MIT
+	checkdepends = ruby-bundler
+	checkdepends = ruby-rake
+	checkdepends = ruby-i18n
+	checkdepends = ruby-minitest
+	makedepends = rubygems
+	makedepends = ruby-rdoc
+	depends = ruby
+	source = https://github.com/github/gemoji/archive/v4.0.0.rc3/gemoji-4.0.0.rc3.tar.gz
+	sha256sums = 81d86b6889eb3c9831f9a4be3931dcd957fe289eeee5132848aa6749fcb01c7a
+
+pkgname = ruby-gemoji

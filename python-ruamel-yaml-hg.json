@@ -1,0 +1,19 @@
+pkgbase = python-ruamel-yaml-hg
+	pkgdesc = YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
+	pkgver = 0.16.12.r4.7858379dfa6e
+	pkgrel = 1
+	url = https://sourceforge.net/projects/ruamel-yaml/
+	arch = any
+	groups = devel
+	license = MIT
+	makedepends = python-pip
+	makedepends = mercurial
+	makedepends = wget
+	depends = python
+	provides = python-ruamel-yaml
+	conflicts = python-ruamel-yaml-hg
+	source = yaml::hg+http://hg.code.sf.net/p/ruamel-yaml/code
+	md5sums = SKIP
+
+pkgname = python-ruamel-yaml-hg
+

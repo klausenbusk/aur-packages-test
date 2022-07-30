@@ -1,0 +1,13 @@
+pkgbase = pywand
+	pkgdesc = Python interface for ImageMagick library
+	pkgver = 0.4.4.380068e
+	pkgrel = 5
+	url = https://github.com/dahlia/wand
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = python-wand
+	depends = python2-wand
+
+pkgname = pywand
+

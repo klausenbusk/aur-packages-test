@@ -1,0 +1,18 @@
+pkgbase = stationhub
+	pkgdesc = The Station Hub for Unitystation, an open source remake of Space Station 13 on the Unity engine.
+	pkgver = 0.4
+	pkgrel = 2
+	url = https://unitystation.org/
+	install = stationhub.install
+	arch = x86_64
+	license = AGPL v3
+	options = staticlibs
+	source = https://unitystationfile.b-cdn.net/StationHubLinux.zip
+	source = stationhub.desktop
+	source = stationhub.png
+	sha256sums = SKIP
+	sha256sums = 0373d2ccaa58f12b11e0a1be70de63f27858b5dc46346ae7a6a8727a74dbcaba
+	sha256sums = ddfc55857b2243a732b6003f0ba1e0fb8ee7f16562a4abc572f09461b6494625
+
+pkgname = stationhub
+

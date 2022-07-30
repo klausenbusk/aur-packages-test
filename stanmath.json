@@ -1,0 +1,11 @@
+pkgbase = stanmath
+	pkgdesc = reverse-mode automatic differentiation library
+	pkgver = 4.4.0
+	pkgrel = 1
+	url = https://github.com/stan-dev/math
+	arch = any
+	license = BSD
+	source = stanmath-4.4.0.tar.gz::https://github.com/stan-dev/math/archive/refs/tags/v4.4.0.tar.gz
+	sha256sums = 50c1530910427cadc8059300344424700a9b0178d0fe773781150c0e200e5fe9
+
+pkgname = stanmath

@@ -1,0 +1,22 @@
+pkgbase = tenshi-rs-git
+	pkgdesc = Unbound local-zone generator for curated hosts files (git)
+	pkgver = 0.2.2
+	pkgrel = 2
+	url = https://github.com/flacks/tenshi
+	arch = aarch64
+	arch = armv6h
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = cargo
+	depends = openssl
+	optdepends = sudo: to write to destination as another user
+	provides = tenshi-rs
+	conflicts = tenshi-rs
+	source = git+https://github.com/flacks/tenshi
+	sha512sums = SKIP
+
+pkgname = tenshi-rs-git
+

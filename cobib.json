@@ -1,0 +1,20 @@
+pkgbase = cobib
+	pkgdesc = Console Bibliography
+	pkgver = 3.5.2
+	pkgrel = 1
+	url = https://gitlab.com/mrossinek/cobib
+	arch = any
+	license = MIT
+	depends = python
+	depends = python-bibtexparser
+	depends = python-beautifulsoup4
+	depends = python-ruamel-yaml
+	depends = python-pylatexenc
+	depends = python-requests
+	depends = python-requests-oauthlib
+	provides = cobib
+	conflicts = cobib
+	source = https://gitlab.com/mrossinek/cobib/-/archive/v3.5.2/cobib-v3.5.2.tar.gz
+	sha512sums = 8fdd27907371d86bf9084c57c53e3ed8b10b91d1c4e0429ec6a5c621d945ebdc3636d9b0cb441af2af999e9abe795dd56e2c8aad3ad6d7429adbaa79c7e3176b
+
+pkgname = cobib

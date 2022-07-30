@@ -1,0 +1,19 @@
+pkgbase = freeorion-data
+	pkgdesc = A free, Open Source, turn-based space empire and galactic conquest computer game (data files)
+	pkgver = 0.4.10.1
+	pkgrel = 1
+	url = https://www.freeorion.org
+	arch = any
+	license = GPL2
+	depends = bash
+	depends = ttf-dejavu
+	depends = ttf-roboto
+	depends = python2
+	depends = hicolor-icon-theme
+	depends = boost-libs-171-opt
+	depends = glew-2.1
+	source = freeorion-data-0.4.10.1.deb::http://ftp.br.debian.org/debian/pool/main/f/freeorion/freeorion-data_0.4.10.1-1_all.deb
+	sha256sums = dac43f36da9408ab961c2bb578aeb213b615c69aad11e31f989b6b5b8ced5b5c
+
+pkgname = freeorion-data
+

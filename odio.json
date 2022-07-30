@@ -1,0 +1,26 @@
+pkgbase = odio
+	pkgdesc = Audio compression tool for FLAC and Nero AAC
+	pkgver = 22.7.5
+	pkgrel = 1
+	url = https://tari.in/www/software/odio
+	install = odio.install
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python-polib
+	depends = gst-plugins-good
+	depends = gst-plugins-bad
+	depends = gst-plugins-ugly
+	depends = gst-libav
+	depends = python-beautifulsoup4
+	depends = python-psutil
+	depends = python-mutagen
+	depends = odio-edit
+	depends = neroaacenc-bin
+	depends = libodiosacd
+	depends = lsdvd
+	options = !emptydirs
+	source = odio-22.7.5.tar.gz::https://github.com/tari01/odio/archive/22.7.5.tar.gz
+	md5sums = 8226aa631c28b51695cea3719b72a2e9
+
+pkgname = odio

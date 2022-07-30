@@ -1,0 +1,14 @@
+pkgbase = python-bitstring
+	pkgdesc = Python module designed to help make the creation, manipulation and analysis of binary data as simple and natural as possible
+	pkgver = 3.1.6
+	pkgrel = 1
+	url = https://scott-griffiths.github.io/bitstring/
+	arch = any
+	license = MIT
+	depends = python
+	options = !emptydirs
+	source = https://files.pythonhosted.org/packages/f4/87/fe6f7093088f4396e84c1b5d5dfb08c4840487ad46ff4805b7008c8f5ffc/bitstring-3.1.6.tar.gz
+	md5sums = 38372014dd629be75c3a0ff7d799aa3f
+
+pkgname = python-bitstring
+

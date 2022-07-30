@@ -1,0 +1,18 @@
+pkgbase = baikal-unstable
+	pkgdesc = Baïkal is a Calendar+Contacts server
+	pkgver = 0.4.5
+	pkgrel = 1
+	url = http://baikal-server.com/
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = php-composer
+	depends = php
+	optdepends = sqlite: Database
+	optdepends = mariadb: Alternate database
+	optdepends = php-sqlite: To use the sqlite backend
+	source = baikal::git+https://github.com/fruux/Baikal.git
+	sha512sums = SKIP
+
+pkgname = baikal-unstable
+

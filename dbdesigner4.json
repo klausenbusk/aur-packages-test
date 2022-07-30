@@ -1,0 +1,19 @@
+pkgbase = dbdesigner4
+	pkgdesc = fabFORCE's visual database design system
+	pkgver = 4.0.5.4
+	pkgrel = 1
+	url = http://www.fabforce.net/dbdesigner4/index.php
+	arch = x86_64
+	license = GPL
+	depends = lib32-kylixlibs
+	depends = lib32-libmng
+	depends = lib32-gcc-libs
+	source = https://web.archive.org/web/20150803015037/http://downloads.mysql.com/DBDesigner4/DBDesigner4.0.5.4.tar.gz
+	source = dbdesigner.desktop
+	source = dbdesigner
+	md5sums = 3a9bfd9b40fb8b70e24fd2195424cb51
+	md5sums = 9ad96f433c24981960066d8f11a819ac
+	md5sums = 38a2e78be566b05c6c540cfb033987df
+
+pkgname = dbdesigner4
+

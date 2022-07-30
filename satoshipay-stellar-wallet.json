@@ -1,0 +1,24 @@
+pkgbase = satoshipay-stellar-wallet
+	pkgdesc = Wallet for the Stellar payment network by SatoshiPay.
+	pkgver = 0.24.0
+	pkgrel = 2
+	url = https://solarwallet.io
+	arch = any
+	license = GPL3
+	makedepends = npm
+	depends = libnotify
+	depends = nss
+	depends = libxss
+	depends = libxtst
+	depends = xdg-utils
+	depends = libappindicator-gtk3
+	depends = libsecret
+	provides = solarwallet
+	conflicts = solarwallet
+	source = satoshipay-stellar-wallet-0.24.0.tar.gz::https://github.com/satoshipay/solar/archive/v0.24.0.tar.gz
+	source = satoshipay-stellar-wallet.desktop
+	sha256sums = e3c5110d945d465847fc7953bd3f822f9f8ae8092898fa8a214f073a2a4a738b
+	sha256sums = 61f4836da7c5b158daee5bdcc743786fab7ab94ae4f7a3dd2873276f7eee7760
+
+pkgname = satoshipay-stellar-wallet
+

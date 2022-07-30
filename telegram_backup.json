@@ -1,0 +1,15 @@
+pkgbase = telegram_backup
+	pkgdesc = Java app to download all your telegram data.
+	pkgver = 1.1.4
+	pkgrel = 1
+	url = https://github.com/fabianonline/telegram_backup
+	arch = any
+	license = GPL
+	depends = java-runtime
+	source = https://github.com/fabianonline/telegram_backup/releases/download/1.1.4/telegram_backup.jar
+	source = telegram_backup.sh
+	sha256sums = 80bdfc2bbb60eeca8163fa5608544ee5afe661e920dfb7ff0d0e636f8aad59b1
+	sha256sums = 4ffd955103e1a08ec2d5ba2fd5fd046bd773a91f4b52b519dbcbb6ad4df37203
+
+pkgname = telegram_backup
+

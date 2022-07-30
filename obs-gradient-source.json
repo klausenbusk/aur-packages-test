@@ -1,0 +1,21 @@
+pkgbase = obs-gradient-source
+	pkgdesc = Gradient Source for OBS studio
+	pkgver = 0.3.0
+	pkgrel = 3
+	url = https://obsproject.com/forum/resources/gradient-source.1172/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL2
+	makedepends = cmake
+	makedepends = git
+	makedepends = libxcomposite
+	makedepends = ffmpeg
+	makedepends = pciutils
+	depends = obs-studio>=27.2.0
+	source = obs-gradient-source::git+https://github.com/exeldro/obs-gradient-source#commit=ff6c915204d31a45f576f1f43875bfef18c71f04
+	source = obs-studio-27.2.0.tar.gz::https://github.com/obsproject/obs-studio/archive/27.2.0.tar.gz
+	sha256sums = SKIP
+	sha256sums = c52d99cba6c536cb805e3e0f54663c33cfc43a1b7521bec97d241019499f9789
+
+pkgname = obs-gradient-source

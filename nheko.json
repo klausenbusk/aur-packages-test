@@ -1,0 +1,31 @@
+pkgbase = nheko
+	pkgdesc = Desktop client for the Matrix protocol
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://github.com/Nheko-Reborn/nheko
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	makedepends = cmake
+	makedepends = boost
+	makedepends = qt5-tools
+	makedepends = nlohmann-json
+	makedepends = lmdbxx
+	makedepends = tweeny
+	makedepends = asciidoc
+	depends = qt5-multimedia
+	depends = qt5-svg
+	depends = qt5-quickcontrols2
+	depends = qt5-graphicaleffects
+	depends = qtkeychain-qt5
+	depends = hicolor-icon-theme
+	depends = lmdb
+	depends = cmark
+	depends = mtxclient>=0.4.1
+	depends = spdlog
+	depends = gst-plugins-base-libs
+	depends = gst-plugins-bad-libs
+	source = nheko-0.10.0.tar.gz::https://github.com/Nheko-Reborn/nheko/archive/v0.10.0.tar.gz
+	sha512sums = c0aaf0f9ea657c43867fbb6857db45cac30f0cbaeaf8ad6a20a1a3e1ab9e6cf15266444eada060666db5b94be5a72b95b371a4da62e6705eed49f9907c576954
+
+pkgname = nheko

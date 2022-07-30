@@ -1,0 +1,31 @@
+pkgbase = cairo-glesv2-x86_64
+	pkgdesc = Cairo vector graphics library (glesv2 version)
+	pkgver = 1.17.2
+	pkgrel = 1
+	url = http://cairographics.org/
+	arch = x86_64
+	license = LGPL
+	license = MPL
+	depends = libpng
+	depends = libxrender
+	depends = libxext
+	depends = fontconfig
+	depends = pixman>=0.28.0
+	depends = glib2
+	depends = mesa
+	depends = libgl
+	depends = lzo
+	provides = cairo=1.17.2
+	provides = cairo-gl=1.17.2
+	provides = cairo-xcb=1.17.2
+	conflicts = cairo
+	conflicts = cairo-gl
+	conflicts = cairo-xcb
+	source = https://webreflection.github.io/aur/cairo-glesv2-x86_64-1.17.2.tar.gz
+	md5sums = dfb365998f9a02533d25d993359d4696
+	sha1sums = 7cd5ec6b73c62a8a401d562da5eb4d37d0b05160
+	sha256sums = 2f701797ee0206a3b8a0cb25fe204211011670560772890a2792a02548a6bc55
+	sha512sums = 59d3ec265a15f39e0011cb59f9de7e7fd1382e6bffbd8100198f4a75eabd40a54b50be5375dce52f16963c1fd755c6e21bc369c5c02cc0a02176b4a281a0aec3
+
+pkgname = cairo-glesv2-x86_64
+

@@ -1,0 +1,13 @@
+pkgbase = file-roller-kde-menuentry
+	pkgdesc = Menu entry for File Roller patched for working in KDE
+	pkgver = 1
+	pkgrel = 1
+	url = http://fileroller.sourceforge.net/
+	arch = any
+	license = LGPL
+	depends = file-roller
+	source = KDE-FileRoller.desktop
+	sha512sums = SKIP
+
+pkgname = file-roller-kde-menuentry
+

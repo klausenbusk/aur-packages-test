@@ -1,0 +1,17 @@
+pkgbase = perl-devel-callchecker
+	pkgdesc = Perl Devel::CallChecker CPAN module
+	pkgver = 0.008
+	pkgrel = 1
+	url = http://search.cpan.org/dist/Devel-CallChecker/
+	arch = any
+	license = unknown
+	makedepends = perl-module-build
+	makedepends = perl-test-pod
+	makedepends = perl-test-pod-coverage
+	depends = perl
+	depends = perl-dynaloader-functions
+	options = !emptydirs
+	source = http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Devel-CallChecker-0.008.tar.gz
+	sha256sums = 5d584e0bf55942517fbb13bea5bff0bdf0d0287c0912030e853fa028a69011dc
+
+pkgname = perl-devel-callchecker

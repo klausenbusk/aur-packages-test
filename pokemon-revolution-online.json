@@ -1,0 +1,10 @@
+pkgbase = pokemon-revolution-online
+	pkgdesc = This Package isn't supported anymore. please install >pokemon-revolution-online-bin<
+	pkgver = 0.94.EOL
+	pkgrel = 1
+	arch = x86_64
+	license = custom
+	makedepends = pokemon-revolution-online-bin
+
+pkgname = pokemon-revolution-online
+

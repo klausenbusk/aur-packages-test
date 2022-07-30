@@ -1,0 +1,20 @@
+pkgbase = py++
+	pkgdesc = Py++ - Boost.Python code generator
+	pkgver = 1.8.4
+	pkgrel = 2
+	url = https://pyplusplus.readthedocs.io/en/latest/
+	arch = i686
+	arch = x86_64
+	license = Boost Software License
+	makedepends = python
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-pygccxml
+	depends = castxml
+	source = https://github.com/ompl/pyplusplus/archive/refs/tags/1.8.4.tar.gz
+	sha256sums = 10379d3b2c78612d9097a6533b4da5ad91f91377022bb6f6052549579b4991ee
+
+pkgname = py++

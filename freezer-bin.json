@@ -1,0 +1,25 @@
+pkgbase = freezer-bin
+	pkgdesc = Free HQ music streaming app (Official)
+	pkgver = 1.1.24
+	pkgrel = 1
+	url = https://git.rip/freezer/freezerpc/
+	arch = x86_64
+	license = GPL
+	depends = openssl
+	depends = libnotify
+	depends = libappindicator-gtk3
+	depends = libxtst
+	depends = nss
+	provides = freezer-bin
+	conflicts = freezer-git
+	conflicts = freezer-appimage
+	source = freezer.desktop
+	source = freezer.sh
+	source = https://git.freezer.life/exttex/freezerpc/raw/branch/master/app/assets/icon.png
+	sha256sums = 5e39ae59d331fe14b04c963e3d2ceccffab1fbe9c170c0492c8a481e97777d35
+	sha256sums = 780e71d3423d5d1838f144a1954216324f833673d8b48365535ad8e31da1ea98
+	sha256sums = 5431bc4b525071e0d53c971eff9fa7c3a906bfe1823a7598f82df79bbfe981d7
+	source_x86_64 = https://files.freezer.life/0:/PC/1.1.24/freezer_1.1.24_amd64.deb
+	sha256sums_x86_64 = 7769a1521d24866274db7d73f6fe31158571f6fd40b764285791eb649214c848
+
+pkgname = freezer-bin

@@ -1,0 +1,14 @@
+pkgbase = ttf-tengwar-annatar
+	pkgdesc = The Tengwar Annatar ttf font family. (Tolkien Elvish)
+	pkgver = 1.20
+	pkgrel = 3
+	url = http://tengwar.art.pl/tengwar/fonty.php
+	arch = any
+	license = custom:tengwar-annatar
+	source = http://tengwar.art.pl/tengwar/zip/tngan120.zip
+	source = COPYING
+	sha256sums = 4081da14f5e06694e0276c913a21c533fe75e32846112d5271590eda37e009be
+	sha256sums = 5a61ec711b73cdd8b5c290d09913f0a26d05b93b06d49241a37c34166b27da7c
+
+pkgname = ttf-tengwar-annatar
+

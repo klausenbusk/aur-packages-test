@@ -1,0 +1,28 @@
+pkgbase = cliqz-bin
+	pkgdesc = Firefox-based privacy aware web browser, repackaged from debian official cliqz repository
+	pkgver = 1.38.0
+	pkgrel = 1
+	url = https://cliqz.com/
+	arch = x86_64
+	license = MPL2
+	depends = gtk3
+	depends = gtk2
+	depends = mozilla-common
+	depends = libxt
+	depends = startup-notification
+	depends = mime-types
+	depends = dbus-glib
+	depends = ffmpeg
+	depends = nss
+	depends = hunspell
+	depends = ttf-font
+	depends = libpulse
+	provides = cliqz
+	conflicts = cliqz
+	source = http://repository.cliqz.com.s3.amazonaws.com/dist/debian-release/pool/main/c/cliqz/cliqz-1.38.0-release.20200721193739.x86_64.deb
+	source = https://raw.githubusercontent.com/cliqz-oss/browser-f/1.38.0/LICENSE
+	sha256sums = 066a9dd717ff9ecbeef83fbe96002a8b2b0b50c4d137b415d048cdd6a9bc681d
+	sha256sums = 7827ad0dcea64dde261a0def466acf701ace81c5b31b4f2f69403c6502411581
+
+pkgname = cliqz-bin
+

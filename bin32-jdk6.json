@@ -1,0 +1,61 @@
+pkgbase = bin32-jdk6
+	pkgdesc = Oracle Java 6 Development Kit (32-bit) (public release - end of support)
+	pkgver = 6u45
+	pkgrel = 6
+	url = https://www.java.com/en/download/faq/java_6.xml
+	install = bin32-jdk6.install
+	arch = x86_64
+	license = custom
+	depends = ca-certificates-java
+	depends = hicolor-icon-theme
+	depends = java32-environment-common
+	depends = java32-runtime-common
+	depends = lib32-gcc-libs
+	depends = lib32-libxrender
+	depends = lib32-libxtst
+	depends = lib32-nss
+	depends = xdg-utils
+	optdepends = eclipse: "Oracle Java Mission Control" plugins for Eclipse
+	optdepends = lib32-alsa-lib: for basic sound support
+	optdepends = lib32-gtk2: for Gtk+ look and feel (desktop)
+	provides = java32-runtime=6
+	provides = java32-runtime-headless=6
+	provides = java32-web-start=6
+	provides = java32-environment=6
+	provides = java32-runtime-jre=6
+	provides = java32-runtime-headless-jre=6
+	provides = java32-web-start-jre=6
+	provides = java32-environment-jdk=6
+	options = !strip
+	backup = etc/java32-jdk6/i386/jvm.cfg
+	backup = etc/java32-jdk6/images/cursors/cursors.properties
+	backup = etc/java32-jdk6/management/jmxremote.access
+	backup = etc/java32-jdk6/management/management.properties
+	backup = etc/java32-jdk6/security/java.policy
+	backup = etc/java32-jdk6/security/java.security
+	backup = etc/java32-jdk6/security/javaws.policy
+	backup = etc/java32-jdk6/content-types.properties
+	backup = etc/java32-jdk6/flavormap.properties
+	backup = etc/java32-jdk6/fontconfig.properties.src
+	backup = etc/java32-jdk6/logging.properties
+	backup = etc/java32-jdk6/net.properties
+	backup = etc/java32-jdk6/psfont.properties.ja
+	backup = etc/java32-jdk6/psfontj2d.properties
+	backup = etc/java32-jdk6/sound.properties
+	source = https://download.oracle.com/otn/java/jdk/6u45-b06/jdk-6u45-linux-i586.bin
+	source = https://download.oracle.com/otn-pub/java/jce_policy/6/jce_policy-6.zip
+	source = jconsole32-jdk6.desktop
+	source = jmc32-jdk6.desktop
+	source = jvisualvm32-jdk6.desktop
+	source = policytool32-jdk6.desktop
+	source = javaws-launcher
+	sha256sums = ca7debeb8924bfe07ee808b4264d4cb052ca318caa2f913ebc8d97894c5edf69
+	sha256sums = 80212f7748c2671b89b6085000717c747851db004409dce3bb97f3a2aeb91cdd
+	sha256sums = 6195ce056e55247365b5cc2363e5e28f8bdb6842f65a41d37732279aee17ce57
+	sha256sums = a10ec033765a0ecf1fdd8ef8dee3614391f8b3605bb8b4f0d957ff7c7c958563
+	sha256sums = c7377ddaaee8579a230356e9878030a9f2a8cbcc5c2f89114d6244db051a0a01
+	sha256sums = ce1ac5bf1fd639fe0e0fe08880e8eae5b2fbf6903a7c51ed8168aee8fd1ee66a
+	sha256sums = 5a43bf54553ea39c147a67935d68646806a5053fefd527bd69c546f4c884402e
+
+pkgname = bin32-jdk6
+

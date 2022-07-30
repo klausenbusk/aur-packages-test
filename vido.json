@@ -1,0 +1,17 @@
+pkgbase = vido
+	pkgdesc = Video/Audio Downloader frontend for youtube-dl
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://sourceforge.net/projects/vido
+	arch = any
+	license = GPL3
+	makedepends = gendesk
+	depends = python-gobject
+	depends = gtk3
+	depends = youtube-dl
+	conflicts = vido-git
+	source = vido-1.2.1.zip::https://sourceforge.net/projects/vido/files/1.2.1/vido_1.2.1.zip/download
+	sha256sums = 147fb751d5ea79e1428780a57dc01cb771db271514b89668f8f58793d3e9d055
+
+pkgname = vido
+

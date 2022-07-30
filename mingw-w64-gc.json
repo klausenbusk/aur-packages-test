@@ -1,0 +1,17 @@
+pkgbase = mingw-w64-gc
+	pkgdesc = A garbage collector for C and C++ (mingw-w64)
+	pkgver = 8.2.0
+	pkgrel = 1
+	url = https://www.hboehm.info/gc/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-configure
+	depends = mingw-w64-crt
+	depends = mingw-w64-libatomic_ops
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = https://github.com/ivmai/bdwgc/releases/download/v8.2.0/gc-8.2.0.tar.gz
+	sha256sums = 2540f7356cb74f6c5b75326c6d38a066edd796361fd7d4ed26e494d9856fed8f
+
+pkgname = mingw-w64-gc

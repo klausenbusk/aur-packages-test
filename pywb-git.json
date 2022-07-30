@@ -1,0 +1,33 @@
+pkgbase = pywb-git
+	pkgdesc = Webrecorder pywb is a Python web archiving toolkit for replaying web archives (WARC format)
+	pkgver = r2191.34200724
+	pkgrel = 1
+	url = https://github.com/webrecorder/pywb
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	depends = python-brotli
+	depends = python-dateutil
+	depends = python-fakeredis
+	depends = python-gevent
+	depends = python-jinja
+	depends = python-portalocker
+	depends = python-py3amf-git
+	depends = python-redis
+	depends = python-requests
+	depends = python-six
+	depends = python-surt
+	depends = python-tldextract
+	depends = python-warcio
+	depends = python-webassets
+	depends = python-webencodings
+	depends = python-werkzeug
+	depends = python-wsgiprox-git
+	depends = python-yaml
+	source = git+https://github.com/webrecorder/pywb
+	sha256sums = SKIP
+
+pkgname = pywb-git
+

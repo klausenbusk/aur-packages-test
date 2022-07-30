@@ -1,0 +1,16 @@
+pkgbase = eggs
+	pkgdesc = A terminal utility, in active development, which allows you to remaster your system and redistribute it as an ISO image, on a USB stick or through the network via PXE remote boot
+	pkgver = 9.0.34
+	pkgrel = 1
+	url = https://penguins-eggs.net
+	arch = x86_64
+	license = GPL2
+	makedepends = tar
+	depends = python
+	depends = xdg-utils
+	depends = nodejs
+	options = !strip
+	source = eggs_9.0.34-1_amd64.deb::https://sourceforge.net/projects/penguins-eggs/files/packages-deb/eggs_9.0.34-1_amd64.deb/download
+	sha1sums = 930f4742c09e8b7ec9cf1787310488695812de14
+
+pkgname = eggs

@@ -1,0 +1,23 @@
+pkgbase = dnslookup-bin
+	pkgdesc = Simple command line utility to make DNS lookups to the specified server
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://github.com/ameshkov/dnslookup
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	license = MIT
+	provides = dnslookup
+	conflicts = dnslookup-git
+	conflicts = dnslookup
+	source_x86_64 = https://github.com/ameshkov/dnslookup/releases/download/v1.7.0/dnslookup-linux-amd64-v1.7.0.tar.gz
+	sha256sums_x86_64 = b35ea0829a11f1f1f528e0298cde14091b92529d9c1b0ff8cfc64355229a03e8
+	source_i686 = https://github.com/ameshkov/dnslookup/releases/download/v1.7.0/dnslookup-linux-386-v1.7.0.tar.gz
+	sha256sums_i686 = 7e3087ec46c0261bdefc2a4ffa250e364b9a11fb4e1241426b784a7251e3d83d
+	source_aarch64 = https://github.com/ameshkov/dnslookup/releases/download/v1.7.0/dnslookup-linux-arm64-v1.7.0.tar.gz
+	sha256sums_aarch64 = 708c35c586e86094fde236eab5f4af986e300c0fa8b439f9815d6ee81e550304
+	source_armv7h = https://github.com/ameshkov/dnslookup/releases/download/v1.7.0/dnslookup-linux-arm-v1.7.0.tar.gz
+	sha256sums_armv7h = 4097e4ef8d82e81b01bceef79c449d176b26e677975ef0c930a3c1e7ff916bc4
+
+pkgname = dnslookup-bin

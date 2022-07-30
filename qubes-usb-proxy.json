@@ -1,0 +1,20 @@
+pkgbase = qubes-usb-proxy
+	pkgdesc = The Qubes service for proxying USB devices
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/QubesOS/qubes-app-linux-usb-proxy
+	arch = x86_64
+	license = GPL
+	makedepends = pkg-config
+	makedepends = make
+	makedepends = gcc
+	depends = sh
+	depends = qubes-vm-core
+	depends = usbutils
+	source = qubes-usb-proxy::git+https://github.com/QubesOS/qubes-app-linux-usb-proxy.git?signed#tag=v1.1.1
+	validpgpkeys = 0AF64C3B1F1214B38C8C57861FA2DBE674387CC3
+	validpgpkeys = 0064428F455451B3EBE78A7F063938BA42CFA724
+	validpgpkeys = 427F11FD0FAA4B080123F01CDDFA1A3E36879494
+	sha512sums = SKIP
+
+pkgname = qubes-usb-proxy

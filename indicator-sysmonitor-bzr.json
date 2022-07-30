@@ -1,0 +1,14 @@
+pkgbase = indicator-sysmonitor-bzr
+	pkgdesc = An Application Indicator showing various system parameters (deprecated)
+	pkgver = 0.8.2
+	pkgrel = 1
+	url = https://launchpad.net/indicator-sysmonitor
+	arch = any
+	license = GPL3
+	makedepends = breezy
+	makedepends = python-dulwich
+	depends = libappindicator-gtk3
+	depends = python-psutil
+	depends = python
+
+pkgname = indicator-sysmonitor-bzr

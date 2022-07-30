@@ -1,0 +1,27 @@
+pkgbase = watt-toolkit-bin
+	pkgdesc = 一个开源跨平台的多功能Steam工具箱。
+	pkgver = 2.8.2
+	pkgrel = 1
+	url = https://steampp.net/
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	makedepends = tar
+	makedepends = zstd
+	optdepends = steam: need official or flatpak version of steam
+	provides = steam++
+	provides = watt-toolkit
+	conflicts = steam++
+	conflicts = watt-toolkit
+	noextract = Steam++_x86_64.tar.zst
+	options = !strip
+	source = watt-toolkit.desktop
+	source = icon.png::https://github.com/BeyondDimension/SteamTools/raw/develop/resources/AppIcon/Logo_64.png
+	sha256sums = 251dceba9814b53e56e175d60965ffab8160b5cc58640c3069f927dae5b7a46f
+	sha256sums = 1c7e2b167b6b457c685d0d4890147edf70eb2a3eeefb12aa42ddd0c721b2f49d
+	source_x86_64 = Steam++_x86_64.tar.zst::https://github.com/BeyondDimension/SteamTools/releases/download/2.8.2/Steam++_linux_x64_v2.8.2.tar.zst
+	sha256sums_x86_64 = 61202fd6b730e0762cf690820a772f734e7396a5647e5a12b2fd57e703fa0efc
+	source_aarch64 = Steam++_aarch64.tar.zst::https://github.com/BeyondDimension/SteamTools/releases/download/2.8.2/Steam++_linux_arm64_v2.8.2.tar.zst
+	sha256sums_aarch64 = 036c0c80fb9388ffb171093ba5b25cad1dfd63b465b93ebdec28b2fc58c103e0
+
+pkgname = watt-toolkit-bin

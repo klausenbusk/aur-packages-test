@@ -1,0 +1,31 @@
+pkgbase = decred
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://decred.org
+	arch = aarch64
+	arch = armv6h
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	groups = decred
+	license = ISC
+	makedepends = dep
+	makedepends = git
+	makedepends = go
+	options = !strip
+	options = !emptydirs
+	source = dcrd-1.2.0.tar.gz::https://codeload.github.com/decred/dcrd/tar.gz/v1.2.0
+	source = dcrwallet-1.2.0.tar.gz::https://codeload.github.com/decred/dcrwallet/tar.gz/v1.2.0
+	sha256sums = eb4a5cca1884cb96aa8a2f06800bef5a367523ac98715019e093b530675efcb6
+	sha256sums = 8ef709dc63ee0827025b021baceb9462277015f668a18a9d017ac60ccf3518ab
+
+pkgname = dcrd
+	pkgdesc = Decred daemon written in Go
+	provides = dcrd
+	conflicts = dcrd
+
+pkgname = dcrwallet
+	pkgdesc = Secure Decred wallet daemon written in Go
+	provides = dcrwallet
+	conflicts = dcrwallet
+

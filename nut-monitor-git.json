@@ -1,0 +1,18 @@
+pkgbase = nut-monitor-git
+	pkgdesc = GUI to manage devices connected a NUT server
+	pkgver = 2.8.0.r29.g021137627
+	pkgrel = 1
+	url = http://www.networkupstools.org/
+	arch = any
+	license = GPL3
+	makedepends = desktop-file-utils
+	makedepends = git
+	depends = python
+	depends = python-pyqt5
+	depends = hicolor-icon-theme
+	provides = nut-monitor
+	conflicts = nut-monitor
+	source = git+https://github.com/networkupstools/nut.git#branch=master
+	sha256sums = SKIP
+
+pkgname = nut-monitor-git

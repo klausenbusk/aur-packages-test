@@ -1,0 +1,22 @@
+pkgbase = mips64-linux-gnu-binutils
+	pkgdesc = Tools to assemble and manipulate binary and object files for the MIPS64 target (for the toolchain with GNU C library and multilib ABI)
+	pkgver = 2.38
+	pkgrel = 1
+	url = https://www.gnu.org/software/binutils/
+	arch = x86_64
+	license = GPL
+	depends = libelf
+	depends = zlib
+	options = !emptydirs
+	options = staticlibs
+	options = !distcc
+	options = !ccache
+	source = https://ftp.gnu.org/gnu/binutils/binutils-2.38.tar.xz
+	source = https://ftp.gnu.org/gnu/binutils/binutils-2.38.tar.xz.sig
+	source = 010-binutils-mips64-default-to-64-emulation-g3dea562.patch::https://raw.githubusercontent.com/openembedded/openembedded-core/3dea562e9d615384cc5e786eff46ac1f8f41e18e/meta/recipes-devtools/binutils/binutils/0009-Change-default-emulation-for-mips64-linux.patch
+	validpgpkeys = 3A24BC1E8FB409FA9F14371813FCEF89DD9E3C4F
+	sha256sums = e316477a914f567eccc34d5d29785b8b0f5a10208d36bbacedcc39048ecfe024
+	sha256sums = SKIP
+	sha256sums = 2e0c71612d770d3b9531fa66211ac7ef810ddbe6253efe440ec1a069b08926b9
+
+pkgname = mips64-linux-gnu-binutils

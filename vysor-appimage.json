@@ -1,0 +1,17 @@
+pkgbase = vysor-appimage
+	pkgdesc = Mirror and control your Android device
+	pkgver = 3.1.4
+	pkgrel = 1
+	url = https://vysor.io
+	arch = x86_64
+	license = custom
+	makedepends = fuse2
+	provides = vysor
+	conflicts = vysor
+	options = !strip
+	source = https://github.com/koush/vysor.io/releases/download/v3.1.4/Vysor-linux-3.1.4.AppImage
+	source = vysor.sh
+	sha256sums = dcaa13eae62b10d45f889815b0bb57c2900cd495ab7ee79b0984250e99514adf
+	sha256sums = 61836b2a07581202010cf40a1862b19bcb3e168076d113c6db06caadddbf0150
+
+pkgname = vysor-appimage

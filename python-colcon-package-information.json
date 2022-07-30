@@ -1,0 +1,14 @@
+pkgbase = python-colcon-package-information
+	pkgdesc = An extension for colcon-core to provide information about the packages.
+	pkgver = 0.3.3
+	pkgrel = 1
+	url = https://pypi.org/project/colcon-package-information/
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = python-colcon-core
+	source = https://files.pythonhosted.org/packages/source/c/colcon-package-information/colcon-package-information-0.3.3.tar.gz
+	sha256sums = db0b1200bfec91fcf396d9d7671eb410f0eb5a18a0819f778f335ebac82e0b9e
+
+pkgname = python-colcon-package-information
+

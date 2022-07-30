@@ -1,0 +1,22 @@
+pkgbase = iredis
+	pkgdesc = Terminal client for Redis with auto-completion and syntax highlighting.
+	pkgver = 1.12.0
+	pkgrel = 1
+	url = https://github.com/laixintao/iredis
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-setuptools
+	depends = python
+	depends = python-redis
+	depends = python-prompt_toolkit
+	depends = python-pygments
+	depends = python-mistune
+	depends = python-configobj
+	depends = python-click
+	depends = python-pendulum
+	depends = python-importlib_resources
+	depends = python-wcwidth
+	source = https://files.pythonhosted.org/packages/source/i/iredis/iredis-1.12.0.tar.gz
+	sha256sums = c3031094db0aa03d48b6f9be750e32d3e901942a96cc05283029086cb871cd81
+
+pkgname = iredis

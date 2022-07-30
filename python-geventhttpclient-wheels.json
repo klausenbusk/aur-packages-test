@@ -1,0 +1,18 @@
+pkgbase = python-geventhttpclient-wheels
+	pkgdesc = Pre-built wheels for geventhttpclient
+	pkgver = 1.3.1.dev2
+	pkgrel = 1
+	url = https://locust.io/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-gevent
+	depends = python-certifi
+	depends = python-six
+	provides = python-geventhttpclient-wheels
+	conflicts = python-geventhttpclient-wheels
+	source = https://files.pythonhosted.org/packages/source/g/geventhttpclient-wheels/geventhttpclient-wheels-1.3.1.dev2.tar.gz
+	sha256sums = bd1f984ab5a52e3d6f5d54fd407a41e889dd4499f5991d234ebdc1f8907e2fb3
+
+pkgname = python-geventhttpclient-wheels
+

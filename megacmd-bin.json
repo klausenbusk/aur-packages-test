@@ -1,0 +1,30 @@
+pkgbase = megacmd-bin
+	pkgdesc = MEGA Command Line Interactive and Scriptable Application
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = http://mega.nz/cmd
+	arch = x86_64
+	license = custom
+	depends = glibc
+	depends = gcc-libs
+	depends = openssl
+	depends = sqlite
+	depends = zlib
+	depends = libpsl
+	depends = icu
+	depends = bash-completion
+	depends = pcre
+	depends = bzip2
+	depends = xz
+	provides = megacmd
+	provides = ffmpeg-mega
+	source = LICENSE
+	source = https://mega.nz/linux/MEGAsync/Arch_Extra/x86_64/megacmd-1.4.0-11-x86_64.pkg.tar.zst
+	source = https://mega.nz/linux/MEGAsync/Arch_Extra/x86_64/megacmd-1.4.0-11-x86_64.pkg.tar.zst.sig
+	validpgpkeys = 8F208FBF12FEE766AA32AEAF03C3AD3A7F068E5D
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = megacmd-bin
+

@@ -1,0 +1,12 @@
+pkgbase = apigeectl-bin
+	pkgdesc = apigeectl is a command-line interface (CLI) for installing and managing Apigee hybrid in a Kubernetes cluster.
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://cloud.google.com/apigee/docs/hybrid/v1.3/cli-reference
+	arch = x86_64
+	license = unknown
+	source_x86_64 = apigeectl-bin-1.4.4::https://storage.googleapis.com/apigee-release/hybrid/apigee-hybrid-setup/1.4.4/apigeectl_linux_64.tar.gz
+	sha256sums_x86_64 = 07113755096d67cbdb06964f5e01aca7ed11652b8422a72a86c1d812aff935dd
+
+pkgname = apigeectl-bin
+

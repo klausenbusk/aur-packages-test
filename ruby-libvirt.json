@@ -1,0 +1,18 @@
+pkgbase = ruby-libvirt
+	pkgdesc = Ruby bindings for libvirt.
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = http://libvirt.org/ruby/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = rubygems
+	makedepends = ruby-rake
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = libvirt
+	source = http://libvirt.org/ruby/download/ruby-libvirt-0.7.1.tgz
+	sha256sums = 4e1495d64af5ce9edba80f973a2e2eb125946c0fa266c8f9d75f1e7a98fc5d60
+
+pkgname = ruby-libvirt
+

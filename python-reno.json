@@ -1,0 +1,19 @@
+pkgbase = python-reno
+	pkgdesc = OpenStack RElease NOtes manager
+	pkgver = 3.5.0
+	pkgrel = 1
+	url = https://docs.openstack.org/reno/
+	arch = any
+	license = Apache
+	checkdepends = python-docutils
+	checkdepends = python-stestr
+	checkdepends = python-testscenarios
+	checkdepends = python-testtools
+	checkdepends = python-sphinx
+	depends = python-pbr
+	depends = python-yaml
+	depends = python-dulwich
+	source = https://github.com/openstack/reno/archive/3.5.0.tar.gz
+	sha512sums = 4577588c95d77a374031f12e9d26e09017deb28e7c3f8547c286eeb78eff517e147143dbb6905bb522ca77b8ec87c7e22fca06d9603b36a0f222f19d378399aa
+
+pkgname = python-reno

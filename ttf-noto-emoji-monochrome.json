@@ -1,0 +1,16 @@
+pkgbase = ttf-noto-emoji-monochrome
+	pkgdesc = Monochrome Android emojis from Noto font project.
+	pkgver = 2015_07_08
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/googlei18n/noto-emoji
+	install = ttf-noto-emoji-monochrome.install
+	arch = any
+	license = Apache
+	depends = fontconfig
+	depends = xorg-font-utils
+	source = noto-emoji.zip::https://github.com/googlei18n/noto-emoji/archive/cba9c622628d5f0968b81fd3a46edb12120ebee7.zip
+	md5sums = 7f3a93b8cf40347d60f9741a61d6db92
+
+pkgname = ttf-noto-emoji-monochrome
+

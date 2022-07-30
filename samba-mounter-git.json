@@ -1,0 +1,26 @@
+pkgbase = samba-mounter-git
+	pkgdesc = User space mount tool for samba
+	pkgver = 158.7f5915f
+	pkgrel = 1
+	url = https://cgit.kde.org/samba-mounter.git
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	makedepends = git
+	makedepends = extra-cmake-modules
+	depends = kauth
+	depends = cifs-utils
+	depends = smbclient
+	depends = kcmutils
+	depends = kconfig
+	depends = kio
+	depends = ki18n
+	depends = solid
+	provides = samba-mounter
+	provides = samba-mounter-frameworks-git
+	source = git://anongit.kde.org/samba-mounter.git
+	sha256sums = SKIP
+
+pkgname = samba-mounter-git
+

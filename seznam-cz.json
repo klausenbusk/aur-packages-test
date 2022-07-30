@@ -1,0 +1,14 @@
+pkgbase = seznam-cz
+	pkgdesc = Seznam.cz browser
+	pkgver = stable_nwjs0.22.3_4.1.5
+	pkgrel = 1
+	url = http://www.seznam.cz/prohlizec
+	arch = x86_64
+	license = custom
+	options = !emptydirs
+	options = !strip
+	source = http://sbrowser.dev/debian/Seznam.cz-stable-nwjs0.22.3-4.1.5-amd64.deb
+	sha256sums = d43356828a80a2053345064274be978e97586994b5e27bd48a5eba86a2174375
+
+pkgname = seznam-cz
+

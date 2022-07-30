@@ -1,0 +1,16 @@
+pkgbase = python-bleak
+	pkgdesc = Bluetooth Low Energy platform Agnostic Klient for Python
+	pkgver = 0.15.0
+	pkgrel = 1
+	url = https://github.com/hbldh/bleak
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = bluez-utils
+	depends = python
+	depends = python-dbus-next
+	depends = python-service-identity
+	source = bleak-0.15.0.tar.gz::https://github.com/hbldh/bleak/archive/v0.15.0.tar.gz
+	sha512sums = 6aa27481a22e7b0de353ec4977ac5c15ce4060a4cdf9343876ce2057b321fa12f92f763bc9c4edf687e26d21ea3b75e0d441d443c96342913805b74b584ee787
+
+pkgname = python-bleak

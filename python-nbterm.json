@@ -1,0 +1,22 @@
+pkgbase = python-nbterm
+	pkgdesc = A tool for viewing, editing and executing Jupyter Notebooks in the terminal
+	pkgver = 0.0.11
+	pkgrel = 2
+	url = https://github.com/davidbrochart/nbterm.git
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-kernel-driver
+	depends = python-rich
+	depends = python-pyzmq
+	depends = python-typer
+	source = https://files.pythonhosted.org/packages/source/n/nbterm/nbterm-0.0.11.tar.gz
+	sha256sums = 7dec2e13435c7a4fcfdd3fd2c733aedb60ba2af1a87f9babfd9ced693188e3f3
+
+pkgname = python-nbterm
+	depends = python
+	depends = python-kernel-driver
+	depends = python-rich
+	depends = python-pyzmq
+	depends = python-typer

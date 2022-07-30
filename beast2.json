@@ -1,0 +1,21 @@
+pkgbase = beast2
+	pkgdesc = Bayesian Evolutionary Analysis by Sampling Trees. https://doi.org/10.1371/journal.pcbi.1003537
+	pkgver = 2.6.7
+	pkgrel = 1
+	url = http://www.beast2.org/
+	arch = x86_64
+	license = LGPL-2.1 License
+	depends = java-runtime
+	provides = beast2
+	source = https://github.com/CompEvol/beast2/releases/download/v2.6.7/BEAST.v2.6.7.Linux.tgz
+	source = beauti.desktop
+	source = densitree.desktop
+	source = logcombiner.desktop
+	source = treeannotator.desktop
+	sha256sums = 05dcc619c2e10163f2c1089ec66149f6e53ec5a0583cd2cb8ffdccbbdb1d8183
+	sha256sums = 83fba4c776fd29d6852c9c412c31d98bff657e2d2d2763dfe46d4c6174a9495f
+	sha256sums = 40d86086691b6cb91d0af54e5dc53d6693e084242ff3cc77862650ca78667c3d
+	sha256sums = c2057c6ac656e13dcfbdf580a696bc79cb22c3d5270d546eac3e2fb42d620f20
+	sha256sums = 960a2d9030105156e178fe8fd5a8329cf10af1e16141623da47f649f059906b0
+
+pkgname = beast2

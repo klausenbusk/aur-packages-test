@@ -1,0 +1,14 @@
+pkgbase = python2-cornice
+	pkgdesc = Define Web Services in Pyramid
+	pkgver = 3.5.1
+	pkgrel = 0
+	url = https://github.com/mozilla-services/cornice
+	arch = any
+	license = MPL2
+	makedepends = python2-setuptools
+	depends = python2
+	source = https://github.com/Cornices/cornice/archive/3.5.1.tar.gz
+	sha512sums = 4499158d73fe67d24dfd82861811b26bdca58410b7ee604072dffa54fb4b353cb886585115b62b08899e93668ad0a66e41b07cc58ed1c068d70332b87f30895a
+
+pkgname = python2-cornice
+

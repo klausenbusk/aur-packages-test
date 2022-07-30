@@ -1,0 +1,15 @@
+pkgbase = natron-plugins
+	pkgdesc = A collection of Natron plugins made by the community
+	pkgver = 2.1.7.r1177.g456618b
+	pkgrel = 1
+	url = https://github.com/NatronGitHub/natron-plugins
+	install = natron-plugins.install
+	arch = any
+	license = GPL2
+	license = custom:CCPL2
+	depends = natron
+	source = natron-plugins-456618b.tar.gz::https://github.com/NatronGitHub/natron-plugins/tarball/456618b
+	sha256sums = SKIP
+
+pkgname = natron-plugins
+

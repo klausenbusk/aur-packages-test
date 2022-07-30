@@ -1,0 +1,23 @@
+pkgbase = mingw-w64-opencolorio
+	pkgdesc = A color management framework for visual effects and animation (mingw-w64)
+	pkgver = 2.1.2
+	pkgrel = 1
+	url = https://opencolorio.org/
+	arch = any
+	license = BSD-3-Clause
+	checkdepends = mingw-w64-wine
+	makedepends = mingw-w64-cmake
+	makedepends = git
+	depends = mingw-w64-crt
+	depends = mingw-w64-yaml-cpp
+	depends = mingw-w64-lcms2
+	depends = mingw-w64-freeglut
+	depends = mingw-w64-glew
+	depends = mingw-w64-imath
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = opencolorio-2.1.2.tar.gz::https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/v2.1.2.tar.gz
+	sha256sums = 6c6d153470a7dbe56136073e7abea42fa34d06edc519ffc0a159daf9f9962b0b
+
+pkgname = mingw-w64-opencolorio

@@ -1,0 +1,19 @@
+pkgbase = perl-cookie-baker
+	pkgdesc = Cookie string generator / parser
+	pkgver = 0.11
+	pkgrel = 1
+	url = https://metacpan.org/release/Cookie-Baker
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	checkdepends = perl-test-time
+	makedepends = perl-module-build-tiny
+	depends = perl-uri
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/K/KA/KAZEBURO/Cookie-Baker-0.11.tar.gz
+	md5sums = bc8f95893d6ec3093a62d1957e1908f2
+	sha512sums = 0b75d9c74e1daa5d4dd63febd887e6c4825fd1df5f56335bf733b5bf2f24a56f6b76728259799aaf4dedf27efae90c238962585956608b1408a67164c3759ed2
+
+pkgname = perl-cookie-baker
+

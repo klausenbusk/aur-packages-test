@@ -1,0 +1,16 @@
+pkgbase = ttf-symbola-ib
+	pkgdesc = Infinality configuration for Symbola
+	pkgver = 13.00
+	pkgrel = 1
+	url = https://dn-works.com/ufas/
+	arch = any
+	groups = infinality-bundle-fonts
+	license = custom
+	depends = ttf-symbola
+	source = 45-symbola.conf
+	source = 90-tt-symbola.conf
+	sha512sums = e30c8c2ccf70f89602e2326fc969d1ccaa1a14fb07ff19314d98554c1f3051078476a3fb8bce2ee56e22cd1574cd5d6fd2efd5eb4ca88ca04e9cd4586e29c4fe
+	sha512sums = af22a299541b042694ce1b962beef101b612a0992318fb8c9a003defbd4e53c2ffbcb9f584eaa8d0b1fd55cfa175c978aaa495837242dfa38c74d51b19d11044
+
+pkgname = ttf-symbola-ib
+

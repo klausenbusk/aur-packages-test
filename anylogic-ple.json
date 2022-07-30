@@ -1,0 +1,18 @@
+pkgbase = anylogic-ple
+	pkgdesc = AnyLogic Personal Learning Edition - for beginners and students
+	pkgver = 8.7.9
+	pkgrel = 1
+	url = https://www.anylogic.com
+	arch = x86_64
+	license = custom
+	makedepends = gendesk
+	depends = glibc
+	optdepends = chromium: alternative browser for model animating
+	optdepends = firefox: alternative browser for model animating
+	provides = anylogic
+	conflicts = anylogic
+	options = !strip
+	source = https://files.anylogic.com/anylogic-ple-8.7.9.linux.x86_64.tgz.bin
+	sha256sums = 229e7c3a879dac62a76d847f1df54e919331f7d1d80fb6d2a43bf37823c9b2a4
+
+pkgname = anylogic-ple

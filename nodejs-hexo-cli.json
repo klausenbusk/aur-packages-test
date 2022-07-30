@@ -1,0 +1,16 @@
+pkgbase = nodejs-hexo-cli
+	pkgdesc = Command line interface for Hexo
+	pkgver = 4.2.0
+	pkgrel = 2
+	url = https://github.com/hexojs/hexo-cli
+	arch = any
+	license = MIT
+	makedepends = npm
+	depends = nodejs
+	conflicts = nodejs-hexo
+	noextract = hexo-cli-4.2.0.tgz
+	source = https://registry.npmjs.org/hexo-cli/-/hexo-cli-4.2.0.tgz
+	sha256sums = f169b782712f88eb4ebfc7498a359a0535852c2166e7f58193b85caee8f992e9
+
+pkgname = nodejs-hexo-cli
+

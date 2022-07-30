@@ -1,0 +1,15 @@
+pkgbase = ttf-ume
+	pkgdesc = Free Japanese Gothic/Mincho Font
+	pkgver = 0.670
+	pkgrel = 3
+	url = https://osdn.jp/projects/ume-font/
+	arch = any
+	license = custom
+	depends = fontconfig
+	depends = xorg-mkfontscale
+	source = https://osdn.net/dl/ume-font/umefont_670.tar.xz
+	md5sums = 9603b086be384030d059bc36d8ac4dd4
+	b2sums = 4a5d544e7ddcdb74aa62d10f424d2a9d5d6c4b82c730531ac410681962f61a13eaca2dc2f159089aedca5d38c71da5b11b5f776e9e209793c0583cef23cc4809
+
+pkgname = ttf-ume
+

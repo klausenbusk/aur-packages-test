@@ -1,0 +1,15 @@
+pkgbase = python-seqlearn-git
+	pkgdesc = A sequence classification toolkit for Python
+	pkgver = r89.32d4bfa
+	pkgrel = 1
+	url = https://github.com/larsmans/seqlearn
+	arch = any
+	license = custom
+	makedepends = cython
+	makedepends = python-setuptools
+	makedepends = git
+	depends = python-scipy
+	source = git+https://github.com/larsmans/seqlearn.git
+	sha512sums = SKIP
+
+pkgname = python-seqlearn-git

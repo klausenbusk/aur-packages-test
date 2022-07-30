@@ -1,0 +1,19 @@
+pkgbase = python-smbprotocol
+	pkgdesc = Python SMBv2 and v3 Client
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://github.com/jborean93/smbprotocol
+	arch = x86_64
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-gssapi
+	depends = python-ntlm-auth
+	depends = python-cryptography
+	depends = python-pyspnego
+	depends = python-six
+	source = python-smbprotocol-1.4.0.tar.gz::https://github.com/jborean93/smbprotocol/archive/v1.4.0.tar.gz
+	sha256sums = f80ae1ba742f7336cc882914faa1ee65ef247278bf898b995cc0ecfeaa830847
+
+pkgname = python-smbprotocol
+

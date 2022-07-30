@@ -1,0 +1,26 @@
+pkgbase = chad-launcher-bin
+	pkgdesc = Game library management
+	pkgver = 0.5.2
+	pkgrel = 1
+	url = https://notabug.org/johncena141/chad-launcher
+	arch = x86_64
+	license = GPL3
+	depends = webkit2gtk
+	depends = curl
+	depends = wget
+	depends = openssl
+	depends = appmenu-gtk-module
+	depends = gtk3
+	depends = libappindicator-gtk3
+	depends = libvips
+	depends = udev
+	provides = chad-launcher
+	replaces = chad_launcher-bin
+	source = chad-launcher-0.5.2::https://notabug.org/attachments/82c72fa0-ab50-413f-98a4-8720ebc49bc2
+	source = chad-launcher.desktop::https://notabug.org/johncena141/chad-launcher/raw/v0.5.2/chad-launcher.desktop
+	source = chad-launcher.svg::https://notabug.org/johncena141/chad-launcher/raw/v0.5.2/icon.svg
+	md5sums = 4935cb4c53a656b0ff68a2500ab04c61
+	md5sums = 3982c2923488557d1bc82d8fc3391b4c
+	md5sums = eb5ae7c983884713edf7954c270085a2
+
+pkgname = chad-launcher-bin

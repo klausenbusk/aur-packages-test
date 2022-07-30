@@ -1,0 +1,25 @@
+pkgbase = lib50
+	pkgdesc = This is lib50, CS50's own internal library used in many of its tools.
+	pkgver = 3.0.2
+	pkgrel = 1
+	url = https://github.com/cs50/lib50
+	arch = any
+	groups = cs50
+	license = GPL
+	makedepends = python-setuptools
+	depends = python
+	depends = python-attrs
+	depends = python-cryptography
+	depends = python-jellyfish
+	depends = python-pexpect
+	depends = python-termcolor
+	source = https://files.pythonhosted.org/packages/source/l/lib50/lib50-3.0.2.tar.gz
+	sha256sums = f5cdf1120240c345672fec46bdc04fdc223506803b4aebf41149f4d17bb6c9a9
+
+pkgname = lib50
+	depends = python
+	depends = python-attrs
+	depends = python-cryptography
+	depends = python-jellyfish
+	depends = python-pexpect
+	depends = python-termcolor

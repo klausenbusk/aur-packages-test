@@ -1,0 +1,18 @@
+pkgbase = yadm
+	pkgdesc = Yet Another Dotfiles Manager
+	pkgver = 3.1.1
+	pkgrel = 1
+	url = https://github.com/TheLocehiliosan/yadm
+	arch = any
+	license = GPL3
+	depends = git
+	depends = awk
+	optdepends = gnupg: encrypt/decrypt sensitive files
+	optdepends = python-j2cli: use jinja2 templates
+	optdepends = python-envtpl: use templates with variables
+	provides = yadm
+	conflicts = yadm-git
+	source = yadm-3.1.1.tar.gz::https://github.com/TheLocehiliosan/yadm/archive/3.1.1.tar.gz
+	sha256sums = 2c7c99bfbea61701aa2bf423caa4e4b2687c3f2d1898de6ca1a17167443730ab
+
+pkgname = yadm

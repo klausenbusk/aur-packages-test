@@ -1,0 +1,17 @@
+pkgbase = python-undertime
+	pkgdesc = pick a meeting time
+	pkgver = 3.2.0
+	pkgrel = 1
+	url = https://gitlab.com/anarcat/undertime
+	arch = any
+	license = AGPL3
+	makedepends = python-pip
+	depends = python-dateparser
+	depends = python-pytz
+	depends = python-pyaml
+	depends = python-termcolor
+	depends = python-tabulate
+	source = https://files.pythonhosted.org/packages/py3/u/undertime/undertime-3.2.0-py3-none-any.whl
+	sha256sums = 406a4b41a9d40e34b0ed48b484fa5fd031b3f22c1b8dbe59097bfc9569d62fc0
+
+pkgname = python-undertime

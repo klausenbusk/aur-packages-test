@@ -1,0 +1,17 @@
+pkgbase = code-marketplace
+	pkgdesc = Enable vscode marketplace in Code OSS
+	pkgver = 1.66.0
+	pkgrel = 1
+	url = https://marketplace.visualstudio.com/vscode
+	install = code-marketplace.install
+	arch = any
+	license = unknown
+	depends = code
+	depends = sed
+	optdepends = code-features: unblock some extensions specific to the official build
+	source = code-marketplace.hook
+	source = patch.sh
+	md5sums = 2f5ebcc1795bb5eac95162059a9a496e
+	md5sums = 9bd7d0737d86c05900ee32f6821e681a
+
+pkgname = code-marketplace

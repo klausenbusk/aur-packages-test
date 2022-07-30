@@ -1,0 +1,21 @@
+pkgbase = slimbookamdcontroller
+	pkgdesc = Application for the performance management of AMD processors
+	pkgver = 0.3.8beta
+	pkgrel = 1
+	url = https://github.com/slimbook/slimbookamdcontroller
+	install = slimbookamdcontroller.install
+	arch = any
+	license = GPL
+	depends = dbus-python
+	depends = gtk3
+	depends = libayatana-appindicator
+	depends = libnotify
+	depends = python-gobject
+	depends = python-pillow
+	depends = python-pyamdgpuinfo
+	depends = ryzenadj
+	depends = systemd-libs
+	source = https://launchpad.net/~slimbook/+archive/ubuntu/slimbook/+files/slimbookamdcontroller_0.3.8beta_all.deb
+	sha256sums = dff122d8c4483b18e5c6880a41b123372ed11f1945277b52c55d7ad9080356e2
+
+pkgname = slimbookamdcontroller

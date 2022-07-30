@@ -1,0 +1,19 @@
+pkgbase = neroaac
+	pkgdesc = Nero AAC audio codec (dec/enc/tag) all-in-one.
+	pkgver = 1.5.4.0
+	pkgrel = 5
+	url = https://wiki.hydrogenaud.io/index.php?title=Nero_AAC
+	arch = x86_64
+	license = custom
+	provides = neroaacdec
+	provides = neroaacenc
+	provides = neroaactag
+	conflicts = neroaacdec
+	conflicts = neroaacenc
+	conflicts = neroaactag
+	source = https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/Multimedia/x86_64/nero-aac-1.5.1-3.27.x86_64.rpm
+	sha256sums = e87e54572761950691e5c94d44dd69e338f54b191716f19eac559f15a6b7271f
+	depends_x86_64 = lib32-gcc-libs
+
+pkgname = neroaac
+

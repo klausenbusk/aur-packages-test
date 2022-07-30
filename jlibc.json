@@ -1,0 +1,15 @@
+pkgbase = jlibc
+	pkgdesc = glibc Bindings for Java
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://bitbucket.org/Scoopta/jlibc/src/default/
+	arch = x86_64
+	license = GPL3
+	makedepends = mercurial
+	depends = native-proxy
+	depends = jdk-openjdk>=11
+	source = jlibc::hg+https://bitbucket.org/Scoopta/jlibc/src/default/
+	sha256sums = SKIP
+
+pkgname = jlibc
+

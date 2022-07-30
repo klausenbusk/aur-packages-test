@@ -1,0 +1,19 @@
+pkgbase = hentaifetch-git
+	pkgdesc = neofetch but with hentai
+	pkgver = r52.af6ffb6
+	pkgrel = 1
+	url = https://github.com/helpmeplsfortheloveofgod/hentaifetch
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = make
+	depends = curl
+	depends = jp2a
+	depends = neofetch
+	depends = imagemagick
+	provides = hentaifetch
+	conflicts = hentaifetch
+	source = git+https://github.com/helpmeplsfortheloveofgod/hentaifetch.git#branch=master
+	sha256sums = SKIP
+
+pkgname = hentaifetch-git

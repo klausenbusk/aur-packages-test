@@ -1,0 +1,32 @@
+pkgbase = nebula-bin
+	pkgdesc = A scalable overlay networking tool
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = https://github.com/slackhq/nebula
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	depends = glibc
+	provides = nebula
+	conflicts = nebula
+	source = https://raw.githubusercontent.com/slackhq/nebula/master/LICENSE
+	sha256sums = SKIP
+	source_i686 = https://github.com/slackhq/nebula/releases/download/v1.3.0/nebula-linux-386.tar.gz
+	sha256sums_i686 = 236b1f2ebb9e90cac9d322c89699e203bf724c6e534002395d861525f392fee5
+	source_x86_64 = https://github.com/slackhq/nebula/releases/download/v1.3.0/nebula-linux-amd64.tar.gz
+	sha256sums_x86_64 = a82e0c6ab14dd2c5af921ae3051a88493ac053a5ece77eaa9e87a0543fd3d89b
+	source_aarch64 = https://github.com/slackhq/nebula/releases/download/v1.3.0/nebula-linux-arm64.tar.gz
+	sha256sums_aarch64 = 7073edfa357f5ee8fd2e155a8671ff65ccb7ccc31f8bbf11eaea9fcda1a2cd04
+	source_arm = https://github.com/slackhq/nebula/releases/download/v1.3.0/nebula-linux-arm-5.tar.gz
+	sha256sums_arm = cae19acc1c87fcbc064be944d9b3d3c6a8c38af20222b187a88cb6f68eef16c9
+	source_armv6h = https://github.com/slackhq/nebula/releases/download/v1.3.0/nebula-linux-arm-6.tar.gz
+	sha256sums_armv6h = fb4d725570797ecab714faca86908c83d754a97b0641c5aced1501fed9e126f8
+	source_armv7h = https://github.com/slackhq/nebula/releases/download/v1.3.0/nebula-linux-arm-7.tar.gz
+	sha256sums_armv7h = d9fe7768b5b80f72c1b0b9cd47004361b7238ef042de21298b6e68097392f215
+
+pkgname = nebula-bin
+

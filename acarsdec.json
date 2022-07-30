@@ -1,0 +1,15 @@
+pkgbase = acarsdec
+	pkgdesc = Multi-channel ACARS decoder for rtl_sdr
+	pkgver = 3.4
+	pkgrel = 1
+	url = https://github.com/TLeconte/acarsdec
+	arch = x86_64
+	license = GPL
+	depends = alsa-lib
+	depends = libsndfile
+	depends = rtl-sdr
+	source = https://github.com/TLeconte/acarsdec/archive/acarsdec-3.4.tar.gz
+	sha256sums = 1db09410ea58f1a8f65f4310f94c2fef419c38f4d05c723de9b2e77a6f936e1f
+
+pkgname = acarsdec
+

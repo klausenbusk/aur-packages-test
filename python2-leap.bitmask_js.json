@@ -1,0 +1,11 @@
+pkgbase = python2-leap.bitmask_js
+	pkgdesc = Bitmask UI
+	pkgver = 0.3.201801261450
+	pkgrel = 1
+	url = http://github.com/leapcode/bitmask-dev
+	arch = any
+	source = https://files.pythonhosted.org/packages/source/l/leap.bitmask_js/leap.bitmask_js-0.3.201801261450.tar.gz
+	sha256sums = a5d06cad736fd0bfb07ed771354b325ca11d43032c763905902925c36333d34e
+
+pkgname = python2-leap.bitmask_js
+

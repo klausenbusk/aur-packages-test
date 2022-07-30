@@ -1,0 +1,18 @@
+pkgbase = terramate
+	pkgdesc = Terramate is a tool for managing multiple Terraform stacks that comes with support for change detection and code generation.
+	pkgver = 0.1.12
+	pkgrel = 1
+	url = https://github.com/mineiros-io/terramate
+	arch = x86_64
+	license = Apache-2
+	makedepends = go>=1.18
+	makedepends = git
+	makedepends = gzip
+	makedepends = tar
+	makedepends = gcc
+	provides = terramate
+	conflicts = terramate-bin
+	source = https://github.com/mineiros-io/terramate/archive/v0.1.12.tar.gz
+	sha256sums = 53148bf4c130b8e3269823afd419a89e07a9345f0aaa187b172c2b84dda4dabb
+
+pkgname = terramate

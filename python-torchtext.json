@@ -1,0 +1,23 @@
+pkgbase = python-torchtext
+	pkgdesc = Data loaders and abstractions for text and NLP
+	pkgver = 0.13.0
+	pkgrel = 1
+	url = https://github.com/pytorch/text
+	arch = x86_64
+	license = BSD
+	makedepends = cmake
+	makedepends = git
+	makedepends = ninja
+	makedepends = python-setuptools
+	depends = python-numpy
+	depends = python-pytorch
+	depends = python-requests
+	depends = python-tqdm
+	optdepends = python-nltk
+	optdepends = python-revtok
+	optdepends = python-sacremoses: Moses tokenizer port in SacreMoses
+	optdepends = python-spacy: English tokenizer from SpaCy
+	source = text::git+https://github.com/pytorch/text.git#tag=v0.13.0
+	sha512sums = SKIP
+
+pkgname = python-torchtext

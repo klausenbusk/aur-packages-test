@@ -1,0 +1,25 @@
+pkgbase = python-os-traits
+	pkgdesc = A library containing standardized trait strings
+	pkgver = 2.6.0
+	pkgrel = 1
+	url = https://docs.openstack.org/os-traits/latest/
+	arch = any
+	license = Apache
+	checkdepends = python-hacking
+	checkdepends = python-coverage
+	checkdepends = python-oslotest
+	checkdepends = python-stestr
+	checkdepends = python-testscenarios
+	checkdepends = python-testtools
+	makedepends = python-setuptools
+	makedepends = python-sphinx
+	makedepends = python-openstackdocstheme
+	makedepends = python-reno
+	depends = python
+	depends = python-pbr
+	source = https://pypi.io/packages/source/o/os-traits/os-traits-2.6.0.tar.gz
+	md5sums = dcc26929cfcf86e7cc9bd50c2649567c
+	sha256sums = 1fa1a638f630c0b4a2c2a2aadae9f09948e5aced74840b647ab601a082226605
+	sha512sums = 57f46678c1859af09f0e13e491760bddd818b7779716d91197f9fa45c6b195bb023a4de5fface68a95a87bf66547b27d74addb66cde043bd571a0eca176ee53b
+
+pkgname = python-os-traits

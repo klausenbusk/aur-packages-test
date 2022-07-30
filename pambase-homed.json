@@ -1,0 +1,13 @@
+pkgbase = pambase-homed
+	pkgdesc = METAPKG: Base PAM configuration for services (systemd-homed version) (Merged upstream)
+	pkgver = 20200721
+	pkgrel = 1
+	url = https://wiki.archlinux.org/index.php/Systemd-homed
+	install = archlinux.install
+	arch = any
+	license = GPL
+	depends = pam
+	depends = pambase
+
+pkgname = pambase-homed
+

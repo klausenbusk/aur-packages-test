@@ -1,0 +1,14 @@
+pkgbase = gops
+	pkgdesc = A tool to list and diagnose Go processes currently running on your system
+	pkgver = 0.3.22
+	pkgrel = 1
+	url = https://github.com/google/gops
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = go
+	depends = glibc
+	source = gops-0.3.22.tar.gz::https://github.com/google/gops/archive/v0.3.22.tar.gz
+	sha256sums = a8092305465b28b0db83eb7087edca958de6522bc3ebb14656ecb8aef521e07b
+
+pkgname = gops

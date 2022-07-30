@@ -1,0 +1,12 @@
+pkgbase = rtl8761b-fw
+	pkgdesc = Realtek bluetooth firmware for RTL8761B based devices
+	pkgver = 20201202
+	pkgrel = 1
+	url = https://www.xmpow.com/pages/download
+	arch = any
+	license = unknown
+	source = https://mpow.s3-us-west-1.amazonaws.com/mpow_BH519A_driver+for+Linux.7z
+	sha512sums = 94b45a07c3a2e0650e64b1b52bd2b0b35546b7073dc7c8850b319d164adb66bf41e6d7fa0a20a7170ca264922e4780ea09205332d60eb5037994615303ce7307
+
+pkgname = rtl8761b-fw
+

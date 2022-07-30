@@ -1,0 +1,16 @@
+pkgbase = code-server-noextract
+	pkgdesc = This is a test, DO NOT install this
+	pkgver = 1.32.0_245
+	pkgrel = 5
+	epoch = 1
+	url = https://github.com/codercom/code-server
+	arch = x86_64
+	license = MIT
+	makedepends = tar
+	makedepends = curl
+	conflicts = code-server
+	replaces = code-server
+	noextract = code-server-1.32.0-245-linux-x64.tar.gz
+
+pkgname = code-server-noextract
+

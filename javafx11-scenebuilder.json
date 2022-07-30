@@ -1,0 +1,14 @@
+pkgbase = javafx11-scenebuilder
+	pkgdesc = The latest version of Scene Builder for Java 11 is 11.0.0.
+	pkgver = 11.0.0
+	pkgrel = 1
+	url = http://gluonhq.com/labs/scene-builder/
+	arch = x86_64
+	arch = i686
+	license = BSD License
+	depends = libarchive
+	source = https://download2.gluonhq.com/scenebuilder/11.0.0/install/linux/scenebuilder-11.0.0.deb
+	sha1sums = 593b33970b01b569128075e53b609122016a455f
+
+pkgname = javafx11-scenebuilder
+

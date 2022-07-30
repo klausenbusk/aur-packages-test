@@ -1,0 +1,16 @@
+pkgbase = python-pynetbox
+	pkgdesc = NetBox API client library
+	pkgver = 5.3.1
+	pkgrel = 1
+	url = https://github.com/digitalocean/pynetbox
+	arch = any
+	license = Apache
+	makedepends = python-setuptools-scm
+	depends = python
+	depends = python-requests
+	depends = python-six
+	source = https://files.pythonhosted.org/packages/source/p/pynetbox/pynetbox-5.3.1.tar.gz
+	sha256sums = 80743328f51f28827825fb2c9cb1993175da37c88988f02075f6f50e16333e0c
+
+pkgname = python-pynetbox
+

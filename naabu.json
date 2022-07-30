@@ -1,0 +1,14 @@
+pkgbase = naabu
+	pkgdesc = A fast port scanner written in go with focus on reliability and simplicity
+	pkgver = 2.0.9
+	pkgrel = 1
+	url = https://github.com/projectdiscovery/naabu
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = go
+	depends = libpcap
+	source = naabu-2.0.9.tar.gz::https://github.com/projectdiscovery/naabu/archive/v2.0.9.tar.gz
+	b2sums = cc1075b1b7d84f09e813b3719f8cc9cfb3ee63d077e187bf7e4e7262c42d77668d986d7c8b6e0470dd52dd1cbc192668809ee0e582c1e6f701bdd6fd70984d41
+
+pkgname = naabu

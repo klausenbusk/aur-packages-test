@@ -1,0 +1,15 @@
+pkgbase = python-dxfwrite
+	pkgdesc = A Python library to create DXF R12 drawings.
+	pkgver = 1.2.2
+	pkgrel = 1
+	url = http://dxfwrite.readthedocs.io/
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	source = git+https://github.com/mozman/dxfwrite.git#tag=v1.2.2
+	sha256sums = SKIP
+
+pkgname = python-dxfwrite
+

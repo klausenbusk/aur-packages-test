@@ -1,0 +1,15 @@
+pkgbase = firefox-extension-feedly-notifier
+	pkgdesc = Firefox extension for reading news from rss aggregator Feedly
+	pkgver = 2.24.5
+	pkgrel = 1
+	url = https://addons.mozilla.org/firefox/addon/feedly-notifier/
+	arch = any
+	license = MPL2
+	makedepends = unzip
+	depends = firefox
+	noextract = addon-456474-latest.xpi
+	source = https://addons.cdn.mozilla.net/user-media/addons/456474/feedly_notifier-2.24.5-fx.xpi
+	sha256sums = 8acc05414031e60fdcb6e7e631b53e046d1f681a0e4892ea7dc32bcfc9613ebf
+
+pkgname = firefox-extension-feedly-notifier
+

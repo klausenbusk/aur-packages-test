@@ -1,0 +1,40 @@
+pkgbase = riot-desktop-git
+	pkgdesc = A glossy Matrix collaboration client for the desktop.
+	pkgver = v1.7.4.r0.g8aa46ba7
+	pkgrel = 1
+	url = https://element.io
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = nodejs
+	makedepends = jq
+	makedepends = yarn
+	makedepends = npm
+	makedepends = python
+	makedepends = rust
+	makedepends = sqlcipher
+	makedepends = electron
+	depends = electron
+	provides = riot-desktop
+	backup = etc/riot/config.json
+	source = riot-web::git://github.com/vector-im/riot-web.git#tag=v1.7.4
+	source = riot-desktop::git://github.com/vector-im/riot-desktop.git#tag=v1.7.4
+	source = riot-desktop.desktop
+	source = riot-desktop.sh
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = b94e5d51831cf57729c96e716cdda3a034a1dda7a0f9e2e6fbd040be2c862604
+	sha256sums = a6cc599b226357a6e219d17b29834aa34b993029c5c83e46402117f10fa4f91e
+
+pkgname = riot-web-git
+	pkgdesc = Glossy Matrix collaboration client for the web.
+	provides = vector-web
+	replaces = vector-web
+
+pkgname = riot-desktop-git
+	pkgdesc = Glossy Matrix collaboration client for the desktop.
+	depends = riot-web-git=v1.7.4.r0.g8aa46ba7
+	depends = electron
+	depends = sqlcipher
+	backup = etc/riot/config.json
+

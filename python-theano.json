@@ -1,0 +1,22 @@
+pkgbase = python-theano
+	pkgdesc = Definition and optimized evaluation of mathematical expressions on Numpy arrays.
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = http://www.deeplearning.net/software/theano/
+	arch = any
+	license = BSD
+	makedepends = python-distribute
+	source = https://files.pythonhosted.org/packages/source/T/Theano/Theano-1.0.5.tar.gz
+	sha256sums = 6e9439dd53ba995fcae27bf20626074bfc2fff446899dc5c53cb28c1f9202e89
+
+pkgname = python-theano
+	depends = python-numpy
+	optdepends = python-sympy: Recommended
+	optdepends = python-scipy: Recommended
+	optdepends = python-pycuda
+	optdepends = python-pydot-ng: Preferred over python-pydot
+	optdepends = python-pydot
+	optdepends = python-pygpu-git
+	optdepends = python-scikit-sparse
+	optdepends = python-mpi4py: minimal support for opencl
+

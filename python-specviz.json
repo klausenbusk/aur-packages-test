@@ -1,0 +1,38 @@
+pkgbase = python-specviz
+	pkgdesc = An interactive astronomical 1D spectra analysis tool
+	pkgver = 0.7.0
+	pkgrel = 1
+	url = https://specviz.readthedocs.io/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	checkdepends = python-qtawesome
+	checkdepends = python-click
+	checkdepends = python-asteval
+	checkdepends = python-specutils
+	checkdepends = python-pytest-qt
+	checkdepends = python-pytest-astropy
+	makedepends = python-setuptools
+	makedepends = python-pytest
+	makedepends = python-pyqtgraph
+	makedepends = python-astropy>=3.1
+	makedepends = python-astropy-helpers>=3.1
+	makedepends = python-sphinx-astropy
+	makedepends = python-sphinx_rtd_theme
+	source = https://files.pythonhosted.org/packages/source/s/specviz/specviz-0.7.0.tar.gz
+	md5sums = d59bee1575057390719f9db69191ccc6
+
+pkgname = python-specviz
+	depends = python>=3.6
+	depends = python-astropy>=3.1
+	depends = python-pyqtgraph
+	depends = python-qtawesome
+	depends = python-specutils>=0.5.2
+	depends = python-pytest
+	depends = python-click
+	depends = python-asteval
+	optdepends = python-specviz-doc: Documentation for SpecViz
+
+pkgname = python-specviz-doc
+	pkgdesc = Documentation for Python SpecViz module
+

@@ -1,0 +1,20 @@
+pkgbase = geeknote-git
+	pkgdesc = Console client for Evernote.
+	pkgver = r254.8489a87
+	pkgrel = 1
+	url = http://www.geeknote.me
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = python2-setuptools
+	depends = python2-html2text
+	depends = python2-markdown2
+	depends = python2-sqlalchemy
+	depends = evernote-sdk-python
+	provides = geeknote=r254.8489a87
+	conflicts = geeknote
+	source = geeknote::git+https://github.com/VitaliyRodnenko/geeknote.git
+	md5sums = SKIP
+
+pkgname = geeknote-git
+

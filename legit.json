@@ -1,0 +1,15 @@
+pkgbase = legit
+	pkgdesc = CLI tool to add licenses to projects
+	pkgver = 3.1.0
+	pkgrel = 1
+	url = https://github.com/captainsafia/legit
+	arch = any
+	license = MIT
+	makedepends = npm
+	depends = nodejs
+	noextract = legit-3.1.0.tar.gz
+	options = !emptydirs
+	source = legit-3.1.0.tgz::https://registry.npmjs.org/@captainsafia/legit/-/legit-3.1.0.tgz
+	sha256sums = b99d3f778c00d4bd819c73ae961e15cbf3138405c5f99176dc7643326df1488f
+
+pkgname = legit

@@ -1,0 +1,33 @@
+pkgbase = wps-office-bin
+	pkgdesc = Kingsoft Office (WPS Office) Debian Binary Package
+	pkgver = 11.1.0.8392
+	pkgrel = 1
+	url = http://wps-community.org/
+	install = wps-office-bin.install
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = alsa-lib
+	depends = gtk2
+	depends = xorg-mkfontdir
+	depends = openssl-1.0
+	depends = sdl2
+	depends = libpng12
+	depends = libxss
+	depends = libxtst
+	depends = libsm
+	depends = nss
+	optdepends = cups: for printing support
+	optdepends = curl: An URL retrieval utility and library
+	optdepends = libjpeg-turbo: JPEG image codec support
+	optdepends = pango: for complex (right-to-left) text support
+	optdepends = ttf-wps-fonts: Symbol fonts required by wps-office
+	provides = wps-office
+	conflicts = wps-office
+	source_i686 = https://wdl1.cache.wps.cn/wps/download/ep/Linux2019/8392/wps-office_11.1.0.8392_i386.deb
+	sha1sums_i686 = 60b1c9e33ee6fc1edcefe40dc9ec529d4a668825
+	source_x86_64 = https://wdl1.cache.wps.cn/wps/download/ep/Linux2019/8392/wps-office_11.1.0.8392_amd64.deb
+	sha1sums_x86_64 = edb1bc215e46c46bb979869e374788498486b56c
+
+pkgname = wps-office-bin
+

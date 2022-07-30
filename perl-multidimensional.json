@@ -1,0 +1,18 @@
+pkgbase = perl-multidimensional
+	pkgdesc = disables multidimensional array emulation
+	pkgver = 0.014
+	pkgrel = 1
+	url = https://metacpan.org/release/multidimensional
+	arch = i686
+	arch = x86_64
+	license = PerlArtistic
+	license = GPL
+	makedepends = perl-extutils-depends
+	depends = perl-b-hooks-op-check>=0.19
+	depends = perl>=5.12
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/I/IL/ILMARI/multidimensional-0.014.tar.gz
+	sha512sums = 94c9dabb3023165a8dd140ef791e4aab980e3b604eae06ed0e29290aab67a9302f2cde4c8b394de0b4c55c5f78ce4510db902d615d665bf60b12ec409f341043
+
+pkgname = perl-multidimensional
+

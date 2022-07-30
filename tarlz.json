@@ -1,0 +1,14 @@
+pkgbase = tarlz
+	pkgdesc = Archiver with multimember lzip compression
+	pkgver = 0.22
+	pkgrel = 1
+	url = https://www.nongnu.org/lzip/tarlz.html
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = lzlib
+	depends = gcc-libs
+	source = https://download.savannah.gnu.org/releases/lzip/tarlz/tarlz-0.22.tar.lz
+	sha512sums = 4e241ea0571e421c93fbeeb54a20e73fd4a7e9c85dc3b24295caec1a52e156cdcf5e85f4ee41f5dfae712b851d17fe0e96955380bb86306d8002f4187d0c60ec
+
+pkgname = tarlz

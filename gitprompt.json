@@ -1,0 +1,16 @@
+pkgbase = gitprompt
+	pkgdesc = Informative git prompt for zsh and bash
+	pkgver = 0.8.1
+	pkgrel = 2
+	url = https://github.com/abhinav/gitprompt
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = go
+	provides = gitprompt
+	source = gitprompt-0.8.1.tar.gz::https://github.com/abhinav/gitprompt/archive/v0.8.1.tar.gz
+	sha256sums = e76708f070c790a2157594ab73730b5d973357313e32f77225be023c2f0fbf5c
+
+pkgname = gitprompt

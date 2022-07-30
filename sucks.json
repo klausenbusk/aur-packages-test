@@ -1,0 +1,23 @@
+pkgbase = sucks
+	pkgdesc = Simple command-line script for the Ecovacs series of robot vacuums
+	pkgver = 0.9.4
+	pkgrel = 1
+	url = https://github.com/wpietri/sucks
+	arch = any
+	license = GPL
+	checkdepends = python-nose
+	checkdepends = python-requests-mock
+	depends = python
+	depends = python-sleekxmpp
+	depends = python-click
+	depends = python-requests
+	depends = python-pycryptodome
+	depends = python-pycountry-convert
+	depends = python-pytest-mock
+	depends = python-stringcase
+	optdepends = bash-completion
+	source = https://github.com/wpietri/sucks/archive/v0.9.4.tar.gz
+	sha512sums = 5e0f7471ff55cf97739e17ec36e0c24e20886f29c3128300b6feac73993806753d333ed49a1591201e45497e32a1204b36a5c7f78af7b71607ba7b36294622dc
+
+pkgname = sucks
+

@@ -1,0 +1,15 @@
+pkgbase = otf-exo
+	pkgdesc = A geometric sans serif font with a technological feel
+	pkgver = 2.0
+	pkgrel = 8
+	url = https://www.ndiscover.com/exo-2-0/
+	arch = any
+	license = OFL
+	depends = fontconfig
+	depends = xorg-mkfontdir
+	source = https://www.ndiscover.com/wp-content/themes/barrel-child/fonts/demo/exo2/Exo2.zip
+	md5sums = 4d3f183eb4267dcec715d45c872c2a36
+	sha256sums = 646958d276e88ae9d92a7c1e2e026ed956cd0b59b64f34d8b8a102c43e50e48a
+
+pkgname = otf-exo
+

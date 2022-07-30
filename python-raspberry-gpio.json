@@ -1,0 +1,17 @@
+pkgbase = python-raspberry-gpio
+	pkgdesc = Python library for GPIO access on a Raspberry Pi
+	pkgver = 0.7.0
+	pkgrel = 2
+	url = http://sourceforge.net/projects/raspberry-gpio-python
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = gcc
+	makedepends = python-distribute
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/R/RPi.GPIO/RPi.GPIO-0.7.0.tar.gz
+	sha1sums = 427089f39f13954c09d09a6a08a9249173fb8a17
+
+pkgname = python-raspberry-gpio
+

@@ -1,0 +1,17 @@
+pkgbase = esets
+	pkgdesc = ESET Mail Security provides comercial Antivirus and Antispam
+	pkgver = 4.5.11.0
+	pkgrel = 2
+	url = http://www.eset.com/
+	install = esets.install
+	arch = x86_64
+	license = ESET
+	depends = lib32-glibc
+	backup = etc/opt/eset/esets/esets.cfg
+	source = http://:@download.eset.com/download/unix/esets.amd64.tgz.bin
+	source = esets.sysusers
+	md5sums = dd13190fadb01e4637777afe7a3b3153
+	md5sums = e68ea38f9bcaf5c3394051d04a6f4e65
+
+pkgname = esets
+

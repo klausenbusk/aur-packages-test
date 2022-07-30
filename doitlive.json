@@ -1,0 +1,17 @@
+pkgbase = doitlive
+	pkgdesc = Because sometimes you need to do it live
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = https://github.com/sloria/doitlive
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-click-didyoumean
+	depends = python-click-completion
+	depends = python-shellingham
+	source = https://github.com/sloria/doitlive/archive/4.3.0.tar.gz
+	sha512sums = 9151c642b231eb627729c7b46015578d45a5788ab0449377ee136754f6ea6e5db226d3b45b33b863b94bab4865a84ad4396e9cc779c39887cbd9cd353742b03a
+
+pkgname = doitlive
+

@@ -1,0 +1,14 @@
+pkgbase = gdub-git
+	pkgdesc = A gradle wrapper wrapper to make gradlew easier to use
+	pkgver = r43.ebe14f1
+	pkgrel = 1
+	url = www.gdup.rocks
+	arch = any
+	license = MIT
+	depends = java-environment
+	optdepends = gradle
+	source = git+https://github.com/dougborg/gdub.git
+	md5sums = SKIP
+
+pkgname = gdub-git
+

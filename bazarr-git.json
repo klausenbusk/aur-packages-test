@@ -1,0 +1,29 @@
+pkgbase = bazarr-git
+	pkgdesc = Manage and download subtitles for Sonarr and Radarr.
+	pkgver = r1800.b10190c5
+	pkgrel = 1
+	url = https://github.com/morpheus65535/bazarr
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = python
+	depends = python-lxml
+	depends = python-numpy
+	depends = python-webrtcvad-wheels
+	depends = ffmpeg
+	provides = bazarr
+	conflicts = bazarr
+	options = !strip
+	source = git+https://github.com/morpheus65535/bazarr
+	source = bazarr.service
+	source = bazarr.sysusers
+	source = bazarr.tmpfiles
+	source = bazarr.install
+	sha256sums = SKIP
+	sha256sums = fe83f24cdd17b37f19108d93f30b552bc5edbcc23a22f01e9be963f26d7d61d8
+	sha256sums = 92fd48cbd7e5fe3a0388bbe756a52098fc461ef2dc87d9e886452e4f15acdcdc
+	sha256sums = 3aa2ebbf4083301d331f36486edcb81fcd094767a0ea404a89d870217d4f6632
+	sha256sums = 573beeac951d427e980332ce4d8645ae2299082e6c9c04f96e2a41a98c3acc60
+
+pkgname = bazarr-git
+

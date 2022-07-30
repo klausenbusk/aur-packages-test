@@ -1,0 +1,21 @@
+pkgbase = langkit
+	pkgdesc = Compiler for syntactic and semantic language analysis libraries.
+	pkgver = 20211103
+	pkgrel = 3
+	url = https://github.com/AdaCore/langkit/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	license = custom
+	makedepends = gprbuild
+	makedepends = texlive-bin
+	makedepends = python-sphinx
+	makedepends = python-e3-core
+	makedepends = python-funcy
+	makedepends = python-mako
+	depends = gnatcoll-iconv
+	depends = python
+	source = https://github.com/AdaCore/langkit/archive/refs/tags/v22.0.0.tar.gz
+	sha256sums = 45e9f389827f37eee107d4b7f6115fb4a7cf4d9dfc1214a68081db86d6c5ca74
+
+pkgname = langkit

@@ -1,0 +1,14 @@
+pkgbase = cargo-edit
+	pkgdesc = A utility for managing cargo dependencies from the command line.
+	pkgver = 0.4.2
+	pkgrel = 1
+	url = https://github.com/killercup/cargo-edit
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = cargo
+	conflicts = cargo-edit-git
+	source = https://github.com/killercup/cargo-edit/archive/v0.4.2.tar.gz
+	sha256sums = bc906edbd3e2a9cd8b7ee46bba6a7b46f052c4eedc89d25ca59247784b0f8c10
+
+pkgname = cargo-edit

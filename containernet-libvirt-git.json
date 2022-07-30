@@ -1,0 +1,37 @@
+pkgbase = containernet-libvirt-git
+	pkgdesc = Mininet with added Docker, and libvirt support
+	pkgver = 20180423
+	pkgrel = 1
+	url = https://github.com/containernet/containernet/
+	install = containernet-libvirt-git.install
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = help2man
+	makedepends = python2-setuptools
+	makedepends = git
+	depends = bash
+	depends = python2
+	depends = python2-networkx
+	depends = net-tools
+	depends = iputils
+	depends = iperf
+	depends = openvswitch
+	depends = docker
+	depends = python2-pytest
+	depends = python2-urllib3
+	depends = python-iptables
+	depends = python2-docker
+	depends = python2-ipaddress
+	optdepends = xorg-xhost
+	optdepends = libvirt-python2: needed for libvirt support
+	optdepends = libvirt: needed for libvirt support
+	optdepends = qemu: for running VMs using qemu
+	optdepends = python2-paramiko: for the SSH management network
+	provides = mininet
+	conflicts = mininet
+	source = containernet-libvirt-git::git+http://github.com/containernet/containernet#branch=libvirt_support
+	md5sums = SKIP
+
+pkgname = containernet-libvirt-git
+

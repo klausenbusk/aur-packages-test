@@ -1,0 +1,26 @@
+pkgbase = python-pydl
+	pkgdesc = Python replacements for functions that are part of the IDL built-in library or part of astronomical IDL libraries
+	pkgver = 0.7.0
+	pkgrel = 2
+	url = http://pydl.readthedocs.io/
+	arch = any
+	license = BSD
+	checkdepends = python-pytest-astropy
+	makedepends = python-setuptools
+	makedepends = python-setuptools
+	makedepends = python-scipy
+	makedepends = python-astropy
+	makedepends = python-astropy-helpers
+	makedepends = python-sphinx-astropy
+	source = https://files.pythonhosted.org/packages/source/p/pydl/pydl-0.7.0.tar.gz
+	md5sums = 0bf0921aef8f5acbf192ac5c49f0d46c
+
+pkgname = python-pydl
+	depends = python-scipy
+	depends = python-astropy
+	depends = python-matplotlib
+	optdepends = python-pytest-astropy: For testing
+	optdepends = python-pydl-doc: Documentation for PyDL
+
+pkgname = python-pydl-doc
+	pkgdesc = Documentation for PyDL

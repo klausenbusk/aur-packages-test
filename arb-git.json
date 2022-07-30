@@ -1,0 +1,24 @@
+pkgbase = arb-git
+	pkgdesc = Automatic Robust Backup, an archiving and synchronization tool.
+	pkgver = r
+	pkgrel = 1
+	url = https://github.com/lbcnz/arb
+	install = arb.install
+	arch = any
+	license = MIT
+	depends = bash
+	depends = borg
+	depends = gocryptfs
+	depends = rclone
+	depends = rsync
+	depends = systemd
+	depends = git
+	optdepends = pass: standard password manager
+	optdepends = gopass: improved password manager
+	provides = arb
+	conflicts = arb
+	source = git://github.com/lbcnz/arb#branch=main
+	sha512sums = SKIP
+
+pkgname = arb-git
+

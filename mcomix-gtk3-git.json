@@ -1,0 +1,26 @@
+pkgbase = mcomix-gtk3-git
+	pkgdesc = A comic book reader. Forked from MComix and ported to GTK3.
+	pkgver = r1961.9ba2f5b
+	pkgrel = 1
+	url = https://github.com/multiSnow/mcomix3
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = gtk3
+	depends = python-cairo
+	depends = python-gobject
+	depends = python-pillow
+	optdepends = libunrar: for rar compressed comics
+	optdepends = p7zip: for 7z compressed comics
+	optdepends = unrar: for rar compressed comics
+	optdepends = unzip: for zip compressed comics
+	optdepends = lhasa: for lha compressed comics
+	optdepends = mupdf-tools: for PDF comics
+	provides = mcomix
+	conflicts = mcomix
+	conflicts = mcomix-git
+	source = git+https://github.com/multiSnow/mcomix3
+	sha256sums = SKIP
+
+pkgname = mcomix-gtk3-git
+

@@ -1,0 +1,15 @@
+pkgbase = uefi-firmware-parser
+	pkgdesc = Parse BIOS/Intel ME/UEFI firmware related structures: Volumes, FileSystems, Files, etc
+	pkgver = 1.8
+	pkgrel = 1
+	url = https://github.com/theopolis/uefi-firmware-parser
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = python2-setuptools
+	depends = python2
+	source = uefi-firmware-parser-1.8.zip::https://github.com/theopolis/uefi-firmware-parser/archive/v1.8.zip
+	sha1sums = 158668cb2306a2c3c361d9b537bbcb2311497020
+
+pkgname = uefi-firmware-parser
+

@@ -1,0 +1,25 @@
+pkgbase = com.tencent.weixin
+	pkgdesc = 微信官方原生桌面版 WeChat desktop
+	pkgver = 2.1.2
+	pkgrel = 1
+	url = http://pc.weixin.qq.com/
+	arch = x86_64
+	license = ISC
+	depends = gtk3
+	depends = nss
+	depends = libxss
+	depends = libnotify
+	depends = bubblewrap
+	depends = lsb-release
+	provides = wechat
+	conflicts = wechat-uos
+	options = !strip
+	options = emptydirs
+	source = https://home-store-packages.uniontech.com/appstore/pool/appstore/c/com.tencent.weixin/com.tencent.weixin_2.1.2_amd64.deb
+	source = license.tar.gz
+	source = wechat.sh
+	md5sums = b749702c5eafa38b8aaae30a832e678b
+	md5sums = 42259e3cd8efb2dc01c5a4fca68d4c9f
+	md5sums = 06b2e9c2bfe41e064478946e75d45296
+
+pkgname = com.tencent.weixin

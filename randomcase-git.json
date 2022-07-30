@@ -1,0 +1,13 @@
+pkgbase = randomcase-git
+	pkgdesc = Converts input to case from SpongeBob meme
+	pkgver = 0.5
+	pkgrel = 1
+	url = https://git.auteiy.me/dmitry/randomCase
+	arch = any
+	license = MIT
+	depends = python
+	source = https://git.auteiy.me/dmitry/randomCase/raw/v0.5/randomcase
+	md5sums = 644ac74ce08e5acdd54e25cd5bcf7bd4
+
+pkgname = randomcase-git
+

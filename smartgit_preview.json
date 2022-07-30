@@ -1,0 +1,19 @@
+pkgbase = smartgit_preview
+	pkgdesc = Graphical Git client. Preview version.
+	pkgver = 22.1_preview_8
+	pkgrel = 1
+	url = https://www.syntevo.com/smartgit/preview/
+	arch = any
+	license = custom
+	makedepends = tar
+	depends = java-environment>=11
+	depends = python3
+	optdepends = mercurial: hg repositories support
+	optdepends = git: git repositories support
+	provides = smartgit
+	conflicts = smartgit
+	replaces = smartgithg
+	source = https://www.syntevo.com/downloads/smartgit/smartgit-22_1-preview-8.deb
+	sha1sums = b6d0c253d7e7eb0729c2227bf6adddfb87caa2b6
+
+pkgname = smartgit_preview

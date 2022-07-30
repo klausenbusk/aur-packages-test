@@ -1,0 +1,16 @@
+pkgbase = cpucompare
+	pkgdesc = A GTK+ application to make comparisons between CPU models.
+	pkgver = 0.8.0
+	pkgrel = 2
+	url = https://www.muflone.com/cpucompare
+	arch = any
+	license = GPL3
+	depends = gtk3
+	depends = python-gobject
+	depends = python-xdg
+	depends = gobject-introspection
+	provides = cpucompare
+	source = cpucompare-0.8.0.tar.gz::https://github.com/muflone/cpucompare/archive/0.8.0.tar.gz
+	sha256sums = 11835df81d34b0a80480f0a0bd7cd6c3141a78b5ad7049f049cceaa4dd16d15e
+
+pkgname = cpucompare

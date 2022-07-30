@@ -1,0 +1,16 @@
+pkgbase = r-cran-rinside
+	pkgdesc = Seamless R and C++ Integration
+	pkgver = 0.2.15
+	pkgrel = 1
+	url = http://cran.r-project.org/web/packages/RInside/index.html
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	license = GPL3
+	depends = r
+	depends = r-rcpp
+	source = http://cran.r-project.org/src/contrib/RInside_0.2.15.tar.gz
+	md5sums = 3b8c13dc53c6958c1f82c0a25dd6c211
+
+pkgname = r-cran-rinside
+

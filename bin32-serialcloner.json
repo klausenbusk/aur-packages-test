@@ -1,0 +1,18 @@
+pkgbase = bin32-serialcloner
+	pkgdesc = Serial Cloner is a Molecular Biology software. It provides tools with an intuitive interface that assists you in DNA cloning, sequence analysis and visualization.
+	pkgver = 2.6.1
+	pkgrel = 1
+	url = http://serialbasics.free.fr
+	arch = i686
+	arch = x86_64
+	license = unknown
+	depends = lib32-gtk2
+	options = !strip
+	options = staticlibs
+	options = libtool
+	options = emptydirs
+	source = http://serialbasics.free.fr/Serial_Cloner-Download_files/SerialCloner2-6.tar.gz
+	md5sums = 3d29dcc0df72cf4793a6efcb76f8243b
+
+pkgname = bin32-serialcloner
+

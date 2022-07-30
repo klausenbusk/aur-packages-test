@@ -1,0 +1,55 @@
+pkgbase = zephyr-sdk
+	pkgdesc = SDK for Zephyr real-time operating system
+	pkgver = 0.14.1
+	pkgrel = 1
+	url = https://www.zephyrproject.org/
+	install = zephyr-sdk.install
+	arch = x86_64
+	license = Apache
+	makedepends = patchelf
+	depends = python-breathe>=4.9.1
+	depends = python-docutils>=0.14
+	depends = python-pyaml>=5.1
+	depends = python-ply>=3.10
+	depends = python-pip
+	depends = python-setuptools
+	depends = python-wheel
+	depends = python-pyelftools>=0.24
+	depends = python-pyserial
+	depends = python-pykwalify
+	depends = python-pillow
+	depends = python-anytree
+	depends = python-intelhex
+	depends = python-packaging
+	depends = python-progress
+	depends = python-pyserial
+	depends = python-cbor
+	depends = python-psutil
+	depends = python-pytest
+	depends = python-colorama
+	depends = python-coverage
+	depends = gcovr
+	depends = python-sphinx>=1.7.5
+	depends = python-sphinx_rtd_theme
+	depends = python-sphinxcontrib-svg2pdfconverter
+	depends = python-tabulate
+	depends = python-west>=0.7.2
+	depends = git-spindle
+	depends = gitlint
+	depends = ninja
+	depends = gperf
+	depends = gcovr
+	depends = ccache
+	depends = doxygen
+	depends = dfu-util
+	depends = dtc
+	depends = cmake>=3.8.2
+	optdepends = pyocd: programming and debugging ARM MCUs
+	options = !strip
+	source = https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/zephyr-sdk-0.14.1_linux-x86_64.tar.gz
+	source = zephyrrc
+	sha256sums = b7b70e5e70968ac6ae3184c90c3f3f8a6836acadd1432bf7b3702be7a1d317d8
+	sha256sums = 7a1257272c64bdec281283d391e3149cece065935c9e8394d6bece32d0f6fc05
+
+pkgname = zephyr-sdk
+

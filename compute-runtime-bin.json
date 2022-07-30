@@ -1,0 +1,30 @@
+pkgbase = compute-runtime-bin
+	pkgdesc = Intel(R) Graphics Compute Runtime for OpenCL(TM). Replaces Beignet for Gen8 (Broadwell) and beyond (binary version)
+	pkgver = 19.11.12599
+	pkgrel = 1
+	url = https://github.com/intel/compute-runtime
+	install = compute-runtime-bin.install
+	arch = x86_64
+	license = MIT
+	depends = intel-gmmlib
+	depends = zlib
+	optdepends = libdrm
+	optdepends = libva
+	optdepends = ocl-icd
+	provides = opencl
+	provides = opencl-driver
+	provides = compute-runtime
+	conflicts = beignet
+	conflicts = compute-runtime
+	noextract = https://github.com/intel/compute-runtime/releases/download/19.11.12599/intel-igc-core_19.11.1622_amd64.deb
+	noextract = https://github.com/intel/compute-runtime/releases/download/19.11.12599/intel-igc-opencl_19.11.1622_amd64.deb
+	noextract = https://github.com/intel/compute-runtime/releases/download/19.11.12599/intel-opencl_19.11.12599_amd64.deb
+	source = https://github.com/intel/compute-runtime/releases/download/19.11.12599/intel-igc-core_19.11.1622_amd64.deb
+	source = https://github.com/intel/compute-runtime/releases/download/19.11.12599/intel-igc-opencl_19.11.1622_amd64.deb
+	source = https://github.com/intel/compute-runtime/releases/download/19.11.12599/intel-opencl_19.11.12599_amd64.deb
+	sha256sums = 6ed64329e0816e23ca7aed8c8a54b98c9bcfbdf4b9b78f254407cdac10fa17a4
+	sha256sums = a1c3e3c8848e8cf52790c558ec310ab72a20865a8c6473046c3a29052b08c273
+	sha256sums = 1d6b197d1341545a570d6b2f8722163db7c1cf2d369ba4160d4081e39922c95b
+
+pkgname = compute-runtime-bin
+

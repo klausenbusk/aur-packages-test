@@ -1,0 +1,19 @@
+pkgbase = python-tendo
+	pkgdesc = Adds basic functionality that is not (yet) provided by Python
+	pkgver = 0.2.15
+	pkgrel = 2
+	url = https://github.com/pycontribs/tendo
+	arch = any
+	license = Python
+	makedepends = python-setuptools
+	makedepends = python-tox
+	depends = python
+	depends = python-six
+	depends = python-pbr
+	options = !emptydirs
+	source = https://github.com/pycontribs/tendo/archive/0.2.15.tar.gz
+	md5sums = SKIP
+	sha256sums = SKIP
+
+pkgname = python-tendo
+

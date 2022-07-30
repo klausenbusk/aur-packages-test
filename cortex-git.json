@@ -1,0 +1,13 @@
+pkgbase = cortex-git
+	pkgdesc = An ncurses reddit browser and monitor
+	pkgver = r59.ff10ff8
+	pkgrel = 1
+	url = http://cortex.glacicle.org/
+	arch = any
+	license = MIT/X11
+	makedepends = git
+	depends = python
+	source = git+https://github.com/GGLucas/cortex.git
+	md5sums = SKIP
+
+pkgname = cortex-git

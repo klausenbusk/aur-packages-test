@@ -1,0 +1,14 @@
+pkgbase = resticprofile
+	pkgdesc = Configuration profiles for restic backup
+	pkgver = 0.16.0
+	pkgrel = 1
+	url = https://github.com/creativeprojects/resticprofile
+	arch = x86_64
+	license = GPL3
+	makedepends = go
+	depends = glibc
+	depends = restic
+	source = https://github.com/creativeprojects/resticprofile/archive/v0.16.0.tar.gz
+	sha256sums = 082f74ffced8e4f35b86a22b40013faaba70a12a9f5b676b2f27c030f2c2510d
+
+pkgname = resticprofile

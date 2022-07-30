@@ -1,0 +1,10 @@
+pkgbase = generic-service-handler
+	pkgdesc = This package violates AUR guidelines
+	pkgver = 1.0
+	pkgrel = 1
+	url = dev.null
+	arch = any
+	license = None
+
+pkgname = generic-service-handler
+

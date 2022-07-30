@@ -1,0 +1,17 @@
+pkgbase = arduino-sam-core
+	pkgdesc = Arduino SAM core for arduino Due
+	pkgver = 1.6.11
+	pkgrel = 1
+	url = https://github.com/arduino/Arduino
+	arch = any
+	license = GPL
+	optdepends = bossa: uploading support
+	optdepends = arm-none-eabi-gcc: compilation support
+	options = !strip
+	options = !emptydirs
+	source = https://downloads.arduino.cc/cores/sam-1.6.11.tar.bz2
+	validpgpkeys = 326567C1C6B288DF32CB061A95FA6F43E21188C4
+	sha512sums = 6aa8c324c723e2aeadf4cd5b86bfc90fc51684982801741d6416376583f4a7a0f4f2f02637c062f1df2052ccb7846127d36e0dd922562b78d8309b079bdce370
+
+pkgname = arduino-sam-core
+

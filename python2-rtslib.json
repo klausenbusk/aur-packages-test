@@ -1,0 +1,13 @@
+pkgbase = python2-rtslib
+	pkgdesc = RisingTide Systems generic SCSI target API in python
+	pkgver = 2.2
+	pkgrel = 2
+	url = http://www.risingtidesystems.com/git/?p=rtslib.git;a=summary
+	arch = any
+	license = Apache
+	depends = python2-ipaddr
+	depends = python2-netifaces
+	depends = python2-configobj
+
+pkgname = python2-rtslib
+

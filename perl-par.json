@@ -1,0 +1,19 @@
+pkgbase = perl-par
+	pkgdesc = Perl Archive Toolkit
+	pkgver = 1.016
+	pkgrel = 2
+	url = https://metacpan.org/release/PAR
+	arch = any
+	license = GPL
+	license = PerlArtistic
+	depends = perl-archive-zip
+	depends = perl-par-dist
+	provides = perl-par-heavy
+	provides = perl-par-setupprogname
+	provides = perl-par-setuptemp
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/R/RS/RSCHUPP/PAR-1.016.tar.gz
+	sha256sums = 0a25fbaf3367ae92c1a880105f4e080df0e7749b457172abd8bec47644dd9d97
+
+pkgname = perl-par
+

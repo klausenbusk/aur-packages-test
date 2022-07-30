@@ -1,0 +1,29 @@
+pkgbase = solarus-git
+	pkgdesc = An open-source adventure 2D game engine (git version)
+	pkgver = 1.5.3.r1139.gf0eadc40f
+	pkgrel = 2
+	url = http://www.solarus-games.org/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = cmake
+	depends = glm
+	depends = hicolor-icon-theme
+	depends = libmodplug>=0.8.8.4
+	depends = libvorbis
+	depends = luajit>=2.0
+	depends = openal
+	depends = physfs
+	depends = qt5-base
+	depends = qt5-tools
+	depends = sdl2>=2.0.6
+	depends = sdl2_image
+	depends = sdl2_ttf
+	provides = solarus
+	conflicts = solarus
+	source = solarus-git::git+https://gitlab.com/solarus-games/solarus.git
+	md5sums = SKIP
+
+pkgname = solarus-git
+

@@ -1,0 +1,15 @@
+pkgbase = python-jinja-time
+	pkgdesc = Python Jinja2 library extension for dates and times
+	pkgver = 0.2.0
+	pkgrel = 2
+	url = https://github.com/hackebrot/jinja2-time
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-jinja
+	depends = python-arrow
+	source = https://files.pythonhosted.org/packages/source/j/jinja2-time/jinja2-time-0.2.0.tar.gz
+	sha256sums = d14eaa4d315e7688daa4969f616f226614350c48730bfa1692d2caebd8c90d40
+
+pkgname = python-jinja-time
+

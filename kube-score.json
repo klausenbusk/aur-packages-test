@@ -1,0 +1,13 @@
+pkgbase = kube-score
+	pkgdesc = A tool that performs static code analysis of your Kubernetes object definitions
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://github.com/zegl/kube-score
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	source = kube-score-1.8.0.tar.gz::https://github.com/zegl/kube-score/archive/v1.8.0.tar.gz
+	sha512sums = aeb7ee62be1fb7d1f26ff25bdc9aaceb765e494dceada1817de45b6161a723033a74e07528047063e458c1d58b83d41b5851ba2f6dea53f93f860a8186971f61
+
+pkgname = kube-score
+

@@ -1,0 +1,17 @@
+pkgbase = sncli-git
+	pkgdesc = Simplenote Command Line Interface
+	pkgver = 0.4.0.r0.ge2603ef
+	pkgrel = 1
+	url = https://github.com/insanum/sncli
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python-urwid
+	depends = python-requests
+	depends = python-simperium
+	source = git+https://github.com/insanum/sncli.git
+	md5sums = SKIP
+
+pkgname = sncli-git
+

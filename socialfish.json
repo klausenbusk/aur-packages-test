@@ -1,0 +1,28 @@
+pkgbase = socialfish
+	pkgdesc = Educational phishing tool and information collector using ngrok
+	pkgver = 2.0
+	pkgrel = 3
+	url = https://github.com/UndeadSec/SocialFish
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = BSD
+	makedepends = python-pip
+	depends = php
+	depends = python-requests
+	depends = python-wget
+	depends = python-huepy
+	source = https://github.com/UndeadSec/SocialFish/archive/sharkNet.tar.gz
+	sha256sums = 71bb69585c7cd54b2dbe5af265eecd255854f3741cd89ba7a326db123ab17a7c
+	source_i686 = https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip
+	sha256sums_i686 = 136673d9f46ecea7cd0d94d617f07d98fce24a99892d3324f9714c9e3df50c0f
+	source_x86_64 = https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+	sha256sums_x86_64 = 1761f150c5e1d210e8148a863441af4bf0f0ae413d205fdb3ce9db4a3454d504
+	source_armv7h = https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+	sha256sums_armv7h = 0e21e242858be513f70a22a2e5f40e5859275454f7b18d451ec30af4deba2dd2
+	source_aarch64 = https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip
+	sha256sums_aarch64 = c5dc3050fbe6f98afaee8878c0d9c85d1c00da8f8dcd6aba067b356cf401b93e
+
+pkgname = socialfish
+

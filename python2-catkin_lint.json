@@ -1,0 +1,18 @@
+pkgbase = python2-catkin_lint
+	pkgdesc = Check catkin packages for common errors
+	pkgver = 1.6.16
+	pkgrel = 1
+	url = https://github.com/fkie/catkin_lint
+	arch = any
+	license = BSD
+	makedepends = python2-setuptools
+	depends = python2
+	depends = python2-catkin_pkg
+	depends = python2-lxml
+	provides = python2-catkin-lint
+	conflicts = python-catkin_lint
+	conflicts = python2-catkin-lint
+	source = https://github.com/fkie/catkin_lint/archive/1.6.16.tar.gz
+	sha256sums = ca9de386450a6fe64bea05a52276d780489ada69ade8b94330db81fe6782f104
+
+pkgname = python2-catkin_lint

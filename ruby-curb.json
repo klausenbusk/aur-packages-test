@@ -1,0 +1,16 @@
+pkgbase = ruby-curb
+	pkgdesc = Provides Ruby-language bindings for the libcurl
+	pkgver = 0.9.3
+	pkgrel = 1
+	url = http://curb.rubyforge.org/
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = libcurl-compat
+	depends = curl
+	options = !emptydirs
+	source = https://rubygems.org/downloads/curb-0.9.3.gem
+	sha256sums = 42651d05f712a93fb9cc733910b285d389afbd16952d456b13733b12a403e009
+
+pkgname = ruby-curb
+

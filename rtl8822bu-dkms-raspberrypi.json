@@ -1,0 +1,21 @@
+pkgbase = rtl8822bu-dkms-raspberrypi
+	pkgdesc = Kernel module for Edimax EW7822ULC USB3 and Asus AC53 Nano USB 802.11ac adapter. (for raspberrypi)
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/MeissnerEffect/rtl8822bu
+	install = rtl8822bu-dkms-raspberrypi.install
+	arch = armv7h
+	license = GPL
+	makedepends = git
+	depends = dkms
+	depends = linux-raspberrypi>=5.4
+	conflicts = rtl8822bu-dkms-git
+	source = git+https://github.com/MeissnerEffect/rtl8822bu.git#commit=9438d453ec5b4878b7d4a2b4bcf87b37df09c3fb
+	source = dkms.conf
+	source = rpi.patch
+	sha256sums = SKIP
+	sha256sums = 09dbc7aa2954d0b66bf8d6676b996f154821107b72e4c0e901a14b70c64fbbe3
+	sha256sums = 1231ecd3d8937fa6e626b5b265a6ee2a7299cb2f7e8a2b19f60ae3875bf9142d
+
+pkgname = rtl8822bu-dkms-raspberrypi
+

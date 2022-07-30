@@ -1,0 +1,15 @@
+pkgbase = cl-trivial-garbage
+	pkgdesc = Provides a portable API to finalizers, weak hash-tables & weak pointers across multiple Common Lisp implementations
+	pkgver = 0.21.r8.gb3af9c0
+	pkgrel = 1
+	url = https://trivial-garbage.common-lisp.dev/
+	arch = any
+	license = custom:Public
+	makedepends = git
+	makedepends = sbcl
+	depends = common-lisp
+	depends = cl-asdf
+	source = cl-trivial-garbage::git+https://github.com/trivial-garbage/trivial-garbage#commit=b3af9c0c25d4d4c271545f1420e5ea5d1c892427
+	b2sums = SKIP
+
+pkgname = cl-trivial-garbage

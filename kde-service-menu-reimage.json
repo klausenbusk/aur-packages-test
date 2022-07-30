@@ -1,0 +1,16 @@
+pkgbase = kde-service-menu-reimage
+	pkgdesc = Manipulate images e their metadata
+	pkgver = 2.5
+	pkgrel = 1
+	url = https://www.egregorion.net
+	arch = any
+	license = GPL-3.0+
+	depends = dolphin
+	depends = kdialog
+	depends = imagemagick
+	optdepends = jhead: used for extracting exif data
+	source = https://www.egregorion.net/works/kde/servicemenus/reimage/kde-service-menu-reimage-2.5_all.tar.gz
+	md5sums = c8dffad8dec37298c8e3c90ad7cee624
+
+pkgname = kde-service-menu-reimage
+

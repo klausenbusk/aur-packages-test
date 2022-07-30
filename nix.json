@@ -1,0 +1,24 @@
+pkgbase = nix
+	pkgdesc = A purely functional package manager
+	pkgver = 2.3.13
+	pkgrel = 1
+	url = https://nixos.org/nix
+	install = nix.install
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = LGPL
+	makedepends = bzip2
+	makedepends = openssl
+	depends = gc
+	depends = libsodium
+	depends = boost
+	depends = brotli
+	depends = editline
+	optdepends = archlinux-nix: tools to help with setup of Nix
+	source = https://nixos.org/releases/nix/nix-2.3.13/nix-2.3.13.tar.xz
+	source = ldflags.patch
+	sha256sums = 7034647cb4fcfeff54134d22a0443ec4eccba8f1bc902f9ef1e6b447c5c46118
+	sha256sums = 42350237d98785b30b0ee099405f2f1f7412f8a816162c22bd232ed3dbbe0305
+
+pkgname = nix

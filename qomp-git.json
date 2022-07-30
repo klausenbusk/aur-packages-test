@@ -1,0 +1,33 @@
+pkgbase = qomp-git
+	pkgdesc = Quick(Qt) Online Music Player
+	pkgver = 1.4.r7.gcb19e84
+	pkgrel = 2
+	url = https://github.com/qomp/qomp
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = cmake
+	makedepends = qt5-tools
+	depends = taglib
+	depends = qt5-base
+	depends = qt5-x11extras
+	depends = qt5-multimedia
+	depends = qt5-xmlpatterns
+	depends = gstreamer
+	depends = libcue
+	depends = gst-plugins-good
+	optdepends = gst-libav: additional codecs
+	optdepends = gst-plugins-bad: additional codecs
+	optdepends = gst-plugins-ugly: additional codecs
+	source = qomp-git::git+https://github.com/qomp/qomp
+	source = git+https://github.com/qomp/translations
+	source = git+https://github.com/qomp/themes
+	source = git+https://github.com/wadealer/SingleApplication
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = qomp-git
+

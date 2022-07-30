@@ -1,0 +1,18 @@
+pkgbase = paccache-hook
+	pkgdesc = A configurable hook to cleanup the pacman package cache using paccache
+	pkgver = 1.1.0
+	pkgrel = 1
+	arch = any
+	license = BSD
+	depends = pacman-contrib
+	conflicts = pacman-cleanup-hook
+	backup = etc/paccache-hook.conf
+	source = paccache-hook.conf
+	source = paccache-hook.sh
+	source = paccache-hook.hook
+	sha256sums = 0aba81744ed33eae4fbb135da75d905baab46362f0230e7c7a833c4e8734ccfc
+	sha256sums = 2a4b997c371956d2a03d1ba8ae5b54fc403e354231b6c6798ae7b0d18d06cdee
+	sha256sums = fdd80cc2ec88445ac9c5fadf2b4053eb0d4864485952a8d9858d6cc3d34c97ce
+
+pkgname = paccache-hook
+

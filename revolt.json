@@ -1,0 +1,19 @@
+pkgbase = revolt
+	pkgdesc = Better desktop integration for Riot.im (not only) for GNOME
+	pkgver = 2021.12.16
+	pkgrel = 1
+	url = https://github.com/aperezdc/revolt
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = GPL3
+	depends = python-gobject
+	depends = webkit2gtk
+	options = !strip
+	options = !emptydirs
+	source = revolt-2021.12.16.tar.gz::https://github.com/aperezdc/revolt/archive/7f6f762ebd67e51f1c356fa045b19be2c0264997.tar.gz
+	b2sums = d9b311b081f7ba6c563c7112e2bbc40820b2a8155bfb8d8db1dc7254d0563406e4c0ff943644118d0cbe175518be818ea4d059e55abe8a1074d65116510761e2
+
+pkgname = revolt

@@ -1,0 +1,18 @@
+pkgbase = raspberrypi-bootloader-git
+	pkgdesc = Bootloader files for raspberry pi from git
+	pkgver = r969
+	pkgrel = 1
+	url = https://github.com/raspberrypi/firmware
+	arch = any
+	license = custom
+	makedepends = curl
+	provides = raspberrypi-bootloader
+	provides = raspberrypi-bootloader-x
+	conflicts = raspberrypi-bootloader
+	conflicts = raspberrypi-bootloader-x
+	options = !strip
+	source = 969.tar.gz::https://api.github.com/repos/raspberrypi/firmware/tarball
+	md5sums = skip
+
+pkgname = raspberrypi-bootloader-git
+

@@ -1,0 +1,42 @@
+pkgbase = xmobar-alsa
+	pkgdesc = A Minimalistic Text Based Status Bar compiled with ALSA
+	pkgver = 0.31
+	pkgrel = 1
+	url = https://hackage.haskell.org/package/xmobar
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	depends = haskell-alsa-core>=0.5.0
+	depends = haskell-alsa-mixer>=0.3.0
+	depends = libxft
+	depends = libxinerama
+	depends = libxrandr
+	depends = libxpm
+	depends = ghc-libs
+	depends = haskell-x11
+	depends = haskell-x11-xft
+	depends = haskell-utf8-string
+	depends = haskell-network-uri
+	depends = haskell-hinotify
+	depends = haskell-stm
+	depends = haskell-parsec
+	depends = haskell-parsec-numbers
+	depends = haskell-mtl
+	depends = haskell-regex-base
+	depends = haskell-regex-compat
+	depends = haskell-http
+	depends = haskell-dbus
+	depends = haskell-libmpd
+	depends = haskell-iwlib
+	depends = wireless_tools
+	depends = haskell-text
+	depends = haskell-async
+	depends = haskell-extensible-exceptions
+	depends = haskell-http-conduit
+	conflicts = xmobar
+	source = https://github.com/jaor/xmobar/archive/0.31/xmobar-alsa-0.31.tar.gz
+	sha512sums = b0afe21f398a16a2e9d6e94ecb643fc5a259e1f60504ce50acd90ae31ae2e14d0925afb66f9593ff2a9bb016e39ab612027e836ece8ede665c66badac3386d01
+
+pkgname = xmobar-alsa
+

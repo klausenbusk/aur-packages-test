@@ -1,0 +1,14 @@
+pkgbase = rearx
+	pkgdesc = A TUI client for the Searx meta-engine, written in Rust
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/garak92/rearx
+	arch = x86_64
+	license = GPL v3.0
+	provides = rearx
+	options = strip
+	source = https://github.com/garak92/rearx/releases/download/v0.1.0/rearx-0.1.0-x86_64.tar.gz
+	sha256sums = fd21d8f845a5abc7a445574f5ea97313c92a9a5b65808fde4081fb05524a2b4c
+
+pkgname = rearx
+

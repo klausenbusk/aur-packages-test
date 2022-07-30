@@ -1,0 +1,23 @@
+pkgbase = hyper-git
+	pkgdesc = A terminal built on web technologies
+	pkgver = 3.1.2.r54.g7f01b064
+	pkgrel = 1
+	url = https://hyper.is/
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = npm
+	makedepends = yarn
+	makedepends = python
+	provides = hyper
+	conflicts = hyper
+	source = hyper-git::git+https://github.com/vercel/hyper.git
+	source = disable-auto-update.diff
+	source = https://raw.githubusercontent.com/vercel/art/master/hyper/mark/Hyper-Mark-120@3x.png
+	source = Hyper.desktop
+	sha256sums = SKIP
+	sha256sums = 65c52023f95c3ab3acf3f54bfce217f3c87b3e21da1965afbb9bcab5888b932c
+	sha256sums = a928049af63f49dd270a26c7099dccbe038124e4195507919f2d062e5cd2ecaa
+	sha256sums = ae29bd930c822c3144817a0e2fe2e2a8253fde90d31b0e19ad7880cd35609ebf
+
+pkgname = hyper-git

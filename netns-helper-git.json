@@ -1,0 +1,22 @@
+pkgbase = netns-helper-git
+	pkgdesc = Helper systemd services to create network namespaces for other programs and services.
+	pkgver = r46.d9381ec
+	pkgrel = 1
+	url = https://gitlab.com/patlefort/netns-helper
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = libxslt
+	makedepends = docbook-xsl
+	makedepends = docbook5-xml
+	depends = systemd
+	depends = iproute2
+	optdepends = nftables: nat feature
+	optdepends = bash-completion
+	provides = netns-helper
+	conflicts = netns-helper
+	options = !strip
+	source = git+https://gitlab.com/patlefort/netns-helper
+	sha256sums = SKIP
+
+pkgname = netns-helper-git

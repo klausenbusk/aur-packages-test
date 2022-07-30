@@ -1,0 +1,14 @@
+pkgbase = python-property-cached
+	pkgdesc = A decorator for caching properties in classes
+	pkgver = 1.6.4
+	pkgrel = 1
+	url = https://github.com/althonos/property-cached/
+	arch = any
+	license = BSD
+	checkdepends = python-freezegun
+	makedepends = python-setuptools
+	depends = python
+	source = https://pypi.org/packages/source/p/property-cached/property-cached-1.6.4.zip
+	sha256sums = 3e9c4ef1ed3653909147510481d7df62a3cfb483461a6986a6f1dcd09b2ebb73
+
+pkgname = python-property-cached

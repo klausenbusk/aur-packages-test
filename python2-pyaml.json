@@ -1,0 +1,16 @@
+pkgbase = python2-pyaml
+	pkgdesc = PyYAML-based module to produce pretty and readable YAML-serialized data
+	pkgver = 21.10.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/pyaml
+	arch = any
+	license = custom:WTFPL
+	checkdepends = python2-unidecode
+	makedepends = python2-setuptools
+	makedepends = python-docutils
+	depends = python2-yaml
+	optdepends = python2-unidecode: Needed if same-id objects or recursion is used within serialized data
+	source = python2-pyaml-21.10.1.tar.gz::https://files.pythonhosted.org/packages/source/p/pyaml/pyaml-21.10.1.tar.gz
+	sha512sums = 3a98a021856446584f079bfb7427c63feaf6fdd1bd0d809d46aa0c646b2cb9533c393ed0167240be587aad7b94209b6e5bfe2c09918b45ec9a86ad9781bdf9f2
+
+pkgname = python2-pyaml

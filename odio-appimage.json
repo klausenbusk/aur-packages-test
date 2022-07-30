@@ -1,0 +1,19 @@
+pkgbase = odio-appimage
+	pkgdesc = A free radio streaming software with more than 20,000 radio stations from around the world
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://odio.io/
+	arch = x86_64
+	license = custom
+	provides = odio
+	conflicts = odio
+	options = !strip
+	source = https://github.com/odioapp/odio/releases/download/v1.4.0/odio-1.4.0-x86_64.AppImage
+	source = odio.desktop.patch
+	source = odio.sh
+	sha256sums = SKIP
+	sha256sums = 2e393dc46cf88f98f91d19d5fe2487c185294e5b6004271064daf71c67e3eaaf
+	sha256sums = 2565997eae175069af50e1eb6dafdb87cc17cb78f14da65dfd724815d522c0f7
+
+pkgname = odio-appimage
+

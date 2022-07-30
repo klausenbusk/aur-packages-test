@@ -1,0 +1,19 @@
+pkgbase = tendermint-bin
+	pkgdesc = ⟁ Tendermint Core (BFT Consensus) in Go
+	pkgver = 0.35.9
+	pkgrel = 1
+	url = https://tendermint.com
+	arch = x86_64
+	arch = aarch64
+	arch = armv6h
+	license = Apache
+	provides = tendermint
+	conflicts = tendermint
+	source_x86_64 = https://github.com/tendermint/tendermint/releases/download/v0.35.9/tendermint_0.35.9_linux_amd64.tar.gz
+	sha256sums_x86_64 = a87c571b5b500566377fc761d762ab63ebdfef89260ddc6f7eed112ccc9a6b72
+	source_aarch64 = https://github.com/tendermint/tendermint/releases/download/v0.35.9/tendermint_0.35.9_linux_arm64.tar.gz
+	sha256sums_aarch64 = 6ad53dc03f631b5bc1c9c33d1fb975e248e83d8660f7b1b2a56a261375d2e634
+	source_armv6h = https://github.com/tendermint/tendermint/releases/download/v0.35.9/tendermint_0.35.9_linux_armv6.tar.gz
+	sha256sums_armv6h = 0695b6afc0b255d54fe121e0b853e6c442f38b84fac9e76ca3eac61993ea59ff
+
+pkgname = tendermint-bin

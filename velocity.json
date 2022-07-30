@@ -1,0 +1,26 @@
+pkgbase = velocity
+	pkgdesc = Free open-source templating engine
+	pkgver = 2.1
+	pkgrel = 2
+	url = http://velocity.apache.org/
+	arch = any
+	license = Apache
+	makedepends = antlr2
+	makedepends = apache-ant
+	depends = jakarta-oro
+	depends = java-bcel
+	depends = java-commons-collections
+	depends = java-commons-logging
+	depends = java-commons-lang
+	depends = java-jdom
+	depends = junit
+	depends = log4j
+	source = http://mirror.23media.de/apache/velocity/engine/2.1/velocity-engine-core-2.1.jar
+	source = http://mirror.23media.de/apache/velocity/engine/2.1/velocity-engine-scripting-2.1.jar
+	source = http://mirror.23media.de/apache/velocity/engine/2.1/velocity-engine-examples-2.1.jar
+	sha256sums = a921aa299420462f7c39ebe05cdf22ae5b188b67518a2aae06844732fdcc9d7a
+	sha256sums = 18a66042f885c3ca9174b0d6f60e3c7c25b05e5e90b78576b63f0381b8dbdc11
+	sha256sums = d48d880e456bdd5d6952ef2db8a80164a1d7ab6a03a66c4b1b3a5102ad91ebb5
+
+pkgname = velocity
+

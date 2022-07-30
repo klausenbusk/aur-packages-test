@@ -1,0 +1,16 @@
+pkgbase = octave-zeromq
+	pkgdesc = ZeroMQ bindings for GNU Octave
+	pkgver = 1.5.4
+	pkgrel = 1
+	url = https://octave.sourceforge.io/zeromq/
+	install = octave-zeromq.install
+	arch = any
+	groups = octave-forge
+	license = GPL3
+	makedepends = zeromq
+	depends = octave>=4.0.0
+	noextract = zeromq-1.5.4.tar.gz
+	source = https://downloads.sourceforge.net/octave/zeromq-1.5.4.tar.gz
+	sha256sums = c46a72fe0117b13a9f24fd48ffbbce65422fcb80b95ce09b78f1d0b086a9ded4
+
+pkgname = octave-zeromq

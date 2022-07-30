@@ -1,0 +1,17 @@
+pkgbase = smloadr-git
+	pkgdesc = A streaming music downloader
+	pkgver = 1.9.5.r3.g6a14361
+	pkgrel = 1
+	url = https://git.fuwafuwa.moe/SMLoadrDev/SMLoadr
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = unknown
+	makedepends = npm
+	depends = nodejs
+	conflicts = smloadr
+	source = git+https://github.com/fz-took/SMLoadr.git
+	sha512sums = SKIP
+
+pkgname = smloadr-git
+

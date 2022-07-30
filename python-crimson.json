@@ -1,0 +1,18 @@
+pkgbase = python-crimson
+	pkgdesc = Bioinformatics tool outputs converter to JSON or YAML
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://git.sr.ht/~bow/crimson
+	arch = any
+	license = BSD
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	makedepends = python-dephell
+	depends = python>=3.7
+	depends = python-click>=7.0
+	depends = python-yaml>=5.2
+	depends = python-single-source>=0.2.0
+	source = python-crimson-1.0.0.tar.gz::https://git.sr.ht/~bow/crimson/archive/1.0.0.tar.gz
+	sha256sums = 65859b0d55bf632b227a536505bca43f419f114636e824e25f86473075c1a766
+
+pkgname = python-crimson

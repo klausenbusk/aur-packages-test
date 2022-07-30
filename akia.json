@@ -1,0 +1,15 @@
+pkgbase = akia
+	pkgdesc = PKCS#11 library and utility tools for Akis Smartcard
+	pkgver = 6.3.3
+	pkgrel = 1
+	url = https://akiskart.bilgem.tubitak.gov.tr/
+	install = akia.install
+	arch = x86_64
+	license = custom
+	depends = pcsclite
+	depends = ccid
+	depends = java-environment
+	source = https://akiskart.bilgem.tubitak.gov.tr/dosyalar/akia-linux-deb-6.3.3.zip
+	sha256sums = ba0b455fb74353b5d151013126bddc5c8ac83a8dd66fa67851a4f154a876ebea
+
+pkgname = akia

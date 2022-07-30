@@ -1,0 +1,15 @@
+pkgbase = gnome-shell-extension-pixel-saver
+	pkgdesc = Saves pixels by fusing activity bar and title bar in a natural way
+	pkgver = 1.28
+	pkgrel = 1
+	url = https://github.com/pixel-saver/pixel-saver
+	install = pixel-saver.install
+	arch = any
+	license = MIT
+	depends = gnome-shell<1:43
+	depends = xorg-xprop
+	depends = xorg-xwininfo
+	source = pixel-saver-1.28.tar.gz::https://github.com/pixel-saver/pixel-saver/archive/1.28.tar.gz
+	sha256sums = 46738cc6cbd2a3f3fe706679aa30c98f2bab567245e964415168437cd6bffe15
+
+pkgname = gnome-shell-extension-pixel-saver

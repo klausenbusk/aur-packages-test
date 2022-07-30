@@ -1,0 +1,22 @@
+pkgbase = nextcloud-app-forms
+	pkgdesc = Poll app for Nextcloud
+	pkgver = 2.5.1
+	pkgrel = 1
+	url = https://github.com/nextcloud/forms
+	arch = any
+	groups = nextcloud-apps
+	license = AGPL3
+	makedepends = nextcloud
+	makedepends = php7
+	makedepends = ripgrep
+	makedepends = yq
+	depends = nextcloud
+	source = forms-2.5.1.tar.gz::https://github.com/nextcloud/forms/releases/download/v2.5.1/forms.tar.gz
+	sha512sums = 6f9513c8e7fe2db386ece40964e56f11230a426ec188896b6d23e0ac7887e44cdf9a7bac211544bb35b7e5a0b282701c449f84d7a7931bd412beef889ec4b694
+
+pkgname = nextcloud-app-forms
+	depends = nextcloud>=
+	depends = nextcloud<
+	depends = php-interpreter>=
+	depends = php-interpreter<
+	depends = php-interpreter

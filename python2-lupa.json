@@ -1,0 +1,16 @@
+pkgbase = python2-lupa
+	pkgdesc = Python 2 wrapper around LuaJIT
+	pkgver = 1.9
+	pkgrel = 2
+	url = https://github.com/scoder/lupa
+	arch = x86_64
+	license = MIT
+	makedepends = cython
+	makedepends = python2-setuptools
+	depends = python2
+	depends = luajit
+	source = https://pypi.python.org/packages/source/l/lupa/lupa-1.9.tar.gz
+	sha256sums = a3e11d806ca02cf72e490ec1974f8b96a14a1091895c9dccebe0b8d52dd82e8e
+
+pkgname = python2-lupa
+

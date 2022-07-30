@@ -1,0 +1,14 @@
+pkgbase = wishbone-tool
+	pkgdesc = Utilities for working with a Wishbone bridge
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/litex-hub/wishbone-utils
+	arch = x86_64
+	license = custom
+	makedepends = rust
+	depends = gcc-libs
+	source = wishbone-tool-0.6.0.tar.gz::https://github.com/litex-hub/wishbone-utils/archive/v0.6.0.tar.gz
+	sha256sums = bdd9b817dff6f228f3bf8f192044680c2009ddc6288841be1ecffe0d9afaf063
+
+pkgname = wishbone-tool
+

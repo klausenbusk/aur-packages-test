@@ -1,0 +1,22 @@
+pkgbase = libxfce4util-git
+	pkgdesc = Basic utility non-GUI functions for Xfce
+	pkgver = 4.16pre1.r2.g8266864
+	pkgrel = 1
+	url = http://git.xfce.org/xfce/libxfce4util/tree/README
+	arch = i686
+	arch = x86_64
+	groups = xfce4-git
+	license = GPL2
+	makedepends = git
+	makedepends = xfce4-dev-tools
+	makedepends = gobject-introspection
+	makedepends = vala
+	depends = glib2
+	provides = libxfce4util=4.16pre1.r2.g8266864
+	conflicts = libxfce4util
+	source = libxfce4util-git::git+https://gitlab.xfce.org/xfce/libxfce4util
+	sha256sums = SKIP
+	sha512sums = SKIP
+
+pkgname = libxfce4util-git
+

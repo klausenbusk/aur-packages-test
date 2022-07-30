@@ -1,0 +1,18 @@
+pkgbase = nvidiux
+	pkgdesc = (En)Python interface for overclock/underclock your nvidia gpu with proprietary driver - (Fr)Interface en pyqt pour overclocker/underclocker les gpu nvidia avec le pilote proprio"
+	pkgver = 2.1
+	pkgrel = 1
+	url = https://github.com/RunGp/Nvidiux
+	arch = any
+	license = GPL3
+	depends = gksu
+	depends = python2-psutil
+	depends = tk
+	depends = libva-vdpau-driver
+	depends = python2-pyqt4
+    	depends = python2-pyqtgraph
+	source = https://github.com/RunGp/Nvidiux/archive/2.1.tar.gz
+	md5sums = bd6182b2f961eb9710ebacd56ccc92f1
+
+pkgname = nvidiux
+

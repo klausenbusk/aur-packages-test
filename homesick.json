@@ -1,0 +1,17 @@
+pkgbase = homesick
+	pkgdesc = Your home directory is your castle. Don't leave your dotfiles behind.
+	pkgver = 1.1.6
+	pkgrel = 1
+	url = https://github.com/technicalpickles/homesick
+	arch = any
+	license = MIT
+	makedepends = rubygems
+	depends = ruby
+	depends = ruby-thor
+	depends = git
+	noextract = homesick-1.1.6.gem
+	source = https://rubygems.org/downloads/homesick-1.1.6.gem
+	sha512sums = c1a341a4b170e67dc4496742d4009aad3e3a38f13aa63d1bf95d9e25708d6cd87bfe543d8f18a9923dae1c7b7af6fc8dead2f45270a673d82028e5da0a826e24
+
+pkgname = homesick
+

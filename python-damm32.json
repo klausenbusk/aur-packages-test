@@ -1,0 +1,14 @@
+pkgbase = python-damm32
+	pkgdesc = Pure-Python implementation of the Damm Algorithm in Base 32
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/pyinv/damm32
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-dephell
+	depends = python
+	source = https://api.github.com/repos/pyinv/damm32/tarball/v1.2.1
+	sha512sums = 2906c3bb3a133703260301840a6b8dc10b52297f09e461abed676c44e6b2dfc58aafdc9c11cd99495afe2c6af30420994a97abe0a59d95919c155398a92be4b0
+
+pkgname = python-damm32

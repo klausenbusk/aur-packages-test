@@ -1,0 +1,14 @@
+pkgbase = python-mplx
+	pkgdesc = Extensions for Matplotlib
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://github.com/nschloe/mplx
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest-codeblocks
+	makedepends = python-setuptools
+	depends = python-networkx
+	source = https://github.com/nschloe/mplx/archive/v0.2.2.tar.gz
+	sha512sums = fbe98b870ffeea1dee3b007526a71316313d1fc0cc2dc94b97775f964eb5d768d9ba4baa58f85e02886d60fb597257739511a600f95a010b1ba314fbb9182141
+
+pkgname = python-mplx

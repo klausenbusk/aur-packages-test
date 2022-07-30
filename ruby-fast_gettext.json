@@ -1,0 +1,19 @@
+pkgbase = ruby-fast_gettext
+	pkgdesc = A simple, fast, memory-efficient and threadsafe implementation of GetText
+	pkgver = 2.0.3
+	pkgrel = 1
+	url = https://github.com/grosser/fast_gettext
+	arch = any
+	license = MIT
+	license = RUBY
+	makedepends = ruby-rdoc
+	makedepends = ruby-rake
+	makedepends = ruby-rspec
+	makedepends = ruby-bundler
+	depends = ruby
+	options = !emptydirs
+	source = https://github.com/grosser/fast_gettext/archive/v2.0.3/fast_gettext-v2.0.3.tar.gz
+	sha256sums = 7a58cd52a57911987b50747e890d4f810f4b271173431646274e1cfe5f605c0a
+
+pkgname = ruby-fast_gettext
+

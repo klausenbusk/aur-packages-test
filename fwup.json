@@ -1,0 +1,24 @@
+pkgbase = fwup
+	pkgdesc = Configurable embedded Linux firmware update creator and runner
+	pkgver = v1.5.1.r0.g7aaf679
+	pkgrel = 1
+	url = https://github.com/fhunleth/fwup
+	arch = any
+	license = Apache v2.0
+	makedepends = git
+	depends = libsodium
+	depends = libarchive
+	depends = confuse
+	depends = mtools
+	depends = unzip
+	depends = libtool
+	depends = zip
+	depends = help2man
+	depends = autoconf
+	provides = fwup
+	conflicts = fwup
+	source = git+https://github.com/fhunleth/fwup#tag=v1.5.1
+	md5sums = SKIP
+
+pkgname = fwup
+

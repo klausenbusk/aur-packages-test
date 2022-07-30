@@ -1,0 +1,20 @@
+pkgbase = budgie-desktop-view-git
+	pkgdesc = The official Budgie desktop icons implementation - latest git
+	pkgver = 1.2.r0.g1f30d69
+	pkgrel = 2
+	url = https://github.com/BuddiesOfBudgie/budgie-desktop-view
+	arch = x86_64
+	license = APACHE
+	makedepends = meson
+	makedepends = git
+	makedepends = gobject-introspection
+	makedepends = intltool
+	makedepends = vala
+	makedepends = gtk-doc
+	depends = budgie-desktop
+	provides = budgie-desktop-view
+	conflicts = budgie-desktop-view
+	source = budgie-desktop-view-git::git+https://github.com/BuddiesOfBudgie/budgie-desktop-view.git
+	md5sums = SKIP
+
+pkgname = budgie-desktop-view-git

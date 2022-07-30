@@ -1,0 +1,17 @@
+pkgbase = mobsh-bin
+	pkgdesc = Fast git handover with mob
+	pkgver = 3.1.5
+	pkgrel = 1
+	url = https://github.com/remotemobprogramming/mob
+	arch = x86_64
+	license = MIT
+	depends = git
+	optdepends = espeak-ng-espeak: Multi-lingual software speech synthesizer
+	optdepends = mbrola-voices-us1: An American English female voice for the MBROLA synthesizer
+	provides = mobsh
+	conflicts = mobsh
+	conflicts = mob
+	source_x86_64 = https://github.com/remotemobprogramming/mob/releases/download/v3.1.5/mob_v3.1.5_linux_amd64.tar.gz
+	sha256sums_x86_64 = bc96caeedd195612cfa37d1fe40fcd78c12db2834bd463f48265e01a1b0ee60c
+
+pkgname = mobsh-bin

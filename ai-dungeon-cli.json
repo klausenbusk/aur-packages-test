@@ -1,0 +1,16 @@
+pkgbase = ai-dungeon-cli
+	pkgdesc = Play ai dungeon on your terminal
+	pkgver = 0.4.5
+	pkgrel = 2
+	url = https://github.com/Eigenbahn/ai-dungeon-cli
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-requests
+	depends = python-yaml
+	depends = python-gql
+	source = ai-dungeon-cli-0.4.5.tar.gz::https://github.com/Eigenbahn/ai-dungeon-cli/archive/0.4.5.tar.gz
+	sha256sums = f5a488784bf2d9248e23b2c02030deadbe4bb5db08c1cb29de3dc0eaa400032c
+
+pkgname = ai-dungeon-cli
+

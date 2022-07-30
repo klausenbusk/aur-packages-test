@@ -1,0 +1,15 @@
+pkgbase = murex
+	pkgdesc = Bash-like shell designed for greater commandline productivity and safer shell scripts
+	pkgver = 2.9.5000
+	pkgrel = 1
+	url = https://github.com/lmorg/murex
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = go
+	optdepends = aspell: inline spell checking
+	replaces = murex-git
+	source = https://github.com/lmorg/murex/archive/refs/tags/v2.9.5000.tar.gz
+	sha256sums = 5607923416219951ba6b848b57138b5d10f4ce95090d167f9330231de4862e2d
+
+pkgname = murex

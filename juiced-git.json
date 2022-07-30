@@ -1,0 +1,15 @@
+pkgbase = juiced-git
+	pkgdesc = A lightweight battery warning daemon
+	pkgver = 1.0.0
+	pkgrel = 5
+	url = https://github.com/drkhsh/juiced
+	arch = any
+	license = ISC
+	depends = libnotify
+	source = git+https://github.com/drkhsh/juiced.git
+	source = juiced.service
+	sha256sums = SKIP
+	sha256sums = df4d55f17f4f0c683f10f273d64afac4c97f824bbbafb55b668025c3db7479ac
+
+pkgname = juiced-git
+

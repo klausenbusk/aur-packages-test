@@ -1,0 +1,19 @@
+pkgbase = cebac
+	pkgdesc = Cloud storage backup helper
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://gitlab.com/Daerandin/cebac
+	arch = x86_64
+	license = GPL3
+	depends = glibc
+	depends = libarchive
+	depends = gpgme
+	depends = python
+	optdepends = python-boto3
+	optdepends = python-dropbox
+	options = strip
+	source = https://gitlab.com/Daerandin/cebac/-/archive/1.1/cebac-1.1.tar.gz
+	validpgpkeys = 40EB5B887AF9E9AB68C06179CCDE95DE8A5C8CC6
+	sha256sums = f47cdfcef3dd879e5dba7ebf5dbe3fcb2143fb12145aafdae63ae7c3a77d6aa7
+
+pkgname = cebac

@@ -1,0 +1,19 @@
+pkgbase = python-srt
+	pkgdesc = Tools and python library for parsing, modifying, and composing SRT files
+	pkgver = 3.5.2
+	pkgrel = 1
+	url = https://github.com/cdown/srt/
+	arch = any
+	license = MIT
+	checkdepends = python-hypothesis
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	conflicts = python-pysrt
+	source = https://github.com/cdown/srt/archive/3.5.2/python-srt-3.5.2.tar.gz
+	sha256sums = 0cbdf0e64c09bdca37fd4d00e22850ee236b2745178634b60d0ac8610382b534
+
+pkgname = python-srt

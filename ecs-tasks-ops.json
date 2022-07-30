@@ -1,0 +1,20 @@
+pkgbase = ecs-tasks-ops
+	pkgdesc = Ecs Tasks Ops - Manage ssh connections to ECS docker containers
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://github.com/ppalazon/ecs-tasks-ops
+	arch = x86_64
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-dephell
+	depends = python-click
+	depends = python-boto3
+	depends = python-tabulate
+	depends = python-moto
+	depends = python-sshpubkeys
+	optdepends = python-pyqt5: Qt5 gui application
+	optdepends = rxvt-unicode: Display embedded terminal for ssh
+	source = https://files.pythonhosted.org/packages/source/e/ecs-tasks-ops/ecs-tasks-ops-0.5.0.tar.gz
+	sha256sums = b9909a5698c285e27a1da66aeb531611f90bc03ed52e7f73683c222eee1ee7a8
+
+pkgname = ecs-tasks-ops

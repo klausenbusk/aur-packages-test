@@ -1,0 +1,19 @@
+pkgbase = python-pygam
+	pkgdesc = Generalized Additive Models in Python
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://pygam.readthedocs.io
+	arch = any
+	license = GPL-3
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	depends = python
+	depends = python-numpy
+	depends = python-progressbar
+	depends = python-scipy
+	optdepends = python-scikit-sparse
+	source = https://pypi.org/packages/source/p/pygam/pygam-0.8.0.tar.gz
+	sha256sums = 5cae01aea8b2fede72a6da0aba1490213af54b3476745666af26bbe700479166
+
+pkgname = python-pygam
+

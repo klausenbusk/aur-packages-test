@@ -1,0 +1,26 @@
+pkgbase = python-easyocr
+	pkgdesc = End-to-End Multi-Lingual Optical Character Recognition (OCR) Solution
+	pkgver = 1.5.0
+	pkgrel = 4
+	url = https://github.com/JaidedAI/EasyOCR
+	arch = any
+	license = Apache-2.0
+	makedepends = python-setuptools
+	depends = hdf5
+	depends = python
+	depends = python-bidi
+	depends = python-numpy
+	depends = python-opencv
+	depends = python-torchvision
+	depends = python-pillow
+	depends = python-pyaml
+	depends = python-pytorch
+	depends = python-scikit-image
+	depends = python-scipy
+	provides = python-easyocr
+	conflicts = python-easyocr-git
+	replaces = python-easyocr-git
+	source = https://github.com/JaidedAI/EasyOCR/archive/refs/tags/v1.5.0.tar.gz
+	sha256sums = b493817dbb5933da9e8cb5bae91d25779346b9c48f77e7ab1f8c02befdde9c68
+
+pkgname = python-easyocr

@@ -1,0 +1,12 @@
+pkgbase = css-beautify-git
+	pkgdesc = Beautifier for CSS
+	pkgver = 1.10.3
+	pkgrel = 1
+	arch = any
+	license = MIT
+	depends = python
+	source = css-beautify::git+https://github.com/Jorengarenar/css-beautify.git
+	sha512sums = SKIP
+
+pkgname = css-beautify-git
+

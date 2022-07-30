@@ -1,0 +1,22 @@
+pkgbase = python-cocos2d
+	pkgdesc = A framework for building graphical/interactive applications.
+	pkgver = 0.6.7
+	pkgrel = 1
+	url = http://python.cocos2d.org/
+	arch = any
+	license = BSD
+	license = LGPL
+	license = custom
+	makedepends = python-distribute
+	depends = python>=3.3
+	depends = python-pyglet>=1.2
+	optdepends = python-numpy: for particles support
+	optdepends = avbin: for audio and video support
+	optdepends = sdl: for audio support
+	optdepends = sdl_mixer: for audio support
+	options = !emptydirs
+	source = https://files.pythonhosted.org/packages/86/b2/6916b09f071a3f9597b84007ffeca9391c8fff264fb7d7b0d521224e6596/cocos2d-0.6.7.tar.gz
+	md5sums = 0e9e955a4e0fbd00ac5979b1c93b9145
+
+pkgname = python-cocos2d
+

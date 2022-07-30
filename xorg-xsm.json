@@ -1,0 +1,18 @@
+pkgbase = xorg-xsm
+	pkgdesc = X Session Manager
+	pkgver = 1.0.4
+	pkgrel = 1
+	url = http://www.x.org/
+	arch = x86_64
+	arch = i686
+	license = custom
+	depends = libxaw
+	depends = xorg-smproxy
+	depends = xorg-iceauth
+	depends = xorg-rstart
+	optdepends = xorg-twm: for window manager in default scripts
+	source = http://xorg.freedesktop.org/releases/individual/app/xsm-1.0.4.tar.bz2
+	md5sums = bd32c14f09d58f46084b6a8f20e6e8f1
+
+pkgname = xorg-xsm
+

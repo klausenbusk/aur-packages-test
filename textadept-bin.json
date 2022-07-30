@@ -1,0 +1,28 @@
+pkgbase = textadept-bin
+	pkgdesc = A fast, minimalist and remarkably extensible text editor (binary version)
+	pkgver = 11.1
+	pkgrel = 1
+	url = https://orbitalquark.github.io/textadept/
+	install = textadept.install
+	arch = x86_64
+	license = MIT
+	depends = lua
+	depends = desktop-file-utils
+	optdepends = gtk2: for GUI version
+	optdepends = ncurses5-compat-libs: for curses version
+	optdepends = python: for reStructuredText language module
+	conflicts = textadept-beta
+	conflicts = textadept-git
+	conflicts = textadept-latest-stable
+	conflicts = textadept-modules
+	conflicts = textadept-modules-beta
+	conflicts = textadept
+	source = https://github.com/orbitalquark/textadept/releases/download/textadept_11.1/textadept_11.1.linux.tgz
+	source = https://github.com/orbitalquark/textadept/releases/download/textadept_11.1/textadept_11.1.modules.zip
+	source = textadept.install
+	sha256sums = 6b7fa0bc8c3490fa3ee28897735b995f0999f1cdeb93033f51d0c27add706fbe
+	sha256sums = fd4de80e7eaaa11fab6365adfa92290efea29d4d20df23dd0b05618a3d5fa522
+	sha256sums = b2971d4c6743033b16b172c2b208942a4a6082c7bcfb593ae25bff3fbad45b4b
+
+pkgname = textadept-bin
+

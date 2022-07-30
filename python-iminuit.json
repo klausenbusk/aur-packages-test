@@ -1,0 +1,32 @@
+pkgbase = python-iminuit
+	pkgdesc = Python interface for MINUIT, a physics analysis tool for function minimization.
+	pkgver = 2.10.0
+	pkgrel = 1
+	url = https://iminuit.readthedocs.io
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-scipy
+	checkdepends = python-matplotlib
+	checkdepends = python-tabulate
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-numpy
+	makedepends = cmake
+	options = !emptydirs
+	source = https://files.pythonhosted.org/packages/source/i/iminuit/iminuit-2.10.0.tar.gz
+	md5sums = 3e0072200e7da7890748aecac4329c5c
+
+pkgname = python-iminuit
+	depends = python>=3.6
+	depends = python-numpy
+	optdepends = ipython
+	optdepends = python-matplotlib
+	optdepends = python-pytest-cov: For testing and get a coverage report
+	optdepends = cython
+	optdepends = python-sphinx: For docs building
+	optdepends = python-iminuit-doc: Documentation for python-iminuit

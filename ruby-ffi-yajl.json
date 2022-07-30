@@ -1,0 +1,16 @@
+pkgbase = ruby-ffi-yajl
+	pkgdesc = Ruby FFI wrapper around YAJL 2.x
+	pkgver = 2.2.3
+	pkgrel = 1
+	url = http://github.com/chef/ffi-yajl
+	arch = any
+	license = Apache-2.0
+	depends = ruby
+	depends = ruby-libyajl2
+	noextract = ffi-yajl-2.2.3.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/ffi-yajl-2.2.3.gem
+	sha256sums = 7f6165d3da3a3db217a5302c4c17673ee8003f1c14ccd93ec9d117a6a3f08f93
+
+pkgname = ruby-ffi-yajl
+

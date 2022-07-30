@@ -1,0 +1,31 @@
+pkgbase = mkchromecast
+	pkgdesc = Cast Audio/Video to your Google Cast and Sonos Devices
+	pkgver = 0.3.8.1
+	pkgrel = 2
+	url = http://mkchromecast.com
+	arch = any
+	license = MIT
+	depends = faac
+	depends = flac
+	depends = lame
+	depends = python-flask
+	depends = python-gobject
+	depends = python-psutil
+	depends = sox
+	depends = vorbis-tools
+	optdepends = alsa-utils: to cast with ALSA
+	optdepends = ffmpeg: for ffmpeg backend (which is also needed to cast with ALSA)
+	optdepends = gstreamer: for gstreamer backend
+	optdepends = pavucontrol: for parec backend or just to cast with PulseAudio
+	optdepends = pulseaudio: for parec backend or just to cast with PulseAudio
+	optdepends = python-pychromecast: to cast to Chromecast devices
+	optdepends = python-pyqt5: for system tray menu support
+	optdepends = python-soco: to cast to Sonos devices
+	optdepends = youtube-dl: for --youtube
+	source = https://github.com/muammar/mkchromecast/archive/0.3.8.1/mkchromecast-0.3.8.1.tar.gz
+	source = pychromecast_optional.patch::https://github.com/muammar/mkchromecast/commit/0070f9f2b505f1c5a1b6d63324ff337f2de09860.patch
+	sha512sums = ee66450768f3221500f198bf618120f02b93108797209ca0d6c2be9f882eee36753d3e1038354e51b5d76d130c12d193c7d152b33f80776cb225347a3743f376
+	sha512sums = 2fa2fa3986075582ed7f1d881ec32660b97278e47afffadecbd7cfc1c58833a734f5a7d442d4699fc99582c00b18e3c43cf87f974c8a8ec3af4b8ebfea40435f
+
+pkgname = mkchromecast
+

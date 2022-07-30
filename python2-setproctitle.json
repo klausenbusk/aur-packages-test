@@ -1,0 +1,17 @@
+pkgbase = python2-setproctitle
+	pkgdesc = allows a python process to change its process title
+	pkgver = 1.1.10
+	pkgrel = 1
+	url = https://github.com/dvarrazzo/py-setproctitle
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = python2-setuptools
+	makedepends = git
+	depends = python2
+	options = !emptydirs
+	source = python2-setproctitle-1.1.10::git+https://github.com/dvarrazzo/py-setproctitle#tag=version-1.1.10
+	sha256sums = SKIP
+
+pkgname = python2-setproctitle
+

@@ -1,0 +1,14 @@
+pkgbase = wasi-sdk-bin
+	pkgdesc = WASI-enabled WebAssembly C/C++ toolchain
+	pkgver = 14.0
+	pkgrel = 1
+	url = https://github.com/WebAssembly/wasi-sdk
+	arch = x86_64
+	license = Apache-2.0
+	depends = clang
+	depends = lld
+	options = !strip
+	source = https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-14/wasi-sdk-14.0-linux.tar.gz
+	sha512sums = 288a367e051f5b3f5853de97fabaedd3acf2255819d50c24f48f573897518500ea808342fd9aea832b2a5717089807bf1cbcf6d46b156b4eb60cc6b3c02ee997
+
+pkgname = wasi-sdk-bin

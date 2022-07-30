@@ -1,0 +1,12 @@
+pkgbase = python2-emoji
+	pkgdesc = Emoji for Python
+	pkgver = 1.6.1
+	pkgrel = 1
+	url = https://github.com/carpedm20/emoji/
+	arch = any
+	license = New BSD
+	depends = python2
+	source = https://github.com/carpedm20/emoji/archive/refs/tags/v1.6.1.tar.gz
+	sha256sums = f4c9d1be4f2f9c84f292251c6952068095cdc81ec983374ead47d942680de799
+
+pkgname = python2-emoji

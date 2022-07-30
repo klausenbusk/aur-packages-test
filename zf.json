@@ -1,0 +1,14 @@
+pkgbase = zf
+	pkgdesc = A commandline fuzzy finder that prioritizes matches on filenames
+	pkgver = 0.5
+	pkgrel = 1
+	url = https://github.com/natecraddock/zf
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = zig
+	provides = zf
+	source = zf-0.5.tar.gz::https://github.com/natecraddock/zf/archive/refs/tags/0.5.tar.gz
+	sha256sums = 3b5ff72571867f22d51dd1e349c86bf4b00b90604ff3f26de1b95bf752523e8e
+
+pkgname = zf

@@ -1,0 +1,13 @@
+pkgbase = cell-bin
+	pkgdesc = A minimal command line text editor developed using Rust
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/humblepengi/cell
+	arch = x86_64
+	license = GNU
+	provides = cell
+	conflicts = cell
+	source = https://github.com/humblepengi/cell/releases/download/v0.1.0/cell-0.1.0-x86_64.tar.gz
+	sha256sums = 5bec0807ed403d815bc3cb981c8272a3a5127e8221f3eca3e3864b637bf81bdb
+
+pkgname = cell-bin

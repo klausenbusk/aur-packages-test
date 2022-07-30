@@ -1,0 +1,19 @@
+pkgbase = perl6-digest-xxhash
+	pkgdesc = Perl 6 bindings for xxHash
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/atweiden/digest-xxhash
+	arch = any
+	groups = perl6
+	license = UNLICENSE
+	checkdepends = perl
+	makedepends = git
+	depends = libxxhash
+	depends = perl6
+	source = perl6-digest-xxhash-1.0.1::git+https://github.com/atweiden/digest-xxhash
+	source = git+https://github.com/atweiden/digest-xxhash.wiki
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = perl6-digest-xxhash
+

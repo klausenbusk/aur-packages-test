@@ -1,0 +1,17 @@
+pkgbase = duettools
+	pkgdesc = Optional tools (code examples)
+	pkgver = 1.0.3.2
+	pkgrel = 1
+	url = https://github.com/chrishamm/DuetSoftwareFramework
+	arch = armv7h
+	license = GPL3
+	depends = duetcontrolserver>=1.0.3.2
+	provides = duettools
+	conflicts = duettools
+	options = !strip
+	options = staticlibs
+	source = https://pkg.duet3d.com/dists/unstable/armv7/binary-armhf/duettools_1.0.3.2.deb
+	sha256sums = 6a5d0cb2677f13b384f81590550354ef617d2756ce75f8743b16bcb8988049e1
+
+pkgname = duettools
+

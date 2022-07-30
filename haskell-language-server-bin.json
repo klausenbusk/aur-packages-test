@@ -1,0 +1,33 @@
+pkgbase = haskell-language-server-bin
+	pkgdesc = Successor of ghcide & haskell-ide-engine. One IDE to rule them all.
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/haskell/haskell-language-server
+	arch = x86_64
+	license = Apache
+	provides = haskell-language-server
+	conflicts = haskell-language-server
+	conflicts = haskell-language-server-git
+	source = haskell-language-server-Linux-8.6.4-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-Linux-8.6.4.gz
+	source = haskell-language-server-Linux-8.6.5-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-Linux-8.6.5.gz
+	source = haskell-language-server-Linux-8.8.2-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-Linux-8.8.2.gz
+	source = haskell-language-server-Linux-8.8.3-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-Linux-8.8.3.gz
+	source = haskell-language-server-Linux-8.8.4-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-Linux-8.8.4.gz
+	source = haskell-language-server-Linux-8.10.2-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-Linux-8.10.2.gz
+	source = haskell-language-server-Linux-8.10.3-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-Linux-8.10.3.gz
+	source = haskell-language-server-Linux-8.10.4-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-Linux-8.10.4.gz
+	source = haskell-language-server-Linux-8.10.5-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-Linux-8.10.5.gz
+	source = haskell-language-server-wrapper-Linux-1.2.0.gz::https://github.com/haskell/haskell-language-server/releases/download/1.2.0/haskell-language-server-wrapper-Linux.gz
+	sha256sums = a9d7ebf8c175353931f8fde79f1298f9012341814231059a8b0fee4a68084c5a
+	sha256sums = 7e2d52983d6e2f365ba4706fec16689f58d86802afb580c0a0d124faea156fe3
+	sha256sums = c67fa2e8f40d47d071e6eafc30f6b616052eb65617f477b0d2938162b984e71a
+	sha256sums = 1c2ac87ad1ecda53561ae07548897bb217cbd16bf06e2247a5b344edefdaa043
+	sha256sums = a2917fd83cb78f516d6077331b2e2738ce8b764757f853fcc37da217db8296ce
+	sha256sums = c9146e5abfc7a8a1aba05feae2b4ef15432ef0b085ae82b2186d0b2ce2b1f8b9
+	sha256sums = d48c64314ee7168e60ad326db12e1050fb975f2d1f7177cba862d25919b9a3dc
+	sha256sums = 1ef7cba3d5f02765329bfa14df50b41085946c4c61dbb1d1f350c899f5bd7073
+	sha256sums = d5875ee656c272fa4d0d80da9a8d3c9ca36b4d1816892d075f091ce477ae1b0d
+	sha256sums = e19a3830268a7b34617bc9b935ebf8e2f50fb6628ee0f8317b83bafdb37b29ec
+
+pkgname = haskell-language-server-bin
+

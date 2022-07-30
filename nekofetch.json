@@ -1,0 +1,19 @@
+pkgbase = nekofetch
+	pkgdesc = neofetch but with nekos
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://github.com/proprdev/nekofetch
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = make
+	depends = curl
+	depends = jq
+	depends = jp2a
+	depends = neofetch
+	optdepends = imagemagick: support for kitty image backend
+	provides = nekofetch
+	source = https://github.com/proprdev/nekofetch/archive/v1.4.tar.gz
+	sha256sums = d0631a63c6d511c3fc119793ea3c1a31f4051163bf3dbf0bf22dc19a437fa41c
+
+pkgname = nekofetch

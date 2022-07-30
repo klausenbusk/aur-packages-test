@@ -1,0 +1,35 @@
+pkgbase = unifed-arch-kernel
+	pkgdesc = Generates unifed archlinux images using pacman power
+	pkgver = 0.0.6
+	pkgrel = 2
+	url = https://aur.archlinux.org/packages/unifed-arch-kernel/
+	arch = x86_64
+	license = GPL
+	source = uak-script
+	source = uak
+	source = config
+	source = 50-generate-efistub.install
+	source = 55-unifed-arch-kernel-remove.hook
+	source = 75-sign-for-secure-boot.install
+	source = 95-unifed-arch-kernel-install.hook
+	md5sums = aa4f4f6300e708d6ee67b86414a6ede1
+	md5sums = e541a9ec2e9dc1bb2e83ac3fc5d3977c
+	md5sums = cf19112a5294756657e8e2e3ebf6226d
+	md5sums = c07998165fc01a2f5e7d453b51a7a024
+	md5sums = 9105de5ff7f384b1e48bdd4972b87917
+	md5sums = 2cad8b6d2879e7c6f1ee6957d3b69f97
+	md5sums = 9752535dff10105c003f9108528bd50a
+
+pkgname = unifed-arch-kernel
+	depends = pacman
+	depends = systemd
+	depends = bash
+	depends = mkinitcpio
+	depends = binutils
+	depends = coreutils
+	backup = etc/uak/config
+
+pkgname = unifed-arch-kernel-secure-boot
+	depends = unifed-arch-kernel
+	depends = sbsigntools
+

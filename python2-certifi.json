@@ -1,0 +1,13 @@
+pkgbase = python2-certifi
+	pkgdesc = Package providing Mozilla's CA Bundle (for Python 2)
+	pkgver = 2020.4.5.1
+	pkgrel = 1
+	url = https://pypi.org/project/certifi/2020.4.5.1/
+	arch = any
+	license = custom:MPL2
+	makedepends = python2-setuptools
+	depends = python2
+	source = https://pypi.io/packages/source/c/certifi/certifi-2020.4.5.1.tar.gz
+	sha256sums = 51fcb31174be6e6664c5f69e3e1691a2d72a1a12e90f872cbdb1567eb47b6519
+
+pkgname = python2-certifi

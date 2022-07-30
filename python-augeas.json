@@ -1,0 +1,17 @@
+pkgbase = python-augeas
+	pkgdesc = Pure python bindings for augeas
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = http://augeas.net
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = python-setuptools
+	depends = augeas
+	depends = python
+	depends = python-cffi
+	source = python-augeas-1.0.2.tar.gz::https://github.com/hercules-team/python-augeas/archive/v1.0.2.tar.gz
+	sha256sums = 3c3ee1472d0614444c5c13001524ca2964594b557745ee5f094bce6fc3a367a4
+
+pkgname = python-augeas
+

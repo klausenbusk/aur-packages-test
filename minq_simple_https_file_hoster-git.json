@@ -1,0 +1,16 @@
+pkgbase = minq_simple_https_file_hoster-git
+	pkgdesc = Host files easily
+	pkgver = r5.df9983497f765b3e3464aa1d2472d62d889a79fd
+	pkgrel = 1
+	url = https://github.com/kuche1/minq_simple_https_file_hoster.git
+	arch = x86_64
+	arch = i686
+	license = GPL
+	makedepends = git
+	depends = python
+	depends = python-pyopenssl
+	provides = minq_simple_https_file_hoster
+	source = git+https://github.com/kuche1/minq_simple_https_file_hoster.git
+	md5sums = SKIP
+
+pkgname = minq_simple_https_file_hoster-git

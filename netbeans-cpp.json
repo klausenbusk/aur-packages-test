@@ -1,0 +1,24 @@
+pkgbase = netbeans-cpp
+	pkgdesc = Netbeans IDE development platform - C/C++ only
+	pkgver = 8.2
+	pkgrel = 2
+	url = https://netbeans.org/
+	install = netbeans.install
+	arch = i686
+	arch = x86_64
+	license = CDDL
+	depends = java-runtime
+	provides = netbeans
+	conflicts = netbeans
+	replaces = netbeans-cpp-beta
+	options = !strip
+	backup = usr/share/netbeans/etc/netbeans.conf
+	source = netbeans.desktop
+	sha256sums = b06afe8a2c8684956422b7ecb8a3d7a2aad6540619caa73ee39327fce5abfe5f
+	source_i686 = netbeans-8.2-cpp-linux.sh::http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-cpp-linux-x86.sh
+	sha256sums_i686 = 52cbd7b071573d2f8baecb10b430b895be6f06e7c8f9b7ef75ba59afc9ae1342
+	source_x86_64 = netbeans-8.2-cpp-linux.sh::http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-cpp-linux-x64.sh
+	sha256sums_x86_64 = ba788a537fcdeb1e6b4963eebf9e7ea195723be85c03be693970eed8fb4e3777
+
+pkgname = netbeans-cpp
+

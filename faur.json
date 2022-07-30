@@ -1,0 +1,11 @@
+pkgbase = faur
+	pkgver = 0.1
+	pkgrel = 3
+	arch = any
+	license = custom:ISC
+	depends = git
+	source = faur::git+https://gitlab.com/tharkun/faur.git#branch=v0.1
+	md5sums = SKIP
+
+pkgname = faur
+

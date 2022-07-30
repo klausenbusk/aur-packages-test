@@ -1,0 +1,13 @@
+pkgbase = chksum
+	pkgdesc = Check and compare easily the checksum of a file.
+	pkgver = 0.1.22
+	pkgrel = 1
+	url = https://gitlab.com/ChacaS0/chksum
+	arch = x86_64
+	license = Apache License 2.0
+	makedepends = go
+	source = chksum::git+https://gitlab.com/chacas0/chksum#branch=master
+	sha256sums = SKIP
+
+pkgname = chksum
+

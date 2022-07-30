@@ -1,0 +1,19 @@
+pkgbase = python-mkdocs-material
+	pkgdesc = Material design theme for MkDocs
+	pkgver = 7.1.9
+	pkgrel = 1
+	url = http://squidfunk.github.io/mkdocs-material/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = mkdocs
+	depends = pymdown-extensions
+	depends = python-pygments
+	depends = python-mkdocs-minify-plugin
+	depends = python-mkdocs-material-extensions
+	provides = mkdocs-material
+	options = !strip
+	source = python-mkdocs-material-7.1.9.tar.gz::https://github.com/squidfunk/mkdocs-material/archive/7.1.9.tar.gz
+	sha256sums = 26c2775bfe2b3f84eb9c9fa23cbaaa71060116b142b8edca8269b3b4d287d475
+
+pkgname = python-mkdocs-material

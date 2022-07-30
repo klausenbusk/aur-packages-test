@@ -1,0 +1,18 @@
+pkgbase = system-storage-manager
+	pkgdesc = A single tool to manage your storage
+	pkgver = v1.2
+	pkgrel = 1
+	url = https://github.com/system-storage-manager/ssm
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = python2-sphinx
+	depends = python2
+	depends = btrfs-progs
+	depends = dmraid
+	depends = libpwquality
+	source = https://github.com/system-storage-manager/ssm/archive/system-storage-manager-1.2.tar.gz
+	sha256sums = c84275228944bb5c669b1c6ab7525cca8345956bd66efd652d331b4cd20965bd
+
+pkgname = system-storage-manager
+

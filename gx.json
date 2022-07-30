@@ -1,0 +1,15 @@
+pkgbase = gx
+	pkgdesc = Packaging tool built around the distributed, content addressed filesystem IPFS
+	pkgver = 0.14.1
+	pkgrel = 4
+	url = https://github.com/whyrusleeping/gx
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = go-pie
+	optdepends = gx-go: gx packaing module for go
+	source = git+https://github.com/whyrusleeping/gx.git#tag=v0.14.1
+	md5sums = SKIP
+
+pkgname = gx
+

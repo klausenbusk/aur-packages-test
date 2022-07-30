@@ -1,0 +1,19 @@
+pkgbase = python-pydantic-latest
+	pkgdesc = Data parsing and validation using Python type hints (up to date version)
+	pkgver = 1.9.1
+	pkgrel = 1
+	url = https://github.com/samuelcolvin/pydantic
+	arch = any
+	license = MIT
+	checkdepends = python-pytest-runner
+	checkdepends = python-pytest-mock
+	makedepends = python-setuptools
+	depends = python
+	depends = python-typing-extensions
+	optdepends = python-email-validator: email
+	provides = python-pydantic=1.9.1
+	conflicts = python-pydantic
+	source = python-pydantic-latest-1.9.1.tar.gz::https://github.com/samuelcolvin/pydantic/archive/v1.9.1.tar.gz
+	sha256sums = 4eddd11262bc0d708ba0ffb88565cc624f34e43b2388cfa61c5d1a0ed154628c
+
+pkgname = python-pydantic-latest

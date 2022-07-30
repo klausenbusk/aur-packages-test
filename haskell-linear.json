@@ -1,0 +1,31 @@
+pkgbase = haskell-linear
+	pkgdesc = Types and combinators for linear algebra on free vector spaces.
+	pkgver = 1.20.8
+	pkgrel = 1
+	url = https://hackage.haskell.org/package/linear
+	arch = i686
+	arch = x86_64
+	license = custom:BSD3
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-adjunctions
+	depends = haskell-base-orphans
+	depends = haskell-bytes
+	depends = haskell-cereal
+	depends = haskell-distributive
+	depends = haskell-hashable
+	depends = haskell-lens
+	depends = haskell-reflection
+	depends = haskell-semigroupoids
+	depends = haskell-tagged
+	depends = haskell-transformers-compat
+	depends = haskell-unordered-containers
+	depends = haskell-vector
+	depends = haskell-void
+	source = https://hackage.haskell.org/packages/archive/linear/1.20.8/linear-1.20.8.tar.gz
+	source = haskell-linear-semigroups.patch
+	sha512sums = 7ddb8f394e202d1225864a2bbf5d6b81abb70accb59a634deddc672470418896e3df00e1f7e120bae9e249bf7571ca530be1f511224f818e1ba76e077f99cc77
+	sha512sums = 4a4d8451982c97cdff35598bea5d0cd892b23382e59a6bc16fdc346ef71ca2471b34fe8e0ace74ca5f0c385e26ba2b7763bb76e7e89732d09e43e190f2af7453
+
+pkgname = haskell-linear
+

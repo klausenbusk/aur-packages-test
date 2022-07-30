@@ -1,0 +1,17 @@
+pkgbase = imaputils
+	pkgdesc = perl script for managing/searching mail on an IMAP servers from the command line
+	pkgver = 20191107
+	pkgrel = 1
+	url = https://sourceforge.net/projects/imaputils/files/
+	arch = any
+	license = BSD
+	depends = perl-mail-imapclient
+	depends = perl-datetime-format-mail
+	depends = perl-datetime
+	depends = perl-io-socket-ssl
+	depends = socat
+	source = imaputils::git://git.code.sf.net/p/imaputils/git
+	md5sums = SKIP
+
+pkgname = imaputils
+

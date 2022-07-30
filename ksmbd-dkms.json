@@ -1,0 +1,17 @@
+pkgbase = ksmbd-dkms
+	pkgdesc = In-kernel SMB server, with the primary goal of improved I/O performance.
+	pkgver = 3.4.5
+	pkgrel = 1
+	url = https://github.com/cifsd-team/ksmbd
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	arch = armv6h
+	license = GPL2
+	depends = dkms
+	provides = KSMBD-MODULE
+	source = ksmbd-3.4.5.tar.gz::https://github.com/cifsd-team/ksmbd/archive/3.4.5.tar.gz
+	sha256sums = 2873c8ba1027fc5b04c5f5344804ef1469ad7019a033456c16ca4aa3f2c161f0
+
+pkgname = ksmbd-dkms

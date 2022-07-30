@@ -1,0 +1,31 @@
+pkgbase = airvpn-bin
+	pkgdesc = AirVPN client "Eddie" based on OpenVPN, beta version.
+	pkgver = 2.20.0
+	pkgrel = 1
+	url = https://eddie.website
+	install = airvpn.install
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	depends = mono
+	depends = openvpn
+	depends = sudo
+	depends = desktop-file-utils
+	depends = libnotify
+	depends = libappindicator-gtk2
+	optdepends = stunnel: VPN over SSL
+	optdepends = openssh: VPN over SSH
+	optdepends = libappindicator-gtk2: Tray icon w/GTK 2
+	optdepends = libappindicator-gtk3: Tray icon w/GTK 3
+	provides = airvpn
+	provides = eddie-ui
+	conflicts = airvpn
+	conflicts = airvpn-bin
+	conflicts = airvpn-git
+	conflicts = eddie-ui-git
+	source_x86_64 = eddie-ui_2.20.0_linux_x64_arch.tar.xz::https://airvpn.org/mirrors/eddie.website/download/?platform=linux&arch=x64&ui=ui&format=arch.tar.xz&version=2.20.0
+	sha256sums_x86_64 = aeef6783eaefa8f65bda7f9134b9a7b33f9f032fb463654ac9217cbaa9672229
+	sha512sums_x86_64 = 17618bf89f86dc0b16fe58b888bc4710bcbeada0200e38b6d4843cb2deabc3e44d850c8b1c8369bd7efebdfbc2836a56e2053c388641df19c20d29d7440b2ba5
+
+pkgname = airvpn-bin
+

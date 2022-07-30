@@ -1,0 +1,18 @@
+pkgbase = pyls-mypy
+	pkgdesc = A Mypy plugin for the python language server
+	pkgver = 0.1.8
+	pkgrel = 2
+	url = https://github.com/tomv564/pyls-mypy
+	arch = any
+	license = MIT
+	makedepends = python3
+	makedepends = python-setuptools
+	depends = python
+	depends = python-language-server
+	depends = mypy
+	depends = python-future
+	source = https://github.com/tomv564/pyls-mypy/archive/0.1.8.tar.gz
+	md5sums = 7ea440bf001da6bb51e0361a6434aca3
+
+pkgname = pyls-mypy
+

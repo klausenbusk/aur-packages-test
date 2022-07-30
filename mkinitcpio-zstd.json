@@ -1,0 +1,40 @@
+pkgbase = mkinitcpio-zstd
+	pkgdesc = Modular initramfs image creation utility
+	pkgver = 28
+	pkgrel = 2
+	url = https://projects.archlinux.org/mkinitcpio.git/
+	install = mkinitcpio.install
+	arch = any
+	license = GPL
+	makedepends = asciidoc
+	makedepends = git
+	makedepends = sed
+	depends = mkinitcpio-busybox>=1.19.4-2
+	depends = kmod
+	depends = util-linux>=2.23
+	depends = libarchive
+	depends = coreutils
+	depends = awk
+	depends = bash
+	depends = findutils
+	depends = grep
+	depends = filesystem>=2011.10-1
+	depends = systemd
+	depends = gzip
+	optdepends = xz: Use lzma or xz compression for the initramfs image
+	optdepends = bzip2: Use bzip2 compression for the initramfs image
+	optdepends = lzop: Use lzo compression for the initramfs image
+	optdepends = lz4: Use lz4 compression for the initramfs image
+	optdepends = zstd: Use zstd compression for the initramfs image
+	optdepends = mkinitcpio-nfs-utils: Support for root filesystem on NFS
+	provides = mkinitcpio=28
+	provides = initramfs
+	conflicts = mkinitcpio
+	backup = etc/mkinitcpio.conf
+	source = https://sources.archlinux.org/other/mkinitcpio/mkinitcpio-28.tar.gz
+	source = 0001-mkinitcpio-Add-support-for-the-zstd-compressor.patch
+	sha256sums = bf83a158786d272d8046a4dd48bfcc343ec37de2cae0ae65c59132a45744808c
+	sha256sums = a93de2d8a301f0d7d6317ec301cd0e0bf3665c8fa3e123579b3ca8d2f0a531c9
+
+pkgname = mkinitcpio-zstd
+

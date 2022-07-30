@@ -1,0 +1,10 @@
+pkgbase = dot
+	pkgdesc = This package has moved to dot-bin.
+	pkgver = 0.1
+	pkgrel = 0
+	url = https://github.com/dothq/browser
+	arch = x86_64
+	license = MPL-2.0
+
+pkgname = dot
+

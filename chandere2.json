@@ -1,0 +1,16 @@
+pkgbase = chandere2
+	pkgdesc = An extremely modular asynchronous archiving tool for various imageboards, textboards, and Boorus.
+	pkgver = 2.5.0a1
+	pkgrel = 2
+	url = https://github.com/TsarFox/chandere
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = pandoc
+	depends = python
+	depends = python-aiohttp
+	source = https://github.com/TsarFox/chandere/archive/2.5.0a1.tar.gz
+	md5sums = 1884d6f761eeb6cc311b356b10aefda8
+
+pkgname = chandere2
+

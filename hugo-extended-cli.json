@@ -1,0 +1,14 @@
+pkgbase = hugo-extended-cli
+	pkgdesc = Extended version of Hugo
+	pkgver = 0.97.3
+	pkgrel = 1
+	url = https://gohugo.io/
+	arch = x86_64
+	license = Apache 2.0
+	conflicts = hugo
+	conflicts = hugo-git
+	conflicts = hugo-extended-bin
+	source = https://github.com/gohugoio/hugo/releases/download/v0.97.3/hugo_0.97.3_checksums.txt
+	md5sums = SKIP
+
+pkgname = hugo-extended-cli

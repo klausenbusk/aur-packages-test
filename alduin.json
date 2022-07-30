@@ -1,0 +1,21 @@
+pkgbase = alduin
+	pkgdesc = RSS, Atom and JSON feed aggregator
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://alduinapp.github.io/
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = npm
+	makedepends = python2
+	depends = electron
+	options = !strip
+	source = alduin-2.0.1.tar.gz::https://github.com/AlduinApp/alduin/archive/2.0.1.tar.gz
+	source = alduin.sh
+	source = alduin.desktop
+	sha256sums = fcb1afcd8563c5066fd2ba316776de6c2eedce359892c42647f3db919b5a1ea1
+	sha256sums = 04f441d21317c48e7df94dc8cf22934e906742b31a65f683a483b6069b9e7e16
+	sha256sums = 54174c4ac62fda2838de78c7b4dee7638e3befd4daded73548ce3a19f530748e
+
+pkgname = alduin
+

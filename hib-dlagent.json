@@ -1,0 +1,16 @@
+pkgbase = hib-dlagent
+	pkgdesc = Tool to download Humble Indie Bundle binaries by file name
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://github.com/hagabaka/hib-dlagent
+	arch = any
+	license = MIT
+	depends = bash
+	depends = curl
+	depends = python-humblebundle
+	optdepends = gnome-keyring-query: encrypted account password support
+	source = hib-dlagent-0.7.1.tar.gz::https://github.com/hagabaka/hib-dlagent/archive/0.7.1.tar.gz
+	sha256sums = fb3190ce8442e9b3bacede0f5ae1f63f6b083639d30cb006aaff69d73c5ca7df
+
+pkgname = hib-dlagent
+

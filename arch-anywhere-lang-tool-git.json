@@ -1,0 +1,16 @@
+pkgbase = arch-anywhere-lang-tool-git
+	pkgdesc = A simple tool for maintain Arch Linux Anywhere translation files.
+	pkgver = r8.6eec9af
+	pkgrel = 1
+	url = git+https://github.com/notramo/arch-anywhere-lang-tool
+	arch = any
+	license = custom:WTFPL
+	makedepends = git
+	depends = perl
+	provides = arch-anywhere-lang-tool
+	conflicts = arch-anywhere-lang-tool
+	source = git+https://github.com/notramo/arch-anywhere-lang-tool.git
+	md5sums = SKIP
+
+pkgname = arch-anywhere-lang-tool-git
+

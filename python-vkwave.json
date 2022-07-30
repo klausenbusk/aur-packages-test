@@ -1,0 +1,17 @@
+pkgbase = python-vkwave
+	pkgdesc = Framework for building high-performance & easy to scale projects interacting with VK's API
+	pkgver = 0.2.14
+	pkgrel = 1
+	url = https://github.com/fscdev/vkwave
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-pydantic
+	depends = python-typing_extensions
+	depends = python-aiohttp
+	optdepends = python-aioredis: storage-redis
+	source = https://files.pythonhosted.org/packages/source/v/vkwave/vkwave-0.2.14.tar.gz
+	sha256sums = e35528b488697aaefd154beaee573d2ce07ff4e20bb00484ba7a7f3ee5c39f79
+
+pkgname = python-vkwave

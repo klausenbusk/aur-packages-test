@@ -1,0 +1,35 @@
+pkgbase = linux-rockchip-legacy-bin
+	pkgver = 4.4.213
+	pkgrel = 1
+	url = https://github.com/armbian/build
+	arch = armv7h
+	license = GPL2
+	provides = linux-rockchip
+	noextract = linux.preset
+	noextract = linux-dtb-legacy-rockchip_22.05.3_armhf.deb
+	noextract = linux-image-legacy-rockchip_22.05.3_armhf.deb
+	noextract = linux-headers-legacy-rockchip_22.05.3_armhf.deb
+	options = !strip
+	source = linux.preset
+	source = https://apt.armbian.com/pool/main/l/linux-4.4.213-rockchip/linux-dtb-legacy-rockchip_22.05.3_armhf.deb
+	source = https://apt.armbian.com/pool/main/l/linux-4.4.213-rockchip/linux-image-legacy-rockchip_22.05.3_armhf.deb
+	source = https://apt.armbian.com/pool/main/l/linux-4.4.213-rockchip/linux-headers-legacy-rockchip_22.05.3_armhf.deb
+	sha512sums = a492aae17ee4a316ce03faf9f1b284b2529c485f4b092cc4a1f865a6c68d482fd356fd30efa296c116975a3bdf3922f5bf03912a8d0e76f4ab24aa6ab9f8c276
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = linux-rockchip-legacy-bin
+	pkgdesc = The Linux Kernel and modules - ARMv7 multi-platform rockchip
+	depends = coreutils
+	depends = linux-firmware
+	depends = kmod
+	depends = mkinitcpio>=0.7
+	optdepends = crda: to set the correct wireless channels of your country
+	provides = WIREGUARD-MODULE
+	conflicts = linux
+	backup = etc/mkinitcpio.d/linux-rockchip.preset
+
+pkgname = linux-rockchip-legacy-bin-headers
+	pkgdesc = Header files and scripts for building modules for linux kernel - ARMv7 multi-platform rockchip
+	conflicts = linux-headers

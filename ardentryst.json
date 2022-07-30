@@ -1,0 +1,17 @@
+pkgbase = ardentryst
+	pkgdesc = An action/RPG sidescroller with a focus on story and character development
+	pkgver = 1.71
+	pkgrel = 4
+	url = https://github.com/ardentryst/ardentryst
+	arch = any
+	license = GPL3
+	license = CCPL
+	makedepends = python2-pygame
+	depends = python2
+	source = https://github.com/ardentryst/ardentryst/archive/refs/tags/1.71.tar.gz
+	source = ardentryst.sh
+	md5sums = 037a901922e269f25d8b9b8a4bc46243
+	md5sums = f4d92279de96f55e200c0133d3bd5361
+
+pkgname = ardentryst
+

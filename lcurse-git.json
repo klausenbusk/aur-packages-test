@@ -1,0 +1,18 @@
+pkgbase = lcurse-git
+	pkgdesc = Curse-compatible addon update client for World of Warcraft. Use https://www.curseforge.com/wow/addons to obtain URLs for addons.
+	pkgver = 1
+	pkgrel = 2
+	url = https://github.com/ephraim/lcurse
+	arch = any
+	license = Unlicense
+	makedepends = git
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-pyqt5
+	depends = python-lxml
+	provides = lcurse
+	source = git+https://github.com/ephraim/lcurse.git
+	md5sums = SKIP
+
+pkgname = lcurse-git
+

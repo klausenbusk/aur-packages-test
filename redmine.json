@@ -1,0 +1,20 @@
+pkgbase = redmine
+	pkgdesc = A flexible project management web application written using Ruby on Rails framework.
+	pkgver = 4.0.0
+	pkgrel = 0
+	url = https://www.redmine.org
+	arch = any
+	license = GPL2
+	depends = ruby>=2.2.2
+	optdepends = apache: A supported application server
+	optdepends = nginx: A supported application server
+	optdepends = mysql: MySQL database support
+	optdepends = postgresql: PostgreSQL database support
+	optdepends = sqlite: SQLite database support
+	optdepends = ruby-rmagick: For Gantt export to PNG image and thumbnails generation
+	optdepends = ruby-rails: Alternative Ruby on Rails instalation
+	source = https://www.redmine.org/releases/redmine-4.0.0.tar.gz
+	sha512sums = 8ea38803c03b239b0a617619197fb1c553a7512f7c90acf33ae1b1b605cc2556b402b9f033677bdad4ba4efeb3c18bf3855f749a4d5fb82b07e846b9b0acecde
+
+pkgname = redmine
+

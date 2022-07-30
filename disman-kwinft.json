@@ -1,0 +1,18 @@
+pkgbase = disman-kwinft
+	pkgdesc = Qt/C++ display management library
+	pkgver = 5.25.0
+	pkgrel = 1
+	url = https://gitlab.com/kwinft/disman
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules
+	depends = qt5-x11extras
+	depends = libxrandr
+	depends = plasma-framework
+	depends = wrapland
+	provides = disman
+	conflicts = disman
+	source = https://gitlab.com/kwinft/disman/-/archive/disman@0.525.0/disman-disman@0.525.0.tar.gz
+	md5sums = 25de500c61c7f24c847bea5773bb06d2
+
+pkgname = disman-kwinft

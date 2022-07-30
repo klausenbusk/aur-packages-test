@@ -1,0 +1,17 @@
+pkgbase = papirus-kmail-theme
+	pkgdesc = Papirus theme for KMail
+	pkgver = 20160615
+	pkgrel = 1
+	url = https://github.com/PapirusDevelopmentTeam/papirus-kmail-theme
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = make
+	depends = kmail
+	conflicts = papirus-kmail-theme-git
+	options = !strip
+	source = papirus-kmail-theme::git+https://github.com/PapirusDevelopmentTeam/papirus-kmail-theme.git#commit=e9f86d0
+	sha256sums = SKIP
+
+pkgname = papirus-kmail-theme
+

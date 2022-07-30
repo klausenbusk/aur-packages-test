@@ -1,0 +1,34 @@
+pkgbase = firefox-nightly-pl
+	pkgdesc = Standalone web browser from mozilla.org, nightly build, Polish l10n
+	pkgver = 56.0a1
+	pkgrel = 1
+	url = https://nightly.mozilla.org/
+	arch = i686
+	arch = x86_64
+	license = MPL
+	license = GPL
+	license = LGPL
+	depends = alsa-lib
+	depends = libxt
+	depends = libnotify
+	depends = mime-types
+	depends = nss
+	depends = gtk2
+	depends = gtk3
+	depends = sqlite
+	depends = dbus-glib
+	provides = firefox-nightly
+	source = https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-56.0a1.pl.linux-x86_64.tar.bz2
+	source = https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-56.0a1.pl.linux-x86_64.tar.bz2.asc
+	source = firefox-nightly.desktop
+	source = firefox-nightly-safe.desktop
+	source = vendor.js
+	validpgpkeys = 14F26682D0916CDD81E37B6D61B7B526D98F0353
+	sha1sums = SKIP
+	sha1sums = SKIP
+	sha1sums = d998c8a825bb0f58594f822a2e2fbb7c0a1a3ce8
+	sha1sums = d98f7a35fd423a9701dcaef7d4bbffee939198c7
+	sha1sums = eee3e295625d5b58bddb708c08d9aba2bf8fa621
+
+pkgname = firefox-nightly-pl
+

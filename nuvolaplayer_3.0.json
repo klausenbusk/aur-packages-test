@@ -1,0 +1,33 @@
+pkgbase = nuvolaplayer_3.0
+	pkgdesc = Cloud music integration for your Linux desktop stable 3.0 branch.
+	pkgver = 3.0.9
+	pkgrel = 1
+	url = https://tiliado.eu/nuvolaplayer/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = python
+	makedepends = vala
+	depends = diorite_0.2.x
+	depends = webkit2gtk
+	depends = libarchive
+	optdepends = nuvola-app-8tracks: 8tracks.com integration
+	optdepends = nuvola-app-amazon-cloud-player: Amazon Cloud Player integration
+	optdepends = nuvola-app-bandcamp: Bandccamp integration
+	optdepends = nuvola-app-deezer: Deezer integration
+	optdepends = nuvola-app-google-play-music: Google Play Music integration
+	optdepends = nuvola-app-groove: Microsoft Groove Music integration
+	optdepends = nuvola-app-jango: Jango integration
+	optdepends = nuvola-app-logitech-media-server: Logitech Media Server integration
+	optdepends = nuvola-app-mixcloud: Mixcloud integration
+	optdepends = nuvola-app-plex: Plex Media integration
+	optdepends = nuvola-app-soundcloud: SoundCloud integration
+	optdepends = nuvola-app-spotify: Spotify integration
+	optdepends = nuvola-app-tunein: TuneIn integration
+	optdepends = nuvola-app-yandex-music: Yandex.Music integration
+	provides = nuvolaplayer=3.0.8
+	source = nuvolaplayer-3.0.9.tar.gz::https://github.com/tiliado/nuvolaplayer/archive/3.0.9.tar.gz
+	sha256sums = 1c226ae331e37041fb5f8740a0a999880adde41cba43c8291ed550bdedf1bb98
+
+pkgname = nuvolaplayer_3.0
+

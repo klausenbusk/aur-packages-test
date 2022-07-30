@@ -1,0 +1,21 @@
+pkgbase = python-gtkspellcheck
+	pkgdesc = Spell-checking library written in Python for Gtk based on Enchant
+	pkgver = 5.0.0
+	pkgrel = 2
+	url = https://github.com/koehlma/pygtkspellcheck
+	arch = any
+	license = GPL
+	makedepends = python-pyenchant
+	makedepends = python-gobject
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-poetry
+	depends = python-pyenchant
+	depends = python-gobject
+	provides = python-gtkspell
+	source = git+https://github.com/koehlma/pygtkspellcheck#tag=v5.0.0
+	sha512sums = SKIP
+
+pkgname = python-gtkspellcheck

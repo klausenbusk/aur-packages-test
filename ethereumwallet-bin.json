@@ -1,0 +1,33 @@
+pkgbase = ethereumwallet-bin
+	pkgdesc = Ethereum Wallet from git releases
+	pkgver = 0.11.1
+	pkgrel = 1
+	url = https://github.com/ethereum/mist/releases
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = nss
+	depends = libxtst
+	depends = alsa-lib
+	depends = libxss
+	depends = gtk2
+	depends = gconf
+	optdepends = geth: The go-ethereum commandline client (geth cli).
+	optdepends = parity: The fast, light, robust Ethereum client.
+	provides = ethereumwallet
+	provides = libnode
+	provides = libffmpeg
+	conflicts = ethereumwallet-git
+	conflicts = libnode
+	conflicts = libnode-git
+	source = EthereumWallet.desktop
+	source = icon.png
+	sha256sums = 57db9dcc5d983942a9f5acf900fa78785b8cc7866d9e46ee58055aa478737177
+	sha256sums = d4f701bb363e5e1d5cd5cb7ea2e8f2c16f1ccb464a1af8bb81b83bbc3ede1e86
+	source_i686 = https://github.com/ethereum/mist/releases/download/v0.11.1/Ethereum-Wallet-linux32-0-11-1.zip
+	sha256sums_i686 = f2a4f69949d1bf589cd5223a07e3e5679cf6c03dabe1d3dc12ce3b9191778a68
+	source_x86_64 = https://github.com/ethereum/mist/releases/download/v0.11.1/Ethereum-Wallet-linux64-0-11-1.zip
+	sha256sums_x86_64 = 0337b285e8e9a6a3d9073bce73d2b89b5a13972575fdb0641a1426710eeb333b
+
+pkgname = ethereumwallet-bin
+

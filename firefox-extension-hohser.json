@@ -1,0 +1,15 @@
+pkgbase = firefox-extension-hohser
+	pkgdesc = Highlight or hide search engine results
+	pkgver = 4.2.1
+	pkgrel = 1
+	url = https://github.com/pistom/hohser
+	arch = any
+	groups = firefox-addons
+	license = MPL2
+	makedepends = yarn
+	depends = firefox
+	options = !strip
+	source = hohser-4.2.1.tar.gz::https://github.com/pistom/hohser/archive/v.4.2.1.tar.gz
+	sha512sums = e1a98225c475dbd18deced1d89fc4dda269a72467af4683a44a2845da322f20b51f66e2e9d3eec30c3d6c98181c0d8d00ec78239fcf33f015757db1b6eb1d147
+
+pkgname = firefox-extension-hohser

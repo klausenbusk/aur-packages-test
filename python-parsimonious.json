@@ -1,0 +1,17 @@
+pkgbase = python-parsimonious
+	pkgdesc = Fast parser based on parsing expression grammars (PEGs)
+	pkgver = 0.9.0
+	pkgrel = 1
+	url = https://github.com/erikrose/parsimonious
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python-regex
+	source = python-parsimonious-0.9.0::https://github.com/erikrose/parsimonious/archive/0.9.0.tar.gz
+	sha256sums = ed53ea31c9b2461c0ac607c03cdf216229ef33bab324e96ed140d450a3e0bdf9
+
+pkgname = python-parsimonious

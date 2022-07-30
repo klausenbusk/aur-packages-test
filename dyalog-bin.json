@@ -1,0 +1,26 @@
+pkgbase = dyalog-bin
+	pkgdesc = Dyalog APL interpreter
+	pkgver = 18.2.45405
+	pkgrel = 2
+	url = https://www.dyalog.com/download-zone.htm
+	arch = x86_64
+	license = custom
+	makedepends = binutils
+	makedepends = tar
+	depends = python
+	depends = libtool
+	depends = alsa-lib
+	depends = gtk2
+	depends = nss
+	depends = libxss
+	depends = nodejs
+	depends = unixodbc
+	depends = at-spi2-atk
+	depends = ncurses5-compat-libs
+	options = !strip
+	source = dyalog-bin-18.2.45405.deb::https://www.dyalog.com/uploads/php/download.dyalog.com/download.php?file=18.2/linux_64_18.2.45405_unicode.x86_64.deb
+	source = LICENSE.pdf::https://www.dyalog.com/uploads/documents/Developer_Software_Licence.pdf
+	sha256sums = a40fd619303a62fc06e0c82a6e23c12ca48a3ed2c640cec1ccae819b2cf9a663
+	sha256sums = 94eea122f15d1e43443a6bbb10f375be23cf8ba8aacc6b0381bc89a7791c3172
+
+pkgname = dyalog-bin

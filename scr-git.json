@@ -1,0 +1,23 @@
+pkgbase = scr-git
+	pkgdesc = A ffmpeg recording script
+	pkgver = 2.1.r2.g6f9cd8c
+	pkgrel = 1
+	url = https://github.com/6gk/scr-git
+	arch = any
+	license = ISC
+	makedepends = git
+	depends = ffmpeg
+	depends = procps-ng
+	depends = slop
+	optdepends = xrandr
+	optdepends = xclip
+	optdepends = wmutils-git
+	optdepends = dmenu
+	optdepends = rofi
+	optdepends = shotgun
+	provides = scr
+	source = scr-git::git+https://github.com/6gk/scr
+	md5sums = SKIP
+
+pkgname = scr-git
+

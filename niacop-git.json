@@ -1,0 +1,21 @@
+pkgbase = niacop-git
+	pkgdesc = Cross platform self-tracker tool
+	pkgver = 0.7.2.r2.g997ad85
+	pkgrel = 1
+	url = https://github.com/xdrie/niacop
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = dotnet-sdk>=5.0.1.sdk101
+	depends = xprintidle
+	depends = xorg-xprop
+	depends = xdotool
+	depends = xorg-xinput
+	depends = xorg-xmodmap
+	options = !strip
+	options = staticlibs
+	source = niacop-git::git+https://github.com/xdrie/niacop.git#branch=master
+	sha256sums = SKIP
+
+pkgname = niacop-git
+

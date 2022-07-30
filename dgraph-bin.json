@@ -1,0 +1,26 @@
+pkgbase = dgraph-bin
+	pkgdesc = Fast, transactional, distributed graph database
+	pkgver = 21.12.0
+	pkgrel = 1
+	url = https://github.com/dgraph-io/dgraph
+	install = dgraph-bin.install
+	arch = x86_64
+	license = APACHE
+	license = custom:DCL
+	provides = dgraph
+	conflicts = dgraph
+	conflicts = dgraph-git
+	source = dgraph-21.12.0.tar.gz::https://github.com/dgraph-io/dgraph/releases/download/v21.12.0/dgraph-linux-amd64.tar.gz
+	source = dgraph-21.12.0.tar.gz.sha256::https://github.com/dgraph-io/dgraph/releases/download/v21.12.0/dgraph-checksum-linux-amd64.sha256
+	source = https://raw.githubusercontent.com/dgraph-io/dgraph/v21.12.0/licenses/DCL.txt
+	source = https://raw.githubusercontent.com/dgraph-io/dgraph/v21.12.0/contrib/systemd/centos/dgraph-alpha.service
+	source = https://raw.githubusercontent.com/dgraph-io/dgraph/v21.12.0/contrib/systemd/centos/dgraph-zero.service
+	source = https://raw.githubusercontent.com/dgraph-io/dgraph/v21.12.0/contrib/systemd/centos/add_dgraph_account.sh
+	sha256sums = a8dc7f77ea89843f34d9466d212cadeb4a6f581e72c5d757e19f653e4863f8ef
+	sha256sums = 003b84232ffe706241c8b1276809ee353b832403ea239b3fd5ada91daefa9f90
+	sha256sums = bfdc75136567068dd049c2d226049a57de5f4a1871eab7429c022e95952efb0d
+	sha256sums = 4772e7e65d4b314a5aee66930c7aa45ee6526e22f8dde3f8c6970cd23a6dac0c
+	sha256sums = 1d17f53b5f83f434ce918c1f13a7b5829b0c2d20ccad13aa44486a00d7b6bc6a
+	sha256sums = cf80944157c7af97d0bcd18a6d4b5f6a4ba14941f47ff8b19977b7477ee2b865
+
+pkgname = dgraph-bin

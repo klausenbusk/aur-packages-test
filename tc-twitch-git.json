@@ -1,0 +1,21 @@
+pkgbase = tc-twitch-git
+	pkgdesc = The chat client for Twitch™
+	pkgver = 15.7.0.r0.g78d57b7
+	pkgrel = 1
+	url = https://github.com/mccxiv/tc
+	arch = any
+	license = custom:ISC
+	makedepends = git
+	makedepends = npm
+	depends = gconf
+	provides = tc-twitch
+	conflicts = tc-twitch
+	source = tc-twitch.desktop
+	source = additional-icons.tar.gz
+	source = tc-twitch-git::git+https://github.com/mccxiv/tc.git
+	md5sums = 72e3fe4d7076cd6e7c26d5d3819b1c0a
+	md5sums = 3c4992d5dcc6f5e2fb212fa95e96e99f
+	md5sums = SKIP
+
+pkgname = tc-twitch-git
+

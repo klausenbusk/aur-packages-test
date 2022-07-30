@@ -1,0 +1,12 @@
+pkgbase = esteidcerts
+	pkgdesc = Estonian ID card root, intermediate and OCSP certificates
+	pkgver = 3.8.2.9210
+	pkgrel = 1
+	url = http://www.id.ee/
+	arch = any
+	license = LGPL
+	source = https://installer.id.ee/media/ubuntu/pool/main/e/esteidcerts/esteidcerts_3.8.2.9210-ubuntu-13-10.tar.gz
+	sha256sums = 8036df93116994e8d57b005b1a6e867c8258ddd7a6803a350c0c72e2a3439043
+
+pkgname = esteidcerts
+

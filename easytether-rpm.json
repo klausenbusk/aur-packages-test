@@ -1,0 +1,18 @@
+pkgbase = easytether-rpm
+	pkgdesc = Internet access via smartphone
+	pkgver = 0.8.5
+	pkgrel = 4
+	url = http://www.mobile-stream.com/easytether/drivers.html
+	changelog = CHANGELOG
+	arch = i686
+	arch = x86_64
+	license = unknown:freeware
+	makedepends = rpmextract
+	depends = glibc
+	depends = libusb
+	depends = udev
+	conflicts = easytether-bin
+	source = http://www.mobile-stream.com/beta/fedora/20/easytether-0.8.5-1.fc20.i686.rpm
+
+pkgname = easytether-rpm
+

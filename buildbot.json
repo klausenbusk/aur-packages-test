@@ -1,0 +1,74 @@
+pkgbase = buildbot
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = http://buildbot.net
+	arch = any
+	license = GPL
+	makedepends = python-pip
+	makedepends = python-twisted
+	makedepends = python-jinja
+	makedepends = python-sqlalchemy-migrate
+	makedepends = python-dateutil
+	makedepends = python-sqlparse
+	makedepends = python-pyjwt
+	makedepends = python-autobahn
+	makedepends = python-txaio
+	makedepends = python-future
+	makedepends = python-zope-interface
+	makedepends = python-tempita
+	makedepends = python-distro
+	source = https://files.pythonhosted.org/packages/py2.py3/b/buildbot/buildbot-1.3.0-py2.py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py2.py3/b/buildbot_www/buildbot_www-1.3.0-py2.py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py2.py3/b/buildbot_worker/buildbot_worker-1.3.0-py2.py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py2.py3/b/buildbot_waterfall_view/buildbot_waterfall_view-1.3.0-py2.py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py2.py3/b/buildbot_console_view/buildbot_console_view-1.3.0-py2.py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py2.py3/b/buildbot_grid_view/buildbot_grid_view-1.3.0-py2.py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py2.py3/b/buildbot_wsgi_dashboards/buildbot_wsgi_dashboards-1.3.0-py2.py3-none-any.whl
+	sha256sums = afd90c823463a5d3e318123c5b4af83d22b0ad2ba93043c3635100419ee1ceb9
+	sha256sums = eac3c1a618bcc5892ca1ed49c179f8fbbefd96d51f5066ee30ba0ac9a87c3c9c
+	sha256sums = 2805f0560bebc44cacee4ef3c5ee4d63136820a119f0660e51ba6b3a25c42d1e
+	sha256sums = 69fc72d498c7e4407534bbd88c2b7dce9d5fd5f66f68010454613271be374491
+	sha256sums = 0032798de53edf2bbd3baf1cb25b2dc80ba039fa02588d5a1d6aecce623b2ace
+	sha256sums = bc7cc23c123bd5425b2211158b42b8234886ee72394015abf16c43412f5ebb6c
+	sha256sums = a42951149145821deb3532113cfd1f270d612a1c68bee05935e24c9a5b953d8f
+
+pkgname = buildbot
+	pkgdesc = The Continuous Integration Framework
+	depends = python-twisted
+	depends = python-jinja
+	depends = python-sqlalchemy-migrate
+	depends = python-dateutil
+	depends = python-sqlparse
+	depends = python-pyjwt
+	depends = python-autobahn
+	depends = python-txaio
+	depends = python-future
+	depends = python-zope-interface
+	depends = python-tempita
+	depends = python-distro
+
+pkgname = python-buildbot-www
+	pkgdesc = Buildbot UI
+	depends = buildbot
+
+pkgname = buildbot-worker
+	pkgdesc = Buildbot Worker Daemon
+	depends = python-twisted
+	depends = python-future
+
+pkgname = python-buildbot-waterfall-view
+	pkgdesc = Buildbot Waterfall View plugin
+	depends = buildbot
+
+pkgname = python-buildbot-console-view
+	pkgdesc = Buildbot Console View plugin
+	depends = buildbot
+
+pkgname = python-buildbot-grid-view
+	pkgdesc = Buildbot Grid View plugin
+	depends = buildbot
+
+pkgname = python-buildbot-wsgi-dashboards
+	pkgdesc = Buildbot plugin to integrate flask or bottle dashboards to buildbot UI
+	depends = buildbot
+

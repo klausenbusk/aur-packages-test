@@ -1,0 +1,17 @@
+pkgbase = vidify-audiosync
+	pkgdesc = Audio synchronization feature for Vidify
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/vidify/audiosync
+	arch = any
+	license = LGPL
+	makedepends = python-setuptools
+	depends = python
+	depends = fftw
+	depends = ffmpeg
+	depends = pulseaudio
+	source = https://github.com/vidify/audiosync/archive/v0.3.0.tar.gz
+	md5sums = 86dead703d02f70569d67659df77bcbf
+
+pkgname = vidify-audiosync
+

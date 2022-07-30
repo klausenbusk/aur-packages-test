@@ -1,0 +1,25 @@
+pkgbase = nncmpp-git
+	pkgdesc = MPD client
+	pkgver = v1.1.1.r6.g32203f8
+	pkgrel = 1
+	url = https://git.janouch.name/p/nncmpp
+	arch = i686
+	arch = x86_64
+	license = custom:0BSD
+	makedepends = cmake
+	makedepends = pkg-config
+	makedepends = git
+	makedepends = asciidoctor
+	depends = readline
+	depends = ncurses
+	depends = libunistring
+	depends = curl
+	optdepends = fftw: spectrum visualiser
+	optdepends = libpulse: direct volume control
+	provides = nncmpp
+	conflicts = nncmpp
+	options = zipman
+	source = git+https://git.janouch.name/p/nncmpp.git
+	md5sums = SKIP
+
+pkgname = nncmpp-git

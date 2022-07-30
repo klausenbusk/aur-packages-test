@@ -1,0 +1,13 @@
+pkgbase = png2svg
+	pkgdesc = Utility for converting small PNG images to SVG
+	pkgver = 1.5.0
+	pkgrel = 1
+	url = https://github.com/xyproto/png2svg
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	source = git+https://github.com/xyproto/png2svg#tag=v1.5.0
+	b2sums = SKIP
+
+pkgname = png2svg

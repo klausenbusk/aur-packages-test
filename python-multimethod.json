@@ -1,0 +1,18 @@
+pkgbase = python-multimethod
+	pkgdesc = Multiple argument dispatching
+	pkgver = 1.8
+	pkgrel = 1
+	url = https://github.com/coady/multimethod
+	arch = any
+	license = Apache
+	checkdepends = python-pytest
+	checkdepends = python-pytest-cov
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = multimethod-1.8.tar.gz::https://github.com/coady/multimethod/archive/v1.8.tar.gz
+	sha512sums = 433a2c72a6c98129df70aa09d1e640f2f23be6c42236cb88ad4ef9dee89406a9b6a2c01771b2b7e69ffa8d6b6cae05a8e0cd273d77c2eed86c5b8ee0c6887c8c
+
+pkgname = python-multimethod

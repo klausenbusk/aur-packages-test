@@ -1,0 +1,20 @@
+pkgbase = mop
+	pkgdesc = Stock market tracker for hackers
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/mop-tracker/mop
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	conflicts = mop-git
+	options = !emptydirs
+	source = mop-1.0.0.tar.gz::https://github.com/mop-tracker/mop/archive/v1.0.0.tar.gz
+	b2sums = 1608edc521e959d932a7b4a49f29a04ddff1a259e49be36d20694c15419bee542b7983fd6ac4a6f6475aa3765cf762fdd2bb7ed8de0e6dede050ebd740c9754b
+
+pkgname = mop

@@ -1,0 +1,18 @@
+pkgbase = argc-git
+	pkgdesc = Make beautiful bash cli with ease
+	pkgver = 0.9.2.r3.gd12964d
+	pkgrel = 1
+	url = https://github.com/sigoden/argc
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	provides = argc
+	conflicts = argc
+	options = !lto
+	source = git+https://github.com/sigoden/argc
+	sha512sums = SKIP
+
+pkgname = argc-git

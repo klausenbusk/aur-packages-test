@@ -1,0 +1,23 @@
+pkgbase = timg-git
+	pkgdesc = Terminal Image and Video Viewer
+	pkgver = 1.4.2.r20.g145a527
+	pkgrel = 1
+	url = https://github.com/hzeller/timg
+	arch = any
+	license = GPL2
+	makedepends = cmake
+	makedepends = pkgconf
+	makedepends = git
+	makedepends = gcc
+	depends = libwebp
+	depends = libjpeg-turbo
+	depends = libexif
+	depends = graphicsmagick
+	depends = ffmpeg
+	depends = openslide
+	provides = timg
+	conflicts = timg
+	source = git+https://github.com/hzeller/timg
+	sha512sums = SKIP
+
+pkgname = timg-git

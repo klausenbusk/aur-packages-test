@@ -1,0 +1,12 @@
+pkgbase = neoleo
+	pkgdesc = Lightweight curses spreadsheet based on GNU oleo
+	pkgver = 12.2
+	pkgrel = 1
+	url = https://github.com/blippy/neoleo
+	arch = x86_64
+	license = GPL
+	depends = ncurses
+	source = neoleo-12.2.tar.gz::https://github.com/blippy/neoleo/archive/v12.2.tar.gz
+	sha256sums = 8eb71b8dbbe875c86b12c5c6e129e88bb4022302e158c7aaf18dcaf257836225
+
+pkgname = neoleo

@@ -1,0 +1,19 @@
+pkgbase = linux-enable-ir-emitter
+	pkgdesc = Enables infrared cameras that are not directly enabled out-of-the box.
+	pkgver = 4.1.2
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/EmixamPP/linux-enable-ir-emitter
+	install = linux-enable-ir-emitter.install
+	arch = x86_64
+	license = MIT
+	depends = python
+	depends = opencv
+	depends = fmt
+	provides = linux-enable-ir-emitter
+	conflicts = linux-enable-ir-emitter-git
+	conflicts = chicony-ir-toggle
+	source = https://github.com/EmixamPP/linux-enable-ir-emitter/archive/refs/tags/4.1.2.tar.gz
+	sha256sums = cb18da17a5affc9d87ccc6e3fa221f3318e632d98da5e4733b1ce03bfd115b67
+
+pkgname = linux-enable-ir-emitter

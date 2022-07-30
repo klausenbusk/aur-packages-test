@@ -1,0 +1,13 @@
+pkgbase = clex
+	pkgdesc = File manager with a full-screen user interface
+	pkgver = 4.6.patch10
+	pkgrel = 1
+	url = http://www.clex.sk
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = ncurses
+	source = http://www.clex.sk/download/clex-4.6.patch10.tar.gz
+	sha256sums = 1c3aa2a37e858359636fa8e82229e2bb5459548e9820266a3efd9e32318cd10e
+
+pkgname = clex

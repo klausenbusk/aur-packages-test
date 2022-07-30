@@ -1,0 +1,17 @@
+pkgbase = wand
+	pkgdesc = Command line tool for compiling over 27 languages instantly using the wandbox api
+	pkgver = 2.4.9
+	pkgrel = 1
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-pygments
+	depends = python-requests
+	depends = python-prompt_toolkit
+	depends = python-rich
+	depends = python-argparse
+	source = https://files.pythonhosted.org/packages/source/w/wand-cli/wand-cli-2.4.9.tar.gz
+	sha256sums = 04a4e6b47c1d627aefef8019812640cb23039021b29db4e26aa8e6013739a562
+
+pkgname = wand
+

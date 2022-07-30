@@ -1,0 +1,14 @@
+pkgbase = janet-lang-bin
+	pkgdesc = A dynamic Lisp dialect and bytecode vm
+	pkgver = 1.23.0
+	pkgrel = 1
+	url = https://janet-lang.org/
+	arch = x86_64
+	license = MIT
+	provides = janet-lang
+	conflicts = janet-lang
+	conflicts = janet-lang-git
+	source = https://github.com/janet-lang/janet/releases/download/v1.23.0/janet-v1.23.0-linux-x64.tar.gz
+	sha256sums = 68acd98bf53eebbcf1c9c589ce6b54750f1b1b4deeec7bced9772eff914a3d44
+
+pkgname = janet-lang-bin

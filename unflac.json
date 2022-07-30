@@ -1,0 +1,15 @@
+pkgbase = unflac
+	pkgdesc = A command line tool for fast frame accurate audio image + cue sheet splitting.
+	pkgver = r58.d677c2e
+	pkgrel = 1
+	url = https://git.sr.ht/~ft/unflac
+	arch = x86_64
+	license = unknown
+	makedepends = go
+	makedepends = git
+	depends = ffmpeg
+	source = git+https://git.sr.ht/~ft/unflac
+	sha256sums = SKIP
+
+pkgname = unflac
+

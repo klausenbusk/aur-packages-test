@@ -1,0 +1,21 @@
+pkgbase = mmake
+	pkgdesc = Modern Make
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = https://github.com/tj/mmake
+	install = mmake.install
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	provides = mmake=1.3.0
+	conflicts = mmake-bin
+	replaces = mmake-bin
+	options = !strip
+	options = !emptydirs
+	source = https://github.com/tj/mmake/archive/v1.3.0.tar.gz
+	sha256sums = 000ba7c0d16cb55d0d03325547b266da60cec31c25690c22707ef88994497dba
+
+pkgname = mmake
+

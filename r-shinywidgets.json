@@ -1,0 +1,28 @@
+pkgbase = r-shinywidgets
+	pkgdesc = Custom Inputs Widgets for Shiny
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=shinyWidgets
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-bslib
+	depends = r-htmltools
+	depends = r-jsonlite
+	depends = r-sass
+	depends = r-shiny
+	optdepends = r-argondash
+	optdepends = r-argonr
+	optdepends = r-bs4dash
+	optdepends = r-covr
+	optdepends = r-dt
+	optdepends = r-ggplot2
+	optdepends = r-scales
+	optdepends = r-shinydashboard
+	optdepends = r-shinydashboardplus
+	optdepends = r-tablerdash
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/shinyWidgets_0.7.1.tar.gz
+	sha256sums = 3f753f7611bc4ec014b5bf90bc50cdfde15dc2e55e65407d0733831d6882d6c7
+
+pkgname = r-shinywidgets

@@ -1,0 +1,15 @@
+pkgbase = emacs-diminish
+	pkgdesc = Diminished modes are minor modes with no modeline display
+	pkgver = 0.45
+	pkgrel = 1
+	url = https://github.com/emacsmirror/diminish
+	arch = any
+	license = GPL2
+	makedepends = git
+	depends = emacs
+	provides = emacs-diminish
+	source = emacs-diminish-0.45.tar.gz::https://github.com/emacsmirror/diminish/archive/v0.45.tar.gz
+	sha256sums = aa66490c925040921eacc5122a4ce5b04c4460bfa1c39344212731ebbbb83151
+
+pkgname = emacs-diminish
+

@@ -1,0 +1,16 @@
+pkgbase = crash-bandicoot-e3
+	pkgdesc = A prototype of Crash Bandicoot for the Sony PlayStation.
+	pkgver = 3.44
+	pkgrel = 1
+	url = https://hiddenpalace.org/Crash_Bandicoot_(May_11,_1996_prototype)
+	arch = any
+	license = custom
+	depends = duckstation
+	source = SCUS-94900.7z::https://files.hiddenpalace.org/c/c8/Crash_Bandicoot_%28May_11%2C_1996_prototype%29.7z
+	source = psx-template.desktop
+	source = com.naughtydog.CrashBandicootE3.png::https://files.hiddenpalace.org/e/ea/CB_E3_DEMO.png
+	sha256sums = 3084ce9b2decfe365abf8bd54c4d6d0f2b0257b8b3f2298aff0d3d8e68b08096
+	sha256sums = 0e02de299792b54e399964867bf16cb37551ef7a5b1b42fcb9d1d1d7331f7550
+	sha256sums = 4564d43794c766f33d38fdef54cdfd998c2ea6f111439dce1307e07c5fca8b73
+
+pkgname = crash-bandicoot-e3

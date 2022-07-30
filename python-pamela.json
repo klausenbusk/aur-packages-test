@@ -1,0 +1,15 @@
+pkgbase = python-pamela
+	pkgdesc = Python PAM interface
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/minrk/pamela
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = pam
+	depends = python
+	source = https://github.com/minrk/pamela/archive/1.0.0.tar.gz
+	md5sums = 0df71e470bc4199548734794a4ddc33a
+
+pkgname = python-pamela
+

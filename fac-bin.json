@@ -1,0 +1,13 @@
+pkgbase = fac-bin
+	pkgdesc = Easy-to-use CUI for fixing git conflicts
+	pkgver = 2.0.0
+	pkgrel = 2
+	url = https://github.com/mkchoi212/fac
+	arch = x86_64
+	license = MIT
+	provides = fac
+	source = fac-bin-2.0.0.tar.gz::https://github.com/mkchoi212/fac/releases/download/v2.0.0/fac_2.0.0_linux_amd64.tar.gz
+	sha256sums = 91a58e84e0098a1eee45af950ee5cc80d30c083e2ab24cdbe79dd6be514775d9
+
+pkgname = fac-bin
+

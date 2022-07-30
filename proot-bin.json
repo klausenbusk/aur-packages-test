@@ -1,0 +1,15 @@
+pkgbase = proot-bin
+	pkgdesc = chroot, mount --bind, and binfmt_misc without privilege/setup (bin only)
+	pkgver = 5.3.1
+	pkgrel = 1
+	url = https://proot-me.github.io/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = talloc
+	provides = proot
+	conflicts = proot
+	source_x86_64 = proot::https://proot.gitlab.io/proot/bin/proot
+	sha1sums_x86_64 = aa10c69e4c03240c5fcbc18f8a646a14090c6f73
+
+pkgname = proot-bin

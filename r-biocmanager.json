@@ -1,0 +1,20 @@
+pkgbase = r-biocmanager
+	pkgdesc = A convenient tool to install and update Bioconductor packages.
+	pkgver = 1.30.17
+	pkgrel = 1
+	url = https://CRAN.R-project.org/package=BiocManager
+	arch = x86_64
+	license = Artistic2.0
+	depends = r
+	depends = r-remotes
+	depends = r-testthat
+	depends = r-withr
+	depends = r-curl
+	optdepends = r-biocversion
+	optdepends = r-rmarkdown
+	optdepends = r-knitr
+	noextract = r-biocmanager-1.30.17.tar.gz
+	source = r-biocmanager-1.30.17.tar.gz::https://cran.r-project.org/src/contrib/BiocManager_1.30.17.tar.gz
+	sha256sums = 25638d92687d303d762088797e061915694a887fce3acee22094675d5455acea
+
+pkgname = r-biocmanager

@@ -1,0 +1,20 @@
+pkgbase = vim-taskwiki-git
+	pkgdesc = Proper project management in vim. Standing on the shoulders of vimwiki and Taskwarrior
+	pkgver = r843.a3ae9c5
+	pkgrel = 1
+	url = https://github.com/tbabej/taskwiki
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = vim
+	depends = python-tasklib
+	depends = task
+	depends = vim
+	depends = vim-vimwiki
+	provides = vim-taskwiki
+	conflicts = vim-taskwiki
+	source = vim-taskwiki::git+https://github.com/tbabej/taskwiki.git
+	md5sums = SKIP
+
+pkgname = vim-taskwiki-git
+

@@ -1,0 +1,18 @@
+pkgbase = gnome-shell-extension-desktop-icons-ng
+	pkgdesc = A fork from the official desktop icons project, with several enhancements like Drag'n'Drop.
+	pkgver = 43
+	pkgrel = 1
+	url = https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	makedepends = git
+	makedepends = meson
+	makedepends = glib2
+	depends = gnome-shell
+	conflicts = gnome-shell-extension-desktop-icons-ng-git
+	source = desktop-icons-ng-43.tar.gz::https://gitlab.com/rastersoft/desktop-icons-ng/-/archive/43/desktop-icons-ng-43.tar.gz
+	sha256sums = d9d603ed64f070fe64697d0ed0bce80f8b85ef05d813ded599c36b337d557910
+	sha512sums = 58db77ca41856248ac4781550b0d438aec384aaa0a1037b2928feb24ba9e700f5a55b07871dcc0a35ab540014cd791920631641a3e992fd1025694a8ec815f1d
+
+pkgname = gnome-shell-extension-desktop-icons-ng

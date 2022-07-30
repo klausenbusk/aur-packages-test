@@ -1,0 +1,29 @@
+pkgbase = r-datamods
+	pkgdesc = Modules to Import and Manipulate Data in 'Shiny'
+	pkgver = 1.3.3
+	pkgrel = 1
+	url = https://cran.r-project.org/package=datamods
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-data.table
+	depends = r-htmltools
+	depends = r-htmlwidgets
+	depends = r-phosphoricons
+	depends = r-reactable
+	depends = r-readxl
+	depends = r-rio
+	depends = r-rlang
+	depends = r-shiny
+	depends = r-shinywidgets
+	depends = r-tibble
+	optdepends = r-jsonlite
+	optdepends = r-knitr
+	optdepends = r-mass
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-validate
+	source = https://cran.r-project.org/src/contrib/datamods_1.3.3.tar.gz
+	sha256sums = 0ddb9a58c0c25fc1ce80a9085bfbd32aad2dd4ad755ef2f75fc62bab321566c5
+
+pkgname = r-datamods

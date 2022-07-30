@@ -1,0 +1,23 @@
+pkgbase = tidal-music-linux-git
+	pkgdesc = An electron based wrapper around the Tidal web player for Linux
+	pkgver = 3.0
+	pkgrel = 1
+	url = https://github.com/Bunkerbewohner/tidal-music-linux
+	arch = x86_64
+	license = MIT
+	makedepends = nodejs
+	makedepends = git
+	makedepends = npm
+	depends = pepper-flash
+	depends = electron
+	provides = tidal
+	replaces = tidal-music-linux-bin
+	source = git+https://github.com/Bunkerbewohner/tidal-music-linux.git
+	source = tidal-music-linux.desktop
+	source = tidal
+	sha256sums = SKIP
+	sha256sums = ca8c35585f0f67acf5a311c8127d2f77b022d419ced26df123349ad194557a72
+	sha256sums = 5cf0a00a9eb28019a6126491ddfc4b5455bcd44d43be05f81544d438dface390
+
+pkgname = tidal-music-linux-git
+

@@ -1,0 +1,19 @@
+pkgbase = projectm-git
+	pkgdesc = Music visualizer which uses 3D accelerated iterative image based rendering (git version)
+	pkgver = 2281.17cfcda0d
+	pkgrel = 2
+	url = https://github.com/projectM-visualizer/projectm
+	arch = x86_64
+	arch = i686
+	license = LGPL
+	makedepends = cmake
+	depends = sdl2
+	depends = libxext
+	depends = glm
+	provides = projectm
+	conflicts = projectm
+	options = !buildflags
+	source = git+https://github.com/projectM-visualizer/projectm.git
+	sha256sums = SKIP
+
+pkgname = projectm-git

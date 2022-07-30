@@ -1,0 +1,24 @@
+pkgbase = ttf-fira-mono-ibx
+	pkgdesc = A monospace typeface designed for the Firefox OS.
+	pkgver = 3.2
+	pkgrel = 2
+	epoch = 1
+	url = https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/
+	arch = any
+	groups = infinality-bundle-fonts-extra
+	license = Apache
+	depends = fontconfig
+	provides = ttf-fira-mono
+	conflicts = ttf-fira-mono
+	conflicts = otf-fira-mono
+	conflicts = otf-fira-mono-ibx
+	replaces = ttf-fira-mono
+	source = https://bboxtype.com/downloads/Fira/Fira_Mono_3_2.zip
+	source = 45-fira-mono.conf
+	source = 90-tt-fira-mono.conf
+	sha256sums = 77b83feda1f1c5b8e8da07498aff6fa0f9d2d16bbfa2095dd7e7696c887c6128
+	sha256sums = 585bb85804a019b23a29770979c23a07026539129855b9ada5f8e2a9398b17d8
+	sha256sums = 4c73a779d5101baf25a5ea3a1327248a7ccbffaf873503563ebbd7f5bf9ae3fb
+
+pkgname = ttf-fira-mono-ibx
+

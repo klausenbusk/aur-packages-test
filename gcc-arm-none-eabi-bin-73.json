@@ -1,0 +1,25 @@
+pkgbase = gcc-arm-none-eabi-bin-73
+	pkgdesc = GNU Tools ARM Embedded Processors (binary distribution, includes newlib, does NOT include GDB)
+	pkgver = 7_2018_q2_update
+	pkgrel = 1
+	url = https://developer.arm.com/open-source/gnu-toolchain/gnu-rm
+	arch = x86_64
+	license = custom
+	depends = glibc
+	optdepends = arm-none-eabi-gdb: GNU Debugger for ARM EABI
+	provides = gcc-arm-none-eabi
+	provides = gcc-arm-none-eabi-73
+	provides = arm-none-eabi-gcc
+	provides = arm-none-eabi-gcc-73
+	provides = arm-none-eabi-binutils
+	provides = arm-none-eabi-binutils-73
+	provides = arm-none-eabi-newlib
+	provides = arm-none-eabi-newlib-73
+	options = !strip
+	options = staticlibs
+	source = https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2
+	md5sums = 299ebd3f1c2c90930d28ab82e5d8d6c0
+	sha256sums = bb17109f0ee697254a5d4ae6e5e01440e3ea8f0277f2e8169bf95d07c7d5fe69
+
+pkgname = gcc-arm-none-eabi-bin-73
+

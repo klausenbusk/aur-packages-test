@@ -1,0 +1,16 @@
+pkgbase = python-python-magic
+	pkgdesc = File type identification using libmagic
+	pkgver = 0.4.25
+	pkgrel = 1
+	url = http://github.com/ahupp/python-magic
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = file
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/p/python-magic/python-magic-0.4.25.tar.gz
+	sha256sums = 21f5f542aa0330f5c8a64442528542f6215c8e18d2466b399b0d9d39356d83fc
+
+pkgname = python-python-magic
+	depends = file
+	depends = python

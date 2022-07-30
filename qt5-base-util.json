@@ -1,0 +1,19 @@
+pkgbase = qt5-base-util
+	pkgdesc = A cross-platform application and UI framework
+	pkgver = 5.15.2+kde+r171
+	pkgrel = 1
+	url = https://www.qt.io
+	arch = x86_64
+	groups = qt
+	groups = qt5
+	license = GPL3
+	license = LGPL3
+	license = FDL
+	license = custom
+	depends = qt5-base
+	depends = git
+	source = git+https://invent.kde.org/qt/qt/$_pkgfqn#commit=$_commit
+	sha256sums = SKIP
+
+pkgname = qt5-base-util
+

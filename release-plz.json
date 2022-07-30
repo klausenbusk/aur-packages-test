@@ -1,0 +1,17 @@
+pkgbase = release-plz
+	pkgdesc = Release Rust packages without using the command line
+	pkgver = 0.2.19
+	pkgrel = 1
+	url = https://github.com/MarcoIeni/release-plz
+	arch = x86_64
+	license = MIT
+	license = Apache
+	checkdepends = git
+	makedepends = cargo
+	depends = gcc-libs
+	depends = curl
+	options = !lto
+	source = release-plz-0.2.19.tar.gz::https://github.com/MarcoIeni/release-plz/archive/release-plz-v0.2.19.tar.gz
+	sha512sums = 9d9d07850b51b6b301ba56f9b5c6336c63faf69961f7bd8e80acce2e11ff795ee60d93262a9c17a88b7963fdd8010b469885650323a2de5750439fba3b110d97
+
+pkgname = release-plz

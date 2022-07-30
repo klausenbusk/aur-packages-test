@@ -1,0 +1,14 @@
+pkgbase = python2-yapf
+	pkgdesc = Python style guide checker
+	pkgver = 0.28.0
+	pkgrel = 1
+	url = https://github.com/google/yapf
+	arch = any
+	license = Apache
+	checkdepends = python2-nose
+	depends = python2-setuptools
+	source = yapf-0.28.0.tar.gz::https://github.com/google/yapf/archive/v0.28.0.tar.gz
+	sha512sums = be9ed5278d085797aba4a582a37295716c76fd10a4cea4bb5090794dd53eba6d1340d8ba7508e33a146f189a863578c95b0a651bbfd90b0390076028e03ad9bf
+
+pkgname = python2-yapf
+

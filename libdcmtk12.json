@@ -1,0 +1,23 @@
+pkgbase = libdcmtk12
+	pkgdesc = OFFIS DICOM toolkit runtime libraries.
+	pkgver = 3.6.2
+	pkgrel = 3
+	url = https://packages.ubuntu.com/artful/libdcmtk12
+	arch = i686
+	arch = x86_64
+	depends = charls1>=1.0
+	depends = icu57>=57.1
+	depends = libpng>=1.6.2
+	depends = libtiff>=4.0.3
+	depends = libwrap>=7.6
+	depends = libxml2>=2.7.4
+	depends = openssl-1.0>=1.0.2beta3
+	depends = zlib>=1.1.4
+	options = !strip
+	options = !emptydirs
+	source_i686 = http://mirrors.kernel.org/ubuntu/pool/universe/d/dcmtk/libdcmtk-dev_3.6.2-3build3_i386.deb
+	sha512sums_i686 = 62ef906a5b70a20a416c0fa01ea0b5840173ee03cc39c869ef6b847bb417b31a2dc869856b447f871aad4cbd8f039eed4736efd12d1f3fce89d3abf52dddc60d
+	source_x86_64 = http://mirrors.kernel.org/ubuntu/pool/universe/d/dcmtk/libdcmtk12_3.6.2-3build3_amd64.deb
+	sha512sums_x86_64 = 53d27c281210ac0923d9192e3a20d41b28835266b1cb48bdb17cb03750b3dc1b0a08ac1aad5756c28a3df04fc8689e5edf2bfc9e1036497fdc46429363772ebb
+
+pkgname = libdcmtk12

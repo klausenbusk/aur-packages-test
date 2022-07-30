@@ -1,0 +1,18 @@
+pkgbase = ttf-caladea
+	pkgdesc = Googles Caladea font
+	pkgver = 20130214
+	pkgrel = 1
+	url = https://code.google.com/p/chromium/issues/detail?id=168879
+	arch = any
+	license = Apache
+	depends = fontconfig
+	depends = xorg-fonts-encodings
+	depends = xorg-font-utils
+	provides = ttf-font
+	source = ttf-caladea-20130214.tar.gz::http://commondatastorage.googleapis.com/chromeos-localmirror/distfiles/crosextrafonts-20130214.tar.gz
+	source = 30-0-caladea.conf
+	sha256sums = c48d1c2fd613c9c06c959c34da7b8388059e2408d2bb19845dc3ed35f76e4d09
+	sha256sums = 5d6400972219d571b1d089607f89d1dbd3bc075a1ab0edf7c8554df169c12d4b
+
+pkgname = ttf-caladea
+

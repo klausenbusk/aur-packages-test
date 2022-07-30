@@ -1,0 +1,21 @@
+pkgbase = koodo-reader
+	pkgdesc = A cross-platform ebook reader
+	pkgver = 1.3.4
+	pkgrel = 1
+	url = https://koodo.960960.xyz/
+	arch = x86_64
+	license = GNU Affero General Public License v3.0
+	depends = gtk3
+	depends = libnotify
+	depends = nss
+	depends = libxss
+	depends = libxtst
+	depends = xdg-utils
+	depends = at-spi2-core
+	depends = util-linux-libs
+	depends = libappindicator-gtk3
+	depends = libsecret
+	source = https://github.com/troyeguo/koodo-reader/releases/download/v1.3.4/Koodo.Reader-1.3.4.deb
+	sha256sums = f380aa60b5a21e1d1e1ff2502a98f307d68f1398cf79a48793b2ff1d044edffa
+
+pkgname = koodo-reader

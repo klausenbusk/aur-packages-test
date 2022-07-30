@@ -1,0 +1,17 @@
+pkgbase = opkg
+	pkgdesc = Opkg is a lightweight package management system based upon ipkg
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://code.google.com/archive/p/opkg/
+	arch = i386
+	arch = x86_64
+	license = GPL
+	depends = curl
+	depends = libarchive
+	depends = gpgme
+	depends = libsolv>=0.6.28
+	source = http://downloads.yoctoproject.org/releases/opkg/opkg-0.4.1.tar.gz
+	sha256sums = 45ac1e037d3877f635d883f8a555e172883a25d3eeb7986c75890fdd31250a43
+
+pkgname = opkg
+

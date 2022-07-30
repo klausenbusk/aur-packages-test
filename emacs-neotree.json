@@ -1,0 +1,13 @@
+pkgbase = emacs-neotree
+	pkgdesc = A emacs tree plugin like NerdTree for Vim.
+	pkgver = 0.5.2
+	pkgrel = 1
+	url = https://github.com/jaypei/emacs-neotree
+	arch = any
+	license = GPL3
+	depends = emacs
+	source = https://github.com/jaypei/emacs-neotree/archive/0.5.2.tar.gz
+	sha256sums = 22dc07fc170ebb2c69353fcd4680a06824fd42b9cc41f6e6715646cf216ba6fd
+
+pkgname = emacs-neotree
+

@@ -1,0 +1,18 @@
+pkgbase = auto-ytdl-git
+	pkgdesc = A youtube-dl wrapper with automatisation features. Run from terminal: aytdl
+	pkgver = 1.3.1.r0.gee256cc
+	pkgrel = 1
+	url = https://github.com/michaelb/auto-ytdl
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = git
+	depends = ffmpeg
+	depends = youtube-dl
+	depends = kid3-cli
+	depends = python-pip
+	provides = auto-ytdl
+	source = auto-ytdl-git::git+http://github.com/michaelb/auto-ytdl.git
+	md5sums = SKIP
+
+pkgname = auto-ytdl-git

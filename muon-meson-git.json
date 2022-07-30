@@ -1,0 +1,20 @@
+pkgbase = muon-meson-git
+	pkgdesc = meson implementation in C
+	pkgver = r1815.ba783656693ab3d6f4d6
+	pkgrel = 1
+	url = https://sr.ht/~lattis/muon
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = ninja
+	makedepends = python-yaml
+	makedepends = scdoc
+	depends = pkgconf
+	depends = curl
+	depends = zlib
+	depends = libarchive
+	provides = muon
+	source = git+https://git.sr.ht/~lattis/muon
+	sha256sums = SKIP
+
+pkgname = muon-meson-git

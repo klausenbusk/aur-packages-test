@@ -1,0 +1,21 @@
+pkgbase = geoipupdate
+	pkgdesc = The GeoIP Update program performs automatic updates of GeoIP2 and GeoIP Legacy binary databases.
+	pkgver = 4.2.2
+	pkgrel = 1
+	url = http://dev.maxmind.com/geoip/geoipupdate
+	install = geoipupdate.install
+	changelog = geoipupdate.changelog
+	arch = x86_64
+	license = Apache
+	provides = geoipupdate
+	source = https://github.com/maxmind/geoipupdate/releases/download/v4.2.2/geoipupdate_4.2.2_linux_amd64.tar.gz
+	source = geoipupdate.install
+	source = geoipupdate.service
+	source = geoipupdate.timer
+	sha512sums = cd946f05ace71ddfc368db00dd4d3ae378f6ac311cf7d7af7afb6fa6420ba50d2a0e1bdce42ad53e2ae8ef1e1644c47ba405859e31f335e0265ff3babbc6a5ab
+	sha512sums = 9283bffa892889a406c5c80d8d08a127de0d65015352d71bc6444f3c83724b2baf9e7ae77690b1fd0070c8fb9ff921b235d17ebaa832e26b79237b314d5a527b
+	sha512sums = 8eac86cdaac1796548b1cad24a6dcfbf8dd7a410eefd9dec74fc9775248f1a6fe68be0fd2b8ffcc6b5ab74380d988a7407b3cf889aee32d43ca79ad3a3686aab
+	sha512sums = 1d865e31eccd7597093df83da05f3866a361e9f68bcc1f1fa10d72cc2fae8a789d9c2cee445cf81f2384a3415ebd12d2c485d6dfe8401ea005f7c111a6331dd2
+
+pkgname = geoipupdate
+

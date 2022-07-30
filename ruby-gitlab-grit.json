@@ -1,0 +1,19 @@
+pkgbase = ruby-gitlab-grit
+	pkgdesc = Ruby Git bindings.
+	pkgver = 2.8.3
+	pkgrel = 1
+	url = http://github.com/gitlabhq/grit
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-charlock_holmes
+	depends = ruby-posix-spawn
+	depends = ruby-mime-types-2
+	depends = ruby-diff-lcs
+	noextract = gitlab-grit-2.8.3.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/gitlab-grit-2.8.3.gem
+	sha1sums = 32344465ee04f9f564c85a1a84a09db56e307a14
+
+pkgname = ruby-gitlab-grit
+

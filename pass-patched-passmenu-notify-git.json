@@ -1,0 +1,21 @@
+pkgbase = pass-patched-passmenu-notify-git
+	pkgdesc = DEFUNCT: Use passmenu-notify-git instead
+	pkgver = 0.0.1
+	pkgrel = 1
+	epoch = 1
+	arch = any
+	license = GPL2
+	depends = xclip
+	depends = bash
+	depends = gnupg
+	depends = tree
+	optdepends = git: for Git support
+	optdepends = dmenu: for passmenu
+	optdepends = libnotify: for passmenu desktop notifications
+	provides = pass
+	provides = passmenu
+	conflicts = passmenu
+	replaces = passmenu
+
+pkgname = pass-patched-passmenu-notify-git
+

@@ -1,0 +1,16 @@
+pkgbase = python-discogs-api
+	pkgdesc = Interface to the Discogs REST API
+	pkgver = 0.1.0
+	pkgrel = 2
+	url = https://github.com/grawlinson/python-discogs-api
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python-six
+	depends = python-requests
+	depends = python-oauthlib
+	source = python-discogs-api-0.1.0.tar.gz::https://github.com/grawlinson/python-discogs-api/archive/v0.1.0.tar.gz
+	sha512sums = 82213b3cf29a5d2770a5c3fbd9426fda22af09c1b0ba52970478f0384a8c13e845446ac84c2527738677dd1082756198f7f0b4ed217c58d272b550d750f8dee2
+
+pkgname = python-discogs-api
+

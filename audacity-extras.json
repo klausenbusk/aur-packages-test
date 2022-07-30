@@ -1,0 +1,13 @@
+pkgbase = audacity-extras
+	pkgdesc = All nyquist plugins for audacity
+	pkgver = 2.2.1
+	pkgrel = 1
+	url = localhost:43110
+	arch = any
+	license = GPL2
+	depends = audacity
+	source = git+https://github.com/triceratops1/audacity-plugin.git
+	sha384sums = SKIP
+
+pkgname = audacity-extras
+

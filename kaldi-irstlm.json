@@ -1,0 +1,22 @@
+pkgbase = kaldi-irstlm
+	pkgdesc = Speech recognition research toolkit
+	pkgver = r94.c358d7b
+	pkgrel = 2
+	url = https://github.com/kaldi-asr/kaldi
+	arch = x86_64
+	arch = i686
+	license = APACHE
+	makedepends = git
+	makedepends = wget
+	makedepends = python
+	makedepends = python2
+	makedepends = subversion
+	source = git+https://github.com/irstlm-team/irstlm
+	source = https://github.com/kaldi-asr/kaldi/archive/master.zip
+	source = install_irstlm.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = f23734f32d89c7529879e5f48519c8687b384281de261d17cfa59166ec56c6e1
+
+pkgname = kaldi-irstlm
+

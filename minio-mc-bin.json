@@ -1,0 +1,15 @@
+pkgbase = minio-mc-bin
+	pkgdesc = Minio client, binary version
+	pkgver = 2021_03_23T05_46_11Z
+	pkgrel = 1
+	url = https://min.io
+	arch = x86_64
+	arch = aarch64
+	license = Apache 2.0
+	source_x86_64 = mc_x86_64::https://dl.minio.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2021-03-23T05-46-11Z
+	sha256sums_x86_64 = 088efeb053cdb06f8450533452ad0fae859758134a953cb353072236d2abb4ee
+	source_aarch64 = mc_aarch64::https://dl.minio.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2021-03-23T05-46-11Z
+	sha256sums_aarch64 = 64267cd348ff42af9691063dbb21d0d562bb354710fbf113bffffe2f37b0e9d3
+
+pkgname = minio-mc-bin
+

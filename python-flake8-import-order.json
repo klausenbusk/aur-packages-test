@@ -1,0 +1,18 @@
+pkgbase = python-flake8-import-order
+	pkgdesc = Flake8 and pylama plugin that checks the ordering of import statements
+	pkgver = 0.18.1
+	pkgrel = 3
+	url = https://github.com/PyCQA/flake8-import-order
+	arch = any
+	license = LGPL3
+	checkdepends = flake8
+	checkdepends = pylama
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	depends = python-pycodestyle
+	provides = flake8-import-order
+	replaces = flake8-import-order
+	source = https://github.com/PyCQA/flake8-import-order/archive/0.18.1.tar.gz
+	sha512sums = 47e1ef1708a329b93a64cd4223af36bf82b2f0213bd9d5770da2445ce2b2859b333817306e9116075fbc0f83fb0b7c53e0c5f352d4439cfbd41805b9017175d8
+
+pkgname = python-flake8-import-order

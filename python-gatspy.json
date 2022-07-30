@@ -1,0 +1,16 @@
+pkgbase = python-gatspy
+	pkgdesc = General tools for Astronomical Time Series in Python
+	pkgver = 0.3
+	pkgrel = 2
+	url = https://github.com/astroml/gatspy
+	changelog = CHANGES.md
+	arch = any
+	license = BSD
+	depends = python-numpy>=1.8
+	depends = python-scipy
+	optdepends = python-astroml
+	optdepends = python-supersmoother
+	source = python-gatspy-0.3.tar.gz::https://github.com/astroml/gatspy/archive/v0.3.tar.gz
+	sha256sums = 312e2a75f77a102b39a97d4d50db254c5fd6737a1f78f5bd787627390a20cea4
+
+pkgname = python-gatspy

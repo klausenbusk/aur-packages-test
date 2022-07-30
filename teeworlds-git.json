@@ -1,0 +1,31 @@
+pkgbase = teeworlds-git
+	pkgdesc = Multiplayer 2D shooter
+	pkgver = 0.7.5.5677.d8a4c0e2b
+	pkgrel = 1
+	url = https://teeworlds.com
+	arch = x86_64
+	license = custom
+	makedepends = python
+	makedepends = git
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = imagemagick
+	makedepends = gtest
+	depends = alsa-lib
+	depends = glu
+	depends = sdl2
+	depends = freetype2
+	depends = pnglite
+	depends = wavpack
+	depends = openssl
+	provides = teeworlds
+	conflicts = teeworlds
+	source = git+https://github.com/teeworlds/teeworlds.git
+	source = git+https://github.com/teeworlds/teeworlds-translation.git
+	source = git+https://github.com/teeworlds/teeworlds-maps.git
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = teeworlds-git
+

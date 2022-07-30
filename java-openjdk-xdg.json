@@ -1,0 +1,129 @@
+pkgbase = java-openjdk-xdg
+	pkgver = 18.0.1.1.u2
+	pkgrel = 1
+	url = https://openjdk.java.net/
+	arch = x86_64
+	license = custom
+	makedepends = java-environment>=11
+	makedepends = cpio
+	makedepends = unzip
+	makedepends = zip
+	makedepends = libelf
+	makedepends = libcups
+	makedepends = libx11
+	makedepends = libxrender
+	makedepends = libxtst
+	makedepends = libxt
+	makedepends = libxext
+	makedepends = libxrandr
+	makedepends = alsa-lib
+	makedepends = pandoc
+	makedepends = graphviz
+	makedepends = freetype2
+	makedepends = libjpeg-turbo
+	makedepends = giflib
+	makedepends = libpng
+	makedepends = lcms2
+	makedepends = libnet
+	makedepends = bash
+	makedepends = harfbuzz
+	makedepends = gcc-libs
+	makedepends = glibc
+	provides = jre-openjdk-headless
+	provides = jre-openjdk
+	provides = jdk-openjdk
+	provides = openjdk-src
+	provides = openjdk-doc
+	conflicts = jre-openjdk-headless
+	conflicts = jre-openjdk
+	conflicts = jdk-openjdk
+	conflicts = openjdk-src
+	conflicts = openjdk-doc
+	options = !lto
+	source = https://github.com/openjdk/jdk18u/archive/jdk-18.0.1.1+2.tar.gz
+	source = freedesktop-java.desktop
+	source = freedesktop-jconsole.desktop
+	source = freedesktop-jshell.desktop
+	source = xdg-basedir-compliant-fontconfig.patch
+	source = xdg-basedir-compliant-userPrefs.patch
+	sha256sums = 57ed6b990b24b1e8b50099a265841add596d2c82e73c7c82bb530a8f53a47732
+	sha256sums = 58bf779332d21151ba47719926ddcc8811ac7bbf414222141dcf40ac54cfaa2d
+	sha256sums = 3a50ded3918024de4e441a46744c8e342faf46441b53c8bac7d589055a28a13c
+	sha256sums = 2cace78ec911f73578991370914753c5b6abe9f7304bcbcb7a3077b8dbc7c867
+	sha256sums = 25860396475759236e0edf66711b842143b0ddee47eed61e080da158bbc58ce9
+	sha256sums = 48f9e40c4ae8eb79d17fb676893a89b95ac43616827725a9d10de2b1f357642c
+
+pkgname = jre-openjdk-headless-xdg
+	pkgdesc = OpenJDK Java 18 headless runtime environment - with improved Support for the XDG Base Directory Specification
+	install = install_jre-openjdk-headless.sh
+	depends = java-runtime-common>=3
+	depends = ca-certificates-utils
+	depends = nss
+	depends = libjpeg-turbo
+	depends = libjpeg.so
+	depends = lcms2
+	depends = liblcms2.so
+	depends = libnet
+	depends = freetype2
+	depends = libfreetype.so
+	depends = harfbuzz
+	depends = libharfbuzz.so
+	depends = glibc
+	depends = gcc-libs
+	optdepends = java-rhino: for some JavaScript support
+	provides = java-runtime-headless=18
+	provides = java-runtime-headless-openjdk=18
+	provides = jre18-openjdk-headless=18.0.1.1.u2-1
+	backup = etc/java-openjdk-xdg/logging.properties
+	backup = etc/java-openjdk-xdg/management/jmxremote.access
+	backup = etc/java-openjdk-xdg/management/jmxremote.password.template
+	backup = etc/java-openjdk-xdg/management/management.properties
+	backup = etc/java-openjdk-xdg/net.properties
+	backup = etc/java-openjdk-xdg/security/java.policy
+	backup = etc/java-openjdk-xdg/security/java.security
+	backup = etc/java-openjdk-xdg/security/policy/README.txt
+	backup = etc/java-openjdk-xdg/security/policy/limited/default_US_export.policy
+	backup = etc/java-openjdk-xdg/security/policy/limited/default_local.policy
+	backup = etc/java-openjdk-xdg/security/policy/limited/exempt_local.policy
+	backup = etc/java-openjdk-xdg/security/policy/unlimited/default_US_export.policy
+	backup = etc/java-openjdk-xdg/security/policy/unlimited/default_local.policy
+	backup = etc/java-openjdk-xdg/sound.properties
+
+pkgname = jre-openjdk-xdg
+	pkgdesc = OpenJDK Java 18 full runtime environment - with improved Support for the XDG Base Directory Specification
+	install = install_jre-openjdk.sh
+	depends = jre18-openjdk-headless=18.0.1.1.u2-1
+	depends = giflib
+	depends = libgif.so
+	depends = glibc
+	depends = gcc-libs
+	depends = libpng
+	optdepends = alsa-lib: for basic sound support
+	optdepends = gtk2: for the Gtk+ 2 look and feel - desktop usage
+	optdepends = gtk3: for the Gtk+ 3 look and feel - desktop usage
+	provides = java-runtime=18
+	provides = java-runtime-openjdk=18
+	provides = jre18-openjdk=18.0.1.1.u2-1
+
+pkgname = jdk-openjdk-xdg
+	pkgdesc = OpenJDK Java 18 development kit - with improved Support for the XDG Base Directory Specification
+	install = install_jdk-openjdk.sh
+	depends = jre18-openjdk=18.0.1.1.u2-1
+	depends = java-environment-common=3
+	depends = hicolor-icon-theme
+	depends = libelf
+	depends = glibc
+	depends = gcc-libs
+	provides = java-environment=18
+	provides = java-environment-openjdk=18
+	provides = jdk18-openjdk=18.0.1.1.u2-1
+
+pkgname = openjdk-src-xdg
+	pkgdesc = OpenJDK Java 18 sources - with improved Support for the XDG Base Directory Specification
+	depends = jdk18-openjdk=18.0.1.1.u2-1
+	provides = openjdk18-src=18.0.1.1.u2-1
+
+pkgname = openjdk-doc-xdg
+	pkgdesc = OpenJDK Java 18 documentation - with improved Support for the XDG Base Directory Specification
+	depends = jdk18-openjdk=18.0.1.1.u2-1
+	provides = openjdk18-doc=18.0.1.1.u2-1

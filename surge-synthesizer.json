@@ -1,0 +1,32 @@
+pkgbase = surge-synthesizer
+	pkgdesc = Surge Synthesizer plugin
+	pkgver = 1.6.6
+	pkgrel = 1
+	url = https://surge-synthesizer.github.io
+	arch = x86_64
+	groups = vst-plugins
+	groups = lv2-plugins
+	license = GPL3
+	makedepends = steinberg-vst36
+	makedepends = premake-git
+	makedepends = git
+	makedepends = rsync
+	depends = cairo
+	depends = fontconfig
+	depends = freetype2
+	depends = libx11
+	depends = xcb-util-cursor
+	depends = xcb-util
+	depends = libxcb
+	depends = xcb-util-renderutil
+	depends = xcb-util-image
+	depends = ttf-lato
+	depends = xdg-utils
+	depends = zenity
+	provides = surge-synthesizer
+	conflicts = surge-synthesizer
+	source = git+https://github.com/surge-synthesizer/surge.git
+	md5sums = SKIP
+
+pkgname = surge-synthesizer
+

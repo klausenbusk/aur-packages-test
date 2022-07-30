@@ -1,0 +1,17 @@
+pkgbase = pktriggercord
+	pkgdesc = Remote control (tethering) for Pentax DSLR cameras
+	pkgver = 0.84.04
+	pkgrel = 1
+	url = http://pktriggercord.melda.info/
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = LGPL3
+	depends = gtk2
+	source = pktriggercord-0.84.04.tar.gz::https://github.com/asalamon74/pktriggercord/releases/download/v0.84.04/pkTriggerCord-0.84.04.src.tar.gz
+	md5sums = 626141d036e2f857ea6fc01b04cdf6db
+
+pkgname = pktriggercord
+

@@ -1,0 +1,11 @@
+pkgbase = ioanaur
+	pkgdesc = Description here
+	pkgver = 1
+	pkgrel = 4
+	url = https://ioan.cc
+	arch = any
+	source = https://raw.githubusercontent.com/ioancole/ioanaur101/master/aprogram.sh
+	md5sums = 6445c32eb304f9de4a34d1d8ff54c23b
+
+pkgname = ioanaur
+

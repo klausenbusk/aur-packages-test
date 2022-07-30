@@ -1,0 +1,18 @@
+pkgbase = javahelp2
+	pkgdesc = Java based help system
+	pkgver = 2.0.05.r90
+	pkgrel = 5
+	url = https://javaee.github.io/javahelp/
+	arch = any
+	license = custom
+	license = CDDL
+	license = GPL2
+	makedepends = apache-ant
+	makedepends = git
+	makedepends = jdk8-openjdk
+	depends = java-runtime
+	source = javahelp2::git+https://github.com/javaee/javahelp.git#commit=3ca862d8626096770598a3a256886d205246f4a4
+	sha256sums = SKIP
+
+pkgname = javahelp2
+

@@ -1,0 +1,25 @@
+pkgbase = av1an
+	pkgdesc = A cross-platform all-in-one tool for streamlining AV1 encoding
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/master-of-zen/Av1an
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	makedepends = nasm
+	makedepends = clang
+	depends = ffmpeg
+	depends = aom
+	depends = vapoursynth
+	optdepends = svt-av1: SVT-AV1 encoder support
+	optdepends = rav1e: rav1e encoder support
+	optdepends = libvpx: vpx encoder support
+	optdepends = vmaf: VMAF calculation support
+	optdepends = mkvtoolnix-cli: mkvmerge support
+	optdepends = ffms2
+	optdepends = vapoursynth-plugin-lsmashsource
+	conflicts = python-av1an
+	source = av1an-0.2.0.tar.gz::https://static.crates.io/crates/av1an/av1an-0.2.0.crate
+	sha256sums = 988779c38626fdaa60a76ceb4156b95a26cb65696dc99a49a2b6cc1ba79755cd
+
+pkgname = av1an

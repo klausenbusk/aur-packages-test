@@ -1,0 +1,16 @@
+pkgbase = pscale-cli
+	pkgdesc = PlanetScale CLI client package for Arch
+	pkgver = 0.107.0
+	pkgrel = 0
+	url = https://github.com/planetscale/cli
+	install = pscale.install
+	arch = x86_64
+	license = Apache
+	provides = pscale
+	conflicts = pscale
+	conflicts = pscale-git
+	conflicts = pscale-bin
+	source = https://github.com/planetscale/cli/releases/download/v0.107.0/pscale_0.107.0_linux_amd64.tar.gz
+	sha256sums = df02580a148ff35e600b5b7101a5baf8e9a7d12655c86b2c1abcde0bf1040140
+
+pkgname = pscale-cli

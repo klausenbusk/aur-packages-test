@@ -1,0 +1,16 @@
+pkgbase = printmyfonts
+	pkgdesc = A tool to show, print, and/or export an arbitraty text in any font.
+	pkgver = 21.10.12
+	pkgrel = 1
+	url = https://www.sttmedia.com/printmyfonts
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = binutils
+	depends = gtk2
+	source = printmyfonts-21.10.12.zip::https://www.sttmedia.com/downloads/PrintMyFontsDeb64.zip
+	source = LICENSE
+	sha256sums = 818dfd154cbe10dedd079fdf55507db7a8fdca70cae19c89a5e119ad45d7ea1e
+	sha256sums = fa59f78f3c351f2f43f770856d0ca785cc3ea0a1351ef5f239926cd1b72edc4a
+
+pkgname = printmyfonts

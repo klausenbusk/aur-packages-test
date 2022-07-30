@@ -1,0 +1,25 @@
+pkgbase = obinslab-starter
+	pkgdesc = Obinslab Starter for Anne Pro and Anne Pro 2
+	pkgver = 1.0.11
+	pkgrel = 1
+	url = http://en.obins.net/obinslab-starter
+	install = obinslab-starter.install
+	arch = x86_64
+	license = custom
+	depends = desktop-file-utils
+	depends = gconf
+	depends = hicolor-icon-theme
+	depends = libappindicator-gtk2
+	depends = libnotify
+	depends = libxss
+	depends = libxtst
+	depends = nss
+	options = !strip
+	options = !emptydirs
+	source_x86_64 = http://releases.obins.net/occ/linux/tar/ObinslabStarter_1.0.11_x64.tar.gz
+	source_x86_64 = deb_extra_files_obins.tar.gz
+	sha256sums_x86_64 = 00e5d37cbbee1b43ac825d162b4c8092c41dcf70c5f94bd456477e48eb04f75a
+	sha256sums_x86_64 = c1d61e5b9ec27236fc506e7cf5d1748a1d5b02ebf966fc7b0a0089672b287801
+
+pkgname = obinslab-starter
+

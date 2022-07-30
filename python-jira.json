@@ -1,0 +1,20 @@
+pkgbase = python-jira
+	pkgdesc = Python library to work with Jira APIs
+	pkgver = 3.1.1
+	pkgrel = 2
+	url = https://github.com/pycontribs/jira
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python-defusedxml
+	depends = python-keyring
+	depends = python-requests
+	depends = python-requests-oauthlib
+	depends = python-requests-toolbelt
+	optdepends = ipython
+	source = https://github.com/pycontribs/jira/archive/refs/tags/3.1.1.tar.gz
+	source = version.patch
+	sha256sums = 09751e025ed8cb69dcee3fd71cd8b6870b97a5eba3b3a4af405bf27530e8d049
+	sha256sums = d77b1bbc6b27a1d100bf4362ada5ef6bf887cc2b25f8fd72d8d169a354cdf9a4
+
+pkgname = python-jira

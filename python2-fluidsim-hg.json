@@ -1,0 +1,22 @@
+pkgbase = python2-fluidsim-hg
+	pkgdesc = FluidDyn project | FluidSim | Simulation package for CFD.
+	pkgver = 0.2.2.r901.4c8d09d98df4
+	pkgrel = 2
+	url = https://foss.heptapod.net/fluiddyn/fluidsim
+	arch = any
+	license = custom:"CeCILL"
+	makedepends = cython2
+	makedepends = mercurial
+	makedepends = python2-setuptools
+	depends = python2
+	depends = python2-fluiddyn
+	depends = python2-fluidfft
+	optdepends = fftw-mpi: parallelized solvers
+	optdepends = openmpi: parallelized solvers
+	optdepends = python2-mpi4py: parallelized solvers
+	provides = python2-fluidsim
+	source = hg+https://foss.heptapod.net/fluiddyn/fluidsim
+	sha256sums = SKIP
+
+pkgname = python2-fluidsim-hg
+

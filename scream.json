@@ -1,0 +1,20 @@
+pkgbase = scream
+	pkgdesc = A Scream audio receiver using Pulseaudio, ALSA or stdout as audio output
+	pkgver = 3.9
+	pkgrel = 2
+	url = https://github.com/duncanthrax/scream
+	arch = x86_64
+	license = custom:MS-PL
+	makedepends = cmake
+	depends = jack
+	depends = libpulse
+	depends = libsoxr
+	depends = alsa-lib
+	provides = scream
+	conflicts = scream
+	conflicts = scream-pulse
+	conflicts = scream-alsa
+	source = https://github.com/duncanthrax/scream/archive/3.9.tar.gz
+	sha256sums = 0a089ddc26930bcd9014c473245282081ea7e97f3727d771816eebef998c676e
+
+pkgname = scream

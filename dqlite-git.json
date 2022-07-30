@@ -1,0 +1,19 @@
+pkgbase = dqlite-git
+	pkgdesc = Distributed SQLite
+	pkgver = r604.faf62f4
+	pkgrel = 1
+	url = https://github.com/canonical/dqlite
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	depends = libuv>=1.8.0
+	depends = sqlite-replication>=3.22.0
+	depends = raft
+	depends = libco
+	provides = dqlite
+	conflicts = dqlite
+	source = git+https://github.com/canonical/dqlite.git
+	sha256sums = SKIP
+
+pkgname = dqlite-git
+

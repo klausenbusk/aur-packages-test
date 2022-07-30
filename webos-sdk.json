@@ -1,0 +1,35 @@
+pkgbase = webos-sdk
+	pkgver = 6.0.1
+	pkgrel = 1
+	url = http://webostv.developer.lge.com/sdk/installation/
+	arch = x86_64
+	license = custom:LG Software Development Kit License Agreement
+	license = APACHE
+	makedepends = unzip
+	options = staticlibs
+	source = local:///webOS_SDK_TV_Installer_linux64_full.zip
+	source = cli.patch
+	source = emulator.patch
+	source = webOS TV Emulator v6.0.0.desktop
+	source = webOSIDE TV.desktop
+	source = ide-launcher.sh
+	sha512sums = SKIP
+	sha512sums = d2587eb95877c20ad37eb43147c4ce8538d9d3061b2b4b4ce5118a27880cbafcba8c3c0268865f47510f8a85b7d50a62e9978714e1ace78d8ec79862b5903d7b
+	sha512sums = 7a7128a88ce824a7e4afb8b6590002cbb58655db8389b4c7535ef3645edae1f0c84ca628a86f0663a44ee96c6e448f1f4a5f53545ece3ad36115662ca6e029c3
+	sha512sums = d71730e1463e08ac018c5d4782f36df9d6b93decfe823441e9836b51443a4c9ef473f3be931febc72c9c875539b5f79a1ca90a5539585c5f7067cc144e173cb4
+	sha512sums = 60655118d3880b07ea19af1a316ecfc4b649cdd2b9672db5c8ce5c32cb246b8ff3cc4ec82b176b042c3622f3897e6702e8e30c060576869b826f25d2d5a472f1
+	sha512sums = 62d6de217f9a02deda2b945793a9a4df56264688c32406e5962336b8c4a00d74d84dfd14f86a8651d1ffc4cccecf50b6f3e3ead34bc9033eea27b60f2643568f
+
+pkgname = webos-cli
+	pkgdesc = LG webOS SDK cli tool
+
+pkgname = webos-emulator
+	pkgdesc = LG webOS Emulator
+	depends = virtualbox
+	depends = webos-cli
+	depends = java-runtime
+
+pkgname = webos-ide
+	pkgdesc = LG webOS IDE based on Eclipse
+	depends = webos-cli
+	optdepends = webos-emulator: Debugging in VirtualBox VM

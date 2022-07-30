@@ -1,0 +1,18 @@
+pkgbase = pypy2-revdb
+	pkgdesc = PyPy2 compiled with revdb
+	pkgver = 7.3.1
+	pkgrel = 1
+	url = https://pypy.org
+	arch = any
+	license = MIT
+	makedepends = pypy
+	makedepends = python2-cffi
+	makedepends = python2-setuptools
+	depends = python2-cffi
+	provides = pypy2-revdb
+	conflicts = pypy2-revdb
+	source = pypy2-revdb-7.3.1.tar.bz2::https://downloads.python.org/pypy/pypy2.7-v7.3.1-src.tar.bz2
+	md5sums = 7608bd58940ffc5403632c2c786d83bb
+
+pkgname = pypy2-revdb
+

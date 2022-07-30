@@ -1,0 +1,18 @@
+pkgbase = orbterm
+	pkgdesc = The default terminal for RedoxOS, compatible with Linux
+	pkgver = 0.3.6
+	pkgrel = 3
+	url = https://gitlab.redox-os.org/redox-os/orbterm
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	depends = sdl2
+	source = orbterm-0.3.6-3.tar.gz::https://gitlab.redox-os.org/redox-os/orbterm/-/archive/0.3.6/orbterm-0.3.6.tar.gz
+	sha256sums = c2962e9fca39f3ce51f5dafe4077112cc4ee292f19aa978cac89e6320c36be8c
+
+pkgname = orbterm

@@ -1,0 +1,20 @@
+pkgbase = cocainate-bin
+	pkgdesc = Cross-platform caffeinate alternative.
+	pkgver = 1.0.18
+	pkgrel = 1
+	url = https://github.com/AppleGamer22/cocainate
+	license = GPL3
+	optdepends = bash
+	optdepends = fish
+	optdepends = zsh
+	depends = dbus
+	conflicts = cocainate
+	provides = cocainate
+	arch = aarch64
+	source_aarch64 = https://github.com/AppleGamer22/cocainate/releases/download/v1.0.18/cocainate_1.0.18_linux_arm64.tar.gz
+	sha256sums_aarch64 = 16e81af309c2983d602ee52c73edb2b9a5613ec0a668475c24b8f10620ca650a
+	arch = x86_64
+	source_x86_64 = https://github.com/AppleGamer22/cocainate/releases/download/v1.0.18/cocainate_1.0.18_linux_amd64.tar.gz
+	sha256sums_x86_64 = 7a8e2afdd9201de7a1491e59ace130018b7f520d9e38a06dc9a7198b0cbe8552
+	
+pkgname = cocainate-bin

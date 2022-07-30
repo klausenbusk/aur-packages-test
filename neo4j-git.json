@@ -1,0 +1,37 @@
+pkgbase = neo4j-git
+	pkgdesc = A fully transactional graph database implemented in Java
+	pkgver = 3.5.0.alpha02.r224.25bd3fa979e
+	pkgrel = 2
+	url = http://neo4j.org/
+	install = neo4j.install
+	arch = any
+	license = custom
+	makedepends = git
+	makedepends = maven
+	makedepends = tar
+	depends = java-runtime-headless=8
+	conflicts = neo4j-enterprise
+	conflicts = neo4j-community
+	options = !strip
+	backup = etc/neo4j/neo4j.conf
+	source = neo4j-git::git+https://github.com/neo4j/neo4j.git
+	source = bin.patch
+	source = neo4j.conf
+	source = neo4j.install
+	source = neo4j.service
+	source = neo4j
+	source = neo4j-admin
+	source = neo4j-import
+	source = neo4j-shell
+	sha256sums = SKIP
+	sha256sums = 163a1fad08a26c1367ea24a09e3231dab9aa0ed6b86b6421663cad622e2b680b
+	sha256sums = 9eea28f61efcdcee6b927d8a941adf2409fd0375619727ff5070d12b09153096
+	sha256sums = f95936abc4a519b01d2cd987cd38a253003cf4cd39bfab29948708e82d98de66
+	sha256sums = 4604cd10e0c274ed8d2306f1ab3d6e62c31cfc7f0aee4de9feb97759740c38d7
+	sha256sums = 4b5573eac61334163ad1fd45b9edaf2aa281e80596c0c61d0e18525a63baa640
+	sha256sums = 4b5573eac61334163ad1fd45b9edaf2aa281e80596c0c61d0e18525a63baa640
+	sha256sums = 4b5573eac61334163ad1fd45b9edaf2aa281e80596c0c61d0e18525a63baa640
+	sha256sums = 4b5573eac61334163ad1fd45b9edaf2aa281e80596c0c61d0e18525a63baa640
+
+pkgname = neo4j-git
+

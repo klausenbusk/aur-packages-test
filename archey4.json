@@ -1,0 +1,30 @@
+pkgbase = archey4
+	pkgdesc = A simple system information tool written in Python
+	pkgver = v4.13.4
+	pkgrel = 1
+	url = https://github.com/HorlogeSkynet/archey4.git
+	install = archey4.install
+	arch = any
+	groups = utils
+	license = GPLv3
+	makedepends = python-setuptools
+	depends = python>=3.6
+	depends = python-distro
+	depends = python-netifaces
+	optdepends = bind-tools: WAN_IP would be detected faster
+	optdepends = lm_sensors: Temperature would be more accurate
+	optdepends = pciutils: GPU wouldn't be detected without it
+	optdepends = procps-ng: Many entries wouldn't work without it
+	optdepends = virt-what: Model would contain details about the hypervisor
+	optdepends = wmctrl: WindowManager would be more accurate
+	provides = archey
+	conflicts = archey-git
+	conflicts = archey2
+	conflicts = archey3-git
+	conflicts = pyarchey
+	backup = etc/archey4/config.json
+	source = archey4_v4.13.4-1.tar.gz::https://github.com/HorlogeSkynet/archey4/archive/v4.13.4.tar.gz
+	md5sums = b5f6cea12b20b35209fab14f4f021de0
+	sha1sums = a95218466f2a06bb1ad9a300744cb1f37d5ffc75
+
+pkgname = archey4

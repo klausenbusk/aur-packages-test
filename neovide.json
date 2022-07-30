@@ -1,0 +1,25 @@
+pkgbase = neovide
+	pkgdesc = No Nonsense Neovim Client in Rust
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://github.com/Kethku/neovide
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = gtk3
+	makedepends = cmake
+	makedepends = sdl2
+	makedepends = make
+	makedepends = python
+	depends = neovim
+	depends = fontconfig
+	depends = freetype2
+	depends = libglvnd
+	depends = sndio
+	optdepends = vulkan-intel: vulkan support for intel
+	provides = neovide
+	conflicts = neovide-git
+	source = neovide-0.8.0.tar.gz::https://github.com/Kethku/neovide/archive/0.8.0.tar.gz
+	sha256sums = 1fc759a028e6663893b08c010eb3aa8da6d33ee2c96bb789447122701552ad1b
+
+pkgname = neovide

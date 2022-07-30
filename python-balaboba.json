@@ -1,0 +1,14 @@
+pkgbase = python-balaboba
+	pkgdesc = Wrapper for Yandex Balaboba
+	pkgver = 1.0.9
+	pkgrel = 1
+	url = https://github.com/monosans/balaboba
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-cloudscraper
+	source = https://files.pythonhosted.org/packages/source/b/balaboba/balaboba-1.0.9.tar.gz
+	sha256sums = 02bc1be1caa751790d367ae65eab4d82629688984d9a641b3d9191f95e84f519
+
+pkgname = python-balaboba

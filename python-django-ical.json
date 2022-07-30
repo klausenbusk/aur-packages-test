@@ -1,0 +1,22 @@
+pkgbase = python-django-ical
+	pkgdesc = iCal feeds for Django based on Django's syndication feed framework
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://github.com/jazzband/django-ical
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python2
+	makedepends = python2-setuptools
+	source = django-ical-1.7.0.tar.gz::https://github.com/jazzband/django-ical/archive/1.7.0.tar.gz
+	sha256sums = 43e505044624e1660ee1516f457648e81e985e3512f57e49438add41ac407ea5
+
+pkgname = python-django-ical
+	depends = python-django
+	depends = python-icalendar
+
+pkgname = python2-django-ical
+	depends = python2-django
+	depends = python2-icalendar
+

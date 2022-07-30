@@ -1,0 +1,15 @@
+pkgbase = python-arpy
+	pkgdesc = Library for accessing 'ar' files
+	pkgver = 2.3.0
+	pkgrel = 1
+	url = https://pypi.org/pypi/arpy
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python
+	source = https://pypi.org/packages/source/a/arpy/arpy-2.3.0.tar.gz
+	source = LICENSE.txt
+	sha256sums = 8302829a991cfcef2630b61e00f315db73164021cecbd7fb1fc18525f83f339c
+	sha256sums = f787c775443ab80564df12aade9809d710ae43f3e11962a0385470bad0b6134c
+
+pkgname = python-arpy

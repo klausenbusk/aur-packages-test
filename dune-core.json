@@ -1,0 +1,24 @@
+pkgbase = dune-core
+	pkgdesc = Metapackage to install modules of DUNE Numerics.
+	pkgver = 2.8.0
+	pkgrel = 1
+	url = https://dune-project.org
+	arch = any
+	license = none
+	depends = dune-alugrid
+	depends = dune-common
+	depends = dune-foamgrid
+	depends = dune-functions
+	depends = dune-geometry
+	depends = dune-grid
+	depends = dune-grid-glue
+	depends = dune-istl
+	depends = dune-localfunctions
+	depends = dune-logging
+	depends = dune-multidomaingrid
+	depends = dune-pdelab
+	depends = dune-spgrid
+	depends = dune-typetree
+	depends = dune-uggrid
+
+pkgname = dune-core

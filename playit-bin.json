@@ -1,0 +1,12 @@
+pkgbase = playit-bin
+	pkgdesc = A tunneling tool so you can host a game server at home without port forwarding or sharing your public IP.
+	pkgver = 0.4.7
+	pkgrel = 1
+	url = https://playit.gg
+	arch = x86_64
+	license = custom
+	provides = playit
+	source = playit-0.4.7::https://playit.gg/downloads/playit-linux_64-0.4.7
+	sha256sums = SKIP
+
+pkgname = playit-bin

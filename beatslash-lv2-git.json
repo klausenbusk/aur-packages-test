@@ -1,0 +1,22 @@
+pkgbase = beatslash-lv2-git
+	pkgdesc = A set of LV2 plugins to mangle, slash, repeat and do much more with your beats (git version).
+	pkgver = 1.0.5.r30.45044ce
+	pkgrel = 2
+	url = http://objectivewave.wordpress.com/beatslash-lv2/
+	arch = i686
+	arch = x86_64
+	groups = lv2-plugins
+	license = GPL
+	makedepends = python2
+	makedepends = lvtk
+	depends = lv2
+	depends = gtkmm
+	provides = lv2.beatslash
+	provides = beatslash-lv2
+	conflicts = lv2.beatslash
+	conflicts = beatslash-lv2
+	source = beatslash-lv2::git+https://github.com/blablack/beatslash-lv2.git
+	md5sums = SKIP
+
+pkgname = beatslash-lv2-git
+

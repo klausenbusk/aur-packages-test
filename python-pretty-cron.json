@@ -1,0 +1,13 @@
+pkgbase = python-pretty-cron
+	pkgdesc = Converts crontab expressions to human-readable descriptions.
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/adamchainz/pretty-cron
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = python
+	source = https://github.com/adamchainz/pretty-cron/archive/1.2.0.tar.gz
+	md5sums = 8bd4ad0e16859cd7cfd41f77bc17575b
+
+pkgname = python-pretty-cron

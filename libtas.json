@@ -1,0 +1,22 @@
+pkgbase = libtas
+	pkgdesc = Tool-assisted speedrunning utility for Linux-native binaries
+	pkgver = 1.4.3
+	pkgrel = 1
+	url = https://github.com/clementgallet/libTAS
+	arch = x86_64
+	license = GPL3
+	depends = alsa-lib
+	depends = ffmpeg
+	depends = fontconfig
+	depends = freetype2
+	depends = hicolor-icon-theme
+	depends = lua
+	depends = qt5-base
+	depends = sdl2
+	depends = xcb-util-cursor
+	depends = zlib
+	optdepends = lib32-libtas: for 32-bit games support
+	source = https://github.com/clementgallet/libTAS/archive/v1.4.3.tar.gz
+	b2sums = 2f514b74ac4e3d915198fc88e70d495d1cf9a2f794e7a4416089d876a246d9b593278a0e4d2e7604d486b11033a4d1e7cc884dad208938d9075ffc63dc1ef11c
+
+pkgname = libtas

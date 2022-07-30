@@ -1,0 +1,21 @@
+pkgbase = hunspell-fr
+	pkgdesc = French Hunspell dictionary
+	pkgver = 7.0
+	pkgrel = 1
+	url = https://grammalecte.net/home.php?prj=fr
+	arch = any
+	license = MPL2
+	makedepends = qt5-webengine
+	provides = hunspell-fr
+	conflicts = hunspell-fr
+	source = https://grammalecte.net/download/fr/hunspell-french-dictionaries-v7.0.zip
+	sha256sums = eb7ac36dc14b9c3e3c0cabae0f90304a137da8e6ae607bcaf56d65720fbd097f
+
+pkgname = hunspell-fr-classical
+	pkgdesc = French Hunspell dictionary (classical variant)
+
+pkgname = hunspell-fr-comprehensive
+	pkgdesc = French Hunspell dictionary (comprehensive variant)
+
+pkgname = hunspell-fr-revised
+	pkgdesc = French Hunspell dictionary (revised variant)

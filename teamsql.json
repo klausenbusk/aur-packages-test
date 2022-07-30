@@ -1,0 +1,19 @@
+pkgbase = teamsql
+	pkgdesc = Multi-Platform SQL Client
+	pkgver = 3.4.207
+	pkgrel = 1
+	url = https://teamsql.io/
+	arch = x86_64
+	license = custom:https://teamsql.io/end-user-licence-agreement
+	depends = libappindicator
+	depends = libnotify
+	depends = gconf
+	depends = libxtst
+	depends = libxss
+	depends = nss
+	depends = alsa-lib
+	source = TeamSQL-3.4.207.deb::https://dlpuop5av9e02.cloudfront.net/linux/stable/3.4.207/TeamSQL-3.4.207.deb
+	sha512sums = b53a863594252c46091acdbfc2b20958a2224947d6abc511e71376b60e44fa4af703d78467132e4fa2d36ae87807bc11f4af3f40044ee3fe17fbdded3239c270
+
+pkgname = teamsql
+

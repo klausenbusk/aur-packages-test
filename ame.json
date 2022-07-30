@@ -1,0 +1,18 @@
+pkgbase = ame
+	pkgdesc = Fast, efficient and lightweight AUR helper/pacman wrapper
+	pkgver = 3.2.0
+	pkgrel = 1
+	url = https://git.tar.black/crystal/ame
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	depends = git
+	depends = binutils
+	depends = fakeroot
+	depends = openssl
+	depends = sqlite
+	options = !lto
+	source = git+https://git.tar.black/crystal/programs/amethyst.git
+	sha256sums = SKIP
+
+pkgname = ame

@@ -1,0 +1,27 @@
+pkgbase = ferdi-nightly-bin
+	pkgdesc = A messaging browser that allows you to combine your favorite messaging services into one application - nightly binary version
+	pkgver = 5.8.0
+	pkgrel = 1
+	url = https://getferdi.com
+	arch = x86_64
+	license = Apache
+	makedepends = curl
+	makedepends = jq
+	depends = c-ares
+	depends = ffmpeg
+	depends = gtk3
+	depends = libevent
+	depends = libnghttp2
+	depends = libxkbfile
+	depends = libxslt
+	depends = minizip
+	depends = nss
+	depends = re2
+	depends = snappy
+	provides = ferdi
+	conflicts = ferdi
+	conflicts = ferdi-bin
+	source = git+https://github.com/getferdi/nightlies.git
+	sha512sums = SKIP
+
+pkgname = ferdi-nightly-bin

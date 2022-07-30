@@ -1,0 +1,17 @@
+pkgbase = cropgui
+	pkgdesc = a simple tool for lossless jpeg cropping
+	pkgver = 0.6
+	pkgrel = 1
+	url = https://github.com/jepler/cropgui
+	arch = any
+	license = GPL
+	depends = libjpeg
+	depends = python-pillow
+	depends = imagemagick
+	depends = python-gobject
+	depends = gtk3
+	depends = perl-image-exiftool
+	source = https://github.com/jepler/cropgui/archive/v0.6.tar.gz
+	md5sums = 337ba42c302793620b68085f88a28498
+
+pkgname = cropgui

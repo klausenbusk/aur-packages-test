@@ -1,0 +1,14 @@
+pkgbase = python-pyvcf
+	pkgdesc = Variant Call Format (VCF) parser for Python
+	pkgver = 0.6.8
+	pkgrel = 1
+	url = https://pyvcf.readthedocs.io/en/latest/index.html
+	arch = any
+	license = custom
+	makedepends = python-setuptools
+	depends = python
+	source = PyVCF-0.6.8.tar.gz::https://github.com/jamescasbon/PyVCF/archive/bfcedb9bad1a14074ac4526ffdb610611e073810.tar.gz
+	sha256sums = be575aa7d21b8ef6029b513c5d0d4e3abde57d16cf5ca55ccb2122f54209c511
+
+pkgname = python-pyvcf
+

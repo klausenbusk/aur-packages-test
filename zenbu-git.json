@@ -1,0 +1,20 @@
+pkgbase = zenbu-git
+	pkgdesc = A Jinja2 + YAML based config templater written in python
+	pkgver = 1.0.5.141
+	pkgrel = 1
+	url = https://github.com/metakirby5/zenbu
+	arch = any
+	license = MIT
+	depends = python
+	depends = python-argcomplete
+	depends = python-colorlog
+	depends = python-jinja
+	depends = python-pyaml
+	depends = python-termcolor
+	depends = python-watchdog
+	options = !emptydirs
+	source = git://github.com/metakirby5/zenbu.git
+	md5sums = SKIP
+
+pkgname = zenbu-git
+

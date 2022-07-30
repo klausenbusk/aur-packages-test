@@ -1,0 +1,18 @@
+pkgbase = android-x86-64-system-image-22
+	pkgdesc = Android x86_64 System Image, API-22
+	pkgver = 5.1_r06
+	pkgrel = 1
+	url = https://software.intel.com/en-us/android/tools
+	arch = any
+	license = custom
+	depends = android-platform-22
+	optdepends = qemu
+	optdepends = libvirt
+	provides = android-x86_64-system-image-22-22
+	conflicts = android-x86_64-system-image-22-22
+	options = !strip
+	source = https://dl.google.com/android/repository/sys-img/android/x86_64-22_r06.zip
+	sha1sums = 5db3b27f78cd9c4c5092b1cad5a5dd479fb5b2e4
+
+pkgname = android-x86-64-system-image-22
+

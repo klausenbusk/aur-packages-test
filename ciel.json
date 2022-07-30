@@ -1,0 +1,21 @@
+pkgbase = ciel
+	pkgdesc = A tool for controlling multi-layer file systems and containers.
+	pkgver = 3.1.0
+	pkgrel = 1
+	url = https://github.com/AOSC-Dev/ciel-rs
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = make
+	makedepends = gcc
+	depends = systemd
+	depends = dbus
+	depends = openssl
+	optdepends = libgit2: git vcs support
+	optdepends = xz: xzip archive support
+	conflicts = ciel-git
+	source = ciel-3.1.0.tar.gz::https://github.com/AOSC-Dev/ciel-rs/archive/v3.1.0.tar.gz
+	sha256sums = f0dd120a8924ae7bd8743d677addb8a368518d6ae37b6a0553c2411ed6a24d60
+
+pkgname = ciel

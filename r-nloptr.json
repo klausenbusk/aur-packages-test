@@ -1,0 +1,19 @@
+pkgbase = r-nloptr
+	pkgdesc = R Interface to NLopt
+	pkgver = 2.0.3
+	pkgrel = 3
+	url = https://cran.r-project.org/package=nloptr
+	arch = x86_64
+	license = LGPL
+	makedepends = gcc-fortran
+	depends = r
+	depends = nlopt
+	depends = r-testthat
+	optdepends = r-inline
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/nloptr_2.0.3.tar.gz
+	sha256sums = 7b26ac1246fd1bd890817b0c3a145456c11aec98458b8518de863650b99616d7
+
+pkgname = r-nloptr

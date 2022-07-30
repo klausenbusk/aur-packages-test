@@ -1,0 +1,25 @@
+pkgbase = amdvlk-git
+	pkgdesc = AMD's standalone Vulkan driver
+	pkgver = v.2020.Q1.3.r2.bd57537
+	pkgrel = 1
+	url = https://github.com/GPUOpen-Drivers
+	arch = x86_64
+	license = MIT
+	makedepends = xorgproto
+	makedepends = xorg-server-devel
+	makedepends = libxrandr
+	makedepends = cmake
+	makedepends = python
+	makedepends = libxml2
+	makedepends = wayland
+	makedepends = libdrm
+	makedepends = git
+	makedepends = ninja
+	makedepends = repo
+	depends = vulkan-icd-loader
+	provides = vulkan-amdvlk
+	provides = vulkan-driver
+	conflicts = vulkan-amdvlk
+
+pkgname = amdvlk-git
+

@@ -1,0 +1,20 @@
+pkgbase = kpm
+	pkgdesc = KPM is a tool to deploy and manage application stacks on Kubernetes.
+	pkgver = 0.25.0
+	pkgrel = 1
+	url = https://github.com/coreos/kpm
+	arch = any
+	license = Apache
+	depends = python2
+	depends = python2-yaml
+	depends = python2-jinja
+	depends = python2-requests
+	depends = python2-jsonpatch
+	depends = python2-tabulate
+	depends = python2-termcolor
+	options = !emptydirs
+	source = kpm.zip::https://github.com/coreos/kpm/archive/v0.25.0.zip
+	sha256sums = 7167842c1758fa30bd3a2c68bd9f9aa18669d73f6f92848d9c2339d65a8024b4
+
+pkgname = kpm
+

@@ -1,0 +1,18 @@
+pkgbase = tsnake
+	pkgdesc = Terminal snake game written in C++
+	pkgver = 0.1.5
+	pkgrel = 1
+	url = https://github.com/langurmonkey/tsnake
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	makedepends = gcc
+	makedepends = ncurses
+	depends = bash
+	provides = tsnake
+	conflicts = tsnake
+	source = https://github.com/langurmonkey/tsnake/archive/0.1.5.tar.gz
+	md5sums = SKIP
+
+pkgname = tsnake
+

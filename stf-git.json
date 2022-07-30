@@ -1,0 +1,26 @@
+pkgbase = stf-git
+	pkgdesc = Web application for controlling and managing Android devices (git)
+	pkgver = 3.4.1+r7+g16e64b51
+	pkgrel = 1
+	url = https://openstf.io
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = npm
+	makedepends = python2
+	makedepends = graphicsmagick
+	makedepends = protobuf
+	makedepends = yasm
+	depends = android-tools
+	depends = nodejs<10
+	depends = rethinkdb
+	depends = zeromq
+	provides = stf
+	conflicts = stf
+	options = !strip
+	source = git+https://github.com/openstf/stf
+	sha512sums = SKIP
+
+pkgname = stf-git
+

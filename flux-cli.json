@@ -1,0 +1,17 @@
+pkgbase = flux-cli
+	pkgdesc = Open and extensible continuous delivery solution for Kubernetes.
+	pkgver = 0.4.2
+	pkgrel = 1
+	url = https://fluxcd.io/
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = APACHE
+	makedepends = go
+	depends = glibc
+	source = flux-cli-0.4.2.tar.gz::https://github.com/fluxcd/flux2/archive/v0.4.2.tar.gz
+	sha512sums = d206df2e18f107fb9c28067e01e07020d801758ec74181607c765ff6d078f8539293eedd248b137711b5e4486b63a3e2fa34be22123fd2b8258dee982af4f7ab
+
+pkgname = flux-cli
+

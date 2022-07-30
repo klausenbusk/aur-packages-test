@@ -1,0 +1,17 @@
+pkgbase = python-evic-git
+	pkgdesc = Python Evic for E-Cigs
+	pkgver = 124.ef62fa6
+	pkgrel = 1
+	url = https://github.com/ClockSelect/python-evic
+	arch = any
+	license = GPL3
+	depends = python-pillow
+	depends = python-click
+	depends = python-bitarray
+	depends = python-binstruct
+	depends = python-cython-hidapi-git
+	source = python-evic-git::git://github.com/ClockSelect/python-evic.git#branch=master
+	md5sums = SKIP
+
+pkgname = python-evic-git
+

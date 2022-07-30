@@ -1,0 +1,16 @@
+pkgbase = rustscan
+	pkgdesc = The Modern Port Scanner
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://github.com/rustscan/RustScan
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	makedepends = cargo
+	depends = nmap
+	provides = rustscan
+	conflicts = rustscan
+	source = rustscan-2.1.0.tar.gz::https://github.com/rustscan/RustScan/archive/2.1.0.tar.gz
+	sha256sums = 10958957148544da780c1be4004b906e94bafe02a19f0224f6026828fb77a8cc
+
+pkgname = rustscan

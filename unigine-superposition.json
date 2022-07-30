@@ -1,0 +1,23 @@
+pkgbase = unigine-superposition
+	pkgdesc = Interactive Unigine Benchmark: walk through a lab of a lone professor
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://benchmark.unigine.com/superposition
+	arch = x86_64
+	license = custom:UNIGINE Engine
+	depends = libgl
+	depends = gcc-libs
+	depends = libxrandr
+	depends = libxinerama
+	depends = fontconfig
+	depends = qt5-declarative
+	depends = libxkbcommon-x11
+	depends = openssl-1.0
+	optdepends = openal: sound support
+	options = !strip
+	source = https://assets.unigine.com/d/Unigine_Superposition-1.1.run
+	source = Superposition.desktop
+	sha512sums = 00a680b789ec69f6453e31fbd233bc018cc9f3ca8595ea9367dda49bbdde453643863d90b84b068f444fc3ec023bdd4f35326cffb1fbf8653ced29c587524dd6
+	sha512sums = b636d8ad4de15159b6c034f2559dd3b00226f3651e37fecdd2f824a51cbbdbcb05753b8262d79c19f1fd365567d65b5b63fafae7d298ea5e84540de3131427fc
+
+pkgname = unigine-superposition

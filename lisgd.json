@@ -1,0 +1,17 @@
+pkgbase = lisgd
+	pkgdesc = Bind gestures on touchscreens, and unsupported gesture devices via libinput touch events
+	pkgver = 0.3.4
+	pkgrel = 1
+	url = https://git.sr.ht/~mil/lisgd
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	depends = libinput
+	depends = libx11
+	depends = wayland
+	source = lisgd-0.3.4.tar.gz::https://git.sr.ht/~mil/lisgd/archive/0.3.4.tar.gz
+	sha512sums = 53378491c0ba9f124ca0772c81099f4639387666b94bf16305dc560fc22d83e7155e9dde3817978616d2e241f4831eae3dab7d4fd5ef3020d9c5ecf4520b9ecd
+
+pkgname = lisgd

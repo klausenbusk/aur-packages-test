@@ -1,0 +1,20 @@
+pkgbase = hide-client
+	pkgdesc = Hide.me CLI VPN client for Linux
+	pkgver = 0.9.1
+	pkgrel = 4
+	url = hide.me
+	arch = any
+	license = GPL2
+	source = https://github.com/eventure/hide.client.linux/archive/0.9.1.zip
+	source = go-sum.patch
+	source = config_sysdirs.patch
+	source = systemd-config.patch
+	source = service_sysdirs.patch
+	md5sums = 9346e79e8e1c98b5457a03e02febca9c
+	md5sums = 3cca85f964053529bc7d6581ceb3abd7
+	md5sums = 07d59ac194c4aa8ee0de284283796461
+	md5sums = cdd99adb78a8d0a5212e7f900fd53a6d
+	md5sums = ea50b6e6df86da7031cf72d8eaaf46a4
+
+pkgname = hide-client
+

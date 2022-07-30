@@ -1,0 +1,13 @@
+pkgbase = pylote
+	pkgdesc = Software making it possible to draw on the screen of the computer, like handling various instruments of geometry.
+	pkgver = 1.4
+	pkgrel = 5
+	url = http://pascal.peter.free.fr/wiki/Logiciels/Pylote
+	arch = any
+	license = GPL
+	depends = pyqt
+	provides = pylote
+	conflicts = pylote
+
+pkgname = pylote
+

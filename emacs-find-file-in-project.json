@@ -1,0 +1,14 @@
+pkgbase = emacs-find-file-in-project
+	pkgdesc = Quick access to project files in Emacs
+	pkgver = 6.1.2
+	pkgrel = 1
+	url = https://github.com/technomancy/find-file-in-project
+	install = emacs-find-file-in-project.install
+	arch = any
+	license = GPL3
+	depends = emacs
+	depends = emacs-swiper
+	source = emacs-find-file-in-project-6.1.2.tar.gz::https://github.com/technomancy/find-file-in-project/archive/6.1.2.tar.gz
+	sha256sums = c5d4d607d75b13b112dcb2d657221b3d1783d202ff4105b4c8dcf4f24a4a646a
+
+pkgname = emacs-find-file-in-project

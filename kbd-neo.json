@@ -1,0 +1,13 @@
+pkgbase = kbd-neo
+	pkgdesc = NEO 2 terminal keyboard layout
+	pkgver = 4
+	pkgrel = 1
+	url = https://www.neo-layout.org/
+	arch = any
+	license = CC-BY-SA
+	depends = kbd
+	source = https://git.neo-layout.org/neo/neo-layout/raw/branch/master/linux/console/neo.map
+	sha256sums = f9ae14b0e52248bfe628b895d85ccbe5eda580885ebff7991c3c6d69ef81eab9
+
+pkgname = kbd-neo
+

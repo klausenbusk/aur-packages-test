@@ -1,0 +1,16 @@
+pkgbase = hostsctl-git
+	pkgdesc = Control your /etc/hosts file easily, block ads, social networks, and more.
+	pkgver = r94.6b12adb
+	pkgrel = 1
+	url = https://github.com/levisabah/hostsctl
+	install = hostsctl.install
+	arch = any
+	license = GPLv3
+	depends = git
+	provides = hostsctl
+	conflicts = hostsctl
+	source = git://github.com/levisabah/hostsctl.git
+	md5sums = SKIP
+
+pkgname = hostsctl-git
+

@@ -1,0 +1,16 @@
+pkgbase = sane-qt-git
+	pkgdesc = Simple scanner GUI (sane) made with PyQt5
+	pkgver = r20.c036f95
+	pkgrel = 1
+	url = https://github.com/sigmaSd/Sane-qt
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = sane
+	depends = python
+	depends = python-pyqt5
+	source = sane-qt-git::git://github.com/sigmaSd/Sane-qt.git
+	md5sums = SKIP
+
+pkgname = sane-qt-git
+

@@ -1,0 +1,26 @@
+pkgbase = python-keras
+	pkgdesc = Deep Learning library (convnets, recurrent neural networks, and more)
+	pkgver = 2.4.3
+	pkgrel = 1
+	url = https://github.com/keras-team/keras
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = absl-py
+	depends = python-h5py
+	depends = python-keras-preprocessing
+	depends = python-numpy
+	depends = python-pandas
+	depends = python-pydot
+	depends = python-scipy
+	depends = python-six
+	depends = python-yaml
+	depends = python-pillow
+	optdepends = python-theano: For Theano backend
+	optdepends = python-tensorflow: For TensorFlow backend
+	optdepends = mxnet: For MXNet backend
+	source = https://files.pythonhosted.org/packages/source/K/Keras/Keras-2.4.3.tar.gz
+	sha256sums = fedd729b52572fb108a98e3d97e1bac10a81d3917d2103cc20ab2a5f03beb973
+
+pkgname = python-keras
+

@@ -1,0 +1,15 @@
+pkgbase = python-pylast
+	pkgdesc = A Python interface to the last.fm API
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/pylast/pylast
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = python
+	depends = python-six
+	source = https://github.com/pylast/pylast/archive/1.2.1.tar.gz
+	sha256sums = 721526d94e579ce005cfaa96ad6ed39dde07e6379d011065969f74f9ba4da9ee
+
+pkgname = python-pylast
+

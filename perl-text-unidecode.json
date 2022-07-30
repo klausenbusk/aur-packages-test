@@ -1,0 +1,16 @@
+pkgbase = perl-text-unidecode
+	pkgdesc = US-ASCII transliterations of Unicode text
+	pkgver = 1.30
+	pkgrel = 2
+	url = http://search.cpan.org/dist/Text-Unidecode
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = PerlArtistic
+	depends = perl>=5.6.0
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/S/SB/SBURKE/Text-Unidecode-1.30.tar.gz
+	sha1sums = 13c28520896a0073e0ea9333a2b6b770dcf17d6e
+
+pkgname = perl-text-unidecode
+

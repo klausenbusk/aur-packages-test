@@ -1,0 +1,22 @@
+pkgbase = iridium-rpm
+	pkgdesc = Iridium browser - rhel/centos build altered for arch
+	pkgver = 102.0
+	pkgrel = 2
+	url = https://iridiumbrowser.de/
+	arch = x86_64
+	license = BSD
+	makedepends = patchelf
+	depends = ffmpeg4.4
+	depends = pipewire
+	depends = re2
+	depends = snappy
+	depends = minizip
+	provides = iridium
+	conflicts = iridium
+	conflicts = chromium
+	options = !emptydirs
+	options = !strip
+	source = https://downloads.iridiumbrowser.de/epel8/iridium-browser-2022.04.100.0-1.el8.x86_64.rpm
+	sha256sums = 9c280fd7f77f5afc0300d61fdc3c087b7e8b8075bfc25e49470631dadde8f44c
+
+pkgname = iridium-rpm

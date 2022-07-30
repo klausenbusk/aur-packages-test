@@ -1,0 +1,16 @@
+pkgbase = perl6-json-fast
+	pkgdesc = A naive, fast json parser and serializer
+	pkgver = 0.9.10
+	pkgrel = 1
+	url = https://github.com/timo/json_fast
+	arch = any
+	groups = perl6
+	license = PerlArtistic
+	checkdepends = perl
+	makedepends = git
+	depends = perl6
+	source = perl6-json-fast-0.9.10::git+https://github.com/timo/json_fast
+	sha256sums = SKIP
+
+pkgname = perl6-json-fast
+

@@ -1,0 +1,16 @@
+pkgbase = python-django-constance
+	pkgdesc = Dynamic Django settings
+	pkgver = 2.8.0
+	pkgrel = 2
+	url = https://github.com/jazzband/django-constance
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python-django
+	optdepends = python-django-picklefield: Database support
+	optdepends = python-redis: Redis support
+	source = python-django-constance-2.8.0.tar.gz::https://github.com/jazzband/django-constance/archive/2.8.0.tar.gz
+	sha256sums = 5de358f764f1dd99771d97a20b3e4525bd7574ef24e038691e8cbf1bfb085d59
+
+pkgname = python-django-constance
+

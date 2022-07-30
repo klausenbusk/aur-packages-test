@@ -1,0 +1,14 @@
+pkgbase = tmux-resurrect
+	pkgdesc = Persist tmux environment across system restarts.
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://github.com/tmux-plugins/tmux-resurrect
+	install = tmux-resurrect.install
+	arch = any
+	license = MIT
+	depends = tmux
+	depends = bash
+	source = tmux-resurrect-3.0.0.tar.gz::https://github.com/tmux-plugins/tmux-resurrect/archive/v3.0.0.tar.gz
+	sha256sums = 4c78cf50662d6868a0f398707bb0d6802697c93cbb3162fb8bf4b8e87b4e3b72
+
+pkgname = tmux-resurrect

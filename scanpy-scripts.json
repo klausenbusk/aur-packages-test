@@ -1,0 +1,15 @@
+pkgbase = scanpy-scripts
+	pkgdesc = Scripts for using scanpy from the command line
+	pkgver = 1.1.3
+	pkgrel = 2
+	url = https://github.com/ebi-gene-expression-group/scanpy-scripts
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	depends = scanpy
+	depends = python-click
+	source = https://files.pythonhosted.org/packages/source/s/scanpy-scripts/scanpy-scripts-1.1.3.tar.gz
+	sha256sums = 96eb39bedb5cd075509247d770cfd951e57f2834248bf1e6896c55e7fe2c524f
+
+pkgname = scanpy-scripts

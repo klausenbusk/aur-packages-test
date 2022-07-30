@@ -1,0 +1,21 @@
+pkgbase = fluxgui-git
+	pkgdesc = Better lighting for Linux. Open source GUI for xflux
+	pkgver = v1.2.0.r16.gc80145d
+	pkgrel = 1
+	url = https://github.com/xflux-gui/fluxgui
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = hicolor-icon-theme
+	depends = python-pexpect
+	depends = xflux
+	depends = libindicator-gtk2
+	depends = libappindicator-gtk3
+	depends = python-xdg
+	provides = fluxgui
+	conflicts = fluxgui
+	source = git+https://github.com/xflux-gui/fluxgui.git
+	md5sums = SKIP
+
+pkgname = fluxgui-git
+

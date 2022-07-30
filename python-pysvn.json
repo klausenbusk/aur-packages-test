@@ -1,0 +1,19 @@
+pkgbase = python-pysvn
+	pkgdesc = The Pythonic interface to Subversion
+	pkgver = 1.9.18
+	pkgrel = 1
+	url = https://pysvn.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = python-pycxx
+	makedepends = python-setuptools
+	depends = apr
+	depends = python
+	depends = subversion
+	source = https://downloads.sourceforge.net/project/pysvn/pysvn/V1.9.18/pysvn-1.9.18.tar.gz
+	source = fix-setup.py.patch
+	sha256sums = 9543ec36e98c630668891d46b7f86a74b2e81ce6726d1c70beef7e794d4263bf
+	sha256sums = 59b56272570bdf957570cafb57680a4516f8f0dfbf94c301f133410130b0a8be
+
+pkgname = python-pysvn

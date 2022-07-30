@@ -1,0 +1,14 @@
+pkgbase = sqlmap
+	pkgdesc = Is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
+	pkgver = 1.0dev.20150618
+	pkgrel = 1
+	url = http://sqlmap.org/
+	arch = any
+	license = GPLv2
+	depends = python2
+	conflicts = sqlmap-git
+	source = git+https://github.com/sqlmapproject/sqlmap.git
+	sha256sums = SKIP
+
+pkgname = sqlmap
+

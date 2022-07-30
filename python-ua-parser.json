@@ -1,0 +1,13 @@
+pkgbase = python-ua-parser
+	pkgdesc = Python port of Browserscope's user agent parser
+	pkgver = 0.15.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/ua-parser
+	arch = any
+	license = MIT
+	depends = python
+	depends = python-pyaml
+	source = https://files.pythonhosted.org/packages/source/u/ua-parser/ua-parser-0.15.0.tar.gz
+	sha256sums = e441c982ffe81aa7e31af40ac6bf1d39f8ad24f1d34a2d91baae415470b26e9b
+
+pkgname = python-ua-parser

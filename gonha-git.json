@@ -1,0 +1,36 @@
+pkgbase = gonha-git
+	pkgdesc = Light-weight system monitor for Linux
+	pkgver = 1.7.4.r307.5067dd0
+	pkgrel = 1
+	url = https://github.com/fredcox/gonha
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-pip
+	makedepends = git
+	depends = python-pyqt5
+	depends = python-ewmh
+	depends = python-psutil
+	depends = python-humanfriendly
+	depends = python-pathlib2
+	depends = python-pyinquirer
+	depends = python-distro
+	depends = python-py-cpuinfo
+	depends = python-requests
+	depends = python-netifaces
+	depends = python-country_list
+	depends = python-portolan
+	depends = python-unit-convert
+	depends = python-coloredlogs
+	depends = python-numpy
+	depends = python-pyamdgpuinfo
+	depends = python-prompt_toolkit1014
+	depends = ttf-fira-code
+	depends = hddtemp
+	provides = gonha
+	conflicts = gonha
+	source = git+https://github.com/fredcox/gonha.git
+	sha256sums = SKIP
+
+pkgname = gonha-git
+

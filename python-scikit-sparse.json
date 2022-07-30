@@ -1,0 +1,15 @@
+pkgbase = python-scikit-sparse
+	pkgdesc = Scikit sparse matrix package
+	pkgver = 0.4.6
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/scikit-sparse/
+	arch = x86_64
+	license = GPL
+	checkdepends = python-nose
+	makedepends = cython
+	depends = python-scipy
+	depends = suitesparse
+	source = https://pypi.python.org/packages/source/s/scikit-sparse/scikit-sparse-0.4.6.tar.gz
+	sha256sums = f2de653920c2adf666de5c8a28abaa9f2218a1001d2d96e403a1f553938561c3
+
+pkgname = python-scikit-sparse

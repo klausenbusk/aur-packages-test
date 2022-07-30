@@ -1,0 +1,13 @@
+pkgbase = python-lru-dict
+	pkgdesc = A dict like LRU container.
+	pkgver = 1.1.7
+	pkgrel = 1
+	url = https://pypi.org/project/lru-dict/
+	arch = x86_64
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	source = https://pypi.org/packages/source/l/lru-dict/lru-dict-1.1.7.tar.gz
+	sha256sums = 45b81f67d75341d4433abade799a47e9c42a9e22a118531dcb5e549864032d7c
+
+pkgname = python-lru-dict

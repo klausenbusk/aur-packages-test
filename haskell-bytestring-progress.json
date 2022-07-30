@@ -1,0 +1,22 @@
+pkgbase = haskell-bytestring-progress
+	pkgdesc = A library for tracking the consumption of a lazy ByteString
+	pkgver = 1.4
+	pkgrel = 3
+	url = http://hackage.haskell.org/package/bytestring-progress
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = haskell-base<5
+	makedepends = haskell-base>=4.0
+	makedepends = haskell-bytestring
+	makedepends = haskell-time>=1.1
+	makedepends = haskell-time<2.0
+	makedepends = haskell-terminal-progress-bar>=0.4.0
+	depends = ghc
+	options = strip
+	source = https://hackage.haskell.org/packages/archive/bytestring-progress/1.4/bytestring-progress-1.4.tar.gz
+	md5sums = 29e27a426a3ae09047e35d9e380d0d29
+
+pkgname = haskell-bytestring-progress
+

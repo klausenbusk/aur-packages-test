@@ -1,0 +1,16 @@
+pkgbase = yourls-plugin-random-keywords-git
+	pkgdesc = Assign random keywords to shorturls, like bitly.
+	pkgver = r9.30cf54f
+	pkgrel = 1
+	url = https://github.com/YOURLS/random-keywords
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = yourls
+	provides = yourls-plugin-random-keywords
+	conflicts = yourls-plugin-random-keywords
+	source = yourls-plugin-random-keywords::git+https://github.com/YOURLS/random-keywords.git
+	sha256sums = SKIP
+
+pkgname = yourls-plugin-random-keywords-git
+

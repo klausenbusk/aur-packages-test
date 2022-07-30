@@ -1,0 +1,14 @@
+pkgbase = python-colcon-output
+	pkgdesc = An extension for colcon-core to customize the output in various ways.
+	pkgver = 0.2.12
+	pkgrel = 1
+	url = https://pypi.org/project/colcon-output/
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = python-colcon-core
+	source = https://files.pythonhosted.org/packages/source/c/colcon-output/colcon-output-0.2.12.tar.gz
+	sha256sums = a211e9f1f70edb1567c0747532ad222e47799cef25cb863e4a43af4660798b30
+
+pkgname = python-colcon-output
+

@@ -1,0 +1,16 @@
+pkgbase = perl-test-http
+	pkgdesc = Testing for HTTP services
+	pkgver = 0.19
+	pkgrel = 1
+	url = https://metacpan.org/release/Test-HTTP
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl-class-field>=0
+	depends = perl-libwww>=0
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/M/MM/MML/Test-HTTP-0.19.tar.gz
+	md5sums = 94fcc4f658eaea030f7820d91a53aaeb
+	sha512sums = 7fe9835e700e60414a35998baff7a792e7288ba8d0381a882a846d4bd799b8533064edcf2b8eb366141b0c8b7771508572d51d3663b62e2f24011bc8a661f666
+
+pkgname = perl-test-http

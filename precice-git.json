@@ -1,0 +1,26 @@
+pkgbase = precice-git
+	pkgdesc = A Coupling Library for Partitioned Multi-Physics Simulations on Massively Parallel Systems (git version)
+	pkgver = 2.4.0.r35.g68d8821d
+	pkgrel = 2
+	url = https://precice.org
+	arch = x86_64
+	license = LGPL3
+	checkdepends = openssh
+	makedepends = cmake
+	makedepends = gcc-fortran
+	makedepends = doxygen
+	makedepends = graphviz
+	makedepends = git
+	makedepends = texlive-core
+	depends = libxml2
+	depends = petsc
+	depends = eigen
+	depends = jsoncpp
+	optdepends = man-db: manual pages for precice-tools and testprecice
+	optdepends = git: for Git Revision Info support
+	provides = precice
+	conflicts = precice
+	source = git+https://github.com/precice/precice.git#branch=develop
+	sha512sums = SKIP
+
+pkgname = precice-git

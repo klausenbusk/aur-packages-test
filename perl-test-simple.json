@@ -1,0 +1,15 @@
+pkgbase = perl-test-simple
+	pkgdesc = Test::Simple - Basic utilities for writing tests
+	pkgver = 1.302106
+	pkgrel = 1
+	url = https://github.com/Test-More/test-more
+	arch = any
+	license = GPL
+	license = PerlArtistic
+	depends = perl>=5.10.0
+	source = https://github.com/Test-More/test-more/archive/v1.302106.tar.gz
+	md5sums = ccd36f49bb1f154ee6bff06374bf175d
+	sha256sums = 44f44c698acaf29107c33adea564f3f4921db79aebe51a188b895f8895097214
+
+pkgname = perl-test-simple
+

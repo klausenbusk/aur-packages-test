@@ -1,0 +1,12 @@
+pkgbase = transwhat
+	pkgdesc = A gateway between the XMPP and the WhatsApp IM networks (obsolete)
+	pkgver = 0.2.2
+	pkgrel = 1
+	epoch = 1
+	arch = any
+	license = GPL
+	options = !strip
+	options = !emptydirs
+
+pkgname = transwhat
+

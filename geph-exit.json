@@ -1,0 +1,19 @@
+pkgbase = geph-exit
+	pkgdesc = Runs on highly secure exit nodes, and handles exit traffic
+	pkgver = 0.22.2
+	pkgrel = 2
+	url = https://github.com/geph-official/geph2
+	arch = x86_64
+	groups = geph2
+	license = GPL3
+	makedepends = go
+	depends = glibc
+	source = geph-exit-0.22.2.tar.gz::https://github.com/geph-official/geph2/archive/v0.22.2.tar.gz
+	source = geph-exit.sysusers
+	source = geph-exit.service
+	sha256sums = dd1ccd9c5aac06b46d57b9ba7aab00b6f42b3ec8fde85d00f09e2e474e7c1dc1
+	sha256sums = c07a69c9a4adcd0658dcfcad88555d87259b24ca13d35904b0b0b87b2c979a70
+	sha256sums = 0b74c574a28b504a02fc501e36a89d78d5179a396c8131376dabd5a6124415ec
+
+pkgname = geph-exit
+

@@ -1,0 +1,23 @@
+pkgbase = snooscraper
+	pkgdesc = A small program to scrape subreddits, reddit accounts and other sites, downloading content matching your criteria
+	pkgver = 0.1
+	pkgrel = 5
+	url = https://notabug.org/odg/snooscraper
+	install = snooscraper.install
+	arch = all
+	license = GPL
+	makedepends = git
+	depends = sh
+	depends = curl
+	depends = jq
+	depends = sed
+	depends = grep
+	depends = findutils
+	provides = snooscraper
+	conflicts = snooscraper
+	source = snooscraper::git+https://notabug.org/odg/snooscraper.git
+	validpgpkeys = 491E0D9EE7AA9E15D089950A787966257046CC21
+	sha512sums = SKIP
+
+pkgname = snooscraper-git
+

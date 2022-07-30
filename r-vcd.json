@@ -1,0 +1,19 @@
+pkgbase = r-vcd
+	pkgdesc = Visualizing Categorical Data
+	pkgver = 1.4.10
+	pkgrel = 1
+	url = https://cran.r-project.org/package=vcd
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-colorspace
+	depends = r-lmtest
+	optdepends = r-coin
+	optdepends = r-hsaur3
+	optdepends = r-kernlab
+	optdepends = r-kernsmooth
+	optdepends = r-mvtnorm
+	source = https://cran.r-project.org/src/contrib/vcd_1.4-10.tar.gz
+	sha256sums = 7188192afa289350cc1b89790f4f8f5a5114c1c88bee7715a0c8f5347aa0b35b
+
+pkgname = r-vcd

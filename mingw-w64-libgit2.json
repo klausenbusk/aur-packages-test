@@ -1,0 +1,20 @@
+pkgbase = mingw-w64-libgit2
+	pkgdesc = A portable, pure C implementation of the Git core methods (mingw-w64)
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://github.com/libgit2/libgit2
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-cmake
+	depends = mingw-w64-crt
+	depends = mingw-w64-curl
+	depends = mingw-w64-libssh2
+	depends = mingw-w64-openssl
+	depends = mingw-w64-zlib
+	options = staticlibs
+	options = !buildflags
+	options = !strip
+	source = https://github.com/libgit2/libgit2/archive/v1.4.4.tar.gz
+	sha256sums = e9923e9916a32f54c661d55d79c28fa304cb23617639e68bff9f94d3e18f2d4b
+
+pkgname = mingw-w64-libgit2

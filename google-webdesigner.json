@@ -1,0 +1,28 @@
+pkgbase = google-webdesigner
+	pkgdesc = Create engaging, interactive HTML5-based designs and motion graphics that can run on any device.
+	pkgver = 14.0.4.1108
+	pkgrel = 1
+	url = https://www.google.com/webdesigner
+	install = google-webdesigner.install
+	arch = x86_64
+	license = custom:webdesigner
+	depends = gtk2
+	depends = libudev0-shim
+	depends = gcc-libs
+	depends = gdk-pixbuf2
+	depends = glibc
+	depends = glib2
+	depends = ca-certificates
+	depends = ttf-liberation
+	depends = libappindicator-gtk2
+	depends = nss
+	depends = libstdc++5
+	depends = wget
+	depends = xdg-utils
+	provides = google-webdesigner=14.0.4.1108
+	options = !emptydirs
+	options = !strip
+	source = google-webdesigner_current_amd64.deb::https://dl.google.com/linux/direct/google-webdesigner_current_amd64.deb
+	sha256sums = d52eea3e887ebf085de289c8b6521f42298dffec980c69d50cd48a46b76d51d6
+
+pkgname = google-webdesigner

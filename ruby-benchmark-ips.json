@@ -1,0 +1,18 @@
+pkgbase = ruby-benchmark-ips
+	pkgdesc = Provides iteration per second benchmarking for Ruby
+	pkgver = 2.10.0
+	pkgrel = 1
+	url = https://github.com/evanphx/benchmark-ips
+	arch = any
+	license = MIT
+	checkdepends = ruby-bundler
+	checkdepends = ruby-minitest
+	makedepends = rubygems
+	makedepends = ruby-rdoc
+	makedepends = ruby-rake
+	depends = ruby
+	options = !emptydirs
+	source = https://github.com/evanphx/benchmark-ips/archive/v2.10.0/benchmark-ips-2.10.0.tar.gz
+	sha256sums = 6ee25509e1baf0cc9a3d791bdebffc4811f575c2f6036783645ec6ff8cab995a
+
+pkgname = ruby-benchmark-ips

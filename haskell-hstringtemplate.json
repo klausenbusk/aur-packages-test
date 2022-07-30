@@ -1,0 +1,24 @@
+pkgbase = haskell-hstringtemplate
+	pkgdesc = StringTemplate implementation in Haskell.
+	pkgver = 0.8.7
+	pkgrel = 3
+	url = http://hackage.haskell.org/package/HStringTemplate
+	arch = i686
+	arch = x86_64
+	license = BSD3
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-blaze-builder
+	depends = haskell-mtl
+	depends = haskell-old-locale
+	depends = haskell-parsec
+	depends = haskell-syb
+	depends = haskell-text
+	depends = haskell-void
+	source = http://hackage.haskell.org/packages/archive/HStringTemplate/0.8.7/HStringTemplate-0.8.7.tar.gz
+	source = drop-semigroups.patch
+	sha256sums = 4f4ea4aa2e45e7c45821b87b0105c201fbadebc2f2d00c211e728403a0af6b0e
+	sha256sums = 0860fc00b3de57037df0ab02dc63e5bf5a6d32e0034ee76a09940810c7dc800c
+
+pkgname = haskell-hstringtemplate
+

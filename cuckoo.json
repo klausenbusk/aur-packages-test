@@ -1,0 +1,34 @@
+pkgbase = cuckoo
+	pkgdesc = Cuckoo Sandbox is an automated dynamic malware analysis system
+	pkgver = 2.0.7
+	pkgrel = 1
+	url = http://cuckoosandbox.org/
+	install = cuckoo.install
+	arch = any
+	license = GPL-3.0
+	makedepends = python-setuptools
+	makedepends = gendesk
+	depends = python2
+	depends = python2-sqlalchemy
+	depends = python2-dpkt
+	depends = python2-jinja
+	depends = python2-django
+	depends = volatility
+	depends = python2-maec
+	depends = python-magic
+	depends = libvirt
+	depends = python2-bottle
+	depends = python2-pefile
+	depends = python2-pymongo
+	depends = tcpdump
+	depends = python2-chardet
+	depends = python2-requests
+	depends = python2-dateutil
+	optdepends = python2-pydeep
+	optdepends = python2-yara
+	options = !emptydirs
+	source = https://github.com/cuckoosandbox/cuckoo/archive/2.0.7.tar.gz
+	md5sums = 82c69e491c552d265065eee169a217d0
+
+pkgname = cuckoo
+

@@ -1,0 +1,75 @@
+pkgbase = waterfox-current-kpe
+	pkgdesc = Customizable privacy conscious web browser with better integration with KDE
+	pkgver = 2020.10
+	pkgrel = 0
+	url = https://www.waterfox.net/
+	arch = x86_64
+	license = MPL
+	makedepends = unzip
+	makedepends = zip
+	makedepends = diffutils
+	makedepends = python
+	makedepends = yasm
+	makedepends = mesa
+	makedepends = imake
+	makedepends = inetutils
+	makedepends = xorg-server-xvfb
+	makedepends = autoconf2.13
+	makedepends = rust
+	makedepends = clang
+	makedepends = llvm
+	makedepends = libpulse
+	makedepends = alsa-lib
+	makedepends = jack
+	makedepends = cbindgen
+	makedepends = nasm
+	makedepends = python2-setuptools
+	makedepends = nodejs
+	makedepends = python2-psutil
+	makedepends = nss>=3.44.4
+	makedepends = nspr>=4.21.1
+	makedepends = binutils
+	makedepends = git
+	depends = gtk3
+	depends = gtk2
+	depends = libxt
+	depends = startup-notification
+	depends = mime-types
+	depends = dbus-glib
+	depends = ffmpeg
+	depends = ttf-font
+	depends = hicolor-icon-theme
+	depends = kwaterfoxhelper
+	optdepends = networkmanager: Location detection via available WiFi networks
+	optdepends = libnotify: Notification integration
+	optdepends = pulseaudio: Audio support
+	optdepends = alsa-lib: Audio support
+	optdepends = speech-dispatcher: Text-to-Speech
+	optdepends = hunspell-en_US: Spell checking, American English
+	provides = waterfox-current=2020.10
+	conflicts = waterfox-current
+	replaces = waterfox-beta-kde
+	options = !emptydirs
+	options = !makeflags
+	options = zipman
+	source = git+https://github.com/MrAlex94/Waterfox.git#tag=2020.10-current
+	source = waterfox-current.desktop::https://raw.githubusercontent.com/hawkeye116477/waterfox-deb-rpm-arch-AppImage/7503e9eab01217181860f0acc2c17adc0ad4311f/waterfox-current-kpe/waterfox-current.desktop
+	source = distribution.ini::https://raw.githubusercontent.com/hawkeye116477/waterfox-deb-rpm-arch-AppImage/7503e9eab01217181860f0acc2c17adc0ad4311f/waterfox-current-kpe/distribution.ini
+	source = vendor.js::https://raw.githubusercontent.com/hawkeye116477/waterfox-deb-rpm-arch-AppImage/7503e9eab01217181860f0acc2c17adc0ad4311f/waterfox-current-kpe/vendor.js
+	source = waterfox-current.1::https://raw.githubusercontent.com/hawkeye116477/waterfox-deb-rpm-arch-AppImage/7503e9eab01217181860f0acc2c17adc0ad4311f/waterfox-current-kpe/waterfox-current.1
+	source = syspref.js::https://raw.githubusercontent.com/hawkeye116477/waterfox-deb-rpm-arch-AppImage/7503e9eab01217181860f0acc2c17adc0ad4311f/waterfox-current-kpe/syspref.js
+	source = mozilla-nongnome-proxies.patch::https://raw.githubusercontent.com/hawkeye116477/waterfox-deb-rpm-arch-AppImage/7503e9eab01217181860f0acc2c17adc0ad4311f/waterfox-current-kpe/patches/mozilla-nongnome-proxies.patch
+	source = current-kde.patch::https://raw.githubusercontent.com/hawkeye116477/waterfox-deb-rpm-arch-AppImage/7503e9eab01217181860f0acc2c17adc0ad4311f/waterfox-current-kpe/patches/current-kde.patch
+	source = current-kde-xul.patch::https://raw.githubusercontent.com/hawkeye116477/waterfox-deb-rpm-arch-AppImage/7503e9eab01217181860f0acc2c17adc0ad4311f/waterfox-current-kpe/patches/current-kde-xul.patch
+	sha256sums = SKIP
+	sha256sums = ca152a5d24a59aa5552cc49915b13eef5181aac4ac6d2efa02c705efaeaed97b
+	sha256sums = bf06887c00bbc7176f452a3d18092e1b222731218e461782b2877cba938aaa26
+	sha256sums = ec0bb9b7e4968b69fac34a0f8570c1d026253087a7d967a0903b62ea9397a862
+	sha256sums = 415328df67733f54f5bf4d68335c7457264f67175d3ee258c8a392c3c273b572
+	sha256sums = 0120e01edb0bf3d42f4e0280345f2c44372b097739cd2ddb85fa69bb2233ebab
+	sha256sums = ffa9d71bd6dd60eaaef70ba67444c75b6ce0313a107b5b086fd3d30df865ccbf
+	sha256sums = 547233b3a9143f0b03d39655cb705b55cb6df6a2e97e4423f07c38386638ade5
+	sha256sums = e3db65f1d86d00f8a21379a865f2c7767f57b96e1ab9f7c6f50e984784c5b80a
+
+pkgname = waterfox-current-kpe
+

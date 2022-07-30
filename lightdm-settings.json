@@ -1,0 +1,21 @@
+pkgbase = lightdm-settings
+	pkgdesc = A configuration tool for the LightDM display manager
+	pkgver = 1.5.8
+	pkgrel = 1
+	url = https://github.com/linuxmint/lightdm-settings
+	arch = any
+	license = GPL3
+	makedepends = lightdm-slick-greeter
+	makedepends = desktop-file-utils
+	makedepends = gettext
+	depends = hicolor-icon-theme
+	depends = lightdm-slick-greeter
+	depends = polkit
+	depends = python-gobject
+	depends = python-setproctitle
+	depends = python-xapp
+	optdepends = lightdm-guest: Enable guest session options
+	source = lightdm-settings-1.5.8.tar.gz::https://github.com/linuxmint/lightdm-settings/archive/1.5.8.tar.gz
+	sha256sums = 06a19da230f203bc6a4cb587ea4dc1850533f0e7482c3f9c985b383be3dbfd93
+
+pkgname = lightdm-settings

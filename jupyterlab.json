@@ -1,0 +1,15 @@
+pkgbase = jupyterlab
+	pkgdesc = JupyterLab computational environment
+	pkgver = 0.34.12
+	pkgrel = 1
+	url = https://github.com/jupyterlab/jupyterlab
+	arch = any
+	license = custom
+	makedepends = python-setuptools
+	makedepends = nodejs
+	depends = jupyterlab_launcher
+	source = jupyterlab-0.34.12.tar.gz::https://github.com/jupyterlab/jupyterlab/archive/v0.34.12.tar.gz
+	sha256sums = 6b2fee04fa8852acf7d2cf20100b4cac4afc50dbaaa92ebb44acf79c353a2bfd
+
+pkgname = jupyterlab
+

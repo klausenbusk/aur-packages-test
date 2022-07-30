@@ -1,0 +1,12 @@
+pkgbase = hblock
+	pkgdesc = Adblocker that creates a hosts file from multiple sources
+	pkgver = 3.4.0
+	pkgrel = 1
+	url = https://github.com/hectorm/hblock
+	arch = any
+	license = MIT
+	depends = curl
+	source = https://github.com/hectorm/hblock/archive/v3.4.0.tar.gz
+	sha256sums = 762dbe5f2a0ea84078b194190f4fb51b9fe3e6ef043c1899fdda6a083328225f
+
+pkgname = hblock

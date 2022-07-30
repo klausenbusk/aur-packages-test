@@ -1,0 +1,25 @@
+pkgbase = fontbakery
+	pkgdesc = A command-line tool for checking the quality of font projects
+	pkgver = 0.7.38
+	pkgrel = 1
+	url = https://github.com/googlefonts/fontbakery
+	arch = any
+	license = Apache
+	makedepends = python-setuptools-scm
+	depends = python
+	depends = font-v
+	depends = ttfautohint
+	depends = ufolint
+	depends = python-beautifulsoup4
+	depends = python-defcon
+	depends = python-fonttools
+	depends = python-lxml
+	depends = python-fs
+	depends = python-opentype-sanitizer
+	depends = python-protobuf
+	depends = python-requests
+	depends = python-unicodedata2
+	source = fontbakery-0.7.38.tgz::https://github.com/googlefonts/fontbakery/archive/v0.7.38.tar.gz
+	sha256sums = 9eaa2b0b43df278cc0eef4fcb4561573ca55ba9da9e99626f0a33ae5f22d807e
+
+pkgname = fontbakery

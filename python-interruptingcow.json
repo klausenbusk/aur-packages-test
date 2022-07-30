@@ -1,0 +1,18 @@
+pkgbase = python-interruptingcow
+	pkgver = 0.8
+	pkgrel = 5
+	url = https://bitbucket.org/evzijst/interruptingcow
+	arch = any
+	license = MIT
+	makedepends = python2-setuptools
+	makedepends = python-setuptools
+	source = https://pypi.python.org/packages/source/i/interruptingcow/interruptingcow-0.8.tar.gz
+	md5sums = 78162ad4fd78e5bcd353abff110dc32f
+
+pkgname = python-interruptingcow
+	pkgdesc = Python3 interruptingcow library
+	depends = python
+
+pkgname = python2-interruptingcow
+	pkgdesc = Python2 interruptingcow library
+	depends = python2

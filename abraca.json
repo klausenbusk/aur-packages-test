@@ -1,0 +1,25 @@
+pkgbase = abraca
+	pkgdesc = A GTK3 client for the XMMS2 music player, with a focus on collections
+	pkgver = 0.8.2
+	pkgrel = 1
+	url = http://abraca.github.com/Abraca/
+	install = abraca.install
+	arch = x86_64
+	arch = i686
+	license = GPL
+	makedepends = scons
+	makedepends = vala>=0.18.0
+	makedepends = python2
+	makedepends = gettext
+	makedepends = python<=3.7
+	depends = gtk3
+	depends = xmms2
+	depends = libgee
+	depends = waf
+	source = https://github.com/Abraca/Abraca/archive/0.8.2.tar.gz
+	source = https://github.com/Abraca/Abraca/pull/33.patch
+	sha512sums = 69facf0ebeca29fdff8d03b2fd5255c9344536a00d5993b42fa4b25eae8b67576e2cdfaa81a1cd025a7efc01404b9cab091e1bb9314e7691b6fd0ad883ae497d
+	sha512sums = 7c3f395093212fd05dad4066f197d03ea1a0231b6de0e136268360a5b27829ab32b3ff0b9c0eef63ce424da31175a11329dedc81d8e40e56ede116542faa373c
+
+pkgname = abraca
+

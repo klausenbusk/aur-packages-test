@@ -1,0 +1,18 @@
+pkgbase = libdaq
+	pkgdesc = Data Acquisition library for packet I/O.
+	pkgver = 3.0.8
+	pkgrel = 1
+	url = https://www.snort.org/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = ca-certificates
+	depends = libpcap
+	depends = libnetfilter_queue
+	provides = libdaq-nfqueue
+	conflicts = libdaq-nfqueue
+	replaces = libdaq-nfqueue
+	source = libdaq-3.0.8.tar.gz::https://github.com/snort3/libdaq/archive/refs/tags/v3.0.8.tar.gz
+	sha512sums = 705daaec6c42d44cf86d2a9d1045ede481781e7c155a419cc99afce9fbb96738926b9fcc7814e9aff6b417d9f0d335db14a4c8da61da3c1b87a1aa29c99ea23b
+
+pkgname = libdaq

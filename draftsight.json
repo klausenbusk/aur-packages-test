@@ -1,0 +1,37 @@
+pkgbase = draftsight
+	pkgdesc = Freeware CAD software for DWG/DXF files.
+	pkgver = 2019SP3
+	pkgrel = 2
+	url = http://www.3ds.com/products/draftsight/
+	arch = x86_64
+	license = custom
+	depends = alsa-lib
+	depends = desktop-file-utils
+	depends = fontconfig
+	depends = gcc-libs
+	depends = glib2
+	depends = gtk2
+	depends = libfaketime
+	depends = libcups
+	depends = libgl
+	depends = libice
+	depends = libmariadbclient
+	depends = libmng
+	depends = libpng12
+	depends = libsm
+	depends = libx11
+	depends = libxext
+	depends = libxrender
+	depends = libxslt
+	depends = postgresql-libs
+	depends = qt5-base
+	depends = qt5-x11extras
+	depends = zlib
+	options = !strip
+	source = draftsight-2019SP3::http://dl-ak.solidworks.com/nonsecure/draftsight/2019SP3/draftSight.rpm
+	source = draftsight.desktop
+	md5sums = 5be437640a14d87eeef57556dd614a36
+	md5sums = 70904e450823c6978f242435d414e0fc
+
+pkgname = draftsight
+

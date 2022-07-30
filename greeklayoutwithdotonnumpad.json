@@ -1,0 +1,15 @@
+pkgbase = greeklayoutwithdotonnumpad
+	pkgdesc = Greek layout with dot on numpad instead of comma for ARCH Linux
+	pkgver = 1.3
+	pkgrel = 0
+	url = https://gitlab.com/linuxergr/greek-layout-dot-instead-of-comma-on-keypad/
+	arch = any
+	license = GPL3
+	depends = xkeyboard-config
+	provides = greeklayoutwithdotonnumpad
+	replaces = greeklayoutwithdotonnumpad
+	source = https://gitlab.com/linuxer.gr/greek-layout-dot-instead-of-comma-on-keypad/uploads/f57fde6f22aac3598d1ad4944f1f1559/gr
+	sha256sums = SKIP
+
+pkgname = greeklayoutwithdotonnumpad
+

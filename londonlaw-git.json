@@ -1,0 +1,23 @@
+pkgbase = londonlaw-git
+	pkgdesc = Clone of the famous Scotland Yard board game with network support.
+	pkgver = 0.3.0_pre2.r1.g35d419f
+	pkgrel = 4
+	url = https://github.com/anyc/londonlaw
+	changelog = .CHANGELOG
+	arch = any
+	license = GPL2
+	makedepends = git
+	makedepends = python2-twisted
+	makedepends = wxpython
+	makedepends = python2-zope-interface
+	depends = python2
+	depends = hicolor-icon-theme
+	provides = londonlaw
+	conflicts = londonlaw
+	source = londonlaw::git+https://github.com/anyc/londonlaw.git
+	source = londonlaw.desktop
+	sha512sums = SKIP
+	sha512sums = 15f537cdca41dd72a37574151fba5df9cf70b02f849e72c3ffab65453ab69562209c7053454e9c065bbb657cf6c4fd982ef27edb124a6be91c690dfdfec8e9da
+
+pkgname = londonlaw-git
+

@@ -1,0 +1,17 @@
+pkgbase = python-opensubtitlesdownload
+	pkgdesc = Python nautilus-compatible script to download subtitles form opensubtitles.org
+	pkgver = 4.1
+	pkgrel = 2
+	url = https://emeric.io/OpenSubtitlesDownload
+	arch = any
+	license = GPL3
+	depends = python
+	depends = wget
+	optdepends = zenity: only needed for GNOME based desktop environments
+	optdepends = kdialog: only needed for KDE based desktop environments
+	provides = OpenSubtitlesDownload
+	source = OpenSubtitlesDownload-4.1::https://github.com/emericg/OpenSubtitlesDownload/archive/v4.1.tar.gz
+	md5sums = ada08ad3bd6e0fc18212bb98ee6e5d4f
+
+pkgname = python-opensubtitlesdownload
+

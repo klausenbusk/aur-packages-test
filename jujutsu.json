@@ -1,0 +1,16 @@
+pkgbase = jujutsu
+	pkgdesc = A git-compatible DVCS
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/martinvonz/jj
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = rust
+	depends = gcc-libs
+	depends = zlib
+	options = !lto
+	source = jujutsu::git+https://github.com/martinvonz/jj#commit=6efa47814accfa444a0fb60ee984b2a5c9746432
+	b2sums = SKIP
+
+pkgname = jujutsu

@@ -1,0 +1,27 @@
+pkgbase = crawl-tiles
+	pkgdesc = Dungeon Crawl Stone Soup with graphical tiles and sound support
+	pkgver = 0.28.0
+	pkgrel = 1
+	url = https://crawl.develz.org/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = gendesk
+	depends = sdl2_image
+	depends = sdl2_mixer
+	depends = freetype2
+	depends = lua51
+	depends = sqlite
+	depends = zlib
+	depends = python-pyaml
+	depends = glu
+	depends = ttf-dejavu
+	provides = crawl
+	provides = stone-soup
+	conflicts = crawl
+	conflicts = stone-soup
+	source = https://github.com/crawl/crawl/archive/0.28.0.tar.gz
+	sha256sums = 287f35476d20bbe8aaa3e663140704462b4e304a4e1ed5c2b5da1d273dd1f383
+
+pkgname = crawl-tiles

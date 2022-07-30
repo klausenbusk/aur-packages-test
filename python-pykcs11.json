@@ -1,0 +1,14 @@
+pkgbase = python-pykcs11
+	pkgdesc = PKCS#11 wrapper for Python.
+	pkgver = 1.5.5
+	pkgrel = 1
+	url = https://github.com/LudovicRousseau/PyKCS11
+	arch = any
+	license = GPL
+	depends = python
+	depends = swig
+	source = https://github.com/LudovicRousseau/PyKCS11/archive/1.5.5.tar.gz
+	md5sums = 7ad2bc49e4a122b7118494e04251b999
+
+pkgname = python-pykcs11
+

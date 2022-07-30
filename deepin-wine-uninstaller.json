@@ -1,0 +1,15 @@
+pkgbase = deepin-wine-uninstaller
+	pkgdesc = Deepin Wine Uninstaller
+	pkgver = 0.1.2
+	pkgrel = 2
+	url = http://www.deepin.org
+	arch = i686
+	arch = x86_64
+	license = Proprietary
+	makedepends = tar
+	noextract = deepin-wine-uninstaller_0.1deepin2_i386.deb
+	source = https://community-packages.deepin.com/deepin/pool/non-free/d/deepin-wine-uninstaller/deepin-wine-uninstaller_0.1deepin2_i386.deb
+	md5sums = 88c9c377e62fc97f9f6b02351b422009
+
+pkgname = deepin-wine-uninstaller
+

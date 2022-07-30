@@ -1,0 +1,17 @@
+pkgbase = zenith
+	pkgdesc = Terminal system monitor with histograms, written in Rust
+	pkgver = 0.13.1
+	pkgrel = 2
+	url = https://github.com/bvaisvil/zenith
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = llvm
+	makedepends = clang
+	optdepends = nvidia-utils
+	provides = zenith
+	conflicts = zenith-bin
+	source = zenith-0.13.1.tar.gz::https://github.com/bvaisvil/zenith/archive/0.13.1.tar.gz
+	sha256sums = 1f2914a1ddd7dd76cca0e0c07ca77bd048addfd80fc6329ea7b83647ea66020a
+
+pkgname = zenith

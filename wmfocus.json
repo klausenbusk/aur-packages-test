@@ -1,0 +1,17 @@
+pkgbase = wmfocus
+	pkgdesc = Visually focus window by label
+	pkgver = 1.1.5
+	pkgrel = 1
+	url = https://github.com/svenstaro/wmfocus
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = python
+	depends = xcb-util-keysyms
+	depends = cairo
+	depends = libxkbcommon-x11
+	source = wmfocus-1.1.5.tar.gz::https://github.com/svenstaro/wmfocus/archive/v1.1.5.tar.gz
+	sha512sums = f9a2533dc5be51cae0c351452be75491a307aa5e7f952050d76c0b486cd41ea6e8c28a6740be051ed30b69f4002b010bb8786a2f88cab9a5be407c9788d0cffd
+
+pkgname = wmfocus
+

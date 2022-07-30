@@ -1,0 +1,18 @@
+pkgbase = gfs2-utils
+	pkgdesc = Utilities for managing the global file system (GFS2)
+	pkgver = 3.4.1
+	pkgrel = 1
+	url = https://sourceware.org/cluster/gfs/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = LGPL
+	makedepends = util-linux
+	makedepends = check
+	depends = python
+	options = staticlibs
+	source = https://releases.pagure.org/gfs2-utils/gfs2-utils-3.4.1.tar.bz2
+	sha512sums = 35177da6714f7ebbd015fad1d76d10d31865d173772c6b83fd37c922c447acc042afdd81a9afbf620cbe5dd48ddb1f3b0fea2fb86576a43989cf0813f019ceb1
+
+pkgname = gfs2-utils
+

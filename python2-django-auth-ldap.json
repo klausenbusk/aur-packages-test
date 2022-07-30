@@ -1,0 +1,15 @@
+pkgbase = python2-django-auth-ldap
+	pkgdesc = This is a Django authentication backend that authenticates against an LDAP service.
+	pkgver = 1.6.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/django-auth-ldap
+	arch = any
+	license = LGPL
+	makedepends = python2-setuptools
+	depends = python2
+	depends = python2-django
+	source = https://files.pythonhosted.org/packages/c6/ae/531e3577427d7aa6b296ef52668838bfddd3eafc4f3976afb8f940ec5bfb/django-auth-ldap-1.6.1.tar.gz
+	md5sums = 840a31a20f82978eaded84990648dcbd
+
+pkgname = python2-django-auth-ldap
+

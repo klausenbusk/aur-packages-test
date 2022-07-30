@@ -1,0 +1,25 @@
+pkgbase = video-downloader
+	pkgdesc = GTK application to download videos from websites like YouTube and many others (based on yt-dlp)
+	pkgver = 0.9.8
+	pkgrel = 1
+	url = https://github.com/Unrud/video-downloader
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = librsvg
+	makedepends = meson
+	depends = ffmpeg
+	depends = gtk3
+	depends = libhandy
+	depends = python-brotli
+	depends = python-gobject
+	depends = python-mutagen
+	depends = python-pycryptodomex
+	depends = python-pyxattr
+	depends = python-websockets
+	depends = yt-dlp
+	optdepends = rtmpdump: for yt-dlp RTMP streams support
+	source = git+https://github.com/Unrud/video-downloader.git#tag=v0.9.8
+	b2sums = SKIP
+
+pkgname = video-downloader

@@ -1,0 +1,13 @@
+pkgbase = ubuntu-keyring
+	pkgdesc = GnuPG keys of the Ubuntu archive
+	pkgver = 2016.10.27
+	pkgrel = 1
+	url = http://mirrors.kernel.org/ubuntu/pool/main/u/ubuntu-keyring
+	arch = any
+	license = GPL
+	depends = gnupg
+	source = http://mirrors.kernel.org/ubuntu/pool/main/u/ubuntu-keyring/ubuntu-keyring_2016.10.27_all.deb
+	sha256sums = 7ce0bcf0bf09fd9263960e89f4fa93ce51ca1a525ec367d62975af96fdd3e6a2
+
+pkgname = ubuntu-keyring
+

@@ -1,0 +1,21 @@
+pkgbase = python-fuzzywuzzy
+	pkgdesc = Fuzzy string matching like a boss
+	pkgver = 0.18.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/fuzzywuzzy
+	arch = any
+	license = custom:SeatGeek
+	makedepends = python-setuptools
+	depends = python
+	optdepends = python-levenshtein: provides a 4-10x speedup in string matching
+	conflicts = python-fuzzywuzzy
+	conflicts = python-fuzzywuzzy-git
+	source = https://github.com/seatgeek/fuzzywuzzy/archive/0.18.0.tar.gz
+	source = LICENSE
+	md5sums = 33a44f80391aa936a8e6f5cb790322f4
+	md5sums = afa01d831fdc3c0b681836e711f60f88
+	sha256sums = 26795bd6c319a8c789d62ecbe95e29a97711f0176d3beea04ce510981095f696
+	sha256sums = 116d3ce8c10068e8211e9f71c2a80c3fa4f184f0968cae0d0635ff979fedc9ac
+
+pkgname = python-fuzzywuzzy
+

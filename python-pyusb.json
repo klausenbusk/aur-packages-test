@@ -1,0 +1,23 @@
+pkgbase = python-pyusb
+	pkgver = 1.0.0
+	pkgrel = 3
+	url = https://github.com/walac/pyusb
+	arch = any
+	license = custom
+	makedepends = python-distribute
+	makedepends = python2-distribute
+	conflicts = pyusb=1.0.0
+	source = https://github.com/walac/pyusb/archive/1.0.0.tar.gz
+	sha512sums = af5549750140d12229202e8c32f48d6f2bbcda632b43763f7cefc51f63c61d5d9c4bf816842019729c911aedca792269a2cacad08d668d7ec569038b9979e3de
+
+pkgname = python-pyusb
+	pkgdesc = USB access on python3
+	depends = python
+	depends = libusb
+
+pkgname = python2-pyusb
+	pkgdesc = USB access on python2
+	depends = python2
+	depends = libusb
+	replaces = python2-pyusb-beta
+

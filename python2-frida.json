@@ -1,0 +1,18 @@
+pkgbase = python2-frida
+	pkgdesc = Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android. Python 2 version from PyPi.
+	pkgver = 15.1.1
+	pkgrel = 1
+	url = http://www.frida.re
+	arch = i686
+	arch = x86_64
+	license = wxWindows Library License, Version 3.1
+	depends = python2
+	depends = python2-pygments
+	depends = python2-colorama
+	conflicts = python-frida
+	source = https://files.pythonhosted.org/packages/source/f/frida/frida-15.1.1.tar.gz
+	source = COPYING
+	sha256sums = f2dbbbbd16bdf5acdf542559a2ddefdf8b7631384eba70394a5de3e63064e438
+	sha256sums = 5ea1544b51a28bc823b03159190d4108f9fb4f4ef912389f5137c6d295e175b2
+
+pkgname = python2-frida

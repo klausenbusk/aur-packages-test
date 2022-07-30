@@ -1,0 +1,21 @@
+pkgbase = haskell-missingh
+	pkgdesc = Large utility library
+	pkgver = 1.4.3.0
+	pkgrel = 1
+	url = http://software.complete.org/missingh
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = haskell-hunit
+	depends = ghc-libs
+	depends = haskell-hslogger
+	depends = haskell-network
+	depends = haskell-old-locale
+	depends = haskell-old-time
+	depends = haskell-random
+	depends = haskell-regex-compat
+	source = https://hackage.haskell.org/packages/archive/MissingH/1.4.3.0/MissingH-1.4.3.0.tar.gz
+	sha512sums = eb42ad9fd09347d2ec661f8181c6d2c95fb4f9f05634373ac27b377508056afd909b4925f725b9e11441ee9877b66b46038005e469d0b754f8f6cb1cda66d1dc
+
+pkgname = haskell-missingh
+

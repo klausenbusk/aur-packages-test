@@ -1,0 +1,21 @@
+pkgbase = perl-json-validator
+	pkgdesc = Perl/CPAN Module JSON::Validator: Validate data against a JSON schema
+	pkgver = 5.08
+	pkgrel = 1
+	url = https://metacpan.org/release/JSON-Validator
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	checkdepends = perl-test-deep
+	depends = perl>=5.10.1
+	depends = perl-mojolicious>=7.28
+	depends = perl-yaml-libyaml
+	optdepends = perl-data-validate-ip: IPv4 and IPv6 validation
+	optdepends = perl-net-idn-encode: IDNs validation
+	optdepends = perl-data-validate-domain: Domain and host name validation
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/J/JH/JHTHORSEN/JSON-Validator-5.08.tar.gz
+	md5sums = 1536c7743349f28f07494d72e04b1a84
+	sha512sums = 11ac58ffb69ac1460c7ab9d42c94ea5a1111a615c5560009a3f5e40c316229efd19abfca71a7989af8a573cef279aa7004cadef269faecaa51ceb3013bf8915e
+
+pkgname = perl-json-validator

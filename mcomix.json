@@ -1,0 +1,25 @@
+pkgbase = mcomix
+	pkgdesc = A user-friendly, customizable image viewer specifically designed to handle comic books
+	pkgver = 2.0.2
+	pkgrel = 1
+	url = https://sourceforge.net/p/mcomix/wiki/Home/
+	arch = any
+	license = GPL
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = gtk3
+	depends = python-cairo
+	depends = python-gobject
+	depends = python-pillow
+	optdepends = libunrar: for rar compressed comics
+	optdepends = p7zip: for 7z compressed comics
+	optdepends = unrar: for rar compressed comics
+	optdepends = unzip: for zip compressed comics
+	optdepends = lhasa: for lha compressed comics
+	optdepends = mupdf-tools: for PDF comics
+	source = https://downloads.sourceforge.net/project/mcomix/MComix-2.0.2/mcomix-2.0.2.tar.gz
+	md5sums = 43c1b65fc21168ac8c7eaee71ee79c1b
+
+pkgname = mcomix

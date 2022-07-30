@@ -1,0 +1,26 @@
+pkgbase = minimetro
+	pkgdesc = minimalistic subway layout game
+	pkgver = 41
+	pkgrel = 1
+	url = http://dinopoloclub.com/minimetro/
+	install = desktop.install
+	arch = i686
+	arch = x86_64
+	license = custom:None
+	makedepends = imagemagick
+	depends = libgl
+	depends = libx11
+	depends = glu
+	depends = desktop-file-utils
+	depends = gtk-update-icon-cache
+	source = hib://MiniMetro-release-41-linux.tar.gz
+	source = minimetro.desktop
+	source = starter.sh
+	source = minimetro.png::http://dinopoloclub.com/wp-content/uploads/2019/08/Mini-Metro-Icon.png
+	md5sums = 01f6f15ba835e1c54e52df90ff890408
+	md5sums = b89a42a38136d0a126c8c13657b21c3f
+	md5sums = 5006f1c488369854b7ac714168742aae
+	md5sums = 8412b1e4cc11be455af993d921a68ced
+
+pkgname = minimetro
+

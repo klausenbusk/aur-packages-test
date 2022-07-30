@@ -1,0 +1,20 @@
+pkgbase = pcsclite-git
+	pkgdesc = PC/SC Architecture smartcard middleware library
+	pkgver = 1.8.23.r4.g984f84d
+	pkgrel = 1
+	url = https://pcsclite.apdu.fr/
+	arch = x86_64
+	license = BSD
+	makedepends = pkgconf
+	makedepends = git
+	depends = python
+	depends = systemd
+	provides = pcsclite
+	conflicts = pcsclite
+	options = !docs
+	source = git+https://salsa.debian.org/rousseau/PCSC.git
+	validpgpkeys = F5E11B9FFE911146F41D953D78A1B4DFE8F9C57E
+	md5sums = SKIP
+
+pkgname = pcsclite-git
+

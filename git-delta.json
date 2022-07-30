@@ -1,0 +1,20 @@
+pkgbase = git-delta
+	pkgdesc = Syntax-highlighting pager for git and diff output
+	pkgver = 0.8.2
+	pkgrel = 1
+	url = https://github.com/dandavison/delta
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = armv7h
+	arch = armv6h
+	arch = aarch64
+	license = MIT
+	makedepends = rust
+	depends = git
+	depends = libgit2
+	options = !lto
+	source = git-delta-0.8.2.tgz::https://github.com/dandavison/delta/archive/0.8.2.tar.gz
+	sha256sums = b29db829a22f77538ce2e291e4c1b8f9aa7e714dbe5200c6353670a888b746d3
+
+pkgname = git-delta

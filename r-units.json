@@ -1,0 +1,27 @@
+pkgbase = r-units
+	pkgdesc = Measurement Units for R Vectors
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=units
+	arch = i686
+	arch = x86_64
+	license = GPL-2
+	depends = r
+	depends = r-rcpp
+	depends = udunits
+	optdepends = r-udunits2
+	optdepends = r-nistunits
+	optdepends = r-measurements
+	optdepends = r-xml2
+	optdepends = r-magrittr
+	optdepends = r-pillar
+	optdepends = r-dplyr
+	optdepends = r-vctrs
+	optdepends = r-knitr
+	optdepends = r-testthat
+	optdepends = r-ggforce
+	optdepends = r-rmarkdown
+	source = https://cran.r-project.org/src/contrib/units_0.8-0.tar.gz
+	sha256sums = 9c46fe138e8c1c3d3a51268776412f02d09673656516148cccb71b1071beb21a
+
+pkgname = r-units

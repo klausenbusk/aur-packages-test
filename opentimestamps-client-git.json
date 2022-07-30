@@ -1,0 +1,16 @@
+pkgbase = opentimestamps-client-git
+	pkgdesc = Command-line tool to create and validate timestamp proofs with the OpenTimestamps protocol
+	pkgver = 0.7.0.r5.g616718c
+	pkgrel = 1
+	url = https://github.com/opentimestamps/opentimestamps-client
+	arch = any
+	license = LGPL3
+	checkdepends = python-gitpython
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python-opentimestamps
+	provides = opentimestamps-client
+	source = git+https://github.com/opentimestamps/opentimestamps-client
+	sha256sums = SKIP
+
+pkgname = opentimestamps-client-git

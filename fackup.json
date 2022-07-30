@@ -1,0 +1,17 @@
+pkgbase = fackup
+	pkgdesc = File backup tool using rsync and dar.
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = https://github.com/b3niup/fackup
+	install = fackup.install
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = python
+	depends = dar
+	depends = rsync
+	depends = python-yaml
+	source = https://files.pythonhosted.org/packages/9c/f5/2a307d4edec9debd5af3c56e25170b1222c8672d5d24cc44287d9221421f/fackup-0.1.4.tar.gz
+	md5sums = ad76fe70631db0d9fb38c53314904186
+
+pkgname = fackup

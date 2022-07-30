@@ -1,0 +1,26 @@
+pkgbase = adwaita-custom-cursor-colors
+	pkgdesc = GNOME's Adwaita Theme with Customizable Cursor Colors
+	pkgver = 3.36.0
+	pkgrel = 1
+	url = https://git.gnome.org/browse/adwaita-icon-theme
+	arch = any
+	license = LGPL3
+	license = CCPL:cc-by-sa
+	makedepends = intltool
+	makedepends = git
+	makedepends = gtk3
+	makedepends = gnome-common
+	makedepends = python2
+	makedepends = python2-pillow
+	makedepends = inkscape
+	makedepends = xorg-xcursorgen
+	depends = hicolor-icon-theme
+	depends = gtk-update-icon-cache
+	depends = librsvg
+	provides = adwaita-icon-theme
+	conflicts = adwaita-icon-theme
+	source = https://github.com/GNOME/adwaita-icon-theme/archive/3.36.0.tar.gz
+	sha256sums = 813a094e60c375e7ed527ef5f3c02adbeab086b5b7b64a7bda6b2aa9fd4dadf4
+
+pkgname = adwaita-custom-cursor-colors
+

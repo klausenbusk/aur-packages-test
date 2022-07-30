@@ -1,0 +1,17 @@
+pkgbase = rofi-rbw
+	pkgdesc = Rofi frontend for Bitwarden
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://github.com/fdw/rofi-rbw
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	depends = python
+	depends = rbw
+	depends = python-configargparse
+	optdepends = xdotool: for autofill on X11
+	optdepends = wtype: for autofill on Wayland
+	source = https://github.com/fdw/rofi-rbw/releases/download/0.5.0/rofi_rbw-0.5.0-py3-none-any.whl
+	sha256sums = ed3a30c4bc69e3ee321a172a3106bca68fae86735b5d284d10726ce958f0abe8
+
+pkgname = rofi-rbw

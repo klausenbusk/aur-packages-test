@@ -1,0 +1,19 @@
+pkgbase = flirc-bin
+	pkgdesc = CLI and GUI application to program your Flirc device
+	pkgver = 3.25.3
+	pkgrel = 2
+	url = http://flirc.tv
+	arch = x86_64
+	license = unknown
+	depends = libusb
+	depends = hidapi
+	depends = qt5-svg
+	depends = qt5-xmlpatterns
+	depends = readline6
+	provides = flirc
+	conflicts = flirc
+	replaces = flirc
+	source = https://apt.fury.io/flirc/flirc-3.25.3-amd64
+	md5sums = 5759c5894e2ff7d9c194f9330697194f
+
+pkgname = flirc-bin

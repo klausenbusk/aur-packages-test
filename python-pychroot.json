@@ -1,0 +1,20 @@
+pkgbase = python-pychroot
+	pkgdesc = A python library and CLI tool that simplifies chroot handling
+	pkgver = 0.10.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/pychroot/
+	arch = any
+	license = BSD
+	makedepends = python
+	makedepends = python-snakeoil
+	makedepends = python-setuptools
+	depends = python
+	depends = python-snakeoil
+	source = https://files.pythonhosted.org/packages/source/p/pychroot/pychroot-0.10.1.tar.gz
+	source = pychroot-0.10.1.tar.gz.sig
+	validpgpkeys = 748231EBCBD808A14F5E85D28C004C2F93481F6B
+	sha512sums = 4df7f405872b693bf9ecac331927f749653b7251a49eaa10c423357f3150bbcbea73052ec4363a0f510aaeecd6b467d985402a8f764e99e67f5882e6b2ea4f97
+	sha512sums = SKIP
+
+pkgname = python-pychroot
+

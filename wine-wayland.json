@@ -1,0 +1,16 @@
+pkgbase = wine-wayland
+	pkgdesc = Wine-wayland allows running DX9/DX11 and Vulkan games using pure wayland and Wine/DXVK
+	pkgver = 6.0.0.rc3
+	pkgrel = 2
+	url = https://github.com/varmd/wine-wayland
+	arch = x86_64
+	license = LGPL
+	provides = wine
+	conflicts = wine
+	source = https://github.com/varmd/wine-wayland/releases/download/v6.0.0.rc3.2/wine-wayland-6.0rc3-1-x86_64.pkg.tar.zst
+	source = https://github.com/varmd/wine-wayland/releases/download/v6.0.0.rc3.2/lib32-wine-wayland-6.0rc3-1-x86_64.pkg.tar.zst
+	md5sums = 8f79f98f8d4390bc5e93664cc38e57e1
+	md5sums = 37c3b2b5010ce6e856d262857ebdb4d4
+
+pkgname = wine-wayland
+

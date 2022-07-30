@@ -1,0 +1,21 @@
+pkgbase = julia-orderedcollections
+	pkgdesc = Julia implementation of associative containers that preserve insertion order
+	pkgver = 1.1.0
+	pkgrel = 2
+	url = https://github.com/JuliaCollections/OrderedCollections.jl
+	arch = any
+	license = MIT
+	makedepends = julia-distrohelper
+	depends = julia
+	depends = julia-loadpath
+	source = julia-orderedcollections-1.1.0.tar.gz::https://github.com/JuliaCollections/OrderedCollections.jl/archive/v1.1.0.tar.gz
+	source = julia-orderedcollections-1.1.0-Deps.toml::https://raw.githubusercontent.com/JuliaRegistries/General/85bf13d0a61020ff330aa511a84f2cb1b7370578/O/OrderedCollections/Deps.toml
+	source = julia-orderedcollections-1.1.0-Package.toml::https://raw.githubusercontent.com/JuliaRegistries/General/85bf13d0a61020ff330aa511a84f2cb1b7370578/O/OrderedCollections/Package.toml
+	source = julia-orderedcollections-1.1.0-Versions.toml::https://raw.githubusercontent.com/JuliaRegistries/General/85bf13d0a61020ff330aa511a84f2cb1b7370578/O/OrderedCollections/Versions.toml
+	sha256sums = ad34d89a7df5c3ef2d77bd33a7b7ac7456fa61e9c672f2d90d31273a39c08bba
+	sha256sums = 7f14536cacea147a1af30e4d8161b225989937fd362ca187227a1975ed80a743
+	sha256sums = 70bf9e181599853f1903f8c8f2ca5f26d9aab31d945df87796d6a2f3c8019060
+	sha256sums = 0da43b3c272325c2a57f36527bf73d8aa2bb3e000616aa89273f0203b2e4bbe5
+
+pkgname = julia-orderedcollections
+

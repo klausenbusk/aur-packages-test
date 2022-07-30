@@ -1,0 +1,14 @@
+pkgbase = python-spam-blocklists
+	pkgdesc = Provides programatic access to spam blocklists
+	pkgver = 0.9.3
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/spam-blocklists/0.9.3
+	arch = any
+	license = LGPL
+	makedepends = python-setuptools
+	depends = python
+	source = python-spam-blocklists-0.9.3.tar.gz::https://files.pythonhosted.org/packages/source/s/spam-blocklists/spam-blocklists-0.9.3.tar.gz
+	sha256sums = 11be18d1ebafcb38ee136e1891cca08dc8f822a577a191c7759081c303abfcf8
+
+pkgname = python-spam-blocklists
+

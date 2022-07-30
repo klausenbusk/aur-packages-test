@@ -1,0 +1,20 @@
+pkgbase = onedriveclient-git
+	pkgdesc = A Microsoft OneDrive and OneDrive for Business client for Linux, written in Python3.
+	pkgver = 2018.10.1.e1a330c
+	pkgrel = 1
+	url = https://github.com/derrix060/onedriveClient
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = inotify-tools
+	depends = python-pip
+	depends = ngrok
+	provides = onedrive-client
+	provides = onedrive-client-pref
+	source = git+https://github.com/derrix060/onedriveClient
+	source = onedriveClient.service
+	sha256sums = SKIP
+	sha256sums = 7bc185193041ed322fc179e7ec986575c14cfa218a2bdd4f8dc06983e7456024
+
+pkgname = onedriveclient-git
+

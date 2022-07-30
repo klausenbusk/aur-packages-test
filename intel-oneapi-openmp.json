@@ -1,0 +1,21 @@
+pkgbase = intel-oneapi-openmp
+	pkgdesc = Intel® OpenMP* Runtime Library 2021.2.0 for Linux* for Intel(R) 64
+	pkgver = 2021.2.0
+	pkgrel = 1
+	url = https://software.intel.com/content/www/us/en/develop/tools/oneapi.html
+	install = intel-oneapi-openmp.install
+	arch = x86_64
+	license = custom
+	noextract = intel-oneapi-openmp-2021.2.0-2021.2.0-610_amd64.deb
+	noextract = intel-oneapi-openmp-common-2021.2.0-2021.2.0-610_all.deb
+	source = https://apt.repos.intel.com/oneapi/pool/main/intel-oneapi-openmp-2021.2.0-2021.2.0-610_amd64.deb
+	source = https://apt.repos.intel.com/oneapi/pool/main/intel-oneapi-openmp-common-2021.2.0-2021.2.0-610_all.deb
+	source = intel-oneapi-openmp.conf
+	sha256sums = aaec45cb7240bcf5626728d5b59afb121a10ea4db46707bf38b061caa5161ef3
+	sha256sums = 54760ad7e180c4a2ba13b8a695f9e657be586ecd58c5cceb60c831bcafc7cba6
+	sha256sums = 83c341462ed40bff10af52f44a617634e958782899b5e6a210f3ccb9151e3acc
+
+pkgname = intel-oneapi-openmp
+	depends = intel-oneapi-common-vars
+	depends = intel-oneapi-common-licensing
+

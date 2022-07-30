@@ -1,0 +1,18 @@
+pkgbase = boost-build
+	pkgdesc = Boost.Build makes it easy to build C++ projects, everywhere.
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = http://www.boost.org/build/
+	arch = any
+	license = custom:boost
+	depends = gcc
+	depends = boost
+	depends = python
+	conflicts = boost-build-nightly
+	source = https://github.com/boostorg/build/archive/4.3.0.tar.gz
+	source = http://www.boost.org/LICENSE_1_0.txt
+	sha256sums = 97eb98343da636c314edccb08173e25cea13b155233ebb4d74e065d55f791364
+	sha256sums = c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566
+
+pkgname = boost-build
+

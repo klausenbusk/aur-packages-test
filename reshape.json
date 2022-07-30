@@ -1,0 +1,15 @@
+pkgbase = reshape
+	pkgdesc = A zero-downtime schema migration tool for PostgreSQL
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/fabianlindfors/reshape
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = rust
+	depends = gcc-libs
+	options = !lto
+	source = reshape::git+https://github.com/fabianlindfors/reshape.git#commit=0195102e9bafb1a62dd4b050711e618fcbf475dc
+	b2sums = SKIP
+
+pkgname = reshape

@@ -1,0 +1,41 @@
+pkgbase = foot-git
+	pkgdesc = Wayland terminal emulator - fast, lightweight and minimalistic
+	pkgver = 1.12.1
+	pkgrel = 1
+	url = https://codeberg.org/dnkl/foot
+	arch = x86_64
+	arch = aarch64
+	license = mit
+	checkdepends = check
+	makedepends = meson
+	makedepends = ninja
+	makedepends = scdoc
+	makedepends = python
+	makedepends = wayland-protocols
+	makedepends = tllist
+	depends = libxkbcommon
+	depends = wayland
+	depends = pixman
+	depends = fontconfig
+	depends = libutf8proc
+	depends = ncurses
+	depends = fcft>=3.0.0
+	optdepends = foot-terminfo: alternative to ncurses' terminfo, with additional non-standard capabilities
+	optdepends = foot-themes: color schemes
+	optdepends = libnotify: desktop notifications
+	optdepends = xdg-utils: URI launching
+	optdepends = bash-completion: bash completions for foot itself
+	provides = foot
+	conflicts = foot
+	source = git+https://codeberg.org/dnkl/foot.git
+	sha256sums = SKIP
+
+pkgname = foot-git
+
+pkgname = foot-themes-git
+	pkgdesc = Color schemes for the foot terminal emulator
+	arch = any
+	depends = foot-git
+	optdepends = 
+	provides = foot-themes
+	conflicts = foot-themes

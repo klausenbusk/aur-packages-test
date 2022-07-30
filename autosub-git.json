@@ -1,0 +1,26 @@
+pkgbase = autosub-git
+	pkgdesc = Command-line utility for auto-generating subtitles for any video file
+	pkgver = r241.919059f
+	pkgrel = 1
+	url = https://github.com/BingLingGroup/autosub
+	arch = any
+	license = GPL2
+	makedepends = python-setuptools
+	makedepends = git
+	depends = python-auditok
+	depends = python-pysubs2
+	depends = python-wcwidth
+	depends = python-fuzzywuzzy
+	depends = python-websocket-client
+	depends = python-requests
+	depends = python-progressbar
+	depends = python-googletrans
+	depends = python-google-cloud-speech
+	depends = python-levenshtein
+	optdepends = python-langcodes
+	optdepends = ffmpeg-normalize: for audio pre-processing
+	provides = autosub
+	source = autosub::git+https://github.com/BingLingGroup/autosub.git#branch=alpha
+	sha256sums = SKIP
+
+pkgname = autosub-git

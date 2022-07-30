@@ -1,0 +1,25 @@
+pkgbase = perl-starman
+	pkgdesc = High-performance preforking PSGI/Plack web server
+	pkgver = 0.4015
+	pkgrel = 1
+	url = https://metacpan.org/release/Starman
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	checkdepends = perl-test-requires>=0
+	checkdepends = perl-test-tcp>=2.00
+	depends = perl-data-dump>=0
+	depends = perl-http-date>=0
+	depends = perl-http-message>=0
+	depends = perl-http-parser-xs>=0
+	depends = perl-net-server>=2.007
+	depends = perl-plack>=0.9971
+	depends = perl-libwww>=0
+	depends = perl>=5.8.1
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Starman-0.4015.tar.gz
+	md5sums = 6318bf834964fe99a12a83fb6923b8d7
+	sha512sums = 8e603dfc27ee54b577c24bd521da08ecb56ae2b6992ad2304156a23b917465b3a14d11e1f038ca809ff6359798e03d3ce6d6aa705e55637401d8391ec5086ade
+
+pkgname = perl-starman
+

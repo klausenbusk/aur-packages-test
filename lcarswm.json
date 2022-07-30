@@ -1,0 +1,27 @@
+pkgbase = lcarswm
+	pkgdesc = LCARS Window Manager for lcarsde
+	pkgver = 22.1
+	pkgrel = 2
+	url = https://lcarsde.github.io
+	arch = any
+	groups = lcarsde
+	license = GPL2
+	makedepends = jdk-openjdk
+	makedepends = ncurses5-compat-libs
+	depends = libx11
+	depends = libxpm
+	depends = libxrandr
+	depends = pango
+	depends = icu
+	depends = libxml2
+	depends = glib2
+	depends = libxft
+	depends = harfbuzz
+	depends = freetype2
+	depends = libxcrypt-compat
+	optdepends = ttf-ubuntu-font-family
+	optdepends = alsa-utils
+	source = lcarswm-22.1.tar.gz::https://github.com/lcarsde/lcarswm/archive/22.1.tar.gz
+	md5sums = 9a09bd16937a0654c33a679b24c98d37
+
+pkgname = lcarswm

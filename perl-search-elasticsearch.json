@@ -1,0 +1,32 @@
+pkgbase = perl-search-elasticsearch
+	pkgdesc = The official client for Elasticsearch
+	pkgver = 7.717
+	pkgrel = 1
+	url = https://metacpan.org/release/Search-Elasticsearch
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	checkdepends = perl-test-deep
+	checkdepends = perl-test-exception
+	checkdepends = perl-test-sharedfork
+	depends = perl-any-uri-escape
+	depends = perl-devel-globaldestruction
+	depends = perl-http-message
+	depends = perl-io-socket-ssl
+	depends = perl-json-maybexs>=1.002002
+	depends = perl-log-any>=1.02
+	depends = perl-log-any-adapter-callback>=0.09
+	depends = perl-module-runtime
+	depends = perl-moo>=2.001000
+	depends = perl-package-stash>=0.34
+	depends = perl-sub-exporter
+	depends = perl-try-tiny
+	depends = perl-uri
+	depends = perl-libwww
+	depends = perl-namespace-clean
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/E/EZ/EZIMUEL/Search-Elasticsearch-7.717.tar.gz
+	md5sums = 16f29f464fff8782925dda5b44bed1ef
+	sha512sums = ff35ae946d90988c9b022b48b09be5b036d1399aeee148df009f83faa49fd1b8d66e1f379c14a1ab481d17f753b6fe0d43291da4714aa50a8732a37ebd3e093a
+
+pkgname = perl-search-elasticsearch

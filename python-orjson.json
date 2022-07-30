@@ -1,0 +1,19 @@
+pkgbase = python-orjson
+	pkgdesc = Fast, correct Python JSON library supporting dataclasses and datetimes
+	pkgver = 2.6.5
+	pkgrel = 1
+	url = https://github.com/ijl/orjson
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	license = Apache
+	license = MIT
+	makedepends = python-pip
+	makedepends = rust
+	depends = python
+	source = orjson-2.6.5.tar.gz::https://github.com/ijl/orjson/archive/2.6.5.tar.gz
+	sha512sums = a5cfbd3f2912f2c507af1a86fbfc2efbfdbd6430d25b695e0b8abf44745e729695310b380773a6cd9bf28f41898d87324dfe6969167580efc4c0e7f227292046
+
+pkgname = python-orjson
+

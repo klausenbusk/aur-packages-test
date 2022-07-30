@@ -1,0 +1,21 @@
+pkgbase = pymdown-extensions
+	pkgdesc = Extensions for Python Markdown
+	pkgver = 9.5
+	pkgrel = 1
+	url = https://facelessuser.github.io/pymdown-extensions
+	arch = any
+	license = MIT
+	checkdepends = python-pyaml
+	checkdepends = python-pygments>=2.12
+	checkdepends = python-pytest-cov
+	makedepends = python-build
+	makedepends = python-hatchling
+	makedepends = python-installer
+	makedepends = python-packaging>=21.3
+	makedepends = python-wheel
+	depends = python-markdown
+	optdepends = python-pygments>=2.12: syntax highlighting
+	source = https://files.pythonhosted.org/packages/source/p/pymdown_extensions/pymdown_extensions-9.5.tar.gz
+	sha256sums = 3ef2d998c0d5fa7eb09291926d90d69391283561cf6306f85cd588a5eb5befa0
+
+pkgname = pymdown-extensions

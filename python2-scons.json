@@ -1,0 +1,37 @@
+pkgbase = python2-scons
+	pkgdesc = Extensible Python-based build utility. Python2 version
+	pkgver = 3.1.2
+	pkgrel = 2
+	url = https://scons.org
+	arch = any
+	license = MIT
+	checkdepends = clang
+	checkdepends = gdc
+	checkdepends = dmd
+	checkdepends = ldc
+	checkdepends = lib32-glibc
+	checkdepends = nasm
+	checkdepends = swig
+	checkdepends = zip
+	checkdepends = python-pytest
+	checkdepends = python-virtualenv
+	checkdepends = python2-pytest
+	checkdepends = python2-virtualenv
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	makedepends = docbook2x
+	makedepends = epydoc
+	makedepends = fop
+	makedepends = texlive-bin
+	makedepends = graphviz
+	makedepends = ghostscript
+	makedepends = lynx
+	makedepends = python-lxml
+	makedepends = texlive-latexextra
+	depends = python
+	source = scons-3.1.2.tar.gz::https://github.com/scons/scons/archive/3.1.2.tar.gz
+	sha512sums = b096501ea37e62f596f16b46b4022ad7979f359b10849d4c5fa17731a6c3ec34e0890374de175a8aa7539ae677777142ccf5dfae39a74696efcdbcc00e89bccf
+
+pkgname = python2-scons
+	depends = python2
+

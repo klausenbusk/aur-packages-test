@@ -1,0 +1,23 @@
+pkgbase = python-persim
+	pkgdesc = Distances and representations of persistence diagrams
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/scikit-tda/persim
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-deprecated
+	depends = python-hopcroftkarp
+	depends = python-joblib
+	depends = python-matplotlib
+	depends = python-numpy
+	depends = python-scipy
+	depends = python-scikit-learn
+	source = python-persim-0.3.1.tar.gz::https://files.pythonhosted.org/packages/source/p/persim/persim-0.3.1.tar.gz
+	sha256sums = ef0f0a247adcf6104ecac14117db0b24581710ea8a8d964816805395700b4975
+
+pkgname = python-persim

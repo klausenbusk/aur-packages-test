@@ -1,0 +1,16 @@
+pkgbase = baidupcs-go-bin
+	pkgdesc = The terminal utility for Baidu Network Disk (Golang Version).
+	pkgver = 3.6.2
+	pkgrel = 1
+	url = https://github.com/iikira/BaiduPCS-Go
+	arch = x86_64
+	license = Apache
+	provides = baidupcs
+	conflicts = baidupcs
+	source = https://raw.githubusercontent.com/iikira/BaiduPCS-Go/master/LICENSE
+	sha256sums = ddadea2805326e3cb072a8b6769885fc1399475922e4c7d60f5e9f8e28c63e3d
+	source_x86_64 = https://github.com/iikira/BaiduPCS-Go/releases/download/v3.6.2/BaiduPCS-Go-v3.6.2-linux-amd64.zip
+	sha256sums_x86_64 = be53afe16d27783b81f2c9ccd457835ace21723d6d14a4a1378007fcc92319a1
+
+pkgname = baidupcs-go-bin
+

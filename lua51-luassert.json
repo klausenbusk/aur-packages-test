@@ -1,0 +1,16 @@
+pkgbase = lua51-luassert
+	pkgdesc = Assertion library for Lua
+	pkgver = 1.7.11
+	pkgrel = 1
+	url = https://github.com/Olivine-Labs/luassert
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = lua51-say
+	depends = lua51
+	depends = lua51-filesystem
+	source = https://github.com/Olivine-Labs/luassert/archive/v1.7.11.tar.gz
+	sha256sums = 6a8ed5b6af976d144d02c98e0d0814993e76a147c3066769fa5eb224311f98ef
+
+pkgname = lua51-luassert
+

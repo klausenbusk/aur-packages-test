@@ -1,0 +1,19 @@
+pkgbase = hdfview
+	pkgdesc = a GUI browser for reading hdf files
+	pkgver = 3.1.2
+	pkgrel = 1
+	url = https://portal.hdfgroup.org/display/support/Download+HDFView
+	arch = x86_64
+	license = custom
+	makedepends = ant
+	makedepends = gendesk
+	depends = hdf5110
+	depends = java-environment-openjdk=15
+	optdepends = hdf4
+	conflicts = hdfview-beta
+	replaces = hdfview-beta
+	source = hdfview-3.1.2.tar.gz::https://support.hdfgroup.org/ftp/HDF5/releases/HDF-JAVA/hdfview-3.1.2/src/hdfview-3.1.2.tar.gz
+	sha256sums = ec0c738464475de5e9ac05505760fa5a75cc0185fa4c056838ff04e4464cdc4f
+
+pkgname = hdfview
+

@@ -1,0 +1,20 @@
+pkgbase = python-pytest-dependency
+	pkgdesc = Manage dependencies of tests.
+	pkgver = 0.5.1
+	pkgrel = 2
+	url = https://github.com/RKrahl/pytest-dependency
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = https://files.pythonhosted.org/packages/source/p/pytest-dependency/pytest-dependency-0.5.1.tar.gz
+	sha512sums = efc615d41d0db9f3fbce2578a306d70675756ec9feb8de90c9e730eaa15d1f50779c356cff9e7621946c6f431c68c348abac5319d4dce5bfd4da0ba829eb2f69
+
+pkgname = python-pytest-dependency
+	depends = python
+	depends = python-pytest
+
+pkgname = python2-pytest-dependency
+	depends = python2
+	depends = python2-pytest
+

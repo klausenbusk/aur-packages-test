@@ -1,0 +1,25 @@
+pkgbase = rum
+	pkgdesc = Game library management
+	pkgver = 0.7.2
+	pkgrel = 1
+	url = https://johncena141.eu.org:8141/johncena141/rum
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	makedepends = pnpm
+	makedepends = git
+	makedepends = squashfs-tools
+	makedepends = patchelf
+	depends = webkit2gtk
+	depends = curl
+	depends = wget
+	depends = openssl
+	depends = appmenu-gtk-module
+	depends = gtk3
+	depends = libappindicator-gtk3
+	depends = libvips
+	depends = udev
+	source = rum-0.7.2.tar.gz::https://johncena141.eu.org:8141/johncena141/rum/archive/v0.7.2.tar.gz
+	md5sums = 205e3646bbebe5bfb26bbe3b5fa76855
+
+pkgname = rum

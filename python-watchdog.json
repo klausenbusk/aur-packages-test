@@ -1,0 +1,16 @@
+pkgbase = python-watchdog
+	pkgdesc = Python API and shell utilities to monitor file system events.
+	pkgver = 0.8.3
+	pkgrel = 3
+	url = https://pypi.python.org/pypi/watchdog
+	arch = any
+	license = Apache
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	depends = python
+	depends = python-pathtools
+	source = https://pypi.python.org/packages/source/w/watchdog/watchdog-0.8.3.tar.gz
+	sha256sums = 7e65882adb7746039b6f3876ee174952f8eaaa34491ba34333ddf1fe35de4162
+
+pkgname = python-watchdog
+

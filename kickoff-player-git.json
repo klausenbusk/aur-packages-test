@@ -1,0 +1,30 @@
+pkgbase = kickoff-player-git
+	pkgdesc = Stream football matches and channels with acestream and sopcast
+	pkgver = r222.4577d60
+	pkgrel = 1
+	url = https://github.com/jonian/kickoff-player
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = desktop-file-utils
+	depends = gtk3
+	depends = gst-plugins-bad
+	depends = acestream-engine
+	depends = python-gobject
+	depends = python-dbus
+	depends = python-lxml
+	depends = python-psutil
+	depends = python-dateutil
+	depends = python-pexpect
+	depends = python-peewee
+	depends = python-requests
+	depends = python-fuzzywuzzy
+	depends = python-levenshtein
+	optdepends = python-mpv: MPV player backend
+	optdepends = python-vlc: VLC player backend
+	provides = kickoff-player
+	source = kickoff-player-git::git+https://github.com/jonian/kickoff-player
+	md5sums = SKIP
+
+pkgname = kickoff-player-git
+

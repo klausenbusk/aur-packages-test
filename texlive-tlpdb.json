@@ -1,0 +1,14 @@
+pkgbase = texlive-tlpdb
+	pkgdesc = The texlive package database (texlive.tlpdb)
+	pkgver = 2019
+	pkgrel = 2
+	url = https://www.tug.org/texlive/
+	arch = any
+	license = GPL
+	depends = texlive-core
+	noextract = texlive.tlpdb
+	source = http://tug.ctan.org/systems/texlive/tlnet/tlpkg/texlive.tlpdb
+	sha512sums = SKIP
+
+pkgname = texlive-tlpdb
+

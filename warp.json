@@ -1,0 +1,19 @@
+pkgbase = warp
+	pkgdesc = Fast and secure file transfer
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://gitlab.gnome.org/World/warp
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	checkdepends = appstream-glib
+	makedepends = meson
+	makedepends = cargo
+	makedepends = itstool
+	depends = libadwaita
+	conflicts = warp-share-files
+	replaces = warp-share-files
+	source = https://gitlab.gnome.org/World/warp/-/archive/v0.2.2/warp-v0.2.2.tar.gz
+	b2sums = 178da172ee5bdcb4885ba55b012c8fa563dd7f8801d7349e1e873445482e1bfe0e604275d04ba99e908e71e176cbc83f9fa703e63d535112f057193eda3283d5
+
+pkgname = warp

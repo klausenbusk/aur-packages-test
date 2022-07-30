@@ -1,0 +1,20 @@
+pkgbase = ruby-digest-crc
+	pkgdesc = A Cyclic Redundancy Check (CRC) library for Ruby
+	pkgver = 0.6.4
+	pkgrel = 1
+	url = https://github.com/postmodern/digest-crc
+	arch = x86_64
+	license = MIT
+	checkdepends = ruby-rspec
+	makedepends = git
+	makedepends = rubygems
+	makedepends = ruby-rdoc
+	makedepends = ruby-bundler
+	makedepends = ruby-rake
+	makedepends = ruby-rubygems-tasks
+	depends = ruby
+	options = !emptydirs
+	source = git+https://github.com/postmodern/digest-crc.git?tag=v0.6.4
+	sha256sums = SKIP
+
+pkgname = ruby-digest-crc

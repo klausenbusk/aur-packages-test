@@ -1,0 +1,15 @@
+pkgbase = boost-bcp
+	pkgdesc = The bcp utility is a tool for extracting subsets of Boost
+	pkgver = 1.60.0
+	pkgrel = 1
+	url = http://www.boost.org/
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = boost
+	depends = icu
+	source = https://downloads.sourceforge.net/project/boost/boost/1.60.0/boost_1_60_0.tar.bz2
+	sha1sums = 7f56ab507d3258610391b47fef6b11635861175a
+
+pkgname = boost-bcp
+

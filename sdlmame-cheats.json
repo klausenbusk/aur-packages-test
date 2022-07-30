@@ -1,0 +1,15 @@
+pkgbase = sdlmame-cheats
+	pkgdesc = Official XML Cheat Collection for MAME
+	pkgver = 0.245
+	pkgrel = 1
+	url = http://www.mamecheat.co.uk/
+	install = sdlmame-cheats.install
+	arch = any
+	license = unknown
+	makedepends = unzip
+	depends = mame>=0.145u1
+	optdepends = mame>=0.245: this package is best used with an up-to-date version of mame.
+	source = http://cheat.retrogames.com/download/cheat0245.zip
+	sha1sums = 482cf860c927d9442d689b85990bf505d5bae0b1
+
+pkgname = sdlmame-cheats

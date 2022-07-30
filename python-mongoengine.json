@@ -1,0 +1,15 @@
+pkgbase = python-mongoengine
+	pkgdesc = An object-document mapper for MongoDB.
+	pkgver = 0.15.0
+	pkgrel = 1
+	url = http://mongoengine.org/
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python-setuptools
+	depends = python-pymongo
+	source = https://pypi.org/packages/source/m/mongoengine/mongoengine-0.15.0.tar.gz
+	md5sums = 5a389655e6c9c4e030b00495553871f0
+
+pkgname = python-mongoengine
+

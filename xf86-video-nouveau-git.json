@@ -1,0 +1,20 @@
+pkgbase = xf86-video-nouveau-git
+	pkgdesc = Open Source 3D acceleration driver for nVidia cards (git version)
+	pkgver = 1.0.17.r2.g3ee7cbc
+	pkgrel = 2
+	url = https://nouveau.freedesktop.org/
+	arch = x86_64
+	groups = xorg-drivers-git
+	license = GPL
+	makedepends = git
+	makedepends = xorg-server-devel
+	makedepends = xorg-server
+	makedepends = systemd
+	depends = systemd-libs
+	depends = mesa
+	provides = xf86-video-nouveau
+	conflicts = xf86-video-nouveau
+	source = xf86-video-nouveau-git::git://anongit.freedesktop.org/nouveau/xf86-video-nouveau
+	sha256sums = SKIP
+
+pkgname = xf86-video-nouveau-git

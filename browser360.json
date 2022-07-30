@@ -1,0 +1,20 @@
+pkgbase = browser360
+	pkgdesc = 360 Security Browser
+	pkgver = 10.4.1005.66
+	pkgrel = 1
+	url = https://browser.360.cn/se/linux/
+	arch = x86_64
+	license = custom
+	depends = alsa-lib
+	depends = gconf
+	depends = gtk2
+	depends = nss
+	depends = libxt
+	depends = libxss
+	depends = libxtst
+	depends = libglvnd
+	source = https://down.360safe.com/gc/browser360-cn-stable_10.4.1005.66-1_amd64.deb
+	sha256sums = ad51d9400ab6fb547de8e17c7ec00c9f59030b4c32392fa78db931fcbf7361de
+
+pkgname = browser360
+

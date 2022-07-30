@@ -1,0 +1,18 @@
+pkgbase = python-vk_api-git
+	pkgdesc = vk.com API wrapper
+	pkgver = 11.9.7.r1.1ef8259
+	pkgrel = 1
+	url = https://github.com/python273/vk_api
+	arch = any
+	license = APACHE
+	makedepends = python-setuptools
+	depends = python
+	depends = python-requests
+	optdepends = python-websocket-client: vkstreaming
+	optdepends = python-beautifulsoup4: vkaudio
+	provides = python-vk_api
+	conflicts = python-vk_api
+	source = git+https://github.com/python273/vk_api
+	sha256sums = SKIP
+
+pkgname = python-vk_api-git

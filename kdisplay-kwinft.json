@@ -1,0 +1,22 @@
+pkgbase = kdisplay-kwinft
+	pkgdesc = App and daemon for display managing
+	pkgver = 5.25.0
+	pkgrel = 1
+	url = https://gitlab.com/kwinft/kdisplay
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules
+	depends = kxmlgui
+	depends = disman
+	depends = qt5-graphicaleffects
+	depends = hicolor-icon-theme
+	depends = qt5-sensors
+	depends = kcmutils
+	depends = kirigami2
+	depends = plasma-framework
+	provides = kdisplay
+	conflicts = kdisplay
+	source = https://gitlab.com/kwinft/kdisplay/-/archive/kdisplay@5.25.0/kdisplay-kdisplay@5.25.0.tar.gz
+	md5sums = 35618782d8d31a4feb26dcc1d1a951ba
+
+pkgname = kdisplay-kwinft

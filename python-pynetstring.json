@@ -1,0 +1,15 @@
+pkgbase = python-pynetstring
+	pkgdesc = A module for encoding and decoding netstrings.
+	pkgver = 0.2
+	pkgrel = 1
+	url = https://github.com/rj79/pynetstring
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	options = !emptydirs
+	source = https://pypi.io/packages/source/p/pynetstring/pynetstring-0.2.tar.gz
+	sha256sums = 6ba299b7e6775904c38c726d27f1f29713c5b462b8500a726b4c92bdb121e2b4
+
+pkgname = python-pynetstring
+

@@ -1,0 +1,11 @@
+pkgbase = macchanger-systemd
+	pkgdesc = Systemd unit setting a random address while preserving the original NIC vendor bytes
+	pkgver = 1.0
+	pkgrel = 3
+	arch = any
+	depends = macchanger
+	source = macspoof.service
+	sha512sums = 042d21487f996875ee4f22a8f7bf84be35159bf3c3db1c18eee4f1a64a5a3a6e641542e8ae84dd3cdb79a2c7f3cabac56bb8fa5586bde104e2ca8417889b885b
+
+pkgname = macchanger-systemd
+

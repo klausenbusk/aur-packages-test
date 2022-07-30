@@ -1,0 +1,109 @@
+pkgbase = intel_fpga_lite
+	pkgdesc = Quartus Prime Lite Edition design software for Intel FPGA's. Split packages
+	pkgver = 19.1.0.670
+	pkgrel = 4
+	url = http://fpgasoftware.intel.com/?edition=lite
+	arch = x86_64
+	license = custom
+	makedepends = patchelf
+	options = !strip
+	options = !debug
+	source = http://download.altera.com/akdlm/software/acdsinst/19.1std/670/ib_tar/Quartus-lite-19.1.0.670-linux.tar
+	source = quartus.sh
+	source = quartus.desktop
+	source = modelsim-ase.sh
+	source = modelsim-ase.desktop
+	source = 51-usbblaster.rules
+	sha256sums = 3546e90f6496b17c3c3e3e8582a3991940ad73ed112740428864460cfab6e40a
+	sha256sums = b076bf669bbfdd963c9fe23e2db424be4fd1c68d97a79e9ca808dd5726ce400b
+	sha256sums = 630286f589b5191869eaefe360ead393c4d15ba5e7f966d99d822f79cf2784b5
+	sha256sums = 363be8b0656b56f92c34ac0581a8a0f3bb1edaa9da361f50d1e60ec3334c13a7
+	sha256sums = 235002d3a3326cd91164f16f7a8a9e754134ca2157c66e4e8abe71e9cd62dce2
+	sha256sums = dd9d33fa2698a0ec11ae86f4508f77e2e12bf4a21224f5b16640bc41d6c0999b
+
+pkgname = intel_fpga_lite-base
+	pkgdesc = Quartus Prime Lite Edition design software for Intel FPGA's. Split packages
+	depends = lib32-expat
+	depends = lib32-fontconfig
+	depends = lib32-freetype2
+	depends = lib32-glibc
+	depends = lib32-gtk2
+	depends = lib32-libcanberra
+	depends = lib32-libpng
+	depends = lib32-libice
+	depends = lib32-libsm
+	depends = lib32-util-linux
+	depends = lib32-ncurses
+	depends = lib32-ncurses5-compat-libs
+	depends = lib32-zlib
+	depends = lib32-libx11
+	depends = lib32-libxau
+	depends = lib32-libxdmcp
+	depends = lib32-libxext
+	depends = lib32-libxft
+	depends = lib32-libxrender
+	depends = lib32-libxt
+	depends = lib32-libxtst
+	depends = lib32-tkimg
+	depends = libpng12
+
+pkgname = intel_fpga_lite-ip
+	pkgdesc = ModelSim-Intel FPGA Starter Edition
+	depends = intel_fpga_lite-base=19.1.0.670-4
+
+pkgname = intel_fpga_lite-modelsim_ase
+	pkgdesc = Nios II Embedded Design Suite
+	depends = intel_fpga_lite-base=19.1.0.670-4
+
+pkgname = intel_fpga_lite-nios2eds
+	pkgdesc = Nios II Embedded Design Suite
+	depends = intel_fpga_lite-base=19.1.0.670-4
+
+pkgname = intel_fpga_lite-quartus
+	pkgdesc = Quartus Prime Lite Edition
+	depends = intel_fpga_lite-base=19.1.0.670-4
+	depends = intel_fpga_lite-ip=19.1.0.670-4
+
+pkgname = intel_fpga_lite-quartus-help
+	pkgdesc = Help for Quartus Prime Lite Edition
+	depends = intel_fpga_lite-quartus=19.1.0.670-4
+
+pkgname = intel_fpga_lite-quartus-arria_lite
+	pkgdesc = Arria Support Quartus Prime Lite Edition
+	depends = intel_fpga_lite-quartus=19.1.0.670-4
+
+pkgname = intel_fpga_lite-quartus-cyclone
+	pkgdesc = Cyclone IV Support Quartus Prime Lite Edition
+	depends = intel_fpga_lite-quartus=19.1.0.670-4
+
+pkgname = intel_fpga_lite-quartus-cyclone10lp
+	pkgdesc = Cyclone 10 LP Support Quartus Prime Lite Edition
+	depends = intel_fpga_lite-quartus=19.1.0.670-4
+
+pkgname = intel_fpga_lite-quartus-cyclonev
+	pkgdesc = Cyclone V Support Quartus Prime Lite Edition
+	depends = intel_fpga_lite-quartus=19.1.0.670-4
+
+pkgname = intel_fpga_lite-quartus-max
+	pkgdesc = MAX II and MAX V Support Quartus Prime Lite Edition
+	depends = intel_fpga_lite-quartus=19.1.0.670-4
+
+pkgname = intel_fpga_lite-quartus-max10
+	pkgdesc = MAX 10 Support Quartus Prime Lite Edition
+	depends = intel_fpga_lite-quartus=19.1.0.670-4
+
+pkgname = intel_fpga_lite
+	pkgdesc = Quartus Prime Lite Edition design software for Intel FPGA's. Split packages
+	depends = intel_fpga_lite-base
+	depends = intel_fpga_lite-ip
+	depends = intel_fpga_lite-modelsim_ase
+	depends = intel_fpga_lite-nios2eds
+	depends = intel_fpga_lite-quartus
+	depends = intel_fpga_lite-quartus-help
+	depends = intel_fpga_lite-quartus-arria_lite
+	depends = intel_fpga_lite-quartus-cyclone
+	depends = intel_fpga_lite-quartus-cyclone10lp
+	depends = intel_fpga_lite-quartus-cyclonev
+	depends = intel_fpga_lite-quartus-max
+	depends = intel_fpga_lite-quartus-max10
+

@@ -1,0 +1,18 @@
+pkgbase = barpyrus-git
+	pkgdesc = A python wrapper for lemonbar/conky
+	pkgver = r94.fa160c6
+	pkgrel = 2
+	url = https://github.com/t-wissmann/barpyrus
+	arch = any
+	license = BSD
+	depends = python
+	depends = python-setuptools
+	depends = lemonbar
+	depends = siji-git
+	depends = herbstluftwm
+	optdepends = conky: To use the conky widget
+	source = git+https://github.com/t-wissmann/barpyrus.git
+	sha1sums = SKIP
+
+pkgname = barpyrus-git
+

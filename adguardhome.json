@@ -1,0 +1,26 @@
+pkgbase = adguardhome
+	pkgdesc = Network-wide ads and trackers blocking DNS server
+	pkgver = 0.107.8
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/AdguardTeam/AdGuardHome
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	arch = armv6h
+	license = GPL
+	makedepends = go
+	makedepends = nodejs<17
+	makedepends = npm
+	makedepends = yarn
+	makedepends = git
+	depends = glibc
+	backup = etc/default/adguardhome
+	source = adguardhome-0.107.8.tar.gz::https://github.com/AdguardTeam/AdGuardHome/archive/v0.107.8.tar.gz
+	source = adguardhome.service
+	source = adguardhome.defaults
+	b2sums = 83e0c73f5089310be0827799ad7212215c52e708b25a911b21c9b962ae36f776a3ab3c38eec0657c0633cf83194ce67409555a56d82b6580a3477cb3eacdcf89
+	b2sums = d55d1667916e291b201dde5bd0a5d2d6dd16c654ecec4ea47c4a3a54b898e7008ba0538c9d5a4c7572cc304cc625b39accd69692766c1618890efff88e96e5a0
+	b2sums = ec3a3cd8debae4dcb4a723ef2ba31960aa1f897e2f8c857fcf9861bc7959072b22fed3091c0d07084c280be0755d03bf6ca4fef5f2d08ae20397378e13cf9c9b
+
+pkgname = adguardhome

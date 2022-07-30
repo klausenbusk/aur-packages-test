@@ -1,0 +1,14 @@
+pkgbase = python-pyevtk
+	pkgdesc = Export data as binary VTK files
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/paulo-herrera/PyEVTK
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-numpy
+	source = https://github.com/paulo-herrera/PyEVTK/archive/refs/tags/v2.0.0.tar.gz
+	sha256sums = 65dda5511dba63ae55777ba01a50d24f8506f76985eba94ff83191c08f2b076c
+
+pkgname = python-pyevtk
+

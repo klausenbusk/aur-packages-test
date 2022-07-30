@@ -1,0 +1,16 @@
+pkgbase = staruml
+	pkgdesc = A sophisticated software modeler
+	pkgver = 5.0.1
+	pkgrel = 1
+	url = http://staruml.io/
+	arch = x86_64
+	license = custom:staruml
+	depends = libxss
+	depends = libxtst
+	depends = nss
+	depends = alsa-lib
+	depends = gtk2
+	source = staruml-5.0.1_amd64.deb::https://staruml.io/download/releases-v5/StarUML_5.0.1_amd64.deb
+	sha256sums = dec568733102484cf6e97c4d620d21dc0458338e870582be177454d96556ca57
+
+pkgname = staruml

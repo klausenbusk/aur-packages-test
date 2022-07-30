@@ -1,0 +1,20 @@
+pkgbase = python-bitcoinlib
+	pkgdesc = An easy interface to the Bitcoin protocol and data structures
+	pkgver = 0.10.2
+	pkgrel = 1
+	url = https://github.com/petertodd/python-bitcoinlib
+	arch = any
+	license = LGPL3
+	makedepends = python-setuptools
+	depends = openssl
+	depends = python
+	provides = python-bitcoinlib=0.10.2
+	conflicts = python-bitcoin
+	conflicts = python-pybitcointools
+	conflicts = python-bitcoinlib
+	options = !emptydirs
+	source = https://github.com/petertodd/python-bitcoinlib/archive/python-bitcoinlib-v0.10.2.tar.gz
+	sha256sums = ece62f717c7e2077aefa3d7d8eed8e941b2383b8a26d035c4ee250f5474ca7a0
+
+pkgname = python-bitcoinlib
+

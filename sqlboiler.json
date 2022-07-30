@@ -1,0 +1,20 @@
+pkgbase = sqlboiler
+	pkgdesc = Generate a Go ORM tailored to your database schema
+	pkgver = 4.12.0
+	pkgrel = 1
+	url = https://github.com/volatiletech/sqlboiler
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	options = !lto
+	source = sqlboiler::git+https://github.com/volatiletech/sqlboiler.git#commit=c34167281c8663a2775bcaaf8a1947eedb62dfab
+	b2sums = SKIP
+
+pkgname = sqlboiler
+
+pkgname = sqlboiler-psql
+	pkgdesc = PostgreSQL driver for SQLBoiler
+	depends = sqlboiler
+	depends = postgresql-libs

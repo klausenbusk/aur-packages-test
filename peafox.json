@@ -1,0 +1,33 @@
+pkgbase = peafox
+	pkgdesc = Firefox fork hardened by default and without the telemetry.
+	pkgver = 79.0.1
+	pkgrel = 0.2
+	url = https://gitlab.com/spikecodes/peafox
+	arch = x86_64
+	license = MPL
+	license = GPL
+	license = LGPL
+	depends = dbus-glib
+	depends = gtk3
+	depends = libxt
+	depends = nss
+	optdepends = ffmpeg: H264/AAC/MP3 decoding
+	optdepends = hunspell: Spell checking
+	optdepends = hyphen: Hyphenation
+	optdepends = libnotify: Notification integration
+	optdepends = networkmanager: Location detection via available WiFi networks
+	optdepends = pulseaudio: Sound
+	optdepends = upower: Battery API
+	provides = peafox=79.0.1
+	conflicts = peafox
+	source = https://gitlab.com/spikecodes/peafox/uploads/2fc539675e0fd2a1e53c26e0ae042b2f/peafox-79.0.1.tar.bz2
+	source = peafox.desktop
+	source = peafox.png
+	source = peafox.sh
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = peafox
+

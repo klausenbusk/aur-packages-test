@@ -1,0 +1,26 @@
+pkgbase = pdfsizeopt
+	pkgdesc = PDF file size optimizer
+	pkgver = 20171011b
+	pkgrel = 1
+	url = https://github.com/pts/pdfsizeopt
+	arch = any
+	license = GPL2
+	makedepends = git
+	depends = python2>=2.4
+	depends = ghostscript>=8.61
+	depends = sam2p
+	depends = tif22pnm
+	depends = advancecomp
+	optdepends = multivalent-pdf-tools: to optimise cross reference table and object serialisation [use --use-multivalent=true]
+	optdepends = pngout: to optimise the size of PNG parts [use --use-pngout=true]
+	optdepends = jbig2enc: to manage JBIG2 parts [use --use-jbig2=true]
+	optdepends = ect: to further compress images [use --use-image-optimizer=ect]
+	optdepends = zopflipng: to further compress images [use --use-image-optimizer=zopflipng]
+	provides = pdfsizeopt
+	conflicts = pdfsizeopt-git
+	replaces = pdfsizeopt-git
+	source = https://github.com/pts/pdfsizeopt/archive/2017-10-11b.tar.gz
+	md5sums = SKIP
+
+pkgname = pdfsizeopt
+

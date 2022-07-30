@@ -1,0 +1,26 @@
+pkgbase = cbang-git
+	pkgdesc = A library of cross-platform C++ utilities
+	pkgver = r1376.eb2a1196
+	pkgrel = 1
+	url = https://github.com/CauldronDevelopmentLLC/cbang
+	arch = x86_64
+	license = LGPL2.1
+	checkdepends = python2
+	checkdepends = python2-six
+	makedepends = git
+	makedepends = scons
+	depends = v8-r
+	depends = libevent
+	depends = sqlite
+	depends = re2
+	depends = libyaml
+	depends = zlib
+	depends = bzip2
+	depends = expat
+	optdepends = mariadb-libs: MariaDB database support
+	provides = cbang
+	conflicts = cbang
+	source = git+https://github.com/CauldronDevelopmentLLC/cbang.git
+	sha256sums = SKIP
+
+pkgname = cbang-git

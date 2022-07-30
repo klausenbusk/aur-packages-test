@@ -1,0 +1,21 @@
+pkgbase = python-executor-python37
+	pkgdesc = Programmer friendly subprocess wrapper
+	pkgver = 21.0
+	pkgrel = 1
+	url = https://github.com/xolox/python-executor
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-coloredlogs
+	depends = python-fasteners
+	depends = python-humanfriendly
+	depends = python-property-manager
+	depends = python-six
+	provides = python-executor
+	conflicts = python-executor
+	source = https://files.pythonhosted.org/packages/source/e/executor/executor-21.0.tar.gz
+	sha256sums = 462d1b637f1a7a557f86421791eb5cdb25f2811f97dc9b6d9a4bb46419f2793a
+
+pkgname = python-executor-python37
+

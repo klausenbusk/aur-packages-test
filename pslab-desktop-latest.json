@@ -1,0 +1,20 @@
+pkgbase = pslab-desktop-latest
+	pkgdesc = PSLab Desktop App - latest version
+	pkgver = 2.0.0
+	pkgrel = 2
+	url = https://pslab.io
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = npm
+	depends = electron
+	depends = python-pslab-git
+	provides = pslab-desktop
+	conflicts = pslab-desktop
+	source = https://github.com/fossasia/pslab-desktop/archive/development.tar.gz
+	source = pslab.sh
+	sha256sums = SKIP
+	sha256sums = 840e44427a4c582bfd0b6be431187cd77c85acf44b44514ea7d61143824bca1b
+
+pkgname = pslab-desktop-latest
+

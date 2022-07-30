@@ -1,0 +1,12 @@
+pkgbase = python-pandas-summary
+	pkgdesc = An extension to pandas describe function
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://pypi.org/project/pandas-summary
+	arch = any
+	license = MIT
+	depends = python-pandas
+	source = https://pypi.org/packages/source/p/pandas-summary/pandas-summary-0.2.0.tar.gz
+	sha512sums = 0c004be41aad3d04bf67cea15c54dde6a6114819c768ee7c21255ad824d75201c925262c7f1a879a85d61dd32e369dd1519137db065eb5e136ad3742a6ab6be1
+
+pkgname = python-pandas-summary

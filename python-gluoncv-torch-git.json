@@ -1,0 +1,20 @@
+pkgbase = python-gluoncv-torch-git
+	pkgdesc = PyTorch API for GluonCV Models
+	pkgver = 0.0.3.r8.7b71149
+	pkgrel = 3
+	url = https://github.com/StacyYang/gluoncv-torch
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python-numpy
+	depends = python-pillow
+	depends = python-requests
+	depends = python-torchvision
+	depends = python-tqdm
+	provides = python-gluoncv-torch=0.0.3.r8.7b71149
+	conflicts = python-gluoncv-torch
+	source = python-gluoncv-torch-git::git+https://github.com/zhanghang1989/gluoncv-torch.git
+	md5sums = SKIP
+
+pkgname = python-gluoncv-torch-git

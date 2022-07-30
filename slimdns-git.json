@@ -1,0 +1,20 @@
+pkgbase = slimdns-git
+	pkgdesc = A simple, light weight DNS server
+	pkgver = v0.r19.5085237
+	pkgrel = 1
+	url = https://github.com/Torxed/slimDNS
+	arch = x86_64
+	license = custom:BSD
+	license = cc-by-nc-sa-3.0
+	makedepends = python
+	depends = python-dnslib
+	depends = postgresql
+	provides = slimdns-git
+	provides = slimdns
+	conflicts = slimdns-git
+	conflicts = slimdns
+	source = git+https://github.com/Torxed/slimdns.git
+	sha256sums = SKIP
+
+pkgname = slimdns-git
+

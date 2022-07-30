@@ -1,0 +1,15 @@
+pkgbase = tunneler2-git
+	pkgdesc = Online-multiplayer game inspired by a DOS classic
+	pkgver = r46.040474e
+	pkgrel = 2
+	url = https://github.com/thinkrad/tunneler
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = gendesk
+	depends = python2-pygame
+	conflicts = tunneler2
+	source = tunneler2-git::git+https://github.com/thinkrad/tunneler.git
+	md5sums = SKIP
+
+pkgname = tunneler2-git

@@ -1,0 +1,16 @@
+pkgbase = tfel
+	pkgdesc = TFEL/MFront introduces DSLs based on C++ to handle material knowledge
+	pkgver = 4.0
+	pkgrel = 1
+	url = https://github.com/thelfer/TFEL
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	makedepends = gcc-fortran
+	depends = gcc-libs
+	depends = gnuplot
+	provides = mfront
+	source = https://github.com/thelfer/TFEL/archive/TFEL-4.0.tar.gz
+	sha512sums = baf10c4dbad10e84e5e1334c106c0f13a5c7d993adf95e6053cc1f4f418a2f6a4bcd19a45957910e7e1eed0e69aeb09499fda24c4d3c9b5d0b343b0e1b6e7883
+
+pkgname = tfel

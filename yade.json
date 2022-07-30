@@ -1,0 +1,34 @@
+pkgbase = yade
+	pkgdesc = Yet Another Dynamic Engine, free software for discrete element modeling.
+	pkgver = 2022.01a
+	pkgrel = 4
+	url = https://yade-dem.org/doc/index.html
+	arch = x86_64
+	license = GPL2
+	makedepends = mpfrc++
+	makedepends = python-pygraphviz
+	makedepends = python-mpi4py
+	makedepends = utf8cpp
+	depends = cgal
+	depends = coin-or-clp
+	depends = freeglut
+	depends = gl2ps
+	depends = gts
+	depends = ipython
+	depends = libqglviewer
+	depends = openmpi
+	depends = python-mpmath
+	depends = python-xlib
+	depends = python-future
+	depends = python-pyqt5
+	depends = vtk
+	optdepends = cuda: GPU acceleration
+	optdepends = python-matplotlib: plotting graphs
+	optdepends = python-mpi4py: passing all tests
+	optdepends = tk: passing all tests
+	options = !buildflags
+	options = !lto
+	source = trunk-2022.01a::git+https://gitlab.com/yade-dev/trunk.git?commit=fd04d864622a1c628296ccd1697efc93cda98c27
+	sha512sums = SKIP
+
+pkgname = yade

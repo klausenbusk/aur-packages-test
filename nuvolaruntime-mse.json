@@ -1,0 +1,29 @@
+pkgbase = nuvolaruntime-mse
+	pkgdesc = Nuvola Apps Runtime - Tight integration of web apps with your desktop
+	pkgver = 4.16.0
+	pkgrel = 1
+	url = https://nuvola.tiliado.eu
+	arch = any
+	license = BSD 2-Clause "Simplified"
+	makedepends = git
+	makedepends = valacef
+	depends = diorite=4.16.0
+	depends = python-gobject
+	depends = json-glib
+	depends = webkit2gtk-mse
+	depends = python-javascriptcore4
+	depends = libnotify
+	depends = gst-plugins-ugly
+	depends = libdri2
+	depends = libdrm
+	depends = libsecret
+	depends = libappindicator-gtk3
+	optdepends = libappindicator-gtk3: Tray icon support
+	optdepends = engine.io-client
+	optdepends = unit.js: for JavaScript unit tests
+	provides = nuvolaruntime
+	conflicts = nuvolaruntime
+	source = https://github.com/tiliado/nuvolaruntime-mse/archive/4.16.0/nuvolaruntime-mse-4.16.0.tar.gz
+
+pkgname = nuvolaruntime-mse
+

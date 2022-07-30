@@ -1,0 +1,23 @@
+pkgbase = python-meshplex
+	pkgdesc = Fast tools for simplex meshes
+	pkgver = 0.17.2
+	pkgrel = 1
+	url = https://github.com/nschloe/meshplex
+	arch = any
+	license = GPL3
+	checkdepends = python-pytest-codeblocks
+	checkdepends = python-meshzoo
+	checkdepends = python-matplotlib
+	checkdepends = python-scipy
+	makedepends = python-build
+	makedepends = python-flit-core
+	makedepends = python-install
+	depends = python-meshio
+	depends = python-npx
+	optdepends = python-matplotlib: for Matplotlib rendering
+	optdepends = python-scipy: for analyze the connected components of a sparse graph
+	optdepends = vtk: for create polygonal sphere
+	source = https://pypi.org/packages/source/m/meshplex/meshplex-0.17.2.tar.gz
+	sha512sums = 90c1a9ad7a138e2043f125a8aece4b15e46475d306d7e1a49050e9554e2113cc76fafc26a883da869f6ff702e3477ad7266a7e6d4de56076b7114b8288394fbd
+
+pkgname = python-meshplex

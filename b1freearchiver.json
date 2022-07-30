@@ -1,0 +1,17 @@
+pkgbase = b1freearchiver
+	pkgdesc = Most friendly and simple free file archiver
+	pkgver = 1.5.86.4890
+	pkgrel = 2
+	url = http://www.b1.org
+	install = b1freearchiver.install
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = qtwebkit
+	optdepends = python: dolphin service menu support
+	options = strip
+	source = http://b1.org/download-start/0/os=deb64/b1freearchiver_current_stable_amd64.deb
+	sha512sums = fab9b87f4e0b949c0edadcba0d6ef3ae7b4bd6b72ec2ed3b90fedb1dc9a83e0b648f76f271c04f51780ab30b74c8b6cdb9cbe9446baa058730737b26fa65ed49
+
+pkgname = b1freearchiver
+

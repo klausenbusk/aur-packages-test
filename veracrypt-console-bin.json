@@ -1,0 +1,28 @@
+pkgbase = veracrypt-console-bin
+	pkgdesc = Disk encryption with strong security based on TrueCrypt - headless console only
+	pkgver = 1.25.9
+	pkgrel = 1
+	url = https://www.veracrypt.fr/
+	install = veracrypt.install
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = Apache 2.0
+	license = TrueCrypt 3.0
+	depends = fuse2>=2.8.0
+	depends = libsm
+	depends = device-mapper
+	optdepends = sudo: mounting encrypted volumes as nonroot users
+	provides = veracrypt
+	conflicts = veracrypt
+	conflicts = veracrypt-git
+	conflicts = veracrypt-git-no-gost
+	conflicts = veracrypt-trans
+	source_x86_64 = veracrypt-console-bin-1.25.9-amd64.deb::https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-console-1.25.9-Debian-11-amd64.deb
+	sha256sums_x86_64 = 4c64cd7212a93ad80ffe216d4ac9520703b206d105cbf56b485c6f2bc231ee2e
+	source_armv7h = veracrypt-console-bin-1.25.9-armv7.deb::https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-console-1.25.9-Debian-11-armhf.deb
+	sha256sums_armv7h = 549c251e756b5108fde7ea9ee736d1081739a04406c21719a7c5f42dad94df51
+	source_aarch64 = veracrypt-console-bin-1.25.9-arm64.deb::https://launchpad.net/veracrypt/trunk/1.25.9/+download/veracrypt-console-1.25.9-Debian-11-arm64.deb
+	sha256sums_aarch64 = bc37ddd5e8e96b149c04ad57fe412fed68c144c15a70349a7a5e162b25fd3f83
+
+pkgname = veracrypt-console-bin

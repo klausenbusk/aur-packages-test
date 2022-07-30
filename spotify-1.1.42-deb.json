@@ -1,0 +1,31 @@
+pkgbase = spotify-1.1.42-deb
+	pkgdesc = A proprietary music streaming service version 1.1.42.622
+	pkgver = 1.1.42.622
+	pkgrel = 1
+	url = https://www.spotify.com
+	arch = x86_64
+	license = custom
+	depends = alsa-lib>=1.0.14
+	depends = gtk2
+	depends = libsystemd
+	depends = libxss
+	depends = desktop-file-utils
+	depends = openssl
+	depends = nss
+	depends = at-spi2-atk
+	optdepends = ffmpeg-compat-57: Adds support for playback of local files
+	optdepends = zenity: Adds support for importing local files
+	optdepends = libnotify: Desktop notifications
+	provides = spotify
+	conflicts = spotify
+	conflicts = spotify-dev
+	options = !strip
+	source = spotify.protocol
+	source = LICENSE
+	md5sums = ef25ddc5b6bf8fe1a0d64cbd79e1f7b4
+	md5sums = 4f42403ad17aa70eaa94f0e675db7241
+	source_x86_64 = spotify-1.1.42-deb-1.1.42.622-x86_64.deb::https://mirror.cs.uchicago.edu/spotify/pool/non-free/s/spotify-client/spotify-client_1.1.42.622.gbd112320-37_amd64.deb
+	depends_x86_64 = libcurl-gnutls
+	md5sums_x86_64 = 9c9cbd30bac795b8ca71643de9d2d719
+
+pkgname = spotify-1.1.42-deb

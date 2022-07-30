@@ -1,0 +1,16 @@
+pkgbase = forge-autoreglib-1.4-bin
+	pkgdesc = Minecraft mod library by Vazkii
+	pkgver = 36.71
+	pkgrel = 1
+	url = https://github.com/Vazkii/AutoRegLib
+	arch = any
+	license = custom
+	depends = forge-server
+	noextract = forge-autoreglib-1.4-bin-36.71.jar
+	source = forge-autoreglib-1.4-bin-36.71.jar::https://maven.blamejared.com/vazkii/arl/AutoRegLib/1.4-36.71/AutoRegLib-1.4-36.71.jar
+	source = LICENSE
+	sha1sums = 48cda227232d0777897c51af302bfea8468f1701
+	sha1sums = 6280575615d8e517935d30317cfdec7c5a4b6aff
+
+pkgname = forge-autoreglib-1.4-bin
+

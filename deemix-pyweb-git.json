@@ -1,0 +1,24 @@
+pkgbase = deemix-pyweb-git
+	pkgdesc = This is a pyqtwebengine wrapper for deemix-webui
+	pkgver = r465.2204471b8b
+	pkgrel = 2
+	url = https://gitlab.com/RemixDev/deemix-gui-pyweb
+	arch = any
+	license = gpl3
+	makedepends = git
+	makedepends = unzip
+	depends = python>=3.7
+	depends = deemix
+	depends = python-flask
+	depends = python-flask-socketio
+	depends = python-pyqt5
+	depends = python-pyqt5-sip
+	depends = python-pyqtwebengine
+	depends = python-eventlet
+	provides = deemix-pyweb
+	source = deemix-gui-pyweb::git+https://gitlab.com/RemixDev/deemix-gui-pyweb
+	source = deemix-webui.zip::https://gitlab.com/RemixDev/deemix-webui/-/archive/1.6.0/deemix-webui-1.6.0.zip
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = deemix-pyweb-git

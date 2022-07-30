@@ -1,0 +1,22 @@
+pkgbase = ficsit-cli-bin
+	pkgdesc = A CLI for managing mods for the game Satisfactory
+	pkgver = 0.1.2
+	pkgrel = 1
+	url = https://github.com/Vilsol/ficsit-cli
+	license = GPL3
+	conflicts = ficsit
+	provides = ficsit
+	arch = aarch64
+	source_aarch64 = https://github.com/Vilsol/ficsit-cli/releases/download/v0.1.2/ficsit_linux_arm64
+	sha256sums_aarch64 = e96d0f78f965b23458b6c1d70818a9fa5edd2f598ca35e47e1d89fafbc4fd9f8
+	arch = armv7h
+	source_armv7h = https://github.com/Vilsol/ficsit-cli/releases/download/v0.1.2/ficsit_linux_armv7
+	sha256sums_armv7h = 05ce98da30178271e3ce60a37905ad0cf59e86759f97256058001f0024c6087e
+	arch = i686
+	source_i686 = https://github.com/Vilsol/ficsit-cli/releases/download/v0.1.2/ficsit_linux_386
+	sha256sums_i686 = 907673fbc1feea58136e3da27f610bc278e7d6a1ea2e4a004c6ba59f959948ad
+	arch = x86_64
+	source_x86_64 = https://github.com/Vilsol/ficsit-cli/releases/download/v0.1.2/ficsit_linux_amd64
+	sha256sums_x86_64 = 9f3d4829984d7fc97505a73530088b51c58c081fe9f31acc8a327c92fa1896ab
+	
+pkgname = ficsit-cli-bin

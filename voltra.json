@@ -1,0 +1,31 @@
+pkgbase = voltra
+	pkgdesc = Material design music player, based on Electron
+	pkgver = 3.4.1
+	pkgrel = 1
+	url = https://voltra.co
+	arch = x86_64
+	license = custom
+	depends = gtk2
+	depends = libxss
+	depends = gconf
+	depends = nss
+	depends = alsa-lib
+	depends = libxtst
+	provides = voltra
+	source = https://github.com/FabioLolix/archives/raw/master/Voltra-3.4.1.tar.gz
+	source = voltra.png
+	source = voltra.desktop
+	source = COPYRIGHT
+	source = voltra_EULA.html
+	source = voltra_privacy_policy.html
+	source = voltra_terms_of_services.html
+	md5sums = 7d944950290c8f131c3d5fc0f25a3971
+	md5sums = 86625b67e901dd6556ea691b3ba466fb
+	md5sums = be9f4e3cbcb7495c9b670737406572e3
+	md5sums = bad5ffe34c28e007c0b76453082f59fd
+	md5sums = 3f05edb0b98550ad1b2ae6450d8efcbf
+	md5sums = 8c659d4fe8182ba17c0ac439b163a9ff
+	md5sums = d91f97b0d0dd198337296a6476646919
+
+pkgname = voltra
+

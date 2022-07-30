@@ -1,0 +1,21 @@
+pkgbase = vulkan-loader-git
+	pkgdesc = Vulkan loader build from source. Depends on vulkan headers from my aur repo. For install instruction and the order of install visit my GitHub page ----> https://github.com/sparzz/vulkan-arch-aur
+	pkgver = 1.2.141_2020.06.09_r1
+	pkgrel = 1
+	arch = x86_64
+	license = Apache
+	makedepends = cmake
+	makedepends = git
+	makedepends = vulkan-headers-sparzz-git
+	depends = vulkan-headers-sparzz-git
+	depends = spirv-headers-sparzz-git
+	depends = glslang-sparzz-git
+	depends = make
+	depends = cmake
+	depends = git
+	provides = vulkan-loader-git
+	source = Vulkan-Loader::git+https://github.com/KhronosGroup/Vulkan-Loader.git
+	md5sums = SKIP
+
+pkgname = vulkan-loader-git
+

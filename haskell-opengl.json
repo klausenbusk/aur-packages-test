@@ -1,0 +1,21 @@
+pkgbase = haskell-opengl
+	pkgdesc = A binding for the OpenGL graphics system
+	pkgver = 3.0.2.0
+	pkgrel = 1
+	url = http://www.haskell.org/haskellwiki/Opengl
+	arch = i686
+	arch = x86_64
+	license = custom:BSD3
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-gluraw
+	depends = haskell-objectname
+	depends = haskell-openglraw
+	depends = haskell-statevar
+	depends = haskell-text
+	depends = haskell-transformers
+	source = https://hackage.haskell.org/packages/archive/OpenGL/3.0.2.0/OpenGL-3.0.2.0.tar.gz
+	sha512sums = f562d0ca75321a443aec46d457741a52a6adbfd9a9710d4444f7f1c3e71f774f62f46129f7b30418382172beba60aab41c93ad4c7d3938474999e4512cc0fa5f
+
+pkgname = haskell-opengl
+

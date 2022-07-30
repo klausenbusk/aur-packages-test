@@ -1,0 +1,19 @@
+pkgbase = python-tappy
+	pkgdesc = Test Anything Protocol (TAP) tools for Python
+	pkgver = 2.5
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/tap.py
+	arch = any
+	license = BSD
+	makedepends = python-mock
+	depends = python
+	depends = python-babel
+	depends = python-pyaml
+	depends = python-more-itertools
+	options = !emptydirs
+	source = https://files.pythonhosted.org/packages/source/t/tap.py/tap.py-2.5.tar.gz
+	md5sums = 774f543b6138320dfd737a1982fb149c
+	sha256sums = 8ad62ba6898fcef4913c67d468d0c4beae3109b74c03363538145e31b1840b29
+
+pkgname = python-tappy
+

@@ -1,0 +1,13 @@
+pkgbase = python-charset-normalizer
+	pkgdesc = The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
+	pkgver = 2.0.4
+	pkgrel = 1
+	url = https://github.com/ousret/charset_normalizer
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/c/charset-normalizer/charset-normalizer-2.0.4.tar.gz
+	sha256sums = f23667ebe1084be45f6ae0538e4a5a865206544097e4e8bbcacf42cd02a348f3
+
+pkgname = python-charset-normalizer

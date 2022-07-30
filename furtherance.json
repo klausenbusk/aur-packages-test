@@ -1,0 +1,16 @@
+pkgbase = furtherance
+	pkgdesc = Track your time without being tracked
+	pkgver = 1.5.1
+	pkgrel = 1
+	url = https://github.com/lakoliu/Furtherance
+	arch = x86_64
+	license = GPL3
+	makedepends = meson
+	makedepends = rust
+	depends = gtk4
+	depends = libadwaita
+	depends = sqlite
+	source = https://github.com/lakoliu/Furtherance/archive/refs/tags/v1.5.1.tar.gz
+	sha256sums = d109077f316f8e3fad52f492c95dfc584841cdd2310200db4896b9f0a2fa47ed
+
+pkgname = furtherance

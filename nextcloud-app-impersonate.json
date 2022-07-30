@@ -1,0 +1,21 @@
+pkgbase = nextcloud-app-impersonate
+	pkgdesc = Allow administrators to become a different user by adding an impersonate action to the user list
+	pkgver = 1.11.0
+	pkgrel = 1
+	url = https://apps.nextcloud.com/apps/impersonate
+	arch = any
+	license = GPL
+	makedepends = nextcloud
+	makedepends = php
+	makedepends = ripgrep
+	makedepends = yq
+	options = !strip
+	source = nextcloud-app-impersonate-1.11.0.tgz::https://github.com/nextcloud-releases/impersonate/releases/download/v1.11.0/impersonate-v1.11.0.tar.gz
+	sha256sums = c30d7545f732d325d4e7ef30feb3974711feede0fa1bc4409b77d9dcfa5781d3
+
+pkgname = nextcloud-app-impersonate
+	depends = nextcloud>=
+	depends = nextcloud<
+	depends = php-interpreter>=
+	depends = php-interpreter<
+	depends = php-interpreter

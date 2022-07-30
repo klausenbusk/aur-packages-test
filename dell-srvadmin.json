@@ -1,0 +1,20 @@
+pkgbase = dell-srvadmin
+	pkgdesc = Dell OpenManage iDRAC server management (OMSA and RACADM)
+	pkgver = 9.3.0
+	pkgrel = 1
+	url = http://en.community.dell.com/techcenter/systems-management/w/wiki/1760.openmanage-server-administrator-omsa
+	arch = x86_64
+	depends = openssl
+	depends = libsmbios
+	depends = sblim-sfcc
+	provides = dell-mgmtstat=9.3.0
+	conflicts = dell-mgmtstat
+	options = !strip
+	source = https://dl.dell.com/FOLDER05558134M/1/OM-SrvAdmin-Dell-Web-LX-9.3.0-3465.RHEL6.x86_64_A00.tar.gz
+	source = https://dl.dell.com/FOLDER05558124M/1/OM-SrvAdmin-Dell-Web-LX-9.3.0-3465.RHEL6.x86_64_A00.tar.gz.sign
+	validpgpkeys = 42550ABD1E80D7C1BC0BAD851285491434D8786F
+	sha256sums = f81dcc28d951b18addef22e6c2f51a6bae3c76aa87066c3dbff0ec517855ac13
+	sha256sums = SKIP
+
+pkgname = dell-srvadmin
+

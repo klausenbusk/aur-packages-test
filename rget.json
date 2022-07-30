@@ -1,0 +1,12 @@
+pkgbase = rget
+	pkgdesc = Wget alternative
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://github.com/legendary-cookie/rustutils
+	arch = x86_64
+	license = GPL
+	makedepends = rustup
+	source = https://github.com/legendary-cookie/rustutils/archive/refs/tags/rget-1.1.2.tar.gz
+	sha256sums = 21ddec6788cc01af77b283fda7bd85fc98146547188eab74bc13ff51e2c494be
+
+pkgname = rget

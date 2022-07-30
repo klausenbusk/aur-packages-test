@@ -1,0 +1,28 @@
+pkgbase = libwpe
+	pkgdesc = Base library for the WPE WebKit port
+	pkgver = 1.2.1
+	pkgrel = 0
+	url = https://github.com/WebPlatformForEmbedded/libwpe
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	groups = wpe
+	license = custom:BSD
+	makedepends = cmake
+	makedepends = opengl-driver
+	depends = gcc-libs
+	depends = libxkbcommon
+	conflicts = libwpe-git
+	replaces = wpebackend
+	source = https://wpewebkit.org/releases/libwpe-1.2.1.tar.xz
+	source = https://wpewebkit.org/releases/libwpe-1.2.1.tar.xz.asc
+	validpgpkeys = 5AA3BC334FD7E3369E7C77B291C559DBE4C9123B
+	md5sums = 9f26865f06ecf933ddbbf067a7be735f
+	md5sums = SKIP
+	sha1sums = d3f6211a2acafe1bd1f41e826c8efae35335fc92
+	sha1sums = SKIP
+	sha256sums = 00e103c6fa226b0d979c29d14c9e8168c4bec7b0b5108f3705a037cda5609d7d
+	sha256sums = SKIP
+
+pkgname = libwpe
+

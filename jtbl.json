@@ -1,0 +1,14 @@
+pkgbase = jtbl
+	pkgdesc = A simple CLI tool to print JSON and JSON Lines data as a table in the terminal
+	pkgver = 1.2.3
+	pkgrel = 1
+	url = https://github.com/kellyjonbrazil/jtbl
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-tabulate
+	source = https://pypi.io/packages/source/j/jtbl/jtbl-1.2.3.tar.gz
+	sha256sums = 1bc8d08a75cc584de4e13311e422bbdbec7b9334766cf2725d6862a1463ffa22
+
+pkgname = jtbl

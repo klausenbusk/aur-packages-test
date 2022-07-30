@@ -1,0 +1,17 @@
+pkgbase = mqttui
+	pkgdesc = Subscribe to a MQTT Topic or publish something quickly from the terminal
+	pkgver = 0.16.2
+	pkgrel = 1
+	url = https://github.com/EdJoPaTo/mqttui
+	arch = x86_64
+	arch = aarch64
+	arch = armv6h
+	arch = armv7h
+	license = GPL3
+	makedepends = cargo
+	depends = gcc-libs
+	provides = mqttui
+	source = mqttui-0.16.2.tar.gz::https://github.com/EdJoPaTo/mqttui/archive/v0.16.2.tar.gz
+	sha256sums = 79eb9bb529dcaf8047242434ffab5546200a203bddcccf35825d50783b39198f
+
+pkgname = mqttui

@@ -1,0 +1,22 @@
+pkgbase = ruby-domain_name
+	pkgdesc = This is a Domain Name manipulation library for Ruby. It can also be used for cookie domain validation based on the Public Suffix List.
+	pkgver = 0.5.20180417
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/knu/ruby-domain_name
+	arch = any
+	license = BSD-2-Clause
+	license = BSD-3-Clause
+	license = MPL-1.1
+	license = GPL-2.0
+	license = LGPL-2.1
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = ruby-unf
+	noextract = domain_name-0.5.20180417.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/domain_name-0.5.20180417.gem
+	sha256sums = 7b74d1fe58937c6021d210d123a8e880787a047dbc411cabd6475b6216a76d29
+
+pkgname = ruby-domain_name
+

@@ -1,0 +1,15 @@
+pkgbase = clever-arch-test
+	pkgdesc = deprecated package
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://aur.archlinux.org/packages/clever-arch-test/
+	arch = x86_64
+	license = MIT
+	depends = libcurl-compat
+	depends = gcc-libs
+	depends = libnghttp2
+	depends = libssh2
+	depends = libpsl
+	options = !strip
+
+pkgname = clever-arch-test

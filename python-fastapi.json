@@ -1,0 +1,16 @@
+pkgbase = python-fastapi
+	pkgdesc = FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+	pkgver = 0.52.0
+	pkgrel = 1
+	url = https://fastapi.tiangolo.com/
+	arch = any
+	license = MIT
+	depends = python
+	depends = python-setuptools
+	depends = python-starlette
+	depends = python-pydantic
+	source = https://files.pythonhosted.org/packages/source/f/fastapi/fastapi-0.52.0.tar.gz
+	md5sums = bfc84fe686c29e42ef96b279e4664601
+
+pkgname = python-fastapi
+

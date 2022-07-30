@@ -1,0 +1,23 @@
+pkgbase = python-streamlit-altair
+	pkgdesc = Declarative statistical visualization library for Python
+	pkgver = 3.2.0
+	pkgrel = 1
+	url = https://altair-viz.github.io/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-entrypoints
+	depends = python-jsonschema
+	depends = python-numpy
+	depends = python-pandas
+	depends = python-six
+	depends = python-toolz
+	optdepends = python-selenium: png and svg export support
+	conflicts = python-altair
+	replaces = python-altair
+	source = altair-3.2.0.tar.gz::https://github.com/altair-viz/altair/archive/v3.2.0.tar.gz
+	sha256sums = 2c52a31621836e42587fe4a2b5c0adec874d84597cfea102ceea0646700c95a8
+
+pkgname = python-streamlit-altair3
+

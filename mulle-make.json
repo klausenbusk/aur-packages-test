@@ -1,0 +1,16 @@
+pkgbase = mulle-make
+	pkgdesc = Build projects with tools like cmake, meson, autoconf
+	pkgver = 0.16.0
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/mulle-sde/mulle-make
+	changelog = RELEASENOTES.md
+	arch = any
+	groups = mulle-sde-all
+	license = BSD3
+	depends = bash
+	depends = mulle-bashfunctions>=3.4.0
+	source = https://github.com/mulle-sde/mulle-make/archive/0.16.0.tar.gz
+	md5sums = 05d09aa487f8a992b786077e0091ab86
+
+pkgname = mulle-make

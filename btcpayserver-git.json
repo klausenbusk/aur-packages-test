@@ -1,0 +1,25 @@
+pkgbase = btcpayserver-git
+	pkgdesc = Accept Bitcoin payments. Free, open-source and self-hosted Bitcoin payment processor.
+	pkgver = latest_tag
+	pkgrel = 1
+	url = https://github.com/btcpayserver/btcpayserver
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = aspnet-runtime-3.1
+	depends = bitcoin-daemon
+	depends = dotnet-sdk-3.1
+	depends = nbxplorer-git
+	optdepends = apache: HTTP server
+	optdepends = certbot: Creates SSL certificates.
+	optdepends = lnd: Lightning network support
+	optdepends = mariadb: Database
+	optdepends = nginx: HTTP server
+	optdepends = postgresql: Database
+	optdepends = sqlite: Database
+	provides = btcpayserver
+	conflicts = btcpayserver
+	source = git+https://github.com/btcpayserver/btcpayserver.git
+	sha256sums = SKIP
+
+pkgname = btcpayserver-git

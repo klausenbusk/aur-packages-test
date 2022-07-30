@@ -1,0 +1,19 @@
+pkgbase = nsdiff
+	pkgdesc = Create an 'nsupdate' script from DNS zone file differences
+	pkgver = 1.81
+	pkgrel = 1
+	url = https://dotat.at/prog/nsdiff/
+	arch = any
+	license = CC0-1.0
+	depends = bind
+	depends = bind-tools
+	depends = perl
+	provides = nspatch=1.81
+	provides = nsvi=1.81
+	provides = perl-dns-nsdiff=1.81
+	options = !emptydirs
+	source = https://dotat.at/prog/nsdiff/DNS-nsdiff-1.81.tar.gz
+	sha256sums = 869dddadfe5f137855da41e1705a43dbf1f60d31374edc8822c827f2b7ed4d41
+
+pkgname = nsdiff
+

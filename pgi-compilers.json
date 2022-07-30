@@ -1,0 +1,28 @@
+pkgbase = pgi-compilers
+	pkgdesc = PGI compilers and tools (Community Edition)
+	pkgver = 19.10
+	pkgrel = 1
+	url = https://www.pgroup.com/products/community.htm
+	arch = x86_64
+	license = custom
+	makedepends = bash
+	depends = gtk2
+	depends = lib32-glibc
+	depends = python
+	depends = libnet
+	depends = openmp
+	depends = libglvnd
+	depends = alsa-lib
+	depends = libxslt
+	depends = libxtst
+	depends = openmpi
+	options = !strip
+	source = local://pgilinux-2019-1910-x86-64.tar.gz
+	source = https://www.pgroup.com/doc/LICENSE.txt
+	source = pgi-compilers.sh
+	md5sums = 71b033bb894d838fec8200e0071576b4
+	md5sums = 4b126b6494c776016accd8ffbd0be51d
+	md5sums = 5591f7344c4ec974db4be9ad35a80b3b
+
+pkgname = pgi-compilers
+

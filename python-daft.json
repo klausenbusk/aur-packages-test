@@ -1,0 +1,20 @@
+pkgbase = python-daft
+	pkgdesc = Render probabilistic graphical models using matplotlib
+	pkgver = 0.1.2
+	pkgrel = 3
+	url = https://github.com/daft-dev/daft
+	changelog = HISTORY.rst
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	depends = python-numpy
+	depends = python-matplotlib
+	source = python-daft-0.1.2.tar.gz::https://github.com/daft-dev/daft/archive/v0.1.2.tar.gz
+	sha256sums = ab1873bd2409d7ca88f88a9534d9c82b1f0885e7d5c018bf33e0a9c8228c7282
+
+pkgname = python-daft

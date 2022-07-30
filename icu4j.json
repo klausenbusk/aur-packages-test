@@ -1,0 +1,32 @@
+pkgbase = icu4j
+	pkgdesc = International Components for Unicode for Java
+	pkgver = 71.1
+	pkgrel = 2
+	url = https://icu.unicode.org
+	arch = any
+	license = custom:icu
+	depends = java-environment>=7
+	noextract = icu4j-71_1.jar
+	noextract = icu4j-71_1-src.jar
+	noextract = icu4j-charset-71_1.jar
+	noextract = icu4j-charset-71_1-src.jar
+	noextract = icu4j-localespi-71_1.jar
+	noextract = icu4j-localespi-71_1-src.jar
+	source = https://github.com/unicode-org/icu/releases/download/release-71-1/icu4j-71_1.jar
+	source = https://github.com/unicode-org/icu/releases/download/release-71-1/icu4j-71_1-docs.jar
+	source = https://github.com/unicode-org/icu/releases/download/release-71-1/icu4j-71_1-src.jar
+	source = https://github.com/unicode-org/icu/releases/download/release-71-1/icu4j-charset-71_1.jar
+	source = https://github.com/unicode-org/icu/releases/download/release-71-1/icu4j-charset-71_1-src.jar
+	source = https://github.com/unicode-org/icu/releases/download/release-71-1/icu4j-localespi-71_1.jar
+	source = https://github.com/unicode-org/icu/releases/download/release-71-1/icu4j-localespi-71_1-src.jar
+	source = icu4j-license::https://github.com/unicode-org/icu/blob/master/icu4c/LICENSE
+	sha256sums = 91c4f8ebf0ceb489547098fe9d5c09a65eb419caea6ed714867f5280800bcf1a
+	sha256sums = b775182c507e9b2efce231275abfeaee6dfdcc11cd4aacddb7d3f1709fc6f8d7
+	sha256sums = db804ebf5b8cc1aed3e034bd714a68ca973d8ff3c9f3d1b23d67dc83fc596055
+	sha256sums = 5ac6b3c9e1edd55d10f473a780705d3b14a96d238b745a638fbcf9f8af02204e
+	sha256sums = dd615da4a1bb44b9a665253e4a231b9d050e830b264c7f4ef525ad29bc4c1c10
+	sha256sums = 857061c37cfc4f7e02696e4a0859befbf2caa38a64a250d9e40dffb627749f67
+	sha256sums = 7c94733bf21bb135914e65927aba84aa4023f83b6db1d8cc6ae9284afc6e399a
+	sha256sums = SKIP
+
+pkgname = icu4j

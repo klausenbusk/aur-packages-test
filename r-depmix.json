@@ -1,0 +1,15 @@
+pkgbase = r-depmix
+	pkgdesc = Dependent Mixture Models
+	pkgver = 0.9.14
+	pkgrel = 1
+	url = https://cran.r-project.org/package=depmix
+	arch = x86_64
+	license = GPL3
+	depends = r
+	optdepends = r-rdonlp2
+	replaces = r-cran-depmix
+	source = https://cran.r-project.org/src/contrib/depmix_0.9.14.tar.gz
+	md5sums = f837ec6fe33c8ae5de9fd95956304c2b
+
+pkgname = r-depmix
+

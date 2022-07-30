@@ -1,0 +1,18 @@
+pkgbase = pacfetch-git
+	pkgdesc = Simple fetch script for pacman based distros. Written in Rust.
+	pkgver = 0.1.7
+	pkgrel = 1
+	url = https://git.auteiy.me/dmitry/pacFetch
+	arch = x86_64
+	license = GPL3
+	makedepends = rust
+	makedepends = cargo
+	depends = gcc-libs
+	depends = wmctrl
+	provides = pacfetch
+	conflicts = pacfetch-bin
+	source = pacfetch-git-0.1.7-1::git+https://git.auteiy.me/dmitry/pacFetch.git
+	sha512sums = SKIP
+
+pkgname = pacfetch-git
+

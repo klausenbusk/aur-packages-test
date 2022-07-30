@@ -1,0 +1,34 @@
+pkgbase = python-pydna
+	pkgdesc = Data structures for double-stranded DNA & simulation of homologous recombination
+	pkgver = 4.0.7
+	pkgrel = 2
+	url = https://github.com/bjornfjohansson/pydna
+	changelog = CHANGELOG.md
+	arch = any
+	license = BSD
+	checkdepends = python-requests-mock
+	checkdepends = ipython
+	checkdepends = python-codon-adaptation-index
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-sphinx
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	makedepends = python-pytest-runner
+	depends = python-appdirs
+	depends = python-biopython
+	depends = python-networkx
+	depends = python-prettytable
+	depends = python-pyparsing
+	depends = python-requests
+	optdepends = python-matplotlib: gel simulation
+	optdepends = python-mpldatacursor: gel simulation
+	optdepends = python-numpy: gel simulation
+	optdepends = python-pint: gel simulation
+	optdepends = python-scipy: gel simulation
+	source = python-pydna::git+https://github.com/bjornfjohansson/pydna#tag=4.0.7
+	sha256sums = SKIP
+
+pkgname = python-pydna

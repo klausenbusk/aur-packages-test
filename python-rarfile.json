@@ -1,0 +1,19 @@
+pkgbase = python-rarfile
+	pkgdesc = Python module for RAR archive reading
+	pkgver = 4.0
+	pkgrel = 3
+	url = https://github.com/markokr/rarfile
+	arch = any
+	license = ISC
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	optdepends = unarchiver: alternative decompression backend
+	optdepends = libarchive: alternative decompression backend
+	optdepends = python-pycryptodome: process archives with password-protected headers
+	source = https://files.pythonhosted.org/packages/source/r/rarfile/rarfile-4.0.tar.gz
+	sha256sums = 67548769229c5bda0827c1663dce3f54644f9dbfba4ae86d4da2b2afd3e602a1
+
+pkgname = python-rarfile

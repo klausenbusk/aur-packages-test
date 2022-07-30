@@ -1,0 +1,25 @@
+pkgbase = alltomp3-bin
+	pkgdesc = Download YouTube videos in MP3 with tags and lyrics
+	pkgver = 0.3.19.66
+	pkgrel = 1
+	url = https://alltomp3.org
+	arch = x86_64
+	license = GPL-2.0
+	depends = chromaprint
+	depends = giflib
+	depends = hicolor-icon-theme
+	depends = lcms2
+	depends = libappindicator-gtk3
+	depends = libcroco
+	depends = libnotify
+	depends = libvips
+	depends = libxss
+	depends = nss
+	depends = orc
+	depends = python2-pathlib2
+	conflicts = alltomp3
+	source = AllToMP3_0.3.19.66_amd64.deb::https://github.com/AllToMP3/alltomp3-app/releases/download/v0.3.19/AllToMP3_0.3.19_amd64.deb
+	sha256sums = 346962b3563dd2478513a5e5be60c5f8866910f64a190c5bdd7371c52dc13dfa
+
+pkgname = alltomp3-bin
+

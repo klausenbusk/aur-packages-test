@@ -1,0 +1,22 @@
+pkgbase = atom-editor-beta-bin
+	pkgdesc = A hackable text editor for the 21st Century
+	pkgver = 1.61.0beta0
+	pkgrel = 1
+	arch = x86_64
+	license = MIT
+	depends = gconf
+	depends = git
+	depends = nodejs
+	depends = npm
+	depends = libsecret
+	depends = python
+	depends = libx11
+	depends = libxkbfile
+	provides = atom
+	conflicts = atom
+	source = https://github.com/atom/atom/releases/download/v1.61.0-beta0/atom-amd64.tar.gz
+	source = https://raw.githubusercontent.com/atom/atom/master/resources/linux/atom.desktop.in
+	md5sums = 20ba9a67fcc3cb65eb6dc124a515abf7
+	md5sums = edd7c80254eae752065ec9fd17915752
+
+pkgname = atom-editor-beta-bin

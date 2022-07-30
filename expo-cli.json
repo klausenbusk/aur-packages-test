@@ -1,0 +1,15 @@
+pkgbase = expo-cli
+	pkgdesc = Tools for creating, running, and deploying Universal Expo and React Native apps
+	pkgver = 5.6.0
+	pkgrel = 1
+	url = https://expo.io
+	arch = any
+	license = MIT
+	makedepends = jq
+	makedepends = npm
+	depends = nodejs
+	noextract = expo-cli-5.6.0.tar.gz
+	source = expo-cli-5.6.0.tar.gz::https://registry.npmjs.org/expo-cli/-/expo-cli-5.6.0.tgz
+	sha512sums = 9bc799df41f6cae48ae68b817540065f63b9d148b0ca7f8090cfbaf8acb35b239c6f11b3da5d19d2c6e726122de2c12c77842f4a672c5fcd788604a7164a0a24
+
+pkgname = expo-cli

@@ -1,0 +1,18 @@
+pkgbase = firefox-extension-gnome-theme-tweak
+	pkgdesc = Extension for customizing GNOME theme.
+	pkgver = 42.1
+	pkgrel = 1
+	url = https://addons.mozilla.org/firefox/addon/gnome-theme-tweak/
+	arch = any
+	license = MPLv2
+	makedepends = unzip
+	makedepends = rasqal
+	depends = firefox
+	noextract = firefox-extension-gnome-theme-tweak.zip
+	source = firefox-extension-gnome-theme-tweak.zip::https://addons.mozilla.org/firefox/downloads/latest/gnome-theme-tweak/platform:2/
+	source = .version::https://services.addons.mozilla.org/firefox/api/1.5/addon/gnome-theme-tweak
+	md5sums = c7a571c9eb70d671cbbec08973d37e4f
+	md5sums = SKIP
+
+pkgname = firefox-extension-gnome-theme-tweak
+

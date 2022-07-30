@@ -1,0 +1,19 @@
+pkgbase = ruby-serverspec
+	pkgdesc = RSpec tests for your servers configured by Puppet, Chef, Itamae or anything else
+	pkgver = 2.36.0
+	pkgrel = 1
+	url = http://serverspec.org/
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-rspec
+	depends = ruby-rspec-its
+	depends = ruby-multi_json
+	depends = ruby-specinfra
+	noextract = serverspec-2.36.0.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/serverspec-2.36.0.gem
+	sha256sums = 7dc04d646ad42637850cae7a32b1bc37a5c993190bab3f0c4e5b9a7187bb82fd
+
+pkgname = ruby-serverspec
+

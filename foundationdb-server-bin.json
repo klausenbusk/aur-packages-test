@@ -1,0 +1,18 @@
+pkgbase = foundationdb-server-bin
+	pkgdesc = FoundationDB server. FoundationDB is a scalable, fault-tolerant, ordered key-value store with full ACID transactions. This package contains the server.
+	pkgver = 6.3.23
+	pkgrel = 1
+	url = https://www.foundationdb.org
+	install = foundationdb-server-bin.install
+	arch = x86_64
+	groups = foundationdb
+	license = Apache 2.0
+	depends = glibc>=2,
+	depends = coreutils>=8,
+	depends = tar>=1
+	options = !strip
+	options = !emptydirs
+	source_x86_64 = https://github.com/apple/foundationdb/releases/download/6.3.23/foundationdb-server_6.3.23-1_amd64.deb
+	sha256sums_x86_64 = 0676366853255a5d446b92cc6b0055fecf2350e6ab1a0fee2b4a75e5584fad4b
+
+pkgname = foundationdb-server-bin

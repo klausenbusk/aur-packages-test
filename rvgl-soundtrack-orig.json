@@ -1,0 +1,15 @@
+pkgbase = rvgl-soundtrack-orig
+	pkgdesc = RVGL original Dreamcast soundtrack.
+	pkgver = 18.0327
+	pkgrel = 2
+	url = https://rvgl.re-volt.io
+	arch = any
+	license = custom
+	depends = rvgl-bin
+	provides = rvgl-soundtrack
+	conflicts = rvgl-soundtrack
+	source = soundtrack.zip::https://distribute.re-volt.io/packs/soundtrack.zip
+	sha256sums = 44b3d9ab4793d69531c5943bac4027fd0cbd60e49ed75db766a56a5a80d32223
+
+pkgname = rvgl-soundtrack-orig
+

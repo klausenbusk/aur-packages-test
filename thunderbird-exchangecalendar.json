@@ -1,0 +1,25 @@
+pkgbase = thunderbird-exchangecalendar
+	pkgdesc = Thunderbird Addon/Extension and Provider for Microsoft Exchange 2007/2010/2013 Calendar, Tasks, Contacts and Global Address List (GAL)
+	pkgver = 4.0.0
+	pkgrel = 2
+	url = https://github.com/ExchangeCalendar/exchangecalendar
+	arch = any
+	groups = office
+	license = GPL3
+	makedepends = zip
+	depends = thunderbird>=52
+	depends = thunderbird<60
+	provides = exchangecalendar=4.0.0
+	conflicts = thunderbird-exchangecalendar-git
+	conflicts = thunderbird-exchangecalendar-beta
+	replaces = thunderbird-exchangecalendar-git
+	replaces = thunderbird-exchangecalendar-beta
+	options = !strip
+	options = !libtool
+	options = !staticlibs
+	options = !docs
+	source = thunderbird-exchangecalendar-4.0.0.xpi::https://github.com/ExchangeCalendar/exchangecalendar/releases/download/v4.0.0/exchangecalendar-v4.0.0.xpi
+	sha256sums = e51117aa60b2ea4430ae85271e83d185c5a7ee93d6b87f78d0b6ead494318c8b
+
+pkgname = thunderbird-exchangecalendar
+

@@ -1,0 +1,21 @@
+pkgbase = python-hookmeup
+	pkgdesc = A Git hook to automate your Pipenv and Django workflow
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = https://git.danielmoch.com/hookmeup
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pytest-cov
+	checkdepends = python-pytest-mock
+	checkdepends = python-mock
+	makedepends = python-pip
+	makedepends = flit
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/h/hookmeup/hookmeup-1.0.5.tar.gz
+	source = https://files.pythonhosted.org/packages/source/h/hookmeup/hookmeup-1.0.5.tar.gz.asc
+	validpgpkeys = 72A97F7072DDCE28058DEF30323C9F1784BDDD43
+	sha256sums = a3637bc3dc994c2f20e3c2cc914673cb9162eac448194e3e0526fae7a7e89c41
+	sha256sums = SKIP
+
+pkgname = python-hookmeup

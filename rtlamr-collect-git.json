@@ -1,0 +1,18 @@
+pkgbase = rtlamr-collect-git
+	pkgdesc = Data aggregation for rtlamr.
+	pkgver = r31.7951486
+	pkgrel = 1
+	url = https://github.com/bemasher/rtlamr-collect
+	arch = any
+	license = AGPL3
+	makedepends = go
+	makedepends = git
+	depends = rtl-sdr
+	provides = rtlamr-collect
+	conflicts = rtlamr-collect
+	options = !strip
+	options = !emptydirs
+	source = git+https://github.com/bemasher/rtlamr-collect.git
+	md5sums = SKIP
+
+pkgname = rtlamr-collect-git

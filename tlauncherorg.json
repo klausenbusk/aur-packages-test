@@ -1,0 +1,21 @@
+pkgbase = tlauncherorg
+	pkgdesc = Builds of the TLauncher freeware launcher for Minecraft from tlauncher.org.
+	pkgver = 2.75
+	pkgrel = 2
+	epoch = 1
+	url = https://tlauncher.org
+	arch = any
+	license = GPL3
+	depends = jdk8-openjdk
+	depends = java8-openjfx
+	source = launcher.zip::https://tlauncher.org/jar
+	source = tlauncher.desktop
+	source = tlauncher.svg
+	source = tlauncher.sh
+	sha256sums = SKIP
+	sha256sums = 444e8fb36c85d1dc95b115f18b06a58254e27f08ed4b0e75727e72d411a3bfb2
+	sha256sums = 993b28b7258736b0d1737690f407498f9d4fa302661b9781d017eb1dabec4319
+	sha256sums = 457df57e50c5111cf6faa9d69a1f6cecfc258162a41423344a251cad27b1048f
+
+pkgname = tlauncherorg
+

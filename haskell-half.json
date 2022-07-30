@@ -1,0 +1,15 @@
+pkgbase = haskell-half
+	pkgdesc = Half-precision floating-point
+	pkgver = 0.2.2.3
+	pkgrel = 2
+	url = https://hackage.haskell.org/package/half
+	arch = i686
+	arch = x86_64
+	license = custom:BSD3
+	makedepends = ghc
+	depends = ghc-libs
+	source = https://hackage.haskell.org/packages/archive/half/0.2.2.3/half-0.2.2.3.tar.gz
+	sha512sums = 1b341670d0aa8513bef63a9522884d7c4b71cf9af6420bc67f8aab34c906a96c0288d900106878f5de9902b259f35501d09ba0b9ad82e5a759405e615572d17e
+
+pkgname = haskell-half
+

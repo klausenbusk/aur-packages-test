@@ -1,0 +1,19 @@
+pkgbase = aurous-bin
+	pkgdesc = A music player built to serve your needs. NOTE: If md5 fails simply flag the package as outdated
+	pkgver = 0.1Alpha
+	pkgrel = 5
+	url = https://aurous.me/
+	arch = i686
+	arch = x86_64
+	license = unknown
+	depends = java-runtime=8
+	depends = java-openjfx
+	depends = gksu
+	depends = libgcrypt15
+	source = Aurous.desktop
+	sha512sums = 45e7b5f870241b81933ef77b0c40a3bca71495ad3dc1dadb2f296c272eda5b49c489e6155b91456184d75ebca27c7abc75e8e3443834aaba830a654594ab5792
+	source_x86_64 = https://aurous.me/downloads/aurous-linux64.zip
+	sha512sums_x86_64 = 060b7147a5936ae5b66adc9236188e221eb904c8281f6f4e159f04453ece030008aad43ed295314a31ae05fd1272fef88c2237e281a3b0d0ae84e48d089d8d8a
+
+pkgname = aurous-bin
+

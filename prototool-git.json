@@ -1,0 +1,15 @@
+pkgbase = prototool-git
+	pkgdesc = Your Swiss Army Knife for Protocol Buffers
+	pkgver = 1.9.0.r2.g0d05c76
+	pkgrel = 1
+	url = https://github.com/uber/prototool
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = go-pie
+	depends = glibc
+	source = prototool-git::git+https://github.com/uber/prototool.git
+	md5sums = SKIP
+
+pkgname = prototool-git
+

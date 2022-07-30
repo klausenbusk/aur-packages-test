@@ -1,0 +1,17 @@
+pkgbase = cargo-fuzz
+	pkgdesc = Command line helpers for fuzzing
+	pkgver = 0.5.4
+	pkgrel = 1
+	url = https://github.com/rust-fuzz/cargo-fuzz
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	license = MIT
+	license = APACHE
+	depends = cargo
+	depends = gcc-libs
+	source = cargo-fuzz-0.5.4.tar.gz::https://github.com/rust-fuzz/cargo-fuzz/archive/0.5.4.tar.gz
+	sha512sums = de5f6aabc7d80d7b4ad08b563d19128c72951d7ada32c815056b55c5c5903423b665124f496fc8948f40700312e29e0b142cedeb1d4f083c5c3d693d10360f17
+
+pkgname = cargo-fuzz
+

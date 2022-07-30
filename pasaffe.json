@@ -1,0 +1,18 @@
+pkgbase = pasaffe
+	pkgdesc = Easy to use password manager for Gnome with a Password Safe 3.0 compatible database.
+	pkgver = 0.56
+	pkgrel = 1
+	url = https://launchpad.net/pasaffe
+	arch = any
+	license = GPL3
+	makedepends = python-distutils-extra
+	depends = gtk3
+	depends = python-gobject
+	depends = python-unidecode
+	depends = yelp
+	optdepends = apg: password generation
+	source = http://launchpad.net/pasaffe/trunk/0.56/+download/pasaffe-0.56.tar.gz
+	md5sums = e994a1a91bedcd645ccc83615705ad52
+
+pkgname = pasaffe
+

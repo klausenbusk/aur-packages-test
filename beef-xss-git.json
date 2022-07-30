@@ -1,0 +1,18 @@
+pkgbase = beef-xss-git
+	pkgdesc = The Browser Exploitation Framework
+	pkgver = 0.4.7.0
+	pkgrel = 1
+	url = http://beefproject.com/
+	arch = any
+	license = GPL
+	depends = unzip
+	depends = ruby
+	depends = rake
+	depends = sqlite
+	provides = beef-xss-git
+	conflicts = beef-xss-git
+	source = https://github.com/beefproject/beef/archive/master.zip
+	md5sums = SKIP
+
+pkgname = beef-xss-git
+

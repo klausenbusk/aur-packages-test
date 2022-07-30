@@ -1,0 +1,24 @@
+pkgbase = makedepend
+	pkgdesc = Create dependencies in Makefiles
+	pkgver = 1.0.6
+	pkgrel = 2
+	url = http://www.linuxfromscratch.org/blfs/view/7.4/x/makedepend.html
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = custom
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = m4
+	makedepends = make
+	makedepends = pkg-config
+	makedepends = xorg-util-macros
+	makedepends = xorgproto
+	depends = splint
+	conflicts = imake
+	source = http://xorg.freedesktop.org/archive/individual/util/makedepend-1.0.6.tar.gz
+	sha256sums = 845f6708fc850bf53f5b1d0fb4352c4feab3949f140b26f71b22faba354c3365
+
+pkgname = makedepend
+

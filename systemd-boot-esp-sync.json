@@ -1,0 +1,21 @@
+pkgbase = systemd-boot-esp-sync
+	pkgdesc = Sync /boot to your machines /efi
+	pkgver = 2.2
+	pkgrel = 1
+	url = https://aur.archlinux.org/packages/systemd-boot-esp-sync/
+	install = archlinux.install
+	arch = any
+	license = MIT
+	depends = systemd
+	depends = rsync
+	source = boot-esp-sync
+	source = 99-boot-esp-sync.hook
+	source = boot-esp-sync.path
+	source = boot-esp-sync.service
+	sha512sums = b9a15641b86d6177dec64d5b96a4f094fdd280df869e6be78cfb0abfcf83407184db6aae87c0b9252ac353c81e81f33943667fe34f8e417aa714bef78aaa1f67
+	sha512sums = 368f65cad2887ac9f485a3eb2b1d25929dfa559fe76df120b77dde692a2523e311203bbff39dcd25cc8027ba7d65bd77539519c54ffe4528a9c125fae55df0d5
+	sha512sums = 0c8747ed02b1bbd38b3aff8185498b65c561860c84119d5e07f3e645fff94389a6b9f91e522da43a97e5eff07d2b2911f01b8b529e9f89ff5dfb73282ffe0c2b
+	sha512sums = 3505072ccee36370f46b323394e4bc78e0d0d337e19278b65c68dbaf01dddfb47245845c070b5b00bd176f0b15cd7cbada64b4951608490c8d6fe8fb3e4b6c38
+
+pkgname = systemd-boot-esp-sync
+

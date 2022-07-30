@@ -1,0 +1,34 @@
+pkgbase = haskell-brittany
+	pkgdesc = Haskell source code formatter (dynamic link)
+	pkgver = 0.12.1.1
+	pkgrel = 2
+	url = https://hackage.haskell.org/package/brittany
+	arch = x86_64
+	license = AGPL3
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-aeson
+	depends = haskell-butcher
+	depends = haskell-cmdargs
+	depends = haskell-czipwith
+	depends = haskell-data-tree-print
+	depends = haskell-extra
+	depends = haskell-ghc-exactprint
+	depends = haskell-ghc-paths
+	depends = haskell-hspec
+	depends = haskell-monad-memo
+	depends = haskell-multistate
+	depends = haskell-neat-interpolation
+	depends = haskell-random
+	depends = haskell-safe
+	depends = haskell-semigroups
+	depends = haskell-strict
+	depends = haskell-syb
+	depends = haskell-uniplate
+	depends = haskell-unsafe
+	depends = haskell-yaml
+	source = https://hackage.haskell.org/packages/archive/brittany/0.12.1.1/brittany-0.12.1.1.tar.gz
+	sha512sums = ac471ab778efd1a007e76594a54fe3bea8f96afc3f0714c7b0ec66273788a6c9d8e0d0b9d5e36c2a10d547d10a6ad2327ea540d836b9a12549a918b5c83a9425
+
+pkgname = haskell-brittany
+

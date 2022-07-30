@@ -1,0 +1,24 @@
+pkgbase = sabnzbd-desktop
+	pkgdesc = Desktop tools for sabnzbd.
+	pkgver = 1.5
+	pkgrel = 1
+	install = sabnzbd.install
+	arch = any
+	license = GPL
+	depends = python-gobject
+	optdepends = sabnzbd: usenet downloader
+	source = sabnzbd.desktop
+	source = sabnzbd.confd
+	source = sabnzbd
+	source = nzb.png
+	source = sabnzbd.png
+	source = x-nzb.xml
+	sha256sums = 4e7aaa06e871196a66fe678977bf5715fb8dfdd717ebb62345a1857967b3c978
+	sha256sums = 8462203454d488b5d4f7beb85e61da2efa42d3dffa465f3bf16a95abe0bc7c0a
+	sha256sums = 5d4a1286a589aee830b0fded47c190132fb48cdab4cfa5f83059497e95c6291b
+	sha256sums = ef8f4fb1a3a0750c74b7addd302ab8733187ad370b5d27336afb2677d7154571
+	sha256sums = fce3e065d017ce3bc4548a766f25c95f982af4f6085263c72f3000f49d810409
+	sha256sums = f53261d7578c67fb9fd6a639df94cd53604bcf37b9b03a926cb03e5214b496fe
+
+pkgname = sabnzbd-desktop
+

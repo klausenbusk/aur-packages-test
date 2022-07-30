@@ -1,0 +1,21 @@
+pkgbase = python-coveralls
+	pkgdesc = Python integration with coveralls.io
+	pkgver = 3.3.0
+	pkgrel = 3
+	url = https://github.com/thekevjames/coveralls-python
+	changelog = CHANGELOG.md
+	arch = any
+	license = MIT
+	checkdepends = git
+	checkdepends = python-mock
+	checkdepends = python-pytest
+	checkdepends = python-responses
+	makedepends = python-setuptools
+	depends = python-coverage
+	depends = python-docopt
+	depends = python-requests
+	optdepends = python-yaml
+	source = python-coveralls-3.3.0.tar.gz::https://github.com/thekevjames/coveralls-python/archive/3.3.0.tar.gz
+	sha256sums = 466ade75b818f8fb240a3049de0d3896a7d1efec878ead7b4d878935a7af386a
+
+pkgname = python-coveralls

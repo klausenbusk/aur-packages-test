@@ -1,0 +1,24 @@
+pkgbase = discover-overlay
+	pkgdesc = Yet another Discord overlay for Linux written in Python using GTK3
+	pkgver = 0.5.3
+	pkgrel = 1
+	url = https://trigg.github.io/Discover/
+	arch = x86_64
+	license = GPL3
+	makedepends = python-setuptools
+	depends = gtk3
+	depends = python-gobject
+	depends = python-pyxdg
+	depends = python-requests
+	depends = python-websocket-client
+	depends = python-pidfile
+	depends = python-cairo
+	depends = python-pillow
+	depends = python-xlib
+	optdepends = gtk-layer-shell: Wayland support
+	provides = discover-overlay
+	conflicts = discover-overlay-git
+	source = discover-overlay-0.5.3.tar.gz::https://pypi.io/packages/source/d/discover-overlay/discover-overlay-0.5.3.tar.gz
+	sha512sums = 64d93c7e975698322f32798b031bd2a8da50b35747a46440a993d6306d8b769c2637375015b590b2f7c6849073b011c61f861d717db6ecd43dae91e6797ef786
+
+pkgname = discover-overlay

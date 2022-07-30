@@ -1,0 +1,25 @@
+pkgbase = paru-bin
+	pkgdesc = Feature packed AUR helper
+	pkgver = 1.11.1
+	pkgrel = 1
+	url = https://github.com/morganamilo/paru
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = GPL3
+	depends = git
+	depends = pacman
+	optdepends = asp: downloading repo pkgbuilds
+	optdepends = bat: colored pkgbuild printing
+	optdepends = devtools: build in chroot
+	provides = paru
+	conflicts = paru
+	backup = etc/paru.conf
+	source_x86_64 = https://github.com/Morganamilo/paru/releases/download/v1.11.1/paru-v1.11.1-x86_64.tar.zst
+	sha256sums_x86_64 = 4034761d60cec610777b08940ac01a3c34f6262f7e778bdd6a5db4677bf3929e
+	source_aarch64 = https://github.com/Morganamilo/paru/releases/download/v1.11.1/paru-v1.11.1-aarch64.tar.zst
+	sha256sums_aarch64 = 106acbaf5aaadf79529abedaabccce1c91e28b043af720afe31beef3fe9b4c03
+	source_armv7h = https://github.com/Morganamilo/paru/releases/download/v1.11.1/paru-v1.11.1-armv7h.tar.zst
+	sha256sums_armv7h = 7fc68a66a10925fba27c6359799cb01050ccbd46cdf8e83688fccd91fc1f74ec
+
+pkgname = paru-bin

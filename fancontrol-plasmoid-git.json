@@ -1,0 +1,21 @@
+pkgbase = fancontrol-plasmoid-git
+	pkgdesc = Plasmoid for the fancontrol script and systemd service
+	pkgver = v0.8.r15.gb7c65b3
+	pkgrel = 1
+	url = https://github.com/Maldela/Fancontrol-GUI
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = cmake
+	makedepends = extra-cmake-modules
+	depends = fancontrol-gui-git
+	depends = plasma-framework
+	depends = gettext
+	provides = fancontrol-plasmoid
+	conflicts = fancontrol-plasmoid
+	source = git://github.com/Maldela/fancontrol-gui.git
+	md5sums = SKIP
+
+pkgname = fancontrol-plasmoid-git
+

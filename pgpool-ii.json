@@ -1,0 +1,27 @@
+pkgbase = pgpool-ii
+	pkgdesc = Middleware that works between PostgreSQL servers and a PostgreSQL database client.
+	pkgver = 4.2.1
+	pkgrel = 0
+	url = http://www.pgpool.net
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = openssl
+	depends = postgresql-libs
+        makedepends = clang
+        makedepends = llvm
+        makedepends = postgresql
+	replaces = pgpool
+	options = !libtool
+	backup = etc/conf.d/pgpool-ii
+	source = http://www.pgpool.net/download.php?f=pgpool-II-4.1.1.tar.gz
+	source = pgpool-ii.service
+	source = pgpool-ii.conf.d
+	source = pgpool-ii.diff
+	md5sums = 108ac1486e8a6548af7ab67e9f6d8a36
+	md5sums = 6f1996c211e6f512289565e162752b04
+	md5sums = 74e1450ec40a5915341d7901736aca45
+	md5sums = b11938850095c777c80238ed878e158d
+
+pkgname = pgpool-ii
+

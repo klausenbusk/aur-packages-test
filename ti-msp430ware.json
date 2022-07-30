@@ -1,0 +1,20 @@
+pkgbase = ti-msp430ware
+	pkgdesc = Texas Instruments MSP430Ware library for MSP430 microcontrollers
+	pkgver = 3.80.13.03
+	pkgrel = 1
+	url = https://www.ti.com/tool/MSPWARE
+	arch = x86_64
+	license = custom
+	makedepends = lib32-glibc
+	makedepends = lib32-fakeroot
+	options = !strip
+	options = libtool
+	options = staticlibs
+	options = emptydirs
+	options = !purge
+	options = !zipman
+	source = http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP430Ware/latest/exports/MSP430Ware_3_80_13_03_setup.run
+	sha256sums = f92fe8e32f28188bcf797412c669632bc3b38954199ef2edf745383859f80c90
+
+pkgname = ti-msp430ware
+

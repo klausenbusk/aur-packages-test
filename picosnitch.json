@@ -1,0 +1,19 @@
+pkgbase = picosnitch
+	pkgdesc = Protect your privacy, see which applications make network connections
+	pkgver = 0.11.6
+	pkgrel = 1
+	url = https://elesiuta.github.io/picosnitch/
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	depends = python-bcc
+	depends = python-dash
+	depends = dbus-python
+	depends = python-pandas
+	depends = python-plotly
+	depends = python-psutil
+	depends = python-requests
+	source = picosnitch-0.11.6.tar.gz::https://github.com/elesiuta/picosnitch/releases/download/v0.11.6/picosnitch.tar.gz
+	sha256sums = 743f41b3859e7eb8a2023c073034a6f41fb71ac67ccf64e9f016925baada5952
+
+pkgname = picosnitch

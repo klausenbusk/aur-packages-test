@@ -1,0 +1,45 @@
+pkgbase = mitmproxy-git
+	pkgdesc = An interactive TLS-capable intercepting HTTP proxy.
+	pkgver = 5.0.0.dev.a08c22d
+	pkgrel = 1
+	url = https://mitmproxy.org/
+	arch = any
+	license = MIT
+	checkdepends = python-beautifulsoup4
+	checkdepends = python-flask
+	checkdepends = python-pytest-runner
+	checkdepends = python-pytest-asyncio
+	depends = python-blinker
+	depends = python-brotlipy
+	depends = python-click
+	depends = python-cryptography
+	depends = python-h11
+	depends = python-h2
+	depends = python-hyperframe
+	depends = python-kaitaistruct
+	depends = python-ldap3
+	depends = python-passlib
+	depends = python-pyasn1
+	depends = python-pyopenssl
+	depends = python-pyparsing
+	depends = python-pyperclip
+	depends = python-requests
+	depends = python-ruamel-yaml
+	depends = python-setuptools
+	depends = python-sortedcontainers
+	depends = python-tornado
+	depends = python-urwid
+	depends = python-wsproto
+	depends = python-asynctest
+	depends = python-parver
+	depends = python-protobuf>=3.6.0
+	depends = python-brotli>=1.0
+	depends = python-zstandard>=0.11.0
+	depends = python-publicsuffix2>=2.20190812
+	provides = mitmproxy
+	conflicts = mitmproxy
+	source = git+https://github.com/mitmproxy/mitmproxy.git
+	sha1sums = SKIP
+
+pkgname = mitmproxy-git
+

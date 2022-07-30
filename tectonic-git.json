@@ -1,0 +1,23 @@
+pkgbase = tectonic-git
+	pkgdesc = Modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive
+	pkgver = 20220302
+	pkgrel = 1
+	url = https://tectonic-typesetting.github.io/
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = gcc
+	makedepends = pkg-config
+	makedepends = git
+	depends = fontconfig
+	depends = harfbuzz-icu
+	depends = openssl
+	provides = tectonic
+	conflicts = tectonic
+	options = !lto
+	source = git+https://github.com/tectonic-typesetting/tectonic.git
+	source = git+https://github.com/tectonic-typesetting/tectonic-staging.git
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = tectonic-git

@@ -1,0 +1,23 @@
+pkgbase = fluffychat-git
+	pkgdesc = Chat with your friends
+	pkgver = v1.5.0.fdroid.2.r57.g58da4dca
+	pkgrel = 1
+	url = https://fluffychat.im/
+	arch = x86_64
+	arch = aarch64
+	license = AGPL3
+	makedepends = clang
+	makedepends = ninja
+	makedepends = flutter
+	makedepends = cmake
+	makedepends = git
+	makedepends = gtk3
+	depends = gtk3
+	depends = jsoncpp
+	depends = libsecret
+	provides = fluffychat
+	conflicts = fluffychat
+	source = git+https://gitlab.com/famedly/fluffychat.git
+	sha256sums = SKIP
+
+pkgname = fluffychat-git

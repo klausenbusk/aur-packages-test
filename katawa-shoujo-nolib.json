@@ -1,0 +1,13 @@
+pkgbase = katawa-shoujo-nolib
+	pkgdesc = (migrated to katawa-shoujo, please install katawa-shoujo instead
+	pkgver = 1.3.1
+	pkgrel = 1
+	url = http://katawa-shoujo.com/
+	arch = any
+	license = CCPL:BY-NC-ND
+	depends = renpy
+	provides = katawa-shoujo
+	conflicts = katawa-shoujo
+
+pkgname = katawa-shoujo-nolib
+

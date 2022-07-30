@@ -1,0 +1,14 @@
+pkgbase = algorand-devtools-bin
+	pkgdesc = Development tools for the Algorand blockchain
+	pkgver = 3.7.2
+	pkgrel = 1
+	url = https://www.algorand.com
+	arch = x86_64
+	license = AGPL3
+	depends = algorand
+	provides = algorand-devtools
+	conflicts = algorand-devtools
+	source = https://github.com/algorand/go-algorand/releases/download/v3.7.2-stable/algorand-devtools-3.7.2-1.x86_64.rpm
+	sha256sums = 73bde35f5f66e09011c0026b2031e4d21146999c79c9ecb29ee9ccbd87c27ec0
+
+pkgname = algorand-devtools-bin

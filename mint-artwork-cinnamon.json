@@ -1,0 +1,16 @@
+pkgbase = mint-artwork-cinnamon
+	pkgdesc = Default artwork for the Cinnamon edition of Linux Mint.
+	pkgver = 5.7
+	pkgrel = 1
+	url = http://linuxmint.com
+	arch = any
+	license = GPL
+	depends = cinnamon
+	source = https://ftp.fau.de/mint/packages/pool/main/m/mint-artwork-cinnamon/mint-artwork-cinnamon_5.7.tar.gz
+	source = mint-artwork-cinnamon.gschema.override
+	sha256sums = 9ba01cdd98d91b374663e719a7db2df72aa9a45e1e7373062a5db097b1952ffa
+	sha256sums = 5923cc1f0b6e18a672bb63022e394dbf2ab72e95a2f3f9ac05c0d6944b17d4e4
+
+pkgname = mint-artwork-cinnamon
+	pkgdesc = Sound effects from mint-artwork-cinnamon package for the Cinnamon desktop.
+	install = mint-artwork-cinnamon.install

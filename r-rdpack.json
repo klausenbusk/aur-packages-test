@@ -1,0 +1,18 @@
+pkgbase = r-rdpack
+	pkgdesc = Update and Manipulate Rd Documentation Objects
+	pkgver = 2.4
+	pkgrel = 1
+	url = https://cran.r-project.org/package=Rdpack
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-rbibutils
+	optdepends = r-gbrd
+	optdepends = r-grdevices
+	optdepends = r-rprojroot
+	optdepends = r-rstudioapi
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/Rdpack_2.4.tar.gz
+	sha256sums = 7652add12b30fcba1f3a12493a089a4166079e78c47b95802a98595a3ff53581
+
+pkgname = r-rdpack

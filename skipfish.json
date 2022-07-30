@@ -1,0 +1,19 @@
+pkgbase = skipfish
+	pkgdesc = A fully automated, active web application security reconnaissance tool
+	pkgver = 2.10b
+	pkgrel = 2
+	url = http://code.google.com/p/skipfish/
+	arch = any
+	license = APACHE
+	depends = openssl
+	depends = libidn
+	depends = zlib
+	depends = glibc
+	depends = sh
+	source = https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/skipfish/skipfish-2.10b.tgz
+	source = skipfish.patch
+	sha256sums = 1a4fbc9d013f1f9b970946ea7228d943266127b7f4100c994ad26c82c5352a9e
+	sha256sums = 096e9f7095a499605c8bf29bb9737397e9d5a168ec47888004dc8c2e7ceb0b62
+
+pkgname = skipfish
+

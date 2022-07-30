@@ -1,0 +1,15 @@
+pkgbase = kygekteampmmp4
+	pkgdesc = PocketMine-MP 4 as an Arch/AUR package!
+	pkgver = 4.0.0
+	pkgrel = 2
+	url = https://kygekteam.org/pm4
+	arch = x86_64
+	license = GPL
+	source = https://jenkins.kygekteam.org/view/PocketMine-MP%204/job/PMMP-4-PHP-Binary/lastSuccessfulBuild/artifact/Linux/PHP_Linux-x86_64.tar.gz
+	source = https://jenkins.kygekteam.org/view/PocketMine-MP%204/job/PocketMine-MP-4/lastSuccessfulBuild/artifact/PocketMine-MP.phar
+	source = https://jenkins.kygekteam.org/view/PocketMine-MP%204/job/PocketMine-MP-4/lastSuccessfulBuild/artifact/start.sh
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = kygekteampmmp4

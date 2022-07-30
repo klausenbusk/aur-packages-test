@@ -1,0 +1,41 @@
+pkgbase = zulu-embedded-jdk11
+	pkgdesc = Zulu Embedded is a certified build of OpenJDK for Armv8/v7/v6 devices.
+	pkgver = 11.0.15
+	pkgrel = 1
+	url = https://www.azul.com/products/zulu-embedded
+	install = jdk.install
+	arch = armv6h
+	arch = armv7h
+	arch = armv8h
+	arch = aarch64
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = java-runtime-common>=3
+	depends = java-environment-common=3
+	depends = ca-certificates-utils
+	depends = nss
+	depends = libjpeg-turbo
+	depends = lcms2
+	depends = libnet
+	depends = freetype2
+	depends = giflib
+	depends = libelf
+	provides = java-environment=11
+	provides = java-runtime=11
+	provides = java-runtime-headless=11
+	options = !strip
+	source_armv6h = https://cdn.azul.com/zulu-embedded/bin/zulu11.56.19-ca-jdk11.0.15-linux_aarch32hf.tar.gz
+	sha256sums_armv6h = 1c637012c5fce079a820ab3cc8b74695722c10e07342336055042aebb8bd8420
+	source_armv7h = https://cdn.azul.com/zulu-embedded/bin/zulu11.56.19-ca-jdk11.0.15-linux_aarch32hf.tar.gz
+	sha256sums_armv7h = 1c637012c5fce079a820ab3cc8b74695722c10e07342336055042aebb8bd8420
+	source_armv8h = https://cdn.azul.com/zulu-embedded/bin/zulu11.56.19-ca-jdk11.0.15-linux_aarch32hf.tar.gz
+	sha256sums_armv8h = 1c637012c5fce079a820ab3cc8b74695722c10e07342336055042aebb8bd8420
+	source_aarch64 = https://cdn.azul.com/zulu-embedded/bin/zulu11.56.19-ca-jdk11.0.15-linux_aarch64.tar.gz
+	sha256sums_aarch64 = fc7c41a0005180d4ca471c90d01e049469e0614cf774566d4cf383caa29d1a97
+	source_i686 = https://cdn.azul.com/zulu/bin/zulu11.56.19-ca-jdk11.0.15-linux_i686.tar.gz
+	sha256sums_i686 = 1ee1654aa592f48ce2920092638d70bee4b6997dc42cf629a9717fb11e468d58
+	source_x86_64 = https://cdn.azul.com/zulu/bin/zulu11.56.19-ca-jdk11.0.15-linux_x64.tar.gz
+	sha256sums_x86_64 = e064b61d93304012351242bf0823c6a2e41d9e28add7ea7f05378b7243d34247
+
+pkgname = zulu-embedded-jdk11

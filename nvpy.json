@@ -1,0 +1,21 @@
+pkgbase = nvpy
+	pkgdesc = Simplenote syncing note-taking application, but uglier and cross-platformerer.
+	pkgver = 2.1.0
+	pkgrel = 2
+	url = https://github.com/cpbotha/nvpy
+	install = nvpy.install
+	arch = any
+	license = BSD
+	depends = python
+	depends = python-docutils
+	depends = python-markdown
+	depends = python-setuptools
+	depends = python-simplenote
+	depends = tk
+	provides = nvpy
+	conflicts = nvpy-git
+	source = https://github.com/cpbotha/nvpy/archive/v2.1.0.tar.gz
+	sha256sums = fd045f90660134154474318f7155b2fa0a439c7b00da85800d7d75c4650666e2
+
+pkgname = nvpy
+

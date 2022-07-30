@@ -1,0 +1,14 @@
+pkgbase = chisel-tunnel
+	pkgdesc = A fast TCP/UDP tunnel over HTTP
+	pkgver = 1.7.7
+	pkgrel = 1
+	url = https://github.com/jpillora/chisel
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = go
+	depends = glibc
+	source = chisel-tunnel-1.7.7.tar.gz::https://github.com/jpillora/chisel/archive/v1.7.7.tar.gz
+	b2sums = 7975743f795bb852998de20fc3031b07d72f1987917600616462aecc805e6a25aad878ba2d801b0e0322e301f4adab951a193d9604e80cf560efc27315b38d65
+
+pkgname = chisel-tunnel

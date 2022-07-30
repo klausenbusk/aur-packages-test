@@ -1,0 +1,15 @@
+pkgbase = zig-master-bin
+	pkgdesc = robust, optimal, and clear programming language
+	pkgver = 0.8.0_dev.2669+ae15281c0
+	pkgrel = 1
+	url = https://ziglang.org/
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = jq
+	makedepends = curl
+	provides = zig
+	conflicts = zig
+
+pkgname = zig-master-bin
+

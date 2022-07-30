@@ -1,0 +1,14 @@
+pkgbase = python-pyte
+	pkgdesc = Simple VTXXX-compatible terminal emulator.
+	pkgver = 0.5.2
+	pkgrel = 1
+	url = https://github.com/selectel/pyte
+	arch = any
+	license = LGPL3
+	makedepends = python-distribute
+	depends = python
+	source = https://github.com/selectel/pyte/archive/0.5.2.tar.gz
+	sha256sums = c80ea1ca6402cdcc5553556712b239d639fbf5cc4ad5997b2249b7ccac68a361
+
+pkgname = python-pyte
+

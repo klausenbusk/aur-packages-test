@@ -1,0 +1,17 @@
+pkgbase = vinecopulib
+	pkgdesc = C++ vine copula library
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = https://github.com/vinecopulib/vinecopulib
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = eigen
+	makedepends = boost
+	makedepends = libwdm
+	depends = gcc-libs
+	provides = libvinecopulib.so
+	source = vinecopulib-0.6.1.tar.gz::https://github.com/vinecopulib/vinecopulib/archive/v0.6.1.tar.gz
+	sha256sums = a1201009882f723228f805b84e7b8de858727c1c14817379c021e03e49550e56
+
+pkgname = vinecopulib

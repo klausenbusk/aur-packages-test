@@ -1,0 +1,19 @@
+pkgbase = fcitx-sogoupinyin
+	pkgdesc = Sogou Pinyin for Linux
+	pkgver = 4.0.1.2800
+	pkgrel = 1
+	url = https://shurufa.sogou.com/linux
+	arch = x86_64
+	license = custom
+	depends = fcitx
+	depends = opencc
+	depends = libidn11
+	depends = lsb-release
+	depends = xorg-xprop
+	depends = qt5-declarative
+	depends = qt5-svg
+	depends = fcitx-qt5
+	source = sogou-autostart
+	sha256sums = 4357c28ba35d9441e47cc5c9a4c5f1ccbb8957cb3434212a609201aee485c092
+
+pkgname = fcitx-sogoupinyin

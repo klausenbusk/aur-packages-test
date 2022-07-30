@@ -1,0 +1,14 @@
+pkgbase = tritium
+	pkgdesc = tiling/tabbed window manager for the X Window System
+	pkgver = 0.3.5
+	pkgrel = 6
+	url = https://sourceforge.net/projects/tritium/
+	arch = any
+	license = GPL
+	depends = python2-xlib
+	depends = plwm-svn
+	source = https://prdownloads.sourceforge.net/tritium/tritium-0.3.5.tar.gz
+	md5sums = 3b1f9e5823cf76178a9ca9842486a8e6
+
+pkgname = tritium
+

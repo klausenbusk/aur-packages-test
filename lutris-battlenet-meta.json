@@ -1,0 +1,10 @@
+pkgbase = lutris-battlenet-meta
+	pkgdesc = Meta package for using lutris with Battle.Net
+	pkgver = 1.1.0
+	pkgrel = 2
+	url = https://github.com/lutris/docs/blob/master/Battle.Net.md
+	arch = any
+	depends = lutris-wine-meta
+
+pkgname = lutris-battlenet-meta
+

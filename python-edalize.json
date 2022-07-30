@@ -1,0 +1,24 @@
+pkgbase = python-edalize
+	pkgdesc = Python Library for interacting with EDA tools.
+	pkgver = 0.2
+	pkgrel = 0
+	url = http://github.com/olofk/edalize/
+	arch = any
+	license = BSD
+	makedepends = git
+	makedepends = python-pip
+	depends = python
+	depends = python-pytest
+	depends = python-setuptools
+	depends = python-markupsafe
+	optdepends = iverilog: for simulating verilog designs
+	optdepends = ghdl: for simulating VHDL designs
+	optdepends = gtkwave: for visualizing waveforms
+	provides = python-edalize
+	conflicts = python-edalize-git
+	conflicts = python-jinja
+	options = !emptydirs
+	source = git+https://github.com/olofk/edalize#tag=v0.2.0
+	md5sums = SKIP
+
+pkgname = python-edalize

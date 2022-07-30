@@ -1,0 +1,13 @@
+pkgbase = stagit
+	pkgdesc = Static site generator for git version control
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://codemadness.org/stagit.html
+	arch = x86_64
+	license = MIT
+	depends = libgit2
+	optdepends = git: scripting functionality
+	source = https://codemadness.org/releases/stagit/stagit-1.1.tar.gz
+	sha512sums = e75d47b84d2783f7396a932b402a4dd36572027931559eae908861f9b8c658f43f5110bdfc81c5a0b65be3a0c53939ba9adabcc1e36fe88a6dab54b929526e0f
+
+pkgname = stagit

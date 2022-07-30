@@ -1,0 +1,19 @@
+pkgbase = gscal
+	pkgdesc = GTK Simple Calendar
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/Akmadan23/gscal
+	arch = any
+	license = GPL-3
+	makedepends = python-build
+	makedepends = python-setuptools
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-gobject
+	depends = python-toml
+	provides = gscal
+	source = https://files.pythonhosted.org/packages/8b/5c/d23318dcabc8cf2cdcd41e3938c2286f88efc10079992d768658b025bc8d/gscal-0.2.0.tar.gz
+	md5sums = 771fa7079a34cb9c60c53ff453346669
+	sha256sums = 5269a21c60bdd9c58c2197354d551a8de74fd1efb76fb03e9d90cb14385e863b
+
+pkgname = gscal

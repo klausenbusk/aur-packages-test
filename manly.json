@@ -1,0 +1,13 @@
+pkgbase = manly
+	pkgdesc = A compliment to the man pages.
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/carlbordum/manly
+	arch = any
+	license = MIT
+	depends = python
+	source = git+https://github.com/mpolidori/manly.git
+	md5sums = SKIP
+
+pkgname = manly
+

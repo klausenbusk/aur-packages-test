@@ -1,0 +1,17 @@
+pkgbase = perl-uri-db
+	pkgdesc = Perl module representing database URIs
+	pkgver = 0.20
+	pkgrel = 1
+	url = https://metacpan.org/release/URI-db
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl-module-build>=0.30
+	depends = perl-uri>=1.40
+	depends = perl-uri-nested>=0.10
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/D/DW/DWHEELER/URI-db-0.20.tar.gz
+	md5sums = 07121e39f191d9aef43577e164bb4fac
+	sha512sums = 0623f61a5d415e577f50aeedc55c1965c2c4d93c9cffaebd176daf66c626354e785c5f3971ea86bb67ba913962a94ee435bcaa4f64327bc553bc14b04ec444de
+
+pkgname = perl-uri-db

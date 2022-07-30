@@ -1,0 +1,16 @@
+pkgbase = cwtch-bin
+	pkgdesc = UI for A decentralized, privacy-preserving, multi-party messaging protocol client (binary distribution)
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://cwtch.im
+	arch = x86_64
+	license = MIT
+	optdepends = tor: use system tor instead of packaged
+	provides = cwtch
+	conflicts = cwtch
+	conflicts = cwtch-git
+	conflicts = libcwtch-go
+	source_x86_64 = https://cwtch.im/releases/cwtch-v1.8/cwtch-v1.8.0.tar.gz
+	sha512sums_x86_64 = 1f354bf3c79384400d84d93e7fa6bce79cdc49019cbde864a567dd01aa27080bcddd2d44ae3a4d6bb22b946739d559600084dce3128d27af1f49d2923981a26a
+
+pkgname = cwtch-bin

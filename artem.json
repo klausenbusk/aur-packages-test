@@ -1,0 +1,15 @@
+pkgbase = artem
+	pkgdesc = Convert images from multiple formats (jpg, png, webp, etc…) to ASCII art, written in Rust
+	pkgver = 1.1.5
+	pkgrel = 2
+	url = https://github.com/finefindus/artem
+	arch = x86_64
+	arch = aarch64
+	license = MPL2
+	makedepends = cargo
+	provides = artem
+	conflicts = artem
+	source = artem-1.1.5=.tar.gz::https://github.com/finefindus/artem/archive/v1.1.5.tar.gz
+	sha256sums = 7419eeb347838bddbe1042ec3bc0e02576c08d3cdbbcc053cca37944fc631a61
+
+pkgname = artem

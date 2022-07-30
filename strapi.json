@@ -1,0 +1,17 @@
+pkgbase = strapi
+	pkgdesc = Open source Node.js Headless CMS to easily build customisable APIs
+	pkgver = 4.2.3
+	pkgrel = 1
+	url = https://strapi.io
+	arch = any
+	license = MIT
+	makedepends = npm
+	depends = nodejs-lts-gallium
+	provides = strapi
+	noextract = strapi-4.2.3.tgz
+	source = https://registry.npmjs.org/@strapi/strapi/-/strapi-4.2.3.tgz
+	source = LICENSE
+	sha256sums = f249ad71e2eac0a018e14f49e15d66171793e90e7782c224dd64da41a083a5ff
+	sha256sums = c9291261c888edc8fd80d24d47f507033630cf4108ca9040fc640cd95a7eea79
+
+pkgname = strapi

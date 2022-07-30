@@ -1,0 +1,16 @@
+pkgbase = vue-cli
+	pkgdesc = Standard tooling for Vue.js development
+	pkgver = 5.0.6
+	pkgrel = 1
+	url = https://cli.vuejs.org
+	arch = any
+	license = MIT
+	makedepends = npm
+	depends = nodejs
+	conflicts = nodejs-vue-cli
+	conflicts = vue
+	noextract = vue-cli-5.0.6.tar.gz
+	source = vue-cli-5.0.6.tar.gz::https://registry.npmjs.org/@vue/cli/-/cli-5.0.6.tgz
+	sha256sums = 931b352f6aa7fae2158a01240312fe391a3053f7dfaa9c686b2fb370aeee4c50
+
+pkgname = vue-cli

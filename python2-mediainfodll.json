@@ -1,0 +1,14 @@
+pkgbase = python2-mediainfodll
+	pkgdesc = Python shared library for reading metadata from media files
+	pkgver = 19.09
+	pkgrel = 2
+	url = https://github.com/MediaArea/MediaInfoLib
+	arch = any
+	license = BSD 2-Clause
+	depends = libmediainfo
+	depends = python2
+	source = MediaInfoLib-19.09.tar.gz::https://github.com/MediaArea/MediaInfoLib/archive/v19.09.tar.gz
+	sha256sums = 4cc409f6e5a0bfa95f8c48d95d31054a4f7b7ef0d03b1ab38abcd534d8688038
+
+pkgname = python2-mediainfodll
+

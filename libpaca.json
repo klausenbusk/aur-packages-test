@@ -1,0 +1,17 @@
+pkgbase = libpaca
+	pkgdesc = Simple game engine library built on top of SDL2
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://gitlab.com/ICanOnlySuffer/libpaca
+	arch = x86_64
+	groups = pocha
+	license = GPLv3
+	makedepends = libpocha
+	makedepends = sdl2
+	makedepends = sdl2_ttf
+	makedepends = sdl2_image
+	makedepends = sdl2_mixer
+	source = https://gitlab.com/ICanOnlySuffer/libpaca/-/archive/v0.5.0/libpaca-v0.5.0.tar.gz
+	sha256sums = abffc2ae4e7f4aca64070afa17840b348bd03bc803e5338a1ded6c9eaec9d04c
+
+pkgname = libpaca

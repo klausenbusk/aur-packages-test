@@ -1,0 +1,24 @@
+pkgbase = instamenu-extra
+	pkgdesc = addons for instamenu
+	pkgver = 2021.06.05
+	pkgrel = 1
+	url = https://github.com/The-Repo-Club/instamenu-extra
+	arch = any
+	groups = therepoclub
+	license = CC BY-NC-SA 4.0
+	depends = bash
+	depends = systemd
+	depends = glib2
+	depends = autorandr
+	depends = instamenu
+	depends = instamenu-schemas
+	depends = python>=3.4
+	depends = python-gobject
+	optdepends = cutycapt: Taking screenshots with bm command.
+	optdepends = instaaur: Using the aur with pacman script.
+	optdepends = ffmpeg: music script depends on this.
+	provides = instamenu-extra
+	source = instamenu-extra-2021.06.05.tar.gz::https://github.com/The-Repo-Club/instamenu-extra/archive/2021.06.05.tar.gz
+	sha256sums = 6418dc36a4ac9242b59ac281d52cf3acc574b7fd183da3481ad2de42d113b8fb
+
+pkgname = instamenu-extra

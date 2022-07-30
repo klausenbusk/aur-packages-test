@@ -1,0 +1,18 @@
+pkgbase = umldesigner
+	pkgdesc = Graphical tooling to edit and visualize UML models
+	pkgver = 8.0.0
+	pkgrel = 1
+	url = http://www.umldesigner.org/
+	changelog = changelog
+	arch = i686
+	arch = x86_64
+	license = EPL
+	makedepends = maven
+	makedepends = ruby
+	source = https://github.com/ObeoNetwork/UML-Designer/archive/8.0.0.tar.gz
+	source = umldesigner.desktop
+	sha256sums = 60cc5e13b1d3e909139fd5731e30576fa3c8b2aa2edd5dc61de6d06858394928
+	sha256sums = SKIP
+
+pkgname = umldesigner
+

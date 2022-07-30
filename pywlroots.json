@@ -1,0 +1,16 @@
+pkgbase = pywlroots
+	pkgdesc = Python binding to the wlroots library using cffi
+	pkgver = 0.14.0
+	pkgrel = 1
+	url = https://github.com/flacjacket/pywlroots
+	arch = any
+	license = UIUC
+	depends = python-setuptools
+	depends = wlroots
+	depends = python-xkbcommon
+	depends = pywayland
+	depends = python-cffi
+	source = https://github.com/flacjacket/pywlroots/archive/refs/tags/v0.14.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = pywlroots

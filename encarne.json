@@ -1,0 +1,21 @@
+pkgbase = encarne
+	pkgdesc = A program for automatic reencoding of all video containers to h.265 in a specific directory
+	pkgver = 1.5.2
+	pkgrel = 1
+	url = https://github.com/nukesor/encarne
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = mediainfo
+	depends = pueue
+	depends = python-lxml
+	depends = python-sqlalchemy
+	depends = python-sqlalchemy-utils
+	depends = python-humanfriendly
+	provides = encarne
+	conflicts = encarne-git
+	source = https://github.com/Nukesor/encarne/archive/1.5.2.tar.gz
+	sha256sums = SKIP
+
+pkgname = encarne
+

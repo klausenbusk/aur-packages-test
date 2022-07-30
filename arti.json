@@ -1,0 +1,17 @@
+pkgbase = arti
+	pkgdesc = An implementation of Tor in Rust
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://gitlab.torproject.org/tpo/core/arti
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	depends = sqlite
+	depends = openssl
+	depends = xz
+	options = !lto
+	source = arti-0.5.0.tar.gz::https://gitlab.torproject.org/tpo/core/arti/-/archive/arti-v0.5.0/arti-arti-v0.5.0.tar.gz
+	sha256sums = d1bb168a2f8733a301dddbaa49c0981e0019e17290c0946690abe533a184e0a6
+
+pkgname = arti

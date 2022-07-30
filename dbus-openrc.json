@@ -1,0 +1,21 @@
+pkgbase = dbus-openrc
+	pkgdesc = OpenRC dbus init script
+	pkgver = 20171115
+	pkgrel = 1
+	url = https://github.com/OpenRC
+	arch = any
+	groups = openrc-base
+	groups = openrc-desktop
+	groups = openrc-system
+	license = GPL2
+	depends = openrc
+	depends = dbus-nosystemd
+	conflicts = dbus-openrc<=1.10.10-5
+	source = dbus.initd::https://gitweb.gentoo.org/repo/gentoo.git/plain/sys-apps/dbus/files/dbus.initd-r1
+	sha256sums = 00a1a8f254d4f40b6f98a2777809b9c45ad81c4aeb4c0592793dd839777990bd
+
+pkgname = dbus-openrc
+	pkgdesc = OpenRC dbus init script
+	depends = openrc
+	depends = dbus
+

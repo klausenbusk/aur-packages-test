@@ -1,0 +1,18 @@
+pkgbase = kubernetes-helm
+	pkgdesc = A tool to manage Kubernetes charts
+	pkgver = 3.1.2
+	pkgrel = 2
+	url = https://github.com/helm/helm
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = aarch64
+	license = Apache
+	makedepends = go
+	makedepends = git
+	depends = glibc
+	source = kubernetes-helm-3.1.2.tar.gz::https://github.com/helm/helm/archive/v3.1.2.tar.gz
+	sha256sums = 06c7a43be1841b07c4737999d90c1d194b80b55c6d80829349121e8e95f4a1e1
+
+pkgname = kubernetes-helm
+

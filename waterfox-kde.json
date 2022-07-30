@@ -1,0 +1,16 @@
+pkgbase = waterfox-kde
+	pkgdesc = Transitional package for waterfox-classic-kpe
+	pkgver = 2019.10
+	pkgrel = 3
+	url = https://www.waterfox.net/
+	arch = x86_64
+	license = MPL
+	depends = waterfox-classic-kpe
+	provides = waterfox-kde=2019.10
+	conflicts = waterfox
+	options = !emptydirs
+	options = !makeflags
+	options = zipman
+
+pkgname = waterfox-kde
+

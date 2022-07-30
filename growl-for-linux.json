@@ -1,0 +1,26 @@
+pkgbase = growl-for-linux
+	pkgdesc = Growl for Linux
+	pkgver = 0.8.5
+	pkgrel = 2
+	url = http://mattn.github.com/growl-for-linux/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = m4
+	depends = git
+	depends = openssl
+	depends = curl
+	depends = gtk2
+	depends = sqlite3
+	depends = dbus-glib
+	depends = desktop-file-utils
+	optdepends = libnotify
+	conflicts = growl-for-linux-git
+	options = !libtool
+	source = growl-for-linux-0.8.5.tar.gz::https://github.com/mattn/growl-for-linux/archive/0.8.5.tar.gz
+	sha256sums = 6af57c763d26e8bf985eb6ede5c2d2be9469c4f9254bdebcb168f0703dfb20fa
+
+pkgname = growl-for-linux
+

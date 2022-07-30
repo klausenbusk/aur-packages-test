@@ -1,0 +1,21 @@
+pkgbase = rider
+	pkgdesc = A cross-platform .NET IDE by JetBrains.
+	pkgver = 2022.1.2
+	pkgrel = 1
+	epoch = 1
+	url = https://www.jetbrains.com/rider/
+	arch = x86_64
+	arch = aarch64
+	license = Commercial
+	optdepends = mono: .NET runtime
+	optdepends = msbuild: build .NET Core projects
+	provides = rider
+	conflicts = rider
+	options = !strip
+	options = staticlibs
+	source = https://download-cf.jetbrains.com/rider/JetBrains.Rider-2022.1.2.tar.gz
+	source = rider.desktop
+	sha256sums = 4513e55d3db013986bdfda52854f89fb127a153f2588ae456d6e7a182987b741
+	sha256sums = 6bb04056a20674c95dc5f103671bb8cd14910c6b7a4b80d9aa636e01d31ebdf1
+
+pkgname = rider

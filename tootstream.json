@@ -1,0 +1,20 @@
+pkgbase = tootstream
+	pkgdesc = Text interface for the Mastodon social network
+	pkgver = 0.3.8.1
+	pkgrel = 1
+	url = https://github.com/magicalraccoon/tootstream
+	arch = any
+	license = MIT
+	makedepends = python-distribute
+	depends = python-mastodon
+	depends = python-humanize
+	depends = python-click
+	depends = python-colored
+	depends = python-emoji
+	source = requirements.txt.patch
+	source = tootstream-0.3.8.1.tar.gz::https://files.pythonhosted.org/packages/source/t/tootstream/tootstream-0.3.8.1.tar.gz
+	sha256sums = 9ca9c83eada78ee42f011c6e3bd8e5b01caf770b1c3b152238a8e13ff26138d6
+	sha256sums = 69886966c98d6fdbf051958832f80c2b5364393796f42f011083ee25fc5ab7f8
+
+pkgname = tootstream
+

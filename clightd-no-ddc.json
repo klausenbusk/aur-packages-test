@@ -1,0 +1,27 @@
+pkgbase = clightd-no-ddc
+	pkgdesc = Bus interface to change screen brightness based on ambient brightness (DDC disabled).
+	pkgver = 5.6
+	pkgrel = 4
+	url = https://github.com/FedeDP/Clightd
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = git
+	makedepends = cmake
+	depends = systemd-libs
+	depends = linux-api-headers
+	depends = libx11
+	depends = libxrandr
+	depends = libxext
+	depends = polkit
+	depends = libmodule
+	depends = libjpeg-turbo
+	depends = libusb
+	depends = libdrm
+	depends = wayland
+	provides = clightd
+	conflicts = clightd
+	source = clightd-no-ddc-5.6.tar.gz::https://github.com/FedeDP/Clightd/archive/5.6.tar.gz
+	sha256sums = c629cb3a83e17677cc146f366a53768bca8c944d92b2a96d6091e4c564810267
+
+pkgname = clightd-no-ddc

@@ -1,0 +1,16 @@
+pkgbase = restic
+	pkgdesc = restic is a program that does backups right.
+	pkgver = 0.8.3
+	pkgrel = 1
+	url = https://restic.github.io
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = go
+	depends = glibc
+	options = !strip
+	source = https://github.com/restic/restic/archive/v0.8.3.tar.gz
+	sha256sums = 0cf697c88404b180d6d6ff2e7d2c27b2fcb9536da6dbdf15ad4d320af7e8f17c
+
+pkgname = restic
+

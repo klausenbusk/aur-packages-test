@@ -1,0 +1,12 @@
+pkgbase = r-ica
+	pkgdesc = Independent Component Analysis
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://cran.r-project.org/package=ica
+	arch = any
+	license = GPL
+	depends = r
+	source = https://cran.r-project.org/src/contrib/ica_1.0-3.tar.gz
+	sha256sums = 474d3530b16b76a1bf1a1114d24092678ea7215fa57c6fdcee6333f1e768b865
+
+pkgname = r-ica

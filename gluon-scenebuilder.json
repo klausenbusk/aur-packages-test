@@ -1,0 +1,14 @@
+pkgbase = gluon-scenebuilder
+	pkgdesc = Open-source drag & drop UI design tool for JavaFX (Java 8) by Gluon (binary)
+	pkgver = 16.0.0
+	pkgrel = 1
+	url = https://gluonhq.com/products/scene-builder/
+	arch = any
+	license = BSD
+	conflicts = javafx-scenebuilder
+	options = !strip
+	source = http://download.gluonhq.com/scenebuilder/16.0.0/install/linux/SceneBuilder-16.0.0.deb
+	sha512sums = 39b2ec33708c42d80d27dd895aaf782c86c2ebaf582ac5838ad0d3460ddafc0c7db8b83fa1428a36e387bfefdce7f06d9ebadf94310423c34e48f50120960470
+
+pkgname = gluon-scenebuilder
+

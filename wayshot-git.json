@@ -1,0 +1,17 @@
+pkgbase = wayshot-git
+	pkgdesc = A screenshot tool for wlroots compositors.
+	pkgver = 1.1.9.98.g538caac
+	pkgrel = 1
+	url = https://git.sr.ht/~shinyzenith/wayshot
+	arch = x86_64
+	license = BSD
+	makedepends = rustup
+	makedepends = git
+	makedepends = scdoc
+	optdepends = slurp: for area selection
+	conflicts = wayshot-bin
+	conflicts = wayshot-musl-git
+	source = wayshot::git+https://git.sr.ht/~shinyzenith/wayshot
+	sha256sums = SKIP
+
+pkgname = wayshot-git

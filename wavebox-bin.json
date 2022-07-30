@@ -1,0 +1,24 @@
+pkgbase = wavebox-bin
+	pkgdesc = The next generation of web-desktop communication
+	pkgver = 4.11.11
+	pkgrel = 2
+	url = https://wavebox.io/
+	arch = x86_64
+	license = Mozilla Public License version 2.0
+	depends = gtk2
+	depends = libxtst
+	depends = nss
+	depends = alsa-lib
+	depends = libxss
+	optdepends = gvfs
+	optdepends = libnotify
+	optdepends = ttf-ms-fonts
+	provides = wavebox
+	options = !strip
+	source = wavebox.desktop
+	sha256sums = ed71fff01f57bc7d4b32278b2fb5f33bb30057ed7aeee64b3696eb17dc4ba0fc
+	source_x86_64 = https://github.com/wavebox/waveboxapp/releases/download/v4.11.11/Wavebox_4_11_11_linux_x86_64.tar.gz
+	sha256sums_x86_64 = dac15c2dc93a4cff414318a9f823b1f792b66508bf0d6a10ff9d7130b44e9a31
+
+pkgname = wavebox-bin
+

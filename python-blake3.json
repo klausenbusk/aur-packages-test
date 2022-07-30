@@ -1,0 +1,18 @@
+pkgbase = python-blake3
+	pkgdesc = Python bindings for the BLAKE3 cryptographic hash function
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/oconnor663/blake3-py
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	license = Apache
+	license = custom:CC0-1.0
+	makedepends = python-pip
+	makedepends = rust
+	depends = python
+	source = blake3-py-0.3.1.tar.gz::https://github.com/oconnor663/blake3-py/archive/0.3.1.tar.gz
+	sha512sums = d3901339df9dc3409f8c2407c6f4f02fb9e13e8e7a76d77c06d9f58c6cceea4829cedf71a687fdded8ad70897d3a4833f2b124f39837b0ffa5fb8b907b51fd56
+
+pkgname = python-blake3

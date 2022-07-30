@@ -1,0 +1,28 @@
+pkgbase = pop-gtk-theme-bin
+	pkgdesc = System76 Pop GTK+ Theme
+	pkgver = 5.4.3
+	pkgrel = 1
+	url = https://github.com/pop-os/gtk-theme
+	arch = any
+	license = GPL2
+	license = CCPL:by-sa
+	depends = gtk3>=3.18.9
+	depends = gtk2>=2.24.30
+	depends = gdk-pixbuf2>=2.24.30
+	depends = gtk-engine-murrine>=0.98.1
+	optdepends = gnome-shell
+	optdepends = gnome-flashback
+	optdepends = budgie-desktop
+	optdepends = xfce4-session
+	optdepends = mate-desktop
+	optdepends = lxde-common
+	optdepends = pop-icon-theme: Recommended icon theme
+	optdepends = ttf-fira-sans: Recommended font for window titles and interface
+	optdepends = ttf-fira-mono: Recommended monospace font
+	optdepends = ttf-roboto-slab: Recommended font for documents
+	provides = pop-gtk-theme
+	conflicts = pop-gtk-theme
+	source = https://github.com/pop-os/gtk-theme/releases/download/v5.4.3/pop-gtk-theme_5.4.3_all.deb
+	sha256sums = d1cbe385886d4ccfc1709b1656be9f12ca42edcfd8468c1d0d7fa3b858b2559f
+
+pkgname = pop-gtk-theme-bin

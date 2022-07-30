@@ -1,0 +1,20 @@
+pkgbase = electron-ssr-source
+	pkgdesc = Install electron-ssr from tarball
+	pkgver = 0.2.3stable
+	pkgrel = 3
+	url = https://github.com/erguotou520/electron-ssr
+	arch = x86_64
+	license = MIT
+	depends = gconf
+	optdepends = libsodium: sodium crypto support
+	provides = electron-ssr-0.2.3
+	provides = electron-ssr-appimage
+	source = https://github.com/erguotou520/electron-ssr/releases/download/v0.2.3/electron-ssr-0.2.3.tar.gz
+	source = desktop.tar.gz
+	source = icons.tar.gz
+	md5sums = 80f57c6759aaa3cd0311721f1333ea78
+	md5sums = 4abbf552004cddffc22230070b622f7b
+	md5sums = 679cf82afcc498d1db4dba5aed8bd0a0
+
+pkgname = electron-ssr-source
+

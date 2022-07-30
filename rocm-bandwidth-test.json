@@ -1,0 +1,14 @@
+pkgbase = rocm-bandwidth-test
+	pkgdesc = Bandwidth test for ROCm
+	pkgver = 5.2.1
+	pkgrel = 1
+	url = https://github.com/RadeonOpenCompute/rocm_bandwidth_test
+	arch = x86_64
+	license = custom:NCSAOSL
+	makedepends = cmake
+	depends = hsa-rocr
+	options = !staticlibs
+	source = rocm-bandwidth-test-5.2.1.tar.gz::https://github.com/RadeonOpenCompute/rocm_bandwidth_test/archive/rocm-5.2.1.tar.gz
+	sha256sums = ebdf868bef8ab6c7f32775ba6eab85cf3e078af1fc1b1a11fdbaad777f37a190
+
+pkgname = rocm-bandwidth-test

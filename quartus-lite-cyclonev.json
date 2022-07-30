@@ -1,0 +1,15 @@
+pkgbase = quartus-lite-cyclonev
+	pkgdesc = Cyclone V device support for Quartus Prime Lite Edition
+	pkgver = 18.1.0.625
+	pkgrel = 1
+	url = http://dl.altera.com/?edition=lite#tabs-2
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = quartus-lite
+	options = !strip
+	source = cyclonev-18.1.0.625.zip::http://download.altera.com/akdlm/software/acdsinst/18.1std/625/ib_installers/cyclonev-18.1.0.625.qdz
+	md5sums = 75F5029A9058F64F969496B016EE19D4
+
+pkgname = quartus-lite-cyclonev
+

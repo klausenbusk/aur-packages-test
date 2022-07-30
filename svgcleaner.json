@@ -1,0 +1,15 @@
+pkgbase = svgcleaner
+	pkgdesc = An application that cleans svg images from unnecessary data in batch mode.
+	pkgver = 0.9.1
+	pkgrel = 1
+	url = https://github.com/RazrFalcon/SVGCleaner
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = gcc-libs
+	makedepends = cargo
+	source = svgcleaner-0.9.1.tar.gz::https://github.com/RazrFalcon/SVGCleaner/archive/v0.9.1.tar.gz
+	sha256sums = c2a3fe8a70d58cd596366c8ec5aab5e703b97488daa4da4c2f03e723c0ae5d27
+
+pkgname = svgcleaner
+

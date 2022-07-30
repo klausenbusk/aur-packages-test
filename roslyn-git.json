@@ -1,0 +1,18 @@
+pkgbase = roslyn-git
+	pkgdesc = Microsoft's C# compiler and compiler libraries
+	pkgver = 0.0.0.ab843e50ad
+	pkgrel = 1
+	url = https://github.com/dotnet/roslyn
+	install = roslyn.install
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	depends = dotnet-sdk-2.0
+	provides = roslyn
+	conflicts = roslyn
+	options = staticlibs
+	source = git://github.com/dotnet/roslyn
+	md5sums = SKIP
+
+pkgname = roslyn-git
+

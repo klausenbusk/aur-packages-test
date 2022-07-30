@@ -1,0 +1,16 @@
+pkgbase = rofmoji
+	pkgdesc = Quickly find Emoji for your clipboard
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://codeberg.org/arran/rofmoji
+	arch = x86_64
+	license = GPL3
+	depends = rofi
+	depends = libnotify
+	optdepends = wl-clipboard
+	optdepends = xclip
+	source = https://codeberg.org/arran/rofmoji/archive/0.2.1.tar.gz
+	sha256sums = e2fcbe581ac1e13cbf1bb372e7b1bc146748d2b8d0a04bbd8845ad043f831e64
+
+pkgname = rofmoji
+

@@ -1,0 +1,20 @@
+pkgbase = x84
+	pkgdesc = Telnet server for UTF-8 and cp437 terminals
+	pkgver = 2.0.15
+	pkgrel = 1
+	url = https://github.com/jquast/x84
+	arch = any
+	license = ISC
+	makedepends = python2
+	depends = python2
+	depends = python2-requests
+	depends = python2-sauce
+	depends = python2-sqlitedict
+	depends = python2-bcrypt
+	depends = python2-html2text
+	source = https://pypi.python.org/packages/source/x/x84/x84-2.0.15.tar.gz
+	sha1sums = c98be9a186aad098d896055f8dbf0f431f0774e5
+	sha256sums = 59210511ac09aeab68783916a3455e10d86b65c334bbb0f3bc38ee25d57ae6f1
+
+pkgname = x84
+

@@ -1,0 +1,28 @@
+pkgbase = nncli
+	pkgdesc = NextCloud Notes Command Line Interface
+	pkgver = 0.3.4
+	pkgrel = 2
+	url = https://nncli.org
+	arch = any
+	license = MIT
+	license = BSD
+	checkdepends = python-pytest
+	checkdepends = python-pytest-cov
+	checkdepends = python-pytest-mock
+	checkdepends = python-pylint
+	checkdepends = python-mock
+	makedepends = python-pip
+	makedepends = flit
+	makedepends = python-sphinx
+	makedepends = python-sphinx-sitemap
+	makedepends = git
+	depends = python
+	depends = python-urwid
+	depends = python-requests
+	depends = python-appdirs
+	depends = python-click
+	source = nncli-0.3.4::git://git.danielmoch.com/nncli.git#tag=v0.3.4
+	sha256sums = SKIP
+
+pkgname = nncli
+

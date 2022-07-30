@@ -1,0 +1,16 @@
+pkgbase = deepin-wine-helper-full
+	pkgdesc = Deepin Wine helper
+	pkgver = 5.1.23
+	pkgrel = 1
+	url = http://www.deepin.org
+	arch = i686
+	arch = x86_64
+	license = Proprietary
+	makedepends = tar
+	makedepends = p7zip
+	provides = deepin-wine-helper=5.1.23
+	conflicts = deepin-wine-helper
+	source = http://community-store.deepin.com/appstore/apricot/pool/appstore/c/com.jiakaobaodian.deepin/com.jiakaobaodian.deepin_8.2.5deepin1_i386.deb
+	sha256sums = 3f4463343287336dfe1c20a6ad2bb664098b85b86a58da31dfb5aa2f64d6c189
+
+pkgname = deepin-wine-helper-full

@@ -1,0 +1,22 @@
+pkgbase = ez
+	pkgdesc = Task simplificaltion scripts that increase speed and efficiency in common tasks
+	pkgver = 1.1.3
+	pkgrel = 1
+	url = https://gitlab.com/a4to/ez
+	arch = any
+	license = MIT
+	optdepends = git: To use ezgc for cloning repositories
+	optdepends = npm: To download npm packages with ezdl
+	optdepends = snapd: To install snap packages with ezdl
+	optdepends = python-pip: To install python packages with ezdl
+	optdepends = lf: To integrate the lf file manager with eztst
+	optdepends = bluez: To integrate EZ bluetooth manager
+	provides = ez
+	provides = ezdl
+	provides = ezgc
+	provides = eztst
+	provides = ezssl
+	source = https://gitlab.com/a4to/concise/-/raw/master/x86_64/ez-1.1.3-1-any.pkg.tar.zst
+	sha256sums = d2bbd4b6973a5a22fe2903d8bb62eda0a4c1d32e95f3d544306642d8b648b98e
+
+pkgname = ez

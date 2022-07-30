@@ -1,0 +1,16 @@
+pkgbase = words-pl
+	pkgdesc = A ‘words’ file for Polish language
+	pkgver = 20211220
+	pkgrel = 1
+	url = https://sjp.pl/slownik/odmiany/
+	arch = any
+	license = GPL
+	license = LGPL
+	license = Apache
+	license = CCPL
+	makedepends = dos2unix
+	conflicts = words-pl
+	source = https://web.archive.org/web/20220201135244/https://sjp.pl/slownik/odmiany/sjp-odm-20211220.zip
+	sha256sums = 6be8da3a9869f12013c1836574ff8fc7661a3cc558fcb86ecf3ba52720650309
+
+pkgname = words-pl

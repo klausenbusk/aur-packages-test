@@ -1,0 +1,16 @@
+pkgbase = pipe-rename
+	pkgdesc = Rename your files using your favorite text editor
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = https://github.com/marcusbuffett/pipe-rename
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = pipe-rename-1.4.1.tar.gz::https://crates.io/api/v1/crates/pipe-rename/1.4.1/download
+	cksums = 221640552
+	sha256sums = 1dd5ad44cbdd7024b7a079cf97b36791e2c1359d8f9fb11211e95332841e8860
+	b2sums = 0b1f5da8f843c80dae81828d8560bfd8061cc8bf464836fbe86e34d386b94c6e671f7b4a917380f2a36762b14f1af040a22ee699ae7f3db72cbdc88f4e4e380e
+
+pkgname = pipe-rename

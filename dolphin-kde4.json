@@ -1,0 +1,21 @@
+pkgbase = dolphin-kde4
+	pkgdesc = Symlink to dolphinpart4
+	pkgver = 14.12.3
+	pkgrel = 1
+	url = http://kde.org/applications/system/dolphin
+	arch = i686
+	arch = x86_64
+	arch = armv7
+	arch = armv6
+	arch = armv5
+	groups = kde-applications
+	groups = kdebase
+	license = GPL
+	depends = dolphinpart4
+	provides = dolphin
+	conflicts = dolphin
+	source = dolphin.desktop
+	sha1sums = cd0f7383eeda5b4120fd67e49364d4802ec604d5
+
+pkgname = dolphin-kde4
+

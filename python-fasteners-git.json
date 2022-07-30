@@ -1,0 +1,18 @@
+pkgbase = python-fasteners-git
+	pkgdesc = A python package that provides useful locks.
+	pkgver = 0.17.2.r0.g8c4c7d9
+	pkgrel = 1
+	url = https://github.com/harlowja/fasteners
+	arch = any
+	license = Apache
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-install
+	depends = python
+	provides = python-fasteners
+	conflicts = python-fasteners
+	source = fasteners::git+https://github.com/harlowja/fasteners
+	sha512sums = SKIP
+
+pkgname = python-fasteners-git

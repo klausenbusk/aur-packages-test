@@ -1,0 +1,15 @@
+pkgbase = buildbox-casd
+	pkgdesc = Local cache and proxy for remote CAS servers
+	pkgver = 0.0.46.r0.ga4295e8
+	pkgrel = 1
+	url = https://buildgrid.build
+	arch = x86_64
+	license = Apache
+	makedepends = cmake
+	makedepends = git
+	depends = buildbox-common
+	depends = util-linux-libs
+	source = git+https://gitlab.com/BuildGrid/buildbox/buildbox-casd#commit=a4295e88eb2418865566304185725730670fc523
+	sha256sums = SKIP
+
+pkgname = buildbox-casd

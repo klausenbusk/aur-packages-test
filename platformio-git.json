@@ -1,0 +1,26 @@
+pkgbase = platformio-git
+	pkgdesc = A cross-platform code builder and library manager
+	pkgver = v5.0.1.r9.ga384411a
+	pkgrel = 1
+	url = http://platformio.org/
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = python-setuptools
+	depends = python-bottle
+	depends = python-click
+	depends = python-colorama
+	depends = python-pyserial
+	depends = python-requests
+	depends = python-semantic-version
+	depends = python-tabulate
+	depends = python-pyelftools
+	depends = python-marshmallow
+	optdepends = energia: For MSP430 based projects
+	optdepends = arduino: For Arduino based projects
+	provides = platformio
+	source = git+https://github.com/platformio/platformio-core.git
+	md5sums = SKIP
+
+pkgname = platformio-git
+

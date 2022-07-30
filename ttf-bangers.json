@@ -1,0 +1,11 @@
+pkgbase = ttf-bangers
+	pkgdesc = Comic books font with capital letters
+	pkgver = 1.0
+	pkgrel = 3
+	url = https://fonts.google.com/specimen/Bangers
+	arch = any
+	license = OFL
+	source = ttf-bangers-1.0.zip::https://fonts.google.com/download?family=Bangers
+	sha256sums = SKIP
+
+pkgname = ttf-bangers

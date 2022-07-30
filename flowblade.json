@@ -1,0 +1,28 @@
+pkgbase = flowblade
+	pkgdesc = a multitrack non-linear video editor for Linux
+	pkgver = 2.4.0.1
+	pkgrel = 1
+	url = https://github.com/jliljebl/flowblade
+	arch = any
+	license = GPL3
+	depends = dbus-glib
+	depends = frei0r-plugins
+	depends = gmic
+	depends = gtk3
+	depends = librsvg
+	depends = mlt
+	depends = movit
+	depends = pygobject-devel
+	depends = python-dbus
+	depends = python-gobject
+	depends = python-mlt
+	depends = python-numpy
+	depends = python-pillow
+	depends = sdl_image
+	depends = sox
+	depends = swh-plugins
+	source = https://github.com/jliljebl/flowblade/archive/v2.4.0.1-fix_release.tar.gz
+	sha256sums = 856fe9fc7cc2d39dd239057b3411a29c947a6ab79e98b8fa8760c3da1e5838f6
+
+pkgname = flowblade
+

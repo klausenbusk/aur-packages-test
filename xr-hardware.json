@@ -1,0 +1,18 @@
+pkgbase = xr-hardware
+	pkgdesc = Udev rules for accessing XR (VR and AR) hardware devices
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://gitlab.freedesktop.org/monado/utilities/xr-hardware/
+	arch = any
+	license = Boost
+	checkdepends = flake8
+	makedepends = python
+	makedepends = python-attrs
+	provides = oculus-udev
+	provides = osvr-udev
+	provides = psvr-udev
+	provides = vive-udev
+	source = https://gitlab.freedesktop.org/monado/utilities/xr-hardware/-/archive/1.0.0/xr-hardware-1.0.0.tar.bz2
+	sha256sums = 6e0b708f225471f80d6159d7ddd58d1a200bd9bbc07eee576ec2d627365b3f77
+
+pkgname = xr-hardware

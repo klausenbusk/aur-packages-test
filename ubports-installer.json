@@ -1,0 +1,21 @@
+pkgbase = ubports-installer
+	pkgdesc = A simple tool to install Ubuntu Touch on UBports devices
+	pkgver = 0.9.5_beta
+	pkgrel = 2
+	url = https://github.com/ubports/ubports-installer
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	depends = android-tools
+	depends = android-udev
+	depends = electron
+	depends = e2fsprogs
+	depends = heimdall
+	conflicts = ubports-installer-git
+	conflicts = ubports-installer-bin
+	options = !strip
+	options = !emptydirs
+	source = ubports-installer-0.9.5_beta.deb::https://github.com/ubports/ubports-installer/releases/download/0.9.5-beta/ubports-installer_0.9.5-beta_linux_amd64.deb
+	sha256sums = 08094deec0832623c720fe2ee5edb29d6aec643be4210a41a1ead6baf938d609
+
+pkgname = ubports-installer

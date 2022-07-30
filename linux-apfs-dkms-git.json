@@ -1,0 +1,15 @@
+pkgbase = linux-apfs-dkms-git
+	pkgdesc = Experimental APFS kernel module (DKMS)
+	pkgver = r5.277a34e
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/eafer/linux-apfs-oot
+	arch = any
+	license = GPL2
+	makedepends = git
+	depends = dkms
+	source = git+https://github.com/eafer/linux-apfs-oot
+	sha256sums = SKIP
+
+pkgname = linux-apfs-dkms-git
+

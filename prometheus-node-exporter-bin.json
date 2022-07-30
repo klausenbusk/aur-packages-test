@@ -1,0 +1,31 @@
+pkgbase = prometheus-node-exporter-bin
+	pkgdesc = Prometheus exporter for machine metrics (binary, not built from source)
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/prometheus/node_exporter
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = Apache
+	provides = prometheus-node-exporter
+	conflicts = prometheus-node-exporter
+	source_x86_64 = prometheus-node-exporter.service
+	source_x86_64 = https://github.com/prometheus/node_exporter/releases/download/v1.1.0/node_exporter-1.1.0.linux-amd64.tar.gz
+	sha256sums_x86_64 = df4ef8a34999ac2acedead7a48e67da31e0b65a29e4570d3075cd8ca663cf1d0
+	sha256sums_x86_64 = a894a85c58388b318843a586ca7540c1c772990ac5327e0c02e10db722f55a22
+	source_armv6h = prometheus-node-exporter.service
+	source_armv6h = https://github.com/prometheus/node_exporter/releases/download/v1.1.0/node_exporter-1.1.0.linux-armv6.tar.gz
+	sha256sums_armv6h = df4ef8a34999ac2acedead7a48e67da31e0b65a29e4570d3075cd8ca663cf1d0
+	sha256sums_armv6h = 9176c9fdfd83e8224501c4456c74fcebaf064dd5a81bf2540d5d9805e330da5c
+	source_armv7h = prometheus-node-exporter.service
+	source_armv7h = https://github.com/prometheus/node_exporter/releases/download/v1.1.0/node_exporter-1.1.0.linux-armv7.tar.gz
+	sha256sums_armv7h = df4ef8a34999ac2acedead7a48e67da31e0b65a29e4570d3075cd8ca663cf1d0
+	sha256sums_armv7h = d5af082c50af8b1e0d0fd40044b91af79e1bbbede74fd194b343eab3464a0585
+	source_aarch64 = prometheus-node-exporter.service
+	source_aarch64 = https://github.com/prometheus/node_exporter/releases/download/v1.1.0/node_exporter-1.1.0.linux-arm64.tar.gz
+	sha256sums_aarch64 = df4ef8a34999ac2acedead7a48e67da31e0b65a29e4570d3075cd8ca663cf1d0
+	sha256sums_aarch64 = 6ea84df0dccc1b45dbbde8cf9a9aacac7484dc7fab1fc938db800bdd169b4b37
+
+pkgname = prometheus-node-exporter-bin
+

@@ -1,0 +1,24 @@
+pkgbase = python-tinyrpc
+	pkgdesc = A small, modular, transport and protocol neutral RPC library that, among other things, supports JSON-RPC and zmq.
+	pkgver = 1.1.3
+	pkgrel = 1
+	url = https://github.com/mbr/tinyrpc
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-six
+	depends = python-gevent
+	depends = python-requests
+	depends = python-msgpack
+	depends = python-gevent-websocket
+	depends = python-websocket-client
+	depends = python-werkzeug
+	depends = python-pyzmq
+	options = !emptydirs
+	source = https://pypi.io/packages/source/t/tinyrpc/tinyrpc-1.1.3.tar.gz
+	md5sums = 0b758afa703546bfde37bdc65804d07b
+	sha256sums = ac1ef6a1e0df0d5ccbd488d185e92581ddfe81a703b2d2aa0f1ad1fd99700f31
+	sha512sums = 9d46040b1b5ee942f7e085bd7727132eeaa813ba9fc40df77d7ac6a665f5fe6008266f4ac01cf5a4d4498f51005c5a10608c5478d4007fa7f4781257023faf5e
+
+pkgname = python-tinyrpc

@@ -1,0 +1,14 @@
+pkgbase = firefox-china-extra-extensions-meta
+	pkgdesc = 火狐中国版浏览器的插件元包
+	pkgver = 1.0
+	pkgrel = 1
+	arch = any
+	license = MPL
+	depends = firefox-china-extra-extensions-cehomepage
+	depends = firefox-china-extra-extensions-china-newtab
+	depends = firefox-china-extra-extensions-cpmanager
+	depends = firefox-china-extra-extensions-easyscreenshot
+	depends = firefox-china-extra-extensions-tabtweak
+
+pkgname = firefox-china-extra-extensions-meta
+

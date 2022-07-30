@@ -1,0 +1,14 @@
+pkgbase = java-commons-lang
+	pkgdesc = Provides highly reusable static utility methods, chiefly concerned with adding value to the java.lang classes.
+	pkgver = 3.9
+	pkgrel = 2
+	url = http://commons.apache.org/lang/
+	arch = any
+	license = apache
+	depends = java-runtime
+	depends = bash
+	source = http://www.apache.org/dist/commons/lang/binaries/commons-lang3-3.9-bin.tar.gz
+	sha256sums = 71ae27bb43ddd6c5a365e351eb9a2e5d04c1781e2f06447b95eb6e162d0c1850
+
+pkgname = java-commons-lang
+

@@ -1,0 +1,21 @@
+pkgbase = darkine-kde-git
+	pkgdesc = Theme based on Adapta KDE for Plasma 5 desktop
+	pkgver = 2.1.r41.gcd37f80
+	pkgrel = 1
+	url = https://github.com/Rokin05/darkine-kde
+	arch = any
+	license = GPL3
+	makedepends = git
+	optdepends = konsole: For the Konsole color scheme
+	optdepends = kvantum-qt5: For the Qt application style
+	optdepends = kwin: For the Aurorae theme
+	optdepends = plasma-desktop: For the Plasma theme
+	optdepends = sddm: For the SDDM theme
+	provides = darkine-kde
+	conflicts = darkine-kde
+	options = !strip
+	source = darkine-kde::git+https://github.com/Rokin05/darkine-kde.git
+	sha256sums = SKIP
+
+pkgname = darkine-kde-git
+

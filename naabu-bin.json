@@ -1,0 +1,18 @@
+pkgbase = naabu-bin
+	pkgdesc = Fast port scanner with a focus on reliability and simplicity
+	pkgver = 2.0.9
+	pkgrel = 1
+	url = https://github.com/projectdiscovery/naabu
+	arch = x86_64
+	license = MIT
+	depends = libpcap
+	provides = naabu
+	conflicts = naabu
+	source = LICENSE
+	source = README-2.0.9::https://raw.githubusercontent.com/projectdiscovery/naabu/v2.0.9/README.md
+	sha256sums = cbcdaab87df3175107aa28915bd253cebdd618a49c9ac5d6c669c0b1cbebcacb
+	sha256sums = 21fe0ba8d475cfb8f76a74684dad19208426f9f6e1790b4d47038cb6bfe16151
+	source_x86_64 = naabu-bin-2.0.9.zip::https://github.com/projectdiscovery/naabu/releases/download/v2.0.9/naabu_2.0.9_linux_amd64.zip
+	sha256sums_x86_64 = 2f69ceb95635026788fe353e70b095331888b07d39043b3bb6fea58be5337a84
+
+pkgname = naabu-bin

@@ -1,0 +1,19 @@
+pkgbase = lesana
+	pkgdesc = Manage collection inventories throught yaml files
+	pkgver = 0.9.1
+	pkgrel = 2
+	url = https://lesana.trueelena.org/
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	depends = python-dateutil
+	depends = python-jinja
+	depends = python-ruamel-yaml
+	depends = python-xapian
+	depends = python-gitpython
+	optdepends = python-argcomplete: support for bash autocompletion
+	provides = lesana
+	source = https://git.sr.ht/~valhalla/lesana/archive/v0.9.1.tar.gz
+	md5sums = f0d166c71c5f9baa03b1815bd0d27d7a
+
+pkgname = lesana

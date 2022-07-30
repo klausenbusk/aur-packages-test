@@ -1,0 +1,25 @@
+pkgbase = lucurious-git
+	pkgdesc = [Library] for building advanced DRM Vulkan Renderers
+	pkgver = 0.0.2
+	pkgrel = 1
+	url = https://github.com/EasyIP2023/lucurious
+	arch = x86_64
+	license = MIT
+	makedepends = meson
+	makedepends = ninja
+	makedepends = git
+	makedepends = vulkan-headers
+	depends = shaderc
+	depends = vulkan-driver
+	depends = vulkan-icd-loader
+	depends = cglm
+	depends = libdrm
+	depends = libinput
+	depends = mesa
+	provides = lucurious=0.0.2
+	conflicts = lucurious
+	source = lucurious-git::git+https://github.com/EasyIP2023/lucurious
+	sha512sums = SKIP
+
+pkgname = lucurious-git
+

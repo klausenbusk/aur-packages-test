@@ -1,0 +1,24 @@
+pkgbase = ecodms-client
+	pkgdesc = Document Management Software
+	pkgver = 21.06.1
+	pkgrel = 2
+	url = http://www.ecodms.de/index.php/de/
+	install = ecodms-client.install
+	arch = x86_64
+	license = custom
+	depends = apr
+	depends = bash
+	depends = libappindicator-gtk2
+	depends = libgcrypt
+	depends = qt5-webengine
+	depends = qt5-svg
+	depends = qt5-x11extras
+	depends = libpng12
+	depends = libjpeg6-turbo
+	depends = pcre
+	depends = freeimage
+	options = !strip
+	source_x86_64 = ecodmsclient-21.06.1_amd64.deb::https://www.ecodms.de/ecodms_210664/focal/ecodmsclient-21.06-1-1_amd64.deb
+	md5sums_x86_64 = 3c894a7db5d804ae49ed94cd56a5d461
+
+pkgname = ecodms-client

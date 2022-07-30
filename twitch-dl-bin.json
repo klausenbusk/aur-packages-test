@@ -1,0 +1,19 @@
+pkgbase = twitch-dl-bin
+	pkgdesc = Twitch video downloader that use multiple concurrent connections
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://github.com/ihabunek/twitch-dl
+	arch = any
+	license = GPL3
+	depends = python
+	depends = ffmpeg
+	provides = twitch-dl
+	provides = twitch-dl-bin
+	conflicts = twitch-dl
+	conflicts = twitch-dl-bin
+	noextract = twitch-dl
+	source = twitch-dl::https://github.com/ihabunek/twitch-dl/releases/download/1.22.0/twitch-dl.1.22.0.pyz
+	sha256sums = ('5755961d21c0a23fa149d0a5083fa0329742ef52ecd70de7072eabba5ae18c02')
+
+pkgname = twitch-dl-bin
+

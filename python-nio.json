@@ -1,0 +1,28 @@
+pkgbase = python-nio
+	pkgdesc = python no-IO library for the matrix chat protocol
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://github.com/poljar/matrix-nio
+	arch = any
+	license = ISC
+	makedepends = python-setuptools
+	depends = python
+	depends = python-olm
+	depends = python-h11
+	depends = python-h2
+	depends = python-jsonschema
+	depends = python-logbook
+	depends = python-attrs
+	depends = python-peewee
+	depends = python-atomicwrites
+	depends = python-future
+	depends = python-pycryptodome
+	depends = python-unpaddedbase64
+	depends = python-aiohttp
+	depends = python-cachetools
+	depends = python-aiofiles
+	source = https://github.com/poljar/matrix-nio/archive/0.10.0.tar.gz
+	sha512sums = 0e7248e1b4f9fcfddfc3e67042ef508e42343046bc4e2c10b6dab7ba5babb5473413c6bbb695f08219e96dd4ad606e410c2ccc4ffafdaa3d5c379b7b32a48c6a
+
+pkgname = python-nio
+

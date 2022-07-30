@@ -1,0 +1,15 @@
+pkgbase = ruby-flores
+	pkgdesc = Fuzz, randomize, and stress your tests
+	pkgver = 0.0.6
+	pkgrel = 1
+	url = https://rubygems.org/gems/flores
+	arch = any
+	license = AGPL-3.0
+	depends = ruby
+	noextract = flores-0.0.6.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/flores-0.0.6.gem
+	sha256sums = 614a7cd4615c3a5fdc0077ce65e47636862f7d305ea848d106baa542e04a7474
+
+pkgname = ruby-flores
+

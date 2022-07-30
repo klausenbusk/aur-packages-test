@@ -1,0 +1,17 @@
+pkgbase = kiibohd-configurator-git
+	pkgdesc = Client Side Configuration & Flashing Software for Kiibohd compatible keyboards
+	pkgver = r286.2e12869
+	pkgrel = 1
+	url = https://github.com/kiibohd/configurator
+	arch = x86_64
+	license = GPL3
+	makedepends = yarn
+	makedepends = nodejs-lts-erbium
+	depends = dfu-util
+	provides = kiibohd-configurator
+	conflicts = kiibohd-configurator
+	source = kiibohd-configurator-git::git+https://github.com/kiibohd/configurator.git
+	sha256sums = SKIP
+
+pkgname = kiibohd-configurator-git
+

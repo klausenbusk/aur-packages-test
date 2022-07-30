@@ -1,0 +1,23 @@
+pkgbase = giteye
+	pkgdesc = CollabNet GitEye is a desktop for Git. It works with TeamForge, CloudForge and other Git services.
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = https://www.collab.net/products/giteye
+	arch = x86_64
+	license = custom
+	depends = git
+	depends = java-runtime>=8
+	depends = python
+	noextract = GitEye-1.12.0-linux.x86_64.zip
+	noextract = GitEye-2.0.0-linux.x86_64.zip
+	noextract = GitEye-2.0.0-linux.x86.zip
+	options = !strip
+	source = https://www.collab.net/sites/default/files/downloads/GitEye-2.2.0-linux.x86_64.zip
+	source = LICENSE
+	source = giteye.desktop
+	md5sums = 117d6e1e905aea0ec91ce18e155e87a1
+	md5sums = 78ba2a04c6b766a778681705d40abbb4
+	md5sums = 0299696f06b199eb9b5735057f503fe9
+
+pkgname = giteye
+

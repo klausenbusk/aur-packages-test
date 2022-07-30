@@ -1,0 +1,13 @@
+pkgbase = bootswatch
+	pkgdesc = A collection of open source themes for Bootstrap.
+	pkgver = 4.2.1
+	pkgrel = 1
+	url = https://bootswatch.com/
+	arch = any
+	license = MIT
+	depends = bootstrap
+	source = bootswatch-4.2.1.tar.gz::https://github.com/thomaspark/bootswatch/archive/v4.2.1.tar.gz
+	sha256sums = f381ffa41eeaeef4a730b8ef9b2ee1e25cfb2fa18b477ccb6da2715e36a60ee4
+
+pkgname = bootswatch
+

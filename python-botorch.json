@@ -1,0 +1,23 @@
+pkgbase = python-botorch
+	pkgdesc = Bayesian Optimization in PyTorch
+	pkgver = 0.6.5
+	pkgrel = 1
+	url = https://github.com/pytorch/botorch
+	changelog = CHANGELOG.md
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	depends = python>=3.7
+	depends = python-pytorch
+	depends = python-gpytorch
+	depends = python-scipy
+	depends = python-multipledispatch
+	depends = python-pyro-ppl
+	source = python-botorch-0.6.5.tar.gz::https://files.pythonhosted.org/packages/source/b/botorch/botorch-0.6.5.tar.gz
+	sha256sums = 696ce5a68e4bb0f6ce4584940b5e4eab9634d48b69b1dbb134ef01ebbb486884
+
+pkgname = python-botorch

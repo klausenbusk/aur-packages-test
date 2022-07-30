@@ -1,0 +1,14 @@
+pkgbase = blender-plugin-blam
+	pkgdesc = This is BLAM, a camera calibration toolkit for Blender in the form of an add-on, written in python, that facilitates modeling based on photographs.
+	pkgver = 1
+	pkgrel = 1
+	url = http://stuffmatic.github.io/
+	arch = any
+	license = GPL
+	makedepends = coreutils
+	depends = blender
+	source = https://github.com/stuffmatic/blam/archive/v0.6.zip
+	md5sums = SKIP
+
+pkgname = blender-plugin-blam
+

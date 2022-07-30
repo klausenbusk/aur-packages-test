@@ -1,0 +1,27 @@
+pkgbase = darkmod
+	pkgdesc = First person forgery stealth game
+	pkgver = 2.07.1.30
+	pkgrel = 1
+	url = http://www.thedarkmod.com
+	arch = x86_64
+	license = GPL3
+	license = BSD
+	license = CCPL:by-nc-sa
+	makedepends = git
+	makedepends = unzip
+	depends = curl
+	depends = glew
+	depends = libjpeg-turbo
+	depends = libpng
+	depends = libpng12
+	depends = libpulse
+	depends = libxxf86vm
+	depends = openal
+	depends = silently
+	provides = darkmod
+	conflicts = darkmod
+	source = git+https://gitlab.com/es20490446e/darkmod-linux-packager.git
+	md5sums = SKIP
+
+pkgname = darkmod
+

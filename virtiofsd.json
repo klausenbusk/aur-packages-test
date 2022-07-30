@@ -1,0 +1,18 @@
+pkgbase = virtiofsd
+	pkgdesc = A virtio-fs vhost-user device daemon written in Rust
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://gitlab.com/virtio-fs/virtiofsd
+	arch = x86_64
+	license = Apache
+	license = BSD
+	makedepends = git
+	makedepends = rust
+	depends = gcc-libs
+	depends = libcap-ng
+	depends = libseccomp
+	options = !lto
+	source = virtiofsd::git+https://gitlab.com/virtio-fs/virtiofsd.git#commit=0ce2b1181088e7285750851bacca9577d4a8700d
+	b2sums = SKIP
+
+pkgname = virtiofsd

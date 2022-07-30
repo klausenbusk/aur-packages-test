@@ -1,0 +1,14 @@
+pkgbase = python-sniffio
+	pkgdesc = Sniff out which async library your code is running under
+	pkgver = 1.0.0
+	pkgrel = 2
+	url = https://github.com/python-trio/sniffio
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/s/sniffio/sniffio-1.0.0.tar.gz
+	md5sums = f1ee89409cd401ca1bed64bb5945e495
+
+pkgname = python-sniffio
+

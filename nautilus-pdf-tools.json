@@ -1,0 +1,19 @@
+pkgbase = nautilus-pdf-tools
+	pkgdesc = Tools to work with PDF files from Nautilus
+	pkgver = 1.2.9.0extras20.04.02
+	pkgrel = 1
+	url = https://github.com/atareao/nautilus-pdf-tools
+	arch = any
+	license = GPL3
+	depends = python-cairo
+	depends = python-pillow
+	depends = gtk3
+	depends = poppler
+	depends = python-pypdf2
+	depends = python-sh
+	depends = python-plumbum
+	depends = python-nautilus
+	source = https://launchpad.net/~atareao/+archive/ubuntu/nautilus-extensions/+files/nautilus-pdf-tools_1.2.9-0extras20.04.02.tar.xz
+	sha256sums = 817e98926d8a4dc148e308a84be4f340be0420a76603e5927a3e96129574408b
+
+pkgname = nautilus-pdf-tools

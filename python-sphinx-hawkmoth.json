@@ -1,0 +1,17 @@
+pkgbase = python-sphinx-hawkmoth
+	pkgdesc = Sphinx autodoc C extension
+	pkgver = 0.9.0
+	pkgrel = 1
+	url = https://github.com/jnikula/hawkmoth
+	arch = i686
+	arch = x86_64
+	license = BSD2
+	makedepends = python-build
+	makedepends = python-install
+	makedepends = python-wheel
+	depends = python-sphinx
+	depends = clang
+	source = https://github.com/jnikula/hawkmoth/archive/v0.9.0.tar.gz
+	sha256sums = c17c1cb39df5e1db6bb2acb793ef2e593cf3c6b0c65bab18bde019ae3cc0ee97
+
+pkgname = python-sphinx-hawkmoth

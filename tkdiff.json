@@ -1,0 +1,14 @@
+pkgbase = tkdiff
+	pkgdesc = a graphical front end to the diff program
+	pkgver = 5.4
+	pkgrel = 1
+	url = http://tkdiff.sourceforge.net/
+	arch = any
+	license = GPL
+	depends = tcl
+	depends = tk
+	conflicts = tkcvs
+	source = https://downloads.sourceforge.net/project/tkdiff/tkdiff/5.4/tkdiff-5-4.zip
+	md5sums = 1dd9f7d1063b492ac2ec26bbbf794161
+
+pkgname = tkdiff

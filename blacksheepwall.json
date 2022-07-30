@@ -1,0 +1,12 @@
+pkgbase = blacksheepwall
+	pkgdesc = A hostname reconnaissance tool
+	pkgver = 3.3.0
+	pkgrel = 2
+	url = https://github.com/tomsteele/blacksheepwall
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	source = blacksheepwall-3.3.0::https://github.com/tomsteele/blacksheepwall/archive/v3.3.0.tar.gz
+	sha512sums = 29dcd50ccaa1edd3e57f5b5d30d0f6372e517261efa6b5633931e786b791d5f99714a7506a969a9a64fea66a35ca790bc642cc66453c01ae5a36762d072a492b
+
+pkgname = blacksheepwall

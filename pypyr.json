@@ -1,0 +1,20 @@
+pkgbase = pypyr
+	pkgdesc = Task runner for automation pipelines
+	pkgver = 5.5.0
+	pkgrel = 1
+	url = https://pypyr.io
+	arch = any
+	license = Apache
+	checkdepends = python-pytest
+	checkdepends = python-pyfakefs
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	depends = python-dateutil
+	depends = python-ruamel-yaml
+	depends = python-tomli
+	depends = python-tomli-w
+	source = pypyr::git+https://github.com/pypyr/pypyr.git#commit=05c501132c25a6c4c3e6fe0798e93118b136efbd
+	b2sums = SKIP
+
+pkgname = pypyr

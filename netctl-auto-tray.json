@@ -1,0 +1,18 @@
+pkgbase = netctl-auto-tray
+	pkgdesc = A lightweight netctl tray app with notifications (for netctl-auto)
+	pkgver = r22.99abf4d
+	pkgrel = 1
+	url = https://github.com/mortzu/netctl-tray
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = libnotify
+	depends = qt5-base
+	depends = polkit
+	provides = netctl-tray
+	conflicts = netctl-tray
+	source = netctl-auto-tray::git+https://github.com/mortzu/netctl-tray.git
+	md5sums = SKIP
+
+pkgname = netctl-auto-tray
+

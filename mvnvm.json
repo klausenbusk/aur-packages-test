@@ -1,0 +1,15 @@
+pkgbase = mvnvm
+	pkgdesc = Maven version manager
+	pkgver = 1.0.18
+	pkgrel = 1
+	url = https://mvnvm.org/
+	arch = any
+	license = Apache
+	depends = sh
+	provides = maven
+	conflicts = maven
+	noextract = mvnvm-1.0.18.tar.bz2
+	source = https://bitbucket.org/mjensen/mvnvm/get/mvnvm-1.0.18.tar.bz2
+	sha256sums = 8aaebfb2bbbe5db9725d93ab763d23d6ed19c946dfad406532e83cd2665e1042
+
+pkgname = mvnvm

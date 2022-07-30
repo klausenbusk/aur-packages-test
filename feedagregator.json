@@ -1,0 +1,32 @@
+pkgbase = feedagregator
+	pkgdesc = RSS and Atom feed agregator in desktop widgets + notifications
+	pkgver = 1.3.1
+	pkgrel = 1
+	url = https://github.com/j4321/FeedAgregator
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	depends = python
+	depends = tk
+	depends = gettext
+	depends = desktop-file-utils
+	depends = libnotify
+	depends = python-beautifulsoup4
+	depends = python-babel
+	depends = python-feedparser
+	depends = python-pillow
+	depends = tkhtml3-git
+	depends = python-dateutil
+	depends = python-ewmh
+	optdepends = tktray: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = pygtk: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = python-pyqt5: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = python-pyqt4: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = python-pyside: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = zenity: nicer color chooser,
+	optdepends = python-tkcolorpicker: nicer color chooser
+	source = feedagregator-1.3.1.tar.gz::https://github.com/j4321/FeedAgregator/archive/v1.3.1.tar.gz
+	sha512sums = fcf3e5561e914434ccce3b3a428335956d96ed72b5416dbef175a4391aeb1924cd2050e915ddf3279b429398fb0a6f7cccc136517569f789bfe73cbb5ec6870d
+
+pkgname = feedagregator
+

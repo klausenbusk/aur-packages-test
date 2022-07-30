@@ -1,0 +1,22 @@
+pkgbase = qemu-user-static
+	pkgdesc = Statically linked binaries of Qemu with user emulation. Useful for containers/chroot environment with binfmt.
+	pkgver = 7.0.0
+	pkgrel = 1
+	url = http://wiki.qemu.org/
+	arch = x86_64
+	arch = aarch64
+	license = GPL2
+	license = LGPL2.1
+	makedepends = python
+	makedepends = meson
+	makedepends = glib2-static
+	makedepends = pcre-static
+	source = https://download.qemu.org/qemu-7.0.0.tar.xz
+	source = https://download.qemu.org/qemu-7.0.0.tar.xz.sig
+	validpgpkeys = CEACC9E15534EBABB82D3FA03353C9CEF108B584
+	sha512sums = 44ecd10c018a3763e1bc87d1d35b98890d0d5636acd69fe9b5cadf5024d5af6a31684d60cbe1c3370e02986434c1fb0ad99224e0e6f6fe7eda169992508157b1
+	sha512sums = SKIP
+
+pkgname = qemu-user-static
+	provides = qemu-user-static
+	options = !strip

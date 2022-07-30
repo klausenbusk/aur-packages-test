@@ -1,0 +1,25 @@
+pkgbase = national-geographic-wallpaper-git
+	pkgdesc = Change wallpaper automatically, for example, with the Photo of The Day of National Geographic
+	pkgver = r47.48fb393
+	pkgrel = 1
+	url = https://github.com/atareao/national-geographic-wallpaper
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = gtk-update-icon-cache
+	depends = gtk3
+	depends = libnotify
+	depends = python-crontab
+	depends = python-cssselect
+	depends = python-gobject
+	depends = python-lxml
+	depends = python-requests
+	optdepends = cron: automatic download
+	provides = national-geographic-wallpaper
+	conflicts = national-geographic-wallpaper
+	options = !strip
+	source = national-geographic-wallpaper-git::git://github.com/atareao/national-geographic-wallpaper.git
+	md5sums = SKIP
+
+pkgname = national-geographic-wallpaper-git
+

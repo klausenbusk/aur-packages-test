@@ -1,0 +1,14 @@
+pkgbase = python-storm
+	pkgdesc = An object-relational mapper (ORM) for Python
+	pkgver = 0.21
+	pkgrel = 1
+	url = https://storm.canonical.com
+	arch = any
+	license = LGPL
+	depends = python
+	depends = python-six
+	source = https://pypi.python.org/packages/source/s/storm/storm-0.21.tar.bz2
+	md5sums = 26f8179daed04d062ebba1fbb0c7e797
+
+pkgname = python-storm
+

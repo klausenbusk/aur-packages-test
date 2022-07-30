@@ -1,0 +1,15 @@
+pkgbase = pnpm
+	pkgdesc = Fast, disk space efficient package manager
+	pkgver = 7.5.0
+	pkgrel = 0
+	url = https://pnpm.js.org/
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = jq
+	depends = nodejs>=14.6.0
+	noextract = pnpm-7.5.0.tgz
+	source = https://registry.npmjs.org/pnpm/-/pnpm-7.5.0.tgz
+	sha256sums = 5e7a6eecd21e3b2562de049f5c6f26ddd2cd2c42e939f0ed84cf9377d3acd1e1
+
+pkgname = pnpm

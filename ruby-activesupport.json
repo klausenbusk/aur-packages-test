@@ -1,0 +1,19 @@
+pkgbase = ruby-activesupport
+	pkgdesc = A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.
+	pkgver = 6.0.1
+	pkgrel = 1
+	url = https://rubygems.org/gems/activesupport/
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-concurrent
+	depends = ruby-i18n
+	depends = ruby-minitest
+	depends = ruby-tzinfo
+	noextract = activesupport-6.0.1.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/activesupport-6.0.1.gem
+	sha256sums = 3af069dbd4b0181fbfb209453e7fc9321594e329c553472dfa7f80ef83d81da4
+
+pkgname = ruby-activesupport
+

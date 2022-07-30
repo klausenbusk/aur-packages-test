@@ -1,0 +1,24 @@
+pkgbase = openspace-desktop-bin
+	pkgdesc = Desktop client for Openspace
+	pkgver = 0.0.44_1
+	pkgrel = 1
+	url = https://gitlab.com/999eagle/openspace-desktop
+	arch = x86_64
+	license = AGPL3
+	depends = libxcursor
+	depends = libxinerama
+	depends = libxrandr
+	depends = libxxf86vm
+	depends = sqlite
+	depends = bash
+	depends = gtk3
+	provides = openspace-desktop
+	provides = openbook-desktop
+	conflicts = openspace-desktop
+	conflicts = openbook-desktop-bin
+	replaces = openbook-desktop-bin
+	source = openspace-desktop-0.0.44-1.zip::https://gitlab.com/999eagle/openspace-desktop/-/jobs/artifacts/0.0.44-1/download?job=release-linux
+	sha256sums = e16a344200df1e09ac5d7ed64cf817678d68dc59d283cd88ac876826f5744d79
+
+pkgname = openspace-desktop-bin
+

@@ -1,0 +1,29 @@
+pkgbase = clerk
+	pkgdesc = rofi/fzf driven mpd client
+	pkgver = 4.0.5
+	pkgrel = 1
+	url = https://github.com/carnager/clerk
+	install = clerk.install
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = perl
+	depends = perl-data-section-simple
+	depends = fzf
+	depends = rofi
+	depends = tmux
+	depends = perl-net-mpd
+	depends = perl-data-messagepack
+	depends = perl-file-slurper
+	depends = perl-config-simple
+	depends = perl-try-tiny
+	depends = perl-ipc-run
+	depends = perl-http-date
+	optdepends = flac: tagging support
+	optdepends = vorbis-tools: tagging support
+	optdepends = mutagen: tagging support
+	source = https://github.com/carnager/clerk/archive/4.0.5.tar.gz
+	md5sums = SKIP
+
+pkgname = clerk
+

@@ -1,0 +1,17 @@
+pkgbase = curate-pkg-git
+	pkgdesc = aggregates all package managers under one tool
+	pkgver = 1.85
+	pkgrel = 1
+	url = https://github.com/andrei-pavel/curate-pkg
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	depends = unp
+	depends = yq
+	provides = curate-pkg
+	source = git+https://github.com/andrei-pavel/curate-pkg.git#branch=master
+	md5sums = SKIP
+
+pkgname = curate-pkg-git
+

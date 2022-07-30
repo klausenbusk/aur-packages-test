@@ -1,0 +1,20 @@
+pkgbase = castor
+	pkgdesc = A Gemini, Gopher and Finger protocol client
+	pkgver = 0.8.18
+	pkgrel = 1
+	url = https://git.sr.ht/~julienxx/castor
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	depends = atk
+	depends = cairo
+	depends = gdk-pixbuf2
+	depends = glibc
+	depends = gtk3
+	depends = openssl
+	depends = pango
+	source = castor-0.8.18.tar.gz::https://git.sr.ht/~julienxx/castor/archive/0.8.18.tar.gz
+	sha256sums = 02ea3d8c6a3b705ca54e489cb67bf5149261222c352696afe374843ff3bc06bb
+
+pkgname = castor

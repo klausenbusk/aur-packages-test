@@ -1,0 +1,14 @@
+pkgbase = python-semver
+	pkgdesc = Python helper for Semantic Versioning (http://semver.org/)
+	pkgver = 2.8.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/semver
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/s/semver/semver-2.8.1.tar.gz
+	md5sums = dc579ba9d0bb2137bad5324d4bdb7e40
+
+pkgname = python-semver
+

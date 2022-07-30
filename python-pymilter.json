@@ -1,0 +1,20 @@
+pkgbase = python-pymilter
+	pkgdesc = Python bindings for libmilter API
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = https://github.com/sdgathman/pymilter
+	arch = x86_64
+	license = GPL
+	makedepends = libmilter
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = https://github.com/sdgathman/pymilter/archive/pymilter-1.0.5.tar.gz
+	sha256sums = 8093032829ddd53261dbe2991959514156767f3785dfb095ed9b17f3fba965e1
+
+pkgname = python-pymilter
+	depends = python
+
+pkgname = python2-pymilter
+	pkgdesc = Python 2 bindings for libmilter API
+	depends = python2
+	replaces = pymilter

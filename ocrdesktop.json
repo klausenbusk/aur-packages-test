@@ -1,0 +1,19 @@
+pkgbase = ocrdesktop
+	pkgdesc = OCR the current window or desktop and make it browsable for the user
+	pkgver = 3.0
+	pkgrel = 1
+	url = http://linux-a11y.org
+	install = ocrdesktop.install
+	arch = any
+	license = GPL3
+	depends = libwnck3
+	depends = python-atspi
+	depends = python-pillow
+	depends = python-webcolors
+	depends = python-scipy
+	depends = python-pytesseract
+	depends = tesseract-data-eng
+	source = https://github.com/chrys87/ocrdesktop/archive/refs/tags/v3.0.tar.gz
+	md5sums = 52bb16d1b65c8a84e6728e4aa3187be4
+
+pkgname = ocrdesktop

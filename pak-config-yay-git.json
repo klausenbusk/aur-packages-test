@@ -1,0 +1,16 @@
+pkgbase = pak-config-yay-git
+	pkgdesc = A yay config for pak
+	pkgver = r20.dbd6a31
+	pkgrel = 2
+	url = https://gitlab.com/moussaelianarsen/pak
+	arch = x86_64
+	license = GPL3
+	depends = aptyay-git
+	provides = pak-config
+	conflicts = pak-config-pacman-git
+	replaces = pak-config-yay
+	source = git+https://gitlab.com/moussaelianarsen/pak.git
+	md5sums = SKIP
+
+pkgname = pak-config-yay-git
+

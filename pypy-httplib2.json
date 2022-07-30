@@ -1,0 +1,23 @@
+pkgbase = pypy-httplib2
+	pkgdesc = Small, fast HTTP client library
+	pkgver = 0.17.0
+	pkgrel = 1
+	url = https://github.com/httplib2/httplib2
+	arch = any
+	license = MIT
+	makedepends = pypy-setuptools
+	makedepends = pypy3-setuptools
+	depends = ca-certificates
+	provides = httplib2
+	replaces = httplib2
+	source = httplib2_sources::https://github.com/httplib2/httplib2/archive/v0.17.0.tar.gz
+	sha256sums = 556aa045aefeed3fd58a003251c94627e077ab0732758e5178a0074d9c75a68b
+
+pkgname = pypy-httplib2
+	pkgdesc = Small, fast HTTP client library for Pypy
+	depends = pypy
+
+pkgname = pypy3-httplib2
+	pkgdesc = Small, fast HTTP client library for Pypy 3
+	depends = pypy3
+

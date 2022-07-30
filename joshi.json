@@ -1,0 +1,25 @@
+pkgbase = joshi
+	pkgdesc = JavaScript Oriented Shell Interpreter
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://github.com/izaera/joshi
+	arch = any
+	license = GPL3
+	makedepends = binutils
+	makedepends = coreutils
+	makedepends = curl
+	makedepends = dbus
+	makedepends = gcc
+	makedepends = git
+	makedepends = make
+	makedepends = nodejs
+	makedepends = npm
+	makedepends = python2
+	makedepends = sed
+	depends = glibc
+	depends = libxcrypt
+	optdepends = ncurses: terminal support
+	source = joshi-1.8.0.tar.gz::https://github.com/izaera/joshi/archive/refs/tags/1.8.0.tar.gz
+	sha256sums = 704ffac86f3e93aa07dbb3a659bc58711c9d754f110f9fd95360465e85cd5f12
+
+pkgname = joshi

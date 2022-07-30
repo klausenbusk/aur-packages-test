@@ -1,0 +1,20 @@
+pkgbase = python-colcon-ros
+	pkgdesc = An extension for colcon-core to support ROS packages.
+	pkgver = 0.3.23
+	pkgrel = 1
+	url = https://pypi.org/project/colcon-ros/
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = python-colcon-core
+	depends = python-colcon-library-path
+	depends = python-colcon-cmake
+	depends = python-colcon-pkg-config
+	depends = python-colcon-recursive-crawl
+	depends = python-colcon-python-setup-py
+	depends = python-pyparsing
+	depends = python-catkin_pkg
+	source = https://files.pythonhosted.org/packages/source/c/colcon-ros/colcon-ros-0.3.23.tar.gz
+	sha256sums = 9d78cd075a2d4c64f1c266d5144cb159c61aa161d1f70eafda1541c34fa4465e
+
+pkgname = python-colcon-ros

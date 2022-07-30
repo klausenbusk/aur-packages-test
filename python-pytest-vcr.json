@@ -1,0 +1,19 @@
+pkgbase = python-pytest-vcr
+	pkgdesc = Py.test plugin for managing VCR.py cassettes
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/ktosiek/pytest-vcr
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pytest-cov
+	makedepends = python-setuptools
+	depends = python-pytest
+	depends = python-vcrpy
+	depends = python-setuptools
+	source = pytest-vcr-1.0.2.tar.gz::https://github.com/ktosiek/pytest-vcr/archive/1.0.2.tar.gz
+	source = disable-plugin-install-assertion.patch
+	sha256sums = 8df1fd60668d639c88f6453ce25094b12b3b1903b23e83f49c8f859dbd75cbee
+	sha256sums = 2f18a5e216b9256ef237669893d66001953304f54cfaa513d5747b87e8721365
+
+pkgname = python-pytest-vcr

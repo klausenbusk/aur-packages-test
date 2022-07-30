@@ -1,0 +1,17 @@
+pkgbase = unity-editor-beta-example
+	pkgdesc = Unity Example Project based on Standard Assets.
+	pkgver = 2018.1.0b13+20180502
+	pkgrel = 1
+	url = https://unity3d.com/
+	arch = x86_64
+	license = custom
+	makedepends = gtk2
+	makedepends = libsoup
+	makedepends = libarchive
+	depends = unity-editor-beta
+	options = !strip
+	source = http://beta.unity3d.com/download/77a142ac9989/UnitySetup-2018.1.0b13
+	sha1sums = db01d63684c7bf114d9b5df6d0c23f81894dd2d5
+
+pkgname = unity-editor-beta-example
+

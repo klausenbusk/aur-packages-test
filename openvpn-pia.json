@@ -1,0 +1,16 @@
+pkgbase = openvpn-pia
+	pkgdesc = OpenVPN configuration files for Private Internet Access VPN
+	pkgver = 2018.01.25
+	pkgrel = 4
+	url = https://www.privateinternetaccess.com
+	install = openvpn-pia.install
+	arch = x86_64
+	license = none
+	depends = openvpn
+	source = https://www.privateinternetaccess.com/openvpn/openvpn-strong.zip
+	source = README
+	sha512sums = 9f2661e742d3a66ce679255d5a722abc320f0250586f844ba00955a903079d8fb4b14579114fb181f9ed58fafe6076fc1f839e725d2169808003ccb6ccbbff96
+	sha512sums = 80aeaa4945b1c7df5eec07886dca24a5803f89f1904eb4252097a918e10b910ea655addcb99124ff0b86250a1b98a490c39e195c2cb4e725b5ea00312e594c5a
+
+pkgname = openvpn-pia
+

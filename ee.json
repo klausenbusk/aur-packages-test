@@ -1,0 +1,14 @@
+pkgbase = ee
+	pkgdesc = Easy Editor in FreeBSD
+	pkgver = 1.5.2
+	pkgrel = 1
+	url = https://cgit.freebsd.org/src-vendor/ee/
+	arch = x86_64
+	source = bin.tar.gz
+	source = make.sh
+	source = source.gz
+	sha256sums = 75077b38261f10a29af9821db67836b6fee9e312c887ed95553c67bf817318b7
+	sha256sums = e3181013d6078db97dca1215f92b666ef9a22382146a5633ad5b0590f33a745c
+	sha256sums = 15fd6c7f635d0bf725c7cf21a51b2afe0c07b243f94df71c32305b7e3684ed98
+
+pkgname = ee

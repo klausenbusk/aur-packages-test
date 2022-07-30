@@ -1,0 +1,24 @@
+pkgbase = mcfly-bin
+	pkgdesc = Fly through your shell history
+	pkgver = 0.5.11
+	pkgrel = 1
+	url = https://github.com/cantino/mcfly
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = armv7h
+	license = MIT
+	provides = mcfly
+	conflicts = mcfly
+	source = https://raw.githubusercontent.com/cantino/mcfly/master/LICENSE
+	sha256sums = SKIP
+	source_i686 = https://github.com/cantino/mcfly/releases/download/v0.5.11/mcfly-v0.5.11-i686-unknown-linux-musl.tar.gz
+	sha256sums_i686 = 0e7e8136c6b821f87c1ca000f142131f1a0ab0c44c70d008656a086735331edc
+	source_x86_64 = https://github.com/cantino/mcfly/releases/download/v0.5.11/mcfly-v0.5.11-x86_64-unknown-linux-musl.tar.gz
+	sha256sums_x86_64 = ac89378c1dfc547d8632066806591307ac7f94d2e63be9cfa6e8645a6f934525
+	source_arm = https://github.com/cantino/mcfly/releases/download/v0.5.11/mcfly-v0.5.11-arm-unknown-linux-gnueabi.tar.gz
+	sha256sums_arm = f528b71a3bfb124b377d38722d3e677803d5e290c5b8c25b57468f73b90582c9
+	source_armv7h = https://github.com/cantino/mcfly/releases/download/v0.5.11/mcfly-v0.5.11-armv7-unknown-linux-gnueabihf.tar.gz
+	sha256sums_armv7h = fabe486b8e72ef00b7d34d23a745199185250ce6790cb4c7521f7d44b392d5cc
+
+pkgname = mcfly-bin

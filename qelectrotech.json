@@ -1,0 +1,20 @@
+pkgbase = qelectrotech
+	pkgdesc = An electric diagram editor
+	pkgver = 0.8.0
+	pkgrel = 2
+	url = https://qelectrotech.org/
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = qt5-svg
+	depends = hicolor-icon-theme
+	depends = desktop-file-utils
+	depends = kwidgetsaddons
+	depends = kcoreaddons
+	optdepends = tk: for qet_tb_generator support
+	source = https://git.tuxfamily.org/qet/qet.git/snapshot/qet-0.8.0.tar.gz
+	source = install-dir.patch
+	sha512sums = 732101130e77849ed0a56bcc7b519a1ca032e8f203951a50e1dd5fd488e96f1ab69ed0854176604f1947636b3d8fda1ac8aebbcfe01e63dfa263d8f646224f53
+	sha512sums = 9bf61fdc56f95547799962b8010ee2b147aed4707bf6b66bf7c382d11c9a88d7e102f94aa9c562eff01ca17da7f35e2a318495faabb082005cd338bfde3badb4
+
+pkgname = qelectrotech

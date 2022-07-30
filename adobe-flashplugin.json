@@ -1,0 +1,18 @@
+pkgbase = adobe-flashplugin
+	pkgdesc = Adobe Pepper Flash plugin
+	pkgver = 22.0.0.209
+	pkgrel = 1
+	url = https://launchpad.net/ubuntu/+source/adobe-flashplugin
+	arch = x86_64
+	arch = i686
+	license = custom
+	depends = gcc-libs
+	optdepends = freshplayerplugin: Firefox support
+	provides = pepper-flash
+	conflicts = chromium-pepper-flash
+	conflicts = flashplugin
+	source = https://launchpad.net/ubuntu/+archive/partner/+files/adobe-flashplugin_20160712.1.orig.tar.gz
+	sha256sums = 164329378ebc112bbaf684643dad1d8ba77dd6f18170cba90770accc66cc7478
+
+pkgname = adobe-flashplugin
+

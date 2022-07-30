@@ -1,0 +1,29 @@
+pkgbase = mynotes
+	pkgdesc = Desktop post-it / sticky notes managed from system tray icon
+	pkgver = 2.4.4
+	pkgrel = 1
+	url = https://github.com/j4321/MyNotes
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	depends = tk
+	depends = python-ewmh
+	depends = python-pillow
+	depends = gettext
+	depends = desktop-file-utils
+	optdepends = tktray: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = pygtk: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = python-pyqt5: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = python-pyqt4: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = python-pyside: GUI toolkit for the system tray icon (at least one must be installed),
+	optdepends = python-tkfilebrowser: nicer file browser,
+	optdepends = zenity: nicer file browser,
+	optdepends = python-matplotlib: basic LaTeX formula support
+	source = mynotes-2.4.4.tar.gz::https://github.com/j4321/MyNotes/archive/v2.4.4.tar.gz
+	source = mynotes-2.4.4.tar.gz.asc::https://github.com/j4321/MyNotes/releases/download/v2.4.4/MyNotes-2.4.4.tar.gz.asc
+	validpgpkeys = F7E6D310FC0EA1C508EEF57F9D3922470AA9CD44
+	sha512sums = 932a0072d4383eaf703ec9d688d3dd34b3c800d830d9a37c8dbeb1a8eb92bed0b2c96cdca1937c36c64342e4ff0563776c6677f301991f7dfcdb1b7257c4da11
+	sha512sums = SKIP
+
+pkgname = mynotes
+

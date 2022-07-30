@@ -1,0 +1,18 @@
+pkgbase = python-aiopath
+	pkgdesc = Asynchronous pathlib for Python
+	pkgver = 0.6.10
+	pkgrel = 2
+	url = https://github.com/alexdelorenzo/aiopath
+	arch = any
+	license = LGPL3
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-aiofile
+	depends = python-anyio
+	depends = python-typing-extensions
+	source = https://files.pythonhosted.org/packages/source/a/aiopath/aiopath-0.6.10.tar.gz
+	sha256sums = 6ca97a864fe32478d53af6c40e1951de64ab01d6b402d88524ce72d80362eb7a
+
+pkgname = python-aiopath

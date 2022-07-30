@@ -1,0 +1,24 @@
+pkgbase = indicator-sensors
+	pkgdesc = Small application to provide hardware sensor readings using the AppIndicator framework
+	pkgver = 1.2
+	pkgrel = 2
+	url = https://github.com/alexmurray/indicator-sensors
+	install = indicator-sensors.install
+	arch = x86_64
+	license = GPL3
+	makedepends = gnome-common
+	makedepends = intltool
+	depends = dconf
+	depends = gobject-introspection
+	depends = libappindicator-gtk3
+	depends = libatasmart
+	depends = libnotify
+	depends = libpeas
+	depends = lm_sensors
+	depends = udisks2
+	optdepends = libxnvctrl: NVIDIA GPU support
+	source = indicator-sensors-1.2.tar.gz::https://github.com/alexmurray/indicator-sensors/archive/1.2.tar.gz
+	md5sums = c92453b2dbd315f66cafc9fd28a04bc6
+
+pkgname = indicator-sensors
+

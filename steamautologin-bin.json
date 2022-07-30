@@ -1,0 +1,14 @@
+pkgbase = steamautologin-bin
+	pkgdesc = Qt Steam account switcher for Linux
+	pkgver = 0.1.1
+	pkgrel = 1
+	url = https://github.com/ShayBox/steamautologin
+	arch = x86_64
+	license = MIT
+	source = https://github.com/ShayBox/steamautologin/releases/download/0.1.1/SteamAutoLogin
+	source = SteamAutoLogin.desktop
+	sha256sums = bc9764d9363e92601b8ae2515273e13c76ada1a21253a8e8bc5eff208dad34c4
+	sha256sums = 78dcfa54918d122e779ee6cb843c87c2a272523e258ec22774d4826ec23def1d
+
+pkgname = steamautologin-bin
+

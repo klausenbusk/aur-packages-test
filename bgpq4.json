@@ -1,0 +1,14 @@
+pkgbase = bgpq4
+	pkgdesc = BGP filtering automation tool based on IRR data
+	pkgver = 0.0.7
+	pkgrel = 1
+	url = https://github.com/bgp/bgpq4
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = python-markdown
+	depends = glibc
+	source = 0.0.7.tar.gz::https://github.com/bgp/bgpq4/archive/0.0.7.tar.gz
+	sha512sums = 2c5432fdae94b2089af16ecf6ee9af3a4c03b473c5e1a1078676a5b3335192b192029151c6d2763163253bc19fcb7b3affc47eeeb54e363d540e067fe70d1954
+
+pkgname = bgpq4

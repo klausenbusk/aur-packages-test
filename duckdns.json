@@ -1,0 +1,18 @@
+pkgbase = duckdns
+	pkgdesc = Update your DuckDNS.org entries from your computer without setting up any cronjob. You just need to create config files for your domains.
+	pkgver = 1.1.0
+	pkgrel = 2
+	url = https://www.duckdns.org
+	install = duckdns.install
+	arch = any
+	backup = etc/duckdns.d/default.cfg
+	source = default.cfg
+	source = duckdns.service
+	source = duckdns.timer
+	source = duckdns.sh
+	md5sums = 4cad7ae6c25b8148916fc702f4846a6f
+	md5sums = d6f285cc57f685e1c63a80ff060936eb
+	md5sums = 8ce3ba46accd50aa8470456a230354bb
+	md5sums = 3560d4e0fc1aae4232a6379eb999232c
+
+pkgname = duckdns

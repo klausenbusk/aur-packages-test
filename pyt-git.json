@@ -1,0 +1,16 @@
+pkgbase = pyt-git
+	pkgdesc = Find security vulnerabilities in Python web applications using static analysis (Git version)
+	pkgver = 0.30.r0.g00afcd3
+	pkgrel = 1
+	url = https://github.com/python-security/pyt
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = python-setuptools
+	provides = pyt
+	conflicts = pyt
+	source = git+https://github.com/python-security/pyt
+	sha512sums = SKIP
+
+pkgname = pyt-git
+

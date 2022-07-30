@@ -1,0 +1,15 @@
+pkgbase = cargo-hack
+	pkgdesc = A cargo subcommand to provide various options useful for testing and continuous integration
+	pkgver = 0.5.15
+	pkgrel = 1
+	url = https://github.com/taiki-e/cargo-hack
+	arch = i686
+	arch = x86_64
+	license = MIT
+	license = APACHE
+	makedepends = cargo
+	depends = gcc-libs
+	source = https://github.com/taiki-e/cargo-hack/archive/refs/tags/v0.5.15.tar.gz
+	sha512sums = 332781b34ace0708635ab7d968b8b4a1efa873b34f44bfff30f2a37a3aef82e01c8c5e02b68799079a12896a5e76bcab2a72855ceeedd9582f6f0e7b887f5a6f
+
+pkgname = cargo-hack

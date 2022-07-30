@@ -1,0 +1,24 @@
+pkgbase = pycharm-community-eap
+	pkgdesc = Powerful Python and Django IDE, Early Access Program (EAP) build, Community Edition
+	pkgver = 222.3345.131
+	pkgrel = 1
+	epoch = 14
+	url = http://www.jetbrains.com/pycharm
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = cython
+	makedepends = python-setuptools
+	depends = python
+	depends = glib2
+	depends = dbus
+	depends = libdbusmenu-glib
+	optdepends = python2: Support for Python 2 language
+	optdepends = ipython: Alternative Python shell
+	provides = pycharm-community-edition
+	conflicts = pycharm-community-edition
+	options = !strip
+	source = https://download.jetbrains.com/python/pycharm-community-2022.2.tar.gz
+	sha256sums = 07023b299ed317cbcf34ba89f1e9385281ff971e85407c6f8a0d17447ca74fce
+
+pkgname = pycharm-community-eap

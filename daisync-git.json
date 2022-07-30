@@ -1,0 +1,17 @@
+pkgbase = daisync-git
+	pkgdesc = an rsync-based time-machine backup tool
+	pkgver = r12.8770164
+	pkgrel = 1
+	url = https://github.com/daimh/daisync
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = coreutils
+	depends = util-linux
+	depends = rsync
+	depends = psmisc
+	source = daisync-git::git+https://github.com/daimh/daisync.git
+	md5sums = SKIP
+
+pkgname = daisync-git
+

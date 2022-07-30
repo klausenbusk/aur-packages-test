@@ -1,0 +1,18 @@
+pkgbase = python-mahotas
+	pkgdesc = Computer Vision in Python
+	pkgver = 1.4.13
+	pkgrel = 1
+	url = https://github.com/luispedro/mahotas
+	arch = x86_64
+	license = custom
+	makedepends = python-setuptools
+	makedepends = git
+	depends = python-numpy
+	optdepends = python-imread: for function imread support
+	optdepends = python-pillow: for function imread support
+	optdepends = freeimage: for functions imread/imsave support
+	provides = mahotas
+	source = git+https://github.com/luispedro/mahotas.git?#tag=v1.4.13
+	sha512sums = SKIP
+
+pkgname = python-mahotas

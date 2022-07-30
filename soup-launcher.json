@@ -1,0 +1,17 @@
+pkgbase = soup-launcher
+	pkgdesc = Soup Launcher is a custom Minecraft launcher specifically designed for Modded Minecraft.
+	pkgver = 0.1.12
+	pkgrel = 1
+	url = https://github.com/supertransformer/SoupLauncher
+	arch = x86_64
+	license = GPL3
+	makedepends = nodejs
+	makedepends = npm
+	makedepends = git
+	makedepends = unzip
+	depends = electron
+	source = soup-launcher-0.1.12.tar.gz::https://github.com/supertransformer/SoupLauncher/archive/0.1.12.tar.gz
+	sha512sums = a38298df951783afafcf26ae608200129e6e7107ed24923d210345a0849a61d779ae14a6002571ad85992ac808680e62f5b132ac578ac162f55269912dc571a2
+
+pkgname = soup-launcher
+

@@ -1,0 +1,18 @@
+pkgbase = python-twitter
+	pkgdesc = An API and command-line toolset for Twitter (twitter.com)
+	pkgver = 1.19.3
+	pkgrel = 2
+	url = http://pypi.python.org/pypi/twitter/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	optdepends = python-irc: twitter ircbot dependency
+	conflicts = python-twitter-tools
+	conflicts = python-twitter-tools-git
+	conflicts = python-twitter-git
+	replaces = python-twitter-tools
+	source = https://files.pythonhosted.org/packages/source/t/twitter/twitter-1.19.3.tar.gz
+	sha256sums = a56ff9575fbd50a51ce91107dcb5a4c3fd00c2ba1bcb172ce538b0948d3626e6
+
+pkgname = python-twitter

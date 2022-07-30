@@ -1,0 +1,20 @@
+pkgbase = moodbar
+	pkgdesc = moodbar binaries and script for Amarok
+	pkgver = 1.2
+	pkgrel = 1
+	url = https://github.com/exaile/moodbar/releases
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = meson
+	depends = fftw
+	depends = gst-plugins-base
+	depends = gst-plugins-base-libs
+	depends = gst-plugins-bad
+	depends = gst-plugins-good
+	depends = gst-plugins-ugly
+	source = https://github.com/exaile/moodbar/releases/download/v1.2/moodbar-1.2.tar.xz
+	sha256sums = cd63827fc42d99a5a3f646157813438fff86b53072e5035b7878fbece91c2459
+
+pkgname = moodbar
+

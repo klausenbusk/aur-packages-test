@@ -1,0 +1,46 @@
+pkgbase = molecule
+	pkgdesc = aids in the development and testing of Ansible roles.
+	pkgver = 3.0.2
+	pkgrel = 1
+	url = https://github.com/ansible/molecule
+	arch = any
+	license = MIT
+	checkdepends = python
+	checkdepends = python-tox
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python-cerberus
+	makedepends = python-testinfra
+	depends = ansible
+	depends = ansible-lint
+	depends = python-cerberus
+	depends = python-click
+	depends = python-click-completion
+	depends = python-colorama
+	depends = python-cookiecutter
+	depends = flake8
+	depends = python-gilt
+	depends = python-jinja
+	depends = python-paramiko
+	depends = python-pathlib2
+	depends = python-pexpect
+	depends = python-pluggy
+	depends = python-pre-commit
+	depends = python-pyaml
+	depends = python-sh
+	depends = python-six
+	depends = python-subprocess2
+	depends = python-tabulate
+	depends = python-testinfra>=3.0.6
+	depends = python-testinfra<4.0.0
+	depends = python-tree-format-git
+	depends = yamllint
+	optdepends = python-docker: docker driver
+	optdepends = python-boto: EC2 driver
+	optdepends = python-vagrant: vagrant driver
+	optdepends = python-shade: openstack driver
+	source = molecule-3.0.2.tar.gz::https://github.com/ansible/molecule/archive/3.0.2.tar.gz
+	sha256sums = a78050a00f51d806215e5cc5420dcb5c1403340fd25155b42f3b26d7cd10d97d
+
+pkgname = molecule
+

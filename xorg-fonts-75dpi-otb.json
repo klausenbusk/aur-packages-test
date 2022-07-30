@@ -1,0 +1,25 @@
+pkgbase = xorg-fonts-75dpi-otb
+	pkgdesc = X.org 75dpi fonts (OTB version)
+	pkgver = 1.0.3
+	pkgrel = 8
+	url = https://gitlab.freedesktop.org/
+	arch = any
+	license = custom
+	makedepends = fonttosfnt-git
+	makedepends = xorg-bdftopcf
+	makedepends = xorg-font-util
+	makedepends = xorg-mkfontscale
+	makedepends = xorg-util-macros
+	depends = xorg-fonts-alias-75dpi
+	source = https://gitlab.freedesktop.org//xorg/font/adobe-75dpi/-/archive/master/adobe-75dpi-master.tar.gz
+	source = https://gitlab.freedesktop.org//xorg/font/adobe-utopia-75dpi/-/archive/master/adobe-utopia-75dpi-master.tar.gz
+	source = https://gitlab.freedesktop.org//xorg/font/bh-75dpi/-/archive/master/bh-75dpi-master.tar.gz
+	source = https://gitlab.freedesktop.org//xorg/font/bh-lucidatypewriter-75dpi/-/archive/master/bh-lucidatypewriter-75dpi-master.tar.gz
+	source = https://gitlab.freedesktop.org//xorg/font/bitstream-75dpi/-/archive/master/bitstream-75dpi-master.tar.gz
+	md5sums = 0cba842df3c423f4e297e1b538f3c533
+	md5sums = c9fc3977d1b52566588dcbb4ddaaf49e
+	md5sums = 0aebf329ab88ad11c6222a793892100c
+	md5sums = 9763ec6ee2e3629f0c371cb2aa4f0633
+	md5sums = 5735aaf5395840732382f1864a0e33d8
+
+pkgname = xorg-fonts-75dpi-otb

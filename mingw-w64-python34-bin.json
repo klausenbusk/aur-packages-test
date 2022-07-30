@@ -1,0 +1,20 @@
+pkgbase = mingw-w64-python34-bin
+	pkgdesc = Next generation of the python high-level scripting language (native MSVC version) (mingw-w64)
+	pkgver = 3.4.4
+	pkgrel = 1
+	url = http://www.python.org/
+	arch = any
+	license = PSF
+	makedepends = wine
+	makedepends = mingw-w64-tools
+	makedepends = mingw-w64-binutils
+	depends = mingw-w64-crt
+	options = staticlibs
+	options = !buildflags
+	options = !strip
+	source = http://www.python.org/ftp/python/3.4.4/python-3.4.4.msi
+	source = http://www.python.org/ftp/python/3.4.4/python-3.4.4.amd64.msi
+	sha256sums = 46c8f9f63cf02987e8bf23934b2f471e1868b24748c5bb551efcf4863b43ca6c
+	sha256sums = ace645d104bddd4f4ffbf453bedddaf2496e3609af3fa47173680d2f321d3709
+
+pkgname = mingw-w64-python34-bin

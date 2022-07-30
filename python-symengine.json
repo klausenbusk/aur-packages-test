@@ -1,0 +1,18 @@
+pkgbase = python-symengine
+	pkgdesc = SymEngine is a fast symbolic manipulation library
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/symengine/symengine.py
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = cython
+	depends = python
+	depends = symengine>=0.5.0
+	source = https://github.com/symengine/symengine.py/archive/v0.5.1.tar.gz
+	sha256sums = 88cd9426835a7f58d3f9e901408f2c09f3e34d6ab384500089efbe3dd84b1c2a
+
+pkgname = python-symengine
+	depends = python
+	depends = symengine>=0.5.0
+

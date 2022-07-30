@@ -1,0 +1,18 @@
+pkgbase = pebble-sdk
+	pkgdesc = Pebble SDK, used to develop applications and watchfaces for the Pebble Smartwatch.
+	pkgver = 4.5
+	pkgrel = 3
+	url = https://developer.rebble.io/developer.pebble.com/index.html
+	arch = i386
+	arch = x86_64
+	license = MIT
+	depends = python2-virtualenv
+	depends = npm
+	depends = arm-none-eabi-gcc
+	depends = arm-none-eabi-newlib
+	depends = pebble-tool-git
+	depends = qemu-pebble
+	conflicts = pebble-sdk-beta
+
+pkgname = pebble-sdk
+

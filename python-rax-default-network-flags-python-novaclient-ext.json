@@ -1,0 +1,18 @@
+pkgbase = python-rax-default-network-flags-python-novaclient-ext
+	pkgdesc = Novaclient Extension for Instance Default Network Flags
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = http://pypi.python.org/pypi/rax_default_network_flags_python_novaclient_ext/
+	arch = any
+	license = GPL
+	makedepends = python-setuptools
+	depends = python-novaclient
+	depends = python-httplib2
+	depends = python-prettytable
+	depends = python-simplejson
+	depends = python-iso8601
+	source = https://files.pythonhosted.org/packages/source/r/rax_default_network_flags_python_novaclient_ext/rax_default_network_flags_python_novaclient_ext-0.4.0.tar.gz
+	md5sums = 8856de2ea7635b3628ff89f0aafdc33f
+
+pkgname = python-rax-default-network-flags-python-novaclient-ext
+

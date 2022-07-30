@@ -1,0 +1,17 @@
+pkgbase = esp-idf-git
+	pkgdesc = ESP specific API/libraries from Espressif
+	pkgver = r18070.1d7068e4be
+	pkgrel = 1
+	url = https://github.com/espressif/esp-idf
+	install = esp-idf-git.install
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	depends = python
+	depends = python-pyserial
+	options = !strip
+	source = esp-idf::git+https://github.com/espressif/esp-idf.git
+	md5sums = SKIP
+
+pkgname = esp-idf-git

@@ -1,0 +1,17 @@
+pkgbase = python-wordcloud
+	pkgdesc = A little word cloud generator in Python
+	pkgver = 1.8.1
+	pkgrel = 1
+	url = https://github.com/amueller/word_cloud
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = python
+	depends = python-matplotlib
+	depends = python-pillow
+	depends = python-numpy
+	source = https://files.pythonhosted.org/packages/be/33/5bdd39587f0e8ede3fe12d9d16d6f1fb5e7a43f29621604a949ee362d013/wordcloud-1.8.1.tar.gz
+	sha256sums = e6ef771aac17c1cf8558c8d5ef025796184066d7b78f8118aefe011fb0d22952
+
+pkgname = python-wordcloud
+

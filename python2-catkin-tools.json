@@ -1,0 +1,17 @@
+pkgbase = python2-catkin-tools
+	pkgdesc = Command line tools for working with catkin
+	pkgver = 0.4.4
+	pkgrel = 2
+	url = https://github.com/catkin/catkin_tools
+	arch = any
+	license = Apache
+	depends = python2
+	depends = python2-yaml
+	depends = python2-setuptools
+	depends = python2-osrf_pycommon
+	options = !emptydirs
+	source = https://github.com/catkin/catkin_tools/archive/0.4.4.tar.gz
+	sha256sums = 5706c971790bca2ee8245b97fe744e4841053588c786ca604d17f81744e8c105
+
+pkgname = python2-catkin-tools
+

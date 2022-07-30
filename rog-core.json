@@ -1,0 +1,11 @@
+pkgbase = rog-core
+	pkgdesc = Transitional package for asus-nb-ctrl-git
+	pkgver = 2.0.4
+	pkgrel = 1
+	url = https://gitlab.com/asus-linux/asus-nb-ctrl
+	arch = x86_64
+	license = MPL2
+	depends = asus-nb-ctrl-git
+
+pkgname = rog-core
+

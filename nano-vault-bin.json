@@ -1,0 +1,16 @@
+pkgbase = nano-vault-bin
+	pkgdesc = Official Nano Vault AppImage client
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/cronoh/nanovault
+	install = nano-vault-bin.install
+	arch = x86_64
+	provides = nano-vault-bin
+	conflicts = nano-vault-bin
+	noextract = nano-vault.AppImage
+	options = !strip
+	source = https://github.com/cronoh/nanovault/releases/download/v1.2.1/NanoVault-1.2.1-x86_64.AppImage
+	sha512sums = c3bf7db6e7a25e24c0cb38b9c4fc8926ba3f342301e72368e56189810700d9b987c460d1db0dcea928ce42aa7bfc8827e5e3837bb3921e8fefff250febbfd09f
+
+pkgname = nano-vault-bin
+

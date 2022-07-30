@@ -1,0 +1,18 @@
+pkgbase = paccache-systemd
+	pkgdesc = Clear pacman cache systemd timer, remove all uninstalled pkgs from cache, leave up to 3 versions of installed
+	pkgver = 0.2
+	pkgrel = 2
+	install = paccache.install
+	arch = any
+	license = custom:WTFPL
+	depends = pacman
+	depends = pacman-contrib
+	backup = usr/lib/systemd/system/paccache-leave3.service
+	backup = usr/lib/systemd/system/paccache-leave3.timer
+	source = paccache-leave3.service
+	source = paccache-leave3.timer
+	md5sums = 7bbe46f2262763e844dd344c8c2ea591
+	md5sums = d2079f00daa9d4112e4678e500645967
+
+pkgname = paccache-systemd
+

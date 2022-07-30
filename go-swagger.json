@@ -1,0 +1,23 @@
+pkgbase = go-swagger
+	pkgdesc = Toolkit for swagger in golang (go-swagger)
+	pkgver = 0.29.0
+	pkgrel = 1
+	url = https://goswagger.io
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv6h
+	arch = armv7h
+	groups = swagger
+	license = Apache
+	makedepends = git
+	makedepends = go
+	makedepends = gzip
+	makedepends = tar
+	depends = glibc
+	provides = swagger
+	conflicts = swagger
+	source = go-swagger-0.29.0.tar.gz::https://github.com/go-swagger/go-swagger/archive/v0.29.0.tar.gz
+	sha256sums = 21119eca2f3381c81104539e72ca9214daa9903c36e22478f7bc7da64fc6caa5
+
+pkgname = go-swagger

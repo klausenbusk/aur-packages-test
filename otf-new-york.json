@@ -1,0 +1,12 @@
+pkgbase = otf-new-york
+	pkgdesc = Apple-designed serif typeface based on essential aspects of historical type styles.
+	pkgver = 1
+	pkgrel = 7
+	url = https://developer.apple.com/fonts/
+	arch = any
+	license = custom
+	makedepends = p7zip
+	source = NY-Font.dmg::https://devimages-cdn.apple.com/design/resources/download/NY.dmg
+	sha512sums = e7773bf92e045a1fbdae68ad9fc129ef6d7719ab4ba50ab27bc6887ac35839966c52baed0e1ce711dc387456563f87931440760640f259c32eedd35530fb4749
+
+pkgname = otf-new-york

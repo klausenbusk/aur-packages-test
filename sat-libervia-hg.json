@@ -1,0 +1,28 @@
+pkgbase = sat-libervia-hg
+	pkgdesc = Salut à Toi, multi-frontends multi-purposes XMPP client (Web interface)
+	pkgver = 0.7.0.r1377.46ce79eac754
+	pkgrel = 1
+	url = http://salut-a-toi.org/
+	install = sat-libervia-hg.install
+	arch = any
+	license = AGPL3
+	makedepends = python-setuptools
+	makedepends = mercurial
+	depends = python
+	depends = python-jinja
+	depends = python-shortuuid-git
+	depends = sat-media-hg
+	depends = sat-xmpp-hg
+	depends = sat-templates-hg
+	depends = python-zope-interface
+	depends = python-pyopenssl
+	depends = python-autobahn
+	depends = dbus
+	depends = python-brython
+	provides = sat-libervia
+	options = !strip
+	source = hg+https://repos.goffi.org/libervia
+	md5sums = SKIP
+
+pkgname = sat-libervia-hg
+

@@ -1,0 +1,12 @@
+pkgbase = general-preprocessor
+	pkgdesc = Bash-based preprocessor for anything
+	pkgver = 2.1.2
+	pkgrel = 1
+	url = https://codeberg.org/maandree/gpp
+	arch = any
+	license = custom:ISC
+	optdepends = bash: default shell
+	source = general-preprocessor-2.1.2.tar.gz::https://codeberg.org/maandree/gpp/archive/2.1.2.tar.gz
+	sha256sums = c2b35a73a7597886c6af920c53af2db20d4a2de8be1f0b63ac52c43bb13dd157
+
+pkgname = general-preprocessor

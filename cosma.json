@@ -1,0 +1,15 @@
+pkgbase = cosma
+	pkgdesc = Distributed Communication-Optimal Matrix-Matrix Multiplication Algorithm
+	pkgver = 2.5.1
+	pkgrel = 1
+	url = https://github.com/eth-cscs/COSMA
+	arch = x86_64
+	license = BSD
+	makedepends = cmake
+	depends = scalapack
+	source = cosma-2.5.1.tar.gz::https://github.com/eth-cscs/COSMA/archive/refs/tags/v2.5.1.tar.gz
+	source = costa-2.0.tar.gz::https://github.com/eth-cscs/COSTA/releases/download/v2.0/COSTA-v2.0.tar.gz
+	sha256sums = 593d764056cc27d3d2188a22bc830684498c86f572bfed570b0ffd980839962a
+	sha256sums = de250197f31f7d23226c6956a687c3ff46fb0ff6c621a932428236c3f7925fe4
+
+pkgname = cosma

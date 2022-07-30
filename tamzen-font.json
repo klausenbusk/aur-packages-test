@@ -1,0 +1,15 @@
+pkgbase = tamzen-font
+	pkgdesc = Bitmapped programming font, based on Tamsyn (powerline, bitmap, ttf, vconsole font)
+	pkgver = 1.11.5
+	pkgrel = 1
+	url = https://github.com/sunaku/tamzen-font
+	install = tamzen-font.install
+	arch = any
+	license = custom
+	depends = fontconfig
+	depends = xorg-fonts-encodings
+	depends = xorg-font-utils
+	source = https://github.com/sunaku/tamzen-font/archive/Tamzen-1.11.5.tar.gz
+	sha256sums = 78d39f481bcb1011ea6c2f80259c4f2cd08147f9948f4d19e42c418c23b8518d
+
+pkgname = tamzen-font

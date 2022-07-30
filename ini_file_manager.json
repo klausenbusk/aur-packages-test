@@ -1,0 +1,20 @@
+pkgbase = ini_file_manager
+	pkgdesc = Ini configuration file reader and manipulator package for Ada.
+	pkgver = 9
+	pkgrel = 1
+	url = https://sourceforge.net/projects/ini-files
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = gcc-ada
+	source = https://sourceforge.net/projects/ini-files/files/ini-files/ini-files-09.zip
+	source = construct.gpr
+	source = example.gpr
+	source = ini_file_manager.gpr
+	md5sums = 886bb490c5044e2c8821b36a8efbd08d
+	md5sums = 46b6eed7c165ec32161fee42c3d61abc
+	md5sums = c5cef25a5de24ec035905174b76e0fd1
+	md5sums = 1940fe0de2234a7b451fa98200f082c7
+
+pkgname = ini_file_manager
+

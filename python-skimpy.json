@@ -1,0 +1,22 @@
+pkgbase = python-skimpy
+	pkgdesc = A light weight tool for creating summary statistics from dataframes
+	pkgver = 0.0.6
+	pkgrel = 1
+	url = https://github.com/aeturrell/skimpy
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-install
+	makedepends = python-poetry-core
+	depends = python-click
+	depends = python-rich
+	depends = python-pandas
+	depends = python-pygments
+	depends = python-typeguard
+	depends = python-ipykernel
+	depends = python-numpy
+	source = https://github.com/aeturrell/skimpy/archive/v0.0.6.tar.gz
+	sha512sums = c701e2f588c6b3f91337743cddbd28f195dc558bf6bf5cbe4d1e508fcb3f504b36e58ba29ffc32af437b242902901998162e4e26576d33201bbe5ba07f16aa5e
+
+pkgname = python-skimpy

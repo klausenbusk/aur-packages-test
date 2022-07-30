@@ -1,0 +1,20 @@
+pkgbase = litex-git
+	pkgdesc = Migen based SoC
+	pkgver = 4782
+	pkgrel = 1
+	url = https://github.com/enjoy-digital/litex
+	arch = any
+	license = MIT
+	depends = python
+	depends = migen
+	optdepends = lm32-elf-binutils: lm32 soft core
+	optdepends = lm32-elf-gcc: lm32 soft core
+	optdepends = riscv64-unknown-elf-binutils: picorv32 and vexriscv soft cores
+	optdepends = riscv64-unknown-elf-gcc: picorv32 and vexriscv soft cores
+	provides = litex
+	options = !emptydirs
+	source = git+https://github.com/enjoy-digital/litex
+	sha256sums = SKIP
+
+pkgname = litex-git
+

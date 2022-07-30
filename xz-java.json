@@ -1,0 +1,15 @@
+pkgbase = xz-java
+	pkgdesc = A Java library for XZ and LZMA compression
+	pkgver = 1.8
+	pkgrel = 1
+	url = http://tukaani.org/xz/java.html
+	arch = any
+	license = Public Domain
+	makedepends = java-environment>=6,
+	makedepends = ant
+	depends = java-runtime>=6
+	source = http://tukaani.org/xz/xz-java-1.8.zip
+	sha1sums = 909eb5472e4f4185d77414b7194d59c6b85c7c66
+
+pkgname = xz-java
+

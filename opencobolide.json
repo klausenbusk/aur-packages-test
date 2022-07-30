@@ -1,0 +1,18 @@
+pkgbase = opencobolide
+	pkgdesc = A simple and lightweight COBOL IDE based on the GnuCOBOL compiler.
+	pkgver = 4.7.6
+	pkgrel = 2
+	url = https://github.com/OpenCobolIDE/OpenCobolIDE
+	arch = any
+	license = GPL
+	makedepends = python-setuptools
+	depends = python
+	depends = python-pyqt5
+	depends = gnu-cobol
+	source = https://github.com/OpenCobolIDE/OpenCobolIDE/archive/4.7.6.tar.gz
+	source = arch-compatibility.patch
+	md5sums = ca7199d3a06d54306b054c862e24c9dc
+	md5sums = 492c90dffec11d9a2e70544ef821a9ef
+
+pkgname = opencobolide
+

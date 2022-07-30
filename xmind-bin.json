@@ -1,0 +1,14 @@
+pkgbase = xmind-bin
+	pkgdesc = XMind - The most popular mind mapping software.
+	pkgver = 12.0.0
+	pkgrel = 1
+	url = https://www.xmind.net
+	install = install.install
+	arch = x86_64
+	license = EPL
+	license = LGPL
+	provides = xmind-bin
+	source = xmind-bin-12.0.0-202203092327.deb::https://dl2.xmind.cn/XMind-for-Linux-amd-64bit-12.0.0-202203092327.deb
+	sha256sums = b83576c5960d848a8e04ab5f1a35b02aadf99f29c3c62a7ec1a03c6b2920efde
+
+pkgname = xmind-bin

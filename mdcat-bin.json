@@ -1,0 +1,20 @@
+pkgbase = mdcat-bin
+	pkgdesc = Sophisticated Markdown rendering for the terminal
+	pkgver = 0.21.1
+	pkgrel = 1
+	url = https://github.com/lunaryorn/mdcat
+	changelog = CHANGELOG.md
+	arch = x86_64
+	license = MPL2
+	makedepends = curl
+	optdepends = curl: fetch images via http/https
+	optdepends = terminology: optional terminal emulator for image support
+	optdepends = kitty: optional terminal emulator for image support
+	optdepends = librsvg: render svg images in kitty
+	provides = mdcat
+	conflicts = mdcat
+	source = https://github.com/lunaryorn/mdcat/releases/download/mdcat-0.21.1/mdcat-0.21.1-x86_64-unknown-linux-musl.tar.gz
+	b2sums = 9558c55d310aeb2247c50d79da898ba711eb1147d50e0a53e18815efdaa89c19f5a41033349015800e45d9fec6fc42fb5a8e280f42e17a25fe844a934f7bfcf1
+
+pkgname = mdcat-bin
+

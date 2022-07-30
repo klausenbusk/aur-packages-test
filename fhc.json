@@ -1,0 +1,14 @@
+pkgbase = fhc
+	pkgdesc = Fast HTTP Checker
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://github.com/Edu4rdSHL/fhc
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	depends = gcc-libs
+	options = !lto
+	source = fhc-0.7.1.tar.gz::https://github.com/Edu4rdSHL/fhc/archive/0.7.1.tar.gz
+	sha512sums = 4b542a4810ecb734c02cc285b06f13fe72dd42b671b36a1eb745da0e979593ab20576f19ece31adee010b6ec790117d30c5f05244abe5ae36ce9e61e29db6f33
+
+pkgname = fhc

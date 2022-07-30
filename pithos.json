@@ -1,0 +1,27 @@
+pkgbase = pithos
+	pkgdesc = Native Pandora Radio client
+	pkgver = 1.5.1
+	pkgrel = 3
+	url = https://pithos.github.io/
+	arch = any
+	license = GPL3
+	makedepends = meson
+	makedepends = appstream-glib
+	depends = gtk3
+	depends = python-gobject
+	depends = libsecret
+	depends = python-cairo
+	depends = gst-plugins-good
+	depends = gst-libav
+	depends = gst-plugins-base
+	optdepends = libkeybinder3: for media keys plugin
+	optdepends = libappindicator-gtk3: Unity indicator applet support
+	optdepends = python-pacparser: PAC proxy support
+	optdepends = python-pylast: Last.fm scrobbling support
+	optdepends = python-systemd: Logging to the system journal
+	source = https://github.com/pithos/pithos/releases/download/1.5.1/pithos-1.5.1.tar.xz
+	source = systemd.service
+	sha256sums = 6850234fb7cf5a66f72219ef571b8f61b2506d314320274a236e514fd6fe90cd
+	sha256sums = 6d29178697384fb046d9d25c6c2482f353a4484ec4f0a5b9080d1a26aa24f839
+
+pkgname = pithos

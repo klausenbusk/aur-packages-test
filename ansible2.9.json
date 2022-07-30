@@ -1,0 +1,18 @@
+pkgbase = ansible2.9
+	pkgdesc = Ansible 2.9 LTS with Mitogen: speed up your playbooks
+	pkgver = 2.9.27
+	pkgrel = 2
+	url = https://www.ansible.com
+	arch = any
+	license = GPL3
+	makedepends = fakeroot
+	depends = python3.7
+	provides = python-ansible
+	provides = ansible
+	conflicts = ansible
+	conflicts = ansible-core
+	backup = etc/ansible/ansible.cfg
+	source = https://releases.ansible.com/ansible/ansible-2.9.27.tar.gz
+	sha256sums = 479159e50b3bd90920d06bc59410c3a51d3f9be9b4e1029e11d1e4a2d0705736
+
+pkgname = ansible2.9

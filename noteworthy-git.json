@@ -1,0 +1,22 @@
+pkgbase = noteworthy-git
+	pkgdesc = Powerful yet simple and fast markdown-based and version-controlled note organizing app
+	pkgver = r864.f691a31
+	pkgrel = 1
+	url = https://github.com/SeaDve/Noteworthy
+	arch = x86_64
+	license = GPL3
+	checkdepends = appstream-glib
+	makedepends = git
+	makedepends = meson
+	makedepends = rust
+	depends = glib2
+	depends = libadwaita
+	depends = gtksourceview5
+	depends = gstreamer
+	depends = gst-plugins-base
+	provides = noteworthy
+	conflicts = noteworthy
+	source = git+https://github.com/SeaDve/Noteworthy.git
+	b2sums = SKIP
+
+pkgname = noteworthy-git

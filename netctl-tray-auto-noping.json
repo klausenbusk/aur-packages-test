@@ -1,0 +1,18 @@
+pkgbase = netctl-tray-auto-noping
+	pkgdesc = A lightweight netctl tray app with notifications (for netctl-auto, without ping)
+	pkgver = 0.2.3
+	pkgrel = 1
+	url = https://github.com/mortzu/netctl-tray
+	install = .install
+	arch = x86_64
+	license = MIT
+	makedepends = rustup
+	makedepends = cmake
+	depends = qt5-base
+	depends = polkit
+	conflicts = netctl-tray
+	conflicts = netctl-tray-auto
+	source = netctl-tray-0.2.3.tar.gz::https://github.com/mortzu/netctl-tray/archive/0.2.3.tar.gz
+	md5sums = d2c5f2744cffeb450d0a82f58fb80a59
+
+pkgname = netctl-tray-auto-noping

@@ -1,0 +1,22 @@
+pkgbase = mailspring-libre
+	pkgdesc = A fork of a fork – aiming at removing Mailspring's dependecy on a central server.
+	pkgver = 1.8.0
+	pkgrel = 2
+	url = https://github.com/notpushkin/Mailspring-Libre
+	arch = x86_64
+	license = custom: GPL3 and (C) 2016-2019 Foundry 376, LLC.
+	depends = libxss
+	depends = libxkbfile
+	depends = libsecret
+	depends = gtk3
+	depends = nss
+	optdepends = libappindicator-gtk3: for system tray support
+	optdepends = libgnome-keyring: keyrings
+	optdepends = gnome-keyring: keyrings
+	conflicts = mailspring
+	options = !strip
+	source_x86_64 = https://github.com/notpushkin/Mailspring-Libre/releases/download/1.8.0-libre/mailspring-1.8.0-libre-amd64.deb
+	sha256sums_x86_64 = 5cf5cf6cd541df6f50db3529c113ab19943ea43d17909a7997e2fb0ccfb1ca31
+
+pkgname = mailspring-libre
+

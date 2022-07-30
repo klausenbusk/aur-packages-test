@@ -1,0 +1,25 @@
+pkgbase = cyberdropdownloader
+	pkgdesc = Bulk downloader for multiple file hosts
+	pkgver = 2.27.4
+	pkgrel = 1
+	url = https://github.com/Jules-WinnfieldX/CyberDropDownloader
+	arch = any
+	license = GPL3
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-aiofiles
+	depends = python-aiohttp
+	depends = python-beautifulsoup4
+	depends = python-certifi
+	depends = python-colorama
+	depends = python-gofile-client
+	depends = python-tqdm
+	depends = python-yarl
+	conflicts = cyberdrop-dl
+	conflicts = cyberdrop-dl-git
+	source = https://files.pythonhosted.org/packages/source/c/cyberdrop-dl/cyberdrop-dl-2.27.4.tar.gz
+	sha256sums = c0d3ef040d23791a0e5db95edb1afd92febe47d2c8e9aaa7e706e9ff2415427c
+
+pkgname = cyberdropdownloader

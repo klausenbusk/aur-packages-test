@@ -1,0 +1,22 @@
+pkgbase = koka-bin
+	pkgdesc = Koka: a function-oriented language with effect inference
+	pkgver = 2.3.8
+	pkgrel = 1
+	url = https://github.com/koka-lang/koka
+	arch = x86_64
+	license = Apache
+	depends = gcc
+	depends = make
+	optdepends = clang: for C backend compiler
+	optdepends = nodejs: for JavaScript target
+	optdepends = emscripten: for WebAssembly target
+	optdepends = wasmtime: for running WebAssembly modules
+	optdepends = mono: for C# target
+	provides = koka
+	conflicts = koka
+	noextract = koka-v2.3.8-linux-x64.tar.gz
+	options = !strip
+	source = https://github.com/koka-lang/koka/releases/download/v2.3.8/koka-v2.3.8-linux-x64.tar.gz
+	sha256sums = 2a2acf61187ab36e5c425ca871f23a79a22bdf0c5862feae2837ff0626154fc1
+
+pkgname = koka-bin

@@ -1,0 +1,15 @@
+pkgbase = gnome-shell-extension-mpris-indicator-button-git
+	pkgdesc = A full featured MPRIS indicator button extension for GNOME Shell 3.38+
+	pkgver = r183.11af7e8
+	pkgrel = 1
+	url = https://github.com/JasonLG1979/gnome-shell-extension-mpris-indicator-button
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = gnome-shell
+	provides = gnome-shell-extension-mpris-indicator-button
+	conflicts = gnome-shell-extension-mpris-indicator-button
+	source = git+https://github.com/JasonLG1979/gnome-shell-extension-mpris-indicator-button.git
+	sha256sums = SKIP
+
+pkgname = gnome-shell-extension-mpris-indicator-button-git

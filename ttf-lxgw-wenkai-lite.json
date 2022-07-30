@@ -1,0 +1,27 @@
+pkgbase = ttf-lxgw-wenkai-lite
+	pkgver = 1.235
+	pkgrel = 1
+	url = https://github.com/lxgw/LxgwWenKai-Lite
+	arch = any
+	license = custom:OFL
+	depends = fontconfig
+	source = https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.235/LXGWWenKaiLite-Bold.ttf
+	source = https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.235/LXGWWenKaiLite-Light.ttf
+	source = https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.235/LXGWWenKaiLite-Regular.ttf
+	source = https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.235/LXGWWenKaiMonoLite-Bold.ttf
+	source = https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.235/LXGWWenKaiMonoLite-Light.ttf
+	source = https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.235/LXGWWenKaiMonoLite-Regular.ttf
+	source = LICENSE::https://raw.githubusercontent.com/lxgw/LxgwWenKai-Lite/main/License.txt
+	sha256sums = 52b9abc02f771b43c1318d5833d092bbdd49f7b67676c4d7a74a460df512e568
+	sha256sums = b08ce5dd2f4b22c8af0ca5fb04f56c27c97b2daca38f022113d57654fee814ee
+	sha256sums = 0584fdfe6dd108b3f49162babc98be06def4f3aaaed8ee0d8e80773403830ed2
+	sha256sums = 4c6f1a3458439b833c332d7513596ee0d447213e032a134148db542365d13c2e
+	sha256sums = d1166f25b62d6cbfd364421b7ac1a5598fbd16dba456fb843cfad6ffea7254e7
+	sha256sums = f80f605278c6182c0ce6bc7ec1b833f21e4032e9756d1ea05045cb0908a02cc0
+	sha256sums = 7f18ec1ebb6b50e3ed0f74b2c61f25b8d7cd69e43f4de66e991bcfd3c419a8bb
+
+pkgname = ttf-lxgw-wenkai-lite
+	pkgdesc = LXGW WenKai Lite / 霞鹜文楷轻便版 An open-source Chinese font derived from Fontworks' Klee One. 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。
+
+pkgname = ttf-lxgw-wenkai-mono-lite
+	pkgdesc = LXGW WenKai Mono Lite / 霞鹜文楷等宽轻便版 An open-source Chinese font derived from Fontworks' Klee One. 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。

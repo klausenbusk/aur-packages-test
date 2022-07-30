@@ -1,0 +1,25 @@
+pkgbase = ferdi
+	pkgdesc = A messaging browser that allows you to combine your favorite messaging services into one application
+	pkgver = 5.8.1
+	pkgrel = 1
+	url = https://getferdi.com
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	license = Apache
+	makedepends = git
+	makedepends = nodejs-lts-gallium
+	makedepends = npm>=8.1.0
+	makedepends = pnpm
+	makedepends = python
+	depends = electron15
+	depends = libxkbfile
+	source = ferdi-5.8.1-1.tar.gz::https://github.com/getferdi/ferdi/archive/v5.8.1.tar.gz
+	source = ferdi-5.8.1-1-recipes.tar.gz::https://github.com/getferdi/recipes/archive/bf3999cfa0dad54c0833556ddaa688e0da8f2cfe.tar.gz
+	source = fix-autostart-path.diff
+	sha512sums = 3182a39cba318a28baf2415a816d1ba938e588b0101173e8b7ad5ee91ff050c641d920fae0a57b435b7b583fe839b7d6d80a3e0278d258d0248fb0d100e24a86
+	sha512sums = 594026b9ec9a114fdaac8820a4cc2f4a62909bf0ce0b8d33819453879992c112ad381694e141c899f04da1338321514a402f6752c17d4d91b708d6572c390ab0
+	sha512sums = 5263a9e1f4f9e4435f857181e67eb6b3ed254a18371ab5430bdf614821831aea2474f385b3860e783119fed5eb0c5f0cc94c74b1510e2ae29da524cd0d77fee3
+
+pkgname = ferdi

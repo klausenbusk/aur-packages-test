@@ -1,0 +1,22 @@
+pkgbase = python-p4a-build
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = http://android.kivy.org/
+	arch = any
+	license = LGPL3
+	makedepends = python-setuptools
+	depends = python-requests
+	source = https://files.pythonhosted.org/packages/source/p/p4a-build/p4a-build-1.0.2.tar.gz
+	md5sums = 29a617986107c7d3d5d26ea4790ea6ad
+
+pkgname = python-p4a-build
+	pkgdesc = Build tool for the P4A (Python for Android) build cloud
+	depends = python
+	depends = python-requests
+
+pkgname = python2-p4a-build
+	pkgdesc = Build tool for the P4A (Python for Android) build cloud
+	depends = python-requests
+	depends = python2
+	depends = python2-requests
+

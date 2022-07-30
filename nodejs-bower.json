@@ -1,0 +1,19 @@
+pkgbase = nodejs-bower
+	pkgdesc = A package manager for the web
+	pkgver = 1.7.1
+	pkgrel = 1
+	url = http://bower.io/
+	arch = any
+	license = MIT
+	makedepends = npm
+	depends = nodejs
+	provides = bower
+	conflicts = bower
+	noextract = bower-1.7.1.tgz
+	source = http://registry.npmjs.org/bower/-/bower-1.7.1.tgz
+	source = LICENSE
+	md5sums = 06fd72e159d9b4798fa7e7a3afc6888c
+	md5sums = 135697567327f92e904ef0be2082da5e
+
+pkgname = nodejs-bower
+

@@ -1,0 +1,27 @@
+pkgbase = python-gnocchiclient
+	pkgdesc = Python bindings to the Gnocchi API
+	pkgver = 7.0.7
+	pkgrel = 1
+	url = https://gnocchi.xyz/gnocchiclient/
+	arch = any
+	license = Apache
+	checkdepends = python-testtools
+	checkdepends = python-fixtures
+	checkdepends = python-openstackclient
+	checkdepends = python-pytest
+	checkdepends = python-pytest-xdist
+	depends = python-pbr
+	depends = python-cliff
+	depends = python-ujson
+	depends = python-keystoneauth1
+	depends = python-six
+	depends = python-futurist
+	depends = python-iso8601
+	depends = python-monotonic
+	depends = python-dateutil
+	depends = python-debtcollector
+	source = https://github.com/gnocchixyz/python-gnocchiclient/archive/7.0.7.tar.gz
+	sha512sums = c5177ec2f41cee5043d360aa0a71ecc2eab07d3aae24f8d317e9026adadf39dea37df13140b2c07dd6ee1dd7714aef0eb8e88b82a321a45203dc1b715a7d48ed
+
+pkgname = python-gnocchiclient
+

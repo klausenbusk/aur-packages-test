@@ -1,0 +1,16 @@
+pkgbase = otf-ipaexfont
+	pkgdesc = Japanese outline fonts following the tradition of Japanese printing font
+	pkgver = 004.01
+	pkgrel = 1
+	url = http://ipafont.ipa.go.jp/
+	arch = any
+	license = custom
+	depends = fontconfig
+	depends = xorg-font-utils
+	conflicts = ttf-ipaex
+	replaces = ttf-ipaex
+	source = https://oscdl.ipa.go.jp/IPAexfont/IPAexfont00401.zip
+	sha1sums = 57583c2be5dbfa06648ab0ae4937d7903b32595c
+
+pkgname = otf-ipaexfont
+

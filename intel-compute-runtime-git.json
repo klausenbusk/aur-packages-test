@@ -1,0 +1,25 @@
+pkgbase = intel-compute-runtime-git
+	pkgdesc = Intel(R) Graphics Compute Runtime for oneAPI Level Zero and OpenCL(TM) Driver (git version)
+	pkgver = 22.20.23198.r107.gb3d9893df
+	pkgrel = 1
+	url = https://01.org/compute-runtime/
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	makedepends = igsc
+	makedepends = libva
+	makedepends = level-zero-headers
+	depends = intel-gmmlib
+	depends = intel-graphics-compiler
+	optdepends = libva: for cl_intel_va_api_media_sharing
+	optdepends = libdrm: for cl_intel_va_api_media_sharing
+	provides = intel-compute-runtime
+	provides = opencl-driver
+	provides = level-zero-driver
+	conflicts = intel-compute-runtime
+	options = !lto
+	source = git+https://github.com/intel/compute-runtime.git
+	sha256sums = SKIP
+
+pkgname = intel-compute-runtime-git

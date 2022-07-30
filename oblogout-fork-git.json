@@ -1,0 +1,27 @@
+pkgbase = oblogout-fork-git
+	pkgdesc = GTK/Cairo based logout box styled for Crunchbang
+	pkgver = r5.d84fd57
+	pkgrel = 1
+	url = https://github.com/Cloudef/oblogout-fork
+	install = oblogout.install
+	arch = any
+	license = GPL2
+	makedepends = git
+	depends = pygtk
+	depends = python
+	depends = python2-pillow
+	depends = python2-distutils-extra
+	depends = python2-dbus
+	optdepends = upower
+	conflicts = openboxlogout-gnome
+	conflicts = oblogout
+	backup = etc/oblogout.conf
+	source = oblogout-fork::git+https://github.com/Cloudef/oblogout-fork
+	source = oblogout.conf
+	source = switch-user.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = oblogout-fork-git
+

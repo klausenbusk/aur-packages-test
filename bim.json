@@ -1,0 +1,12 @@
+pkgbase = bim
+	pkgdesc = Inspired by Vim, originally written for ToaruOS
+	pkgver = 2.5.1
+	pkgrel = 0
+	url = https://github.com/klange/bim
+	arch = x86_64
+	license = ISC
+	source = bim-2.5.1.tar.gz::https://github.com/klange/bim/archive/v2.5.1.tar.gz
+	sha256sums = dc380f8ebf19e0439f9de7c331a2d2947b0a59509a4baabfa37c5fc7331a640c
+
+pkgname = bim
+

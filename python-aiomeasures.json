@@ -1,0 +1,14 @@
+pkgbase = python-aiomeasures
+	pkgdesc = Collect and send metrics to StatsD
+	pkgver = 0.5.14
+	pkgrel = 2
+	url = https://lab.errorist.xyz/abc/aiomeasures
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-aiohttp
+	source = https://lab.errorist.xyz/abc/aiomeasures/-/archive/v0.5.14/aiomeasures-v0.5.14.tar.gz
+	md5sums = 2f7d97c2e5bbc795d1e480cdfccaf4f8
+
+pkgname = python-aiomeasures

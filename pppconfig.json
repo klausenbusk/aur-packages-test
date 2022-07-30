@@ -1,0 +1,15 @@
+pkgbase = pppconfig
+	pkgdesc = A text menu based utility for configuring ppp.
+	pkgver = 2.3.26
+	pkgrel = 1
+	url = http://httpredir.debian.org/debian/pool/main/p/pppconfig
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = ppp
+	depends = dialog
+	depends = perl
+	source = http://httpredir.debian.org/debian/pool/main/p/pppconfig/pppconfig_2.3.26.tar.gz
+	sha512sums = a99c5fa52a6d4b13000e00de4be50e1755314c2f0fee3aaa35c9d337eae6198aff083b5a883bd98de10686eb90a47c73d7ecc6baa07d9698fa07d6b40344c8d9
+
+pkgname = pppconfig

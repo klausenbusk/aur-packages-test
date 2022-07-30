@@ -1,0 +1,19 @@
+pkgbase = archisomod-git
+	pkgdesc = Another tool to remaster Arch Linux live ISOs
+	pkgver = r82.64841ce
+	pkgrel = 1
+	url = https://gitlab.com/HOMEINFO/archiso-tools
+	arch = any
+	license = GPLv3
+	makedepends = git
+	depends = python
+	depends = coreutils
+	depends = libisoburn
+	depends = squashfs-tools
+	optdepends = grub: Standalone EFI image creation
+	optdepends = dosfstools: Standalone EFI image creation
+	source = git+https://gitlab.com/HOMEINFO/archiso-tools
+	sha512sums = SKIP
+
+pkgname = archisomod-git
+

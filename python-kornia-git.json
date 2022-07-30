@@ -1,0 +1,19 @@
+pkgbase = python-kornia-git
+	pkgdesc = Open Source Differentiable Computer Vision Library for PyTorch
+	pkgver = 0.5.8.r0.g8b619aea
+	pkgrel = 1
+	url = https://github.com/kornia/kornia
+	arch = any
+	license = Apache
+	checkdepends = python-pytest
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-pip
+	depends = python-pytorch
+	provides = python-kornia
+	conflicts = python-kornia
+	options = !emptydirs
+	source = kornia::git+https://github.com/kornia/kornia.git
+	sha256sums = SKIP
+
+pkgname = python-kornia-git

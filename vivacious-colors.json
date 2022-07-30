@@ -1,0 +1,22 @@
+pkgbase = vivacious-colors
+	pkgdesc = A vivid and modern GTK icon theme
+	pkgver = 1.4
+	pkgrel = 2
+	url = http://www.ravefinity.com/p/vivacious-colors-gtk-icon-theme.html
+	arch = any
+	license = CCPL:by-sa
+	license = GPL2
+	noextract = vivacious-colors-icon-theme-1.4.tar.gz
+	noextract = vivacious-colors-folder-addon-1.4.tar.gz
+	options = !strip
+	source = vivacious-colors-icon-theme-1.4.tar.gz::https://drive.google.com/uc?export=download&id=0B7iDWdwgu9QAdFNoQ1ZpaGZJSkU
+	source = vivacious-colors-folder-addon-1.4.tar.gz::https://drive.google.com/uc?export=download&id=0B7iDWdwgu9QAbXlKT2lRT3VBdzA
+	sha256sums = 31b1a44bf9c7aa517a0bdf4150ab8005da21ba011e3b409501deaa80152e4af5
+	sha256sums = d0d181cabfede9e8cfce8f4abb151be8dd759fa08b9b7b077e61ea44abaf7659
+
+pkgname = vivacious-colors-icon-theme
+
+pkgname = vivacious-colors-folder-addon
+	pkgdesc = Additional folder colors for the vivacious-colors icon theme
+	depends = vivacious-colors-icon-theme
+

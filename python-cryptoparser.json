@@ -1,0 +1,26 @@
+pkgbase = python-cryptoparser
+	pkgdesc = Cryptographic protocol parser
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://gitlab.com/coroner/cryptoparser
+	changelog = CHANGELOG.md
+	arch = any
+	license = MPL2
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = python-cryptoparser-0.8.0.tar.gz::https://files.pythonhosted.org/packages/source/c/cryptoparser/cryptoparser-0.8.0.tar.gz
+	sha256sums = 90983c7753e81880b47de79f6c933ca325dc472306760d705a441497f9d2342a
+
+pkgname = python-cryptoparser
+	depends = python-asn1crypto
+	depends = python-attrs
+	depends = python-dateutil
+	depends = python-six
+
+pkgname = python2-cryptoparser
+	depends = python2-asn1crypto
+	depends = python2-attrs
+	depends = python2-dateutil
+	depends = python2-enum34
+	depends = python2-typing
+	depends = python2-six

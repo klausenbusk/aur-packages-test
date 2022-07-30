@@ -1,0 +1,30 @@
+pkgbase = python-mastodon
+	pkgdesc = python bindings for the Mastodon RPC API
+	pkgver = 1.5.1
+	pkgrel = 1
+	url = https://github.com/halcy/Mastodon.py
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pytest-runner
+	checkdepends = python-pytest-cov
+	checkdepends = python-vcrpy
+	checkdepends = python-pytest-mock
+	checkdepends = python-requests-mock
+	checkdepends = python-pytest-vcr
+	makedepends = python-setuptools
+	depends = python
+	depends = python-magic-ahupp
+	depends = python-requests
+	depends = python-dateutil
+	depends = python-six
+	depends = python-pytz
+	depends = python-decorator
+	depends = python-blurhash
+	depends = python-cryptography
+	depends = python-http-ece
+	source = Mastodon.py-1.5.1.tar.gz::https://files.pythonhosted.org/packages/source/M/Mastodon.py/Mastodon.py-1.5.1.tar.gz
+	sha256sums = 2afddbad8b5d7326fcc8a8f8c62bfe956e34627f516b06c6694fc8c8fedc33ee
+
+pkgname = python-mastodon
+

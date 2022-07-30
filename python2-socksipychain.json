@@ -1,0 +1,15 @@
+pkgbase = python2-socksipychain
+	pkgdesc = A Python SOCKS/HTTP Proxy module
+	pkgver = 2.0.15b
+	pkgrel = 1
+	url = http://pagekite.org
+	arch = any
+	license = BSD
+	depends = python2
+	depends = python2-setuptools
+	options = !emptydirs
+	source = https://pagekite.net/pk/src/SocksipyChain-2.0.15b.tar.gz
+	sha256sums = 781106b3bc09e131c8eb01525fc4c5871f87504e7065cf55ade032d8c6400470
+
+pkgname = python2-socksipychain
+

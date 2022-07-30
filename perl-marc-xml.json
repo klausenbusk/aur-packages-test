@@ -1,0 +1,18 @@
+pkgbase = perl-marc-xml
+	pkgdesc = Perl/CPAN Module MARC::XML: Convert between MARC and XML.
+	pkgver = 1.0.4
+	pkgrel = 1
+	url = https://metacpan.org/release/MARC-XML
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl-marc-charset>=0.98
+	depends = perl-marc-record>=2
+	depends = perl-xml-libxml>=1.66
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/G/GM/GMCHARLT/MARC-XML-1.0.4.tar.gz
+	md5sums = 4f0f11ddb007f9ac41569608f3d72a20
+	sha512sums = 2b84b50cd4973dcfe4bac27295710da0438130053b7ee00ad50690f7e87a190d64b132e62f486cb36fb91b93c5d412292facc7c31d2feb97b4bf3f32a947dd77
+
+pkgname = perl-marc-xml
+

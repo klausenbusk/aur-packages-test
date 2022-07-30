@@ -1,0 +1,24 @@
+pkgbase = playx-git
+	pkgdesc = Search and play songs from Youtube, Soundcloud, Spotify and more from your terminal
+	pkgver = r419.9050f0c
+	pkgrel = 5
+	url = https://github.com/NISH1001/playx
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = chromium
+	depends = mpv
+	depends = youtube-dl
+	depends = python-selenium
+	depends = python-requests
+	depends = python-beautifulsoup4
+	depends = python-numpy
+	depends = python-youtube-search
+	provides = playx
+	conflicts = playx
+	replaces = python-playx-git
+	source = git+https://github.com/NISH1001/playx.git
+	sha256sums = SKIP
+
+pkgname = playx-git

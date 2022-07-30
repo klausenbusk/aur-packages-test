@@ -1,0 +1,20 @@
+pkgbase = beautifuldnsd
+	pkgdesc = Quick and clean DNS proxy, especially useful for users with poor ISPs
+	pkgver = 0.7
+	pkgrel = 2
+	url = https://github.com/programmervy/beautifuldnsd
+	install = beautifuldnsd.install
+	arch = any
+	license = custom:PublicDomain
+	depends = python>=3.7
+	depends = python-dnslib
+	depends = python-yaml
+	optdepends = dnsmasq: DNS cache
+	optdepends = python-pygeoip: China only DNS configuration
+	optdepends = geoip-database: provides a database for geoip lookups
+	backup = etc/beautifuldnsd.yaml
+	source = beautifuldnsd-0.7.tar.gz::https://github.com/programmervy/beautifuldnsd/archive/v0.7.tar.gz
+	sha512sums = 1516c34da9b66e492cd85b9a71c01682a0ffe90c00b1e8aaf6eacbc2aad2e8482653042eb476438aa92a837ced6d123bd695bab0a55cce1d292bd50de5668b46
+
+pkgname = beautifuldnsd
+

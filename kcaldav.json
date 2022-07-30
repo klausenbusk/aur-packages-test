@@ -1,0 +1,15 @@
+pkgbase = kcaldav
+	pkgdesc = Simple, safe, minimal CalDAV server
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://kristaps.bsd.lv/kcaldav/
+	arch = x86_64
+	license = custom:BSD
+	makedepends = expat
+	makedepends = kcgi
+	depends = libbsd
+	depends = sqlite3
+	source = https://kristaps.bsd.lv/kcaldav//snapshots/kcaldav-0.2.0.tgz
+	sha512sums = a82867b854d7e02870625656c5469001f7c73583d9a98e7de1d3dd3db521fd7dc8d40555b80bef98b4584fcecbcbc7a7373f107babf315bcf1459bcb62be2b0e
+
+pkgname = kcaldav

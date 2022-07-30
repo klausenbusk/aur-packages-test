@@ -1,0 +1,25 @@
+pkgbase = gcc-arm-none-eabi-bin-102
+	pkgdesc = GNU Tools ARM Embedded Processors (binary distribution, includes newlib, does NOT include GDB)
+	pkgver = 10_2020_q4_major
+	pkgrel = 2
+	url = https://developer.arm.com/open-source/gnu-toolchain/gnu-rm
+	arch = x86_64
+	license = custom
+	depends = glibc
+	optdepends = arm-none-eabi-gdb: GNU Debugger for ARM EABI
+	provides = gcc-arm-none-eabi
+	provides = gcc-arm-none-eabi-102
+	provides = arm-none-eabi-gcc
+	provides = arm-none-eabi-gcc-102
+	provides = arm-none-eabi-binutils
+	provides = arm-none-eabi-binutils-102
+	provides = arm-none-eabi-newlib
+	provides = arm-none-eabi-newlib-102
+	options = !strip
+	options = staticlibs
+	source = https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2
+	md5sums = 8312c4c91799885f222f663fc81f9a31
+	sha256sums = 21134caa478bbf5352e239fbc6e2da3038f8d2207e089efc96c3b55f1edcd618
+
+pkgname = gcc-arm-none-eabi-bin-102
+

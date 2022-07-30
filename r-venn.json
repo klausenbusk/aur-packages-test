@@ -1,0 +1,16 @@
+pkgbase = r-venn
+	pkgdesc = Draw Venn Diagrams
+	pkgver = 1.11
+	pkgrel = 1
+	url = https://cran.r-project.org/package=venn
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-admisc
+	optdepends = r-ggplot2
+	optdepends = r-ggpolypath
+	optdepends = r-qca
+	source = https://cran.r-project.org/src/contrib/venn_1.11.tar.gz
+	sha256sums = 33d915c7c90078f1e76e803fa3f02ab5b74dd04de7a9700477e51e0235f19314
+
+pkgname = r-venn

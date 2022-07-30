@@ -1,0 +1,13 @@
+pkgbase = hare-compress
+	pkgdesc = Compression algorithms for Hare
+	pkgver = r28.ad504ee
+	pkgrel = 1
+	url = https://git.sr.ht/~sircmpwn/hare-compress
+	arch = any
+	license = MPL2
+	makedepends = git
+	depends = hare
+	source = hare-compress::git+https://git.sr.ht/~sircmpwn/hare-compress#commit=ad504ee8520259eb1601f7718a650e43ce25c522
+	md5sums = SKIP
+
+pkgname = hare-compress

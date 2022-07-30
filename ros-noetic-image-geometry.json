@@ -1,0 +1,21 @@
+pkgbase = ros-noetic-image-geometry
+	pkgdesc = ROS - image_geometry contains C++ and Python libraries for interpreting images geometrically.
+	pkgver = 1.16.0
+	pkgrel = 1
+	url = https://wiki.ros.org/image_geometry
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	arch = armv6h
+	license = BSD
+	makedepends = cmake
+	makedepends = ros-build-tools
+	makedepends = ros-noetic-catkin
+	makedepends = ros-noetic-sensor-msgs
+	makedepends = opencv
+	depends = opencv
+	source = ros-noetic-image-geometry-1.16.0.tar.gz::https://github.com/ros-perception/vision_opencv/archive/1.16.0.tar.gz
+	sha256sums = 7b78547be0967814c06fb395d8453e53ddf505bb973adcf801237cca0e1adb07
+
+pkgname = ros-noetic-image-geometry

@@ -1,0 +1,14 @@
+pkgbase = python-hjson
+	pkgdesc = JSON for Humans, allows comments and is less error prone.
+	pkgver = 3.0.1
+	pkgrel = 1
+	url = https://github.com/laktak/hjson-py
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	source = https://pypi.io/packages/source/h/hjson/hjson-3.0.1.tar.gz
+	md5sums = afac353feb47003c8ad31e5b7197ac6a
+
+pkgname = python-hjson
+

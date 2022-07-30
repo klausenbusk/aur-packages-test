@@ -1,0 +1,15 @@
+pkgbase = python-numpy-groupies
+	pkgdesc = Optimised tools for group-indexing operations for python numpy
+	pkgver = 0.9.17
+	pkgrel = 1
+	url = https://github.com/ml31415/numpy-groupies
+	arch = any
+	license = BSD
+	makedepends = python-pytest-runner
+	depends = python-numpy
+	optdepends = python-numba: for numba backend
+	optdepends = python-pandas: for pandas backend
+	source = python-numpy-groupies-0.9.17.tar.gz::https://files.pythonhosted.org/packages/source/n/numpy_groupies/numpy_groupies-0.9.17.tar.gz
+	sha256sums = de9390b1e5e4d84c27f0f520158b4ee8afb91035972d8e22dd0aea00f5588e3a
+
+pkgname = python-numpy-groupies

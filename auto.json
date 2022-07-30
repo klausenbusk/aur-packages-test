@@ -1,0 +1,15 @@
+pkgbase = auto
+	pkgdesc = ArchLinux bootstrap and partitioning script, with a selection of WM and DEs
+	pkgver = 4.2
+	pkgrel = 1
+	url = https://gitlab.com/a4to/auto
+	install = auto.install
+	arch = x86_64
+	license = MIT
+	depends = dialog
+	source = https://gitlab.com/a4to/concise/-/raw/master/x86_64/auto-4.2-1-x86_64.pkg.tar.zst
+	source = https://gitlab.com/a4to/concise/-/raw/master/x86_64/auto-4.2-1-x86_64.pkg.tar.zst.sig
+	sha256sums = 5df6765fe13b8f8e51833bca0161a930c8eaa66f2c5468da205b8eb20463f81d
+	sha256sums = SKIP
+
+pkgname = auto

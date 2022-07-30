@@ -1,0 +1,15 @@
+pkgbase = yandex-libffmpeg
+	pkgdesc = Install libffmpeg and symlink for yandex-browser
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://mascloud.ru/mascloud_repo/
+	arch = x86_64
+	license = GPL
+	makedepends = unzip
+	depends = gcc-libs
+	depends = yandex-browser-beta
+	source = yandex-libffmpeg-1.0-linux-x64.zip::https://mascloud.ru/mascloud_repo/1.0-linux-x64.zip
+	md5sums = e6569dc7fbe232748bdba140c5009f64
+
+pkgname = yandex-libffmpeg
+

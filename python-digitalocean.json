@@ -1,0 +1,17 @@
+pkgbase = python-digitalocean
+	pkgdesc = Digitalocean.com API to manage droplets and images
+	pkgver = 1.10.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/python-digitalocean
+	arch = any
+	license = GPL
+	makedepends = python-setuptools
+	depends = python-requests
+	source = https://pypi.python.org/packages/0a/4c/85ff7c732bf7f50caf81d31f71c4293153831705bdbd0fc29152abb567b6/python-digitalocean-1.10.1.tar.gz
+	source = https://pypi.python.org/packages/0a/4c/85ff7c732bf7f50caf81d31f71c4293153831705bdbd0fc29152abb567b6/python-digitalocean-1.10.1.tar.gz.asc
+	validpgpkeys = 6F13972B14808A27D134F42348143410288E01D6
+	sha256sums = d7e241e119a5689cea3b6d3155e3cf6f295af355379f7f35530850eba85b1e8b
+	sha256sums = SKIP
+
+pkgname = python-digitalocean
+

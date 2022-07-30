@@ -1,0 +1,19 @@
+pkgbase = python-gcp-git
+	pkgdesc = gcp is a file copy tool, freely inspired from cp, but with a few high-level functionnality.
+	pkgver = 0.2.0.r4.g721632b
+	pkgrel = 1
+	url = https://code.lm7.fr/mcy/gcp
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	depends = python-gobject2
+	depends = python-dbus
+	depends = dbus-glib
+	optdepends = python-progressbar
+	source = git+https://code.lm7.fr/mcy/gcp
+	md5sums = SKIP
+
+pkgname = python-gcp-git
+

@@ -1,0 +1,17 @@
+pkgbase = python-proxmoxer
+	pkgdesc = Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
+	pkgver = 1.1.1
+	pkgrel = 2
+	url = https://github.com/swayf/proxmoxer
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	optdepends = python-requests: for https backend
+	optdepends = python-paramiko: for ssh_paramiko backend
+	optdepends = python-openssh-wrapper: for openssh backend
+	source = https://files.pythonhosted.org/packages/source/p/proxmoxer/proxmoxer-1.1.1.tar.gz
+	sha256sums = 684a69190129da0f102703fc9861f5eea82a7d804f9f96d35c7fd73452f1da7e
+
+pkgname = python-proxmoxer
+

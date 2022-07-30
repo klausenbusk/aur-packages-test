@@ -1,0 +1,21 @@
+pkgbase = viewvc
+	pkgdesc = web-based vcs version control repository browsing, formerly viewcvs
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/viewvc/viewvc
+	install = viewvc.install
+	arch = i686
+	arch = x86_64
+	license = custom:ViewVC
+	makedepends = cvs
+	makedepends = rcs
+	depends = subversion
+	depends = python2
+	depends = diffutils
+	backup = usr/share/viewvc/viewvc.conf
+	source = viewvc-1.2.1.tar.gz::https://github.com/viewvc/viewvc/archive/1.2.1.tar.gz
+	md5sums = 4c1bd8b7b54c0d994d58c7073d1c3e1f
+	sha256sums = 5fe1e16f986b51a2800d908683673b880684e90ae1611d98744187f0649634f5
+
+pkgname = viewvc
+

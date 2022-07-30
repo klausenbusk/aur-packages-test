@@ -1,0 +1,16 @@
+pkgbase = gmenu
+	pkgdesc = desktop application launcher
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://code.rocketnine.space/tslocum/gmenu
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	makedepends = go
+	depends = gtk3
+	source = gmenu-0.3.0.tar.gz::https://code.rocketnine.space/tslocum/gmenu/archive/v0.3.0.tar.gz
+	sha256sums = d052a6d209c4521d670a97eb3af813b3f7c18fc4a07154d2f8b387da7d6ff9f7
+
+pkgname = gmenu

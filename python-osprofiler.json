@@ -1,0 +1,30 @@
+pkgbase = python-osprofiler
+	pkgdesc = Library for cross-project profiling library
+	pkgver = 3.1.0
+	pkgrel = 1
+	url = https://docs.openstack.org/osprofiler/
+	arch = any
+	license = Apache
+	checkdepends = python-mock
+	checkdepends = python-stestr
+	checkdepends = python-ddt
+	checkdepends = python-testrepository
+	checkdepends = python-testtools
+	checkdepends = python-elasticsearch
+	checkdepends = python-pymongo
+	checkdepends = python-redis
+	checkdepends = python-docutils
+	checkdepends = bandit
+	depends = python-six
+	depends = python-oslo-utils
+	depends = python-webob
+	depends = python-requests
+	depends = python-netaddr
+	depends = python-oslo-concurrency
+	depends = python-oslo-serialization
+	depends = python-prettytable
+	source = https://github.com/openstack/osprofiler/archive/3.1.0.tar.gz
+	sha512sums = 0ad2562cb67a654e4e2b1316557f66e0f2792ff63a8b5558dd8764e09c1b88f2faf16feb5c6423d0e7a63155ac978a2beba35ada0a6e07e87cf8c1dc2d6ef1c2
+
+pkgname = python-osprofiler
+

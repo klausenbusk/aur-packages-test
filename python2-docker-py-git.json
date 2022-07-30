@@ -1,0 +1,20 @@
+pkgbase = python2-docker-py-git
+	pkgdesc = An API client for docker written in Python
+	pkgver = r2940.1573028979.a0b9c3d0
+	pkgrel = 1
+	url = https://github.com/docker/docker-py
+	arch = any
+	license = Apache
+	makedepends = git
+	makedepends = python2-setuptools
+	depends = python2
+	depends = python2-six
+	depends = python2-requests
+	depends = python-websocket-client
+	provides = python2-docker-py
+	conflicts = python2-docker-py
+	source = docker-py::git+https://github.com/docker/docker-py.git
+	sha512sums = SKIP
+
+pkgname = python2-docker-py-git
+

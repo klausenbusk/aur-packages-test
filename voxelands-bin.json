@@ -1,0 +1,28 @@
+pkgbase = voxelands-bin
+	pkgdesc = A fork of Minetest, an Infiniminer/Minecraft inspired game
+	pkgver = 1602.00
+	pkgrel = 3
+	url = https://web.archive.org/web/20180616063819/voxelands.com/
+	arch = x86_64
+	license = GPL3
+	depends = libxxf86vm
+	depends = irrlicht
+	depends = sqlite
+	depends = libvorbis
+	depends = openal
+	depends = glu
+	depends = libsm
+	depends = hicolor-icon-theme
+	depends = freetype2
+	depends = libpng12
+	provides = minetest-classic
+	provides = voxelands
+	conflicts = minetest-classic
+	conflicts = minetest-classic-next-git
+	conflicts = voxelands-next-git
+	conflicts = voxelands
+	replaces = minetest-classic
+	source = https://github.com/bl00dy1837/voxelands_deb/blob/main/voxelands-1602.00-ubuntu-x86_64.deb?raw=true
+	md5sums = 977894fa4216fa8acfe235cfaa315419
+
+pkgname = voxelands-bin

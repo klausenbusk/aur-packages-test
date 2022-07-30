@@ -1,0 +1,23 @@
+pkgbase = perl-test-checkmanifest
+	pkgdesc = Check if your Manifest matches your distro
+	pkgver = 1.42
+	pkgrel = 1
+	url = https://metacpan.org/dist/Test-CheckManifest
+	arch = any
+	license = Artistic2.0
+	makedepends = perl-cpan-meta-yaml
+	makedepends = perl-extutils-makemaker
+	makedepends = perl-file-path
+	makedepends = perl-io
+	makedepends = perl-pod-coverage-trustpod
+	depends = perl>=5.008
+	depends = perl-carp
+	depends = perl-data-dumper
+	depends = perl-pathtools>=3.75
+	depends = perl-scalar-list-utils
+	depends = perl-test-simple
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/R/RE/RENEEB/Test-CheckManifest-1.42.tar.gz
+	b2sums = 10d20fefee1dc61cb172c8565d16da8072c0560c155e366f9ba52e6e6f10eb24c7cc3b71d40e2dcf6cf085de04731bab15c230e0ac0dbacff12d2626497dec0c
+
+pkgname = perl-test-checkmanifest

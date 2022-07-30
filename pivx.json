@@ -1,0 +1,31 @@
+pkgbase = pivx
+	pkgdesc = Transactional security and privacy-focused decentralized open source cryptocurrency
+	pkgver = 5.4.0
+	pkgrel = 1
+	url = https://pivx.org/
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = MIT
+	source = https://github.com/PIVX-Project/PIVX/archive/v5.4.0.tar.gz
+	sha256sums = d56c34c3046d955a4ab7e7416675f4d430f443f972d202aef97a4a4f58265554
+	source_i686 = https://github.com/PIVX-Project/PIVX/releases/download/v5.4.0/pivx-5.4.0-i686-linux-gnu.tar.gz
+	sha256sums_i686 = 2129ba5d05dce7f60965fe2270d00c4820a264321de8ba39486865fa4c95226c
+	source_x86_64 = https://github.com/PIVX-Project/PIVX/releases/download/v5.4.0/pivx-5.4.0-x86_64-linux-gnu.tar.gz
+	sha256sums_x86_64 = fff3d6a772a22a883515568f1532aa600d35e49ecb0c4f7f084302308b857aa3
+	source_armv7h = https://github.com/PIVX-Project/PIVX/releases/download/v5.4.0/pivx-5.4.0-arm-linux-gnueabihf.tar.gz
+	sha256sums_armv7h = cd932a876235127fd62c41db83627c1ed311cc4af85f2cd7151331495f3ad449
+
+pkgname = pivx-daemon
+	pkgdesc = Transactional security and privacy-focused decentralized open source cryptocurrency (daemon)
+	depends = pivx-sapling-params
+
+pkgname = pivx-cli
+	pkgdesc = Transactional security and privacy-focused decentralized open source cryptocurrency (CLI)
+
+pkgname = pivx-qt
+	pkgdesc = Transactional security and privacy-focused decentralized open source cryptocurrency (Qt)
+	depends = pivx-sapling-params
+
+pkgname = pivx-sapling-params
+	pkgdesc = Transactional security and privacy-focused decentralized open source cryptocurrency (sapling parameters)

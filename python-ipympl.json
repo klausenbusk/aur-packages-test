@@ -1,0 +1,16 @@
+pkgbase = python-ipympl
+	pkgdesc = Matplotlib Jupyter Extension
+	pkgver = 0.8.8
+	pkgrel = 2
+	url = https://pypi.org/project/ipympl/
+	arch = any
+	license = BSD
+	makedepends = jupyter-notebook
+	makedepends = jupyterlab
+	makedepends = jupyterlab_pygments
+	makedepends = python-setuptools
+	depends = python
+	source = https://pypi.python.org/packages/source/i/ipympl/ipympl-0.8.8.tar.gz
+	sha512sums = 5e9448c57cc871a93c318b37d1a6ed5384b7ba77a34777e304b02ead88e3cc43812f8f0d7199402522513d5dec561f641362e58b4c0e7ba9acc1ec23f128a6c5
+
+pkgname = python-ipympl

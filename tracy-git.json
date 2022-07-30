@@ -1,0 +1,20 @@
+pkgbase = tracy-git
+	pkgdesc = Real-time, nanosecond resolution frame profiler
+	pkgver = v0.8.r49.gcd3f9c88
+	pkgrel = 1
+	url = https://github.com/wolfpld/tracy
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = pkgconf
+	makedepends = git
+	depends = glfw-x11
+	depends = gtk3
+	depends = intel-tbb
+	depends = capstone
+	provides = tracy
+	conflicts = tracy
+	source = git+https://github.com/wolfpld/tracy
+	md5sums = SKIP
+
+pkgname = tracy-git

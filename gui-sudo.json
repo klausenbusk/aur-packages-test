@@ -1,0 +1,23 @@
+pkgbase = gui-sudo
+	pkgdesc = Graphical user interface for sudo
+	pkgver = 1.0
+	pkgrel = 3
+	url = https://github.com/Rizwan-Hasan/GUI-Sudo
+	arch = x86_64
+	license = GPL3
+	depends = python>=3.7.0
+	depends = python-pyqt5>=5.11.2
+	depends = python-sip-pyqt5>=4.19.12
+	depends = pyqt5-common>=5.11.2
+	depends = qt5-base>=5.11.1
+	conflicts = gksu
+	conflicts = libgksu
+	source = gui-sudo.tar.gz::https://github.com/Rizwan-Hasan/GUI-Sudo/archive/master.tar.gz
+	source = gui-sudo.desktop.in
+	source = setup.py
+	md5sums = e185b4a3e1bc9a89d5ff5d20e26c8790
+	md5sums = 9e8aa2f0dcdfec8313851dfb54bec4d8
+	md5sums = f966222c78f492343e8f336bae1bdbf0
+
+pkgname = gui-sudo
+

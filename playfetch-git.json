@@ -1,0 +1,19 @@
+pkgbase = playfetch-git
+	pkgdesc = Fetch playlists from GMusicProxy
+	pkgver = r16.1d0aa97
+	pkgrel = 1
+	url = https://github.com/jeffmhubbard/playfetch
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = python
+	depends = python-mpd2
+	depends = python-requests
+	optdepends = gmusicproxy: google play music proxy
+	optdepends = mpd: play some playlists
+	optdepends = mpnotd-git: display song info and album art
+	source = playfetch::git+https://github.com/jeffmhubbard/playfetch.git
+	md5sums = SKIP
+
+pkgname = playfetch-git
+

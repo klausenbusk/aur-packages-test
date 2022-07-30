@@ -1,0 +1,54 @@
+pkgbase = python-poetry
+	pkgdesc = Python dependency management and packaging made easy
+	pkgver = 0.12.4
+	pkgrel = 2
+	url = https://github.com/sdispater/poetry
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python2
+	makedepends = python2-setuptools
+	options = !emptydirs
+	source = python-poetry-0.12.4.tar.gz::https://pypi.io/packages/source/p/poetry/poetry-0.12.4.tar.gz
+	source = poetry.sh
+	source = poetry2.sh
+	sha256sums = fc924ef535c9229aac4f7cfda948e64e890417242d808c0880febb0ea333b9f6
+	sha256sums = 7104f3cd6ec4f156a6499e34ed8908c6f2b83b4284ad12703ea91299a9461068
+	sha256sums = c974a1a2fadc89fb8e07efd404e06b2d8c8664f26e7b106933426525664ac9d3
+
+pkgname = python-poetry
+	depends = python
+	depends = python-cachecontrol
+	depends = python-lockfile
+	depends = python-cachy
+	depends = python-cleo
+	depends = python-html5lib
+	depends = python-jsonschema>=2.6.0-3
+	depends = python-pkginfo
+	depends = python-pyparsing
+	depends = python-pyrsistent
+	depends = python-requests
+	depends = python-requests-toolbelt
+	depends = python-shellingham
+	depends = python-tomlkit
+
+pkgname = python2-poetry
+	depends = python2
+	depends = python2-cachecontrol
+	depends = python2-lockfile
+	depends = python2-cachy
+	depends = python2-cleo
+	depends = python2-html5lib
+	depends = python2-jsonschema>=2.6.0-3
+	depends = python2-pathlib
+	depends = python2-pkginfo
+	depends = python2-pyparsing
+	depends = python2-pyrsistent
+	depends = python2-requests
+	depends = python2-requests-toolbelt
+	depends = python2-shellingham
+	depends = python2-tomlkit
+	depends = python2-typing
+	depends = python2-virtualenv
+

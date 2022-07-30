@@ -1,0 +1,21 @@
+pkgbase = python-pystray
+	pkgdesc = Allows to create a system tray icon
+	pkgver = 0.19.3
+	pkgrel = 1
+	url = https://github.com/moses-palmer/pystray
+	changelog = python-pystray.changelog
+	arch = any
+	license = GPL3
+	makedepends = python>=3.4
+	makedepends = python-setuptools
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python-six
+	depends = python-pillow
+	depends = python-xlib>=0.17
+	depends = libappindicator-gtk3
+	depends = python-gobject
+	source = python-pystray-0.19.3.tar.gz::https://github.com/moses-palmer/pystray/archive/v0.19.3.tar.gz
+	b2sums = 4fa1488efd9e0c65d4c4b9d45ad5dfb265a3dec084259064453f8018555c536e8df609c371a22e2c92ea25ab608f79760af3ec99d0f3f07840225d465a1b1172
+
+pkgname = python-pystray

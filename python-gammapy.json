@@ -1,0 +1,42 @@
+pkgbase = python-gammapy
+	pkgdesc = A Python package for gamma-ray astronomy
+	pkgver = 0.20.1
+	pkgrel = 1
+	url = https://gammapy.org
+	arch = i686
+	arch = x86_64
+	license = BSD
+	checkdepends = python-pytest-remotedata
+	checkdepends = python-pytest-astropy-header
+	checkdepends = python-scipy
+	checkdepends = python-regions
+	checkdepends = python-click
+	checkdepends = python-matplotlib
+	checkdepends = python-iminuit
+	checkdepends = python-pydantic
+	makedepends = cython
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-numpy
+	source = https://files.pythonhosted.org/packages/source/g/gammapy/gammapy-0.20.1.tar.gz
+	md5sums = a061826514fc5915660296b351f386a2
+
+pkgname = python-gammapy
+	depends = python>=3.8
+	depends = python-scipy>=1.4
+	depends = python-yaml>=5.1
+	depends = python-astropy>=5.0
+	depends = python-regions>=0.5.0
+	depends = python-click>=7.0
+	depends = python-pydantic>=1.4
+	depends = python-iminuit>=2.8.0
+	depends = python-matplotlib>=3.4
+	optdepends = python-pandas: For working with tables
+	optdepends = python-emcee: For fitting by MCMC sampling
+	optdepends = python-corner: For MCMC corner plots
+	optdepends = python-healpy: For HEALPIX data handling
+	optdepends = python-naima: For SED modeling
+	optdepends = python-sherpa: For modelling and fitting
+	optdepends = python-parfive: For example data and tutorial notebook download

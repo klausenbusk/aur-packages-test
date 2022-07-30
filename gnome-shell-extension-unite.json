@@ -1,0 +1,16 @@
+pkgbase = gnome-shell-extension-unite
+	pkgdesc = Unite makes GNOME Shell look like Ubuntu Unity Shell
+	pkgver = 64
+	pkgrel = 1
+	url = https://github.com/hardpixel/unite-shell
+	arch = any
+	license = GPL
+	depends = gnome-shell
+	depends = xorg-xprop
+	optdepends = gnome-shell-extension-dash-to-dock
+	provides = gnome-shell-extension-unite
+	conflicts = gnome-shell-extension-unite-git
+	source = gnome-shell-extension-unite-64.tar.gz::https://github.com/hardpixel/unite-shell/archive/v64.tar.gz
+	md5sums = 8d3e4f49e610df2d4f98cfc7c04d1523
+
+pkgname = gnome-shell-extension-unite

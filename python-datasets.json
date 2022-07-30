@@ -1,0 +1,21 @@
+pkgbase = python-datasets
+	pkgdesc = Library providing one-line dataloaders for many public datasets and efficient data pre-processing
+	pkgver = 1.17.0
+	pkgrel = 1
+	url = https://github.com/huggingface/datasets
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = python-setuptools
+	depends = python-pyarrow
+	depends = python-dill
+	depends = python-pandas
+	depends = python-xxhash
+	depends = python-multiprocess
+	depends = python-aiohttp
+	depends = python-huggingface-hub
+	depends = python-fsspec
+	source = https://github.com/huggingface/datasets/archive/refs/tags/1.17.0.tar.gz
+	sha256sums = 0d8c98c9a91c164e6e550d1262d317cc240f4c748b026b32cfc8d777d2ac0ab7
+
+pkgname = python-datasets

@@ -1,0 +1,23 @@
+pkgbase = openfreebuds
+	pkgdesc = Manager for HUAWEI FreeBuds (beta)
+	pkgver = 0.10.1
+	pkgrel = 1
+	url = https://melianmiko.ru/openfreebuds
+	arch = any
+	license = GPLv3
+	makedepends = make
+	makedepends = python-pip
+	makedepends = python
+	depends = python
+	depends = dbus-python
+	depends = python-gobject
+	depends = libappindicator-gtk3
+	depends = gtk3
+	depends = tk
+	depends = bluez
+	depends = python-pillow
+	depends = python-pybluez
+	source = openfreebuds-0.10.1::git+https://github.com/melianmiko/openfreebuds.git
+	md5sums = SKIP
+
+pkgname = openfreebuds

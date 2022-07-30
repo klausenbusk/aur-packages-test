@@ -1,0 +1,28 @@
+pkgbase = allthehaxx
+	pkgdesc = AllTernative Teeworlds Client
+	pkgver = 0.36.4b
+	pkgrel = 0
+	url = https://allthehaxx.github.io
+	install = allthehaxx.install
+	arch = x86_64
+	license = custom
+	makedepends = bam
+	makedepends = imagemagick
+	makedepends = gendesk
+	makedepends = python
+	depends = sdl2
+	depends = glu
+	depends = freetype2
+	depends = opusfile
+	depends = curl
+	optdepends = ddnet-skins: more skins for your tee (provided by DDNet)
+	optdepends = ddnet-maps-git: have all DDNet maps available offline
+	noextract = allthehaxx-0.36.4b.tar.gz
+	backup = etc/allthehaxx/storage.cfg
+	backup = etc/allthehaxx/mapdbs.cfg
+	backup = etc/allthehaxx/skindbs.cfg
+	source = allthehaxx-0.36.4b.tar.gz::https://netix.dl.sourceforge.net/project/allthehaxx/0.36.4b/0.36.4b.tar.gz
+	sha256sums = acfa20ee4bba87d648043b7ad567178a0aba048ce754ab6c41e9c222ad1e854b
+
+pkgname = allthehaxx
+

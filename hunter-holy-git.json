@@ -1,0 +1,38 @@
+pkgbase = hunter-holy-git
+	pkgdesc = ranger-like file browser written in Rust (holy branch, git)
+	pkgver = 1.3.4+r12+ge49f2f4
+	pkgrel = 2
+	url = https://github.com/rabite0/hunter
+	arch = i686
+	arch = x86_64
+	license = WTFPL
+	makedepends = git
+	makedepends = rustup
+	makedepends = gst-plugins-bad
+	depends = xdg-utils
+	depends = gst-plugins-base-libs
+	depends = libsixel
+	optdepends = gst-plugins-good: media support
+	optdepends = gst-plugins-bad: media support
+	optdepends = gst-plugins-ugly: media support
+	optdepends = gst-libav: media support
+	optdepends = nerd-fonts-complete: supported icon pack
+	optdepends = bat: syntax highlighting
+	optdepends = highlight: syntax highlighting
+	optdepends = libarchive: archive support
+	optdepends = p7zip: archive support
+	optdepends = atool: archive support
+	optdepends = w3m: HTML support
+	optdepends = links: HTML support
+	optdepends = elinks: HTML support
+	optdepends = lynx: HTML support
+	optdepends = poppler: PDF support
+	optdepends = mupdf-tools: PDF support
+	optdepends = fzf: default file finder
+	provides = hunter
+	conflicts = hunter
+	source = git+https://github.com/rabite0/hunter#branch=holy
+	sha512sums = SKIP
+
+pkgname = hunter-holy-git
+

@@ -1,0 +1,19 @@
+pkgbase = perl-css-sass
+	pkgdesc = Compile .scss files using libsass
+	pkgver = 3.6.0
+	pkgrel = 1
+	url = http://search.cpan.org/~OCBNET/CSS-Sass-3.6.0/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = PerlArtistic
+	makedepends = perl-extutils-cppguess
+	depends = perl>=5.10.0
+	depends = perl-linux-inotify2
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/O/OC/OCBNET/CSS-Sass-3.6.0.tar.gz
+	md5sums = 379eecb0bcf3d370185f4c25a7d3cbe2
+	sha512sums = fe2b53f1636a104c7b618b5adff4a844430df9394cbd843a2196e65a2a440973a2cfeaf1ffc2c492e08a78f498e1f3d261e78c2517a499057dd2b7ea3a684caa
+
+pkgname = perl-css-sass
+

@@ -1,0 +1,26 @@
+pkgbase = calima-app-aur
+	pkgdesc = Access application for Calima ERP Contábil.
+	pkgver = 2.0.12
+	pkgrel = 1
+	url = https://www.calimaerp.com
+	arch = x86_64
+	license = custom:calima-app
+	depends = alsa-lib
+	depends = gtk3
+	depends = libcups
+	depends = libxss
+	depends = libxtst
+	depends = nss
+	optdepends = libpipewire02: WebRTC desktop sharing under Wayland
+	optdepends = kdialog: for file dialogs in KDE
+	optdepends = gnome-keyring: for storing passwords in GNOME keyring
+	optdepends = kwallet: for storing passwords in KWallet
+	optdepends = libunity: for download progress on KDE
+	optdepends = ttf-liberation: fix fonts for some PDFs - CRBug #369991
+	optdepends = xdg-utils
+	options = !emptydirs
+	options = !strip
+	source = https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/id3qvymhlwic/b/downloads/o/calima-app/calima-app-2.0.12.deb
+	sha512sums = c226b9d4ba26f314c8eac5ffab2038a817d766be6f7b0f2cf637b461a8f4a6194eb26c3a2a15fe61c86b459078cc629212a8ef3e354a8f75d2e79019f8233380
+
+pkgname = calima-app

@@ -1,0 +1,18 @@
+pkgbase = python-django-debug-toolbar
+	pkgdesc = A configurable set of panels that display various debug information about the current request/response.
+	pkgver = 3.2
+	pkgrel = 1
+	url = https://github.com/jazzband/django-debug-toolbar
+	arch = any
+	license = BSD-3
+	makedepends = python-django>=2.0
+	makedepends = python-setuptools
+	depends = python-django>=2.0
+	depends = python-sqlparse
+	conflicts = python-django-debug-toolbar-git
+	options = !emptydirs
+	source = https://github.com/jazzband/django-debug-toolbar/archive/3.2.tar.gz
+	sha256sums = ffa8975f09e9acc18567bd11738a237002a6179ed0b9397e32faed70c5bd50b2
+
+pkgname = python-django-debug-toolbar
+

@@ -1,0 +1,23 @@
+pkgbase = libstoragemgmt
+	pkgdesc = A library for storage management
+	pkgver = 1.9.4
+	pkgrel = 1
+	url = https://github.com/libstorage/libstoragemgmt
+	arch = any
+	license = LGPL
+	makedepends = check
+	makedepends = chrpath
+	makedepends = valgrind
+	makedepends = python-pywbem
+	makedepends = procps-ng
+	depends = libxml2
+	depends = icu
+	depends = sqlite
+	depends = openssl
+	depends = libconfig
+	depends = systemd
+	optdepends = arcconf: support for Microsemi (Adaptec) controllers
+	source = https://github.com/libstorage/libstoragemgmt/releases/download/1.9.4/libstoragemgmt-1.9.4.tar.gz
+	sha256sums = 967d79ad809f397523b865bc755c4a83389c1a7899507561800464cc824c98ba
+
+pkgname = libstoragemgmt

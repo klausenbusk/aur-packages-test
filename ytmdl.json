@@ -1,0 +1,39 @@
+pkgbase = ytmdl
+	pkgdesc = Download songs from YouTube with metadata from sources like Itunes, Gaana, Deezer etc.
+	pkgver = 2022.3.16
+	pkgrel = 0
+	url = https://github.com/deepjyoti30/ytmdl
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python>=3.6
+	depends = ffmpeg
+	depends = yt-dlp>=2022.03.08.1
+	depends = python-mutagen
+	depends = python-bs4
+	depends = python-colorama
+	depends = downloader-cli
+	depends = python-itunespy
+	depends = python-ffmpeg
+	depends = python-pysocks
+	depends = python-xdg
+	depends = python-requests
+	depends = python-lxml
+	depends = python-wheel
+	depends = python-unidecode
+	depends = python-simber
+	depends = python-pydes
+	depends = python-urllib3
+	depends = python-rich
+	depends = python-musicbrainzngs
+	depends = python-ytmusicapi
+	depends = python-spotipy
+	depends = youtube-search-python
+	optdepends = tensorflow: Trim Support
+	provides = ytmdl
+	conflicts = ytmdl-git
+	source = https://files.pythonhosted.org/packages/75/72/7a202b29e9838f9e56bb31d18ebfd5fcf3489a2bb4917f022ed3e18c4e49/ytmdl-2022.3.16.tar.gz
+	md5sums = SKIP
+
+pkgname = ytmdl

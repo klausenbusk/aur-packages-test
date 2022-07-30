@@ -1,0 +1,31 @@
+pkgbase = developers-chamber
+	pkgdesc = Python developers utility library
+	pkgver = 0.0.44
+	pkgrel = 1
+	url = https://github.com/druids/developers-chamber
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-attrdict
+	depends = python-boto3
+	depends = python-click
+	depends = python-click-completion
+	depends = python-coloredlogs
+	depends = python-docker
+	depends = python-dotenv
+	depends = python-gitpython
+	depends = python-hosts
+	depends = python-isort
+	depends = python-jira
+	depends = python-oauthlib
+	depends = python-requests
+	depends = python-togglpy
+	depends = python-unidecode
+	source = git+https://github.com/druids/developers-chamber.git
+	source = setup.patch
+	sha512sums = SKIP
+	sha512sums = 0dd0503b51b2f9110ce7be1d3a5896f6553950cbb6f9bca8a9be89d5529d383a8642bd1c27355ba6a4dfe74ced6562c15b95b805dce88ac788bdd89600010d54
+
+pkgname = developers-chamber
+

@@ -1,0 +1,23 @@
+pkgbase = among-us-editor
+	pkgdesc = Character editor for Among Us
+	pkgver = 1.6
+	pkgrel = 5
+	url = https://github.com/Koupah/Among-Us-Editor/
+	arch = any
+	license = MIT
+	depends = java-runtime>=8
+	depends = sh
+	depends = hicolor-icon-theme
+	optdepends = steam: where among us is usually bought from
+	noextract = Among-Us-Editor-1.6.jar
+	source = https://github.com/Koupah/Among-Us-Editor/releases/download/1.6/Among-Us-Editor-1.6.jar
+	source = AUE.desktop
+	source = icon.png
+	source = LICENSE
+	sha256sums = 657816ad906b342bd915a0046bd78198f35576f1b72ba4fd2223848031612d50
+	sha256sums = 1fc76f358a4996594740da38546946040c98e652e7f2a9644fe16bd2d25ddc43
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = among-us-editor
+

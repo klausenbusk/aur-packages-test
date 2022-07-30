@@ -1,0 +1,27 @@
+pkgbase = python-requests-cache
+	pkgdesc = Transparent persistent cache for http://python-requests.org library
+	pkgver = 0.9.5
+	pkgrel = 2
+	url = https://github.com/reclosedev/requests-cache
+	arch = any
+	license = custom:BSD-2-clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	depends = python-requests
+	depends = python-platformdirs
+	depends = python-cattrs
+	depends = python-url-normalize
+	depends = python-exceptiongroup
+	optdepends = python-boto3: Cache backend for Amazon DynamoDB database
+	optdepends = python-botocore: Interface for Amazon Web Services
+	optdepends = python-pymongo: Cache backend for MongoDB database
+	optdepends = python-redis: Cache backend for Redis cache
+	optdepends = python-bson: for BSON codec
+	optdepends = python-itsdangerous: for pass trusted data to untrusted environments
+	optdepends = python-yaml: for bindings yaml support
+	optdepends = python-ujson: for JSON serializer for improved performance
+	source = requests-cache-0.9.5.tar.gz::https://github.com/reclosedev/requests-cache/archive/v0.9.5.tar.gz
+	sha512sums = de1481ff609f3ff36ed662d986fb86a500a8d26755832478a9a4396f2c71934b5f65540137b92365eb36f66087b3fbc1cd72c63d37546d09c86bbee7340fd8eb
+
+pkgname = python-requests-cache

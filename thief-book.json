@@ -1,0 +1,18 @@
+pkgbase = thief-book
+	pkgdesc = 一款真正的跨平台摸鱼神器
+	pkgver = 3.2.0
+	pkgrel = 1
+	url = https://github.com/cteamx/Thief-Book
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = jq
+	makedepends = moreutils
+	makedepends = yarn
+	depends = electron
+	provides = thief-book
+	source = thief-book-3.2.0.src.tar.gz::https://github.com/cteamx/Thief-Book/archive/3.2.0.tar.gz
+	sha256sums = a1cb2f71131c56452ad337c0b5382371f2edd59ea8215a34cc21966dc465630c
+
+pkgname = thief-book
+

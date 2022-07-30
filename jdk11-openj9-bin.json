@@ -1,0 +1,37 @@
+pkgbase = jdk11-openj9-bin
+	pkgdesc = Eclipse (former IBM) OpenJ9 with openjdk11
+	pkgver = 11.0.13b8_openj9_0.29.0
+	pkgrel = 1
+	url = https://developer.ibm.com/languages/java/semeru-runtimes/downloads
+	arch = x86_64
+    arch = s390x 
+    arch = ppc64le 
+    arch = aarch64
+	license = custom
+	depends = java-environment-common
+	depends = ca-certificates-utils
+	depends = nss
+	provides = java-environment=11
+	provides = java-environment-openjdk=11
+	provides = java-runtime=11
+	provides = java-runtime-openjdk=11
+	provides = java-runtime-headless=11
+	provides = java-runtime-headless-openjdk=11
+	conflicts = jdk11-openj9
+	options = !strip
+	
+    source_x86_64 = https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13%2B8_openj9-0.29.0/ibm-semeru-open-jdk_x64_linux_11.0.13_8_openj9-0.29.0.tar.gz
+	
+    source_s390x = https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13%2B8_openj9-0.29.0/ibm-semeru-open-jdk_s390x_linux_11.0.13_8_openj9-0.29.tar.gz
+
+    source_ppc64le = https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13%2B8_openj9-0.29.0/ibm-semeru-open-jdk_ppc64le_linux_11.0.13_8_openj9-0.29.0.tar.gz
+
+    source_aarch64 = https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13%2B8_openj9-0.29.0/ibm-semeru-open-jdk_aarch64_linux_11.0.13_8_openj9-0.29.0.tar.gz
+
+    sha256sums_x86_64 = 3975e2732cf632ca8f41c237ba7e033fd96bda262b79861f83b4e2ac62c90c3d
+    sha256sums_s390x = 6c3ebb4af0f4066e721e1f0078438458775f4b93bfd2d0be1066c54ccf015654
+    sha256sums_ppc64le = 7b304c52974f51611b45a2ab7949503e33a204b8a4ae705eb3c74789350174d3
+    sha256sums_aarch64 = 151dca23e1fdb43eaa60631c96895be9aa7bb751e7fdf88ddffa1c32157fb417
+
+pkgname = jdk11-openj9-bin
+

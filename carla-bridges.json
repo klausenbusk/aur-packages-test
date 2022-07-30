@@ -1,0 +1,16 @@
+pkgbase = carla-bridges
+	pkgdesc = Carla All Bridges (Stable Branch)
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = http://kxstudio.sf.net/carla
+	arch = x86_64
+	license = GPL2
+	depends = wine
+	depends = carla
+	conflicts = carla-bridges-win32
+	conflicts = carla-bridges-win64
+	source = https://github.com/falkTX/Carla/releases/download/v2.1/Carla_2.1-linux64.tar.xz
+	md5sums = 2163d9bc83c2f71b8ea0fd1a040168c6
+
+pkgname = carla-bridges
+

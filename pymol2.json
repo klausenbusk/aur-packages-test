@@ -1,0 +1,27 @@
+pkgbase = pymol2
+	pkgdesc = Molecular visualization system on an Open Source foundation with modern PyQt interface. Includes Python 2 & 3 Bindings.
+	pkgver = 2.1.1
+	pkgrel = 1
+	url = https://pymol.org/2/
+	arch = x86_64
+	license = Commercial
+	makedepends = desktop-file-utils
+	makedepends = gendesk
+	depends = glew
+	depends = glut
+	depends = libgl
+	depends = libxml2
+	depends = python-numpy
+	depends = python-pmw
+	depends = python-pyqt5
+	conflicts = pymol
+	options = !strip
+	source = https://anaconda.org/schrodinger/pymol/2.1.1/download/linux-64/pymol-2.1.1-py27_2.tar.bz2
+	source = https://anaconda.org/schrodinger/pymol/2.1.1/download/linux-64/pymol-2.1.1-py36_2.tar.bz2
+	sha1sums = 3657fa8d27bc7f94bd781918af570e2faa228402
+	sha1sums = baa0725d3b78cf13175b53fac7b2737f95a4fe9b
+	sha256sums = b69760a1db822eb3738976c40aea675009432bf7c073513b4dbfc1d218d1ce0d
+	sha256sums = afefbc33f53b4c917b0bbc8c253f7c9629249f05a52f17ec54b97a04b95bdcb3
+
+pkgname = pymol2
+

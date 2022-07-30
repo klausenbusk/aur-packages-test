@@ -1,0 +1,24 @@
+pkgbase = micro-nightly-bin
+	pkgdesc = A modern and intuitive terminal-based text editor
+	pkgver = 2.0.9.39
+	pkgrel = 1
+	url = https://github.com/zyedidia/micro
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = grep
+	makedepends = curl
+	makedepends = sed
+	depends = glibc
+	optdepends = xclip: for copying to and from the terminal
+	provides = micro
+	conflicts = micro
+	conflicts = micro-bin
+	conflicts = micro-git
+	source_x86_64 = https://github.com/zyedidia/micro/releases/download/nightly/micro-2.0.9-dev.39-linux64.tar.gz
+	md5sums_x86_64 = SKIP
+	source_i686 = https://github.com/zyedidia/micro/releases/download/nightly/micro-2.0.9-dev.39-linux32.tar.gz
+	md5sums_i686 = SKIP
+
+pkgname = micro-nightly-bin
+

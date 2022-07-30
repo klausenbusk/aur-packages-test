@@ -1,0 +1,16 @@
+pkgbase = hyperium-installer
+	pkgdesc = Official installer for Hyperium Minecraft Client
+	pkgver = 0.1
+	pkgrel = 1
+	url = https://hyperium.cc
+	arch = any
+	license = All Rights Reserved
+	depends = java-runtime
+	noextract = Hyperium_1.1.jar
+	source = hyperium-installer.sh
+	source = https://cdn.discordapp.com/attachments/595634170336641045/631183200345129001/Hyperium_1.1.jar
+	sha256sums = 50bc9d881659a463e7834aa588b7a1d811c6ad62274ba99dc9fa8ce9d258710a
+	sha256sums = 7b462c17f6ab1b0bb7abb4f093d5d625e5c30055f05387d7a1ae91ae70d24cae
+
+pkgname = hyperium-installer
+

@@ -1,0 +1,16 @@
+pkgbase = haskell-gio
+	pkgdesc = Binding to GIO
+	pkgver = 0.13.8.1
+	pkgrel = 2
+	url = http://projects.haskell.org/gtk2hs/
+	arch = x86_64
+	license = LGPL2_1
+	makedepends = ghc
+	makedepends = haskell-gtk2hs-buildtools
+	depends = ghc-libs
+	depends = haskell-glib
+	depends = glib2
+	source = https://hackage.haskell.org/packages/archive/gio/0.13.8.1/gio-0.13.8.1.tar.gz
+	sha256sums = 26d77f1c1d5937a73b98f29b91619d9911756819cb2894ace864626bee41b801
+
+pkgname = haskell-gio

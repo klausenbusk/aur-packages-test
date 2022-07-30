@@ -1,0 +1,18 @@
+pkgbase = lambdanative
+	pkgdesc = Write mobile applications in Scheme
+	pkgver = 1.0.8
+	pkgrel = 1
+	url = https://github.com/part-cw/lambdanative
+	arch = x86_64
+	arch = i686
+	license = custom
+	makedepends = setconf
+	depends = android-sdk
+	depends = android-ndk
+	depends = gambit-c
+	depends = zip
+	source = git://github.com/part-cw/lambdanative.git#tag=v1.0.8
+	md5sums = SKIP
+
+pkgname = lambdanative
+

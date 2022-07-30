@@ -1,0 +1,17 @@
+pkgbase = bandwhich
+	pkgdesc = Display network utilization by process, connection and remote address
+	pkgver = 0.7.0
+	pkgrel = 0
+	url = https://github.com/imsnif/bandwhich
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	source = https://github.com/imsnif/bandwhich/archive/0.7.0.tar.gz
+	sha256sums = 6f08b0e1bf07fc8397bf9d4c5e8211368dbbcad4c0cfc2c369066f711a343152
+
+pkgname = bandwhich
+

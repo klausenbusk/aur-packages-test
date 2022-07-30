@@ -1,0 +1,25 @@
+pkgbase = fofix
+	pkgdesc = Frets on Fire X (FoFiX). Highly improved version of Frets on Fire
+	pkgver = 3.123
+	pkgrel = 2
+	url = https://fofix.org
+	install = fofix.install
+	arch = any
+	groups = games
+	license = GPL
+	depends = python2
+	depends = python2-pygame
+	depends = python2-opengl
+	depends = python2-numpy
+	depends = python2-pillow
+	depends = python2-pysqlite
+	depends = libffi
+	replaces = fofix
+	source = fofix-3.123.tar.gz::https://github.com/fofix/fofix/archive/v3.123.tar.gz
+	source = fofix.desktop
+	source = fofix.png
+	md5sums = 3cab3338eb2a6b0aa6df148b41acd0db
+	md5sums = 816b52ec85a60e005e9ff2ee428770c2
+	md5sums = f886a7fdfa7592b50aa9f62901910e03
+
+pkgname = fofix

@@ -1,0 +1,28 @@
+pkgbase = beyond-compare
+	pkgdesc = Compare files and folders, merge changes, synchronize files, and generate reports
+	pkgver = 4.1.6
+	pkgrel = 1
+	url = http://www.scootersoftware.com
+	install = beyond-compare.install
+	arch = i686
+	arch = x86_64
+	license = non-free
+	depends = desktop-file-utils
+	depends = gdk-pixbuf2
+	depends = gtk2
+	depends = qt4
+	optdepends = dolphinpart4: for use with KDE4 Dolphin
+	optdepends = nautilus: for use with GNOME Nautilus
+	optdepends = thunar: for use with Xfce Thunar
+	optdepends = nemo: for use with Cinnamon Nemo
+	optdepends = caja: for use with MATE Caja
+	options = !strip
+	source = LICENSE
+	md5sums = 9eeda8a80922a529bd3a8db7a03ad8b0
+	source_i686 = http://www.scootersoftware.com/bcompare-4.1.6.21095_i386.deb
+	md5sums_i686 = 2aeca1aed68b030d8e07be02635cd686
+	source_x86_64 = http://www.scootersoftware.com/bcompare-4.1.6.21095_amd64.deb
+	md5sums_x86_64 = 86e75f23eba079d2348f3277f3786c8f
+
+pkgname = beyond-compare
+

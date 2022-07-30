@@ -1,0 +1,32 @@
+pkgbase = teamviewer11
+	pkgdesc = All-In-One Software for Remote Support and Online Meetings
+	pkgver = 11.0.256402
+	pkgrel = 1
+	url = http://www.teamviewer.com
+	install = teamviewer11.install
+	arch = x86_64
+	license = custom
+	provides = teamviewer
+	conflicts = teamviewer
+	conflicts = teamviewer-beta
+	conflicts = teamviewer10
+	conflicts = teamviewer9
+	conflicts = teamviewer8
+	options = !strip
+	source_x86_64 = http://download.teamviewer.com/download/version_11x/teamviewer_amd64.deb
+	source_x86_64 = https://archive.archlinux.org/packages/l/lib32-freetype2/lib32-freetype2-2.8-2-x86_64.pkg.tar.xz
+	depends_x86_64 = lib32-fontconfig
+	depends_x86_64 = lib32-libpng12
+	depends_x86_64 = lib32-libsm
+	depends_x86_64 = lib32-libxinerama
+	depends_x86_64 = lib32-libxrender
+	depends_x86_64 = lib32-libjpeg6-turbo
+	depends_x86_64 = lib32-libxtst
+	depends_x86_64 = lib32-freetype2
+	depends_x86_64 = lib32-dbus
+	depends_x86_64 = libxtst
+	sha256sums_x86_64 = f2c7258283696651b459699c6e0401781e223eb61f492c149188c82b3c485cfd
+	sha256sums_x86_64 = 4f39c9bd52579ac5d13980d760a5434fdb0f0638df07d2abca9ea44a779185e3
+
+pkgname = teamviewer11
+

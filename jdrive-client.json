@@ -1,0 +1,16 @@
+pkgbase = jdrive-client
+	pkgdesc = JDrive socket client
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://gitlab.com/mrvik/jdrive-client
+	arch = x86_64
+	arch = i686
+	license = GPL2
+	makedepends = go
+	optdepends = jdrive: JDrive main package
+	provides = jdrive-client
+	source = https://gitlab.com/mrvik/jdrive-client/-/archive/v1.2.0/jdrive-client-v1.2.0.tar.gz
+	sha512sums = 1f3dca5206c7f3ce090b5dae419c5894cbede706bddd0ca262a783e3ef5a4a0e3c3610aa310a0cd09c55b2e1e364de31e97c30b05c3ef92aac028b4c918ed5a2
+
+pkgname = jdrive-client
+

@@ -1,0 +1,14 @@
+pkgbase = efc
+	pkgdesc = A little script that helps you to manage the speed of the fan of the compatible AMD GPU's
+	pkgver = 1
+	pkgrel = 0
+	url = https://github.com/dus2002/EFC
+	arch = any
+	license = GPL
+	source = efc
+	source = hwmonnumber
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = efc
+

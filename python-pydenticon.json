@@ -1,0 +1,22 @@
+pkgbase = python-pydenticon
+	pkgdesc = Library for generating identicons
+	pkgver = 0.3.1
+	pkgrel = 2
+	url = https://pypi.python.org/pypi/pydenticon/
+	arch = any
+	license = BSD
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python2
+	makedepends = python2-setuptools
+	source = https://pypi.org/packages/source/p/pydenticon/pydenticon-0.3.1.tar.gz
+	md5sums = 090db34a16777fbd456b34594115705a
+
+pkgname = python-pydenticon
+	depends = python
+	depends = python-pillow
+
+pkgname = python2-pydenticon
+	depends = python2
+	depends = python2-pillow
+

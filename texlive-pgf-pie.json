@@ -1,0 +1,15 @@
+pkgbase = texlive-pgf-pie
+	pkgdesc = Some LaTeX macros for pie chart by using PGF/Tikz package.
+	pkgver = 0.3
+	pkgrel = 1
+	url = https://github.com/xuyuan/pgf-pie/
+	install = texlive-pgf-pie.install
+	arch = any
+	license = GPL2
+	license = custom:LPPLv1.3c
+	depends = texlive-core
+	source = https://github.com/pgf-tikz/pgf-pie/releases/download/0.3/pgf-pie.zip
+	sha256sums = a80a9a499c666164c7bfa4bf5751f5eae1378691f7246f952f803e43ddce1174
+
+pkgname = texlive-pgf-pie
+

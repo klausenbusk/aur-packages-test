@@ -1,0 +1,20 @@
+pkgbase = python-rq-dashboard
+	pkgdesc = Flask-based web front-end for monitoring RQ queues
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = https://github.com/Parallels/rq-dashboard/
+	arch = any
+	license = BSD
+	makedepends = python
+	makedepends = python-setuptools
+	depends = python
+	depends = python-click
+	depends = python-flask
+	depends = python-redis
+	depends = python-rq
+	depends = python-arrow
+	source = https://github.com/Parallels/rq-dashboard/archive/0.6.1.tar.gz
+	sha256sums = 624be5c9823dcf719430f4b7064dec77c5b7b6cfd7143e6c499e2d03ee5538da
+
+pkgname = python-rq-dashboard
+

@@ -1,0 +1,18 @@
+pkgbase = sogou
+	pkgdesc = Sogou Pinyin for Linux
+	pkgver = 1.2.0.0056
+	pkgrel = 1
+	url = http://pinyin.sogou.com/linux/
+	arch = x86_64
+	arch = i686
+	license = custom
+	depends = fcitx-sogoupinyin
+	source = http://7xizf7.com1.z0.glb.clouddn.com/fcitx-qimpanel.real
+	source = http://7xizf7.com1.z0.glb.clouddn.com/fcitx-qimpanel
+	source = http://7xizf7.com1.z0.glb.clouddn.com/libcurl.so.4
+	md5sums = b55df1dffa61fb1af40199a8e1b2244b
+	md5sums = 62b2b974c475bab9f6cf6d5ee83b984a
+	md5sums = 9a88e363ea255a66be7791952e73542b
+
+pkgname = sogou
+

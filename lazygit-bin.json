@@ -1,0 +1,20 @@
+pkgbase = lazygit-bin
+	pkgdesc = simple terminal UI for git commands. Pre-compiled.
+	pkgver = 0.29
+	pkgrel = 1
+	url = https://github.com/jesseduffield/lazygit
+	arch = x86_64
+	arch = armv6h
+	arch = aarch64
+	license = MIT
+	provides = lazygit
+	conflicts = lazygit
+	source_x86_64 = lazygit-0.29_Linux_x86_64.tar.gz::https://github.com/jesseduffield/lazygit/releases/download/v0.29/lazygit_0.29_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = a59f8cfed363c196f01ebc3b9d5551200cc1cbaed9ab9cf07ff3352be27de042
+	source_armv6h = lazygit-0.29_Linux_armv6.tar.gz::https://github.com/jesseduffield/lazygit/releases/download/v0.29/lazygit_0.29_Linux_armv6.tar.gz
+	sha256sums_armv6h = 4985f22637680e9478d506df6b7d30196810f4a59c0bdf9d9f762e31124d0d97
+	source_aarch64 = lazygit-0.29_Linux_armv6.tar.gz::https://github.com/jesseduffield/lazygit/releases/download/v0.29/lazygit_0.29_Linux_aarch64.tar.gz
+	sha256sums_aarch64 = b7bfc4306ddfe159cfcd7a780bac9161e99501e1b3c7af19087e5c717d333936
+
+pkgname = lazygit-bin
+

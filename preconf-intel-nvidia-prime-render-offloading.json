@@ -1,0 +1,51 @@
+pkgbase = preconf-intel-nvidia-prime-render-offloading
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://gitlab.com/fabis_cafe/preconf-intel-nvidia-prime-render-offloading
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	source = git+https://gitlab.com/fabis_cafe/preconf-intel-nvidia-prime-render-offloading.git/#commit=cb1fc7cfc9704f49549a97a34ce9c55c9ff8c1b8
+	sha512sums = SKIP
+
+pkgname = preconf-intel-nvidia-prime-render-offloading-common
+	pkgdesc = common files for an intel-nvidia prime system
+	depends = nvidia-prime
+	depends = nvidia-settings
+	depends = nvidia-utils
+	depends = opencl-nvidia
+	depends = lib32-nvidia-utils
+	depends = lib32-opencl-nvidia
+	optdepends = preconf-intel-nvidia-prime-render-offloading-linux: Configuration for default Arch Kernel
+	optdepends = preconf-intel-nvidia-prime-render-offloading-linux-zen: Configuration for ZEN Kernel
+	optdepends = preconf-intel-nvidia-prime-render-offloading-linux-lts: Configuration for LTS Kernel
+	optdepends = preconf-intel-nvidia-prime-render-offloading-linux-dkms: Generic Kernel, DKMS Configuration
+
+pkgname = preconf-intel-nvidia-prime-render-offloading-linux
+	pkgdesc = configures an intel-nvidia prime system for linux
+	install = install_kernel
+	depends = linux
+	depends = nvidia
+	depends = preconf-intel-nvidia-prime-render-offloading-common
+
+pkgname = preconf-intel-nvidia-prime-render-offloading-linux-dkms
+	pkgdesc = configures an intel-nvidia prime system with dkms
+	install = install_dkms
+	depends = nvidia-dkms
+	depends = preconf-intel-nvidia-prime-render-offloading-common
+
+pkgname = preconf-intel-nvidia-prime-render-offloading-linux-lts
+	pkgdesc = configures an intel-nvidia prime system for linux-lts
+	install = install_kernel
+	depends = linux-lts
+	depends = nvidia-lts
+	depends = preconf-intel-nvidia-prime-render-offloading-common
+
+pkgname = preconf-intel-nvidia-prime-render-offloading-linux-zen
+	pkgdesc = configures an intel-nvidia prime system for linux-zen
+	install = install_kernel
+	depends = linux-zen
+	depends = linux-zen-headers
+	depends = nvidia-dkms
+	depends = preconf-intel-nvidia-prime-render-offloading-common
+

@@ -1,0 +1,37 @@
+pkgbase = openoffice-bin
+	pkgdesc = The Free and Open Productivity Suite
+	pkgver = 4.1.12
+	pkgrel = 1
+	url = https://www.openoffice.org
+	arch = x86_64
+	arch = i686
+	license = Apache
+	depends = freetype2
+	depends = glibc>=2.5
+	depends = gtk2>=2.10.4
+	depends = hicolor-icon-theme
+	depends = desktop-file-utils
+	depends = shared-mime-info
+	depends = libxcrypt-compat
+	optdepends = apr-util: adds apr support
+	optdepends = java-environment: adds java support
+	optdepends = gconf: adds additional gnome support
+	optdepends = gstreamer0.10-base: some gstr-plugins to support multimedia content, e.g. in impress
+	optdepends = mesa: for the OGLTrans extension of impress
+	optdepends = mime-types: provides /etc/mime.types
+	optdepends = nss: adds support for signed files/macros
+	optdepends = python2: adds python support
+	optdepends = raptor1: adds rdf support
+	optdepends = sqlite: adds sqlite support
+	conflicts = openoffice-base-bin-unstable
+	replaces = openoffice-base-bin
+	replaces = openoffice
+	options = !strip
+	options = docs
+	backup = opt/openoffice4/program/sofficerc
+	source_x86_64 = https://downloads.apache.org/openoffice/4.1.12/binaries/en-US/Apache_OpenOffice_4.1.12_Linux_x86-64_install-rpm_en-US.tar.gz
+	sha256sums_x86_64 = 6f9563d0e0302e01ec4d2ffceb9cfe874100ce3d7bc0ba214f2049ac1121d3dc
+	source_i686 = https://downloads.apache.org/openoffice/4.1.12/binaries/en-US/Apache_OpenOffice_4.1.12_Linux_x86_install-rpm_en-US.tar.gz
+	sha256sums_i686 = 47158c06b8b49001b336770528267034e31726ab4eff466f2c310ee1b0cc455b
+
+pkgname = openoffice-bin

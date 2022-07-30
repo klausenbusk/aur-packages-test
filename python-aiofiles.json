@@ -1,0 +1,19 @@
+pkgbase = python-aiofiles
+	pkgdesc = an Apache2 licensed library, written in Python, for handling local disk files in asyncio applications.
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/Tinche/aiofiles
+	arch = any
+	license = Apache 2.0
+	checkdepends = python-tox
+	checkdepends = python-coverage
+	checkdepends = python-pytest-asyncio
+	checkdepends = python-pytest
+	checkdepends = python-pytest-cov
+	makedepends = python-setuptools
+	source = python-aiofiles-0.4.0.tar.gz::https://github.com/Tinche/aiofiles/archive/v0.4.0.tar.gz
+	sha512sums = 9e1f8b2beb3ca2996b35de9281ceafbb8ccdeab4b213f9605cb5908558c5f495d1cf4481ac229ca44bb236ad99826d89d137ec6ac4386c23b6e056b657a6bf4a
+
+pkgname = python-aiofiles
+	depends = python
+

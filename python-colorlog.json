@@ -1,0 +1,20 @@
+pkgbase = python-colorlog
+	pkgdesc = Log formatting with colors
+	pkgver = 4.1.0
+	pkgrel = 1
+	url = https://pypi.org/project/colorlog/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = python-colorlog-4.1.0.tar.gz::https://files.pythonhosted.org/packages/source/c/colorlog/colorlog-4.1.0.tar.gz
+	sha256sums = 30aaef5ab2a1873dec5da38fd6ba568fa761c9fa10b40241027fa3edea47f3d2
+
+pkgname = python-colorlog
+	depends = python
+	conflicts = python-colorlog-git
+
+pkgname = python2-colorlog
+	depends = python2
+	conflicts = python2-colorlog-git
+

@@ -1,0 +1,27 @@
+pkgbase = mingw-w64-qt6-quick3d-static
+	pkgdesc = Qt module and API for defining 3D content in Qt Quick (mingw-w64)
+	pkgver = 6.3.1
+	pkgrel = 1
+	url = https://www.qt.io
+	arch = any
+	groups = mingw-w64-qt6
+	license = GPL3
+	license = LGPL3
+	license = FDL
+	license = custom
+	makedepends = mingw-w64-cmake-static
+	makedepends = mingw-w64-vulkan-headers
+	makedepends = mingw-w64-vulkan-icd-loader
+	makedepends = mingw-w64-qt6-shadertools-static
+	makedepends = qt6-quick3d
+	makedepends = qt6-shadertools
+	makedepends = ninja
+	depends = mingw-w64-qt6-declarative-static
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://download.qt.io/official_releases/qt/6.3/6.3.1/submodules/qtquick3d-everywhere-src-6.3.1.tar.xz
+	sha256sums = 2fa766ee47b8c07412b3b755206ada0715fb07813b64ed069e7205044c061256
+
+pkgname = mingw-w64-qt6-quick3d-static

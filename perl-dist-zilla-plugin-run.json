@@ -1,0 +1,19 @@
+pkgbase = perl-dist-zilla-plugin-run
+	pkgdesc = Run external commands and code at specific phases of Dist::Zilla.
+	pkgver = 0.048
+	pkgrel = 1
+	url = https://metacpan.org/release/Dist-Zilla-Plugin-Run
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	checkdepends = perl-test-deep
+	checkdepends = perl-test-file-sharedir
+	makedepends = perl-module-build-tiny
+	depends = perl-dist-zilla
+	options = !emptydirs
+	options = purge
+	source = http://search.cpan.org/CPAN/authors/id/E/ET/ETHER/Dist-Zilla-Plugin-Run-0.048.tar.gz
+	sha256sums = ff1f80a8834753395f6398aec990fdd0ed0ecf9b19bae273ae5d6eeb609642b0
+
+pkgname = perl-dist-zilla-plugin-run
+

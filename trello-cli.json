@@ -1,0 +1,15 @@
+pkgbase = trello-cli
+	pkgdesc = Trello CLI tool
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/mheap/trello-cli
+	arch = x86_64
+	license = BSD
+	depends = nodejs
+	depends = npm
+	provides = trello
+	noextract = trello-cli-0.5.1.tgz
+	source = https://registry.npmjs.org/trello-cli/-/trello-cli-0.5.1.tgz
+	sha512sums = 2bb3a9373ef2d553c7cdd370953910d935b354e36bd263508e8496a0a0dad9811f10a1b092cf1f363382d82ad18dae8915270348fa67aeb30a700c56a4e759d2
+
+pkgname = trello-cli

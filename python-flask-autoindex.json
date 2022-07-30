@@ -1,0 +1,14 @@
+pkgbase = python-flask-autoindex
+	pkgdesc = Flask-AutoIndex generates an index page for your Flask application automatically
+	pkgver = 0.6.6
+	pkgrel = 3
+	url = https://pypi.org/project/Flask-AutoIndex/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-flask-silk
+	depends = python-future
+	source = python-flask-autoindex-0.6.6.tar.gz::https://github.com/general03/flask-autoindex/archive/v0.6.6.tar.gz
+	sha256sums = e4f78cfab8d78d85bbb4e0572e8c0542fefa08fa5f872a749ac051893cf82d5f
+
+pkgname = python-flask-autoindex

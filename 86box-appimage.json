@@ -1,0 +1,25 @@
+pkgbase = 86box-appimage
+	pkgdesc = An emulator for classic IBM PC clones
+	pkgver = 3.6
+	pkgrel = 1
+	url = https://86box.net/
+	arch = pentium4
+	arch = x86_64
+	arch = arm7h
+	arch = aarch64
+	license = GPL2
+	depends = fuse2
+	optdepends = 86box-roms: ROM files
+	provides = 86box
+	conflicts = 86box
+	options = !strip
+	source_pentium4 = 86box-3.6-pentium4.appimage::https://github.com/86box/86box/releases/download/v3.6/86Box-Linux-x86-b3850.AppImage
+	sha512sums_pentium4 = 015e3e6bfe04d2f534d1ec62c69f9b75e2ff34554d0fced61278a40cc0e497444e8245e48db12c04c461852e925ead3d3352ea019518a51009682bc4fddb9132
+	source_x86_64 = 86box-3.6-x86_64.appimage::https://github.com/86box/86box/releases/download/v3.6/86Box-Linux-x86_64-b3850.AppImage
+	sha512sums_x86_64 = 453198ac99e427dd15f3626567319a0ab5e58e6b93efd9a899def5a754e8e1e081fac4e4973246fd67eb52977f24e13cb96ebcbc131811d548d2a041b8ebc294
+	source_arm7h = 86box-3.6-arm7h.appimage::https://github.com/86box/86box/releases/download/v3.6/86Box-NDR-Linux-arm32-b3850.AppImage
+	sha512sums_arm7h = 219759042a7492dff8bda89c7a7168334e8ddfdd455b96413c758776fad2acb95d5a9ddce17c6ea1a8995de2f705134a50627d7adcb6185465db502ec56dbade
+	source_aarch64 = 86box-3.6-aarch64.appimage::https://github.com/86box/86box/releases/download/v3.6/86Box-NDR-Linux-arm64-b3850.AppImage
+	sha512sums_aarch64 = 446c2dba05f0e4e992f9956e01aee3d395c6c35979c1143cfa6b6b882c7f0bbef7329efd9bc489be01d97ca2e861a058760c2d41064b8e4e68c2ceb78005f06b
+
+pkgname = 86box-appimage

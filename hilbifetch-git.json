@@ -1,0 +1,19 @@
+pkgbase = hilbifetch-git
+	pkgdesc = Hilbish-optimized screenfetch
+	pkgver = r26.987f87d
+	pkgrel = 1
+	url = https://github.com/rosettea/hilbifetch
+	install = hilbifetch-git.install
+	arch = any
+	license = BSD
+	makedepends = git
+	depends = hilbish>=0.4.0
+	provides = hilbifetch
+	conflicts = hilbifetch
+	backup = etc/hfconf.lua
+	source = hilbifetch-git::git+https://github.com/rosettea/hilbifetch?signed
+	validpgpkeys = 098F50DFBCEEC71A4EAB6DA450EE40A2809851F5
+	validpgpkeys = 5DE3E0509C47EA3CF04A42D34AEE18F83AFDEB23
+	sha256sums = SKIP
+
+pkgname = hilbifetch-git

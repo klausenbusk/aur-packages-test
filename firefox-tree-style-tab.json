@@ -1,0 +1,17 @@
+pkgbase = firefox-tree-style-tab
+	pkgdesc = Firefox extension to show tabs like a tree
+	pkgver = 2.7.5
+	pkgrel = 1
+	url = http://piro.sakura.ne.jp/xul/_treestyletab.html.en
+	arch = any
+	groups = firefox-addons
+	license = MPL
+	license = GPL
+	license = LGPL
+	conflicts = firefox-extension-tree-style-tab
+	noextract = tree_style_tab-2.7.5-fx.xpi
+	source = https://addons.cdn.mozilla.net/user-media/addons/5890/tree_style_tab-2.7.5-fx.xpi
+	sha256sums = f24246c5a030ef09369350f964d807a9ceecebce08976e1c0e59ef0199e02bb0
+
+pkgname = firefox-tree-style-tab
+

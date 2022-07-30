@@ -1,0 +1,28 @@
+pkgbase = peazip-qt5
+	pkgdesc = Free file archiver utility, open, extract RAR TAR ZIP archives
+	pkgver = 8.7.0
+	pkgrel = 1
+	url = http://peazip.org
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = lazarus
+	makedepends = git
+	depends = brotli
+	depends = zstd
+	depends = 7-zip
+	depends = qt5pas
+	optdepends = quad
+	optdepends = unace
+	optdepends = paq8o
+	optdepends = upx
+	optdepends = zpaq
+	provides = peazip
+	conflicts = peazip
+	options = !strip
+	source = git+https://github.com/peazip/PeaZip.git#tag=8.7.0
+	source = help-8.7.0.pdf::https://github.com/peazip/PeaZip/releases/download/8.7.0/peazip_help.pdf
+	sha512sums = SKIP
+	sha512sums = c83d794e3fa988a0a1d85d90214328facb811716ecbd251952fdd4be7b4fccb55067783c13a86d0e194e5d85d6c306792d493ceec10b23a12d3e58f7046aad2e
+
+pkgname = peazip-qt5

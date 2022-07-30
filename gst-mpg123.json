@@ -1,0 +1,14 @@
+pkgbase = gst-mpg123
+	pkgdesc = MP3 decoding for gstreamer-0.10, using the mpg123 library
+	pkgver = 20121118
+	pkgrel = 1
+	url = https://github.com/dv1/gstmpg123
+	arch = any
+	license = LGPL
+	makedepends = pkgconfig
+	makedepends = git
+	depends = gstreamer0.10-base
+	depends = mpg123
+	depends = python2
+
+pkgname = gst-mpg123

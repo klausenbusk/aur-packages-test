@@ -1,0 +1,31 @@
+pkgbase = nodejs-lts-boron-bin
+	pkgdesc = Evented I/O for V8 javascript
+	pkgver = 6.10.3
+	pkgrel = 1
+	url = http://nodejs.org/
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	depends = openssl
+	depends = zlib
+	depends = python2
+	depends = icu
+	optdepends = npm: nodejs package manager
+	provides = nodejs
+	conflicts = nodejs
+	source_i686 = https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x86.tar.xz
+	sha256sums_i686 = 0cd9bd4c68ed8aa062961bbe1f914cd62c004fd5d53dbec5800eb067bdd33807
+	source_x86_64 = https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x64.tar.xz
+	sha256sums_x86_64 = 00d0aea8e47a68da6e3278d7c2fc1504de46a34d97b4b2fa5610b04a64fce04c
+	source_armv6h = https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-armv6l.tar.xz
+	sha256sums_armv6h = b34bc4f71c74d437338ff9f714e12e6f58bafb428cc6f8d17ed1985df8c5563f
+	source_armv7h = https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-armv7l.tar.xz
+	sha256sums_armv7h = d64867d32cd386ebc802445e24613bf9420c9ba0d7049cd17a2e175a5942860a
+	source_aarch64 = https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-arm64.tar.xz
+	sha256sums_aarch64 = 8b0ea8f0616f0c9dbd953bcb330d22b253cc1e3f3c657885e8476427462169c0
+
+pkgname = nodejs-lts-boron-bin
+

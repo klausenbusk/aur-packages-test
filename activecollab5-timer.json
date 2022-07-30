@@ -1,0 +1,15 @@
+pkgbase = activecollab5-timer
+	pkgdesc = activeCollab Timer tracks time on your desktop computer and lets you easily submit it to activeCollab via activeCollab API.
+	pkgver = 1.6.81
+	pkgrel = 1
+	url = https://timer.activecollab.com/
+	arch = x86_64
+	license = unknown
+	makedepends = dpkg
+	depends = gtk2
+	options = !strip
+	source = https://timer.activecollab.com/downloads/linux/current/activecollab-timer.deb
+	md5sums = 7cb159778847529fc0bf6588835643ab
+
+pkgname = activecollab5-timer
+

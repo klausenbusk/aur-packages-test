@@ -1,0 +1,16 @@
+pkgbase = ttf-sarasa-slab
+	pkgdesc = Mono-slab variants for Sarasa Gothic
+	pkgver = 0.10.2
+	pkgrel = 1
+	url = https://github.com/CyanoHao/Sarasa-Alternatives
+	arch = any
+	license = custom: SIL
+	depends = fontconfig
+	depends = xorg-font-utils
+	source = https://github.com/CyanoHao/Sarasa-Alternatives/releases/download/v0.10.2/sarasa-slab-ttc-0.10.2.7z
+	source = https://raw.githubusercontent.com/CyanoHao/Sarasa-Alternatives/master/LICENSE
+	md5sums = a9ef56c030956a34150433340a1b6d98
+	md5sums = bb894d46cb6fb06cd086a58828eee132
+
+pkgname = ttf-sarasa-slab
+

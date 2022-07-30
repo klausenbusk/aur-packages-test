@@ -1,0 +1,18 @@
+pkgbase = pyspotify
+	pkgdesc = A Python Spotify library
+	pkgver = 1.12
+	pkgrel = 3
+	url = http://pyspotify.mopidy.com/
+	arch = any
+	license = APACHE
+	makedepends = python2-distribute
+	depends = python2
+	depends = libspotify
+	optdepends = python-pyalsaaudio: Used by example applications.
+	provides = pyspotify
+	conflicts = pyspotify-git
+	source = https://github.com/mopidy/pyspotify/archive/v1.12.tar.gz
+	md5sums = bec42d3d6b2faff3f6e10ce9949d4789
+
+pkgname = pyspotify
+

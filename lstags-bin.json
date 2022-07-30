@@ -1,0 +1,12 @@
+pkgbase = lstags-bin
+	pkgdesc = Manipulate Docker images across different registries
+	pkgver = 1.2.21
+	pkgrel = 1
+	url = https://github.com/ivanilves/lstags
+	arch = x86_64
+	license = Apache
+	provides = lstags
+	source = lstags-bin-1.2.21.tar.gz::https://github.com/ivanilves/lstags/releases/download/v1.2.21/lstags-linux-v1.2.21.tar.gz
+	sha256sums = 8e40a6571d608819735ec8506b05052c03b48a5a62a218566e5354ebde82440a
+
+pkgname = lstags-bin

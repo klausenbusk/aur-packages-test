@@ -1,0 +1,21 @@
+pkgbase = minq_xvideos-git
+	pkgdesc = Explore xvideos in your terminal! Videos can be either played in the terminal or in any external video player. Undesirable videos can be blocked.
+	pkgver = r33.655e0be4e0fb37749cbd6d507ccb3d6e37517fbb
+	pkgrel = 1
+	url = https://github.com/kuche1/minq_xvideos.git
+	arch = x86_64
+	arch = i686
+	license = GPL
+	makedepends = git
+	depends = python
+	depends = python-beautifulsoup4
+	depends = viu
+	depends = yt-dlp
+	depends = mplayer
+	optdepends = wezterm: terminal that supports sixel,
+	optdepends = vlc: an alternative video player
+	provides = minq_xvideos
+	source = git+https://github.com/kuche1/minq_xvideos.git
+	md5sums = SKIP
+
+pkgname = minq_xvideos-git

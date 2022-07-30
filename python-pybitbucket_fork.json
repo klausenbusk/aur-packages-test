@@ -1,0 +1,25 @@
+pkgbase = python-pybitbucket_fork
+	pkgdesc = Tool for managing remote repositories from your git CLI
+	pkgver = 0.12.2
+	pkgrel = 1
+	url = https://github.com/guyzmo/pybitbucket
+	arch = any
+	license = GPL2
+	makedepends = python-setuptools
+	makedepends = python-pip
+	depends = python
+	depends = python-future
+	depends = python-six
+	depends = python-requests
+	depends = python-requests-oauthlib
+	depends = python-oauthlib
+	depends = python-uritemplate
+	depends = python-simplejson
+	depends = python-voluptuous
+	provides = python-pybitbucket
+	conflicts = python-pybitbucket
+	source = https://files.pythonhosted.org/packages/source/p/pybitbucket_fork/pybitbucket_fork-0.12.2.tar.gz
+	md5sums = 902a9d41ae86ec1dde0f21f082991edf
+
+pkgname = python-pybitbucket_fork
+

@@ -1,0 +1,19 @@
+pkgbase = liblxi-git
+	pkgdesc = LXI library
+	pkgver = r159.09adc7f
+	pkgrel = 1
+	url = https://github.com/lxi/liblxi
+	arch = i686
+	arch = x86_64
+	license = BSD-3
+	makedepends = git
+	makedepends = meson
+	depends = libxml2
+	depends = avahi
+	optdepends = lxi-tools
+	provides = liblxi
+	conflicts = liblxi
+	source = liblxi-git::git+https://github.com/lxi/liblxi
+	md5sums = SKIP
+
+pkgname = liblxi-git

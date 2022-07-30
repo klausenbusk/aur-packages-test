@@ -1,0 +1,14 @@
+pkgbase = minetest-labyrinthus
+	pkgdesc = Can you help the nyancat to find her rainbow block??
+	pkgver = 2.10.1
+	pkgrel = 1
+	url = https://content.minetest.net/packages/1248/labyrinthus/
+	arch = any
+	license = LGPLv2.1
+	depends = minetest-common
+	noextract = labyrinthus-2.10.1.zip
+	options = !strip
+	source = labyrinthus-2.10.1.zip::https://content.minetest.net/packages/1248/labyrinthus/releases/12203/download/
+	sha256sums = 9b306158ba074f64b67398db7794c1ee5d5a748313115605838ea5e0545c90a0
+
+pkgname = minetest-labyrinthus

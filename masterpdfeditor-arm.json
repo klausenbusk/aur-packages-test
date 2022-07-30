@@ -1,0 +1,21 @@
+pkgbase = masterpdfeditor-arm
+	pkgdesc = A complete solution for viewing, creating and editing PDF files (for arm64)
+	pkgver = 5.8.46
+	pkgrel = 2
+	url = https://code-industry.net/free-pdf-editor/
+	arch = aarch64
+	license = custom
+	makedepends = patchelf
+	conflicts = masterpdfeditor-free
+	conflicts = masterpdfeditor
+	source_aarch64 = https://code-industry.net/public/master-pdf-editor-5.8.46-qt5.arm64.tar.gz
+	sha1sums_aarch64 = ceaa2f83cc54cc32b86b0b2aefe92227c439768d
+
+pkgname = masterpdfeditor-arm
+	depends = libgl
+	depends = nspr
+	depends = nss
+	depends = qt5-base
+	depends = qt5-svg
+	depends = qt5-declarative
+	depends = sane

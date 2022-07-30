@@ -1,0 +1,14 @@
+pkgbase = nextcloud-app-talk
+	pkgdesc = Video & audio-conferencing using WebRTC
+	pkgver = 10.0.5
+	pkgrel = 1
+	url = https://apps.nextcloud.com/apps/spreed
+	arch = any
+	license = AGPL
+	depends = nextcloud
+	options = !strip
+	source = https://github.com/nextcloud/spreed/releases/download/v10.0.5/spreed-10.0.5.tar.gz
+	sha512sums = a736b55c9dda67ceee5d38b9b62da0c4533ac9f21e1e373e9261f4d190702a41675b098047fe6cabfcb78f624c89e1fd1bcaefa6b487f78ca054440cb9ff7bd8
+
+pkgname = nextcloud-app-talk
+

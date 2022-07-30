@@ -1,0 +1,39 @@
+pkgbase = wkhtmltopdf-static
+	pkgdesc = Shell utility to convert HTML to PDF using Webkit and Qt (upstream static build)
+	pkgver = 0.12.6
+	pkgrel = 2
+	url = https://wkhtmltopdf.org/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	depends = bzip2
+	depends = expat
+	depends = fontconfig
+	depends = freetype2
+	depends = gcc-libs
+	depends = glib2
+	depends = glibc
+	depends = graphite
+	depends = harfbuzz
+	depends = libjpeg6-turbo
+	depends = libpng
+	depends = libx11
+	depends = libxau
+	depends = libxcb
+	depends = libxdmcp
+	depends = libxext
+	depends = libxrender
+	depends = openssl
+	depends = pcre
+	depends = zlib
+	optdepends = icu48: Rendering from HTML uses unicode character encoding
+	provides = wkhtmltopdf=0.12.6
+	conflicts = wkhtmltopdf
+	options = !strip
+	source_i686 = https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.buster_i386.deb
+	sha256sums_i686 = 70f9d119a74e26e350cfe75f0d9d13bda1476ab6642a01f63aa7074ec417956c
+	source_x86_64 = https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.buster_amd64.deb
+	sha256sums_x86_64 = 3e7a93a2ae4a2dd5cccb1b7bcce0eb462c75f05efa314a29499dadfdc5ebc59e
+
+pkgname = wkhtmltopdf-static
+

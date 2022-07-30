@@ -1,0 +1,23 @@
+pkgbase = python-google-auth-httplib2-git
+	pkgdesc = Google Authentication Library: httplib2 transport
+	pkgver = r8.e7cd722
+	pkgrel = 4
+	url = https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2
+	arch = any
+	license = Apache
+	checkdepends = python-pytest-runner
+	checkdepends = python-mock
+	checkdepends = python-flask
+	checkdepends = python-pytest-localserver
+	makedepends = python-setuptools
+	makedepends = git
+	depends = python-google-auth
+	depends = python-httplib2
+	depends = python-six
+	provides = python-google-auth-httplib2
+	conflicts = python-google-auth-httplib2
+	source = git+https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2.git
+	sha512sums = SKIP
+
+pkgname = python-google-auth-httplib2-git
+

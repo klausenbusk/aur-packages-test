@@ -1,0 +1,21 @@
+pkgbase = idos-timetable-lang-en
+	pkgdesc = English language ressource file for railway/ public transport timetable search engines by CHAPS.
+	pkgver = 20160720
+	pkgrel = 6
+	epoch = 0
+	arch = any
+	groups = idos-timetable
+	license = custom
+	depends = idos-timetable-browser
+	provides = idos-timetable-lang=20160720
+	source = TTe.dll
+	source = copying.info.txt
+	source = IDOS-Licence.pdf::http://chaps.cz/files/idos/IDOS-Licence.pdf
+	source = version
+	sha256sums = eb8f3408e057fb406d1c9fc1a5be7fa57657c8a23bfb6a73c6e5b1931a722fb9
+	sha256sums = c34696bef1fd70999b1dedcb3dbb061f9ace8a2f90c7a5fd11f256324d557cb2
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = idos-timetable-lang-en
+

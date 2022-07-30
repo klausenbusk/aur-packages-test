@@ -1,0 +1,14 @@
+pkgbase = rate-arch-mirrors
+	pkgdesc = Everyday-use client-side map-aware arch mirror ranking tool
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/westandskif/rate-arch-mirrors
+	arch = x86_64
+	license = custom
+	makedepends = cargo
+	depends = gcc-libs
+	source = rate-arch-mirrors-0.3.0.tar.gz::https://github.com/westandskif/rate-arch-mirrors/archive/v0.3.0.tar.gz
+	sha512sums = 3bc7e85f865bc08b6fe3367f6f20b9854dfaa7377260ee0af49568a39c62b4f0ceb0886154b47a5c85d5d8fdf17c57d62029a4fd3cb6f0c20729e8ef14fafe54
+
+pkgname = rate-arch-mirrors
+

@@ -1,0 +1,15 @@
+pkgbase = systemd-dummy
+	pkgdesc = system and service manager
+	pkgver = 1
+	pkgrel = 1
+	url = https://www.github.com/systemd/systemd
+	arch = any
+	license = GPL2
+	license = LGPL2.1
+	provides = systemd
+	provides = systemd-tools
+	conflicts = systemd
+	conflicts = systemd-tools
+
+pkgname = systemd-dummy
+

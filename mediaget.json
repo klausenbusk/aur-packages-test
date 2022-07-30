@@ -1,0 +1,19 @@
+pkgbase = mediaget
+	pkgdesc = torrent player torrent-client
+	pkgver = 3.200.4008
+	pkgrel = 3
+	url = https://mediaget.com/
+	arch = i386
+	arch = x86_64
+	license = custom
+	depends = libidn11
+	depends = gcc-libs
+	depends = vlc
+	source = mediaget.tar.xz::https://mediaget.com/installer/mediaget_linux_4008.tar.xz
+	source = mediaget.desktop
+	source = mediaget
+	md5sums = c0e0834ac2fbd8252b1f4c2d1f3fe629
+	md5sums = a0d5c36d4c355317fba5eed5ad55880c
+	md5sums = 70f419b3a15bee508f8bd1beb3b85342
+
+pkgname = mediaget

@@ -1,0 +1,15 @@
+pkgbase = kotlin-vim
+	pkgdesc = Kotlin plugin for Vim
+	pkgver = r75.2697016
+	pkgrel = 2
+	url = https://github.com/udalov/kotlin-vim
+	arch = any
+	groups = vim-plugins
+	license = Apache
+	makedepends = git
+	depends = vim
+	source = git+https://github.com/udalov/kotlin-vim.git
+	sha512sums = SKIP
+
+pkgname = kotlin-vim
+

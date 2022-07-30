@@ -1,0 +1,24 @@
+pkgbase = f3d-git
+	pkgdesc = A fast and minimalist 3D viewer
+	pkgver = v1.2.1.r46.g1567cce
+	pkgrel = 2
+	url = https://github.com/f3d-app/f3d
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	makedepends = git-lfs
+	makedepends = cmake
+	makedepends = fmt
+	depends = vtk
+	depends = glew
+	depends = pugixml
+	depends = netcdf
+	depends = ospray
+	depends = assimp
+	depends = opencascade
+	provides = f3d
+	conflicts = f3d
+	source = git+https://github.com/f3d-app/f3d.git
+	sha256sums = SKIP
+
+pkgname = f3d-git

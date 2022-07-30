@@ -1,0 +1,24 @@
+pkgbase = ambiorix-meta
+	pkgdesc = Meta package for all ambiorix stuff
+	pkgver = 1
+	pkgrel = 2
+	url = https://gitlab.com/soft.at.home/ambiorix
+	arch = any
+	license = MIT
+	depends = lib_amxc
+	depends = lib_amxp
+	depends = lib_amxo
+	depends = lib_amxj
+	depends = lib_amxd
+	depends = lib_amxm
+	depends = lib_amxt
+	depends = amxrt
+	depends = amxo-cg
+	depends = amxb-inspect
+	depends = amxb_ubus
+	depends = amxb_pcb
+	provides = ambiorix-meta
+	conflicts = ambiorix-meta
+
+pkgname = ambiorix-meta
+

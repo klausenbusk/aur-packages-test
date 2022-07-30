@@ -1,0 +1,18 @@
+pkgbase = waves-client
+	pkgdesc = The official client application for the Waves platform
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://wavesplatform.com/
+	arch = x86_64
+	license = MIT
+	depends = gtk2
+	depends = libxtst
+	depends = libxss
+	depends = gconf
+	depends = nss
+	depends = alsa-lib
+	source = https://wavesplatform.com/files/WavesDEX-linux.deb
+	sha256sums = d63f7762cf5d9a75a420028a28f673d73ec623b5d13ec3c519bf693070cab3b2
+
+pkgname = waves-client
+

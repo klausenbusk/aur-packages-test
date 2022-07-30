@@ -1,0 +1,18 @@
+pkgbase = java-design-patterns-git
+	pkgdesc = Design patterns implemented in Java
+	pkgver = 1.23.0.r0.687648af
+	pkgrel = 1
+	url = http://java-design-patterns.com/
+	install = java-design-patterns.install
+	arch = any
+	license = MIT
+	makedepends = git
+	optdepends = java-environment
+	optdepends = maven
+	provides = java-design-patterns
+	conflicts = java-design-patterns
+	source = java-design-patterns::git+https://github.com/iluwatar/java-design-patterns
+	sha256sums = SKIP
+
+pkgname = java-design-patterns-git
+

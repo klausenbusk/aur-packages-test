@@ -1,0 +1,26 @@
+pkgbase = dxx-rebirth
+	pkgdesc = An enhanced engine to play Descent 1 / Descent 2
+	pkgver = 0.59.100.r1109.ga02ad8b16
+	pkgrel = 1
+	url = http://www.dxx-rebirth.com/
+	install = dxx-rebirth.install
+	arch = i686
+	arch = x86_64
+	license = custom:D1x
+	license = LGPL
+	license = custom:as-is
+	makedepends = scons
+	makedepends = unzip
+	depends = sdl
+	depends = sdl_mixer
+	depends = mesa
+	depends = physfs
+	conflicts = d1x-rebirth
+	conflicts = d2x-rebirth
+	replaces = d1x-rebirth
+	replaces = d2x-rebirth
+	source = git+https://github.com/dxx-rebirth/dxx-rebirth.git
+	sha256sums = SKIP
+
+pkgname = dxx-rebirth
+

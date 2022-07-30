@@ -1,0 +1,18 @@
+pkgbase = python-nptyping
+	pkgdesc = Type hints for Numpy
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://github.com/ramonhagenaars/nptyping
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pycodestyle
+	checkdepends = python-pylint
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	depends = python
+	depends = python-numpy
+	depends = python-typish
+	source = python-nptyping-1.4.4.tar.gz::https://github.com/ramonhagenaars/nptyping/archive/v1.4.4.tar.gz
+	sha512sums = 4dd124734fde7e19867af0efd0c3a79f220b20576cb2f34a1cfb5e47c4fde44e936dca708d68bef99eb554afe7576f7fee447d6dd73f3c136340c8f48770f7b8
+
+pkgname = python-nptyping

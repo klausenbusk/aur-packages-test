@@ -1,0 +1,22 @@
+pkgbase = carla-bridges-win32
+	pkgdesc = Carla Windows VST 32-Bit Bridge (Stable)
+	pkgver = 2.5.0
+	pkgrel = 1
+	url = http://kxstudio.sf.net/carla
+	arch = x86_64
+	license = GPL2
+	makedepends = gcc-multilib
+	makedepends = git
+	makedepends = mingw-w64-gcc
+	makedepends = mingw-w64-pkg-config
+	makedepends = mingw-w64-winpthreads
+	depends = wine
+	depends = carla
+	provides = carla-bridges-win32
+	conflicts = carla-bridges-win32
+	conflicts = carla-bridges-win
+	source = https://github.com/falkTX/Carla/archive/refs/tags/v2.5.0.tar.gz
+	sha512sums = ea263719ec9903e89d9713cb0742dd432d04de62d8d93a4801b42a544f4b7f1b702f10b51cc2ec369cbd2982f2a732e2a26b93e4a6066be96dc91b1a861ce69d
+	b2sums = 75db562048be2ae7fa9c01602cc4939ea5793b231a5f6bcab4acc475bce60f1faf7d6e950b3022fa87df9fec039a5106f926cf1ec4a966893d4526c783256b6b
+
+pkgname = carla-bridges-win32

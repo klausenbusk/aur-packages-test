@@ -1,0 +1,17 @@
+pkgbase = geneet-git
+	pkgdesc = Generator for EFL's pickler/unpickler library, EET
+	pkgver = 0.1.2.84e1b18
+	pkgrel = 1
+	url = http://www.enlightenment.org
+	arch = any
+	license = MIT-custom
+	makedepends = git
+	depends = python2
+	depends = python2-pyparsing
+	provides = geneet
+	options = !libtool
+	source = git+https://git.enlightenment.org/tools/geneet.git
+	md5sums = SKIP
+
+pkgname = geneet-git
+

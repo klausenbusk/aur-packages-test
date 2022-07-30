@@ -1,0 +1,20 @@
+pkgbase = pagekite
+	pkgdesc = Python implementation of the PageKite remote front-end protocols.
+	pkgver = 1.5.2.200725
+	pkgrel = 1
+	url = https://pagekite.net/wiki/OpenSource/
+	arch = any
+	license = AGPL3
+	makedepends = python2-setuptools
+	depends = python2
+	depends = python2-six
+	depends = python2-socksipychain
+	provides = pagekite
+	conflicts = python2-pagekite
+	options = !emptydirs
+	options = zipman
+	source = pagekite-1.5.2.200725.tar.gz::https://github.com/pagekite/PyPagekite/archive/v1.5.2.200725.tar.gz
+	sha256sums = 6172b9e92c2b46d393148ea8081de148f43ffe26e361d75305d047a63c3a0759
+
+pkgname = pagekite
+

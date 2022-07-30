@@ -1,0 +1,17 @@
+pkgbase = papirus-libreoffice-theme-git
+	pkgdesc = Papirus theme for LibreOffice
+	pkgver = 20170228.r8.gcfe7659
+	pkgrel = 1
+	url = https://github.com/PapirusDevelopmentTeam/papirus-libreoffice-theme
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = libreoffice
+	provides = papirus-libreoffice-theme
+	conflicts = papirus-libreoffice-theme
+	options = !strip
+	source = git+https://github.com/PapirusDevelopmentTeam/papirus-libreoffice-theme.git
+	sha256sums = SKIP
+
+pkgname = papirus-libreoffice-theme-git
+

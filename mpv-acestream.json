@@ -1,0 +1,17 @@
+pkgbase = mpv-acestream
+	pkgdesc = Lua script that adds AceStream protocol handler to mpv player
+	pkgver = 0.4
+	pkgrel = 1
+	url = https://github.com/Digitalone1/mpv-acestream
+	install = mpv-acestream.install
+	arch = any
+	license = GPL3
+	depends = acestream-engine
+	depends = mpv
+	source = https://github.com/Digitalone1/mpv-acestream/archive/v0.4.tar.gz
+	source = acestream.protocol
+	md5sums = 8ddf76886cce4ee87615fca71c3828be
+	md5sums = b3c9666c4e0aecd92f6fc208a2b3429e
+
+pkgname = mpv-acestream
+

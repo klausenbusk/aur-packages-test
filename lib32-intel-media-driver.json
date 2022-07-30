@@ -1,0 +1,17 @@
+pkgbase = lib32-intel-media-driver
+	pkgdesc = Intel Media Driver for VAAPI — Broadwell+ iGPUs
+	pkgver = 22.2.2
+	pkgrel = 1
+	url = https://github.com/intel/media-driver/
+	arch = x86_64
+	license = MIT
+	license = BSD
+	makedepends = cmake
+	depends = lib32-gcc-libs
+	depends = lib32-intel-gmmlib
+	depends = lib32-libva
+	depends = lib32-libpciaccess
+	source = https://github.com/intel/media-driver//archive/intel-media-22.2.2.tar.gz
+	sha256sums = b74227ab165fdb09f184968589129dbf29bf382b44b415dd69db9e612f551345
+
+pkgname = lib32-intel-media-driver

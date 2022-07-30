@@ -1,0 +1,43 @@
+pkgbase = linux-amd
+	pkgver = 5.18.v.15
+	pkgrel = 1
+	url = https://www.kernel.org/
+	arch = x86_64
+	license = GPL2
+	makedepends = xmlto
+	makedepends = docbook-xsl
+	makedepends = kmod
+	makedepends = inetutils
+	makedepends = bc
+	makedepends = git
+	makedepends = libelf
+	makedepends = lzop
+	makedepends = gcc>=10.3
+	options = !strip
+	source = git+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git#tag=v5.18.15
+	source = config.x86_64
+	source = linux-amd.preset
+	source = linux.install
+	source = https://raw.githubusercontent.com/graysky2/kernel_compiler_patch/20220315/more-uarches-for-kernel-5.17+.patch
+	sha256sums = SKIP
+	sha256sums = dc6b8271e5a880f0b9beaf528a4f06f377c105bbfb3ce528d480d1e271fd5cf6
+	sha256sums = 60c6ba602443e94a9eba3aeee9d194027d69bffaa428c6d055348ebf03681b5c
+	sha256sums = d590e751ab4cf424b78fd0d57e53d187f07401a68c8b468d17a5f39a337dacf0
+	sha256sums = dea86a521603414a8c7bf9cf1f41090d5d6f8035ce31407449e25964befb1e50
+
+pkgname = linux-amd
+	pkgdesc = Linux kernel aimed at the latest AMD Ryzen CPU based hardware (ZNVER3/MZEN3)
+	install = linux.install
+	depends = coreutils
+	depends = linux-firmware
+	depends = kmod
+	depends = mkinitcpio>=0.7
+	depends = lzop
+	optdepends = crda: to set the correct wireless channels of your country
+	backup = etc/mkinitcpio.d/linux-amd.preset
+
+pkgname = linux-amd-headers
+	pkgdesc = Header files and scripts for building modules for Linux kernel aimed at the latest AMD CPU based hardware
+
+pkgname = linux-amd-docs
+	pkgdesc = Kernel hackers manual - HTML documentation that comes with the Linux kernel

@@ -1,0 +1,29 @@
+pkgbase = archiso-encryption
+	pkgdesc = Tools for creating Arch Linux live and install ISO images (LUKS image type support).
+	pkgver = v66
+	pkgrel = 1
+	url = https://gitlab.archlinux.org/archlinux/archiso/-/issues/156
+	arch = any
+	license = GPL3
+	checkdepends = shellcheck
+	makedepends = git
+	depends = arch-install-scripts
+	depends = bash
+	depends = dosfstools
+	depends = e2fsprogs
+	depends = erofs-utils
+	depends = libarchive
+	depends = libisoburn
+	depends = mtools
+	depends = squashfs-tools
+	depends = cryptsetup-nested-cryptkey
+	optdepends = archiso-profiles: extra profiles for archiso
+	optdepends = edk2-ovmf: for emulating UEFI with run_archiso
+	optdepends = openssl: for codesigning support when building netboot artifacts
+	optdepends = qemu: for run_archiso
+	provides = archiso
+	conflicts = archiso
+	source = archiso::git+https://gitlab.archlinux.org/tallero/archiso#tag=v66
+	sha256sums = SKIP
+
+pkgname = archiso-encryption

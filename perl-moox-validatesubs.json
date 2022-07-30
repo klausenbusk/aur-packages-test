@@ -1,0 +1,18 @@
+pkgbase = perl-moox-validatesubs
+	pkgdesc = Validating sub routines via Type::Tiny.
+	pkgver = 1.012006
+	pkgrel = 2
+	url = https://metacpan.org/release/MooX-ValidateSubs
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl-moo>=0
+	depends = perl-moox-returnmodifiers>=0.09
+	depends = perl-type-tiny>=1.002000
+	depends = perl>=5.006
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/L/LN/LNATION/MooX-ValidateSubs-1.012006.tar.gz
+	md5sums = 86daeed0e93cf38b44fda36511b57a6f
+	sha512sums = 5d1e5cfd0b0fff47515bad4d8123b7da0a1d63078e5e64a1c70bef64e8b2ea04b472d62cd555e6ccc781b5a5603e8e915ce1e033f01ed5fecaba93f16a783d29
+
+pkgname = perl-moox-validatesubs

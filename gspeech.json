@@ -1,0 +1,19 @@
+pkgbase = gspeech
+	pkgdesc = a GUI for SVox Pico TTS
+	pkgver = 0.11.0
+	pkgrel = 2
+	url = https://github.com/mothsART/gSpeech
+	arch = any
+	license = GPL
+	makedepends = python-setuptools
+	depends = gst-python
+	depends = python-gobject
+	depends = svox-pico-bin
+	depends = python-notify2
+	depends = gst-plugins-good
+	depends = libappindicator-gtk3
+	depends = sox
+	source = https://github.com/mothsART/gSpeech/archive/0.11.0.tar.gz
+	sha256sums = 5e6345b7bf11e24816de0c76045bdad45a4e612fe289288b37ee92f82b61623f
+
+pkgname = gspeech

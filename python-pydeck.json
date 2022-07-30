@@ -1,0 +1,21 @@
+pkgbase = python-pydeck
+	pkgdesc = Widget for deck.gl maps
+	pkgver = 0.7.1
+	pkgrel = 4
+	url = https://pypi.org/project/pydeck
+	arch = any
+	license = Apache
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = ipython
+	depends = python-ipykernel
+	depends = python-ipywidgets
+	depends = python-jinja
+	depends = python-numpy
+	depends = python-traitlets
+	source = pydeck-0.7.1.tar.gz::https://files.pythonhosted.org/packages/source/p/pydeck/pydeck-0.7.1.tar.gz
+	sha512sums = 7d4d392a11ae26a9efd138eac6286ed08055613b8aba10ea8888d3d862ef21af13d588ceb6058a5cedbff564fed17b9da5c19f7deeacd6030f0c7dd0ac9afaa3
+
+pkgname = python-pydeck

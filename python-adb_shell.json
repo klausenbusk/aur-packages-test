@@ -1,0 +1,19 @@
+pkgbase = python-adb_shell
+	pkgdesc = A Python implementation of ADB with shell and FileSync functionality.
+	pkgver = 0.4.2
+	pkgrel = 1
+	url = https://pypi.org/project/adb_shell
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = python
+	depends = python-cryptography
+	depends = python-pyasn1
+	depends = python-rsa
+	optdepends = python-aiofiles: async API
+	optdepends = python-libusb1: To connect to a device via USB
+	source = python-adb_shell-0.4.2.tar.gz::https://pypi.python.org/packages/source/a/adb_shell/adb_shell-0.4.2.tar.gz
+	sha256sums = 4def425f76d2b40df52fb999be5e580b077ad676be5968885545971f9a85dfe2
+	b2sums = aa7e012150973b736fef60f47ed88116c936d484506828d09ee8f278e2f5c136855cf2b87902d0c737d735a2dec8f41cd67c489e97030a9c949c1825bd40137e
+
+pkgname = python-adb_shell

@@ -1,0 +1,15 @@
+pkgbase = enjarify
+	pkgdesc = Translating Dalvik bytecode to Java bytecode
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/google/enjarify
+	arch = any
+	license = Apache
+	depends = python
+	source = https://github.com/google/enjarify/archive/1.0.0.tar.gz
+	source = pythonpath.patch
+	sha256sums = b4ef8c8d5773a8e1878eadd0a4d7189ff06a83bbbdd7f405edf139672a769f63
+	sha256sums = be411711026be0b8fc6dfb77fb46c350ff8920f882651d6667b253ab8eedef1e
+
+pkgname = enjarify
+

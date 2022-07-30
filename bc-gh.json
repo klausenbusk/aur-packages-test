@@ -1,0 +1,24 @@
+pkgbase = bc-gh
+	pkgdesc = Implementation of dc and POSIX bc with GNU extensions
+	pkgver = 5.3.3
+	pkgrel = 1
+	url = https://github.com/gavinhoward/bc
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = BSD
+	depends = libedit
+	provides = bc
+	conflicts = bc
+	source = bc-gh-5.3.3.tar.xz::https://github.com/gavinhoward/bc/releases/download/5.3.3/bc-5.3.3.tar.xz
+	source = bc-gh-5.3.3.tar.xz.sig::https://github.com/gavinhoward/bc/releases/download/5.3.3/bc-5.3.3.tar.xz.sig
+	validpgpkeys = E2A30324A4465A4D5882692EC08038BDF280D33E
+	sha256sums = 616350bd0ea3ee1ebfc8580f0bf8bcec94c7f7cdeed397394e318e5f2a2cdb23
+	sha256sums = 130272040e22d0c28d9d88f08c6a04591d11a17ad3ce07b5c882077d031d1a0b
+	sha512sums = 94f7c35761211b4909f4bc5a2c19e7cd6589f7b6c2fa6eaf0a889d682ffd3f3ba79b3580d9e2aa4bef32b4c7874d047d0fba4e7dace05d63c87f884afbe8020f
+	sha512sums = 1fa5b61dd76e55cf5122fb019051f5cb8ac1433776f52a13cd1c017d8d66b418fc52dd95ad1de3f06cb0995cfb9b905841a83e1fffc90210d097f92eb4777923
+
+pkgname = bc-gh

@@ -1,0 +1,18 @@
+pkgbase = python-numba-git
+	pkgdesc = NumPy aware dynamic Python compiler using LLVM (Git version)
+	pkgver = 0.55.0dev0.r1004.g8f3cd87a0
+	pkgrel = 1
+	url = https://github.com/numba/numba
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	depends = python-llvmlite>0.37.999
+	depends = python-numpy
+	depends = python-setuptools
+	depends = tbb
+	provides = python-numba=0.55.0dev0.r1004.g8f3cd87a0
+	conflicts = python-numba
+	source = git+https://github.com/numba/numba.git
+	sha256sums = SKIP
+
+pkgname = python-numba-git

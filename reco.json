@@ -1,0 +1,16 @@
+pkgbase = reco
+	pkgdesc = An audio recording app designed for elementary OS
+	pkgver = 3.3.1
+	pkgrel = 1
+	url = https://github.com/ryonakano/reco
+	arch = x86_64
+	license = GPL3
+	makedepends = meson
+	makedepends = vala
+	makedepends = libhandy
+	depends = granite
+	depends = gstreamer
+	source = reco-3.3.1.tar.gz::https://github.com/ryonakano/reco/archive/3.3.1.tar.gz
+	sha256sums = 545e898b4cfb849392d17e8ee95cbb5daf806f1ea60f532edfab36b33bcb4c63
+
+pkgname = reco

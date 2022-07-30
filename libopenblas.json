@@ -1,0 +1,19 @@
+pkgbase = libopenblas
+	pkgdesc = An optimized BLAS library based on GotoBLAS2 1.13 BSD. (Designed for can be installed side by side with Blas)
+	pkgver = 0.3.20
+	pkgrel = 1
+	url = http://www.openblas.net
+	arch = x86_64
+	license = BSD
+	makedepends = cmake
+	makedepends = perl
+	makedepends = gcc-fortran
+	depends = gcc-libs
+	provides = openblas
+	conflicts = openblas
+	options = !emptydirs
+	options = debug
+	source = OpenBLAS-v0.3.20.tar.gz::http://github.com/xianyi/OpenBLAS/archive/v0.3.20.tar.gz
+	sha256sums = 8495c9affc536253648e942908e88e097f2ec7753ede55aca52e5dead3029e3c
+
+pkgname = libopenblas

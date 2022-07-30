@@ -1,0 +1,17 @@
+pkgbase = emacs-ansible
+	pkgdesc = Ansible minor mode for Emacs
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/k1LoW/emacs-ansible
+	install = emacs-ansible.install
+	arch = any
+	license = GPL3
+	depends = emacs-s
+	depends = emacs-f
+	depends = emacs-yasnippet
+	depends = ansible
+	source = emacs-ansible-0.2.0.tar.gz::https://github.com/k1LoW/emacs-ansible/archive/0.2.0.tar.gz
+	sha256sums = b3fe614eef5b22755cdf9b543fa0a197038ab307ef748ccc2295b98713470af1
+
+pkgname = emacs-ansible
+

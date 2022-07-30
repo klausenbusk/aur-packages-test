@@ -1,0 +1,8 @@
+pkgbase = hp-mfp-10x-17x
+	pkgdesc = This package is currently deprecated! Install `hpuld` instead
+	pkgver = 1.0
+	pkgrel = 1
+	arch = any
+
+pkgname = hp-mfp-10x-17x
+

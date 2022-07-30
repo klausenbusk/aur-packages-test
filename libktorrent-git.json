@@ -1,0 +1,21 @@
+pkgbase = libktorrent-git
+	pkgdesc = A BitTorrent protocol implementation. (GIT version)
+	pkgver = 2.2.0.r459.5bf1109
+	pkgrel = 1
+	url = https://projects.kde.org/projects/extragear/network/libktorrent
+	arch = x86_64
+	license = GPL
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	makedepends = git
+	makedepends = python
+	makedepends = boost
+	depends = qca-qt5
+	depends = kio
+	provides = libktorrent
+	conflicts = libktorrent
+	source = git+https://invent.kde.org/network/libktorrent.git
+	sha256sums = SKIP
+
+pkgname = libktorrent-git
+

@@ -1,0 +1,10 @@
+pkgbase = grive-tools-patched
+	pkgver = 1.15
+	pkgrel = 9
+	arch = any
+	license = GPL3
+	conflicts = grive-tools
+	conflicts = grive-indicator-git
+
+pkgname = grive-tools-patched
+

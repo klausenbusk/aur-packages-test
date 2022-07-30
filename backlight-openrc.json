@@ -1,0 +1,15 @@
+pkgbase = backlight-openrc
+	pkgdesc = Restore the screen brightness at system startup (OpenRC)
+	pkgver = 2
+	pkgrel = 1.1
+	url = https://github.com/alium/backlight-openrc
+	install = backlight-openrc.install
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	depends = openrc
+	source = git+https://github.com/alium/backlight-openrc.git
+	sha256sums = SKIP
+
+pkgname = backlight-openrc
+

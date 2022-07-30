@@ -1,0 +1,29 @@
+pkgbase = git-repo
+	pkgdesc = Tool for managing remote repositories from your git CLI!
+	pkgver = 1.10.3
+	pkgrel = 1
+	url = https://github.com/guyzmo/git-repo
+	arch = any
+	license = GPL2
+	makedepends = python-setuptools
+	makedepends = python-pip
+	depends = python
+	depends = python-docopt
+	depends = python-progress
+	depends = python-dateutil
+	depends = python-lxml
+	depends = python-gitpython
+	depends = python-github3
+	depends = python-gitlab
+	depends = python-gogs-client
+	depends = python-pybitbucket_fork
+	depends = python-attrs
+	conflicts = git-repo-git
+	replaces = git-repo-git
+	source = https://files.pythonhosted.org/packages/source/g/git-repo/git-repo-1.10.3.tar.gz
+	source = setup.patch::https://patch-diff.githubusercontent.com/raw/guyzmo/git-repo/pull/191.patch
+	md5sums = a9439f1aad6fc8c83baafcee0913b3b2
+	md5sums = ef16c46f75fadf808c2ab4c3f047c44e
+
+pkgname = git-repo
+

@@ -1,0 +1,23 @@
+pkgbase = stm32cubef7
+	pkgdesc = Embedded software for STM32 F7 series
+	pkgver = 1.16.0
+	pkgrel = 1
+	url = http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32cube-embedded-software/stm32cubef7.html
+	arch = any
+	license = custom:MCD-ST Liberty SW License Agreement V2
+	makedepends = unzip
+	depends = bash
+	depends = perl
+	optdepends = arm-none-eabi-gcc: ARM compiler
+	optdepends = arm-none-eabi-gdb: ARM GDB
+	optdepends = arm-none-eabi-newlib: ARM bare metal files
+	optdepends = arm-none-eabi-binutils: ARM binutils
+	optdepends = openocd: STM32F4 firmware flashing
+	options = !strip
+	source = STM32CubeF7-1.16.1.zip::https://github.com/STMicroelectronics/STM32CubeF7/archive/refs/tags/v1.16.1.zip
+	source = LICENSE
+	sha512sums = 5143a9dcf12d811778ccda6c7d361a5fc8c90f81edef22bec25c31f28e5869e97ccede483787972f20afe581431e434bde1c6612f7749e0eb9f8f3d2be2cce75
+	sha512sums = 56b5435d98843b02ad3b735cce67b37a98e56095e7377710708c8ce9b72fc4451a314109536bcc48229697c054479b422977d337e701a07014c84fcb97cb04d8
+
+pkgname = stm32cubef7
+

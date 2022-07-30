@@ -1,0 +1,24 @@
+pkgbase = watcher3
+	pkgdesc = Automated movie NZB & Torrent searcher and snatcher
+	pkgver = 927.0217e75
+	pkgrel = 1
+	url = https://github.com/nosmokingbandit/Watcher3
+	install = watcher3.install
+	arch = any
+	license = Apache
+	makedepends = git
+	depends = python
+	optdepends = deluge
+	optdepends = qbittorrent
+	optdepends = rtorrent
+	optdepends = sabnzbd
+	optdepends = transmission-cli
+	source = git://github.com/nosmokingbandit/Watcher3.git
+	source = watcher3.service
+	source = watcher3.install
+	md5sums = SKIP
+	md5sums = 3c3c11ea82d64953917a1b649d1211cb
+	md5sums = 7eb1be1e1a08716e11d18c3ea7dd5e54
+
+pkgname = watcher3
+

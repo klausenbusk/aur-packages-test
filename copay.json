@@ -1,0 +1,15 @@
+pkgbase = copay
+	pkgdesc = Copay Bitcoin Wallet
+	pkgver = 5.9.4
+	pkgrel = 1
+	url = https://copay.io
+	arch = x86_64
+	license = MIT
+	depends = npm
+	source = copay.desktop
+	md5sums = e05610d1b08a2c688efccf9d687b8b92
+	source_x86_64 = copay-5.9.4::git+https://github.com/bitpay/copay.git#tag=v5.9.4
+	md5sums_x86_64 = SKIP
+
+pkgname = copay
+

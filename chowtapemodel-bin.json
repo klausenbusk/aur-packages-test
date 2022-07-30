@@ -1,0 +1,21 @@
+pkgbase = chowtapemodel-bin
+	pkgdesc = Physical modelling signal processing for analog tape recording
+	pkgver = 2.11.0
+	pkgrel = 1
+	url = https://chowdsp.com/
+	arch = x86_64
+	groups = vst3-plugins
+	groups = lv2-plugins
+	groups = pro-audio
+	license = GPL3
+	depends = libglvnd
+	depends = freetype2
+	depends = alsa-lib
+	conflicts = chowtapemodel-vst3-git
+	conflicts = chowtapemodel-lv2-git
+	conflicts = chowtapemodel-jack-git
+	conflicts = chowtapemodel-lv2.git
+	source = https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.0/ChowTapeModel-Linux-x64-2.11.0.deb
+	sha256sums = d1e60eb720b5fa679415d2995841db7b6099efd02b9d3fdd4b2b8f362b0896d5
+
+pkgname = chowtapemodel-bin

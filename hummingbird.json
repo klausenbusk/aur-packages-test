@@ -1,0 +1,22 @@
+pkgbase = hummingbird
+	pkgdesc = FLOSS OpenVPN3 client using AirVPN's OpenVPN3 library fork
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://gitlab.com/AirVPN/hummingbird
+	changelog = Changelog.txt
+	arch = x86_64
+	arch = armv7l
+	arch = aarch64
+	license = GPL3
+	makedepends = git
+	depends = crypto++
+	depends = curl
+	provides = hummingbird-bin
+	conflicts = hummingbird-bin
+	conflicts = airvpn-suite
+	conflicts = airvpn-suite-bin
+	conflicts = airvpn-suite-beta-bin
+	source = git+https://gitlab.com/AirVPN/hummingbird.git#commit=ebc99f197f880d400bdece0724e79e07549fea30
+	sha256sums = SKIP
+
+pkgname = hummingbird

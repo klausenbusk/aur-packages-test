@@ -1,0 +1,26 @@
+pkgbase = rare-dev
+	pkgdesc = Dev branch of github.com/Dummerle/Rare - The latest, but unstable features
+	pkgver = 1.3.0b
+	pkgrel = 1
+	url = https://github.com/Dummerle/Rare
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = gendesk
+	depends = python-pillow
+	depends = python-pyqt5
+	depends = python-qtawesome
+	depends = python-requests
+	depends = python-setuptools
+	depends = python-wheel
+	depends = python-psutil
+	provides = rare-git
+	provides = rare
+	conflicts = rare-git
+	conflicts = rare
+	source = rare-dev::git+https://github.com/Dummerle/Rare.git
+	sha256sums = SKIP
+
+pkgname = rare-dev
+

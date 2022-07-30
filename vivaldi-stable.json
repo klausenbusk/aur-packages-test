@@ -1,0 +1,29 @@
+pkgbase = vivaldi-stable
+	pkgdesc = An advanced browser made with the power user in mind.
+	pkgver = 3.4.2066.106
+	pkgrel = 5
+	url = https://vivaldi.com
+	arch = x86_64
+	license = custom
+	makedepends = w3m
+	depends = gtk3
+	depends = libcups
+	depends = nss
+	depends = alsa-lib
+	depends = libxss
+	depends = ttf-font
+	depends = desktop-file-utils
+	depends = shared-mime-info
+	depends = hicolor-icon-theme
+	optdepends = vivaldi-ffmpeg-codecs: playback of proprietary video/audio
+	optdepends = pepper-flash: flash support
+	optdepends = google-chrome: Widevine DRM Plugin
+	optdepends = vivaldi-widevine: Widevine DRM Plugin
+	optdepends = libnotify: native notifications
+	options = !strip
+	options = !zipman
+	source = https://downloads.vivaldi.com/stable/vivaldi-stable-3.4.2066.106-1.x86_64.rpm
+	sha512sums = 65b53d5e240fbdcff4adb7803a83cbc1d3c1fc2001842946f4312c7061c17db69f11d80360164182e3c78109f30408245a161854b464d4c0666eb7c3fffd468d
+
+pkgname = vivaldi-stable
+

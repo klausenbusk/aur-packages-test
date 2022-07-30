@@ -1,0 +1,13 @@
+pkgbase = bluto
+	pkgdesc = Recon, Subdomain Bruting, Zone Transfers
+	pkgver = 1.1.20
+	pkgrel = 1
+	url = https://github.com/RandomStorm/Bluto
+	arch = any
+	license = GPL3
+	depends = python2-pip
+	source = https://github.com/RandomStorm/Bluto/archive/master.zip
+	sha256sums = 64618514df610cc71a3e1e5c81a06e94f6534dcc1bd869a8e6687b05ad8e3935
+
+pkgname = bluto
+

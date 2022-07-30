@@ -1,0 +1,24 @@
+pkgbase = promscale
+	pkgdesc = An analytical platform for Prometheus metrics
+	pkgver = 0.11.0
+	pkgrel = 1
+	url = https://github.com/timescale/promscale
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = go
+	depends = promscale_extension
+	optdepends = prometheus: for a local prometheus instance
+	options = !lto
+	backup = etc/promscale.conf
+	source = promscale::git+https://github.com/timescale/promscale.git#commit=f49197aac5f58755942fcbeb673271b7def122b2
+	source = systemd.service
+	source = sysusers.conf
+	sha512sums = SKIP
+	sha512sums = 28a4f7b02c7ba36887c4b3906048fc7574d0c66424d20aad5c5c191954c7416adf19d14d6ac7dbb0fef7ff2f4457ed1014c324e9a56f9d08fc47257d8d915ddd
+	sha512sums = ec5e6ec6b967119722d8fdaaaaf1a4d8dea9ad0b78707a1ddd6b55da524b571c7ecd4c2b97776c6ce9f49d4549d760482a2346c11ab287650469448d9c662726
+	b2sums = SKIP
+	b2sums = 00c948fad197fcedcb4171d253b430304673681dd5761f25a6ee545a3c146e37e00f89c4f9d44fdd5ffafcfee5d5eaa5bc3cacd43a0cf46467a9eb7a7f82a281
+	b2sums = 1e720f8e453d9acad5f0ed39a51b59c429322b9e9e885f3d71d0e2fd37276268e639422f8d39ca9fca14e0e5ccf646d717fbe89e0dd696980d03467cfb7d3e0f
+
+pkgname = promscale

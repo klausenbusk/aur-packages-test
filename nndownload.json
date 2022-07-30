@@ -1,0 +1,19 @@
+pkgbase = nndownload
+	pkgdesc = Download and process links from Niconico (nicovideo.jp)
+	pkgver = 1.11.3
+	pkgrel = 1
+	url = https://github.com/AlexAplin/nndownload
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = dos2unix
+	depends = python
+	depends = python-aiohttp
+	depends = python-aiohttp-socks
+	depends = python-beautifulsoup4
+	depends = python-requests
+	depends = python-mutagen
+	source = https://files.pythonhosted.org/packages/source/n/nndownload/nndownload-1.11.3.tar.gz
+	sha256sums = a57a87dd70797df81da964b68ac2f079e962a7bed7d158933bd8a584d7f1f754
+
+pkgname = nndownload

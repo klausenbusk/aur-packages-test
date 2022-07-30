@@ -1,0 +1,17 @@
+pkgbase = eid-viewer
+	pkgdesc = eID-Viewer is a graphical interface to the Belgian Electronic Identity Card
+	pkgver = 4.1.18
+	pkgrel = 2
+	url = http://eid.belgium.be/
+	install = eid-viewer.install
+	arch = i686
+	arch = x86_64
+	license = LGPL3
+	depends = java-runtime
+	depends = gsettings-desktop-schemas
+	depends = eid-mw
+	source = http://eid.belgium.be/sites/default/files/downloads/eid-viewer-4.1.18-v4.1.18.src.tar.gz
+	sha512sums = a07750be8d2d073a44aa4b4d37ac2b62f3c453f3963feb10a7eca22030f6cc18e845de111292defe9ee4fba78cf378ee03ecf01c5f7b436d300b315973099712
+
+pkgname = eid-viewer
+

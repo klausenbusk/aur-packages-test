@@ -1,0 +1,28 @@
+pkgbase = thunderhub
+	pkgdesc = Lightning Node Manager
+	pkgver = 0.13.13
+	pkgrel = 2
+	url = https://github.com/apotdevin/thunderhub
+	install = thunderhub.install
+	arch = any
+	license = MIT
+	makedepends = npm
+	depends = nodejs>=10
+	optdepends = lnd-bin
+	options = !strip
+	backup = etc/thunderhub/accounts.yaml
+	backup = etc/thunderhub/env
+	source = https://github.com/apotdevin/thunderhub/archive/refs/tags/v0.13.13.tar.gz
+	source = env
+	source = accounts.yaml
+	source = thunderhub.user
+	source = pacman-01-chown.hook
+	source = thunderhub.service
+	sha256sums = 432a13c9fbb2f5b3ec21f4ea77e543ab2c301a60b768409fa55eb08dd65459c9
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = thunderhub

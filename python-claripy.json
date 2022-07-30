@@ -1,0 +1,17 @@
+pkgbase = python-claripy
+	pkgdesc = An abstraction layer for constraint solvers
+	pkgver = 9.1.12332
+	pkgrel = 1
+	url = https://github.com/angr/claripy
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python-z3
+	depends = python-future
+	depends = python-cachetools
+	depends = python-decorator
+	depends = python-pysmt
+	source = https://files.pythonhosted.org/packages/source/c/claripy/claripy-9.1.12332.tar.gz
+	sha256sums = 1d7afd89b46c0f8283a35dd4e33434fe3595dc8263f924c95d2c9b2b2eb4fe4b
+
+pkgname = python-claripy

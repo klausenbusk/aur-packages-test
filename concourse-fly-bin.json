@@ -1,0 +1,16 @@
+pkgbase = concourse-fly-bin
+	pkgdesc = A command line interface that runs a build in a container with ATC.
+	pkgver = 7.6.0
+	pkgrel = 1
+	url = https://concourse-ci.org/fly.html
+	arch = x86_64
+	license = Apache
+	optdepends = zsh-completions: auto completion for fly on zsh shell
+	provides = concourse-fly
+	conflicts = concourse-fly
+	conflicts = concourse-fly-git
+	replaces = concourse-fly
+	source = https://github.com/concourse/concourse/releases/download/v7.6.0/fly-7.6.0-linux-amd64.tgz
+	sha256sums = c264d9cb979d05598e44e0527220e21e2f20564f63cc11f98c8480768997433f
+
+pkgname = concourse-fly-bin

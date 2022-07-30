@@ -1,0 +1,18 @@
+pkgbase = texlab
+	pkgdesc = A cross-platform implementation of the Language Server Protocol providing rich cross-editing support for the LaTeX typesetting system.
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://github.com/latex-lsp/texlab
+	arch = x86_64
+	license = MIT
+	makedepends = rustup
+	makedepends = nodejs
+	makedepends = npm
+	depends = gcc-libs
+	conflicts = texlab-git
+	conflicts = texlab-bin
+	source = https://github.com/latex-lsp/texlab/archive/v1.6.0.tar.gz
+	sha512sums = bd524250b4723d97003d144ccfb88fed03daaf6bf24c2e660beb833f0a0661daba6dbe695892bf96bd34b3d945e7e6bbe23bd7a09c003be0651612912c07d1eb
+
+pkgname = texlab
+

@@ -1,0 +1,24 @@
+pkgbase = julia-zmq
+	pkgdesc = Julia binding to the native API of ØMQ project
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/JuliaInterop/ZMQ.jl
+	arch = any
+	license = MIT
+	makedepends = julia-distrohelper
+	depends = julia
+	depends = julia-compat
+	depends = julia-loadpath
+	depends = julia-zeromq-jll
+	depends = zeromq
+	source = julia-zmq-1.2.0.tar.gz::https://github.com/JuliaInterop/ZMQ.jl/archive/v1.2.0.tar.gz
+	source = julia-zmq-1.2.0-Deps.toml::https://raw.githubusercontent.com/JuliaRegistries/General/46d153bfe7dea6702cdf32d025d8b5ff81a4e59f/Z/ZMQ/Deps.toml
+	source = julia-zmq-1.2.0-Package.toml::https://raw.githubusercontent.com/JuliaRegistries/General/46d153bfe7dea6702cdf32d025d8b5ff81a4e59f/Z/ZMQ/Package.toml
+	source = julia-zmq-1.2.0-Versions.toml::https://raw.githubusercontent.com/JuliaRegistries/General/46d153bfe7dea6702cdf32d025d8b5ff81a4e59f/Z/ZMQ/Versions.toml
+	sha256sums = 78eee3d1e1d2326523ebb053300da884a16abbcdb22d8271b43c3531f8d982d3
+	sha256sums = e5f79dae79a511964865c1508fa9d8d453fe5040a1789101b00c1c85ee0e6fcb
+	sha256sums = 6b51aedfcda4ecddeed07880756db0791b33bb158237fdb714ff695f1902f417
+	sha256sums = 3711ed32395591bacbde08b7e4bbc71efb3abe669f5de59427bba5a632b19af5
+
+pkgname = julia-zmq
+

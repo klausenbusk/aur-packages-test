@@ -1,0 +1,16 @@
+pkgbase = perl-file-homedir
+	pkgdesc = Find your home and other directories on any platform
+	pkgver = 1.004
+	pkgrel = 3
+	url = https://metacpan.org/release/File-HomeDir
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	makedepends = perl-module-install
+	depends = perl-file-which
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-HomeDir-1.004.tar.gz
+	md5sums = 2db6a961960baec790a896b99b46395d
+
+pkgname = perl-file-homedir
+

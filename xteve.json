@@ -1,0 +1,17 @@
+pkgbase = xteve
+	pkgdesc = IPTV Proxy for Plex DVR
+	pkgver = 2.2
+	pkgrel = 1
+	url = https://xteve.de
+	arch = x86_64
+	license = MIT
+	source = xteve.service
+	source = xteve.sysusers
+	source = xteve.tmpfiles
+	source = https://github.com/xteve-project/xTeVe-Downloads/raw/master/xteve_linux_amd64.tar.gz
+	sha256sums = 931947d35b91d5763ba6218bdc9096b792d6e1718a9fca0a77b0ffb186c5ed36
+	sha256sums = dbf54529cec6663f89bdc5600df30e3328014096f61c3d43f3d8196556919ce3
+	sha256sums = 17bbf3c47404d3876f99c20ed2cc8787f8c4fea29717d18514d459af852825fb
+	sha256sums = 4fbe2999fe8fa80196060321eeabd76fda80aed713022769f0c2d45b20c0d107
+
+pkgname = xteve

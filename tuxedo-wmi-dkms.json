@@ -1,0 +1,23 @@
+pkgbase = tuxedo-wmi-dkms
+	pkgdesc = A reverse engineering driver for the Clevo P150EM/P170EM/P150SM/P157SM/P170SM/P177SM backlight keyboard, by Christoph Jaeger (DKMS version)
+	pkgver = 1.5.1
+	pkgrel = 3
+	url = https://tuxedocomputers.com
+	arch = x86_64
+	license = GPL
+	depends = dkms
+	optdepends = linux-headers: build modules against Arch kernel
+	optdepends = linux-lts-headers: build modules against LTS kernel
+	optdepends = linux-zen-headers: build modules against ZEN kernel
+	provides = tuxedo-wmi
+	conflicts = clevo_wmi-git
+	conflicts = clevo-wmi
+	conflicts = clevo-wmi
+	conflicts = clevo-wmi-dkms
+	conflicts = tuxedo-wmi
+	replaces = clevo-wmi-dkms
+	source = http://deb.tuxedocomputers.com/ubuntu/pool/main/t/tuxedo-wmi-dkms/tuxedo-wmi-dkms_1.5.1_all.deb
+	sha256sums = e5446c4c327752ddc74f59bc9e8239d912aee6ef10b121d0690c2b5f68262057
+
+pkgname = tuxedo-wmi-dkms
+

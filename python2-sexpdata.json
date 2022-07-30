@@ -1,0 +1,13 @@
+pkgbase = python2-sexpdata
+	pkgdesc = S-expression parser for Python
+	pkgver = 0.0.3
+	pkgrel = 3
+	url = https://github.com/tkf/sexpdata
+	arch = any
+	license = BSD
+	depends = python2
+	source = https://files.pythonhosted.org/packages/source/s/sexpdata/sexpdata-0.0.3.tar.gz
+	sha256sums = 1ac827a616c5e87ebb60fd6686fb86f8a166938c645f4089d92de3ffbdd494e0
+
+pkgname = python2-sexpdata
+

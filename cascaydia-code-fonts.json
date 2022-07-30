@@ -1,0 +1,20 @@
+pkgbase = cascaydia-code-fonts
+	pkgdesc = Cascaydia fonts with Nerd patches.
+	pkgver = 2.1.0
+	pkgrel = 4
+	url = https://github.com/ryanoasis/nerd-fonts/
+	arch = x86_64
+	license = MIT
+	license = Creative Commons 4.0
+	license = Apache 2.0
+	license = SIL OFT
+	source = https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Regular%20Nerd%20Font%20Complete%20Mono%20Windows%20Compatible.otf
+	source = https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Regular%20Nerd%20Font%20Complete%20Mono.otf
+	source = https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Regular%20Nerd%20Font%20Complete%20Windows%20Compatible.otf
+	source = https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Regular%20Nerd%20Font%20Complete.otf
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = cascaydia-code-fonts

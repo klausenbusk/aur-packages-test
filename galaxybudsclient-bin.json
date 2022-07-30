@@ -1,0 +1,25 @@
+pkgbase = galaxybudsclient-bin
+	pkgdesc = Unofficial manager for the Samsung Galaxy Buds, Buds+, Buds Live and Buds Pro
+	pkgver = 4.5.2
+	pkgrel = 3
+	url = https://github.com/ThePBone/GalaxyBudsClient
+	install = galaxybudsclient-bin.install
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = GPL3
+	depends = gcc-libs
+	depends = zlib
+	options = !strip
+	source = galaxybudsclient.desktop
+	source = icon_white.png
+	sha256sums = eb8dd01c7400ce823f9e53dce5420fd10129d05d9ae93c4864a1606496b6d65a
+	sha256sums = 04b551470a2e0ccd99b266d313265321113886f5808b872bf928a97442bf930a
+	source_x86_64 = https://github.com/ThePBone/GalaxyBudsClient/releases/download/4.5.2/GalaxyBudsClient_Linux_64bit_Portable.bin
+	sha256sums_x86_64 = 8e07ebbcf4cd4e2700e319ed146de8a7e4cd5b28ffdc24a3d4340c294f0a6274
+	source_armv7h = https://github.com/ThePBone/GalaxyBudsClient/releases/download/4.5.2/GalaxyBudsClient_Linux_arm_Portable.bin
+	sha256sums_armv7h = 714df59b7f0bcf505e51efa4ab186a0ad637c3a448d409bbc2164c38b597f35a
+	source_aarch64 = https://github.com/ThePBone/GalaxyBudsClient/releases/download/4.5.2/GalaxyBudsClient_Linux_arm64_Portable.bin
+	sha256sums_aarch64 = 09cb2bde9390ef614a569da9eff49ac7a724af780cdcdaac4807a4239ba8ca98
+
+pkgname = galaxybudsclient-bin

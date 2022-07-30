@@ -1,0 +1,20 @@
+pkgbase = openfm
+	pkgdesc = Open FM on your PC. Faster access to your favorite stations.
+	pkgver = 4.0.0.1
+	pkgrel = 1
+	url = http://open.fm/
+	install = openfm.install
+	arch = i686
+	arch = x86_64
+	license = Freeware
+	depends = alsa-lib
+	depends = libcanberra
+	depends = libcanberra-pulse
+	depends = xorg-server
+	depends = flashplugin
+	provides = openfm
+	source = http://updates.open.fm/files/elwood/release/linux64
+	md5sums = 8a71b06408ee3303492d09004db37381
+
+pkgname = openfm
+

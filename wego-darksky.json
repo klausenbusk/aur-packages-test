@@ -1,0 +1,16 @@
+pkgbase = wego-darksky
+	pkgdesc = Weather app for the terminal
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/tylerwolf35/wego
+	arch = x86_64
+	license = ISC
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	conflicts = wego
+	source = wego-1.0.tar.gz::https://github.com/tylerwolf35/wego/archive/d97369a7ef153f6582f93e6d86d02cdf61f536f9.tar.gz
+	sha256sums = c2088de3557738a269736aee1e8811d78a7ee6fc9e34e9a4d56c942a79b527e5
+
+pkgname = wego-darksky
+

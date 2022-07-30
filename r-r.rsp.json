@@ -1,0 +1,22 @@
+pkgbase = r-r.rsp
+	pkgdesc = Dynamic Generation of Scientific Reports
+	pkgver = 0.45.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=R.rsp
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-digest
+	depends = r-r.cache
+	depends = r-r.methodss3
+	depends = r-r.oo
+	depends = r-r.utils
+	optdepends = r-base64enc
+	optdepends = r-knitr
+	optdepends = r-markdown
+	optdepends = r-r.devices
+	optdepends = r-tcltk
+	source = https://cran.r-project.org/src/contrib/R.rsp_0.45.0.tar.gz
+	sha256sums = a58046d448b2fca15fb1bf5b5eec4da37b29175270c07e46d740066537435da4
+
+pkgname = r-r.rsp

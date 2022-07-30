@@ -1,0 +1,15 @@
+pkgbase = python-humblebundle
+	pkgdesc = An unofficial library for querying the Humble Bundle API
+	pkgver = 0.1.1
+	pkgrel = 4
+	url = https://github.com/saik0/humblebundle-python
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-requests
+	options = !emptydirs
+	source = python-humblebundle-0.1.1::https://github.com/saik0/humblebundle-python/archive/0.1.1.tar.gz
+	sha256sums = 51afe971fa66d1da43c574d0bbe117abd3c6b6a0351b4273dd97ffb3d1a031bf
+
+pkgname = python-humblebundle
+

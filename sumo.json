@@ -1,0 +1,30 @@
+pkgbase = sumo
+	pkgdesc = Traffic simulation modelling road vehicles, public transport and pedestrians.
+	pkgver = 1.14.0
+	pkgrel = 1
+	url = http://sumo.dlr.de
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	makedepends = help2man
+	makedepends = swig
+	makedepends = gtest
+	makedepends = gmock
+	depends = openscenegraph
+	depends = python
+	depends = proj
+	depends = fox
+	depends = xerces-c
+	depends = gdal
+	depends = gl2ps
+	source = https://github.com/eclipse/sumo/archive/v1_14_0.tar.gz
+	source = sumo.desktop
+	sha256sums = 147ee3d6d452d0ad86e4275bfc2eed70848f8f6afb6e0af593a47551ee175768
+	sha256sums = cc0ed7ad1cce228cd8c634e031c966e1795a16623f0e139ebdcc7ecd06d0bf4d
+
+pkgname = sumo
+	optdepends = java-runtime-common: for executing Jar files like TraCI4J
+	optdepends = python2: for executing various python scripts in /usr/share/sumo/tools
+
+pkgname = sumo-doc

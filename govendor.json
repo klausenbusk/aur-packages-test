@@ -1,0 +1,17 @@
+pkgbase = govendor
+	pkgdesc = Go vendor tool that works with the standard vendor file.
+	pkgver = 1.0.9
+	pkgrel = 1
+	url = https://github.com/kardianos/govendor
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = custom:BSD
+	makedepends = go
+	depends = glibc
+	source = govendor-1.0.9.tar.gz::https://github.com/kardianos/govendor/archive/v1.0.9.tar.gz
+	sha256sums = d303abf194838792234a1451c3a1e87885d1b2cd21774867b592c1f7db00551e
+
+pkgname = govendor
+

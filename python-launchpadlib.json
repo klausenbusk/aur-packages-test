@@ -1,0 +1,23 @@
+pkgbase = python-launchpadlib
+	pkgdesc = A free Python 3 library for scripting Launchpad through its web services interface.
+	pkgver = 1.10.16
+	pkgrel = 1
+	url = https://launchpad.net/launchpadlib
+	arch = any
+	license = LGPL3
+	makedepends = python-setuptools
+	depends = python-lazr-uri
+	depends = python-lazr-restfulclient>=0.9.19
+	depends = python-wadllib
+	depends = python-keyring
+	depends = python-httplib2
+	depends = python-simplejson
+	optdepends = python-setuptools
+	optdepends = python-testresources
+	source = python-launchpadlib-1.10.16.tar.gz::https://launchpad.net/launchpadlib/trunk/1.10.16/+download/launchpadlib-1.10.16.tar.gz
+	source = python-launchpadlib-1.10.16.tar.gz.asc::https://launchpad.net/launchpadlib/trunk/1.10.16/+download/launchpadlib-1.10.16.tar.gz.asc
+	validpgpkeys = AC0A4FF12611B6FCCF01C111393587D97D86500B
+	sha256sums = 0df4b13936f988afd0ee485f40fa6922eab783b48c38ca0108cb73c8788fca80
+	sha256sums = SKIP
+
+pkgname = python-launchpadlib

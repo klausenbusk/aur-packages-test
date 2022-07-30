@@ -1,0 +1,31 @@
+pkgbase = python-internetarchive
+	pkgdesc = Wrapper for the various Internet Archive APIs (IA-S3, Metadata API, etc)
+	pkgver = 1.8.1
+	pkgrel = 1
+	url = https://github.com/jjjake/ia-wrapper
+	arch = any
+	license = AGPL3
+	depends = python
+	depends = python-setuptools
+	depends = python-clint
+	depends = python-six
+	depends = python-yaml
+	depends = python-requests
+	depends = python-jsonpatch
+	depends = python-pytest
+	depends = python-docopt
+	depends = python-jsonpointer
+	depends = python-args
+	depends = python-backports.csv
+	depends = python-schema
+	optdepends = python-ujson: faster json parsing
+	optdepends = python-gevent: concurrent downloads
+	optdepends = cython: speedups
+	provides = python-internetarchive
+	conflicts = python-internetarchive-git
+	conflicts = python2-internetarchive-git
+	source = python-internetarchive-1.8.1.tar.gz::https://github.com/jjjake/internetarchive/archive/v1.8.1.tar.gz
+	sha256sums = 9db8b179434521345a93a01e73669b9fd9a8949f8a75b52fcf22f3de865229c7
+
+pkgname = python-internetarchive
+

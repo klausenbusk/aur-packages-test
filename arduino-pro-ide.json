@@ -1,0 +1,24 @@
+pkgbase = arduino-pro-ide
+	pkgdesc = The Arduino Pro IDE bring features that address the needs of advanced users whilst retaining continuity with the simple classic Arduino IDE.
+	pkgver = 0.1.4
+	pkgrel = 2
+	url = https://github.com/arduino/arduino-pro-ide
+	install = arduino-pro-ide.install
+	arch = x86_64
+	license = EPLv2
+	makedepends = gendesk
+	makedepends = ruby-ronn
+	makedepends = git
+	depends = libxss
+	depends = gtk3
+	depends = nodejs
+	depends = nss
+	depends = libxkbfile
+	depends = python
+	optdepends = arduino-cli
+	source = https://downloads.arduino.cc/arduino-pro-ide/arduino-pro-ide_0.1.4_Linux_64bit.zip
+	source = git+git://github.com/arduino/arduino-pro-ide.git
+	sha256sums = 0984d2ef2575cbb77d03445fb719c14bae4cc6bce06272b07105b7b9dcfe16f6
+	sha256sums = SKIP
+
+pkgname = arduino-pro-ide

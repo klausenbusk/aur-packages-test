@@ -1,0 +1,27 @@
+pkgbase = vapoursynth-plugin-vardefunc-git
+	pkgdesc = Plugin for Vapoursynth: vardefunc (GIT version)
+	pkgver = 0.6.2.1.g0ddc6ae
+	pkgrel = 1
+	url = https://github.com/Ichunjo/Vardefunc
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python-numpy
+	depends = vapoursynth-plugin-nnedi3cl-git
+	depends = vapoursynth-plugin-placebo-git
+	depends = vapoursynth-plugin-scxvid-git
+	depends = vapoursynth-plugin-rgsf-git
+	depends = vapoursynth-plugin-tedgemask-git
+	depends = vapoursynth-plugin-mvsfunc
+	depends = vapoursynth-plugin-neo_f3kdb-git
+	depends = vapoursynth-plugin-lvsfunc-git
+	depends = vapoursynth-plugin-vsutil-git
+	depends = vapoursynth-plugin-debandshit-git
+	provides = vapoursynth-plugin-vardefunc
+	conflicts = vapoursynth-plugin-vardefunc
+	source = vardefunc::git+https://github.com/Ichunjo/Vardefunc.git
+	sha256sums = SKIP
+
+pkgname = vapoursynth-plugin-vardefunc-git

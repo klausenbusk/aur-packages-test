@@ -1,0 +1,17 @@
+pkgbase = ocaml-fileutils
+	pkgdesc = A library to provide pure OCaml functions to manipulate real file and filename.
+	pkgver = 0.5.3
+	pkgrel = 1
+	url = http://forge.ocamlcore.org/projects/ocaml-fileutils
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = ocaml-findlib
+	makedepends = ocaml-ounit
+	makedepends = ocamlbuild
+	depends = ocaml
+	source = https://forge.ocamlcore.org/frs/download.php/1728/ocaml-fileutils-0.5.3.tar.gz
+	md5sums = 9b719b19b96525004c88bf7bc846fa1d
+
+pkgname = ocaml-fileutils
+

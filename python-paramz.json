@@ -1,0 +1,24 @@
+pkgbase = python-paramz
+	pkgdesc = Parameterization Framework for parameterized model creation and handling
+	pkgver = 0.9.5
+	pkgrel = 4
+	url = https://github.com/sods/paramz
+	arch = any
+	license = BSD
+	depends = python
+	depends = python-numpy
+	depends = python-scipy
+	depends = python-six
+	depends = python-decorator
+	depends = python-climin-git
+	optdepends = ipython
+	optdepends = python-sphinx
+	optdepends = python-ipykernel
+	optdepends = python-ipywidgets
+	optdepends = python-jupyter_client
+	optdepends = jupyter-notebook
+	source = https://github.com/sods/paramz/archive/v0.9.5.tar.gz
+	sha256sums = 817af2566ae4dfdfb7fde54c69ebb52070da2077b25315fc8433bfd9e2e520dd
+
+pkgname = python-paramz
+

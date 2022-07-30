@@ -1,0 +1,14 @@
+pkgbase = nml
+	pkgdesc = OpenTTD NewGRF Meta Language Tools
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = https://github.com/OpenTTD/nml
+	arch = any
+	license = GPL
+	depends = python-ply
+	depends = python-pillow
+	depends = python-setuptools
+	source = nml-0.6.1.tar.gz::https://github.com/OpenTTD/nml/archive/0.6.1.tar.gz
+	sha256sums = 7d7487980bf63a7874a6fb21474be27edf528cea48c676a4e461c1368f2a0d7d
+
+pkgname = nml

@@ -1,0 +1,14 @@
+pkgbase = python-unicode-slugify
+	pkgdesc = A slug generator that turns strings into unicode slugs.
+	pkgver = 0.1.5
+	pkgrel = 1
+	url = http://github.com/mozilla/unicode-slugify
+	arch = any
+	license = BSD
+	depends = python-setuptools
+	depends = python-six
+	depends = python-unidecode
+	source = https://pypi.io/packages/source/u/unicode-slugify/unicode-slugify-0.1.5.tar.gz
+	sha512sums = 69cf66a91264647aa551996e84952ebf6b5a31b88783c657f2857265bf52fbc1bc52ba832e092862c56ab13967505e98db192e03e1d3932829c923ee30c483e8
+
+pkgname = python-unicode-slugify

@@ -1,0 +1,22 @@
+pkgbase = ruby-rubocop-ast
+	pkgdesc = RuboCop's AST extensions and NodePattern functionality
+	pkgver = 1.18.0
+	pkgrel = 1
+	url = https://github.com/rubocop/rubocop-ast
+	arch = any
+	license = MIT
+	checkdepends = ruby-bundler
+	checkdepends = ruby-rspec
+	makedepends = rubygems
+	makedepends = ruby-rake
+	makedepends = ruby-rdoc
+	makedepends = ruby-racc
+	makedepends = ruby-oedipus_lex
+	makedepends = ruby-bump
+	depends = ruby
+	depends = ruby-parser
+	options = !emptydirs
+	source = https://github.com/rubocop/rubocop-ast/archive/v1.18.0/rubocop-ast-1.18.0.tar.gz
+	sha256sums = 0333c35ef33bcc30827e85deafebc2cfc66e406c6b508852b9af2fe4531e837e
+
+pkgname = ruby-rubocop-ast

@@ -1,0 +1,23 @@
+pkgbase = odrive
+	pkgdesc = Sync agent and cli for odrive.com
+	pkgver = 939
+	pkgrel = 1
+	url = https://www.odrive.com/
+	arch = x86_64
+	license = CUSTOM
+	makedepends = dos2unix
+	depends = python2
+	options = !strip
+	source = odrive-939-1.py::http://dl.odrive.com/odrive-py
+	source = odriveagent-x86_64-939-1.tar.gz::https://dl.odrive.com/odriveagent-lnx-64
+	source = odriveagent.sh
+	source = odrive.service
+	source = odrive@.service
+	sha256sums = 35bb477634edcb835eb094777737f1da0f2981f40f1fe13fe9924f472b76aed9
+	sha256sums = 1fcc7c4d141ba34a74312b4ae4ca9452bad2b5aab007eb7402ef950469a59054
+	sha256sums = 84420c036a7950ed9d72121affdca35da307016d6f2432eb94fcc39f27fc27de
+	sha256sums = 73decc1a5c9ef76ecc224b07ad3ba2791373117d84de43e430eabe8c91e2380a
+	sha256sums = 98f6738354acebcefdb22286de4cf134747517b1086f889c4cee41ed63d9ba56
+
+pkgname = odrive
+

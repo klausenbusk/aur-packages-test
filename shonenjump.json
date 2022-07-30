@@ -1,0 +1,15 @@
+pkgbase = shonenjump
+	pkgdesc = A faster way to change directory and improve command line productivity
+	pkgver = 0.7.21
+	pkgrel = 1
+	url = https://github.com/suzaku/shonenjump
+	install = readme.install
+	arch = x86_64
+	license = custom
+	makedepends = go
+	depends = glibc
+	conflicts = autojump
+	source = shonenjump-0.7.21.tar.gz::https://github.com/suzaku/shonenjump/archive/refs/tags/v0.7.21.tar.gz
+	b2sums = 69e9ced4213aeb1f6a06b08201bd6f91e3f4840e3315bfa6ae2afe4c0c49af7a3976c3c7839e2d1d4470e9692bf9bfa27641853f664899dd03f1e12a1620b82c
+
+pkgname = shonenjump

@@ -1,0 +1,14 @@
+pkgbase = python2-singledispatch
+	pkgdesc = Backport of functools.singledispatch from Python 3.4
+	pkgver = 3.7.0
+	pkgrel = 3
+	url = https://pypi.org/project/singledispatch/3.7.0/
+	arch = any
+	license = MIT
+	makedepends = python2-setuptools
+	depends = python2
+	depends = python2-six
+	source = singledispatch-3.7.0.tar.gz::https://github.com/jaraco/singledispatch/archive/refs/tags/v3.7.0.tar.gz
+	b2sums = b488ebea8aeb1055fd91422d0ce7a91f321e3a0b9b99387f936fd1fd95a1016492baeabecfc0fd7ad8988a93c1054ff7681b8c4d0affa2d6114b90b6c8c58bdd
+
+pkgname = python2-singledispatch

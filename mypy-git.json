@@ -1,0 +1,20 @@
+pkgbase = mypy-git
+	pkgdesc = Optional static typing for Python
+	pkgver = v0.520.r2526.g9101707bd
+	pkgrel = 1
+	url = http://www.mypy-lang.org
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python-psutil
+	depends = python-typed-ast
+	provides = mypy
+	conflicts = mypy
+	source = git+https://github.com/JukkaL/mypy
+	source = git+https://github.com/python/typeshed
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = mypy-git
+

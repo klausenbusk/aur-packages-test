@@ -1,0 +1,25 @@
+pkgbase = yah
+	pkgdesc = Yes, another AUR helper
+	pkgver = 0.4.3
+	pkgrel = 1
+	epoch = 2
+	url = https://github.com/Bultek/yah
+	arch = x86_64
+	license = AGPLv3
+	makedepends = dotnet-sdk-6.0
+	makedepends = bash
+	depends = sudo
+	depends = bash
+	depends = git
+	source = Program.cs
+	source = yahcd.sh
+	source = yahmkpkg.sh
+	source = yah.csproj
+	source = dotpublish.sh
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = yah

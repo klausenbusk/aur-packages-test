@@ -1,0 +1,21 @@
+pkgbase = renode-bin
+	pkgdesc = The Renode Framework
+	pkgver = 1.12.0
+	pkgrel = 1
+	url = https://www.renode.io
+	arch = x86_64
+	license = MIT
+	depends = mono
+	depends = gtk-sharp-2
+	depends = screen
+	depends = polkit
+	depends = gcc
+	depends = python3
+	depends = python-pip
+	depends = zeromq
+	provides = renode
+	source = renode-bin-1.12.0-1.tar.gz::https://github.com/renode/renode/releases/download/v1.12.0/renode-1.12.0-1-x86_64.pkg.tar.xz
+	md5sums = 5f6c4da245dbe49a2e692b389a0906ab
+
+pkgname = renode-bin
+

@@ -1,0 +1,16 @@
+pkgbase = waterfox-alpha-kde
+	pkgdesc = Transitional package for waterfox-beta-kde
+	pkgver = 68.0a3
+	pkgrel = 0
+	url = https://www.waterfox.net/
+	arch = x86_64
+	license = MPL
+	depends = waterfox-beta-kde
+	provides = waterfox-alpha=68.0a3
+	conflicts = waterfox-alpha
+	options = !emptydirs
+	options = !makeflags
+	options = zipman
+
+pkgname = waterfox-alpha-kde
+

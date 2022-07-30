@@ -1,0 +1,13 @@
+pkgbase = pakitheme
+	pkgdesc = Automatically install your host GTK+ theme as a Flatpak.
+	pkgver = 0.1
+	pkgrel = 1
+	url = https://github.com/refi64/pakitheme
+	arch = any
+	license = MPL2
+	depends = flatpak
+	source = git+https://github.com/refi64/pakitheme
+	md5sums = SKIP
+
+pkgname = pakitheme
+

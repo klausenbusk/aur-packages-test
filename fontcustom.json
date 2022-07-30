@@ -1,0 +1,24 @@
+pkgbase = fontcustom
+	pkgdesc = A tool for building icon fonts from svg images
+	pkgver = 2.0.0
+	pkgrel = 4
+	url = https://github.com/FontCustom/fontcustom
+	arch = any
+	license = MIT
+	makedepends = rubygems
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = zlib
+	depends = fontforge
+	depends = sfnt2woff
+	depends = woff2
+	depends = ruby-json-1
+	depends = ruby-thor
+	depends = ruby-listen
+	depends = ruby-ruby_dep
+	noextract = fontcustom-2.0.0.gem
+	source = https://rubygems.org/downloads/fontcustom-2.0.0.gem
+	sha256sums = c6da0f8d0b789acb33ae39059fea321b2198b45828e9f9b61ecbc9db53b92be5
+
+pkgname = fontcustom
+

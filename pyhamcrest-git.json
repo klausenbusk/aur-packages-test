@@ -1,0 +1,20 @@
+pkgbase = pyhamcrest-git
+	pkgdesc = Hamcrest framework for matcher objects
+	pkgver = 2.0.2.r23.g00bd42e
+	pkgrel = 1
+	url = https://github.com/hamcrest/PyHamcrest
+	arch = any
+	license = BSD
+	checkdepends = python-pytest-runner
+	checkdepends = python-pytest-cov
+	checkdepends = python-mock
+	checkdepends = python-numpy
+	makedepends = python-setuptools
+	depends = python-six
+	provides = python-pyhamcrest
+	conflicts = python-pyhamcrest
+	source = git+https://github.com/hamcrest/PyHamcrest.git
+	md5sums = SKIP
+
+pkgname = python-pyhamcrest-git
+

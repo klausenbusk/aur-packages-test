@@ -1,0 +1,31 @@
+pkgbase = s3ql-git
+	pkgdesc = A full-featured file system for online data storage.
+	pkgver = 3.3.2.22.gfa48c94d
+	pkgrel = 1
+	url = https://github.com/s3ql/s3ql/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = gcc
+	makedepends = cython
+	makedepends = python-sphinx
+	makedepends = texlive-latexextra
+	depends = python
+	depends = python-cryptography
+	depends = python-defusedxml
+	depends = python-apsw
+	depends = python-trio
+	depends = python-pyfuse3
+	depends = python-dugong
+	depends = python-systemd
+	depends = python-requests
+	depends = python-google-auth
+	depends = python-google-auth-oauthlib
+	provides = s3ql
+	conflicts = s3ql
+	replaces = s3ql-hg
+	source = git+https://github.com/s3ql/s3ql.git
+	md5sums = SKIP
+
+pkgname = s3ql-git
+

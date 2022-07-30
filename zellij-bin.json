@@ -1,0 +1,26 @@
+pkgbase = zellij-bin
+	pkgdesc = A multiplexing terminal workspace with batteries included (binary release)
+	pkgver = 0.19.0
+	pkgrel = 1
+	url = https://github.com/zellij-org/zellij
+	arch = x86_64
+	license = MIT
+	provides = zellij
+	conflicts = zellij
+	conflicts = zellij-git
+	source = zellij-bin-0.19.0.tar.gz::https://github.com/zellij-org/zellij/releases/download/v0.19.0/zellij-x86_64-unknown-linux-musl.tar.gz
+	source = CHANGELOG.md::https://raw.githubusercontent.com/zellij-org/zellij/main/CHANGELOG.md
+	source = CODE_OF_CONDUCT.md::https://raw.githubusercontent.com/zellij-org/zellij/main/CODE_OF_CONDUCT.md
+	source = CONTRIBUTING.md::https://raw.githubusercontent.com/zellij-org/zellij/main/CONTRIBUTING.md
+	source = GOVERNANCE.md::https://raw.githubusercontent.com/zellij-org/zellij/main/GOVERNANCE.md
+	source = LICENSE.md::https://raw.githubusercontent.com/zellij-org/zellij/main/LICENSE.md
+	source = README.md::https://raw.githubusercontent.com/zellij-org/zellij/main/README.md
+	sha256sums = dc039b6ef19e9269da626932923a88d229aac4a066dedb975c0bd69f291d130f
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = zellij-bin

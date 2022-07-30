@@ -1,0 +1,21 @@
+pkgbase = vulkan-extensionlayer-sparzz-git
+	pkgdesc = Vulkan ExtensionLayer build from source. My oder Vulkan packages from the AUR depends on this packages. For install instruction and the order of install visit my GitHub page ----> https://github.com/sparzz/vulkan-arch-aur
+	pkgver = 1.2.140._2020.06.08
+	pkgrel = 1
+	url = https://github.com/sparzz/vulkan-arch-aur
+	arch = x86_64
+	license = Apache
+	makedepends = cmake
+	makedepends = git
+	makedepends = make
+	makedepends = vulkan-headers-sparzz-git
+	depends = yay
+	depends = glslang-sparzz-git
+	depends = vulkan-headers-sparzz-git
+	depends = spirv-headers-sparzz-git
+	provides = vulkan-extensionlayer-sparzz-git
+	source = Vulkan-ExtensionLayer::git+https://github.com/KhronosGroup/Vulkan-ExtensionLayer.git
+	md5sums = SKIP
+
+pkgname = vulkan-extensionlayer-sparzz-git
+

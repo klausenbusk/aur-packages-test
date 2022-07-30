@@ -1,0 +1,75 @@
+pkgbase = data-science-stack
+	pkgver = 0.1
+	pkgrel = 1
+	arch = any
+
+pkgname = data-science-python-meta
+	pkgdesc = Meta package for python data science packages
+	depends = python-pandas
+	depends = python-numpy
+	depends = miniconda3
+	depends = python-dask
+	depends = python-numba
+	depends = python-sympy
+	depends = python-statsmodels
+	depends = python-matplotlib
+	depends = python-virtualenv
+	depends = python-nltk
+	depends = python-gensim
+	depends = nltk-data
+	depends = ipython
+	replaces = 
+
+pkgname = data-science-languages-meta
+	pkgdesc = Meta package for data science languages
+	depends = r
+	depends = julia
+	depends = python
+	depends = go
+	replaces = 
+
+pkgname = data-science-utils-meta
+	pkgdesc = Meta package for data science utils
+	depends = git
+	replaces = 
+
+pkgname = data-science-mkl-meta
+	pkgdesc = Meta package for data science packages compiled with the Intel MKL library
+	depends = python-numpy-mkl
+	depends = python-scipy-mkl
+	depends = mkl-dnn
+	depends = python-mkl-fft
+	depends = python-mkl-random
+	depends = python-mkl-service
+	depends = julia-mkl
+	depends = r-mkl
+	replaces = 
+
+pkgname = data-science-octave-meta
+	pkgdesc = Meta package for octave data science packages
+	depends = octave-statistics
+	depends = octave-signal
+	depends = octave-control
+	depends = octave-image
+	depends = octave-dataframe
+	depends = octave-plot
+	depends = octave-database
+	replaces = 
+
+pkgname = data-science-ai-meta
+	pkgdesc = Meta package for popular machine learning frameworks
+	depends = tensorflow-opt
+	depends = python-pytorch-opt
+	depends = caffe2
+	depends = cntk
+	depends = python-scikit-learn
+	replaces = 
+
+pkgname = data-science-ai-gpu-meta
+	pkgdesc = Meta package for popular machine learning frameworks with CUDA support
+	depends = tensorflow-opt-cuda
+	depends = python-pytorch-opt-cuda
+	depends = caffe2-cuda
+	depends = cntk-cuda
+	replaces = 
+

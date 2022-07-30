@@ -1,0 +1,15 @@
+pkgbase = grub-themes-vimix
+	pkgdesc = vimix grub2 theme
+	pkgver = 1.2
+	pkgrel = 1
+	url = https://github.com/vinceliuice/grub2-themes
+	install = grub-themes-vimix.install
+	arch = any
+	license = GPL
+	depends = grub
+	optdepends = grub-customizer
+	source = https://github.com/vinceliuice/grub2-themes/archive/1.2.tar.gz
+	md5sums = SKIP
+
+pkgname = grub-themes-vimix
+

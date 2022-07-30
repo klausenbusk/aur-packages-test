@@ -1,0 +1,28 @@
+pkgbase = xmind-zen
+	pkgdesc = XMind 2020 (ZEN) - The most popular mind mapping software
+	pkgver = 10.0.0
+	pkgrel = 3
+	url = https://www.xmind.net/
+	arch = x86_64
+	license = custom
+	depends = libxss
+	depends = nss
+	depends = libxtst
+	depends = alsa-lib
+	depends = gtk3
+	depends = libxkbfile
+	depends = nodejs
+	provides = xmind
+	provides = xmind-2020
+	provides = xmind-zen
+	conflicts = xmind-zen
+	replaces = xmind-zen
+	source = https://dl3.xmind.net/XMind-ZEN-for-Linux-amd-64bit-10.0.0-201911260056.deb
+	source = https://github.com/teaper/xmind-zen/releases/download/v10.0.0/app.asar
+	source = xmind.xml
+	md5sums = 658008c171d64021dad0fd88db8329c4
+	md5sums = c4cf9c905b7cd5f498ea45aa2cfc56eb
+	md5sums = 79ce427cd9d4facd4cddf8ebf68f2d5f
+
+pkgname = xmind-zen
+

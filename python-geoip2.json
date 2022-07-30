@@ -1,0 +1,20 @@
+pkgbase = python-geoip2
+	pkgdesc = API for GeoIP2 web services and databases
+	pkgver = 2.9.0
+	pkgrel = 3
+	url = https://geoip2.readthedocs.org/en/latest/
+	arch = any
+	license = Apache
+	checkdepends = python-requests-mock
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-sphinx
+	depends = python-requests>=2.9
+	depends = python-maxminddb>=1.4.0
+	source = python-geoip2-2.9.0.tar.gz::https://github.com/maxmind/GeoIP2-python/archive/v2.9.0.tar.gz
+	source = git+https://github.com/maxmind/MaxMind-DB
+	sha512sums = 8631a41d9644887d0149678e40a5f9d03bba660853c308c43bf358cd49b3f021566b9d6f65b670c0c1c78bcb4cb7cb007ad2db6f3c032749afa454fc9e06d74c
+	sha512sums = SKIP
+
+pkgname = python-geoip2
+

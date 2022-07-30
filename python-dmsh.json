@@ -1,0 +1,19 @@
+pkgbase = python-dmsh
+	pkgdesc = Simple mesh generator inspired by distmesh
+	pkgver = 0.2.19
+	pkgrel = 1
+	url = https://github.com/nschloe/dmsh
+	arch = any
+	license = GPL3
+	checkdepends = python-perfplot
+	checkdepends = python-pytest-codeblocks
+	makedepends = python-build
+	makedepends = python-flit-core
+	makedepends = python-install
+	depends = python-meshplex
+	depends = python-scipy
+	optdepends = python-matplotlib: for plotting
+	source = https://github.com/nschloe/dmsh/archive/v0.2.19.tar.gz
+	sha512sums = 5c363aec1be124b2e4b13f0157fe92910d2e04f9723f5dd06e7d7c49ee4b2b8330f3598e8bf6e2cfe58c8b4f2bc071e090e12f39d53ee11823f9d00edd4f547e
+
+pkgname = python-dmsh

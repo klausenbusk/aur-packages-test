@@ -1,0 +1,14 @@
+pkgbase = chromedriver-dev
+	pkgdesc = Standalone server which implements WebDriver's wire protocol (for google-chrome-dev, a.k.a. Canary)
+	pkgver = 90.0.4412.3_855346
+	pkgrel = 1
+	url = https://sites.google.com/a/chromium.org/chromedriver/
+	arch = x86_64
+	license = Apache
+	depends = google-chrome-dev
+	conflicts = chromium-dev
+	source = chromedriver_linux64.zip::https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F855346%2Fchromedriver_linux64.zip?generation=1613675414795893&alt=media
+	sha512sums = SKIP
+
+pkgname = chromedriver-dev
+

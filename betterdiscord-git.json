@@ -1,0 +1,15 @@
+pkgbase = betterdiscord-git
+	pkgdesc = Discord extension with plugin support, emotes, and more
+	pkgver = 1.2.0.r0.g65dc214
+	pkgrel = 2
+	url = https://github.com/BetterDiscord/BetterDiscord
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = nodejs
+	makedepends = npm
+	provides = betterdiscord
+	source = betterdiscord::git+https://github.com/BetterDiscord/BetterDiscord.git#branch=main
+	sha256sums = SKIP
+
+pkgname = betterdiscord-git

@@ -1,0 +1,23 @@
+pkgbase = jed-snapshot
+	pkgver = 0.99.20.167
+	pkgrel = 1
+	url = http://www.jedsoft.org/snapshots/
+	install = jed-snapshot.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = libxext
+	makedepends = libxt
+	depends = gpm
+	depends = slang
+	depends = libxft
+	source = http://www.jedsoft.org/snapshots/jed-pre0.99.20-167.tar.gz
+	sha256sums = bf270fcb291f991dceefaf19bb6318c1748088a5c2f9eb6d6c989cba98c7e3ca
+
+pkgname = jed-snapshot
+	pkgdesc = A freely available text editor - Latest development version
+	provides = jed
+	conflicts = jed
+
+pkgname = rgrep
+	pkgdesc = Recursive grep

@@ -1,0 +1,19 @@
+pkgbase = python-dummy-pack
+	pkgdesc = dummy
+	pkgver = 0.0.2
+	pkgrel = 1
+	url = https://github.com/codeswhite/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = dee
+	depends = python-interutils
+	source = https://files.pythonhosted.org/packages/source/d/dummy-pack/dummy-pack-0.0.2.tar.gz
+	sha256sums = 2acf65a8ba222eedf1470e3d6f2984939881b436b0e6abb51355e8cd96e6cff9
+
+pkgname = python-dummy-pack
+	depends = python
+	depends = dee
+	depends = python-interutils
+

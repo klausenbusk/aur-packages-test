@@ -1,0 +1,26 @@
+pkgbase = mongodb-compass-readonly-bin
+	pkgdesc = The official GUI for MongoDB - Readonly Edition - binary version
+	pkgver = 1.32.3
+	pkgrel = 1
+	url = https://www.mongodb.com/products/compass
+	arch = x86_64
+	license = custom:SSPL
+	depends = c-ares
+	depends = ffmpeg
+	depends = gtk3
+	depends = libevent
+	depends = libxslt
+	depends = minizip
+	depends = nss
+	depends = re2
+	depends = snappy
+	depends = krb5
+	depends = libsecret
+	depends = lsb-release
+	optdepends = org.freedesktop.secrets
+	provides = mongodb-compass-readonly
+	conflicts = mongodb-compass-readonly
+	source = mongodb-compass-readonly-bin-1.32.3-1.rpm::https://downloads.mongodb.com/compass/mongodb-compass-readonly-1.32.3.x86_64.rpm
+	sha512sums = b4f4cd2540997e38b086671dc29523f6e21b5ab5a3d8b5d1d4472a73e480dce12fae80d0d2249c626c192a6b38e68b272823695a4517f88b6d6062941a37c0ae
+
+pkgname = mongodb-compass-readonly-bin

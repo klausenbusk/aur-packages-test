@@ -1,0 +1,20 @@
+pkgbase = csview-git
+	pkgdesc = A high performance csv viewer with cjk/emoji support
+	pkgver = 0.3.6.rc.0.20201010
+	pkgrel = 1
+	url = https://github.com/wfxr/csview
+	arch = i686
+	arch = x86_64
+	license = MIT
+	license = APACHE
+	makedepends = git
+	makedepends = rust
+	makedepends = cargo
+	provides = csview
+	conflicts = csview
+	conflicts = csview-bin
+	source = csview::git+https://github.com/wfxr/csview
+	sha256sums = SKIP
+
+pkgname = csview-git
+

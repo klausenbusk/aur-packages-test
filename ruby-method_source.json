@@ -1,0 +1,16 @@
+pkgbase = ruby-method_source
+	pkgdesc = retrieve the sourcecode for a method
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/banister/method_source
+	arch = any
+	license = MIT
+	makedepends = ruby-rdoc
+	depends = ruby
+	noextract = method_source-1.0.0.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/method_source-1.0.0.gem
+	sha1sums = dd5cac56b5867d2bffc7a76a60fe5b54d8c88538
+
+pkgname = ruby-method_source
+

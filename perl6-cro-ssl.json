@@ -1,0 +1,19 @@
+pkgbase = perl6-cro-ssl
+	pkgdesc = SSL support for the Cro library for building distributed systems in Perl 6
+	pkgver = 0.7
+	pkgrel = 1
+	url = https://github.com/croservices/cro-ssl
+	arch = any
+	groups = croservices
+	groups = perl6
+	license = PerlArtistic
+	checkdepends = perl
+	makedepends = git
+	depends = perl6
+	depends = perl6-cro-core
+	depends = perl6-io-socket-async-ssl
+	source = perl6-cro-ssl-0.7::git+https://github.com/croservices/cro-ssl
+	sha256sums = SKIP
+
+pkgname = perl6-cro-ssl
+

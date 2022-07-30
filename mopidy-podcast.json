@@ -1,0 +1,17 @@
+pkgbase = mopidy-podcast
+	pkgdesc = Mopidy extension for searching and browsing podcasts.
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://github.com/tkem/mopidy-podcast
+	arch = any
+	license = APACHE
+	depends = mopidy>=3.0
+	depends = python-setuptools
+	depends = python-pykka
+	depends = python-cachetools
+	depends = python-uritools
+	source = mopidy-podcast-3.0.0.tar.gz::https://github.com/tkem/mopidy-podcast/archive/v3.0.0.tar.gz
+	sha256sums = d923c61c6ecb1346e87844ae38425dc2dbadc0877205d91105df1e8652a2df5a
+
+pkgname = mopidy-podcast
+

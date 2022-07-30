@@ -1,0 +1,21 @@
+pkgbase = walinuxagent
+	pkgdesc = Microsoft Azure Linux Agent
+	pkgver = 2.7.3.0
+	pkgrel = 1
+	url = https://github.com/Azure/WALinuxAgent
+	install = walinuxagent.install
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = python
+	depends = python-distro
+	depends = openssh
+	depends = openssl
+	depends = parted
+	depends = net-tools
+	provides = walinuxagent
+	backup = etc/waagent.conf
+	source = https://github.com/Azure/WALinuxAgent/archive/v2.7.3.0.tar.gz
+	sha256sums = 61304320495eb873cc0f3fb584d6c9572e7aca1837403f22ae8933882561db01
+
+pkgname = walinuxagent

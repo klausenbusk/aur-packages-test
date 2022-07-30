@@ -1,0 +1,18 @@
+pkgbase = joomla
+	pkgdesc = a php Content Management System (CMS) which enables you to build websites and powerful online applications.
+	pkgver = 4.1.4
+	pkgrel = 1
+	url = https://www.joomla.org/
+	install = joomla.install
+	arch = any
+	license = GPL
+	optdepends = apache: Web server
+	optdepends = php: Web server support
+	optdepends = mariadb: Database
+	optdepends = postgresql: Database
+	options = !strip
+	source = https://github.com/joomla/joomla-cms/releases/download/4.1.4/Joomla_4.1.4-Stable-Full_Package.tar.bz2
+	md5sums = 0de05b8d1cbb2683cfa59195e82c81e2
+	sha256sums = 06986ec358b0e55a2ba8f6f83194c131a66174c174808abc81d6a083750267b7
+
+pkgname = joomla

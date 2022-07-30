@@ -1,0 +1,14 @@
+pkgbase = findent
+	pkgdesc = Indent, beautify Fortran source, generate dependencies
+	pkgver = 3.1.7
+	pkgrel = 1
+	url = https://sourceforge.net/projects/findent/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	depends = bash
+	source = https://master.dl.sourceforge.net/project/findent/findent-3.1.7.tar.gz
+	sha256sums = 42bbf3fd80c14bb44fd18fa73aa53596829f4fb2bacabe57733eb8a9e4f00bb2
+
+pkgname = findent
+

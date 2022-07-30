@@ -1,0 +1,14 @@
+pkgbase = python2-markupsafe
+	pkgdesc = Safely add untrusted strings to HTML/XML markup
+	pkgver = 1.1.1
+	pkgrel = 10
+	url = https://pypi.python.org/pypi/MarkupSafe/1.1.1
+	arch = x86_64
+	license = BSD
+	checkdepends = python2-pytest-runner
+	makedepends = python2-setuptools
+	depends = python2
+	source = MarkupSafe-1.1.1.tar.gz::https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-1.1.1.tar.gz
+	b2sums = 184ab0bc42f8d254ef4239f700f019c0a380bdf2117dfe1abe2eb4dfa0f037158d181a120d8654a6971e9c8badb078f997e3a8bf231898e0f4bb3e8496d9abd3
+
+pkgname = python2-markupsafe

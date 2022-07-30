@@ -1,0 +1,34 @@
+pkgbase = linux-sunxi64
+	pkgver = 5.15.48
+	pkgrel = 1
+	url = https://github.com/armbian/build
+	arch = aarch64
+	license = GPL2
+	noextract = linux.preset
+	noextract = linux-dtb-current-sunxi64_22.05.3_arm64.deb
+	noextract = linux-image-current-sunxi64_22.05.3_arm64.deb
+	noextract = linux-headers-current-sunxi64_22.05.3_arm64.deb
+	options = !strip
+	source = linux.preset
+	source = https://apt.armbian.com/pool/main/l/linux-5.15.48-sunxi64/linux-dtb-current-sunxi64_22.05.3_arm64.deb
+	source = https://apt.armbian.com/pool/main/l/linux-5.15.48-sunxi64/linux-image-current-sunxi64_22.05.3_arm64.deb
+	source = https://apt.armbian.com/pool/main/l/linux-5.15.48-sunxi64/linux-headers-current-sunxi64_22.05.3_arm64.deb
+	sha512sums = a492aae17ee4a316ce03faf9f1b284b2529c485f4b092cc4a1f865a6c68d482fd356fd30efa296c116975a3bdf3922f5bf03912a8d0e76f4ab24aa6ab9f8c276
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = linux-sunxi64
+	pkgdesc = The Linux Kernel and modules - AArch64 multi-platform sunxi64
+	depends = coreutils
+	depends = linux-firmware
+	depends = kmod
+	depends = mkinitcpio>=0.7
+	optdepends = crda: to set the correct wireless channels of your country
+	provides = WIREGUARD-MODULE
+	conflicts = linux
+	backup = etc/mkinitcpio.d/linux-sunxi64.preset
+
+pkgname = linux-sunxi64-headers
+	pkgdesc = Header files and scripts for building modules for linux kernel - AArch64 multi-platform sunxi64
+	conflicts = linux-headers

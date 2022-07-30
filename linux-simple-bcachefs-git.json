@@ -1,0 +1,34 @@
+pkgbase = linux-simple-bcachefs-git
+	pkgdesc = Linux
+	pkgver = 5.18.arch1.r1355
+	pkgrel = 1
+	url = https://github.com/archlinux/linux/commits/v5.18-arch1
+	arch = x86_64
+	license = GPL2
+	makedepends = bc
+	makedepends = libelf
+	makedepends = pahole
+	makedepends = cpio
+	makedepends = perl
+	makedepends = tar
+	makedepends = xz
+	makedepends = git
+	options = !strip
+	source = config
+	sha256sums = 5088714ec20c9c5b063decbf2210f5b153a908a71678aa156f5f3e81394e9c38
+
+pkgname = linux-simple-bcachefs-git
+	pkgdesc = The Linux kernel and modules with bcachefs support
+	depends = coreutils
+	depends = kmod
+	depends = initramfs
+	optdepends = wireless-regdb: to set the correct wireless channels of your country
+	optdepends = linux-firmware: firmware images needed for some devices
+	provides = VIRTUALBOX-GUEST-MODULES
+	provides = WIREGUARD-MODULE
+	replaces = virtualbox-guest-modules-arch
+	replaces = wireguard-arch
+
+pkgname = linux-simple-bcachefs-git-headers
+	pkgdesc = Headers and scripts for building modules for the Linux kernel with bcachefs support
+	depends = pahole

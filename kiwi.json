@@ -1,0 +1,20 @@
+pkgbase = kiwi
+	pkgdesc = Framework for Python GUI applications.
+	pkgver = 1.11.1
+	pkgrel = 1
+	url = https://github.com/stoq/kiwi
+	arch = any
+	license = LGPL
+	makedepends = git
+	depends = python2
+	depends = python2-setuptools
+	depends = gtk2
+	depends = pygtk
+	optdepends = python2-sqlobject
+	optdepends = python2-zope-interface
+	conflicts = kiwi-git
+	source = https://github.com/stoq/kiwi/archive/1.11.1.tar.gz
+	md5sums = 3ecd5bdca3d636cfa7246de9adcbb8be
+
+pkgname = kiwi
+

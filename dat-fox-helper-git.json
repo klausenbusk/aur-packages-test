@@ -1,0 +1,18 @@
+pkgbase = dat-fox-helper-git
+	pkgdesc = A bridge to the Dat network for use by browsers
+	pkgver = 0.2.0.r0.g6acb965
+	pkgrel = 1
+	url = https://github.com/sammacbeth/dat-fox-helper
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = npm
+	depends = firefox
+	depends = nodejs
+	provides = dat-fox-helper-git
+	conflicts = dat-fox-helper-git
+	source = dat-fox-helper-git::git+https://github.com/sammacbeth/dat-fox-helper.git#tag=v0.2.0
+	md5sums = SKIP
+
+pkgname = dat-fox-helper-git
+

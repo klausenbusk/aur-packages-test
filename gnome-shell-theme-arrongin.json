@@ -1,0 +1,14 @@
+pkgbase = gnome-shell-theme-arrongin
+	pkgdesc = GNOME Shell theme for Arrongin GTK Theme
+	pkgver = 2.5
+	pkgrel = 2
+	url = https://www.opendesktop.org/p/1215199/
+	arch = any
+	license = CC BY-NC-SA
+	depends = gnome-shell>=3.26
+	provides = gnome-shell-theme-arrongin
+	source = gnome-shell-theme-arrongin-2.5.tar.xz::https://raw.githubusercontent.com/prasadkumar013/AUR/master/Sources%2BBinaries/Sources/Arrongin_Telinkrin/Arrongin-shell-2.5.tar.xz
+	sha512sums = 5ce14e3da5db721f0ba74170b52c4e3778440bcf8ac7dc14bed2f5222e38a3125794a9dafadbcf096a6588a2e7a4be809019d974c305696fe876262a8c721aa3
+
+pkgname = gnome-shell-theme-arrongin
+

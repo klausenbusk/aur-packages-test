@@ -1,0 +1,34 @@
+pkgbase = waterfox-kde-bin
+	pkgdesc = Free, open and private browser with openSUSE's patches for better integration with KDE
+	pkgver = 56.2.13
+	pkgrel = 0
+	url = https://www.waterfox.net/
+	install = waterfox-kde-bin.install
+	arch = x86_64
+	license = MPL
+	makedepends = wget
+	depends = gtk3
+	depends = gtk2
+	depends = libxt
+	depends = startup-notification
+	depends = mime-types
+	depends = dbus-glib
+	depends = ffmpeg
+	depends = hunspell
+	depends = ttf-font
+	depends = hicolor-icon-theme
+	depends = kwaterfoxhelper
+	optdepends = networkmanager: Location detection via available WiFi networks
+	optdepends = libnotify: Notification integration
+	optdepends = speech-dispatcher: Text-to-Speech
+	optdepends = pulseaudio: Audio support
+	optdepends = alsa-lib: Audio support
+	provides = waterfox=56.2.13
+	conflicts = waterfox
+	options = !emptydirs
+	options = !strip
+	source = waterfox-kde-56.2.13-0-x86_64.pkg.tar.xz::https://download.opensuse.org/repositories/home:/hawkeye116477:/waterfox/Arch/x86_64/waterfox-kde-56.2.13-0-x86_64.pkg.tar.xz
+	sha256sums = 303daf0ddcfe7d78abc93c58220c4f3ca2e25b6a2bce02853a06414a571417a7
+
+pkgname = waterfox-kde-bin
+

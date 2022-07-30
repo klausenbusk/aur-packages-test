@@ -1,0 +1,15 @@
+pkgbase = scaleway-cli
+	pkgdesc = Scaleway CLI is a tool to help you pilot your Scaleway infrastructure directly from your terminal.
+	pkgver = 2.5.1
+	pkgrel = 1
+	url = https://scaleway.com
+	arch = x86_64
+	license = Apache
+	makedepends = go
+	makedepends = git
+	optdepends = bash-completion: Bash completions
+	optdepends = zsh-completions: ZSH completitons
+	source = https://github.com/scaleway/scaleway-cli/archive/v2.5.1.tar.gz
+	sha256sums = af926168122c192b10a19d701f2a03a41f14897b2a6c654499203edd2aafcafe
+
+pkgname = scaleway-cli

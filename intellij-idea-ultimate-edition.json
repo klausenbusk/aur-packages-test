@@ -1,0 +1,24 @@
+pkgbase = intellij-idea-ultimate-edition
+	pkgdesc = An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
+	pkgver = 2022.2
+	pkgrel = 1
+	url = https://www.jetbrains.com/idea/
+	arch = any
+	license = Commercial
+	options = !strip
+	source = https://download.jetbrains.com/idea/ideaIU-2022.2.tar.gz
+	source = jetbrains-idea.desktop
+	sha256sums = 15654e4b0b27f56427184ceefe5229f2a644218f83dfd735b0e8dcb7041610e7
+	sha256sums = 83af2ba8f9f14275a6684e79d6d4bd9b48cd852c047dacfc81324588fa2ff92b
+
+pkgname = intellij-idea-ultimate-edition
+	depends = giflib
+	depends = libxtst
+	optdepends = intellij-idea-ultimate-edition-jre: JetBrains custom JRE (Recommended)
+	optdepends = java-environment: Required if intellij-idea-ultimate-edition-jre is not installed
+	optdepends = libdbusmenu-glib: For global menu support
+	backup = opt/intellij-idea-ultimate-edition/bin/idea64.vmoptions
+	backup = opt/intellij-idea-ultimate-edition/bin/idea.properties
+
+pkgname = intellij-idea-ultimate-edition-jre
+	arch = x86_64

@@ -1,0 +1,23 @@
+pkgbase = pico8-bin
+	pkgdesc = A fantasy console for making, sharing and playing tiny games and other computer programs.
+	pkgver = 0.1.9
+	pkgrel = 1
+	url = http://www.lexaloffle.com/pico-8.php
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = custom:commercial
+	depends = glibc
+	depends = hicolor-icon-theme
+	source_i686 = local://pico-8_0.1.9_i386.zip
+	sha256sums_i686 = 8bfd377990effe22a550e86337fc2979516709a433486011dc80db86eaa778f3
+	source_x86_64 = local://pico-8_0.1.9_amd64.zip
+	sha256sums_x86_64 = c467f9ee7ca4a88a9b22c1e01e1c0e09d78ce771873d0dd816a6b7ef4d86a421
+	source_armv6h = local://pico-8_0.1.9_raspi.zip
+	sha256sums_armv6h = f686c71a411a9b95157b24fe7aada8b7478c90400c1919e7a12466f04911fb8b
+	source_armv7h = local://pico-8_0.1.9_raspi.zip
+	sha256sums_armv7h = f686c71a411a9b95157b24fe7aada8b7478c90400c1919e7a12466f04911fb8b
+
+pkgname = pico8-bin
+

@@ -1,0 +1,14 @@
+pkgbase = mabel
+	pkgdesc = A fancy BitTorrent client for the terminal
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = https://github.com/mr-karan/mabel
+	arch = any
+	license = GPL3
+	makedepends = go
+	provides = mabel
+	conflicts = mabel-git
+	source = mabel-0.1.4.tar.gz::https://github.com/smmr-software/mabel/archive/refs/tags/v0.1.4.tar.gz
+	sha256sums = 2533d3525f24aec82429be6313176554d21e136b29ed8bf2a0bbcd5549c17dfe
+
+pkgname = mabel

@@ -1,0 +1,15 @@
+pkgbase = zivid
+	pkgdesc = Defining the Future of 3D Machine Vision
+	pkgver = 2.7.0+e31dcbe2_1
+	pkgrel = 1
+	url = https://www.zivid.com
+	arch = x86_64
+	groups = zivid-all
+	license = custom
+	depends = zivid-telicam-driver
+	depends = opencl-driver
+	options = !strip
+	source = https://www.zivid.com/hubfs/softwarefiles/releases/2.7.0+e31dcbe2-1/u18/zivid_2.7.0+e31dcbe2-1_amd64.deb
+	sha256sums = daaef0dd5242d5eb3fd2d7672b6ff126b46c203c28de295370a3a5c5b2d1ca39
+
+pkgname = zivid

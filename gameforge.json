@@ -1,0 +1,21 @@
+pkgbase = gameforge
+	pkgdesc = GameForge (WINE)
+	pkgver = 1.10
+	pkgrel = 1
+	url = https://gameforge.com
+	arch = x86_64
+	license = GPL
+	depends = wine-staging
+	depends = winetricks
+	optdepends = wine-nine
+	source = gameforge.png
+	source = gameforge.desktop
+	source = gameforge.sh
+	source = https://install.gameforge.com/download?download_id=95a5f799-9507-4dba-88fb-7d1da580e1a2&game_id=df8661d6-a76e-417f-82dc-9fada569615e&locale=fr
+	md5sums = 0db6b822bbdf443247671e1d93216b1a
+	md5sums = e693c79d27d45e1971529bb3841fdb48
+	md5sums = 9c43a87b298d82122b30f4c2b19e3607
+	md5sums = 4fc496c38332047790d11c9d6e707b0f
+
+pkgname = gameforge
+

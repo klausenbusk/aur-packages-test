@@ -1,0 +1,22 @@
+pkgbase = wayward-git
+	pkgdesc = Fast GTK shell and compositor for wayland and weston.
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://github.com/varmd/wayward
+	arch = x86_64
+	license = GPL
+	makedepends = wayland
+	makedepends = gcc
+	makedepends = fakeroot
+	depends = weston
+	depends = wayland
+	depends = ttf-droid
+	depends = adwaita-icon-theme
+	depends = librsvg
+	depends = sudo
+	provides = wayward
+	options = !emptydirs
+	source = git+https://github.com/varmd/wayward.git
+	sha256sums = SKIP
+
+pkgname = wayward-git

@@ -1,0 +1,18 @@
+pkgbase = ko-bin
+	pkgdesc = Simple and fast container image builder for Go applications
+	pkgver = 0.9.3
+	pkgrel = 1
+	url = https://github.com/google/ko
+	arch = x86_64
+	license = Apache
+	depends = go
+	optdepends = bash-completion: for tab completion
+	optdepends = docker: for Docker authentication support
+	optdepends = kubectl: for Kubernetes support
+	provides = ko
+	conflicts = ko
+	conflicts = ko-git
+	source = https://github.com/google/ko/releases/download/v0.9.3/ko_0.9.3_Linux_x86_64.tar.gz
+	b2sums = 68cd94803ec9f8e6b4372f1cace10bfeaba38fdc8076fd74878cb1545dfe3a2720e0d08c60f0d1a7772197dc1466ac0ba3a981d048be47cd9cccde29c5af9fc1
+
+pkgname = ko-bin

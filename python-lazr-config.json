@@ -1,0 +1,19 @@
+pkgbase = python-lazr-config
+	pkgdesc = Is typically used to manage process configuration
+	pkgver = 2.2.2
+	pkgrel = 1
+	url = https://launchpad.net/lazr.config
+	arch = any
+	license = LGPL
+	makedepends = python-setuptools
+	options = !emptydirs
+	source = https://pypi.python.org/packages/source/l/lazr.config/lazr.config-2.2.2.tar.gz
+	sha256sums = cdb9a70dac4a76ca1ff3528d9eafe5414c6c69c1b92e7e84d3477ae85f6bb787
+
+pkgname = python-lazr-config
+	depends = python
+	depends = python-lazr-delegates
+	depends = python-nose
+	depends = python-setuptools
+	depends = python-zope-interface
+

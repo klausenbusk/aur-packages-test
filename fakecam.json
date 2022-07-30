@@ -1,0 +1,12 @@
+pkgbase = fakecam
+	pkgdesc = A fake webcam provider to stream custom video
+	pkgver = 0.0
+	pkgrel = 4
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = fakecam-cli
+	depends = fakecam-gui
+
+pkgname = fakecam
+

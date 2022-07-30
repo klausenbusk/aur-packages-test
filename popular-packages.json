@@ -1,0 +1,16 @@
+pkgbase = popular-packages
+	pkgdesc = Lists popular packages not (yet) installed
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = http://public.files.xavion.name/Software/popular-packages/popular-packages.jpg
+	arch = any
+	license = GPL3
+	depends = wget
+	depends = jq
+	depends = package-query
+	options = !emptydirs
+	source = http://public.files.xavion.name/Software/popular-packages/popular-packages
+	sha1sums = 3c4cec1afcd387a42509dd9a6dc6bc37d2cb03ec
+
+pkgname = popular-packages
+

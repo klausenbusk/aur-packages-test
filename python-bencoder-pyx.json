@@ -1,0 +1,18 @@
+pkgbase = python-bencoder-pyx
+	pkgdesc = Fast bencode implementation in Cython
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://github.com/whtsky/bencoder.pyx/
+	arch = x86_64
+	license = BSD
+	checkdepends = python-pytest
+	makedepends = cython
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = python-bencoder-pyx-3.0.0.tar.gz::https://github.com/whtsky/bencoder.pyx//archive/v3.0.0.tar.gz
+	sha256sums = 14c40ae805bba06ebe6ffe5f3b030d9b923477af001eea3b9cbc18bec368e040
+
+pkgname = python-bencoder-pyx

@@ -1,0 +1,16 @@
+pkgbase = python-dnsimple
+	pkgdesc = Python client for DNSimple domain registration and DNS hosting
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/onlyhavecans/dnsimple-python
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	makedepends = git
+	depends = python
+	depends = python-requests
+	source = git+https://github.com/onlyhavecans/dnsimple-python#tag=1.2.0
+	sha256sums = SKIP
+
+pkgname = python-dnsimple
+

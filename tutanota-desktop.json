@@ -1,0 +1,20 @@
+pkgbase = tutanota-desktop
+	pkgdesc = Official Tutanota email client
+	pkgver = 3.98.15
+	pkgrel = 1
+	url = https://tutanota.com
+	arch = x86_64
+	license = GPL3
+	makedepends = nvm
+	makedepends = python
+	depends = alsa-lib
+	depends = gtk3
+	depends = libsecret
+	depends = nss
+	optdepends = libappindicator-gtk3: StatusNotifierItem support
+	source = https://github.com/tutao/tutanota/archive/tutanota-desktop-release-3.98.15.tar.gz
+	source = tutanota-desktop.desktop
+	sha256sums = b1f16e779f08ae76b2910615cee6688bda080286fb39306cc2c796a58c459e68
+	sha256sums = 9a41e5474e1568b13093c91fd54538fe614003f5f5d4f895553f73207c28cb08
+
+pkgname = tutanota-desktop

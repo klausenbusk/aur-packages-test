@@ -1,0 +1,11 @@
+pkgbase = ld-lsb
+	pkgdesc = Faking a Linux Standard Base runtime
+	pkgver = 3
+	pkgrel = 7
+	url = http://www.linuxfoundation.org/
+	arch = x86_64
+	license = GPL
+	depends = lib32-glibc
+
+pkgname = ld-lsb
+

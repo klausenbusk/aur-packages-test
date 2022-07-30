@@ -1,0 +1,14 @@
+pkgbase = latex-pgfplots
+	pkgdesc = Allows drawing normal and/or logarithmic plots directly in TeX
+	pkgver = 1.18.1
+	pkgrel = 1
+	url = http://sourceforge.net/projects/pgfplots/
+	install = pgfplots.install
+	arch = any
+	license = GPL
+	depends = tetex
+	conflicts = texlive-pictures
+	source = https://mirrors.ctan.org/graphics/pgf/contrib/pgfplots.zip
+	sha256sums = 6263971bed627898013cf1e01aeff88d19308faf88fc8c091bd2408b3db0a271
+
+pkgname = latex-pgfplots

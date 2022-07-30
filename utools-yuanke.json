@@ -1,0 +1,15 @@
+pkgbase = utools-yuanke
+	pkgdesc = 你的生产力工具集
+	pkgver = 1.0.4
+	pkgrel = 1
+	url = https://u.tools/
+	arch = x86_64
+	license = custom
+	depends = gtk3
+	depends = nss
+	depends = libxss
+	source = https://resource.u-tools.cn/currentversion/utools_1.0.4-beta_amd64.deb
+	sha512sums = 0f5a46ee1cb922ad412f61792b3ae70a91e25f35e0ab94e3e2a3ad8c9031f63f680c75a4881065637d966f3ea93361def1fb9cfb4699af29c5fd644d04d07998
+
+pkgname = utools-yuanke
+

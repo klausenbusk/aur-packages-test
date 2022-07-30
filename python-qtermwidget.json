@@ -1,0 +1,21 @@
+pkgbase = python-qtermwidget
+	pkgdesc = Python bindings for QTermWidget
+	pkgver = 0.16.1
+	pkgrel = 1
+	url = https://lxqt.org
+	arch = x86_64
+	license = LGPL
+	license = custom:BSD
+	license = custom:Public Domain
+	makedepends = lxqt-build-tools
+	makedepends = git
+	depends = python
+	depends = qtermwidget
+	depends = python-sip
+	depends = sip
+	conflicts = python-qtermwidget-git
+	source = https://github.com/lxqt/qtermwidget/releases/download/0.16.1/qtermwidget-0.16.1.tar.xz
+	sha256sums = 9266fe2b9d8b8c7297960660c13f816093706f18453c883671445ed49123b938
+
+pkgname = python-qtermwidget
+

@@ -1,0 +1,14 @@
+pkgbase = myip-rs
+	pkgdesc = A command-line tool to show your external IP address
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/crabvk/myip
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	optdepends = geoipupdate: download/update local GeoIP2 database from MaxMind
+	source = https://github.com/crabvk/myip/archive/0.2.1.tar.gz
+	sha512sums = 5789811dcc6cff8db2b4ae625a0eae59a9c40511e12972d80e61c792c74787d5c136a855f514b9f359d41c9397a609901fb7465b841219feaa1c21e01db75b93
+
+pkgname = myip-rs
+

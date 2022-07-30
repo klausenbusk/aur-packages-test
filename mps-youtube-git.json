@@ -1,0 +1,23 @@
+pkgbase = mps-youtube-git
+	pkgdesc = Terminal based YouTube jukebox with playlist management - git develop release
+	pkgver = 0.2.8.r163.g4c6ee0f
+	pkgrel = 2
+	url = https://github.com/mps-youtube/mps-youtube
+	install = mps-youtube-git.install
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = python
+	depends = python-setuptools
+	depends = python-pafy
+	optdepends = mpv: Alternative to mplayer for playback
+	optdepends = mplayer: Alternative to mpv for playback
+	optdepends = ffmpeg: for transcoding downloaded content
+	optdepends = python-pyperclip: for copying content to the clipboard
+	provides = mps-youtube
+	conflicts = mps-youtube
+	source = git+https://github.com/mps-youtube/mps-youtube.git
+	md5sums = SKIP
+
+pkgname = mps-youtube-git
+

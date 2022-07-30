@@ -1,0 +1,18 @@
+pkgbase = python-kiss-headers
+	pkgdesc = Python package for HTTP/1.1 style headers. Parse headers to objects.
+	pkgver = 2.3.1
+	pkgrel = 2
+	url = https://www.kiss-headers.tech
+	arch = any
+	license = MIT
+	checkdepends = python-pytest-cov
+	checkdepends = python-requests
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/k/kiss-headers/kiss-headers-2.3.1.tar.gz
+	sha256sums = 86e80d58da2af71fdb7c3adfe57544442fd0595928a95f6e8a9d490aa6ea29aa
+
+pkgname = python-kiss-headers

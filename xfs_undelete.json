@@ -1,0 +1,14 @@
+pkgbase = xfs_undelete
+	pkgdesc = An undelete tool for the XFS filesystem by Jan Kandziora <jjj@gmx.de>
+	pkgver = git
+	pkgrel = 1
+	url = https://github.com/ianka/xfs_undelete
+	arch = any
+	license = GPLv3
+	depends = tcl
+	depends = tcllib
+	source = git+https://github.com/ianka/xfs_undelete.git
+	md5sums = SKIP
+
+pkgname = xfs_undelete
+

@@ -1,0 +1,21 @@
+pkgbase = python-obpm-git
+	pkgdesc = Python bindings for creating openbox pipe menus
+	pkgver = 2.0_41_gb6be647
+	pkgrel = 1
+	url = http://github.com/rscholer/python-obpm
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	optdepends = alsa-utils: for alsa pipe menu
+	optdepends = exo: for opening applications
+	optdepends = python-moc: for mocp pipe menus
+	optdepends = python-pyalsaaudio: for alsa pipe menu
+	provides = python-obpm
+	conflicts = python-obpm
+	source = git+http://github.com/rscholer/python-obpm
+	sha256sums = SKIP
+
+pkgname = python-obpm-git
+

@@ -1,0 +1,15 @@
+pkgbase = perl-sub-exporter-formethods
+	pkgdesc = helper routines for using Sub::Exporter to build methods
+	pkgver = 0.100054
+	pkgrel = 1
+	url = https://metacpan.org/release/Sub-Exporter-ForMethods
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	checkdepends = perl-namespace-autoclean
+	depends = perl-sub-exporter
+	options = !emptydirs
+	source = https://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Sub-Exporter-ForMethods-0.100054.tar.gz
+	sha256sums = eef61c9421688bb3a7beaca71623df11c8a749307ae428abdabc556e2bfafc3e
+
+pkgname = perl-sub-exporter-formethods

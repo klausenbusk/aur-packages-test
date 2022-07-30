@@ -1,0 +1,15 @@
+pkgbase = journalcheck
+	pkgdesc = A simple replacement for logcheck when using journald
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/lynix/journalcheck
+	arch = any
+	license = MIT
+	depends = grep
+	depends = systemd
+	conflicts = journalcheck-git
+	source = journalcheck-1.1.tar.gz::https://github.com/lynix/journalcheck/archive/v1.1.tar.gz
+	md5sums = e304bb6942ada2d97c2b7dd42d0db850
+
+pkgname = journalcheck
+

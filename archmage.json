@@ -1,0 +1,20 @@
+pkgbase = archmage
+	pkgdesc = An extensible reader and decompiler for files in the CHM format
+	pkgver = 0.4.2.1
+	pkgrel = 2
+	url = https://github.com/dottedmag/archmage
+	arch = any
+	license = GPL
+	makedepends = python-setuptools
+	depends = python-pychm
+	depends = python-beautifulsoup4
+	depends = python-sgmllib3k
+	optdepends = lynx: for converting html to plain text
+	optdepends = elinks: for converting html to plain text
+	optdepends = htmldoc: for converting to single html and pdf formats
+	optdepends = mod_python: for apache/python integration
+	backup = etc/archmage/arch.conf
+	source = archmage-0.4.2.1::https://github.com/dottedmag/archmage/archive/v0.4.2.1.tar.gz
+	sha256sums = SKIP
+
+pkgname = archmage

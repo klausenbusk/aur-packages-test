@@ -1,0 +1,24 @@
+pkgbase = johnnydep
+	pkgdesc = Display dependency tree of Python distribution
+	pkgver = 1.10
+	pkgrel = 1
+	url = https://github.com/wimglenn/johnnydep
+	arch = any
+	license = MIT
+	depends = python-anytree
+	depends = python-pkginfo
+	depends = python-tabulate
+	depends = python-cachetools
+	depends = python-colorama
+	depends = python-toml
+	depends = python-pyaml
+	depends = python-wheel
+	depends = python-pip
+	depends = python-structlog
+	depends = python-oyaml
+	depends = python-wimpy
+	options = !emptydirs
+	source = johnnydep-src-1.10.tar.gz::https://github.com/wimglenn/johnnydep/archive/v1.10.tar.gz
+	sha256sums = 600276b8281365fb58972e6c5895f46726d35f86130e7a17154708ba14301e84
+
+pkgname = johnnydep

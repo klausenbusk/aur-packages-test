@@ -1,0 +1,18 @@
+pkgbase = qt6gtk2
+	pkgdesc = GTK+2.0 integration plugins for Qt6
+	pkgver = 0.2
+	pkgrel = 1
+	url = https://github.com/trialuser02/qt6gtk2
+	arch = any
+	groups = therepoclub
+	license = GPL2
+	makedepends = qt6-tools
+	depends = qt6-svg
+	depends = qt6-base
+	depends = gtk2
+	conflicts = qt6gtk2-git
+	source = qt6gtk2-0.2.tar.gz::https://github.com/trialuser02/qt6gtk2/releases/download/0.2/qt6gtk2-0.2.tar.xz
+	sha256sums = 22596853eb3ea663d8f28fb40d97195428b883ec571365ce1b03437f5c75f6bc
+
+pkgname = qt6gtk2
+

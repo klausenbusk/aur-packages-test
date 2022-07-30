@@ -1,0 +1,19 @@
+pkgbase = winegui-bin
+	pkgdesc = A user-friendly WINE manager
+	pkgver = 1.8.2
+	pkgrel = 1
+	url = https://gitlab.melroy.org/melroy/winegui
+	arch = x86_64
+	license = AGPL3
+	depends = gtkmm3
+	depends = cabextract
+	depends = unzip
+	depends = p7zip
+	depends = wget
+	depends = wine
+	provides = winegui
+	conflicts = winegui
+	source = winegui-bin-1.8.2.tar.gz::https://winegui.melroy.org/downloads/WineGUI-v1.8.2.tar.gz
+	md5sums = 76e58bf808b99c9750cb464dcfbe4730
+
+pkgname = winegui-bin

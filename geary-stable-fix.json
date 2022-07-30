@@ -1,0 +1,12 @@
+pkgbase = geary-stable-fix
+	pkgdesc = metapkg that is useless since geary 1:40.0-2 was released
+	pkgver = 40.0
+	pkgrel = 2
+	epoch = 1
+	url = https://wiki.gnome.org/Apps/Geary
+	arch = x86_64
+	license = GPL3
+	depends = geary>=1:40.0-2
+
+pkgname = geary-stable-fix
+

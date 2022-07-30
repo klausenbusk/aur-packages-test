@@ -1,0 +1,19 @@
+pkgbase = bitwarden-cli-git
+	pkgdesc = Bitwarden Command-line Interface
+	pkgver = 1.7.4.r17.g3915e43
+	pkgrel = 1
+	url = https://github.com/bitwarden/cli
+	arch = x86_64
+	license = GPL3
+	makedepends = nodejs
+	makedepends = npm
+	depends = nodejs
+	conflicts = bitwarden-cli
+	options = !strip
+	source = bitwarden-cli-git-repo::git+https://github.com/bitwarden/cli.git
+	source = jslib-git-repo::git+https://github.com/bitwarden/jslib.git
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = bitwarden-cli-git
+

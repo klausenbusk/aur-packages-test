@@ -1,0 +1,15 @@
+pkgbase = python2-aalib
+	pkgdesc = Python 2.x bindings for AAlib
+	pkgver = 0.3.2
+	pkgrel = 1
+	url = http://jwilk.nfshost.com/software/python-aalib.html
+	arch = any
+	license = GPL2
+	depends = python2
+	depends = aalib
+	depends = python2-imaging
+	source = https://github.com/jwilk/python-aalib/archive/0.3.2.tar.gz
+	sha256sums = 60e94d381d453232ae688bc8ea7246feeab6d7211905bcf5277476607af3eb55
+
+pkgname = python2-aalib
+

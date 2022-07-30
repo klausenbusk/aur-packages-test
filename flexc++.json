@@ -1,0 +1,15 @@
+pkgbase = flexc++
+	pkgdesc = C++ scanner generator
+	pkgver = 2.10.01
+	pkgrel = 2
+	url = https://fbb-git.gitlab.io/flexcpp/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = icmake>=9.03.01
+	makedepends = yodl>=4.02.02
+	depends = libbobcat>=5.04.01
+	source = https://gitlab.com/fbb-git/flexcpp/-/archive/2.10.01/flexcpp-2.10.01.tar.gz
+	md5sums = 50aa4f33036c2b7dede4180b79d7e30c
+
+pkgname = flexc++

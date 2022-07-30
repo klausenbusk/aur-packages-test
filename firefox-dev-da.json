@@ -1,0 +1,32 @@
+pkgbase = firefox-dev-da
+	pkgdesc = Standalone web browser from mozilla.org, developer build - Danish
+	pkgver = 55.0b7.20170708
+	pkgrel = 2
+	url = http://www.mozilla.org/firefox/developer
+	arch = i686
+	arch = x86_64
+	license = MPL
+	license = GPL
+	license = LGPL
+	depends = alsa-lib
+	depends = libxt
+	depends = libnotify
+	depends = mime-types
+	depends = nss
+	depends = gtk3
+	depends = sqlite3
+	depends = dbus-glib
+	optdepends = pulseaudio: audio/video playback
+	optdepends = ffmpeg: h.264 video
+	optdepends = hunspell: spell checking
+	optdepends = hyphen: hyphenation
+	source = https://download-installer.cdn.mozilla.net/pub/devedition/releases/55.0b7/linux-x86_64/da/firefox-55.0b7.tar.bz2
+	source = firefox-dev-da.desktop
+	source = vendor.js
+	validpgpkeys = 14F26682D0916CDD81E37B6D61B7B526D98F0353
+	sha512sums = SKIP
+	sha512sums = 2ddb9dc05fae77c5a22adfc0f2366a7569ec5df26b507f0ee61c3ef33560bf1a7d77461626fffe29242f4da514df03704e4c8ae470dddb011b3415f50a33bc38
+	sha512sums = 44594e0cf71a259351a28933d89cecafc65e5967764133247f7a371e800e4e10a40131a627a740173ea0e980451cc4632676947d676cde8a836be45abcf861b7
+
+pkgname = firefox-dev-da
+

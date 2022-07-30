@@ -1,0 +1,17 @@
+pkgbase = perl-autovivification
+	pkgdesc = Lexically disable autovivification.
+	pkgver = 0.16
+	pkgrel = 1
+	url = http://search.cpan.org/dist/autovivification
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=5.8.3
+	options = !emptydirs
+	source = http://www.cpan.org/authors/id/V/VP/VPIT/autovivification-0.16.tar.gz
+	md5sums = 7e20817f6034910c1bc23351d81a0658
+
+pkgname = perl-autovivification
+

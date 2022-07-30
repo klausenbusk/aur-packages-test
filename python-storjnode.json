@@ -1,0 +1,18 @@
+pkgbase = python-storjnode
+	pkgdesc = Low level storj protocol reference implementation
+	pkgver = 0.1.1
+	pkgrel = 1
+	url = https://github.com/Storj/storjnode
+	arch = any
+	license = MIT
+	depends = python
+	depends = python-pip
+	depends = python-crypto
+	depends = python-btctxstore
+	depends = python-umsgpack
+	depends = python-kademlia
+	source = https://github.com/Storj/storjnode/archive/v0.1.1.tar.gz
+	sha256sums = 27e9aa0c8b04d6cd07cfd44f5bc34c7b8e62552702769fe4910bb31303c01971
+
+pkgname = python-storjnode
+

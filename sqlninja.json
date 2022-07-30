@@ -1,0 +1,18 @@
+pkgbase = sqlninja
+	pkgdesc = SQL Server injection & takeover tool
+	pkgver = 0.2.6
+	pkgrel = 1
+	url = http://sqlninja.sourceforge.net/
+	arch = any
+	license = GPL3
+	depends = perl-dbi
+	depends = perl-io-socket-ssl
+	depends = perl-netpacket
+	depends = perl-net-pcap
+	depends = perl-net-rawip
+	optdepends = metasploit-git
+	source = http://downloads.sourceforge.net/project/sqlninja/sqlninja/0.2.6-rc1/sqlninja-0.2.6-rc1.tgz
+	md5sums = ee0ceea3141a95967ce73417969decd8
+
+pkgname = sqlninja
+

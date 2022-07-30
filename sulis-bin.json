@@ -1,0 +1,13 @@
+pkgbase = sulis-bin
+	pkgdesc = Turn based tactical RPG with several campaigns, written in Rust
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://www.sulisgame.com
+	arch = x86_64
+	license = GPL3
+	depends = alsa-lib
+	provides = sulis
+	source = sulis-bin-0.6.0.tar.gz::https://github.com/Grokmoo/sulis/releases/download/0.6.0/sulis-0.6.0-linux64.zip
+	sha256sums = 79fad49f64fc50d61230b1333f1f592f021c97303ee6a239828b06adb8d92d67
+
+pkgname = sulis-bin

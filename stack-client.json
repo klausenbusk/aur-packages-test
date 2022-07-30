@@ -1,0 +1,28 @@
+pkgbase = stack-client
+	pkgdesc = The STACK Client provides file sync to desktop clients.
+	pkgver = 2.6.5
+	pkgrel = 2
+	url = https://www.transip.nl/stack/
+	arch = x86_64
+	license = GPL2
+	makedepends = cmake
+	makedepends = qt5-tools
+	makedepends = extra-cmake-modules
+	makedepends = frameworkintegration
+	depends = qtkeychain
+	depends = qt5-webengine
+	depends = hicolor-icon-theme
+	depends = xdg-utils
+	depends = libcloudproviders
+	optdepends = python-nautilus: integration with Nautilus
+	optdepends = nemo-python: integration with Nemo
+	conflicts = stack-client-bin
+	source = client-v2.6.5.tar.gz::https://github.com/nextcloud/client/archive/v2.6.5.tar.gz
+	source = http://mirror.transip.net/stack/software/source/stack-client-source-2.6.5.20200909.tar.gz
+	source = APPLICATION_NAME.patch
+	sha256sums = 935385ff07174a4d85c2d4eda4d069aeb4aa8d0e68865b2cf8a24ca8cc883288
+	sha256sums = b3b5e7fe98df6c8cb8e7020115e58007c902604b5928616c8fd2134dcd127e3a
+	sha256sums = 65a37003112bbc07bb372693793ff5a2dba86199d0da845e7203096ecc33c559
+
+pkgname = stack-client
+

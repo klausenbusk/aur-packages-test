@@ -1,0 +1,15 @@
+pkgbase = vim-anywhere-git
+	pkgdesc = Use Vim to edit text anywhere
+	pkgver = r3.b6524e8
+	pkgrel = 1
+	url = https://github.com/cjbassi/vim-anywhere
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = xclip
+	provides = vim-anywhere
+	source = git+https://github.com/cjbassi/vim-anywhere
+	md5sums = SKIP
+
+pkgname = vim-anywhere-git
+

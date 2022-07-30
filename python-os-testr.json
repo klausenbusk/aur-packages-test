@@ -1,0 +1,28 @@
+pkgbase = python-os-testr
+	pkgdesc = A testr wrapper to provide additional functionality
+	pkgver = 1.0.0
+	pkgrel = 2
+	url = https://pypi.python.org/pypi/os-testr
+	arch = any
+	license = Apache
+	makedepends = python2
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = https://pypi.python.org/packages/47/ac/767db04504bd21b2fbcf11dd404c6b8bcc0cf954410c3c05f0d65877de2e/os-testr-1.0.0.tar.gz
+	md5sums = 915dc11818c13c1726d57def7c372154
+
+pkgname = python-os-testr
+	depends = python
+	depends = python-subunit
+	depends = python-testtools
+	depends = python-stestr>=1.0.0
+	depends = python-pbr
+
+pkgname = python2-os-testr
+	depends = python2
+	depends = python2-subunit
+	depends = python2-testtools
+	depends = python2-stestr>=1.0.0
+	depends = python2-pbr
+

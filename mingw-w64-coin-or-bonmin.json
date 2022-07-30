@@ -1,0 +1,19 @@
+pkgbase = mingw-w64-coin-or-bonmin
+	pkgdesc = Experimental open-source C++ code for solving general MINLP problems (mingw-w64)
+	pkgver = 1.8.8
+	pkgrel = 3
+	url = https://projects.coin-or.org/Bonmin
+	arch = any
+	groups = mingw-w64-coin-or
+	license = EPL
+	makedepends = mingw-w64-configure
+	depends = mingw-w64-coin-or-cbc
+	depends = mingw-w64-coin-or-ipopt
+	depends = mingw-w64-coin-or-bcp
+	options = staticlibs
+	options = !buildflags
+	options = !strip
+	source = https://www.coin-or.org/download/source/Bonmin/Bonmin-1.8.8.tgz
+	sha256sums = 1a47cf5a4c115974f09d765408ab2116efd4dc1ec13faccd078f2870404316d2
+
+pkgname = mingw-w64-coin-or-bonmin

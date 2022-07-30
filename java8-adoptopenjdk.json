@@ -1,0 +1,65 @@
+pkgbase = java8-adoptopenjdk
+	pkgdesc = AdoptOpenJDK 8 HotSpot - Adoptium Temurin
+	pkgver = 8u332b09
+	pkgrel = 1
+	url = https://adoptium.net/
+	arch = x86_64
+	license = custom
+	makedepends = ca-certificates-utils
+	makedepends = hicolor-icon-theme
+	makedepends = java-environment-common
+	makedepends = java-runtime-common
+	makedepends = nss
+	makedepends = xdg-utils
+	source = https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u332-b09/OpenJDK8U-jdk_x64_linux_hotspot_8u332b09.tar.gz
+	sha256sums = adc13a0a0540d77f0a3481b48f10d61eb203e5ad4914507d489c2de3bd3d83da
+
+pkgname = jre8-adoptopenjdk-headless
+	pkgdesc = AdoptOpenJDK Java 8 headless runtime environment
+	install = install_jre8-adoptopenjdk-headless.sh
+	depends = java-runtime-common
+	depends = ca-certificates-utils
+	depends = nss
+	optdepends = java-rhino: for some JavaScript support
+	provides = java-runtime-headless=8
+	provides = java-runtime-headless-openjdk=8
+	backup = etc/java-8-adoptopenjdk/amd64/jvm.cfg
+	backup = etc/java-8-adoptopenjdk/calendars.properties
+	backup = etc/java-8-adoptopenjdk/content-types.properties
+	backup = etc/java-8-adoptopenjdk/flavormap.properties
+	backup = etc/java-8-adoptopenjdk/images/cursors/cursors.properties
+	backup = etc/java-8-adoptopenjdk/logging.properties
+	backup = etc/java-8-adoptopenjdk/management/jmxremote.access
+	backup = etc/java-8-adoptopenjdk/management/jmxremote.password
+	backup = etc/java-8-adoptopenjdk/management/management.properties
+	backup = etc/java-8-adoptopenjdk/management/snmp.acl
+	backup = etc/java-8-adoptopenjdk/net.properties
+	backup = etc/java-8-adoptopenjdk/psfont.properties.ja
+	backup = etc/java-8-adoptopenjdk/psfontj2d.properties
+	backup = etc/java-8-adoptopenjdk/security/java.policy
+	backup = etc/java-8-adoptopenjdk/security/java.security
+	backup = etc/java-8-adoptopenjdk/sound.properties
+
+pkgname = jre8-adoptopenjdk
+	pkgdesc = AdoptOpenJDK Java 8 full runtime environment
+	install = install_jre8-adoptopenjdk.sh
+	depends = jre8-adoptopenjdk-headless=8u332b09-1
+	depends = xdg-utils
+	depends = hicolor-icon-theme
+	optdepends = icedtea-web: web browser plugin + Java Web Start
+	optdepends = alsa-lib: for basic sound support
+	optdepends = gtk2: for the Gtk+ look and feel - desktop usage
+	optdepends = java8-openjfx: for JavaFX GUI components support
+	provides = java-runtime=8
+	provides = java-runtime-openjdk=8
+
+pkgname = jdk8-adoptopenjdk
+	pkgdesc = AdoptOpenJDK Java 8 development kit
+	install = install_jdk8-adoptopenjdk.sh
+	depends = java-environment-common
+	depends = jre8-adoptopenjdk=8u332b09-1
+	provides = java-environment=8
+	provides = java-environment-openjdk=8
+
+pkgname = adoptopenjdk8-src
+	pkgdesc = AdoptOpenJDK Java 8 sources

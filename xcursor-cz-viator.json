@@ -1,0 +1,34 @@
+pkgbase = xcursor-cz-viator
+	pkgver = 20210407
+	pkgrel = 1
+	url = https://github.com/charakterziffer/cursor-toolbox
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = inkscape
+	makedepends = xorg-xcursorgen
+	makedepends = python2
+	makedepends = patch
+	source = xcursor-cz-viator-20210407::git+https://github.com/charakterziffer/cursor-toolbox#commit=4777dfc09de1720528170dcfbf217c28681df83b
+	source = build.patch
+	sha512sums = SKIP
+	sha512sums = c2b8792e0a9afd639864608dc674acbc1a368d9a83cd46dd3422403961af2b001c3eb004269eb701fcd34f4cfceaca5912a751a6ecd68ad08901ec94e0afb972
+
+pkgname = xcursor-cz-viator-hourglass-white
+
+pkgname = xcursor-cz-viator-hourglass-black
+
+pkgname = xcursor-cz-viator-ring-white
+
+pkgname = xcursor-cz-viator-ring-black
+
+pkgname = xcursor-cz-viator-rotor-white
+
+pkgname = xcursor-cz-viator-rotor-black
+
+pkgname = xcursor-cz-viator-windmill-white
+
+pkgname = xcursor-cz-viator-windmill-black
+
+pkgname = xcursor-cz-hickson
+

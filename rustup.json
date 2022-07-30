@@ -1,0 +1,28 @@
+pkgbase = rustup
+	pkgdesc = The Rust toolchain installer
+	pkgver = 0.6.3
+	pkgrel = 2
+	url = https://github.com/rust-lang-nursery/rustup.rs
+	install = post.install
+	arch = i686
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	provides = rust
+	provides = cargo
+	provides = rust-nightly
+	provides = cargo-nightly
+	conflicts = rust
+	conflicts = cargo
+	conflicts = rust-nightly
+	conflicts = rust-nightly-bin
+	conflicts = multirust
+	conflicts = multirust-git
+	replaces = multirust
+	replaces = multirust-git
+	source = rustup-0.6.3.tar.gz::https://github.com/rust-lang-nursery/rustup.rs/archive/0.6.3.tar.gz
+	md5sums = 4c4d5982af51515ddccd16e6a10c405c
+
+pkgname = rustup
+

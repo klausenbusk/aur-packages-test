@@ -1,0 +1,25 @@
+pkgbase = wuala
+	pkgdesc = A new way of storing, sharing and publishing files on the Internet. It's free, simple and secure.
+	pkgver = 20141107
+	pkgrel = 2
+	epoch = 1
+	url = https://www.wuala.com/
+	install = wuala.install
+	arch = any
+	license = custom:wuala
+	depends = java-runtime
+	depends = xdg-utils
+	depends = desktop-file-utils
+	depends = hicolor-icon-theme
+	optdepends = fuse: filesystem integration
+	source = https://cdn.wuala.com/repo/other/wuala.tar.gz
+	source = wuala.png
+	source = wuala.desktop
+	source = LICENSE
+	sha256sums = bf06e729fcfadcd88b2c84b5117bc292e838ad5dbd1d881fb5f689753533ccf7
+	sha256sums = 5652a80b03372e0a3dee76158a6bc8846d68dae0b453326cb314db5c39b1fac0
+	sha256sums = 19eef73cfa5c4d58c6bda076edab3fd63bfed06f01e5caee95432a67f1362510
+	sha256sums = ff272cf434454a903a7f4eba82a6c34e48cc58eebb53c9f232028b61e2af8b31
+
+pkgname = wuala
+

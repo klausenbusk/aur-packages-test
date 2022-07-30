@@ -1,0 +1,20 @@
+pkgbase = lsd-truedeps
+	pkgdesc = Modern ls with a lot of pretty colors and awesome icons
+	pkgver = 0.16.0
+	pkgrel = 1
+	url = https://github.com/Peltoche/lsd
+	arch = x86_64
+	license = Apache
+	makedepends = rust
+	makedepends = cargo
+	depends = gcc-libs
+	optdepends = awesome-terminal-fonts: partial glyph support
+	optdepends = ttf-nerd-fonts-symbols: complete glyph support
+	provides = lsd=0.16.0
+	conflicts = lsd=0.16.0
+	source = https://github.com/Peltoche/lsd/archive/0.16.0/lsd-0.16.0.tar.gz
+	sha256sums = e2406748d78431a1c03bdd2404a204a006c19905d926e41a36587b93a791e003
+	sha512sums = 562c070d3e716af26ff3a54632cd176a1b95471fbb7e947f8175f89df483ff5b337d1a0d7578fa6ee41f77fa7ed1a618d37e91ebf1b8428e6a857918b415aa39
+
+pkgname = lsd-truedeps
+

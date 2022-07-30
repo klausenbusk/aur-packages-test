@@ -1,0 +1,16 @@
+pkgbase = sfdnormalize-git
+	pkgdesc = SFD normalizer, discards GUI information from SFD files
+	pkgver = 0.3.0.r1.g63c0888
+	pkgrel = 1
+	url = https://github.com/alerque/sfdnormalize
+	arch = any
+	license = CCO
+	makedepends = python-setuptools
+	depends = python
+	provides = sfdnormalize
+	conflicts = sfdnormalize
+	source = sfdnormalize-git::git+https://github.com/alerque/sfdnormalize.git
+	sha256sums = SKIP
+
+pkgname = sfdnormalize-git
+

@@ -1,0 +1,22 @@
+pkgbase = julia-softglobalscope
+	pkgdesc = Utilities for "soft" global scope in interactive Julia environments
+	pkgver = 1.0.10
+	pkgrel = 2
+	url = https://github.com/stevengj/SoftGlobalScope.jl
+	arch = any
+	license = MIT
+	makedepends = julia-distrohelper
+	depends = julia
+	depends = julia-compat
+	depends = julia-loadpath
+	source = julia-softglobalscope-1.0.10.tar.gz::https://github.com/stevengj/SoftGlobalScope.jl/archive/v1.0.10.tar.gz
+	source = julia-softglobalscope-1.0.10-Deps.toml::https://raw.githubusercontent.com/JuliaRegistries/General/5bdd989d20e4caecfd9da66c6ac4dbf3f98656f5/S/SoftGlobalScope/Deps.toml
+	source = julia-softglobalscope-1.0.10-Package.toml::https://raw.githubusercontent.com/JuliaRegistries/General/5bdd989d20e4caecfd9da66c6ac4dbf3f98656f5/S/SoftGlobalScope/Package.toml
+	source = julia-softglobalscope-1.0.10-Versions.toml::https://raw.githubusercontent.com/JuliaRegistries/General/5bdd989d20e4caecfd9da66c6ac4dbf3f98656f5/S/SoftGlobalScope/Versions.toml
+	sha256sums = b871a44657298c809a5400b47c0bdddb1878963f3704cb6aef3e461808a79e55
+	sha256sums = 74225d1c6ba49d7378ed4a6c15d2f59539d166031269bd75c1af70fb1a00b9df
+	sha256sums = bd88b87dce5f48dd61010d56f75d2cf8aa73ddfca287c5fdc6f71a09c2bd9ca4
+	sha256sums = 50a75c508968f20fc543fe466d9b5e31b945f3bd34ff631aa9e9ff62b76a454b
+
+pkgname = julia-softglobalscope
+

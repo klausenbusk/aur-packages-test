@@ -1,0 +1,9 @@
+pkgbase = xscreensaver-aerial-videos
+	pkgver = 1.10
+	pkgrel = 3
+	arch = any
+
+pkgname = xscreensaver-aerial-videos-2k
+
+pkgname = xscreensaver-aerial-videos-4k
+

@@ -1,0 +1,16 @@
+pkgbase = sqls
+	pkgdesc = Language Server Protocol implementation for SQL
+	pkgver = 0.2.22
+	pkgrel = 1
+	url = https://github.com/lighttiger2505/sqls
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	depends = glibc
+	optdepends = mysql
+	optdepends = sqlite3
+	optdepends = postgresql
+	source = sqls-0.2.22.tar.gz::https://github.com/lighttiger2505/sqls/archive/v0.2.22.tar.gz
+	sha256sums = 0f417123331b23a50b10f2724befc53aa82f44150cf84f28bfb885f768697a01
+
+pkgname = sqls

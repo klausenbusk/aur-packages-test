@@ -1,0 +1,28 @@
+pkgbase = python2-leap_soledad
+	pkgdesc = Synchronization Of Locally Encrypted Data Among Devices.
+	pkgver = 0.10.5
+	pkgrel = 1
+	url = https://bitmask.net/
+	arch = any
+	license = GPL3
+	depends = python2-leap_pycommon
+	depends = python2-paste
+	depends = python2-routes
+	depends = python2-six
+	depends = python2-twisted
+	depends = python2-treq
+	depends = python2-scrypt
+	depends = python2-zope-proxy
+	depends = python2-cryptography
+	depends = python2-pysqlcipher
+	depends = python2-configparser
+	depends = python2-beaker
+	depends = python2-couchdb
+	replaces = python2-leap_soledad_common
+	replaces = python2-leap_soledad_client
+	noextract = archive.tar.gz
+	source = https://0xacab.org/leap/soledad/repository/0.10.5/archive.tar.gz
+	sha512sums = 175653a7af2570baa795c0eaeb624dc92656fe85ca8e32fb66e0680f0551d28d26fde9068e34a83d438c813144454faaedbf60d2f658bbe2d25f0cafe58c5231
+
+pkgname = python2-leap_soledad
+

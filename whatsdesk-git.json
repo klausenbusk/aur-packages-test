@@ -1,0 +1,21 @@
+pkgbase = whatsdesk-git
+	pkgdesc = unofficial client of whatsapp
+	pkgver = 0.3.8
+	pkgrel = 1
+	url = https://zerkc.gitlab.io/whatsdesk
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = nodejs
+	makedepends = npm
+	depends = libxss
+	depends = nss
+	depends = libxtst
+	depends = libnotify
+	depends = libappindicator-gtk3
+	provides = whatsdesk
+	conflicts = whatsdesk-bin
+	source_x86_64 = whatsdesk-0.3.8-1.tar::https://gitlab.com/zerkc/whatsdesk/-/archive/master/whatsdesk-master.tar?commit=426b01b731995155ca73de7127f2a309b0f11124
+	sha256sums_x86_64 = 94e4a61777631d0bea3a594a8a3aae37f2887337eec03a4bedc1ad8d347aa08a
+
+pkgname = whatsdesk-git

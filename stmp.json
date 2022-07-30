@@ -1,0 +1,14 @@
+pkgbase = stmp
+	pkgdesc = Subsonic Terminal Music Player
+	pkgver = 0.0.2
+	pkgrel = 1
+	url = https://github.com/wildeyedskies/stmp
+	arch = x86_64
+	license = GPL
+	makedepends = go
+	depends = mpv
+	source = stmp-0.0.2.tar.gz::https://github.com/wildeyedskies/stmp/archive/0.0.2.tar.gz
+	sha256sums = 3822edd13c5efa80a42be572e806b96a2c2dea20b4fd4b34c27b67ae9740be4e
+
+pkgname = stmp
+

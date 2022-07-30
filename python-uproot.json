@@ -1,0 +1,44 @@
+pkgbase = python-uproot
+	pkgdesc = Minimalist CERN ROOT I/O in pure Python and Numpy
+	pkgver = 3.10.0
+	pkgrel = 1
+	url = https://github.com/scikit-hep/uproot
+	arch = any
+	license = BSD
+	checkdepends = python2-mock
+	checkdepends = python2-pandas
+	checkdepends = python2-pkgconfig
+	checkdepends = python2-uproot-methods
+	checkdepends = python2-xxhash
+	checkdepends = python-mock
+	checkdepends = python-pandas
+	checkdepends = python-pkgconfig
+	checkdepends = python-uproot-methods
+	checkdepends = python-xxhash
+	makedepends = python2-cachetools
+	makedepends = python2-setuptools
+	makedepends = python2-pytest-runner
+	makedepends = python-cachetools
+	makedepends = python-setuptools
+	makedepends = python-pytest-runner
+	source = https://github.com/scikit-hep/uproot/archive/3.10.0.zip
+	sha256sums = cb22c02bc53438b47b23fb26d5f726b9d6fa9818d045ddb4ceb6ee6771910ba0
+
+pkgname = python2-uproot
+	depends = python2-awkward
+	depends = python2-cachetools
+	depends = python2-lz4
+	depends = python2-numpy
+	depends = python2-uproot-methods
+	optdepends = python2-futures: Python2 parallel processing
+	optdepends = python2-backports.lzma: LZMA compression used by some ROOT files
+	optdepends = xrootd: access remote files over XRootD
+
+pkgname = python-uproot
+	depends = python-awkward
+	depends = python-cachetools
+	depends = python-lz4
+	depends = python-numpy
+	depends = python-uproot-methods
+	optdepends = xrootd: access remote files over XRootD
+

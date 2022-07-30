@@ -1,0 +1,17 @@
+pkgbase = xinput-toggle
+	pkgdesc = xinput enable/disable toggler
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = http://github.com/cdown/xinput-toggle
+	arch = any
+	license = Public domain
+	depends = xorg-xinput
+	optdepends = libnotify: --notify support
+	provides = yubikey-toggle
+	conflicts = yubikey-toggle
+	replaces = yubikey-toggle
+	source = https://github.com/cdown/xinput-toggle/archive/1.2.0.zip
+	md5sums = eae088a29b226d190ce67c2c6a0cce7f
+
+pkgname = xinput-toggle
+

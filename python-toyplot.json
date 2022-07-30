@@ -1,0 +1,23 @@
+pkgbase = python-toyplot
+	pkgdesc = Python plotting toolkit supporting electronic publishing and reproducibility
+	pkgver = 0.19.0
+	pkgrel = 1
+	url = http://toyplot.readthedocs.io/
+	arch = any
+	license = custom:sandia
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = git
+	depends = python
+	depends = python-arrow
+	depends = python-custom_inherit
+	depends = python-multipledispatch
+	depends = python-numpy
+	depends = python-reportlab
+	depends = python-six
+	options = !emptydirs
+	source = git+https://github.com/sandialabs/toyplot#tag=v0.19.0
+	sha256sums = SKIP
+
+pkgname = python-toyplot
+

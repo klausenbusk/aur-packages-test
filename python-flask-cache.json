@@ -1,0 +1,15 @@
+pkgbase = python-flask-cache
+	pkgdesc = Adds cache support to your Flask application
+	pkgver = 0.13.1
+	pkgrel = 2
+	url = http://pypi.python.org/pypi/Flask-Cache
+	arch = any
+	license = BSD
+	makedepends = python-distribute
+	depends = python-flask
+	conflicts = python-flask-cache-git
+	source = https://pypi.python.org/packages/source/F/Flask-Cache/Flask-Cache-0.13.1.tar.gz
+	md5sums = ab82a9cd0844891ccdb54fbb93fd6c59
+
+pkgname = python-flask-cache
+

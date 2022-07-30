@@ -1,0 +1,16 @@
+pkgbase = python-pylgbst
+	pkgdesc = LEGO Boost python module
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/undera/pylgbst
+	arch = any
+	license = APACHE
+	makedepends = python-setuptools
+	depends = python
+	depends = python-pygatt
+	depends = bluez-utils-compat
+	source = python-pylgbst-1.1.1.tar.gz::https://github.com/undera/pylgbst/archive/1.1.1.tar.gz
+	sha256sums = 141df597a05ed1a4e953d14f2f9e64ec35ec9adc9d13581242914ce485d5ca65
+
+pkgname = python-pylgbst
+

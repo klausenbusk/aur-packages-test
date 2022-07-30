@@ -1,0 +1,17 @@
+pkgbase = papirus-icon-theme-gtk-git
+	pkgdesc = Papirus icon theme for GTK (git version)
+	pkgver = 20161129
+	pkgrel = 1
+	url = https://github.com/PapirusDevelopmentTeam/papirus-icon-theme-gtk
+	arch = any
+	license = LGPL3
+	makedepends = git
+	conflicts = papirus-gtk-icon-theme
+	conflicts = papirus-gtk-icon-theme-git
+	conflicts = papirus-icon-theme-gtk
+	options = !strip
+	source = papirus-icon-theme-gtk-git::git+https://github.com/PapirusDevelopmentTeam/papirus-icon-theme-gtk.git
+	sha256sums = SKIP
+
+pkgname = papirus-icon-theme-gtk-git
+

@@ -1,0 +1,26 @@
+pkgbase = doublecmd-gtk2-alpha-bin
+	pkgdesc = A file manager with two panels side by side
+	pkgver = 1.1.0.svn.r10295
+	pkgrel = 1
+	url = https://doublecmd.sourceforge.io
+	arch = x86_64
+	license = GPL2
+	depends = gtk2
+	optdepends = lua: scripting
+	optdepends = p7zip: support for 7zip archives
+	optdepends = libunrar: support for rar archives
+	optdepends = pmount: mount removable devices
+	optdepends = imagemagick: speed up thumbnail view
+	optdepends = ffmpegthumbnailer: video thumbnails
+	provides = doublecmd
+	conflicts = doublecmd-gtk2
+	conflicts = doublecmd-qt5-svn
+	conflicts = doublecmd-qt5
+	conflicts = doublecmd-gtk2-svn
+	conflicts = doublecmd-gtk2-bin-nightly
+	replaces = doublecmd-gtk2-bin-nightly
+	options = !strip
+	source = https://download.opensuse.org/repositories/home:/Alexx2000:/doublecmd-svn/Fedora_35/x86_64/doublecmd-gtk-1.1.0+svn10295+git9934721-324.1.x86_64.rpm
+	sha512sums = 1541b32a67e57f1fc09beb4af2a59613270bb89474da1cb0fc17247df3252414eeaf25ef3a1e255a0e4eda081efc534d3804459bff7dd76897de978786bf2b89
+
+pkgname = doublecmd-gtk2-alpha-bin

@@ -1,0 +1,33 @@
+pkgbase = tuned-git
+	pkgdesc = Daemon that performs monitoring and adaptive configuration of devices in the system
+	pkgver = 2.10.0.r75.g26db89d
+	pkgrel = 4
+	url = https://github.com/redhat-performance/tuned
+	install = tuned.install
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = desktop-file-utils
+	depends = ethtool
+	depends = python-configobj
+	depends = python-pyudev
+	depends = python-gobject
+	depends = python-decorator
+	depends = python-dbus
+	depends = python-schedutils
+	depends = python-linux-procfs
+	depends = perf
+	depends = hdparm
+	depends = polkit
+	depends = hicolor-icon-theme
+	optdepends = virt-what
+	optdepends = systemtap
+	optdepends = python-dmidecode
+	optdepends = x86_energy_perf_policy
+	provides = tuned
+	backup = etc/tuned/active_profile
+	source = tuned-git::git://github.com/redhat-performance/tuned
+	sha256sums = SKIP
+
+pkgname = tuned-git
+

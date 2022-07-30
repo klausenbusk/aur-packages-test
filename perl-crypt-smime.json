@@ -1,0 +1,16 @@
+pkgbase = perl-crypt-smime
+	pkgdesc = S/MIME message signing, verification, encryption and decryption
+	pkgver = 0.28
+	pkgrel = 1
+	url = http://search.cpan.org/dist/Crypt-SMIME
+	arch = any
+	license = GPL
+	license = PerlArtistic
+	makedepends = perl-extutils-cchecker
+	makedepends = perl-extutils-pkgconfig
+	depends = perl
+	options = !emptydirs
+	source = http://cpan.perl.org/modules/by-module/Crypt/Crypt-SMIME-0.28.tar.gz
+	sha256sums = ca90ecacfef620f8a2f1723c5bc3307a0079c0c6f5170849a9896b20280d1c2d
+
+pkgname = perl-crypt-smime

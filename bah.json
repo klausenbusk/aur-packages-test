@@ -1,0 +1,18 @@
+pkgbase = bah
+	pkgdesc = A CLI multi-featured AUR manager and pacman wrapper suited for debian apt users written in bash
+	pkgver = 0.0.2
+	pkgrel = 1
+	url = https://github.com/DisLogicator/bah/
+	arch = any
+	license = WTFPL
+	depends = pacman
+	depends = make
+	source = https://raw.githubusercontent.com/DisLogicator/bah/main/LICENSE
+	source = https://raw.githubusercontent.com/DisLogicator/bah/main/bah
+	source = https://raw.githubusercontent.com/DisLogicator/bah/main/bte
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = bah
+

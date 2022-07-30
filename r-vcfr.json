@@ -1,0 +1,31 @@
+pkgbase = r-vcfr
+	pkgdesc = Manipulate and Visualize VCF Data
+	pkgver = 1.13.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=vcfR
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-ape
+	depends = r-dplyr
+	depends = r-magrittr
+	depends = r-memuse
+	depends = r-pinfsc50
+	depends = r-rcpp
+	depends = r-stringr
+	depends = r-tibble
+	depends = r-vegan
+	depends = r-viridislite
+	optdepends = r-adegenet
+	optdepends = r-ggplot2
+	optdepends = r-knitr
+	optdepends = r-poppr
+	optdepends = r-reshape2
+	optdepends = r-rmarkdown
+	optdepends = r-scales
+	optdepends = r-testthat
+	optdepends = r-tidyr
+	source = https://cran.r-project.org/src/contrib/vcfR_1.13.0.tar.gz
+	sha256sums = 743ce845732ada638f0f8a2cd789cd06aa25d818fec87c8bdb998f7c77089ebc
+
+pkgname = r-vcfr

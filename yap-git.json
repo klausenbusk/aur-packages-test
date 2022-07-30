@@ -1,0 +1,21 @@
+pkgbase = yap-git
+	pkgdesc = Package software with ease
+	pkgver = r16.aad3441
+	pkgrel = 1
+	url = https://github.com/PackageFoundation/yap
+	arch = armv6h
+	arch = armv7h
+	arch = arm
+	arch = aarch64
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	provides = yap
+	conflicts = yap
+	source = yap::git+https://github.com/PackageFoundation/yap
+	sha256sums = SKIP
+
+pkgname = yap-git

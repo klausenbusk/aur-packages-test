@@ -1,0 +1,14 @@
+pkgbase = minq_nhentai-git
+	pkgdesc = Alias for minq-nhentai-git
+	pkgver = 51
+	pkgrel = 1
+	url = https://github.com/kuche1/minq_nhentai.git
+	arch = x86_64
+	arch = i686
+	license = GPL
+	depends = minq-nhentai-git
+	provides = minq_nhentai
+	source = git+https://github.com/kuche1/minq_nhentai.git
+	md5sums = SKIP
+
+pkgname = minq_nhentai-git

@@ -1,0 +1,22 @@
+pkgbase = drawio-desktop
+	pkgdesc = Diagram drawing application built on web technology
+	pkgver = 19.0.3
+	pkgrel = 1
+	url = https://github.com/jgraph/drawio-desktop
+	arch = any
+	license = Apache
+	makedepends = yarn
+	makedepends = ant
+	makedepends = nodejs>=12
+	depends = electron18
+	depends = libnotify
+	depends = shared-mime-info
+	options = !strip
+	source = drawio-19.0.3.tar.gz::https://github.com/jgraph/drawio/archive/v19.0.3.tar.gz
+	source = drawio-desktop-19.0.3.tar.gz::https://github.com/jgraph/drawio-desktop/archive/v19.0.3.tar.gz
+	source = drawio.xml
+	sha512sums = 3f1c12f4f5c0160df08b752908a4082232b8d0bafbb112f1fba5f44526b1bee94f6da5200be06ac2fd3597a5e7fc914d1caf92059e470d56d8c81fe62c03dd62
+	sha512sums = e4a46233da3a3a41e5c390928e68e6e37bf761f1706f593afc3c6440113afcfe98d15974fc5d48ecddf94e66972a95899c2dc33097b2847ba7d94360386cfae2
+	sha512sums = 8899108b4112f065173a077ca68d4d915780bcc993c69924098e134fa05338a20cb0391720b7b45c27071f789fbe5a6a02228dd633570e91fb4482082c480539
+
+pkgname = drawio-desktop

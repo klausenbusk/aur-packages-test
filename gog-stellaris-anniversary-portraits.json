@@ -1,0 +1,18 @@
+pkgbase = gog-stellaris-anniversary-portraits
+	pkgdesc = The free Anniversary Portraits DLC for the Stellaris game
+	pkgver = 3.4.5
+	pkgrel = 1
+	url = https://www.gog.com/game/stellaris_anniversary_portraits
+	arch = x86_64
+	groups = gog-stellaris-dlcs
+	groups = gog
+	groups = games
+	license = custom
+	makedepends = unzip
+	makedepends = findutils
+	makedepends = lgogdownloader
+	depends = gog-stellaris>=3.4.5
+	source = stellaris_anniversary_portraits_3_4_5.sh::gogdownloader://1619776270/en3installer0
+	sha512sums = e27e491ea39fab739d1739c5988155b782e08101f05626e4292ccef1a07778dbe915c98178b8c3e7b1f1b4c909adfa15ba8052fdc23a4ec14ec9b42f408fd83d
+
+pkgname = gog-stellaris-anniversary-portraits

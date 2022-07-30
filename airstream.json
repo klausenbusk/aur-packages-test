@@ -1,0 +1,14 @@
+pkgbase = airstream
+	pkgdesc = Computer side of the AirStream software for Android streaming
+	pkgver = 5.4.4
+	pkgrel = 1
+	url = http://airstream.io/
+	arch = any
+	license = Commercial
+	depends = java-runtime
+	depends = ffmpeg
+	source = http://54.212.250.206/pc-suites/airstream-linux.deb
+	sha512sums = e7bb9a367dfd617202d38a3d9da52e6dfd734f968764033138ae554506107b85c76730bc45404c5fec8ae7497a2e4950e4457a978e02b3e37bf9a4544c78b577
+
+pkgname = airstream
+

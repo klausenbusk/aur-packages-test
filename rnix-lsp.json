@@ -1,0 +1,19 @@
+pkgbase = rnix-lsp
+	pkgdesc = A Language Server for Nix
+	pkgver = 0.2.5
+	pkgrel = 1
+	url = https://github.com/nix-community/rnix-lsp
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = git
+	makedepends = cargo
+	conflicts = rnix-lsp-git
+	source = rnix-lsp-0.2.5.tar.gz::https://static.crates.io/crates/rnix-lsp/rnix-lsp-0.2.5.crate
+	cksums = 3161437623
+	sha256sums = a689df1bce76d3b7f742cc37e13ba06d2c5cf69cda1bddbe1d15e434b6b223b5
+	b2sums = eb70646c595d8fb70f0ffc1c63b84de0e5bd6e161a23669bfca043de470afc3a66d1a44fe00ca652e98c9243a26f0d0dc78abe5f527ec7262d10d1d41452b2b2
+	depends_x86_64 = gcc-libs
+	depends_i686 = gcc-libs
+
+pkgname = rnix-lsp

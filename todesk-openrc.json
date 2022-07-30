@@ -1,0 +1,12 @@
+pkgbase = todesk-openrc
+	pkgdesc = OpenRC todesk init script
+	pkgver = 1.0.1
+	pkgrel = 1
+	arch = any
+	license = GPL
+	depends = todesk
+	depends = openrc
+	source = todesk.initd
+	sha256sums = c32ec999aea63304cb19295bf5ca8171d19cddf3afaef205c6210c4555b22283
+
+pkgname = todesk-openrc

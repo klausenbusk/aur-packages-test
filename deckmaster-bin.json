@@ -1,0 +1,14 @@
+pkgbase = deckmaster-bin
+	pkgdesc = An application to control your Elgato Stream Deck
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://github.com/muesli/deckmaster
+	arch = x86_64
+	license = MIT
+	depends = ttf-roboto
+	provides = deckmaster
+	conflicts = deckmaster
+	source_x86_64 = https://github.com/muesli/deckmaster/releases/download/v0.8.0/deckmaster_0.8.0_linux_x86_64.tar.gz
+	sha256sums_x86_64 = 3ab354768be303dee5f86d36ab0e649c6596a5cce0203c21352361597ac53ee4
+
+pkgname = deckmaster-bin

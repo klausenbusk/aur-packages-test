@@ -1,0 +1,13 @@
+pkgbase = ghcup-git
+	pkgdesc = Painless installation of GHC toolchain
+	pkgver = 0.0.7.r100.g5c1d711
+	pkgrel = 1
+	url = https://gitlab.haskell.org/haskell/ghcup
+	install = ghcup-git.install
+	arch = any
+	license = BSD
+	source = git+https://gitlab.haskell.org/haskell/ghcup.git
+	md5sums = SKIP
+
+pkgname = ghcup-git
+

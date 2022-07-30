@@ -1,0 +1,20 @@
+pkgbase = leiningen
+	pkgdesc = Automating Clojure projects without setting your hair on fire.
+	pkgver = 2.9.1
+	pkgrel = 1
+	url = https://github.com/technomancy/leiningen
+	install = leiningen.install
+	arch = any
+	license = EPL
+	depends = java-environment
+	depends = bash
+	optdepends = rlwrap: for readline support
+	optdepends = leiningen-completions: completion scripts
+	noextract = leiningen-2.9.1-standalone.zip
+	source = https://github.com/technomancy/leiningen/archive/2.9.1.tar.gz
+	source = https://github.com/technomancy/leiningen/releases/download/2.9.1/leiningen-2.9.1-standalone.zip
+	sha256sums = a4c239b407576f94e2fef5bfa107f0d3f97d0b19c253b08860d9609df4ab8b29
+	sha256sums = ea7c831a4f5c38b6fc3926c6ad32d1d4b9b91bf830a715ecff5a70a18bda55f8
+
+pkgname = leiningen
+

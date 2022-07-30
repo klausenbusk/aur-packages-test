@@ -1,0 +1,21 @@
+pkgbase = python-spacy-transformers
+	pkgdesc = spaCy pipelines for pre-trained BERT and other transformers
+	pkgver = 1.1.6
+	pkgrel = 1
+	url = https://spacy.io/
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python-spacy
+	depends = python-transformers
+	depends = python-pytorch
+	depends = python-srsly
+	depends = python-spacy-alignments
+	depends = python-huggingface-hub
+	source = https://github.com/explosion/spacy-transformers/archive/refs/tags/v1.1.6.zip
+	b2sums = c8a6a21ca3e7a0171d4520cb4a66763cfc86eb1c818f04f794323604e9417a5016398be512e76ced2792e293304c1864845b1a5c807f6f3b38e088c6148c6f8b
+
+pkgname = python-spacy-transformers

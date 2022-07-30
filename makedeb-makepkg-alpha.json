@@ -1,0 +1,31 @@
+pkgbase = makedeb-makepkg-alpha
+	pkgdesc = ABS packaging utility
+	pkgver = 8.12.1
+	pkgrel = 1
+	url = https://github.com/makedeb/makepkg
+	arch = any
+	license = GPL2
+	makedepends = asciidoctor
+	makedepends = git
+	makedepends = make
+	makedepends = jq
+	depends = awk
+	depends = libarchive
+	depends = bzip2
+	depends = coreutils
+	depends = fakeroot
+	depends = file
+	depends = findutils
+	depends = gettext
+	depends = gnupg
+	depends = grep
+	depends = gzip
+	depends = sed
+	depends = ncurses
+	depends = xz
+	conflicts = makedeb-makepkg
+	conflicts = makedeb-makepkg-beta
+	source = makepkg::git+https://github.com/makedeb/makepkg/#tag=v8.12.1-1-alpha
+	sha256sums = SKIP
+
+pkgname = makedeb-makepkg-alpha

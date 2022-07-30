@@ -1,0 +1,23 @@
+pkgbase = intel-mkl-slim
+	pkgdesc = Intel Math Kernel Library (x86_64 shared libraries and headers only)
+	pkgver = 2020.0.166
+	pkgrel = 1
+	url = https://software.intel.com/en-us/mkl
+	install = intel-mkl.install
+	arch = x86_64
+	license = custom:ISSL
+	optdepends = intel-tbb: Intel® threading implementation
+	optdepends = openmp: Clang OpenMP runtime
+	optdepends = gcc-libs: GNU OpenMP runtime
+	provides = intel-mkl
+	conflicts = intel-mkl
+	replaces = intel-mkl
+	noextract = l_mkl_2020.0.166.tgz
+	noextract = intel-mkl-slim.conf
+	source = http://registrationcenter-download.intel.com/akdlm/irc_nas/tec/16318/l_mkl_2020.0.166.tgz
+	source = intel-mkl-slim.conf
+	sha256sums = f6d92deb3ff10b11ba3df26b2c62bb4f0f7ae43e21905a91d553e58f0f5a8ae0
+	sha256sums = 90586d84ff1a4273921affe669f9af45ab09b2e97f58483282dd11a194cf9d8a
+
+pkgname = intel-mkl-slim
+

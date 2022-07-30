@@ -1,0 +1,15 @@
+pkgbase = python-pyecharts
+	pkgdesc = A Python Echarts Plotting Library
+	pkgver = 1.9.1
+	pkgrel = 1
+	url = https://github.com/pyecharts/pyecharts
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-jinja>=2.8
+	depends = python-prettytable
+	depends = python-simplejson
+	source = https://github.com/pyecharts/pyecharts/archive/refs/tags/v1.9.1.tar.gz
+	sha512sums = 46547df3eb6337ba9e8c341776a25ff766b384665a02d4614e835f17d01d8b818d5a11cb6b9ab701891aaecdbce9cd520b09a9bee5f39aa3d2078e51f2f8d8d1
+
+pkgname = python-pyecharts

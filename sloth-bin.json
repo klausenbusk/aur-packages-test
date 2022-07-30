@@ -1,0 +1,17 @@
+pkgbase = sloth-bin
+	pkgdesc = Easy and simple Prometheus SLO (service level objectives) generator
+	pkgver = 0.10.0
+	pkgrel = 2
+	url = https://github.com/slok/sloth
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = Apache
+	source_x86_64 = sloth-0.10.0-x86_64::https://github.com/slok/sloth/releases/download/v0.10.0/sloth-linux-amd64
+	sha256sums_x86_64 = 0110f72e40a674469715e63afc3c75cf4541241a1399f37cbf5ca3ef80a9930d
+	source_aarch64 = sloth-0.10.0-aarch64::https://github.com/slok/sloth/releases/download/v0.10.0/sloth-linux-arm64
+	sha256sums_aarch64 = 641a0271b4fb29fcad199710741c447f1e24f260a5a32be0fa4cb248f08e0745
+	source_armv7h = sloth-0.10.0-armv7h::https://github.com/slok/sloth/releases/download/v0.10.0/sloth-linux-arm-v7
+	sha256sums_armv7h = 246d884e3957a6868af71d80837d839ef8ba7695c5cdf64cf81e1047aa55d29b
+
+pkgname = sloth-bin

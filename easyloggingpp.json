@@ -1,0 +1,13 @@
+pkgbase = easyloggingpp
+	pkgdesc = Robust, thread-safe lightweight C++ logging library
+	pkgver = 9.96.4
+	pkgrel = 1
+	url = https://github.com/muflihun/easyloggingpp
+	arch = any
+	license = custom
+	optdepends = gcc: compiler that supports C++11
+	source = https://github.com/muflihun/easyloggingpp/archive/v9.96.4.tar.gz
+	sha1sums = 90ca248c7b04ee9856630680d1c91d8f7deccd89
+
+pkgname = easyloggingpp
+

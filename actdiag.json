@@ -1,0 +1,18 @@
+pkgbase = actdiag
+	pkgdesc = Generate activity-diagram image files from spec-text files.
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = http://blockdiag.com/en/actdiag
+	changelog = Changelog
+	arch = any
+	license = APACHE
+	makedepends = python-distribute
+	depends = python
+	depends = blockdiag>=2.0.0
+	optdepends = python-reportlab: to use the PDF output format
+	conflicts = actdiag-hg
+	source = https://pypi.python.org/packages/source/a/actdiag/actdiag-2.0.0.tar.gz
+	sha512sums = e955b9b919e137f10ff128d5d8817b2da660b121937cab3386a866a0bff08218b6e777e302a9130616228af6c357c463ceeb12cb95b8734928001d8ad6a90250
+
+pkgname = actdiag
+

@@ -1,0 +1,21 @@
+pkgbase = gvisor-bin
+	pkgdesc = OCI container sandbox runtime focused on security, efficiency, and ease of use
+	pkgver = 20220713.0
+	pkgrel = 1
+	url = https://gvisor.dev
+	arch = x86_64
+	arch = aarch64
+	license = Apache
+	optdepends = docker: for Docker runtime support
+	provides = gvisor
+	conflicts = gvisor
+	source_x86_64 = https://storage.googleapis.com/gvisor/releases/release/20220713/x86_64/runsc
+	source_x86_64 = https://storage.googleapis.com/gvisor/releases/release/20220713/x86_64/containerd-shim-runsc-v1
+	sha512sums_x86_64 = e2f9a7470eb3761b88fb32a00690652053a3d1b41e82a56e2046d39d7302a1845774deacb3898220e921a729f19ef86881812c0e9148daef981b19a3a5d7cade
+	sha512sums_x86_64 = 0eb173dbb220eaecb489d4ec045b898e2aa1373b71b05fd402ec2aaf24a05a4ae6c37e30a5108b9f189977d8e4f455687e3a17c652bcf85a200310b811473316
+	source_aarch64 = https://storage.googleapis.com/gvisor/releases/release/20220713/aarch64/runsc
+	source_aarch64 = https://storage.googleapis.com/gvisor/releases/release/20220713/aarch64/containerd-shim-runsc-v1
+	sha512sums_aarch64 = 31d9d595d4c70fb6300fa003f9f4baec0c17e6f0aef3796e191a02d8b3166afdce907bde6858ede7a1118b3898c9213ce4194a4cafbc74ce420fee44cf97090b
+	sha512sums_aarch64 = 0e0998ab5657737ffc765bba5948ef471cd6a3b8b1070914e744661dc2d9951bc516bc39c2874b81c0cf853a120f903721500892cd367bf0fd61f44fa0db37d1
+
+pkgname = gvisor-bin

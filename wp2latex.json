@@ -1,0 +1,16 @@
+pkgbase = wp2latex
+	pkgdesc = Converts WordPerfect document formats to LaTeX
+	pkgver = 3.108
+	pkgrel = 1
+	url = http://www.penguin.cz/~fojtik/wp2latex/wp2latex.htm
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = libjpeg
+	depends = gcc-libs
+	depends = libpng
+	options = !strip
+	source = http://www.penguin.cz/~fojtik/wp2latex/wp2latex-3.108.zip
+	sha256sums = 9c245f7e1349cb3d6ed49700ba2c643b994cb8c6f244888a95b0816ef7003ce3
+
+pkgname = wp2latex

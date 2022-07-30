@@ -1,0 +1,32 @@
+pkgbase = whipper-cdparanoia-git
+	pkgdesc = Unix CD ripper aiming for accuracy over speed -- forked from morituri
+	pkgver = 0.8.0.r4.gaf06718
+	pkgrel = 1
+	url = https://github.com/whipper-team/whipper
+	arch = x86_64
+	license = GPL3
+	checkdepends = python2-twisted
+	makedepends = python2-setuptools-scm
+	makedepends = git
+	depends = libcdio-paranoia
+	depends = cdrdao
+	depends = libsndfile
+	depends = python2-gobject
+	depends = python2-mutagen
+	depends = python2-musicbrainzngs
+	depends = python2-pycdio
+	depends = python2-requests
+	depends = python2-setuptools
+	depends = sox
+	depends = python2-ruamel.yaml
+	optdepends = flac
+	provides = accuraterip-checksum
+	conflicts = morituri
+	conflicts = accuraterip-checksum
+	source = git+https://github.com/whipper-team/whipper.git
+	source = cdparanoia.diff
+	sha512sums = SKIP
+	sha512sums = 937d743b73f7f0f5921e5e4234da4ddc5b4a9e69937df6f45ab741cf36dd8f65ca8cd42fba5ab03bdce1f139978295f1fb01add95ba027d3a1df845c55317878
+
+pkgname = whipper-cdparanoia-git
+

@@ -1,0 +1,18 @@
+pkgbase = cgmnlm
+	pkgdesc = colorful gemini line mode client - fork of gmni
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://code.clttr.info/cgmnlm/file/README.md.html
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = GPL3
+	makedepends = scdoc
+	depends = bearssl
+	optdepends = xdg-utils
+	conflicts = gmni-git
+	conflicts = cgmnlm-git
+	source = cgmnlm::git://git.clttr.info/cgmnlm.git#tag=1.4
+	sha256sums = SKIP
+
+pkgname = cgmnlm

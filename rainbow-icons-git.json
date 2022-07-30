@@ -1,0 +1,21 @@
+pkgbase = rainbow-icons-git
+	pkgdesc = A customized multi-colour icon theme.
+	pkgver = r242.ee5fca3a
+	pkgrel = 1
+	url = https://github.com/0devnull0/rainbow-icons
+	arch = any
+	license = CC BY-NC-SA 4.0
+	makedepends = git
+	provides = surfn-icons-git
+	provides = breeze-icons
+	conflicts = surfn-icons-git
+	conflicts = menda-circle-icon-theme-git
+	conflicts = breeze-icons
+	conflicts = breeze-icons-git
+	options = !strip
+	options = !emptydirs
+	source = git+https://github.com/0devnull0/rainbow-icons.git
+	sha256sums = SKIP
+
+pkgname = rainbow-icons-git
+

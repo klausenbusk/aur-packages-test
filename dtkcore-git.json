@@ -1,0 +1,24 @@
+pkgbase = dtkcore-git
+	pkgdesc = DTK core modules
+	pkgver = 5.5.23.r14.g6cb6070
+	pkgrel = 1
+	url = https://github.com/linuxdeepin/dtkcore
+	arch = x86_64
+	arch = aarch64
+	groups = deepin-git
+	license = LGPL3
+	makedepends = git
+	makedepends = qt5-tools
+	makedepends = gtest
+	makedepends = dtkcommon-git
+	depends = dconf
+	depends = deepin-desktop-base-git
+	depends = python
+	depends = gsettings-qt
+	depends = lshw
+	provides = dtkcore
+	conflicts = dtkcore
+	source = dtkcore-git::git+https://github.com/linuxdeepin/dtkcore.git
+	sha512sums = SKIP
+
+pkgname = dtkcore-git

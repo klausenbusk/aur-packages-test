@@ -1,0 +1,12 @@
+pkgbase = posix-standard
+	pkgdesc = Archives of the html version of posix standard
+	pkgver = POSIX.1_2017
+	pkgrel = 1
+	url = http://pubs.opengroup.org/onlinepubs/9699919799/
+	arch = any
+	license = CUSTOM
+	source = http://pubs.opengroup.org/onlinepubs/9699919799/download/susv4-2018.tar.bz2
+	sha256sums = 73cc1347aa7e19d69265c62570696c8b9d2d06665c5d81d6acb1ea825b25534b
+
+pkgname = posix-standard
+

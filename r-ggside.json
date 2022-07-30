@@ -1,0 +1,25 @@
+pkgbase = r-ggside
+	pkgdesc = Side Grammar Graphics
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=ggside
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-ggplot2
+	depends = r-glue
+	depends = r-gtable
+	depends = r-rlang
+	depends = r-scales
+	optdepends = r-dplyr
+	optdepends = r-ggdendro
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-tidyr
+	optdepends = r-vdiffr
+	optdepends = r-viridis
+	source = https://cran.r-project.org/src/contrib/ggside_0.2.1.tar.gz
+	sha256sums = b0a867ab10729798a1e13478a5fd938e8ec63ba98c3cbfb1eebd9758df9f87ee
+
+pkgname = r-ggside

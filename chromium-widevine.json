@@ -1,0 +1,18 @@
+pkgbase = chromium-widevine
+	pkgdesc = A browser plugin designed for the viewing of premium video content
+	pkgver = 4.10.2449.0
+	pkgrel = 1
+	epoch = 1
+	url = https://www.widevine.com/
+	arch = x86_64
+	license = custom
+	options = !strip
+	source = https://dl.google.com/linux/deb/pool/main/g/google-chrome-stable/google-chrome-stable_103.0.5060.134-1_amd64.deb
+	sha256sums = dc32939a6ecc42eeb709a2c39b85c0d050a79b13c3ffc80a5c425bcfc0617290
+
+pkgname = chromium-widevine
+	depends = gcc-libs
+	depends = glib2
+	depends = glibc
+	depends = nspr
+	depends = nss

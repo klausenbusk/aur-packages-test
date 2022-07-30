@@ -1,0 +1,32 @@
+pkgbase = r-ggpmisc
+	pkgdesc = Miscellaneous Extensions to 'ggplot2'
+	pkgver = 0.4.7
+	pkgrel = 1
+	url = https://cran.r-project.org/package=ggpmisc
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-dplyr
+	depends = r-generics
+	depends = r-ggplot2
+	depends = r-ggpp
+	depends = r-lmodel2
+	depends = r-lubridate
+	depends = r-plyr
+	depends = r-polynom
+	depends = r-quantreg
+	depends = r-rlang
+	depends = r-scales
+	depends = r-splus2r
+	depends = r-tibble
+	optdepends = r-broom
+	optdepends = r-broom.mixed
+	optdepends = r-gginnards
+	optdepends = r-ggrepel
+	optdepends = r-knitr
+	optdepends = r-nlme
+	optdepends = r-rmarkdown
+	source = https://cran.r-project.org/src/contrib/ggpmisc_0.4.7.tar.gz
+	sha256sums = fd93e10f23c477cc39e3e776b380afeefc31f89283e09605ad6878b8a86536fc
+
+pkgname = r-ggpmisc

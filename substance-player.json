@@ -1,0 +1,17 @@
+pkgbase = substance-player
+	pkgdesc = PBR material preview, visualization and tweaking software.
+	pkgver = 12.1.1
+	pkgrel = 1
+	url = hhttps://www.substance3d.com/
+	arch = x86_64
+	license = custom
+	depends = fontconfig
+	depends = gcc-libs-multilib
+	depends = glu
+	depends = hicolor-icon-theme
+	depends = libtiff4
+	options = !strip
+	source = https://download.substance3d.com/substance-player/12.x/Substance_Player-12.1.1-5825-linux-x64-standard.rpm
+	sha256sums = ed9ae31582c5b871b2f0c3bd2489e2accbbdd6b82a47b1a526efb986f3c90d70
+
+pkgname = substance-player

@@ -1,0 +1,24 @@
+pkgbase = bnfc
+	pkgdesc = The BNF Converter is a compiler construction tool generating a compiler front-end from a Labelled BNF grammar. It is currently able to generate C, C++, C#, Haskell, Java, and OCaml, as well as XML representations.
+	pkgver = 2.8.3
+	pkgrel = 1
+	url = http://bnfc.digitalgrammars.com/
+	arch = x86_64
+	arch = i686
+	license = GPL2
+	makedepends = ghc
+	makedepends = cabal-install
+	depends = gmp
+	depends = haskell-semigroups
+	depends = haskell-haddock-library
+	depends = happy
+	depends = alex
+	depends = haskell-mtl
+	optdepends = ghc: haskell output
+	optdepends = happy: haskell output
+	optdepends = alex: haskell output
+	source = https://github.com/BNFC/bnfc/archive/v2.8.3.tar.gz
+	sha256sums = ba0b6ab36954a0891b4ad3125cefdd6d441d2c73d174cd8eff344e68ae2fd203
+
+pkgname = bnfc
+

@@ -1,0 +1,24 @@
+pkgbase = substance-alchemist
+	pkgdesc = Experimental PBR material authoring, generation, manipulation and management tool
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = https://www.substance3d.com/products/substance-alchemist
+	arch = x86_64
+	license = custom
+	depends = fontconfig
+	depends = gcc-libs-multilib
+	depends = glu
+	depends = hicolor-icon-theme
+	depends = libtiff4
+	options = !strip
+	source = https://download.substance3d.com/substance-alchemist/2.x/Substance_Alchemist-2.2.0-rc.3-64-linux-x64-standard-Release-2f489679.rpm
+	source = substance-alchemist-icon.png
+	source = substance-alchemist.desktop
+	source = substance-alchemist
+	sha256sums = 0e42d28bba0f3084ccc0307987c1f94c3fd6b5940e1911a2b1ba017ac009ee74
+	sha256sums = b0c9cc1be9e784641810e163d4f580dba45c36ecc73381988317c2cec4e93276
+	sha256sums = 17350182c0f7527be52db14f3a92f8074a7ea69857d6088c198478943132c8a4
+	sha256sums = 4aabc0246f0e985d278ce5773c39b378d7b5117430c029cd4da069175c5c2c1b
+
+pkgname = substance-alchemist
+

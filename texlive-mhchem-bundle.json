@@ -1,0 +1,17 @@
+pkgbase = texlive-mhchem-bundle
+	pkgdesc = Typeset chemical formulae/equations and Risk and Safety phrases in LaTeX.
+	pkgver = 4.08
+	pkgrel = 1
+	url = http://www.ctan.org/tex-archive/macros/latex/contrib/mhchem/
+	arch = any
+	license = LPPL
+	depends = texlive-bin
+	provides = texlive-mhchem
+	provides = texlive-rsphrase
+	conflicts = texlive-mhchem
+	conflicts = texlive-rsphrase
+	source = http://mirror.ctan.org/macros/latex/contrib/mhchem.zip
+	sha256sums = deb175c2539fc2332dd1a1db6b5b3eeca1e9e5dc11949f85df1c40fe2d031444
+
+pkgname = texlive-mhchem-bundle
+

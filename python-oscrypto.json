@@ -1,0 +1,15 @@
+pkgbase = python-oscrypto
+	pkgdesc = TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries.
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/oscrypto/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-asn1crypto
+	source = https://files.pythonhosted.org/packages/source/o/oscrypto/oscrypto-1.2.1.tar.gz
+	sha256sums = 7d2cca6235d89d1af6eb9cfcd4d2c0cb405849868157b2f7b278beb644d48694
+
+pkgname = python-oscrypto
+

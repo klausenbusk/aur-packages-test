@@ -1,0 +1,20 @@
+pkgbase = python-slixmpp-omemo-git
+	pkgdesc = Slixmpp OMEMO plugin
+	pkgver = r126.4da2bf0
+	pkgrel = 1
+	url = https://lab.louiz.org/poezio/slixmpp-omemo
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python>=3.5
+	depends = python-slixmpp
+	depends = python-omemo-syndace
+	depends = python-setuptools
+	provides = python-slixmpp-omemo
+	conflicts = python-slixmpp-omemo
+	source = slixmpp-omemo::git+https://lab.louiz.org/poezio/slixmpp-omemo.git
+	sha256sums = SKIP
+
+pkgname = python-slixmpp-omemo-git
+

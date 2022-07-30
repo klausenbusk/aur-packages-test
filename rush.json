@@ -1,0 +1,20 @@
+pkgbase = rush
+	pkgdesc = GNU Restricted User Shell
+	pkgver = 2.2
+	pkgrel = 1
+	url = http://puszcza.gnu.org.ua/software/rush/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = patch
+	backup = etc/rush.rc
+	source = http://ftp.gnu.org/gnu/rush/rush-2.2.tar.xz
+	source = rush-1.7-glib-2.16-gets.patch
+	md5sums = 8acf915dd6354fd2ff2294faf368adc4
+	md5sums = dcd87b8bf9738796621030930384f97d
+	sha1sums = 86ae9d9d2a47c56de687af642e488cd895e977f7
+	sha1sums = adb33d34f04846734ec3457517b46fb7a73efa6f
+	sha256sums = b1fb69dcd2b082cc5bca804307baeec4ed6da77f747df0066c7d1ad2c353797f
+	sha256sums = 159dd2fc0fd4feec5d43cf7763a429b9c2da5c50597b157de9e5b376d9ff85a8
+
+pkgname = rush

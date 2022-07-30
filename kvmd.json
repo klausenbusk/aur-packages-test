@@ -1,0 +1,57 @@
+pkgbase = kvmd
+	pkgdesc = The main Pi-KVM daemon
+	pkgver = 1.3
+	pkgrel = 1
+	url = https://github.com/pi-kvm/kvmd
+	arch = any
+	license = GPL
+	makedepends = python-setuptools
+	depends = python
+	depends = python-yaml
+	depends = python-aiohttp
+	depends = python-aiofiles
+	depends = python-passlib
+	depends = python-raspberry-gpio
+	depends = python-pyserial
+	depends = python-setproctitle
+	depends = python-systemd
+	depends = python-dbus
+	depends = python-pygments
+	depends = python-pyghmi
+	depends = psmisc
+	depends = v4l-utils
+	depends = nginx-mainline
+	depends = openssl
+	depends = raspberrypi-io-access
+	optdepends = dkms
+	optdepends = tc358743-dkms
+	source = https://github.com/pi-kvm/kvmd/archive/v1.3.tar.gz
+	md5sums = SKIP
+
+pkgname = kvmd
+	install = kvmd.install
+
+pkgname = kvmd-platform-v0-vga-rpi2
+	pkgdesc = Pi-KVM platform configs - v0-vga for rpi2
+
+pkgname = kvmd-platform-v0-vga-rpi3
+	pkgdesc = Pi-KVM platform configs - v0-vga for rpi3
+
+pkgname = kvmd-platform-v0-hdmi-rpi2
+	pkgdesc = Pi-KVM platform configs - v0-hdmi for rpi2
+
+pkgname = kvmd-platform-v0-hdmi-rpi3
+	pkgdesc = Pi-KVM platform configs - v0-hdmi for rpi3
+
+pkgname = kvmd-platform-v1-vga-rpi2
+	pkgdesc = Pi-KVM platform configs - v1-vga for rpi2
+
+pkgname = kvmd-platform-v1-vga-rpi3
+	pkgdesc = Pi-KVM platform configs - v1-vga for rpi3
+
+pkgname = kvmd-platform-v1-hdmi-rpi2
+	pkgdesc = Pi-KVM platform configs - v1-hdmi for rpi2
+
+pkgname = kvmd-platform-v1-hdmi-rpi3
+	pkgdesc = Pi-KVM platform configs - v1-hdmi for rpi3
+

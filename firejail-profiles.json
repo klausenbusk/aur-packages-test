@@ -1,0 +1,12 @@
+pkgbase = firejail-profiles
+	pkgdesc = Extra profiles for firejail
+	pkgver = 1.7
+	pkgrel = 2
+	url = https://aur.archlinux.org/packages/firejail-profiles/
+	arch = any
+	license = GPL2
+	source = firefox-restricted.profile
+	sha256sums = 725dca226d70d9aa30d66cd07c830681defdfb4f580a61095c3c293053099ac7
+
+pkgname = firejail-profiles
+

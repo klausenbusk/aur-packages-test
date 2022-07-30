@@ -1,0 +1,24 @@
+pkgbase = python-iexfinance-git
+	pkgdesc = Python wrapper for the Investor's Exchange (IEX) Developer API
+	pkgver = v0.3.1.0.gd6d7710
+	pkgrel = 1
+	url = https://addisonlynch.github.io/iexfinance/
+	arch = any
+	license = apache
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	depends = python
+	depends = python-pandas
+	depends = python-requests
+	conflicts = python-iexfinance
+	source = python-iexfinance-git::git+https://github.com/addisonlynch/iexfinance.git
+	sha256sums = SKIP
+
+pkgname = python-iexfinance-git
+
+pkgname = python2-iexfinance-git
+	depends = python2
+	depends = python2-pandas
+	depends = python2-requests
+	conflicts = python2-iexfinance
+

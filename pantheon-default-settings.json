@@ -1,0 +1,21 @@
+pkgbase = pantheon-default-settings
+	pkgdesc = Default settings for Pantheon
+	pkgver = 5.1.2
+	pkgrel = 4
+	url = https://github.com/elementary/default-settings
+	arch = any
+	groups = pantheon-stable
+	license = GPL3
+	depends = elementary-icon-theme
+	depends = gtk-theme-elementary
+	depends = elementary-wallpapers
+	depends = ttf-droid
+	depends = ttf-opensans
+	depends = ttf-roboto
+	provides = default-settings
+	conflicts = default-settings-git
+	source = pantheon-default-settings.tar.gz::https://github.com/elementary/default-settings/archive/5.1.2.tar.gz
+	sha256sums = 7e488ed4c3599af574e4337b0ed0da68246ac5e65b0b022d72ed569415feebfa
+
+pkgname = pantheon-default-settings
+

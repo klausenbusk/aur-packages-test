@@ -1,0 +1,28 @@
+pkgbase = ruby-mechanize
+	pkgdesc = The Mechanize library is used for automating interaction with websites
+	pkgver = 2.8.5
+	pkgrel = 1
+	url = https://github.com/sparklemotion/mechanize
+	arch = any
+	license = MIT
+	checkdepends = ruby-rake
+	checkdepends = ruby-minitest
+	makedepends = git
+	makedepends = rubygems
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = ruby-addressable
+	depends = ruby-domain_name
+	depends = ruby-http-cookie
+	depends = ruby-mime-types
+	depends = ruby-net-http-digest_auth
+	depends = ruby-net-http-persistent
+	depends = ruby-nokogiri
+	depends = ruby-rubyntlm
+	depends = ruby-webrick
+	depends = ruby-webrobots
+	options = !emptydirs
+	source = git+https://github.com/sparklemotion/mechanize.git?tag=v2.8.5
+	sha256sums = SKIP
+
+pkgname = ruby-mechanize

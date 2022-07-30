@@ -1,0 +1,18 @@
+pkgbase = app-icon-preview
+	pkgdesc = Tool for designing applications icons
+	pkgver = 3.1.0
+	pkgrel = 1
+	url = https://gitlab.gnome.org/World/design/app-icon-preview
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	makedepends = git
+	makedepends = meson
+	makedepends = rust
+	depends = libadwaita
+	source = git+https://gitlab.gnome.org/World/design/app-icon-preview.git#tag=3.1.0
+	source = git+https://gitlab.gnome.org/Teams/Design/HIG-app-icons.git
+	b2sums = SKIP
+	b2sums = SKIP
+
+pkgname = app-icon-preview

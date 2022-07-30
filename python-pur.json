@@ -1,0 +1,16 @@
+pkgbase = python-pur
+	pkgdesc = Update packages in a requirements.txt file to latest versions.
+	pkgver = 7.0.0
+	pkgrel = 2
+	url = https://pypi.org/project/pur
+	arch = any
+	license = BSD license
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-click
+	source = https://files.pythonhosted.org/packages/source/p/pur/pur-7.0.0.tar.gz
+	sha256sums = d0239ef9572a22b06e17719e49a61101b72b5a49a833425769902f089fff4753
+
+pkgname = python-pur

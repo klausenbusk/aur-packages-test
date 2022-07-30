@@ -1,0 +1,24 @@
+pkgbase = zerotier-systemd-manager-bin
+	pkgdesc = Get ZeroTier playing nice with systemd-networkd and -resolved
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/zerotier/zerotier-systemd-manager
+	arch = x86_64
+	arch = aarch64
+	arch = armv6h
+	arch = armv7h
+	license = BSD-3-Clause
+	depends = zerotier-one
+	provides = zerotier-systemd-manager
+	conflicts = zerotier-systemd-manager
+	conflicts = zerotier-systemd-manager-git
+	source_x86_64 = https://github.com/zerotier/zerotier-systemd-manager/releases/download/v0.3.1/zerotier-systemd-manager_0.3.1_linux_amd64.tar.gz
+	sha256sums_x86_64 = 37edd53b68ed88005d8017fad4eb54fa63bcd8d0d980b8ddb5c3154c26217c1c
+	source_aarch64 = https://github.com/zerotier/zerotier-systemd-manager/releases/download/v0.3.1/zerotier-systemd-manager_0.3.1_linux_arm64.tar.gz
+	sha256sums_aarch64 = a34a42b97add7efebafbeba2f28710964e037a583926934f190aec761610d9eb
+	source_armv6h = https://github.com/zerotier/zerotier-systemd-manager/releases/download/v0.3.1/zerotier-systemd-manager_0.3.1_linux_armv6.tar.gz
+	sha256sums_armv6h = 0095807dc88ee3bc0e20cd3c40ddac5949307404446c5ca5a59ac38b1fe49f8d
+	source_armv7h = https://github.com/zerotier/zerotier-systemd-manager/releases/download/v0.3.1/zerotier-systemd-manager_0.3.1_linux_armv7.tar.gz
+	sha256sums_armv7h = 7c6adced45316e12875a87fcf60a7fb54926c3342d8b88bb8b30b6e178354bd0
+
+pkgname = zerotier-systemd-manager-bin

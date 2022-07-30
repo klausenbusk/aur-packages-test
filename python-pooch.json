@@ -1,0 +1,18 @@
+pkgbase = python-pooch
+	pkgdesc = Python library for fetching and caching data files
+	pkgver = 1.6.0
+	pkgrel = 2
+	url = https://www.fatiando.org/pooch/latest/
+	arch = any
+	license = BSD 3-Clause
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	makedepends = python-pip
+	makedepends = python-build
+	depends = python-requests
+	depends = python-packaging
+	depends = python-appdirs
+	source = https://files.pythonhosted.org/packages/0c/48/de6235d3a568156a8daf6c6d21c09ffcd3b9e0cbf4ad2cc4d34ff80527bb/pooch-1.6.0.tar.gz
+	sha256sums = 57d20ec4b10dd694d2b05bb64bc6b109c6e85a6c1405794ce87ed8b341ab3f44
+
+pkgname = python-pooch

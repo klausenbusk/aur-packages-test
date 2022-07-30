@@ -1,0 +1,26 @@
+pkgbase = ya4r
+	pkgdesc = Yet Another 4Chan Reader - Built using the Electron framework.
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://github.com/0v3rl0w/ya4r
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	makedepends = git
+	makedepends = npm
+	depends = alsa-lib
+	depends = gconf
+	depends = gtk2
+	depends = libgnome-keyring
+	depends = libnotify
+	depends = libxtst
+	depends = nodejs
+	depends = nss
+	depends = python2
+	depends = sudo
+	optdepends = gvfs: file deletion support
+	source = ya4r-0.2.2.tar.gz::https://github.com/0v3rl0w/ya4r/archive/0.2.2.tar.gz
+	sha256sums = 63b89c4d546200b3a9331cff359cc834a4a901d3aac7efb15502a09f204fe4d5
+
+pkgname = ya4r
+

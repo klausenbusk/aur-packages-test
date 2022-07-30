@@ -1,0 +1,17 @@
+pkgbase = racerd-git
+	pkgdesc = Rust semantic analysis server powered by Racer
+	pkgver = r135.29cd4c6
+	pkgrel = 2
+	url = https://github.com/jwilm/racerd
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = cargo
+	depends = gcc-libs
+	source = git+https://github.com/jwilm/racerd.git
+	source = Cargo.lock
+	md5sums = SKIP
+	md5sums = 7d3ba934e0ab65ecd78e71a8ef155916
+
+pkgname = racerd-git
+

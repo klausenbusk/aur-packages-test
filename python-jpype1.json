@@ -1,0 +1,16 @@
+pkgbase = python-jpype1
+	pkgdesc = Python to Java bridge, an effort to allow Python programs full access to Java class libraries
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = https://github.com/jpype-project/jpype
+	arch = x86_64
+	license = APACHE
+	makedepends = python-setuptools
+	makedepends = ant
+	depends = python
+	conflicts = jpype
+	conflicts = python-jpype
+	source = JPype1-1.3.0.tar.gz::https://github.com/jpype-project/jpype/archive/v1.3.0.tar.gz
+	sha256sums = 90728f0cb472c7399e2f6d08690af4a81de76dec16fc7f29ac2fcd776afae2ac
+
+pkgname = python-jpype1

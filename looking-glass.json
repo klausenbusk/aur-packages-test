@@ -1,0 +1,44 @@
+pkgbase = looking-glass
+	pkgdesc = An extremely low latency KVMFR (KVM FrameRelay) implementation for guests with VGA PCI Passthrough
+	pkgver = B5.0.1
+	pkgrel = 3
+	epoch = 2
+	url = https://looking-glass.io/
+	arch = x86_64
+	license = GPL2
+	makedepends = cmake
+	makedepends = fontconfig
+	makedepends = spice-protocol
+	makedepends = wayland-protocols
+	makedepends = libxss
+	makedepends = libxi
+	makedepends = libxpresent
+	makedepends = obs-studio
+	source = looking-glass-B5.0.1.tar.gz::https://looking-glass.io/artifact/B5.0.1/source
+	sha512sums = 2600722fba5a9b794556391a636df09d284dc5460c5e9b4718bc2c044e6ece68890893c18c30780245207c0e92194f9691269bdcd590f118a616417d1e74bbd6
+
+pkgname = looking-glass
+	pkgdesc = A client application for accessing the LookingGlass IVSHMEM device of a VM
+	depends = libgl
+	depends = libegl
+	depends = nettle
+	depends = fontconfig
+	depends = libxss
+	depends = libxi
+	depends = libxinerama
+	depends = libxcursor
+	depends = libxpresent
+	depends = libxkbcommon
+
+pkgname = looking-glass-module-dkms
+	pkgdesc = A kernel module that implements a basic interface to the IVSHMEM device for when using LookingGlass in VM->VM mode
+	depends = dkms
+
+pkgname = looking-glass-host
+	pkgdesc = Linux host application for pushing frame data to the LookingGlass IVSHMEM device
+	depends = libxcb
+	depends = zlib
+
+pkgname = obs-plugin-looking-glass
+	pkgdesc = Plugin for OBS Studio to stream directly from Looking Glass without having to record the Looking Glass client
+	depends = obs-studio

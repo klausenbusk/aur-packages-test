@@ -1,0 +1,19 @@
+pkgbase = autorandr
+	pkgdesc = Auto-detect connected display hardware and load appropiate X11 setup using xrandr
+	pkgver = 1.6
+	pkgrel = 1
+	url = https://github.com/phillipberndt/autorandr
+	arch = any
+	license = GPL3
+	depends = python-setuptools
+	depends = xorg-xrandr
+	optdepends = xorg-xdpyinfo: For detecting the primary XRandR output
+	conflicts = autorandr-git
+	conflicts = auto-disper-git
+	conflicts = autorandr-asch-git
+	conflicts = autorandr-phillipberndt-git
+	source = autorandr-1.6.tar.gz::https://github.com/phillipberndt/autorandr/archive/1.6.tar.gz
+	sha512sums = 688a7215532e7e6a5090813ca672cbab24276172a149255869479ae3977e0b8aa4bece4978e4a3847a6de02c7aaf3b2a698a9edd465c5cec2add25a0717ff085
+
+pkgname = autorandr
+

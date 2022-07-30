@@ -1,0 +1,18 @@
+pkgbase = python-riccipy
+	pkgdesc = A Python3 symbolic calculator for General Relativity
+	pkgver = 0.1a
+	pkgrel = 1
+	url = https://github.com/cjayross/riccipy
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-sympy
+	depends = python-numpy
+	depends = python-yaml
+	options = !emptydirs
+	source = https://github.com/cjayross/riccipy/archive/v0.1a.tar.gz
+	sha256sums = 8a13ed362a8128df19059ed27b33e24070cdde667befb109fae6eca7a0e885b2
+
+pkgname = python-riccipy
+

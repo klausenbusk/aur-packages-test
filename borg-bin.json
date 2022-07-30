@@ -1,0 +1,19 @@
+pkgbase = borg-bin
+	pkgdesc = Borg backup - prebuilt standalone binary
+	pkgver = 1.1.16
+	pkgrel = 2
+	url = https://borgbackup.readthedocs.io/en/stable/installation.html#standalone-binary
+	arch = x86_64
+	arch = i686
+	license = BSD
+	provides = borg
+	provides = borgbackup
+	conflicts = borg
+	conflicts = borgbackup
+	conflicts = borg-arm-bin
+	source = borg-bin-1.1.16-README.txt::https://github.com/borgbackup/borg/releases/download/1.1.16/README.txt
+	sha256sums = 679b54d5967b16cf8be8e89ad34354de7389431e08b904afbe305acb6fb2aa81
+	source_x86_64 = borg-bin-1.1.16-x86_64::https://github.com/borgbackup/borg/releases/download/1.1.16/borg-linux64
+	sha256sums_x86_64 = fe1caaeee9354ead27379b8235a92eb1885d7948126d2edd49e60a2b85d4bcee
+
+pkgname = borg-bin

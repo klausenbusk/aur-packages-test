@@ -1,0 +1,15 @@
+pkgbase = firefox-extension-dustman
+	pkgdesc = Automatically closes tabs
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://addons.mozilla.org/en/firefox/addon/dustman/
+	arch = any
+	license = MIT
+	makedepends = unzip
+	depends = firefox
+	noextract = firefox-extension-dustman.xpi
+	source = firefox-extension-dustman.xpi::https://addons.mozilla.org/firefox/downloads/file/780214/dustman_autoclose_tabs-2.1.0-an+fx.xpi
+	sha512sums = 417e3be022ed33a5eead9da0d9c26d2df8a64adf763e078cd506b39b85288790b67f64a002191dcbd098f5dcb860ae03879071ce92fb712559de90c992c31a47
+
+pkgname = firefox-extension-dustman
+

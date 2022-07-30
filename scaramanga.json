@@ -1,0 +1,16 @@
+pkgbase = scaramanga
+	pkgdesc = Pacman Mirrorlist generator wrapper written in Rust
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://github.com/shempignon/scaramanga
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = rust
+	makedepends = cargo
+	depends = gcc-libs
+	backup = etc/scaramanga/config.toml
+	source = scaramanga-0.2.2.tar.gz::https://github.com/shempignon/scaramanga/archive/refs/tags/0.2.2.tar.gz
+	sha512sums = 8d93bc90e912471415c079412b0c2112211f9b54760f654e468093ace707dd39ad5e68d7b238be54c8b9db8d26e5a7fe455bb466e273a752e0869b413b3de70b
+
+pkgname = scaramanga

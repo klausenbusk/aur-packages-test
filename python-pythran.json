@@ -1,0 +1,29 @@
+pkgbase = python-pythran
+	pkgdesc = Ahead of Time compiler for numeric kernels
+	pkgver = 0.9.11
+	pkgrel = 1
+	url = https://pythran.readthedocs.io/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = python-numpy
+	makedepends = python-setuptools
+	depends = python
+	depends = python-networkx
+	depends = python-ply
+	depends = python-numpy
+	depends = python-beniget>=0.3.0
+	depends = python-gast>=0.4.0
+	depends = python-six
+	depends = gperftools
+	depends = gmp
+	optdepends = boost: Use system Boost libraries
+	optdepends = clang: Alternative C++ compiler
+	optdepends = python-colorlog: Coloured output during compilation
+	provides = python-pythran
+	conflicts = python-pythran-git
+	source = python-pythran-0.9.11.tar.gz::https://files.pythonhosted.org/packages/source/p/pythran/pythran-0.9.11.tar.gz
+	sha256sums = a317f91e2aade9f6550dc3bf40b5caeb45b7e012daf27e2b3e4ad928edb01667
+
+pkgname = python-pythran
+

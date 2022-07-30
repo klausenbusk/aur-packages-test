@@ -1,0 +1,14 @@
+pkgbase = aur-creator-tools-git
+	pkgdesc = Small tools to create and maintain AUR packages
+	pkgver = r6.7ceae9b
+	pkgrel = 2
+	url = https://github.com/jD91mZM2/aur-creator-tools
+	arch = x86_64
+	arch = i386
+	license = MIT,
+	license = custom:MIT
+	source = aur-creator-tools-git::git+https://github.com/jD91mZM2/aur-creator-tools
+	sha256sums = SKIP
+
+pkgname = aur-creator-tools-git
+

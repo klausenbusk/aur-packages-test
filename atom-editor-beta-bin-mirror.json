@@ -1,0 +1,32 @@
+pkgbase = atom-editor-beta-bin-mirror
+	pkgdesc = Chrome-based text editor from Github - Beta Channel - Precompiled binary from official repository - Use source mirror host by npm.taobao.org in China
+	pkgver = 1.21.0.beta2
+	pkgrel = 1
+	url = https://github.com/atom/atom
+	install = atom-editor-beta-bin-mirror.install
+	arch = x86_64
+	license = MIT
+	depends = git
+	depends = gconf
+	depends = gtk2
+	depends = libnotify
+	depends = libxtst
+	depends = nss
+	depends = python2
+	depends = xdg-utils
+	depends = desktop-file-utils
+	depends = alsa-lib
+	depends = libgnome-keyring
+	optdepends = gvfs
+	conflicts = atom-editor-beta,
+	conflicts = atom-editor-beta-bin
+	options = !strip
+	source = atom-amd64-1.21.0-beta2.deb::https://npm.taobao.org/mirrors/atom/1.21.0-beta2/atom-amd64.deb
+	source = atom-python.patch
+	source = startupwmclass.patch
+	md5sums = 81076adf61c39badaea64fb6e85cfc41
+	md5sums = 501719c940fcd9c3d82fb8edebdaae09
+	md5sums = b05aef80afa76162ff9a1992cef3f0f9
+
+pkgname = atom-editor-beta-bin-mirror
+

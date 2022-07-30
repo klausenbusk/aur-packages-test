@@ -1,0 +1,18 @@
+pkgbase = quantum-espresso
+	pkgdesc = A suite of codes for electronic-structure calculations and modeling
+	pkgver = 7.1
+	pkgrel = 1
+	url = https://www.quantum-espresso.org/
+	arch = x86_64
+	license = GPL2
+	checkdepends = python
+	makedepends = gcc-fortran
+	depends = openmpi
+	depends = gcc-fortran
+	depends = fftw
+	depends = elpa
+	depends = libxc
+	source = https://gitlab.com/QEF/q-e/-/archive/qe-7.1/q-e-qe-7.1.tar.gz
+	sha256sums = de943c6be632ce16d05ddcd1c56bff422f7eb53d136d5063765df45954d93b86
+
+pkgname = quantum-espresso

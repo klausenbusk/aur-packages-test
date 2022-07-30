@@ -1,0 +1,14 @@
+pkgbase = python-valkit
+	pkgdesc = Yet another Python validators
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = https://github.com/mdevaev/valkit
+	arch = any
+	license = GPL
+	makedepends = python-setuptools
+	depends = python
+	source = https://github.com/mdevaev/valkit/archive/v0.1.4.tar.gz
+	md5sums = SKIP
+
+pkgname = python-valkit
+

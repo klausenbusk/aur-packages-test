@@ -1,0 +1,22 @@
+pkgbase = lockbook-desktop
+	pkgdesc = A secure, private, minimal, cross-platform document editor.
+	pkgver = 0.4.3
+	pkgrel = 3
+	url = https://github.com/lockbook/lockbook
+	arch = x86_64
+	arch = i686
+	groups = lockbook
+	license = BSD-3-Clause
+	makedepends = rust
+	makedepends = cargo
+	makedepends = git
+	depends = gtksourceview4
+	depends = gtk4
+	provides = lockbook-desktop
+	conflicts = lockbook-desktop
+	source = git+https://github.com/lockbook/aur-lockbook-desktop.git
+	source = git+https://github.com/lockbook/lockbook.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = lockbook-desktop

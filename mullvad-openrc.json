@@ -1,0 +1,13 @@
+pkgbase = mullvad-openrc
+	pkgdesc = mullvad openrc service
+	pkgver = 1.0
+	pkgrel = 2
+	url = https://github.com/voj343/mullvad-openrc
+	arch = any
+	license = GPL
+	depends = openrc
+	source = mullvadd.initd
+	sha256sums = 17043deeb5144a624bcbc08bed7b0aa08379c1c849d1d2ceecdcdc34d022435b
+
+pkgname = mullvad-openrc
+	install = mullvadd.install

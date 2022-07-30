@@ -1,0 +1,24 @@
+pkgbase = cpeditor
+	pkgdesc = The editor for competitive programming
+	pkgver = 6.9.4
+	pkgrel = 1
+	url = https://github.com/cpeditor/cpeditor
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	makedepends = git
+	makedepends = ninja
+	makedepends = python3
+	makedepends = qt5-tools
+	depends = qt5-base
+	depends = hicolor-icon-theme
+	optdepends = cf-tool: submit to Codeforces
+	optdepends = clang: C++ format and language server
+	optdepends = java-environment: compile Java
+	optdepends = java-runtime: execute Java
+	optdepends = python: execute Python
+	conflicts = cpeditor-git
+	source = https://github.com/cpeditor/cpeditor/releases/download/6.9.4/cpeditor-6.9.4-full-source.tar.gz
+	sha256sums = 044aa39944e1cc38902fb7851181e480087b6336cf11624e6c40c03290812edc
+
+pkgname = cpeditor

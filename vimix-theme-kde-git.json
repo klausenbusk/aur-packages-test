@@ -1,0 +1,20 @@
+pkgbase = vimix-theme-kde-git
+	pkgdesc = Flat Design theme for KDE Plasma desktop
+	pkgver = r35.8ecc8db
+	pkgrel = 1
+	url = https://github.com/vinceliuice/vimix-kde
+	arch = any
+	license = GPL3
+	makedepends = git
+	options = !strip
+	source = git+https://github.com/vinceliuice/vimix-kde.git
+	sha256sums = SKIP
+
+pkgname = vimix-theme-kde-git
+	optdepends = vimix-cursors: Matching cursor theme
+	optdepends = vimix-gtk-themes: Matching GTK theme
+	optdepends = vimix-icon-theme: Matching icon theme
+	optdepends = grub2-theme-vimix-git: Matching grub theme
+	provides = vimix-kde
+	conflicts = kvantum-theme-vimix-git
+

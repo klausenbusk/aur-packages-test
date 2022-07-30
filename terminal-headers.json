@@ -1,0 +1,20 @@
+pkgbase = terminal-headers
+	pkgdesc = Color scripts providing a fun greeting when opening a terminal or reloading your shell
+	pkgver = 1.2
+	pkgrel = 1
+	url = https://gitlab.com/a4to/terminal-headers
+	install = terminal-headers.install
+	arch = x86_64
+	license = MIT
+	depends = python-lolcat
+	depends = figlet
+	depends = bc
+	source = https://concise.cc/pkg/terminal-headers-1.2-1-x86_64.pkg.tar.zst
+	source = https://concise.cc/pkg/terminal-headers-1.2-1-x86_64.pkg.tar.zst.sig
+	validpgpkeys = 81BACEEBC3EA26E127166E4A819BB92A9A48160E
+	md5sums = 88f1bc2f99644ed384e9a8f54f9ed688
+	md5sums = fc57b79d163ee399f4d999eef0502c7c
+	sha512sums = dad4fba32d28a526cbf4821d3879886225ccdca5e11e700fb3ace6017bc98123a980076d3b5a39f42634b3dacd8ae4c72e5d976e50e8c9c1ca71be4e9a7b6ab8
+	sha512sums = f51e5bd4c8b6fb19afe05200fce31693a111127903cdd321c5d865cad10bc10ab68bfae608beb336dfc0030fdd4d81b5124dfc0e0d5490e30b682da35f010cdd
+
+pkgname = terminal-headers

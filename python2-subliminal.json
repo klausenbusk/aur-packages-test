@@ -1,0 +1,14 @@
+pkgbase = python2-subliminal
+	pkgdesc = Python module to parse metadata in video files.
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://github.com/Diaoul/subliminal
+	arch = any
+	license = LGPL
+	makedepends = python2-distribute
+	depends = python2
+	source = https://files.pythonhosted.org/packages/source/s/subliminal/subliminal-2.1.0.tar.gz
+	sha512sums = cba824329b5590856331b4b83dd753eebbb732979a826cb7e7017c176bce892d28f7fe1f237e27c3afabda113dd8967ce6772006bc9be0abe48c3ea14fe05647
+
+pkgname = python2-subliminal
+

@@ -1,0 +1,12 @@
+pkgbase = evaltool
+	pkgdesc = Explore and test functionality of the Inertial Sense products in real-time
+	pkgver = 1.8.6
+	pkgrel = 1
+	url = https://docs.inertialsense.com/user-manual/software/evaltool/
+	arch = x86_64
+	license = unknow
+	depends = qt5-charts-ubuntu-ver
+	source = https://github.com/inertialsense/inertial-sense-sdk/releases/download/1.8.6/EvalTool_1.8.6.deb
+	sha256sums = acc443e0f76944669006a4648d6504a513e3550e222d93fac24736a7bb5878ad
+
+pkgname = evaltool

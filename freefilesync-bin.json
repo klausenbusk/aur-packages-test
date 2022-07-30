@@ -1,0 +1,26 @@
+pkgbase = freefilesync-bin
+	pkgdesc = Folder comparison and synchronization
+	pkgver = 11.23
+	pkgrel = 1
+	url = https://freefilesync.org
+	install = .install
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	depends = gtk2
+	depends = libxxf86vm
+	provides = freefilesync
+	conflicts = freefilesync
+	options = !strip
+	source = dlagent
+	source = freefilesync-bin-11.23.tar.gz::https://freefilesync.org/download/FreeFileSync_11.23_Linux.tar.gz
+	sha256sums = 3b8121fdf7d91d19680b6ff91f6f10ba79193379e1fdad5227d805b4ea65312a
+	sha256sums = 5a018d575c2c03ea13c2e144956c59165eea09731ba185efd2bb6c9063d43a54
+	depends_i686 = lib32-atk
+	depends_i686 = lib32-fontconfig
+	depends_i686 = lib32-gdk-pixbuf2
+	depends_i686 = lib32-libsm
+	depends_i686 = lib32-libx11
+	depends_i686 = lib32-pango
+
+pkgname = freefilesync-bin

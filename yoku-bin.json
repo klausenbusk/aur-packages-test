@@ -1,0 +1,14 @@
+pkgbase = yoku-bin
+	pkgdesc = Markdown based TUI todo
+	pkgver = 0.1.1
+	pkgrel = 0
+	url = https://github.com/misobarisic/yoku
+	arch = x86_64
+	license = GPL3
+	provides = yoku
+	conflicts = yoku-bin
+	conflicts = yoku-git
+	source = yoku-bin.tar.gz::https://github.com/misobarisic/yoku/releases/download/v0.1.1/yoku-linux.tar.gz
+	sha256sums = 61ad230c25b6cc44311c8a1c4ba274d8b616ab5ac74d561a95a42d888b7957a1
+
+pkgname = yoku-bin

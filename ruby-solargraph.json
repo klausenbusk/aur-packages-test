@@ -1,0 +1,27 @@
+pkgbase = ruby-solargraph
+	pkgdesc = A Ruby language server
+	pkgver = 0.44.3
+	pkgrel = 1
+	url = http://solargraph.org/
+	arch = any
+	license = MIT
+	makedepends = rubygems
+	depends = ruby
+	depends = ruby-backport
+	depends = ruby-bundler
+	depends = ruby-e2mmap
+	depends = ruby-jaro_winkler
+	depends = ruby-kramdown
+	depends = ruby-kramdown-parser-gfm
+	depends = ruby-parser
+	depends = ruby-reverse_markdown
+	depends = ruby-rubocop
+	depends = ruby-thor
+	depends = ruby-tilt
+	depends = ruby-yard
+	noextract = solargraph-0.44.3.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/solargraph-0.44.3.gem
+	sha256sums = 0856f213c2162a922a472d1e3d4b6372c6b5ee5b8029bc1ea41e0960a72371c0
+
+pkgname = ruby-solargraph

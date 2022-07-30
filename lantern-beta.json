@@ -1,0 +1,26 @@
+pkgbase = lantern-beta
+	pkgdesc = Free desktop application that delivers fast, reliable and secure access to the open Internet.
+	pkgver = beta
+	pkgrel = 1
+	url = https://getlantern.org
+	arch = i686
+	arch = x86_64
+	license = Apache
+	depends = libappindicator-gtk3
+	provides = lantern
+	conflicts = lantern
+	conflicts = lantern-git
+	conflicts = lantern-headless
+	conflicts = lantern-headless-git
+	options = !emptydirs
+	options = !strip
+	options = !docs
+	source = lantern.service
+	sha256sums = SKIP
+	source_i686 = https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-preview-32-bit.deb
+	sha256sums_i686 = SKIP
+	source_x86_64 = https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-preview-64-bit.deb
+	sha256sums_x86_64 = SKIP
+
+pkgname = lantern-beta
+

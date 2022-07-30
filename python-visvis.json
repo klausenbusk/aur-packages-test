@@ -1,0 +1,21 @@
+pkgbase = python-visvis
+	pkgdesc = Python library for visualization of 1D to 4D data
+	pkgver = 1.13.0
+	pkgrel = 1
+	url = https://github.com/almarklein/visvis
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-numpy
+	depends = python-opengl
+	optdepends = python-pyqt4: for Qt4 backend
+	optdepends = python-pyside: for another Qt4 backend
+	optdepends = wxpython: for WxWidgets backend
+	optdepends = pygtk: for GTK backend
+	source = python-visvis-1.13.0.tar.gz::https://github.com/almarklein/visvis/archive/v1.13.0.tar.gz
+	sha256sums = a2858c61b9b2ff17d1f9e8bffb0445077e2e9bb93fe59ee3812dcaa7e0d43fda
+
+pkgname = python-visvis

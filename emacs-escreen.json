@@ -1,0 +1,17 @@
+pkgbase = emacs-escreen
+	pkgdesc = Window configuration management for emacs
+	pkgver = 1.20
+	pkgrel = 1
+	url = http://www.splode.com/~friedman/software/emacs-lisp/#ui
+	install = escreen.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = emacs
+	source = http://www.splode.com/~friedman/software/emacs-lisp/src/escreen.el
+	source = dotemacs
+	md5sums = 43182159eeb5eb141fe3254eaf9fef22
+	md5sums = 41c28902d9d9ff178e0048418af2b972
+
+pkgname = emacs-escreen
+

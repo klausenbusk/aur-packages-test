@@ -1,0 +1,17 @@
+pkgbase = python-data-science-types
+	pkgdesc = Mypy type stubs for numpy, pandas and matplotlib
+	pkgver = 0.2.23
+	pkgrel = 2
+	url = https://github.com/predictive-analytics-lab/data-science-types
+	arch = any
+	license = Apache
+	depends = python
+	depends = mypy
+	optdepends = python-numpy: for numpy support
+	optdepends = python-pandas: for pandas support
+	optdepends = python-matplotlib: for matplotlib support
+	source = https://github.com/predictive-analytics-lab/data-science-types/archive/v0.2.23.tar.gz
+	sha256sums = 3778ba8243d546a7b41eecedf69d37f2a4ddd344a3a69198a704ae384dec8cef
+
+pkgname = python-data-science-types
+

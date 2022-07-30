@@ -1,0 +1,15 @@
+pkgbase = hawkmoth
+	pkgdesc = Sphinx autodoc C extension
+	pkgver = 0.5
+	pkgrel = 2
+	url = https://github.com/jnikula/hawkmoth
+	arch = i686
+	arch = x86_64
+	license = BSD2
+	depends = python-sphinx
+	depends = clang
+	source = git+https://github.com/jnikula/hawkmoth
+	sha512sums = SKIP
+
+pkgname = hawkmoth
+

@@ -1,0 +1,30 @@
+pkgbase = arsse
+	pkgdesc = Multi-protocol RSS/Atom newsfeed synchronization server
+	pkgver = 0.10.2
+	pkgrel = 1
+	url = https://thearsse.com/
+	arch = any
+	license = MIT
+	optdepends = nginx: HTTP server
+	optdepends = apache>=2.4: HTTP server
+	optdepends = percona-server: Alternate database
+	optdepends = postgresql>=10: Alternate database
+	optdepends = php-pgsql>=7.1: PostgreSQL database support
+	backup = etc/webapps/arsse/config.php
+	backup = etc/php/php-fpm.d/arsse.conf
+	backup = etc/webapps/arsse/nginx/example.conf
+	backup = etc/webapps/arsse/nginx/arsse.conf
+	backup = etc/webapps/arsse/nginx/arsse-loc.conf
+	backup = etc/webapps/arsse/nginx/arsse-fcgi.conf
+	backup = etc/webapps/arsse/apache/example.conf
+	backup = etc/webapps/arsse/apache/arsse.conf
+	backup = etc/webapps/arsse/apache/arsse-loc.conf
+	source = arsse-0.10.2.tar.gz::https://thearsse.com/releases/0.10.2.tar.gz
+	md5sums = ca93f28270fed3240ce9089e5d7a5f0c
+
+pkgname = arsse
+	depends = php>=7.1
+	depends = php-intl>=7.1
+	depends = php-sqlite>=7.1
+	depends = php-fpm>=7.1
+

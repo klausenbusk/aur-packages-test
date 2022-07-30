@@ -1,0 +1,15 @@
+pkgbase = rbw-bin
+	pkgdesc = unofficial bitwarden cli
+	pkgver = 1.3.0
+	pkgrel = 2
+	url = https://git.tozt.net/rbw
+	arch = x86_64
+	license = MIT
+	depends = pinentry
+	provides = rbw
+	conflicts = rbw-git
+	conflicts = rbw
+	source = https://git.tozt.net/rbw/releases/deb/rbw_1.3.0_amd64.deb
+	sha256sums = f1b02d4e3075b71d80a8ca91f7eb61769387afef548ceeced500d93310433d13
+
+pkgname = rbw-bin

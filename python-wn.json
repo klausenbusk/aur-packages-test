@@ -1,0 +1,17 @@
+pkgbase = python-wn
+	pkgdesc = Stand-alone WordNet API
+	pkgver = 0.9.1
+	pkgrel = 1
+	url = https://github.com/goodmami/wn
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-importlib_resources
+	depends = python-requests
+	depends = python-toml
+	source = wn-v0.9.1.tar.gz::https://files.pythonhosted.org/packages/50/5e/9ffb97e96d1f1ca421a2c5b218ddc2e5ec145a2441d350e98ad58fa6dad0/wn-0.9.1.tar.gz
+	source = setup.py
+	b2sums = 525cd5513f4f46250e78b3295ba2cc57f9d96c7d953128bec061844e979108cab73e9dec4e22c90568f6d0be23c48cf888af8b3c9fbc6e050978a398c376b1f9
+	b2sums = 23629d56e738eab2fd44099db1a07fa86ea69694169981d60e73feb6de4a4ec735617f4610da91e1980e8e69d075e1448e5611fa382908b62d7f778ead1ae1d8
+
+pkgname = python-wn

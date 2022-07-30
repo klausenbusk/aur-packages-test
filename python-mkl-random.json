@@ -1,0 +1,15 @@
+pkgbase = python-mkl-random
+	pkgdesc = NumPy-based Python interface to Intel (R) MKL Random Number Generation functionality
+	pkgver = 1.2.2.post2
+	pkgrel = 1
+	url = https://github.com/IntelPython/mkl_random
+	arch = x86_64
+	license = custom:BSD-3-clause
+	makedepends = python-setuptools
+	makedepends = cython
+	depends = intel-mkl
+	depends = python-numpy
+	source = https://github.com/IntelPython/mkl_random/archive/v1.2.2.post2.tar.gz
+	sha512sums = SKIP
+
+pkgname = python-mkl-random

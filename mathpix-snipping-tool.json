@@ -1,0 +1,17 @@
+pkgbase = mathpix-snipping-tool
+	pkgdesc = Mathpix Snipping Tool
+	pkgver = 03.00.0074
+	pkgrel = 1
+	url = https://mathpix.com/
+	arch = x86_64
+	license = unknown
+	depends = qt5-x11extras
+	depends = qt5-webengine
+	depends = qt5-svg
+	depends = qt5-imageformats
+	optdepends = wayland: Wayland support.
+	options = !strip
+	source = mathpix-snipping-tool-03.00.0074-x86_64.AppImage::https://download.mathpix.com/linux/Mathpix_Snipping_Tool-x86_64.v03.00.0074.AppImage
+	sha512sums = ecd555699f80ece9a21646142483392929c8058a9ffe01b969e5c91b40f90e625aaf20c1343615d865a0f5412eb10907c224ad925b38c26efeafdb4b039374b4
+
+pkgname = mathpix-snipping-tool

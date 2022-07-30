@@ -1,0 +1,26 @@
+pkgbase = rambox-os-git
+	pkgdesc = Free and Open Source messaging and emailing app that combines common web applications into one.
+	pkgver = r1097.8440bc8
+	pkgrel = 1
+	url = https://github.com/TheGoddessInari/rambox
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = java-runtime=8
+	makedepends = git
+	makedepends = desktop-file-utils
+	makedepends = ruby
+	makedepends = npm
+	makedepends = sencha-cmd-6
+	depends = electron
+	provides = rambox-os
+	conflicts = rambox-os
+	conflicts = rambox
+	conflicts = rambox-bin
+	source = rambox-os::git+https://github.com/TheGoddessInari/rambox.git
+	source = rambox-os.desktop
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = rambox-os-git
+

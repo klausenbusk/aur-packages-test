@@ -1,0 +1,25 @@
+pkgbase = python-wxpython-dev
+	pkgdesc = Cross-platform GUI toolkit. Developer version
+	pkgver = 4.2.0a1.dev5449+3ac1e526
+	pkgrel = 2
+	url = https://www.wxpython.org
+	arch = x86_64
+	license = custom:wxWindows
+	checkdepends = xorg-server-xvfb
+	checkdepends = python-pytest-forked
+	checkdepends = python-numpy
+	makedepends = mesa
+	makedepends = glu
+	makedepends = webkit2gtk
+	makedepends = python-requests
+	makedepends = python-setuptools
+	makedepends = python-attrdict
+	depends = wxwidgets-gtk3
+	depends = python-six
+	optdepends = python-pypubsub: Alternative to the deprecated wx.lib.pubsub API
+	provides = python-wxpython
+	conflicts = python-wxpython
+	source = https://wxpython.org/Phoenix/snapshot-builds/wxPython-4.2.0a1.dev5449+3ac1e526.tar.gz
+	sha512sums = f7fe342c70fd8fa66de67e1aeeb00290dbe2f995a4917a7bb7000d025cf5a084199bb1db6f23bc7b743448aa185f725af57aa9ed2b2ae8eead08ca69bb8e4137
+
+pkgname = python-wxpython-dev

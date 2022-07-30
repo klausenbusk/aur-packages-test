@@ -1,0 +1,15 @@
+pkgbase = python-unidiff
+	pkgdesc = Simple Python library to parse and interact with unified diff data.
+	pkgver = 0.6.0
+	pkgrel = 2
+	url = https://github.com/matiasb/python-unidiff
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	depends = python
+	source = python-unidiff-0.6.0.tar.gz::https://github.com/matiasb/python-unidiff/archive/v0.6.0.tar.gz
+	sha256sums = 00bd92c4988a2daba239222e579284da48983f81b929fad4249949d6a5496723
+
+pkgname = python-unidiff
+

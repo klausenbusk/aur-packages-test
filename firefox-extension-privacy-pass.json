@@ -1,0 +1,14 @@
+pkgbase = firefox-extension-privacy-pass
+	pkgdesc = Handle passes containing cryptographically blinded tokens for bypassing challenge pages.
+	pkgver = 2.0.6
+	pkgrel = 1
+	url = https://github.com/privacypass/challenge-bypass-extension
+	arch = any
+	license = BSD
+	depends = firefox
+	noextract = privacy_pass-2.0.6-fx.xpi
+	source = https://addons.mozilla.org/firefox/downloads/file/3556492/privacy_pass-2.0.6-fx.xpi
+	sha512sums = 6cab6d4951febd0629231416d1553f14eb8ed6141450f0cb1461dd408945d7a4c242856eabb48bf3fad7d896e759b17ae3db879d1d4a151c0e66a90aec89d8f7
+
+pkgname = firefox-extension-privacy-pass
+

@@ -1,0 +1,15 @@
+pkgbase = nitrocli
+	pkgdesc = Command-line interface for Nitrokey devices
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/d-e-s-o/nitrocli
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	depends = libnitrokey>=3.5
+	depends = gnupg
+	source = nitrocli-0.4.0.tar.gz::https://github.com/d-e-s-o/nitrocli/archive/v0.4.0.tar.gz
+	sha512sums = 6c41f301b49ee75e6c1e4aedb8e79ee4ee3b3cfa187d08bef7507f47583475a1da7af04d02ce932b08f58799711c4dc13d3a9fea59cebce8db68b811186c3a4e
+
+pkgname = nitrocli
+

@@ -1,0 +1,24 @@
+pkgbase = lycheeslicer
+	pkgdesc = Lychee Slicer
+	pkgver = 4.0.11
+	pkgrel = 1
+	url = http://mango3d.io
+	install = lycheeslicer.install
+	arch = x86_64
+	license = custom
+	depends = gtk3
+	depends = libsecret
+	depends = libnotify
+	depends = nss
+	depends = libxss
+	depends = libxtst
+	depends = xdg-utils
+	depends = at-spi2-atk
+	depends = at-spi2-core
+	optdepends = libappindicator-gtk3
+	options = !strip
+	options = !emptydirs
+	source_x86_64 = https://mango-lychee.nyc3.cdn.digitaloceanspaces.com/LycheeSlicer-4.0.11.deb
+	sha512sums_x86_64 = 4e3e9dc004a5e60d555bad5cd5c4783b12fa70915f695a58d825e4a04d4b5be10ce4c2e3028c8c089a64a72aa373219e19da1da9f26728cbf496a51e54572f57
+
+pkgname = lycheeslicer

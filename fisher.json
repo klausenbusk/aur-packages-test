@@ -1,0 +1,17 @@
+pkgbase = fisher
+	pkgdesc = A package manager for the fish shell
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = https://github.com/jorgebucaran/fisher
+	arch = any
+	license = MIT
+	depends = fish>=2.3.0
+	depends = curl
+	depends = git
+	provides = fisher
+	conflicts = fisher
+	source = fisher-4.3.0.tar.gz::https://github.com/jorgebucaran/fisher/archive/4.3.0.tar.gz
+	sha512sums = 2eb059083933c2c0863edad09ed9dbb27ab657f2a3c545b32926569fd9a0dfd60be4b8030cfe2f074983050679bb8b3392efa8b6544127b963af3987e8313d14
+
+pkgname = fisher
+

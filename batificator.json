@@ -1,0 +1,15 @@
+pkgbase = batificator
+	pkgdesc = A battery status notifier
+	pkgver = 1.1
+	pkgrel = 2
+	url = https://gitlab.com/JustMeErazem/batificator
+	arch = any
+	license = MIT
+	depends = libnotify
+	depends = xpub
+	optdepends = notification-daemon
+	source = https://gitlab.com/JustMeErazem/batificator/-/archive/1.1/batificator-1.1.tar.gz
+	sha256sums = SKIP
+
+pkgname = batificator
+

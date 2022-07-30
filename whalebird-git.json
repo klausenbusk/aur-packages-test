@@ -1,0 +1,20 @@
+pkgbase = whalebird-git
+	pkgdesc = Electron-based Mastodon/Pleroma client (git)
+	pkgver = 2.8.0+r41+g76790c7
+	pkgrel = 1
+	url = https://whalebird.org
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = npm
+	provides = whalebird
+	conflicts = whalebird
+	conflicts = whalebird-bin
+	source = git+https://github.com/h3poteto/whalebird-desktop
+	source = whalebird.desktop
+	sha512sums = SKIP
+	sha512sums = 3e5f29fc6db305957b81abc8e4b4679fbd979bbf41ce0c190b19c31a96a3bfe03b624885961ce6d7410716d286c82548b960ebbc1e547c1cacc0b16175eecee2
+
+pkgname = whalebird-git
+

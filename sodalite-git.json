@@ -1,0 +1,22 @@
+pkgbase = sodalite-git
+	pkgdesc = Keyboard-driven terminal file navigator and launcher
+	pkgver = r187.0379229
+	pkgrel = 4
+	url = www.github.com/hnicke/sodalite
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = awk
+	depends = python-binaryornot
+	depends = python-urwid
+	depends = python-yaml
+	depends = python-pyperclip
+	depends = python-pygments
+	depends = python-watchdog
+	conflicts = sodalite
+	backup = etc/sodalite.conf
+	source = git+https://github.com/hnicke/sodalite.git
+	md5sums = SKIP
+
+pkgname = sodalite-git
+

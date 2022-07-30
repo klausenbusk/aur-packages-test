@@ -1,0 +1,16 @@
+pkgbase = pacutils-git
+	pkgdesc = alpm front-end tools
+	pkgver = 0.11.0
+	pkgrel = 1
+	url = https://github.com/andrewgregory/pacutils
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	depends = pacman>=6.0
+	provides = pacutils=0.11.0
+	conflicts = pacutils
+	source = pacutils-git::git://github.com/andrewgregory/pacutils.git
+	sha1sums = SKIP
+
+pkgname = pacutils-git

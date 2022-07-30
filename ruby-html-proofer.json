@@ -1,0 +1,25 @@
+pkgbase = ruby-html-proofer
+	pkgdesc = Test your rendered HTML files to make sure they are accurate
+	pkgver = 3.9.3
+	pkgrel = 1
+	url = https://github.com/gjtorikian/html-proofer
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-mercenary
+	depends = ruby-nokogiri
+	depends = ruby-colorize
+	depends = ruby-typhoeus
+	depends = ruby-yell
+	depends = ruby-parallel
+	depends = ruby-addressable
+	depends = ruby-activesupport
+	noextract = html-proofer-3.9.3.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/html-proofer-3.9.3.gem
+	source = LICENSE
+	sha1sums = 94c1f6dca8c3be5a23c7e9492a70fd9ec951f72d
+	sha1sums = f90727a909db39508bcfdcfff6e9c225a295dc8a
+
+pkgname = ruby-html-proofer
+

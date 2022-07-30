@@ -1,0 +1,12 @@
+pkgbase = ttf-interface
+	pkgdesc = A font for highly legible text on computer screens
+	pkgver = 1.8
+	pkgrel = 8
+	url = https://rsms.me/interface/
+	arch = any
+	license = custom:SIL Open Font License
+	source = interface-1.8.zip::https://github.com/rsms/interface/releases/download/v1.8/Interface-1.8.zip
+	sha256sums = 969793a0d483fdfc24c276e4d216ee1bf136f012bca730d5f4ecaaa31f492e30
+
+pkgname = ttf-interface
+

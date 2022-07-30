@@ -1,0 +1,16 @@
+pkgbase = python-lsp-server
+	pkgdesc = Fork of the python-language-server project, maintained by the Spyder IDE team and the community
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/python-lsp/python-lsp-server
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-jedi
+	depends = python-lsp-jsonrpc
+	depends = python-pluggy
+	depends = python-ujson
+	source = https://github.com/python-lsp/python-lsp-server/archive/v1.2.1.tar.gz
+	sha256sums = 5408cffb405bef5e74d5a9de4ba6f1f45e5ab1c5d67755824a0beb31dfb489a3
+
+pkgname = python-lsp-server

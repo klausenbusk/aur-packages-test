@@ -1,0 +1,18 @@
+pkgbase = python2-cairosvg
+	pkgdesc = Convert your SVG files to PDF and PNG.
+	pkgver = 1.0.22
+	pkgrel = 1
+	url = http://cairosvg.org
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = python2
+	depends = python2-cairocffi
+	depends = python2-cffi
+	depends = python2-pycparser
+	optdepends = python2-lxml
+	source = https://github.com/Kozea/CairoSVG/archive/1.0.22.tar.gz
+	md5sums = 2d8cdd9870050bf0a923ec4345c7e879
+
+pkgname = python2-cairosvg
+

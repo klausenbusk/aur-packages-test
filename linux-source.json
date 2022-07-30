@@ -1,0 +1,18 @@
+pkgbase = linux-source
+	pkgdesc = Source files for the Linux Kernel
+	pkgver = 4.16.8
+	pkgrel = 1
+	url = http://www.kernel.org/
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	options = !strip
+	source = https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.16.8.tar.xz
+	source = https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.16.8.tar.sign
+	validpgpkeys = ABAF11C65A2970B130ABE3C479BE3E4300411886
+	validpgpkeys = 647F28654894E3BD457199BE38DBBDC86092693E
+	sha256sums = e4faad7d987b10e97eaaa272ef135c6edea8f8260e12bc1b8d1c91a7e03c98fc
+	sha256sums = SKIP
+
+pkgname = linux-source
+

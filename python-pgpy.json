@@ -1,0 +1,33 @@
+pkgbase = python-pgpy
+	pkgdesc = Pretty Good Privacy for Python - a pure Python OpenPGP implementation.
+	pkgver = 0.5.4
+	pkgrel = 1
+	url = https://github.com/SecurityInnovation/PGPy
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python2-setuptools
+	makedepends = python2-wheel
+	source = https://github.com/SecurityInnovation/PGPy/releases/download/v0.5.4/PGPy-0.5.4.tar.gz
+	source = https://github.com/SecurityInnovation/PGPy/releases/download/v0.5.4/PGPy-0.5.4.tar.gz.asc
+	validpgpkeys = D47C3D408FA78DC056409824F9676A5FF8CC4F96
+	sha256sums = bdd3da1e006fc8e81cc02232969924d6e8c98a4af1621a925d99bba09164183b
+	sha256sums = SKIP
+	sha384sums = cecb31ab93e396ecb1daa63f0554d301042172f7ee827970bd732174433e46377e9628b0a7c4dd843378966cee0e660d
+	sha384sums = SKIP
+	sha512sums = bf19a72d5113cb88e6538d515a06a115a7f329ee1331553100140848226773db0a539a0cbe480f04b0f26cd587fc0c3c8e5fe392e2421d6e6210e86bd0ab70c1
+	sha512sums = SKIP
+
+pkgname = python-pgpy
+	depends = python-cryptography>=2.6.0
+	depends = python-six>=1.9.0
+	depends = python-pyasn1
+
+pkgname = python2-pgpy
+	depends = python2-cryptography>=2.6.0
+	depends = python2-six>=1.9.0
+	depends = python2-pyasn1
+	depends = python2-enum34
+	depends = python2-singledispatch
+

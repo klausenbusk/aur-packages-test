@@ -1,0 +1,28 @@
+pkgbase = knime-sdk
+	pkgdesc = Software Development Kit for Knime
+	pkgver = 3.5.2
+	pkgrel = 1
+	url = http://www.knime.org/
+	changelog = ChangeLog
+	arch = x86_64
+	license = custom
+	makedepends = binutils
+	makedepends = fakeroot
+	makedepends = imagemagick
+	depends = java-environment
+	depends = python
+	depends = libxml2
+	optdepends = bash: Required for bash-scriptable nodes
+	optdepends = r: Required for R-scriptable nodes
+	options = !emptydirs
+	source = https://download.knime.org/analytics-platform/linux/eclipse_knime_3.5.2.linux.gtk.x86_64.tar.gz
+	source = knime-sdk.sh
+	source = knime-sdk.desktop
+	source = LICENSE
+	sha256sums = a2a8c9fe3c815872c016453e755e84f7d4077bba3b71c6b727389b03b991c71b
+	sha256sums = fb0e03e46b1aff889fc4957258a75496399c803d2a67392c25236c616886d761
+	sha256sums = 14521c9c333c06d39d69dc1cd35a41fc58854e5e8366502d7defad54ef02edd4
+	sha256sums = ecd59cb1a79d96474e732361fcd40417fd3352b3974be66add43f8f00c7e016a
+
+pkgname = knime-sdk
+

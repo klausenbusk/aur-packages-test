@@ -1,0 +1,24 @@
+pkgbase = python-mpl-animators
+	pkgdesc = An interative animation framework for matplotlib
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://sunpy.org
+	arch = any
+	license = BSD
+	checkdepends = python-pytest
+	makedepends = python-setuptools-scm
+	makedepends = python-sunpy-sphinx-theme
+	makedepends = python-sphinx-automodapi
+	makedepends = python-matplotlib
+	makedepends = python-astropy
+	makedepends = graphviz
+	source = https://files.pythonhosted.org/packages/source/m/mpl_animators/mpl_animators-1.0.1.tar.gz
+	md5sums = 3b2641fd0e00fa55c35687929dbd40bd
+
+pkgname = python-mpl-animators
+	depends = python-matplotlib>=3.2.0
+	optdepends = python-astropy>=4.2.0: all, wcs
+	optdepends = python-mpl-animators-doc: Documentation for mpl-animators
+
+pkgname = python-mpl-animators-doc
+	pkgdesc = Documentation for Python mpl-animators

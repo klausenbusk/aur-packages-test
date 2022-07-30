@@ -1,0 +1,14 @@
+pkgbase = baralga
+	pkgdesc = A simple and lightweight time tracking solution for freelancers and consultants
+	pkgver = 1.8.3
+	pkgrel = 1
+	url = http://baralga.github.com
+	arch = any
+	license = LGPL3
+	depends = java-runtime
+	options = emptydirs
+	source = https://github.com/Baralga/baralga/releases/download/v1.8.3/Baralga-Portable-1.8.3.zip
+	sha512sums = a786ead107f075b56e0f0965e603a9eaacf6bab541094d5d0707dd396e1a1b28708a96eef2bbf5338a1fc2c6c725ee5da5bc774cf1c1db56618ea12c775bac77
+
+pkgname = baralga
+

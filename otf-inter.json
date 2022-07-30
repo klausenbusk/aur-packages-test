@@ -1,0 +1,16 @@
+pkgbase = otf-inter
+	pkgdesc = Inter is a typeface carefully crafted & designed for computer screens
+	pkgver = 3.13
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/rsms/inter
+	arch = any
+	license = custom
+	depends = fontconfig
+	depends = xorg-font-utils
+	conflicts = inter-font
+	source = https://github.com/rsms/inter/releases/download/v3.13/Inter-3.13.zip
+	b2sums = d8630d083529f23ffdc92d4bad9b08ded1060d379cfe82aacc50e513d69bb51c7b6dc226ad10133a8781e9edceddc03fde665dc586c07863cf2c6faeb6e266d7
+
+pkgname = otf-inter
+

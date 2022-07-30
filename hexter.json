@@ -1,0 +1,19 @@
+pkgbase = hexter
+	pkgdesc = A DSSI software synthesizer that models the sound generation of a Yamaha DX7
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = http://smbolton.com/hexter.html
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = ladspa
+	depends = gtk2
+	depends = dssi
+	options = !libtool
+	source = https://github.com/smbolton/hexter/releases/download/version_1.1.0/hexter-1.1.0.tar.bz2
+	source = hexter
+	md5sums = 91c31b1c6c6c054b21b0847256b33fd1
+	md5sums = ce72d4f996c17ffd72eb02af76c4dd9b
+
+pkgname = hexter
+

@@ -1,0 +1,21 @@
+pkgbase = impacket-git
+	pkgdesc = Latest Impacket including new features, particularly in the examples scripts
+	pkgver = 0.9.16.dev.latest
+	pkgrel = 1
+	url = https://github.com/CoreSecurity/impacket
+	arch = any
+	license = Modified Apache, see LICENSE file
+	makedepends = python2-setuptools
+	makedepends = git
+	depends = python2-crypto
+	depends = python2-pcapy
+	depends = python2-pyasn1
+	depends = python2-pyopenssl
+	depends = python-ldap3
+	provides = impacket=0.9.16.dev
+	conflicts = impacket
+	source = impacket::git+https://github.com/CoreSecurity/impacket
+	md5sums = SKIP
+
+pkgname = impacket-git
+

@@ -1,0 +1,20 @@
+pkgbase = appimage-installer-bin
+	pkgdesc = AppImage install tool.
+	pkgver = 2.0
+	pkgrel = 2
+	url = https://gitee.com/deepin-opensource/appimage-installer
+	arch = x86_64
+	license = GPLv3
+	depends = dtkwidget
+	depends = dtkgui
+	depends = dtkcore
+	depends = dtkcommon
+	provides = appimage-installer-bin
+	provides = appimage-installer
+	conflicts = appimage-installer-bin
+	conflicts = appimage-installer
+	options = !strip
+	source = appimage-installer_2.0-beta_amd64.deb::https://gitee.com/deepin-opensource/appimage-installer/attach_files/774786/download/appimage-installer_2.0-beta_amd64.deb
+	sha256sums = 155f4795c0489a662546884e1f91204622c90796165795bb83744f4152f0e0e7
+
+pkgname = appimage-installer-bin

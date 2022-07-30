@@ -1,0 +1,22 @@
+pkgbase = evernote-beta-bin
+	pkgdesc = Official Evernote client for Linux (beta, early-access)
+	pkgver = 10.41.5
+	pkgrel = 1
+	url = https://evernote.com/earlyaccess
+	install = evernote-beta-bin.install
+	arch = x86_64
+	license = custom
+	depends = libnotify
+	depends = libappindicator-gtk3
+	depends = libxtst
+	depends = nss
+	depends = attr
+	optdepends = gnome-keyring: for credentials persistence after reboot
+	provides = evernote
+	conflicts = evernote-for-linux-bin
+	conflicts = evernote-bin
+	noextract = Evernote-Beta-10.41.5-linux-ddl-beta-3540-fc7ed4329d.deb
+	source = https://cdn1.evernote.com/boron/linux/builds/Evernote-Beta-10.41.5-linux-ddl-beta-3540-fc7ed4329d.deb
+	sha256sums = 84c814d13eaef1904818db72b1d5e1bf58c36ffd58d99bffa51c3b0a5de64bdb
+
+pkgname = evernote-beta-bin

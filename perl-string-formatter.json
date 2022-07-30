@@ -1,0 +1,14 @@
+pkgbase = perl-string-formatter
+	pkgdesc = build sprintf-like functions of your own
+	pkgver = 1.234
+	pkgrel = 1
+	url = https://metacpan.org/release/String-Formatter
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl-sub-exporter
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/R/RJ/RJBS/String-Formatter-1.234.tar.gz
+	sha256sums = 50dc508a276a877854f2723e54bbdc0e0b6b08c525daad4f6d0cbf262bb3f14d
+
+pkgname = perl-string-formatter

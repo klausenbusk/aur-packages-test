@@ -1,0 +1,24 @@
+pkgbase = vcash-electron
+	pkgdesc = Multi-platform and multi-node GUI for Vcash.
+	pkgver = 0.33.1
+	pkgrel = 5
+	url = https://gitlab.com/openvcash/vcash-electron
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = npm
+	makedepends = sed
+	depends = libxss
+	depends = gconf
+	depends = nss
+	depends = alsa-lib
+	depends = gtk2
+	depends = libxtst
+	optdepends = vcash: the vcash daemon
+	source = https://gitlab.com/openvcash/vcash-electron/-/archive/v0.33.1/vcash-electron-v0.33.1.tar.gz
+	source = vcash-electron.desktop
+	sha512sums = 03feba587c5a81ce56548083d2f28a05298793f0233e1300fc3c8e0c1f23b5d072d57ba4daba09335686903efcf101a4034823f651d8e21d10eef60d2ad2be95
+	sha512sums = 9e8f90d330a8414d1b94dce1d0c533b10a1bda8a52d599a2f2890d654f28729ac5d7359f904ea684ad74d552faee5dd4fc97f97b0ceb9dbb89bdeafeef76bfe9
+
+pkgname = vcash-electron
+

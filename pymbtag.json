@@ -1,0 +1,15 @@
+pkgbase = pymbtag
+	pkgdesc = Tag various music files with data from musicbrainz.org
+	pkgver = 0.1.6
+	pkgrel = 3
+	url = http://github.com/mineo/pymbtag
+	arch = any
+	license = MIT
+	depends = python2
+	depends = mutagen
+	depends = python2-musicbrainz2
+	source = https://mortzu.de/files/aur/pymbtag/pymbtag-0.1.6.tar.bz2
+	md5sums = b4c489f859a15eafd7e903f46402cf57
+
+pkgname = pymbtag
+

@@ -1,0 +1,20 @@
+pkgbase = dsview
+	pkgdesc = Client software that supports the DreamSourceLab logic analyzer
+	pkgver = 1.2.0
+	pkgrel = 1
+	epoch = 1
+	url = http://www.dreamsourcelab.com/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = boost
+	depends = hicolor-icon-theme
+	depends = qt5-base
+	depends = fftw
+	depends = python
+	source = DSView-1.2.0.tar.gz::https://github.com/DreamSourceLab/DSView/archive/v1.2.0.tar.gz
+	sha384sums = 076ba3d9cdf5d598ca8a4ad75194f2b9a30c62ac3591df0cbeb9c33c32d380cdf5e9deb3cf644b129d66f3b46b26a530
+
+pkgname = dsview

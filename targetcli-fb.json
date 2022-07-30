@@ -1,0 +1,18 @@
+pkgbase = targetcli-fb
+	pkgdesc = free branch of the targetcli LIO administration shell (iSCSI + Co)
+	pkgver = 2.1.54
+	pkgrel = 1
+	url = https://github.com/open-iscsi/targetcli-fb
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = python-rtslib-fb>=2.1.fb52
+	depends = python-configshell-fb>=1.1.fb17
+	depends = python-dbus
+	depends = python-gobject
+	optdepends = python-ethtool
+	provides = targetcli
+	source = https://github.com/open-iscsi/targetcli-fb/archive/v2.1.54.tar.gz
+	sha512sums = dd008b8c47acc095078454c94b0c6f19ba88f86ddf1b5335eb050abf61d89ce1ffb7411ff3a174de60ed9759e6337206253aa9b2def6497b85c884a0a111308d
+
+pkgname = targetcli-fb

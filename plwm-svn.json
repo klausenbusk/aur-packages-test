@@ -1,0 +1,14 @@
+pkgbase = plwm-svn
+	pkgdesc = The Pointless Window Manager
+	pkgver = r236
+	pkgrel = 2
+	url = https://sourceforge.net/projects/plwm/
+	arch = any
+	license = GPL
+	makedepends = subversion
+	depends = python2-xlib
+	source = plwm::svn+https://svn.code.sf.net/p/plwm/code/trunk
+	md5sums = SKIP
+
+pkgname = plwm-svn
+

@@ -1,0 +1,20 @@
+pkgbase = i3status-rust
+	pkgdesc = Resourcefriendly and feature-rich replacement for i3status, written in pure Rust
+	pkgver = 0.14.1
+	pkgrel = 1
+	url = https://github.com/greshake/i3status-rust
+	arch = any
+	license = GPL3
+	makedepends = rust
+	depends = dbus
+	depends = libpulse
+	optdepends = alsa-utils: for the volume block
+	optdepends = lm_sensors: for the temperature block
+	optdepends = powerline-fonts: for all themes using the Powerline arrow char
+	optdepends = speedtest-cli: for the speedtest block
+	optdepends = ttf-font-awesome: for the Awesome icons
+	source = i3status-rust-0.14.1.tar.gz::https://github.com/greshake/i3status-rust/archive/v0.14.1.tar.gz
+	sha512sums = 8e254ad75199b3d4f6320c4af09dc82cc8f9528458e8e639f063be6f35d3d266452c1f9aa080101a08df90b46146764c60b09a3a67f7e4c399c603e0b71f2ef9
+
+pkgname = i3status-rust
+

@@ -1,0 +1,15 @@
+pkgbase = mccgdi
+	pkgdesc = PPD files for Panasonic Printers
+	pkgver = 2.0.10
+	pkgrel = 1
+	url = panasonic.com
+	arch = x86_64
+	arch = i686
+	license = custom: panasonic
+	depends = gtk2
+	source = https://www.psn-web.net/cs/support/fax/common/file/Linux_PrnDriver/Driver_Install_files/mccgdi-2.0.10-x86_64.tar.gz
+	md5sums_x86_64 = 67fd55f535b2b4f84dcadcc4b024c39b
+	md5sums_i686 = 1ac3aeea150d531868ca8162aa9dcb0e
+
+pkgname = mccgdi
+

@@ -1,0 +1,14 @@
+pkgbase = crux-toolkit-bin
+	pkgdesc = A mass spectrometry analysis toolkit
+	pkgver = 4.1.eb57164
+	pkgrel = 1
+	url = http://crux.ms
+	arch = x86_64
+	license = Apache
+	depends = gcc-libs
+	provides = crux-toolkit
+	conflicts = crux-toolkit-git
+	source = https://noble.gs.washington.edu/crux-downloads/daily/crux-4.1.eb57164.Linux.x86_64.zip
+	sha256sums = 43f2916dc61398290d124c48322598073b6f37bd614450e95ad066958f0c423b
+
+pkgname = crux-toolkit-bin

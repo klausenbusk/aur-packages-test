@@ -1,0 +1,46 @@
+pkgbase = rapid-photo-downloader-bzr
+	pkgdesc = Photo and video downloader
+	pkgver = 0.9.14.r1121
+	pkgrel = 1
+	url = http://www.damonlynch.net/rapid/
+	arch = any
+	license = GPL3
+	makedepends = bzr
+	makedepends = gobject-introspection
+	makedepends = intltool
+	makedepends = python-setuptools
+	depends = desktop-file-utils
+	depends = gstreamer
+	depends = hicolor-icon-theme
+	depends = libgexiv2
+	depends = libgudev
+	depends = libnotify
+	depends = perl-image-exiftool
+	depends = python-arrow
+	depends = python-colour
+	depends = python-dateutil
+	depends = python-distutils-extra
+	depends = python-easygui
+	depends = python-gobject
+	depends = python-gphoto2
+	depends = python-psutil
+	depends = python-pymediainfo
+	depends = python-pyqt5
+	depends = python-pyzmq
+	depends = python-rawkit
+	depends = python-sortedcontainers
+	depends = python-tornado
+	depends = python-xdg
+	depends = qt5-imageformats
+	depends = udisks2
+	optdepends = gst-libav: for extra video thumbnails
+	optdepends = gst-plugins-good: for extra video thumbnails
+	optdepends = python-colorlog: for color output
+	optdepends = python-pyprind: for progressbar
+	provides = rapid-photo-downloader=0.9.14
+	conflicts = rapid-photo-downloader
+	source = rapid::bzr+https://code.launchpad.net/~dlynch3/rapid/zeromq_pyqt
+	sha256sums = SKIP
+
+pkgname = rapid-photo-downloader-bzr
+

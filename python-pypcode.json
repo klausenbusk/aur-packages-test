@@ -1,0 +1,18 @@
+pkgbase = python-pypcode
+	pkgdesc = Python bindings to Ghidra's SLEIGH library for disassembly and IR translation
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = https://github.com/angr/pypcode
+	arch = x86_64
+	license = BSD
+	makedepends = cmake
+	makedepends = python-setuptools
+	makedepends = python-cffi
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/p/pypcode/pypcode-1.0.5.tar.gz
+	sha256sums = 3433abc26f424d0db2b84a7cd088cfbbfda44849d56bae00ef956f9bd35d8777
+
+pkgname = python-pypcode

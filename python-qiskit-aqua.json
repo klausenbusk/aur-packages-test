@@ -1,0 +1,27 @@
+pkgbase = python-qiskit-aqua
+	pkgdesc = A high performance simulator for quantum circuits that includes noise models (DEPRECATED)
+	pkgver = 0.9.5
+	pkgrel = 1
+	url = https://github.com/Qiskit/qiskit-aqua
+	install = python-qiskit-aqua.install
+	arch = x86_64
+	license = Apache
+	makedepends = python-setuptools
+	depends = python-cvxopt
+	depends = python-dlx
+	depends = python-docplex
+	depends = python-fastdtw
+	depends = python-h5py
+	depends = python-pandas
+	depends = python-psutil
+	depends = python-pyscf
+	depends = python-qiskit-ignis
+	depends = python-qiskit-terra
+	depends = python-quandl
+	depends = python-retworkx
+	depends = python-scikit-learn
+	depends = python-yfinance
+	source = qiskit-aqua-0.9.5.tar.gz::https://github.com/Qiskit/qiskit-aqua/archive/0.9.5.tar.gz
+	sha256sums = ee13338192145742c9116501fa0ebb3b930f7e4d3fdc8c04a5199d7a602f2bf8
+
+pkgname = python-qiskit-aqua

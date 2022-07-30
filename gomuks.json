@@ -1,0 +1,18 @@
+pkgbase = gomuks
+	pkgdesc = A terminal based Matrix client written in Go
+	pkgver = 0.2.4
+	pkgrel = 2
+	url = https://github.com/tulir/gomuks
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = GPL3
+	makedepends = go
+	depends = libolm
+	source = gomuks-0.2.4.tar.gz::https://codeload.github.com/tulir/gomuks/tar.gz/v0.2.4
+	sha512sums = d16bd4cb7ae12f172e290916450a6e11900259ceba60ce03a9f19f4351647929984701f4d859a467a88c4dd4ae5e9bf2d7206eeb567763c478c2b357e88ca65f
+
+pkgname = gomuks

@@ -1,0 +1,19 @@
+pkgbase = python-scikit-umfpack
+	pkgdesc = Python interface to UMFPACK sparse direct solver.
+	pkgver = 0.3.2
+	pkgrel = 1
+	url = https://scikit-umfpack.github.io/scikit-umfpack
+	arch = x86_64
+	license = BSD
+	makedepends = swig
+	makedepends = python-setuptools
+	makedepends = python-pypandoc
+	depends = suitesparse
+	depends = python-scipy
+	depends = cython
+	depends = python-numpy
+	source = https://github.com/scikit-umfpack/scikit-umfpack/archive/0.3.2.tar.gz
+	md5sums = 40f9cccda50df9b0a5efcd24521dae54
+
+pkgname = python-scikit-umfpack
+

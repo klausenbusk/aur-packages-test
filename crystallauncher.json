@@ -1,0 +1,26 @@
+pkgbase = crystallauncher
+	pkgdesc = Crystal Launcher is a unofficial Minecraft launcher with support for modpacks and custom HD skin and cape system
+	pkgver = 1.1.0.1
+	pkgrel = 1
+	url = https://crystal-launcher.net/
+	arch = i686
+	arch = x86_64
+	license = CCPL
+	makedepends = unzip
+	depends = java-runtime=8
+	depends = java8-openjfx
+	depends = bash
+	depends = zenity
+	provides = crystallauncher
+	noextract = jar
+	source = https://crystal-launcher.net/releases/other/CrystalLauncher.jar
+	source = crystallauncher
+	source = crystallauncher.desktop
+	source = crystallauncher.png
+	sha256sums = cb495e726512a039df6f6d297ba7cfd9ce0b1fe368bad5ba20abe7852d65527a
+	sha256sums = 57e4de6813299249bd3e2739999ab69d9bd8202a01d30547049b24063dd0d192
+	sha256sums = 08fd03cd4f89291b2290f96aeec2bd40c267b03afbabd42a3ad5b127c43cc3f2
+	sha256sums = 214f4f12eb772d2ce945723ab7b126b1fb3e78c009f4132d6b0f98ea2270ab0c
+
+pkgname = crystallauncher
+

@@ -1,0 +1,23 @@
+pkgbase = nnn-nerd
+	pkgdesc = The fastest terminal file manager ever written (with icon support using a patched nerd font).
+	pkgver = 4.6
+	pkgrel = 1
+	url = https://github.com/jarun/nnn
+	arch = x86_64
+	license = BSD
+	depends = bash
+	optdepends = atool: for more archive formats
+	optdepends = libarchive: for more archive formats
+	optdepends = zip: for zip archive format
+	optdepends = unzip: for zip archive format
+	optdepends = trash-cli: to trash files
+	optdepends = sshfs: mount remotes
+	optdepends = rclone: mount remotes
+	optdepends = fuse2: unmount remotes
+	optdepends = xdg-utils: desktop opener
+	provides = nnn
+	conflicts = nnn
+	source = nnn-4.6.tar.gz::https://github.com/jarun/nnn/archive/v4.6.tar.gz
+	sha512sums = 714e31523036ffce0637809234c373d72baf70263c9ef0ce4d38557ffca0689b51ea0c79c62038d00fd68f668cc2985a8c28b2feeaa6da3b07028b4f1de61f89
+
+pkgname = nnn-nerd

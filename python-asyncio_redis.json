@@ -1,0 +1,14 @@
+pkgbase = python-asyncio_redis
+	pkgdesc = PEP 3156 implementation of the redis protocol.
+	pkgver = 0.15.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/asyncio_redis
+	arch = any
+	license = BSD-2-Clause
+	makedepends = python-setuptools
+	depends = python
+	source = python-asyncio_redis-0.15.1.tar.gz::https://files.pythonhosted.org/packages/source/a/asyncio_redis/asyncio_redis-0.15.1.tar.gz
+	sha256sums = 067dbc251ab84d6e53ef8b33dbfd8afd62987ab08f72ca922f6870c96be53b54
+
+pkgname = python-asyncio_redis
+

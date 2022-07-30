@@ -1,0 +1,16 @@
+pkgbase = fsharp-forge
+	pkgdesc = F# CLI tool for project, file, and solution management
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = http://forge.run/
+	arch = any
+	license = custom:unlicense
+	makedepends = fsharp
+	depends = mono
+	source = fsharp-forge-2.2.0.tar.gz::https://github.com/ionide/Forge/archive/2.2.0.tar.gz
+	source = fsharp-forge-issue105.patch::https://github.com/ionide/Forge/commit/9f5cc6c8d62f142de603dd63f3520717dba650c3.patch
+	sha512sums = 2a56ab14721ced6787c7390feec9d201d22f58d69a97a68a0e49254095c0c79de2501d4aa4dba94238ebd76b08f748e1bd27bd505b64b911a7e3d93471758b1e
+	sha512sums = 20049c9d2947726638527f482175eedd808f30715d6a1b2f45a8373025ac65f9795c649ced3c1a1110c6ffc788205a2b97758348e217635fe25b65e20c0e55f3
+
+pkgname = fsharp-forge
+

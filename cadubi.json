@@ -1,0 +1,12 @@
+pkgbase = cadubi
+	pkgdesc = Creative ASCII Drawing Utility By Ian
+	pkgver = 1.3.4
+	pkgrel = 1
+	url = https://github.com/statico/cadubi
+	arch = any
+	license = MIT
+	depends = perl-term-readkey
+	source = https://github.com/statico/cadubi/archive/v1.3.4.tar.gz
+	md5sums = 0b259dbdf86d6ceb98a7ecd97dcf0496
+
+pkgname = cadubi

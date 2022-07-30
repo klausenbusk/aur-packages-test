@@ -1,0 +1,22 @@
+pkgbase = flipper
+	pkgdesc = A desktop debugging platform for mobile developers
+	pkgver = 0.156.0
+	pkgrel = 1
+	url = https://fbflipper.com
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = yarn
+	makedepends = gendesk
+	depends = gtk3
+	depends = libsecret
+	depends = nss
+	depends = nodejs
+	depends = openssl
+	optdepends = watchman: Required for a fully functional install
+	optdepends = android-sdk: Required for a fully functional install
+	conflicts = flipper-bin
+	source = flipper-0.156.0.tar.gz::https://github.com/facebook/flipper/archive/v0.156.0.tar.gz
+	sha256sums = e85fd4bf9a573ec4efd9069b70373a39ba11caee6cefdfd455925db3c7dbac4d
+
+pkgname = flipper

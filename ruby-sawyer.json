@@ -1,0 +1,16 @@
+pkgbase = ruby-sawyer
+	pkgdesc = Secret User Agent of HTTP.
+	pkgver = 0.9.2
+	pkgrel = 1
+	url = https://github.com/lostisland/sawyer
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-addressable>=2.3.5
+	depends = ruby-faraday>=0.17.3
+	noextract = sawyer-0.9.2.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/sawyer-0.9.2.gem
+	sha256sums = fa3a72d62a4525517b18857ddb78926aab3424de0129be6772a8e2ba240e7aca
+
+pkgname = ruby-sawyer

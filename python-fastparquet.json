@@ -1,0 +1,18 @@
+pkgbase = python-fastparquet
+	pkgdesc = A python implementation of the parquet format.
+	pkgver = 0.8.1
+	pkgrel = 1
+	url = https://github.com/dask/fastparquet
+	arch = x86_64
+	license = Apache
+	checkdepends = python-pytest
+	makedepends = cython
+	makedepends = python-setuptools
+	depends = python
+	depends = python-cramjam
+	depends = python-fsspec
+	optdepends = python-s3fs
+	source = https://github.com/dask/fastparquet/archive/0.8.1.tar.gz
+	sha256sums = 591e20b128da87e369aa23178a29f2aaff4e4e69feab845be7ea456b3213fc96
+
+pkgname = python-fastparquet

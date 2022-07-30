@@ -1,0 +1,26 @@
+pkgbase = simplenote-electron-arm-bin
+	pkgdesc = The simplest way to keep notes
+	pkgver = 2.13.0
+	pkgrel = 3
+	url = https://github.com/Automattic/simplenote-electron
+	arch = armv7h
+	arch = aarch64
+	license = GPL2
+	makedepends = fuse
+	makedepends = zlib
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libxss
+	depends = mesa
+	depends = nss
+	optdepends = libnotify: desktop notifications
+	optdepends = noto-fonts-emoji: emoji support
+	optdepends = ttf-joypixels: emoji support
+	provides = simplenote
+	options = !strip
+	source_armv7h = simplenote-electron-2.13.0-armv7h.AppImage::https://github.com/Automattic/simplenote-electron/releases/download/v2.13.0/Simplenote-linux-2.13.0-armv7l.AppImage
+	b2sums_armv7h = 73915723c884d741465b47049159496aadb9378fb487f4bbf165568675e69ad0a2de2a5af18b281eee1a2dc35eb805b3a5c8684885c50c383ee44d645d240a7d
+	source_aarch64 = simplenote-electron-2.13.0-aarch64.AppImage::https://github.com/Automattic/simplenote-electron/releases/download/v2.13.0/Simplenote-linux-2.13.0-arm64.AppImage
+	b2sums_aarch64 = 1df436f6b106528d44e4bd3ed3f8ed0fcbf41d129174291545dffba8dbcdca57722fb7447d8d6edcb7df0be6d8d69c695379f07c15df37331a77e8b67098dd63
+
+pkgname = simplenote-electron-arm-bin

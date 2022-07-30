@@ -1,0 +1,15 @@
+pkgbase = qrit
+	pkgdesc = Create awesome QR codes
+	pkgver = 1.1.5
+	pkgrel = 1
+	url = https://github.com/sergius02/QRit
+	arch = x86_64
+	license = GPL3
+	makedepends = meson
+	makedepends = vala
+	depends = granite
+	depends = qrencode
+	source = qrit-1.1.5.tar.gz::https://github.com/sergius02/QRit/archive/1.1.5.tar.gz
+	sha256sums = a103b39169411ad547aec90e5b6b41752927083ce73b3e3a0112df01717ed44a
+
+pkgname = qrit

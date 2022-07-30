@@ -1,0 +1,20 @@
+pkgbase = perl-namespace-autoclean
+	pkgdesc = Keep imports out of your namespace
+	pkgver = 0.28
+	pkgrel = 1
+	url = https://metacpan.org/release/namespace-autoclean
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	checkdepends = perl-test-requires
+	depends = perl-b-hooks-endofscope>=0.12
+	depends = perl-sub-identify
+	depends = perl-namespace-clean>=0.20
+	depends = perl>=5.006
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/E/ET/ETHER/namespace-autoclean-0.28.tar.gz
+	md5sums = 9746a73c34f294d663c583f857b8648f
+	sha512sums = 2541f69862b334fcfe30059d025668175de1b182a5c8ee8f2619bf1d661c316a38fe2014f274bb23e887cd36959f98abb297154ac8ceb600e2e93cbd4a75e28d
+
+pkgname = perl-namespace-autoclean
+

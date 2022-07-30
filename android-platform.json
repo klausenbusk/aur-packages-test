@@ -1,0 +1,18 @@
+pkgbase = android-platform
+	pkgdesc = Android SDK Platform, latest API
+	pkgver = 33_r02
+	pkgrel = 1
+	url = http://developer.android.com/sdk/index.html
+	arch = any
+	license = custom
+	provides = android-platform-33
+	conflicts = android-platform-33
+	options = !strip
+	source = https://dl.google.com/android/repository/platform-33_r02.zip
+	source = package.xml
+	sha256sums = f851b13fe89f8510a1250df5e8593e86176b2428f4f3cbe0e304a85818c07bc8
+	sha256sums = 4d10dc4169a78a44176598ae4d34b268ccf0ad22a65f50becff804f26751c496
+
+pkgname = android-platform
+	depends = android-sdk
+	depends = android-sdk-platform-tools

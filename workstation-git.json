@@ -1,0 +1,19 @@
+pkgbase = workstation-git
+	pkgdesc = A nifty commandline tool to manage your workstation
+	pkgver = r9.367a6bb
+	pkgrel = 1
+	url = https://github.com/amar-laksh/workstation
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = cargo
+	makedepends = opencv2
+	depends = libnotify
+	depends = notify-osd
+	depends = opencv2
+	provides = workstation
+	source = workstation::git+https://github.com/amar-laksh/workstation
+	sha256sums = SKIP
+
+pkgname = workstation-git
+

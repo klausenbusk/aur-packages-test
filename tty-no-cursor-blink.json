@@ -1,0 +1,13 @@
+pkgbase = tty-no-cursor-blink
+	pkgdesc = Disable blinking cursor in Linux tty
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/atweiden/tty-no-cursor-blink
+	arch = any
+	license = UNLICENSE
+	depends = systemd
+	source = https://github.com/atweiden/tty-no-cursor-blink/releases/download/0.1.0/tty-no-cursor-blink-0.1.0.tar.gz
+	sha256sums = f591a917d72c7da1b6f494e122a64e96fdfb2a6eaf3e76a9f4e2a80c24fc3a9d
+
+pkgname = tty-no-cursor-blink
+

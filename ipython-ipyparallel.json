@@ -1,0 +1,28 @@
+pkgbase = ipython-ipyparallel
+	pkgdesc = Interactive Parallel Computing in Python
+	pkgver = 8.2.0
+	pkgrel = 1
+	url = https://pypi.org/project/ipyparallel/
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python>3.6
+	depends = python-setuptools
+	depends = python-entrypoints
+	depends = python-decorator
+	depends = python-pyzmq>=18
+	depends = python-traitlets>=4.3
+	depends = ipython>=4
+	depends = python-jupyter_client
+	depends = python-ipykernel>=4.4
+	depends = python-tornado>=5.1
+	depends = python-psutil
+	depends = python-dateutil>=2.1
+	depends = python-tqdm
+	optdepends = openmpi: to use the MPI Launchers in ipcluster command
+	conflicts = ipython2-ipyparallel
+	replaces = ipython-ipyparallel
+	source = https://files.pythonhosted.org/packages/source/i/ipyparallel/ipyparallel-8.2.0.tar.gz
+	sha256sums = 0fd9f64a5120980a89b64299806c12bb8df8ceea155e5200b705301eb2401e19
+
+pkgname = python-ipyparallel

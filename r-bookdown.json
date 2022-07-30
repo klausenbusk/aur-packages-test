@@ -1,0 +1,36 @@
+pkgbase = r-bookdown
+	pkgdesc = Authoring Books and Technical Documents with R Markdown
+	pkgver = 0.27
+	pkgrel = 1
+	url = https://cran.r-project.org/package=bookdown
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-htmltools
+	depends = r-jquerylib
+	depends = r-knitr
+	depends = r-rmarkdown
+	depends = r-tinytex
+	depends = r-xfun
+	depends = r-yaml
+	depends = pandoc
+	optdepends = r-bslib
+	optdepends = r-downlit
+	optdepends = r-htmlwidgets
+	optdepends = r-jsonlite
+	optdepends = r-miniui
+	optdepends = r-rsconnect
+	optdepends = r-rstudioapi
+	optdepends = r-servr
+	optdepends = r-shiny
+	optdepends = r-testit
+	optdepends = r-testthat
+	optdepends = r-tibble
+	optdepends = r-tufte
+	optdepends = r-webshot
+	optdepends = r-withr
+	optdepends = r-xml2
+	source = https://cran.r-project.org/src/contrib/bookdown_0.27.tar.gz
+	sha256sums = 2e724abbe63fdceb74fc4ac59fcf1dcaac5f768617f6fbeb752df401e1899f23
+
+pkgname = r-bookdown

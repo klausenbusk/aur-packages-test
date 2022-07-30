@@ -1,0 +1,24 @@
+pkgbase = ipython-7
+	pkgdesc = IPython provides a rich toolkit to help you make the most of using Python interactively
+	pkgver = 7.7.0
+	pkgrel = 1
+	url = https://ipython.readthedocs.io/en/stable/
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python
+	depends = python-prompt_toolkit
+	depends = python-pygments
+	depends = python-traitlets
+	depends = python-pickleshare
+	depends = python-decorator
+	depends = python-jedi
+	depends = python-backcall
+	provides = ipython
+	provides = ipython-7
+	conflicts = ipython
+	source = https://github.com/ipython/ipython/releases/download/7.7.0/ipython-7.7.0.tar.gz
+	md5sums = 5f0927d364f7315a7ce88d27fa84854c
+
+pkgname = ipython-7
+

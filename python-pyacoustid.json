@@ -1,0 +1,16 @@
+pkgbase = python-pyacoustid
+	pkgdesc = Bindings for Chromaprint acoustic fingerprinting and the Acoustid API
+	pkgver = 1.1.5
+	pkgrel = 1
+	url = https://github.com/sampsyo/pyacoustid
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = chromaprint
+	source = pyacoustid-1.1.5.tar.gz::https://github.com/sampsyo/pyacoustid/archive/v1.1.5.tar.gz
+	source = https://raw.github.com/sampsyo/beets/master/LICENSE
+	sha256sums = 614e350d62af87c7cbc62c0bcaed9fc8330879772d050d245b7bd86556fb1b3f
+	sha256sums = 69b9fa8fe9700714fc1f002aa6bfef097e5422372979195ab48956cd48e20aaf
+
+pkgname = python-pyacoustid
+

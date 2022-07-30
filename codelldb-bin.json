@@ -1,0 +1,22 @@
+pkgbase = codelldb-bin
+	pkgdesc = A native debugger extension for VSCode based on LLDB. Also known as vscode-lldb (NOT lldb-vscode)
+	pkgver = 1.7.3
+	pkgrel = 1
+	url = https://github.com/vadimcn/vscode-lldb
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	provides = codelldb
+	provides = vscode-lldb
+	conflicts = codelldb
+	source = vscode-lldb-1.7.3.tar.gz::https://github.com/vadimcn/vscode-lldb/archive/refs/tags/v1.7.3.tar.gz
+	sha256sums = 699d3e7041a72d5ab5bd2004906223a4ced4ec316fa4d76fdab8b5e8ee83c32e
+	source_x86_64 = codelldb-1.7.3-x86_64-linux.vsix::https://github.com/vadimcn/vscode-lldb/releases/download/v1.7.3/codelldb-x86_64-linux.vsix
+	sha256sums_x86_64 = 68a6a086039cbed96c1b1db63b893253146ffdbeeb4ad74c318d20038045c52f
+	source_armv7h = codelldb-1.7.3-arm-linux.vsix::https://github.com/vadimcn/vscode-lldb/releases/download/v1.7.3/codelldb-arm-linux.vsix
+	sha256sums_armv7h = 1aee6faf642e8c30d244cb0c491bf977ad95f168a27a8ea7dc406650340713d6
+	source_aarch64 = codelldb-1.7.3-aarch64-linux.vsix::https://github.com/vadimcn/vscode-lldb/releases/download/v1.7.3/codelldb-aarch64-linux.vsix
+	sha256sums_aarch64 = cde96ab160002f60b1bfca144bb056dc2ecaf09809fd3a19cc5e1ec40103de13
+
+pkgname = codelldb-bin

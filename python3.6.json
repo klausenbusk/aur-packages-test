@@ -1,0 +1,35 @@
+pkgbase = python3.6
+	pkgdesc = Next generation of the python high-level scripting language
+	pkgver = 3.6.6
+	pkgrel = 2
+	url = http://www.python.org/
+	arch = x86_64
+	license = custom
+	makedepends = tk
+	makedepends = sqlite
+	makedepends = valgrind
+	makedepends = bluez-libs
+	makedepends = mpdecimal
+	makedepends = llvm
+	makedepends = gdb
+	makedepends = xorg-server-xvfb
+	depends = expat
+	depends = bzip2
+	depends = gdbm
+	depends = openssl
+	depends = libffi
+	depends = zlib
+	depends = libnsl
+	optdepends = python-setuptools
+	optdepends = python-pip
+	optdepends = sqlite
+	optdepends = mpdecimal: for decimal
+	optdepends = xz: for lzma
+	optdepends = tk: for tkinter
+	source = https://www.python.org/ftp/python/3.6.6/Python-3.6.6.tar.xz
+	source = dont-make-libpython-readonly.patch
+	sha512sums = c71f87c5906e770322a14cacad228655659f782207db826320449d12bf86091c3662f317e1773158dec52f8b052eaedfb4c03b561cc2a6cfcd381597fd2d2b04
+	sha512sums = SKIP
+
+pkgname = python3.6
+

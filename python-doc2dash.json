@@ -1,0 +1,30 @@
+pkgbase = python-doc2dash
+	pkgdesc = Create docsets for Dash.app-compatible API browser.
+	pkgver = 2.3.0
+	pkgrel = 1
+	url = https://doc2dash.readthedocs.io/en/stable/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-sphinx
+	depends = python-attrs
+	depends = python-beautifulsoup4
+	depends = python-click
+	depends = python-colorama
+	depends = python-lxml
+	depends = python-six
+	depends = python-zope-interface
+	source = https://github.com/hynek/doc2dash/archive/2.3.0.tar.gz
+	sha256sums = f383d58ff3b623bda760685173c63c9130f34c6c515ba100ef5c5f7c9a2fcaaf
+
+pkgname = python-doc2dash
+	depends = python-sphinx
+	depends = python-attrs
+	depends = python-beautifulsoup4
+	depends = python-click
+	depends = python-colorama
+	depends = python-lxml
+	depends = python-six
+	depends = python-zope-interface
+	provides = python-doc2dash
+

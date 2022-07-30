@@ -1,0 +1,16 @@
+pkgbase = toot
+	pkgdesc = a Mastodon CLI client
+	pkgver = 0.28.0
+	pkgrel = 3
+	url = https://github.com/ihabunek/toot
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	depends = python-requests
+	depends = python-beautifulsoup4
+	depends = python-wcwidth
+	depends = python-urwid
+	source = https://github.com/ihabunek/toot/archive/0.28.0.zip
+	sha256sums = 7f9168885924a0143c2b300617a0191ed99b1e4b249581a97e1f5126a2ed500d
+
+pkgname = toot
